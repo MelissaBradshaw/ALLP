@@ -58,6 +58,11 @@
     <text>
         <body>
             <listPerson>
+		    
+		<!--*********************To be addded to people*************************
+			<affiliation corresp="imagist" from="1913" to="1925"></affiliation>
+		*********************************************************************-->
+		    
                 <head>The list of people mentioned in ALLP</head>
 
                 <person xml:id="harriet_monroe" sex="F">
