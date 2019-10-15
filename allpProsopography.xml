@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ALLP Prosopography</title>
+                <respStmt>
+                    <resp>XML template created by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                    <note>Created on <date when="2019-02-17">February 17, 2019</date>.</note>
+                </respStmt>
+                <respStmt>
+                    <resp>Initial encoding completed on <date when="2019-10-12">October 12, 2019</date>
+                        by</resp>
+                    <persName ref="zms">Zachary M. Stella</persName>
+                </respStmt>
+
+               <!--***************** To be editted **********************************
+               <respStmt>
+                    <resp>Prosopography IDs, terms, and notes determined by</resp>
+                    <persName ref="plc">Pamela Caughie</persName>
+                </respStmt>
+                ****************************************************************-->
+
+            </titleStmt>
+
+                <!--*********** We don't have this info yet, right? ******************
+                <publicationStmt>
+                    <publisher>Lili Elbe Digital Archive, Loyola University</publisher>
+                    <pubPlace>Chicago, IL</pubPlace>
+                    <date>2019</date>
+                </publicationStmt>
+                ********************************************************************-->
+
+            <!--***** The list of the documents that uses this Prosopography (with LEDA data) *********
+            <sourceDesc>
+                <p>Born digital.</p>
+                <p>People and Places encoded in this file are pulled from the following linked LEDA
+                    texts: <ref xml:id="A1">American Edition</ref>
+                    <ref xml:id="B1">British Edition</ref>
+                    <ref xml:id="G1">German Edition</ref>
+                    <ref xml:id="D1">Danish Edition</ref>
+                    <ref xml:id="D1-TR">English Translation of Danish Edition</ref>
+                    <ref xml:id="TS">German Typescript</ref>
+                    <ref xml:id="TS-TR">English Translation of German Typescript</ref>
+                    <ref xml:id="danishSupp">Danish Language Archive/Supplemental Materials</ref>
+                    <ref xml:id="germanSupp">German Language Archive/Supplemental Materials</ref>
+                    <ref xml:id="frenchSupp">Danish Language Archive/Supplemental Materials</ref>
+                </p>
+            </sourceDesc>
+            *************************************************************************************** -->
+
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <head>The list of people mentioned in ALLP</head>
+
+                <person xml:id="harriet_monroe" sex="F">
+                <persName>
+                <surname>Monroe</surname><forename>Harriet<forename>
+                </persName>
+                <birth where="Chicago, IL" when="1860-12-23"/>
+                <death where="Arequipa, Peru" when="1936-09-26"/>
+                <occupation>Editor</occupation>
+                <nationality>American</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="richard_aldington" sex="M">
+                <persName>
+                <surname>Aldington</surname>
+                <forename>Richard<forename>
+                </persName>
+                <birth where="Portsmouth, UK" when="1892-07-08"/>
+                <death where="Sury-en-Vaux, France" when="1962-07-27"/>
+                <occupation>Poet</occupation>
+                <nationality>English</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                
+                <person xml:id="ezra_pound" sex="M">
+                <persName>
+                <surname>Pound</surname>
+                <forename>Ezra<forename>
+                </persName>
+                <birth where="Idaho, USA" when="1885-10-20"/>
+                <death where="Venice, Italy " when="1972-11-01"/>
+                <occupation>Poet</occupation>
+                <nationality>American</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="fs_flint" sex="M">
+                <persName>
+                <surname>Flint</surname>
+                <forename>Frank Stuart<forename>
+                </persName>
+                <birth where="London, UK" when="1885-12-19"/>
+                <death where="Berkshire, UK" when="1960-02-28"/>
+                <occupation>Poet</occupation>
+                <nationality>English</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="john_fletcher" sex="M">
+                <persName>
+                <surname>Fletcher</surname>
+                <forename>John Gould<forename>
+                </persName>
+                <birth where="Little Rock, AR" when="1886-01-03"/>
+                <death where="Little Rock, AR" when="1950-05-10"/>
+                <occupation>Poet</occupation>
+                <nationality>American</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="fm_heuffer" sex="M">
+                <persName>
+                <surname>Heuffer</surname>
+                <forename>Ford Madox<forename>
+                </persName>
+                <birth where="Surrey, UK" when="1873-12-17"/>
+                <death where="Deauville, France" when="1939-06-26"/>
+                <occupation>Poet</occupation>
+                <nationality>English</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                
+                <person xml:id="dh_lawrence" sex="M">
+                <persName>
+                <surname>Lawrence</surname>
+                <forename>David Herbert<forename>
+                </persName>
+                <birth where="Eastwood, UK" when="1885-09-11"/>
+                <death where="Vence, France" when="1930-03-02"/>
+                <occupation>Poet</occupation>
+                <nationality>English</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="margaret_anderson" sex="F">
+                <persName>
+                <surname>Anderson</surname>
+                <forename>Margaret<forename>
+                </persName>
+                <birth where="Indianapolis, IN" when="1886-11-24"/>
+                <death where="Le Cannet, France" when="1973-10-19"/>
+                <occupation>Editor</occupation>
+                <nationality>American</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="ad_russell" sex="F">
+                <persName>
+                <surname>Russell</surname>
+                <forename>Ada Dwyer<forename>
+                </persName>
+                <birth where="Salt Lake City, UT" when="1863-02-08"/>
+                <death where="Chevy Chase, MD" when="1952-07-04"/>
+                <occupation>Actress</occupation>
+                <nationality>American</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="ernest_fenollosa" sex="M">
+                <persName>
+                <surname>Fenollosa</surname>
+                <forename>Ernest<forename>
+                </persName>
+                <birth where="Salem, MA" when="1853-02-18"/>
+                <death where="London, UK" when="1908-09-21"/>
+                <occupation>Art Historian</occupation>
+                <nationality>American</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="robert_frost" sex="M">
+                <persName>
+                <surname>Frost</surname>
+                <forename>Robert<forename>
+                </persName>
+                <birth where="San Francisco, CA" when="1874-03-26"/>
+                <death where="Boston, MA" when="1963-01-29"/>
+                <occupation>Poet</occupation>
+                <nationality>American</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="re_prothero" sex="M">
+                <persName>
+                <surname>Prothero</surname>
+                <forename>Rowland Edmund<forename>
+                </persName>
+                <birth where="Clifton upon Teme, UK" when="1851-09-06"/>
+                <death where="Ginge Manor, UK" when="1937-07-01"/>
+                <occupation>Journalist</occupation>
+                <nationality>English</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="ellery_sedgwick" sex="M">
+                <persName>
+                <surname>Sedgwick</surname>
+                <forename>Ellery<forename>
+                </persName>
+                <birth where="New York, NY" when="1872-02-27"/>
+                <death where="Washington, D.C." when="1960-04-21"/>
+                <occupation>Editor</occupation>
+                <nationality>American</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="paul_fort" sex="M">
+                <persName>
+                <surname>Fort</surname>
+                <forename>Paul<forename>
+                </persName>
+                <birth where="Reims, France" when="1872-02-01"/>
+                <death where="Montlhéry, France" when="1960-04-20"/>
+                <occupation>Poet</occupation>
+                <nationality>French</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="wb_yeats" sex="M">
+                <persName>
+                <surname>Yeats</surname>
+                <forename>William Butler<forename>
+                </persName>
+                <birth where="Sandymount, Ireland" when="1865-06-13"/>
+                <death where="Cannes, France" when="1939-01-28"/>
+                <occupation>Poet</occupation>
+                <nationality>Irish</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="hd" sex="F">
+                <persName>
+                <surname>Dolittle</surname>
+                <forename>Hilda<forename>
+                </persName>
+                <birth where="Bethelhem, PA" when="1886-09-10"/>
+                <death where="Zurich, Switzerland" when="1961-09-27"/>
+                <occupation>Poet</occupation>
+                <nationality>American</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="ferris_greenslet" sex="M">
+                <persName>
+                <surname>Greenslet</surname>
+                <forename>Ferris<forename>
+                </persName>
+                <birth where="United States" when="1875-06-30"/>
+                <death where="Zurich, Switzerland" when="1959-11-19"/>
+                <occupation>Editor</occupation>
+                <nationality>American</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="dora_marsden" sex="F">
+                <persName>
+                <surname>Marsden</surname>
+                <forename>Dora<forename>
+                </persName>
+                <birth where="Marsden, United Kingdom" when="1882-03-05"/>
+                <death where="Dumfries, United Kingdom" when="1960-12-13"/>
+                <occupation>Editor</occupation>
+                <nationality>English</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="harold_monro" sex="M">
+                <persName>
+                <surname>Monro</surname>
+                <forename>Harold<forename>
+                </persName>
+                <birth where="Brussels, Belgium" when="1879-03-14"/>
+                <death where="Dumfries, United Kingdom" when="1932-03-16"/>
+                <occupation>Poet</occupation>
+                <nationality>English</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="el_masters" sex="M">
+                <persName>
+                <surname>Masters</surname>
+                <forename>Edgar Lee<forename>
+                </persName>
+                <birth where="Garnett, KS" when="1868-08-23"/>
+                <death where="Elkins Park, PA" when="1950-03-05"/>
+                <occupation>Attoney</occupation>
+                <nationality>American</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="harriet_weaver" sex="F">
+                <persName>
+                <surname>Weaver</surname>
+                <forename>Harriet Shaw<forename>
+                </persName>
+                <birth where="Frodsham, UK" when="1876-09-01"/>
+                <death where="Saffron Walden, UK" when="1961-10-14"/>
+                <occupation>Activist</occupation>
+                <nationality>English</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="remy_gourmont" sex="M">
+                <persName>
+                <surname>Gourmont</surname>
+                <forename>Remy de<forename>
+                </persName>
+                <birth where="Bazoches-au-Houlme, Orne" when="1858-04-04"/>
+                <death where="Paris, France" when="1915-09-27"/>
+                <occupation>Poet</occupation>
+                <nationality>French</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="alfred_kreymborg" sex="M">
+                <persName>
+                <surname>Kreymborg</surname>
+                <forename>Alfred<forename>
+                </persName>
+                <birth where="New York, NY" when="1883-12-10"/>
+                <death when="1966-08-14"/>
+                <occupation>Poet</occupation>
+                <nationality>American</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="wc_arensberg" sex="M">
+                <persName>
+                <surname>Arensberg</surname>
+                <forename>Walter Conrad<forename>
+                </persName>
+                <birth where="Pittsburgh, PA" when="1878-04-04"/>
+                <death where="Los Angeles, CA" when="1954-01-29"/>
+                <occupation>Critic</occupation>
+                <nationality>American</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="william_braithwaite" sex="M">
+                <persName>
+                <surname>Braithwaite</surname>
+                <forename>William<forename>
+                </persName>
+                <birth where="Boston, MA" when="1878-12-06"/>
+                <death where="New York, NY" when="1962-06-08"/>
+                <occupation>Writer</occupation>
+                <nationality>American</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="wallace_stevens" sex="M">
+                <persName>
+                <surname>Stevens</surname>
+                <forename>Wallace<forename>
+                </persName>
+                <birth where="Reading, PA" when="1879-10-02"/>
+                <death where="Saint Francis Hospital and Medical Center, Hartford, CT" when="1955-08-02"/>
+                <occupation>Poet</occupation>
+                <nationality>American</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="maxwell_bodenheim" sex="M">
+                <persName>
+                <surname>Bodenheim</surname>
+                <forename>Maxwell<forename>
+                </persName>
+                <birth where="Hermanville, MS" when="1892-05-26"/>
+                <death where="New York, NY" when="1954-02-06"/>
+                <occupation>Poet</occupation>
+                <nationality>American</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="conrad_aiken" sex="M">
+                <persName>
+                <surname>Aiken</surname>
+                <forename>Conrad<forename>
+                </persName>
+                <birth where="Savannah, GA" when="1889-08-05"/>
+                <death where="Savannah, GA" when="1973-08-17"/>
+                <occupation>Writer</occupation>
+                <nationality>American</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="vachel_lindsay" sex="M">
+                <persName>
+                <surname>Lindsay</surname>
+                <forename>Vachel<forename>
+                </persName>
+                <birth where="Springfield, IL" when="1879-11-10"/>
+                <death where="Springfield, IL" when="1931-12-05"/>
+                <occupation>Poet</occupation>
+                <nationality>American</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="carl_sandburg" sex="M">
+                <persName>
+                <surname>Sandburg</surname>
+                <forename>Carl<forename>
+                </persName>
+                <birth where="Galesburg, IL" when="1878-01-06"/>
+                <death where="Flat Rock, NC" when="1967-07-22"/>
+                <occupation>Poet</occupation>
+                <nationality>American</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <person xml:id="edward_marsh" sex="M">
+                <persName>
+                <surname>Marsh</surname>
+                <forename>Edward<forename>
+                </persName>
+                <birth where="London, UK" when="1872-11-18"/>
+                <death where="Flat Rock, NC" when="1953-01-13"/>
+                <occupation>Translator</occupation>
+                <nationality>British</nationality> 
+                <!--<note type="bio" resp="#BradshawMelissa">
+                </note>
+                </person>-->
+
+                <!--***********************Example person entry*******************************
+                <person xml:id="PatonWallerHugh" sex="M">
+                <persName>
+                <surname>Paton</surname><forename>Waller</forename><forename>Hugh</forename>
+                </persName>
+                <birth when="1828-07-27"/>
+                <death when="1895-03-08"/>
+                <occupation>Artist</occupation>
+                <nationality>Scottish</nationality>
+                <note type="bio" resp="#FukushimaKailey"><persName>Waller Hugh Paton</persName>
+                was a brother of <persName ref="#DMC">Dinah</persName>’s close friend <persName
+                ref="#PatonJosephNoel">Joseph Noel Paton</persName>.
+                <persName>Waller Paton</persName> was an artist and specialized in landscape
+                paintings. He was a member of the <orgName>Royal Scottish Academy</orgName>
+                <date from="1865" to="1895">from 1865 until his death.</date> ODNB.</note>
+                </person>
+                *****************************************************************************-->
+
+            </listPerson>
+            <listPlace>
+                <head>The list of people mentioned in ALLP</head>
+                <!--************* Location Content *********************************-->
+            </listPlace>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+
+
+
+
