@@ -376,15 +376,15 @@
                 <person xml:id="william_braithwaite" sex="M">
                 <persName>
                 <surname>Braithwaite</surname>
-                <forename>William<forename>
+                <forename>William</forename>
                 </persName>
-                <birth where="Boston, MA" when="1878-12-06"/>
-                <death where="New York, NY" when="1962-06-08"/>
+                    <birth when="1878-12-06"><placeName>Boston, MA</placeName></birth>
+                    <death when="1962-06-08"><placeName>New York, NY</placeName></death>
                 <occupation>Writer</occupation>
                 <nationality>American</nationality> 
                 <!--<note type="bio" resp="#BradshawMelissa">
-                </note>
-                </person>-->
+                </note>-->
+                </person>
 
                 <person xml:id="wallace_stevens" sex="M">
                 <persName>
