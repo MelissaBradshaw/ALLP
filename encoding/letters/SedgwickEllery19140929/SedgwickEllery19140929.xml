@@ -86,17 +86,17 @@
             <p><date when="1914-09-29">Sept. 29, 1914</date></p>
             <opener><salute>My dear<persName key="ellery_sedgwick"
                   >Ellery</persName>:</salute><anchor xml:id="n1"/></opener>
-            <p>I am venturing to send you <!--poem-->this poem<anchor xml:id="n2"/> because I
+            <p>I am venturing to send you <title key="allies" level="a">this poem</title><anchor xml:id="n2"/> because I
                believe in it myself, and I am in hopes that, even through a form<anchor xml:id="n3"
                /> which I believe you do not care for, you may see its serious intent. My ideas was
-               to represent the citizen army which <placeName>France</placeName> and
-                  <placeName>England</placeName> have put into the field; an army made up of men of
+               to represent the citizen army which <placeName key="france">France</placeName> and
+                  <placeName key="england">England</placeName> have put into the field; an army made up of men of
                all occupations and all kinds, each one fighting for the peace of the world which he
                knows and sees to be desirable, for liberty to do and work. And the sum total of all
                these desires making that necessary security which we call “peace,” as opposed to the
-               devastating militarism of <placeName>Germany</placeName>. At the time when I wrote
-               <!--poem-->this poem, as you will see by the date<anchor xml:id="n4"/>, we did not
-               know where the allied armies were, at least we in <placeName>England</placeName> did
+               devastating militarism of <placeName key="germany">Germany</placeName>. At the time when I wrote
+               <title key="allies" level="a">this poem</title>, as you will see by the date<anchor xml:id="n4"/>, we did not
+               know where the allied armies were, at least we in <placeName key="England">England</placeName> did
                not know. We only knew that they were marching to meet the Germans. It is under this
                figure that I have portrayed them. The words are crude, often violent. They are
                intended to represent the unsentimental anger of men who quit all they desire and
@@ -108,16 +108,16 @@
                has the quality of ruggedness which is so useful for this sort of poem. It should be
                read exactly as if it were prose, and the unexpected rhymes, and the occasional
                repetition, somewhat in the manner of a refrain, are what give it its character.</p>
-            <p>I read this poem to <persName key=""><!--NEED TO ADD TO OGRAPHY-->Charlie
+            <p>I read this poem to <persName key="charles_fiske">Charlie
                   Fiske</persName><anchor xml:id="n6"/> on the steamer coming home. You could hardly
                suppose him to be sympathetic to anything so different from the ordinary rhyme. In
                fact, before he asked me if I would read it to him, he prefaced his remark by saying
-               that he did not care for the modern method. But while I was reading this poem he
+               that he did not care for the modern method. But while I was reading <title key="allies" level="a">this poem</title> he
                burst into tears and told me that he thought if I had never written anything else my
                reputation would be made by this. I hope you will feel the same way about it, because
-               I am very anxious to have it appear in the pages of <!--tag-->“The Atlantic.” It is
-               too serious for a pictorial paper like <!--tag-->“The Century” or
-               <!--tag-->“Scribners,” and <!--tag-->“Poetry” and <!--tag-->“The Little Review” have
+               I am very anxious to have it appear in the pages of <title key="atlantic" level="j">“The Atlantic.”</title> It is
+               too serious for a pictorial paper like <title key="century" level="j">“The Century”</title> or
+               <title key="scribners" level="j">“Scribners,”</title> and <title key="poetry" level="j">“Poetry”</title> and <title key="littleReview" level="j">“The Little Review”</title> have
                not a large enough circulation. Of course I know you will do as you think best. I
                only hope that you may find something in the poem which you consider worth while. </p>
             <p>It is too bad you have had such a nasty time. I believe that I am to have the
@@ -130,12 +130,12 @@
       <back>
          <div type="notes">
             <!-- Need to tag items in footnotes -->
-            <note target="#n1" resp="mb">Ellery Sedgwick (1872-1960), editor of the Atlantic Monthly
+            <note target="#n1" resp="mb"><persName key="ellery_sedgwick">Ellery Sedgwick</persName> (1872-1960), editor of the <title key="atlantic" level="j">Atlantic Monthly</title>
                from 1908-1938. Sedgwick, married to a childhood friend of Lowell, was one of her
                first literary connections. Her first published poem, “A Fixed Idea,” appeared in the
                Atlantic in 1910. </note>
-            <note target="#n2" resp="mb">“The Allies,” from Men, Women and Ghosts (Macmillan, 1916).
-               The poem was first published in The Little Review, January, 1915. </note>
+            <note target="#n2" resp="mb"><title key="allies" level="a">“The Allies,”</title> from <title key="menWomenGhosts" level="m">Men, Women and Ghosts</title> (Macmillan, 1916).
+               The poem was first published in <title key="littleReview" type="j">The Little Review</title>, January, 1915. </note>
             <note target="#n3" resp="mb">The poem is written in what Lowell called Polyphonic Prose,
                poetry without enjambment that appears on the page looking like prose. </note>
             <note target="#n4" resp="mb">The poem’s subtitle, August 14, 1914, marks the German
