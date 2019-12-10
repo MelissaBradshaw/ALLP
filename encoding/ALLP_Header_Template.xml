@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!DOCTYPE doc [
 <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
 ]>
@@ -9,19 +7,34 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key=""
-                  ><!-- Insert recipient name and key ID --></persName>, <date when=""
-                  ><!-- Insert date --></date></title>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key=""> <!-- Insert recipient name and key ID --> </persName>, <date when=""
+                  > <!-- Insert date --> </date></title>
             <author key="amy_lowell">Amy Lowell</author>
-            <editor ref=""><!-- Insert editor (whoever wrote the footnotes) here --></editor>
+            <editor ref=""> <!-- Insert editor (whoever wrote the footnotes) here --> </editor>
             <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
                Chicago</sponsor>
             <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref=""> <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <authority>Amy Lowell Letters Project</authority>
             <pubPlace>Chicago, IL, USA</pubPlace>
-            <date when=""><!-- Add date when published to website here --></date>
+            <date when=""> <!-- Add date when published to website here --> </date>
             <availability>
                <p>Reproduced by courtesy of the Houghton Library Repository.</p>
                <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
@@ -34,16 +47,16 @@
                   <institution>Harvard College Library</institution>
                   <repository>Houghton Library Repository</repository>
                   <collection>Amy Lowell Correspondence</collection>
-                  <idno><!-- Insert item's HOLLIS ID number here --></idno>
+                  <idno> <!-- Insert item's HOLLIS ID number here --> </idno>
                </msIdentifier>
-               <physDesc><!-- Insert physical description here. -->
+               <physDesc> <!-- Insert physical description here. --> 
                </physDesc>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p>This letter contains references to the following</p>
+            <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to keyword-ography --> </p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>

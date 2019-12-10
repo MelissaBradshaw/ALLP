@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="ellery_sedgwick">Ellery Sedgwick</persName>, <date when="1914-09-29">29
+                  September 1914</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="">
+                  <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="ccm">Caroline McCraw</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>
+                     <!-- Insert item's HOLLIS ID number here -->
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Three pages on stationary with "Miss A. Lowell, Heath Street, Brookline, Mass."
+                     printed in upper left corner of first page. Typewritten in black ink, editorial
+                     corrections marked in fountain pen. Series of ink smuges across last page;
+                     unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:</p>
+            <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            <p><!--Need to tag keywords--> WWI, free verse (vers libre), polyphonic prose</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <p><placeName key="brookline">Brookline, Mass.</placeName></p>
+            <p><date when="1914-09-29">Sept. 29, 1914</date></p>
+            <opener><salute>My dear<persName key="ellery_sedgwick"
+                  >Ellery</persName>:</salute><anchor xml:id="n1"/></opener>
+            <p>I am venturing to send you <!--poem-->this poem<anchor xml:id="n2"/> because I
+               believe in it myself, and I am in hopes that, even through a form<anchor xml:id="n3"
+               /> which I believe you do not care for, you may see its serious intent. My ideas was
+               to represent the citizen army which <placeName>France</placeName> and
+                  <placeName>England</placeName> have put into the field; an army made up of men of
+               all occupations and all kinds, each one fighting for the peace of the world which he
+               knows and sees to be desirable, for liberty to do and work. And the sum total of all
+               these desires making that necessary security which we call “peace,” as opposed to the
+               devastating militarism of <placeName>Germany</placeName>. At the time when I wrote
+               <!--poem-->this poem, as you will see by the date<anchor xml:id="n4"/>, we did not
+               know where the allied armies were, at least we in <placeName>England</placeName> did
+               not know. We only knew that they were marching to meet the Germans. It is under this
+               figure that I have portrayed them. The words are crude, often violent. They are
+               intended to represent the unsentimental anger of men who quit all they desire and
+               regard as valuable, in the midst of achievement, to fight a wild animal. The poet’s
+               remarks may appear to you as flippant. They are intended to be merely the careless
+               high spirits of such a character, thinly cloaking an urgent and serious purpose.</p>
+            <p>The metre is the one in which <persName key="paul_fort">Paul Fort</persName><anchor
+                  xml:id="n5"/> has been working for so long in <placeName>France</placeName>. It
+               has the quality of ruggedness which is so useful for this sort of poem. It should be
+               read exactly as if it were prose, and the unexpected rhymes, and the occasional
+               repetition, somewhat in the manner of a refrain, are what give it its character.</p>
+            <p>I read this poem to <persName key=""><!--NEED TO ADD TO OGRAPHY-->Charlie
+                  Fiske</persName><anchor xml:id="n6"/> on the steamer coming home. You could hardly
+               suppose him to be sympathetic to anything so different from the ordinary rhyme. In
+               fact, before he asked me if I would read it to him, he prefaced his remark by saying
+               that he did not care for the modern method. But while I was reading this poem he
+               burst into tears and told me that he thought if I had never written anything else my
+               reputation would be made by this. I hope you will feel the same way about it, because
+               I am very anxious to have it appear in the pages of <!--tag-->“The Atlantic.” It is
+               too serious for a pictorial paper like <!--tag-->“The Century” or
+               <!--tag-->“Scribners,” and <!--tag-->“Poetry” and <!--tag-->“The Little Review” have
+               not a large enough circulation. Of course I know you will do as you think best. I
+               only hope that you may find something in the poem which you consider worth while. </p>
+            <p>It is too bad you have had such a nasty time. I believe that I am to have the
+               pleasure of dining with you on Sunday next. I do hope the cool weather will bring
+               back your strength.</p>
+            <closer><salute>Sincerely yours,</salute>
+               <signed><persName key="amy_lowell">Amy Lowell</persName></signed></closer>
+         </div>
+      </body>
+      <back>
+         <div type="notes">
+            <!-- Need to tag items in footnotes -->
+            <note target="#n1" resp="mb">Ellery Sedgwick (1872-1960), editor of the Atlantic Monthly
+               from 1908-1938. Sedgwick, married to a childhood friend of Lowell, was one of her
+               first literary connections. Her first published poem, “A Fixed Idea,” appeared in the
+               Atlantic in 1910. </note>
+            <note target="#n2" resp="mb">“The Allies,” from Men, Women and Ghosts (Macmillan, 1916).
+               The poem was first published in The Little Review, January, 1915. </note>
+            <note target="#n3" resp="mb">The poem is written in what Lowell called Polyphonic Prose,
+               poetry without enjambment that appears on the page looking like prose. </note>
+            <note target="#n4" resp="mb">The poem’s subtitle, August 14, 1914, marks the German
+               Empire’s invasion of Belgium/France. </note>
+            <note target="#n5" resp="mb">Paul Fort (1872-1960). French poet associated with the
+               Symbolist movement. Founder and editor of the literary reviews Livre d’Art and Vers
+               et Prose. He published more than thirty volumes of ballads, written using a
+               combination of French alexandrines and unmetered, unrhymed passages printed a prose. </note>
+            <note target="n#6" resp="mb">This is presumably Boston-area lawyer Charles H. Fiske,
+               Jr.</note>
+         </div>
+      </back>
+   </text>
+</TEI>
