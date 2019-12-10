@@ -55,9 +55,7 @@
                   <institution>Harvard College Library</institution>
                   <repository>Houghton Library Repository</repository>
                   <collection>Amy Lowell Correspondence</collection>
-                  <idno>
-                     <!-- Insert item's HOLLIS ID number here -->
-                  </idno>
+                  <idno>427718954</idno>
                </msIdentifier>
                <physDesc>
                   <p>Three pages on stationary with "Miss A. Lowell, Heath Street, Brookline, Mass."
@@ -71,8 +69,7 @@
       <encodingDesc>
          <editorialDecl>
             <p>This letter contains references to the following:</p>
-            <!-- Insert tagged subject keywords here; will link to keyword-ography -->
-            <p><!--Need to tag keywords--> WWI, free verse (vers libre), polyphonic prose</p>
+            <p><rs key="ww1" type="theme">WWI</rs>, <rs key="freeVerse" type="theme">free verse (vers libre)</rs>, <rs key="polyProse" type="theme">polyphonic prose</rs></p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
