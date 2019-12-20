@@ -15,7 +15,7 @@ _Lowell's letters show her talking to—sometimes arguing with—the most promin
 
 :star: **[Acknowledgements](https://github.com/MelissaBradshaw/ALLP/wiki/Acknowledgements)**
 
-:computer: **[Website Wireframe](https://vhmy7z.axshare.com/home.html)** (_Fall 2019 by Xiolin Sun_)
+:computer: **[Website Wireframe](https://vhmy7z.axshare.com/home.html)** (_Fall 2019_)
 
 :card_file_box: **[Site Index](https://github.com/MelissaBradshaw/ALLP/tree/master/siteIndex)**
 
