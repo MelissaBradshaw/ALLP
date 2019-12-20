@@ -20,3 +20,5 @@ _Lowell's letters show her talking to—sometimes arguing with—the most promin
 :dancers: **[Project Team](https://github.com/MelissaBradshaw/ALLP/wiki/Project-Team)**
 
 :star: **[Acknowledgements](https://github.com/MelissaBradshaw/ALLP/wiki/Acknowledgements)**
+
+:musical_note: **[ALLP Official Playlist - Spotify](https://open.spotify.com/playlist/6N21keIQDZrSBCBARApXEm?si=XooyAui1Q7eScEjfry62ww)**
