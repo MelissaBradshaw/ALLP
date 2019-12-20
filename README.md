@@ -1,4 +1,4 @@
-# [The Amy Lowell Letters Project](https://vhmy7z.axshare.com/home.html)
+# The Amy Lowell Letters Project
 
 The Amy Lowell Letters Project is an open-access, digital scholarly edition of the letters of American poet, editor, and critic Amy Lowell (1874–1925).
 
@@ -9,6 +9,14 @@ Lowell's letters show her talking to—sometimes arguing with—the most promine
   
 </p>
 
-:arrow_right: [Project Team](https://github.com/MelissaBradshaw/ALLP/wiki/Project-Team)
+## Project Links:
 
-:arrow_right: [Acknowledgements](https://github.com/MelissaBradshaw/ALLP/wiki/Acknowledgements) 
+:dancers: **[Project Team](https://github.com/MelissaBradshaw/ALLP/wiki/Project-Team)**
+
+:star: **[Acknowledgements](https://github.com/MelissaBradshaw/ALLP/wiki/Acknowledgements)**
+
+:computer: **[Website Wireframe](https://vhmy7z.axshare.com/home.html)** (_Fall 2019 by Xiolin Sun_)
+
+:card_file_box: **[Site Index](https://github.com/MelissaBradshaw/ALLP/tree/master/siteIndex)**
+
+:symbols: **[Encoding Guidelines and Materials](https://github.com/MelissaBradshaw/ALLP/tree/master/encoding)**
