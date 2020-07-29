@@ -47,7 +47,7 @@
                   <institution>Harvard College Library</institution>
                   <repository>Houghton Library Repository</repository>
                   <collection>Amy Lowell Correspondence</collection>
-                  <idno> <!-- Insert item's HOLLIS ID number here --> </idno>
+                  <idno type="URI"> <!-- Insert item's HOLLIS link here --> </idno>
                </msIdentifier>
                <physDesc> <!-- Insert physical description here. --> 
                </physDesc>
