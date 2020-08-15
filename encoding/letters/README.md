@@ -1,9 +1,6 @@
 # Encoded Letters
 
-Each letter should exist in its own folder, which will contain:
-1. Image files (.jpeg, .pdf)
-2. Transcription with editorial notes (.docx)
-3. The encoded letter (.xml).
+Each recipient should have their own folder with XML files of their encoded letters. Note that transcriptions and image files exist on Dropbox. 
 
 ### File Names
 The standardized file name for each letter will be without any punctuation, and consist of [Last Name][FirstName][Year][Month][Day]. Therefore, the letter from Amy Lowell to Ellery Sedgwick on September 29, 1914, will be referred to as:
