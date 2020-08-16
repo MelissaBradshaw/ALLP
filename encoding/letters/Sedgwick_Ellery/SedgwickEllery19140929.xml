@@ -23,8 +23,7 @@
             </respStmt>
             <respStmt>
                <resp>Transcription proofed by</resp>
-               <persName ref="">
-                  <!-- insert name --></persName>
+               <persName ref="ccm">Caroline McCraw</persName>
             </respStmt>
             <respStmt>
                <resp>Encoding completed by</resp>
@@ -58,10 +57,7 @@
                   <idno>427718954</idno>
                </msIdentifier>
                <physDesc>
-                  <p>Three pages on stationary with "Miss A. Lowell, Heath Street, Brookline, Mass."
-                     printed in upper left corner of first page. Typewritten in black ink, editorial
-                     corrections marked in fountain pen. Series of ink smuges across last page;
-                     unsigned.</p>
+                  <p>Three pages on stationery that reads: “MISS A. LOWELL / HEATH STREET / BROOKLINE, MASS” in upper left corner. Typewritten in black ink, editorial corrections marked in fountain pen. Text written in pencil at top of first page reads “ “Atlantic” (Sedgwick).” Also in pencil is the word “fireworks” written above “this poem” in the first line. Ink smudges appear on the last page after the text; unsigned.</p>
                </physDesc>
             </msDesc>
          </sourceDesc>
