@@ -8,8 +8,8 @@
     <fileDesc>
       <titleStmt>
         <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
-          key="wc_williams">William Carlos Williams</persName>, <date when="1916-10-13">13
-            October 1916</date></title>
+            key="wc_williams">William Carlos Williams</persName>, <date when="1916-10-13">13 October
+            1916</date></title>
         <author key="amy_lowell">Amy Lowell</author>
         <editor ref="mb">Melissa Bradshaw</editor>
         <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
@@ -23,8 +23,7 @@
         </respStmt>
         <respStmt>
           <resp>Transcription proofed by</resp>
-          <persName ref="">
-            <!-- insert name --></persName>
+          <persName ref="ccm"> Caroline McCraw</persName>
         </respStmt>
         <respStmt>
           <resp>Encoding completed by</resp>
@@ -32,9 +31,7 @@
         </respStmt>
         <respStmt>
           <resp>Encoding assistance provided by</resp>
-          <persName ref="">
-            <!-- insert name -->
-          </persName>
+          <persName ref="ccm"> Caroline McCraw </persName>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -45,8 +42,8 @@
         </date>
         <availability>
           <p>Reproduced by courtesy of the Houghton Library Repository.</p>
-          <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
-            4.0 International license.</licence>
+          <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+            International license.</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -55,13 +52,11 @@
             <institution>Harvard College Library</institution>
             <repository>Houghton Library Repository</repository>
             <collection>Amy Lowell Correspondence</collection>
-            <idno>
-              <!-- Insert item's HOLLIS ID number here -->
-            </idno>
+            <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427722422$4i</idno>
           </msIdentifier>
           <physDesc>
-            <p>Seven pages typewritten in black ink. Archival notes in pencil at the top of first page: "Others (WmC)." Unsigned.  Series of ink smuges across last page;
-              unsigned.</p>
+            <p>Seven pages typewritten in black ink. Archival notes in pencil at the top of first
+              page: "Others (WmC)." Series of ink smuges across last page; unsigned.</p>
           </physDesc>
         </msDesc>
       </sourceDesc>
@@ -69,8 +64,9 @@
     <encodingDesc>
       <editorialDecl>
         <p>This letter contains references to the following:</p>
-        <!-- Insert tagged subject keywords here; will link to keyword-ography -->
-        <p><!--Need to tag keywords--> </p>
+        <p><rs key="poundFeud" type="theme">Pound feud</rs>, <rs key="freeVerse" type="theme">free
+            verse (vers libre)</rs>, <rs key="imagism" type="theme">Imagism</rs>, <rs
+            key="vorticism" type="theme">Vorticism</rs></p>
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
@@ -83,164 +79,169 @@
   <text>
     <body>
       <div type="letter">
-      <opener>
-        <dateline>
-          <date when="1916-10-13">October 10, 1913</date></dateline></opener>
-      <salute>My dear <persName corresp="wc_williams">Dr. Williams:</persName></salute>
-      <p>Your letter would be insulting, if it were not pathetic. I am sorry you are so bitter, but
-        you must not think that any real artistic movement can be snuffed out by the failure of one
-        magazine. As a matter of fact, <!--tag--> "Others" was foolishly managed from
-        the first <anchor xml:id="n1"/>. It was not the idea which was at fault, it was the way the idea was carried out.
-        You must not forget that besides the commercial sense, which you consider that I possess, I
-        also have years and experience on my side. You were fooled by a little newspaper notoriety
-        into thinking that the future of the magazine was secure. The truth is that notoriety of
-        that kind is a disease, which has to be gone through, and made the best of, before any real
-        fame is likely to come. Had you (and here I speak collectively, for I do not know who was
-        actually responsible for the policy of the magazine) played your cards a little better, had
-        you not antagonized the public by printing an immense amount of very poor stuff mixed with
-        the good, you would have found that, on the death of the magazine, its effect still
-        remained. </p>
-      <p>I withdrew myself as a contributor to the magazine, in the middle of last Winter, not
-        because I felt that it was doomed to failure, as you seem to suppose, (I knew it was doomed
-        to failure from the moment it was started, and yet I was willing to contribute with the rest
-        of you when <persName key="alfred_kreymbord"> Mr. Kreymborg</persName> asked me to do so). I
-        withdrew in the middle of the Winter because I found myself completely out of sympathy with
-        the policy of the magazine <anchor xml:id="n2"/> I saw that the editors had no objection to printing poems which
-        I felt were not poetry, were not art, and the tendency of which I knew would be to lower the
-        estimation in which the whole of the new poetry movement was held in the eye of the public.
-        This I explained carefully to <persName key="alfred_kreymbord"> Mr. Kreymborg</persName>.
-        The rest of my group felt exactly as I did, and the policy they pursued was identical with
-        mine <anchor xml:id="n3"/></p>
-      <p>When you wrote to me yourself last Summer and asked me to send a contribution for the
-        number which you were editing, the kindly feeling which I entertained toward you
-        personally—a feeling which I had originally got from <persName key="ezra_pound"> Mr.
-          Pound</persName> and which was corroborated by our one meeting as <persName
-          key="walter_arensberg"> Arensberg's</persName> last Autumn—made me send you a poem, as
-        soon as you told me that <persName key="john_fletcher">Mr. Fletcher</persName> had also
-        lifted his embargo <anchor xml:id="n4"/> When the number which you edited came, I was disgusted to see, from its
-        contents, that you had been in sympathy with the former policy of the magazine, and I
-        regretted having given way to a feeling of comradeship in having sent my contribution, and I
-        refused to be in the <!--tag--> Woman's Number when <persName key="helen_hoyt"
-          >Miss Hoyt</persName> asked me to send something for it <anchor xml:id="n5"/> If you agree with the general
-        trend of the magazine, and with the whole movement as managed by <persName
-          key="alfred_kreymbord"> Mr. Kreymborg</persName>, of course you can only regret its
-        failure, and I can only say that, in spite of admiring much of your own work, and some of
-        the work of others in your group, I am not in sympathy with your aims as a whole. If, on the
-        other hand, you think that the magazine could have been run better than it was, I see no
-        reason for despair, for I think the movement toward art in this country is a real movement,
-        and I think that anyone who is a sincere artist, and not a mere schoolboy with his tongue in
-        his cheek, will find a place. But it must be done step by step. You cannot win to fame
-        through headlines in the newspapers, and until you people are willing to take the slower
-        road, I do not think you will get forward very fast.</p>
-      <p>In your letter, you accuse me of certain things which show you to be both prejudice and
-        misinformed. I appeal to your spirit of fair play, and ask you again to come and see me when
-        I am in <placeName key="New York">New York</placeName>and make your charges absolute, and
-        give me a chance to explain the matter as it really is. You should not judge of anything on
-        hearing only one side. If you do not care to do this, if your sense of justice does not show
-        you the advisability of doing this, I shall be very sorry.</p>
-      <p>You have nothing to gain by coming to see me, you need not announce so loudly that you have
-        nothing to sell, for, believe me, I have nothing to buy. <!--tag--> "Others"
-        has been offered to me too many times since its beginning (the last time by yourself) for me
-        not to realize that I might be its owner to-day, had I chosen. You may not be aware that
-        after first refusing to be included in our <!--tag--> "Anthology",<persName
-          key="ezra_pound"> Mr. Pound</persName> changed his mind and offered to come into it, if I
-        would give him a certain figure a year, to be used for a charity in which he was interested.
-        The figure was not for himself, as you see, but he nevertheless made me an offer of his
-        services for a price to be paid. I was willing to give the money, if it could be proved to
-        me that the object was worthy; I was not willing to buy anyone’s suffrage. Having refused
-        the assistance of <persName key="ezra_pound"> Mr. Pound</persName>, you need hardly fear
-        that I shall try to purchase that of any of his henchmen.</p>
-      <p>You tell me that the <!--tag--> "Imagist Anthology" has received a certain
-        notoriety through the omission of <persName key="ezra_pound">Mr. Pound</persName>. That is a
-        strange statement, for at the time <persName key="ezra_pound">Mr. Pound</persName>
-        voluntarily withdrew himself from the magazine, his parting shot to me was that we should
-        fail without him, and it was an opinion then held by several people. Now that we have
-        succeeded, you endeavour to give <persName key="ezra_pound"> Mr. Pound</persName> credit
-        vicariously, by suggesting that it was partly because of this very withdrawal. That is
-        interesting; but in neither one care nor the other was <persName key="ezra_pound"> Mr.
-          Pound</persName> as important an asset as you suppose.</p>
-      <p>You go a little far when you suggest that I “stole” anything from <persName
-          key="ezra_pound"> Mr. Pound</persName>. So far as I know, the only thing which <persName
-            key="ezra_pound"> Mr. Pound</persName> has invented is the name <!--tag--> 
-        "Imagist". Vers libre has been written in English literature for three hundred
-        years; <persName key="ezra_pound"> Mr. Pound</persName> merely insisted upon it as a creed.
-        As to the name <!--tag--> "Imagism", it is impossible to copyright the
-        name of an artistic school. <!--tag--> Imagism  is an artistic point of
-        view, not a club. A man may be a <!--tag--> Romanticist, or an
-        <!--tag--> Impressionist, or an<!--tag--> Imagist, according as he thinks that way. You will also please to remember that
-        <persName key="ezra_pound"> Mr. Pound</persName> christened us all <!--tag--> 
-        "Imagism". We merely adopted the name because we felt that it stood for our
-        attitude. But in order to play perfectly fair, we changed the title of our <!--tag--> 
-        "Anthology", so that he might bring his out under the old title if he so desired.
-        He now prefers to call himself a <!--tag--> Vorticist, which, of
-        course, removes all difficulty. Again, please understand that I am not the editor of <!--tag--> 
-        "Imagist Anthology", and deserve no more credit than the other
-        contributors for its success. The six contributors all make the collection, and are all
-        equally responsible for it, and for the policy of the volume.</p>
-      <p>I do not understand what you mean by my “well known attitude toward unknown and young
-        American writers”. I suppose there are few people who have tried to do more for young and
-        unknown writers than I. I am not connected with any magazine, financially, or otherwise. I
-        am under no contract to write reviews for any magazine. But I have often recommended poem to
-        editors as, as far as was in my power, endeavoured to show people less well informed than
-        myself who were worthy among the younger group. You may not know that when <persName
-          key="ws_braithwaite"> Mr. Braithwaite</persName> was preparing his <!--tag--> 
-          >"Magazine Anthology" for <date when="1915">1915</date>, I called his attention to
-          <persName key="wallace_stevens">Mr. Stevens's</persName> very beautiful <!--tag-->
-          “Susannah and the Elders”, which he had not seen <anchor xml:id="n6"/>. I hunted up the magazine and
-        sent him a copy, telling him that it certainly should be included. As soon as <persName
-          ref="ws_braithwaite"> Mr. Braithwaite</persName> had read it, he saw its beauty as well as
-        I did, and, as you know, it appeared among the first five poems of the year. Possibly you
-        have no opinion of <persName key="ws_braithwaite"> Mr. Braithwaite's</persName> taste, but
-        that is an advertisement which is a help with the public at large, and that particular form
-        of notoriety <persName key="wallace_stevens">Mr. Stevens</persName> owes entirely to me. In
-        the same way, when <persName key="maxwell_bodenheim">Mr. Bodenheim</persName> <anchor xml:id="n7"/> was here
-        last Spring he read me his poem <!--tag--> "On Heaven". He told me that he was
-        lunching with <persName key="ws_braithwaite"> Mr. Braithwaite</persName> the next day, and I
-        begged him to be sure and show <persName key="ws_braithwaite"> Mr. Braithwaite</persName>
-        this poem. As soon as he had left, I telephoned <persName ref="ws_braithwaite"> Mr.
-          Braithwaite</persName>, praised the poem highly, and suggested that he ask <persName
-          key="maxwell_bodenheim">Mr. Bodenheim</persName> to let him see it. My remarks may have
-        had no effect on <persName key="ws_braithwaite"> Mr. Braithwaite</persName>, he is not
-        easily influenced. But I certainly did my best. It is quite possible that I have no praised
-        all the people of whom you think well. It is also possible that my “commercial sense” may be
-        merely critical judgment, and that I may not think as highly of so many people as you do,
-        for in your article in <!--tag--> "The Egoist" you speak as though the
-        country were teeming with poets, an opinion which you share with <persName
-          key="ws_braithwaite"> Mr. Braithwaite</persName>. But I agree with <persName
-          key="conrad_aiken">Mr. Aiken</persName>, that if there were so many excellent poets as
-        that, this would be one of the most remarkable eras in the history of the world <anchor xml:id="n8"/> It is true
-        that, as a rule, I refuse to read and criticize the manuscripts of young poets. But I have
-        been obliged to take this stand because of the number of manuscripts sent me and the time
-        involved. Even here I make occasional exceptions.</p>
-      <p>It was only a year ago that you were anxious to reconcile <persName key="ezra_pound"> Mr.
-          Pound</persName> and me, and now you call me all sorts of names, and assume all sorts of
-        things. I can only think that the failure of <!--tag--> "Others" has
-        embittered you unduly, and again I will say: Will you come and make your charges to me
-        categorically, and will you listen to my account of the breach with <persName
-          key="ezra_pound"> Mr. Pound</persName>, the truth of which you can easily verify by
-        applying to the <!--tag--> Aldingtons.
-      </p>
-      <closer>Sincerely yours,</closer>
+        <opener>
+          <dateline>
+            <date when="1916-10-13">October 13, 1916</date></dateline></opener>
+        <salute>My dear <persName corresp="wc_williams">Dr. Williams:</persName></salute>
+        <p>Your letter would be insulting, if it were not pathetic. I am sorry you are so bitter,
+          but you must not think that any real artistic movement can be snuffed out by the failure
+          of one magazine. As a matter of fact, <!--tag--> "Others" was foolishly managed from the
+          first <anchor xml:id="n1"/>. It was not the idea which was at fault, it was the way the
+          idea was carried out. You must not forget that besides the commercial sense, which you
+          consider that I possess, I also have years and experience on my side. You were fooled by a
+          little newspaper notoriety into thinking that the future of the magazine was secure. The
+          truth is that notoriety of that kind is a disease, which has to be gone through, and made
+          the best of, before any real fame is likely to come. Had you (and here I speak
+          collectively, for I do not know who was actually responsible for the policy of the
+          magazine) played your cards a little better, had you not antagonized the public by
+          printing an immense amount of very poor stuff mixed with the good, you would have found
+          that, on the death of the magazine, its effect still remained.</p>
+        <p>I withdrew myself as a contributor to the magazine, in the middle of last Winter, not
+          because I felt that it was doomed to failure, as you seem to suppose, (I knew it was
+          doomed to failure from the moment it was started, and yet I was willing to contribute with
+          the rest of you when <persName key="alfred_kreymbord"> Mr. Kreymborg</persName> asked me
+          to do so) I withdrew in the middle of the Winter because I found myself completely<pb/> out of
+          sympathy with the policy of the magazine <anchor xml:id="n2"/> I saw that the editors had
+          no objection to printing poems which I felt were not poetry, were not art, and the
+          tendency of which I knew would be to lower the estimation in which the whole of the new
+          poetry movement was held in the eye of the public. This I explained carefully to <persName
+            key="alfred_kreymbord"> Mr. Kreymborg</persName>. The rest of my group felt exactly as I
+          did, and the policy they pursued was identical with mine <anchor xml:id="n3"/></p>
+        <p>When you wrote to me yourself last Summer and asked me to send a contribution for the
+          number which you were editing, the kindly feeling which I entertained toward you
+          personally—a feeling which I had originally got from <persName key="ezra_pound"> Mr.
+            Pound</persName> and which was corroborated by our one meeting as <persName
+            key="walter_arensberg"> Arensberg's</persName> last Autumn—made me send you a poem, as
+          soon as you told me that <persName key="john_fletcher">Mr. Fletcher</persName> had also
+          lifted his embargo <anchor xml:id="n4"/> When the number which you edited came, I was
+          disgusted to see, from its contents, that you had been in sympathy with the former policy
+          of the magazine, and I regretted having given way to a feeling of comradeship in having
+          sent my contribution, and I refused to be in the <!--tag--> Woman's Number when <persName
+            key="helen_hoyt">Miss Hoyt</persName> asked me to send something for it <anchor
+            xml:id="n5"/> If you agree with the general trend of the magazine, and with the whole
+          movement as managed by <persName key="alfred_kreymbord"> Mr. Kreymborg</persName>, of
+          course you can only regret its failure, and I can only say that, in spite of admiring much
+          of your own work, and some of the work of others in your group, I am not in sympathy with
+          your aims as a whole. If, on the other hand,<pb/> you think that the magazine could have been
+          run better than it was, I see no reason for despair, for I think the movement toward art
+          in this country is a real movement, and I think that anyone who is a sincere artist, and
+          not a mere schoolboy with his tongue in his cheek, will find a place. But it must be done
+          step by step. You cannot win to fame through headlines in the newspapers, and until you
+          people are willing to take the slower road, I do not think you will get forward very
+          fast.</p>
+        <p>In your letter, you accuse me of certain things which show you to be both prejudice and
+          misinformed. I appeal to your spirit of fair play, and ask you again to come and see me
+          when I am in <placeName key="New York">New York</placeName>and make your charges absolute,
+          and give me a chance to explain the matter as it really is. You should not judge of
+          anything on hearing only one side. If you do not care to do this, if your sense of justice
+          does not show you the advisability of doing this, I shall be very sorry.</p>
+        <p>You have nothing to gain by coming to see me, you need not announce so loudly that you
+          have nothing to sell, for, believe me, I have nothing to buy. <!--tag--> "Others" has been
+          offered to me too many times since its beginning (the last time by yourself) for me not to
+          realize that I might be its owner to-day, had I chosen. You may not be aware that after
+          first refusing to be included in our <!--tag--> "Anthology",<persName key="ezra_pound">
+            Mr. Pound</persName> changed his mind and offered to come into it, if I would give him a
+          certain figure a year, to be used for a charity in which he was interested. The figure was
+          not for<pb/> himself, as you see, but he nevertheless made me an offer of his services for a
+          price to be paid. I was willing to give the money, if it could be proved to me that the
+          object was worthy; I was not willing to buy anyone’s suffrage. Having refused the
+          assistance of <persName key="ezra_pound"> Mr. Pound</persName>, you need hardly fear that
+          I shall try to purchase that of any of his henchmen.</p>
+        <p>You tell me that the <!--tag--> "Imagist Anthology" has received a certain notoriety
+          through the omission of <persName key="ezra_pound">Mr. Pound</persName>. That is a strange
+          statement, for at the time <persName key="ezra_pound">Mr. Pound</persName> voluntarily
+          withdrew himself from the magazine, his parting shot to me was that we should fail without
+          him, and it was an opinion then held by several people. Now that we have succeeded, you
+          endeavour to give <persName key="ezra_pound"> Mr. Pound</persName> credit vicariously, by
+          suggesting that it was partly because of this very withdrawal. That is interesting; but in
+          neither one care nor the other was <persName key="ezra_pound"> Mr. Pound</persName> as
+          important an asset as you suppose.</p>
+        <p>You go a little far when you suggest that I “stole” anything from <persName
+            key="ezra_pound"> Mr. Pound</persName>. So far as I know, the only thing which <persName
+            key="ezra_pound"> Mr. Pound</persName> has invented is the name <!--tag--> "Imagist".
+          Vers libre has been written in English literature for three hundred years; <persName
+            key="ezra_pound"> Mr. Pound</persName> merely insisted upon it as a creed. As to the
+          name <!--tag--> "Imagism", it is impossible to copyright the name of an artistic school.
+          <!--tag--> Imagism is an artistic point of view, not a club. A man may be a <!--tag-->
+          Romanticist, or an <!--tag--> Impressionist, or an<!--tag--> Imagist, according as he
+          thinks<pb/> that way. You will also please to remember that <persName key="ezra_pound"> Mr.
+            Pound</persName> christened us all <!--tag--> "Imagism". We merely adopted the name
+          because we felt that it stood for our attitude. But in order to play perfectly fair, we
+          changed the title of our <!--tag--> "Anthology", so that he might bring his out under the
+          old title if he so desired. He now prefers to call himself a <!--tag--> Vorticist, which,
+          of course, removes all difficulty. Again, please understand that I am not the editor of
+          <!--tag--> "Imagist Anthology", and deserve no more credit than the other contributors for
+          its success. The six contributors all make the collection, and are all equally responsible
+          for it, and for the policy of the volume.</p>
+        <p>I do not understand what you mean by my “well known attitude toward unknown and young
+          American writers”. I suppose there are few people who have tried to do more for young and
+          unknown writers than I. I am not connected with any magazine, financially, or otherwise. I
+          am under no contract to write reviews for any magazine. But I have often recommended poem
+          to editors as, as far as was in my power, endeavoured to show people less well informed
+          than myself who were worthy among the younger group. You may not know that when <persName
+            key="ws_braithwaite"> Mr. Braithwaite</persName> was preparing his <!--tag--> >"Magazine
+          Anthology" for <date when="1915">1915</date>, I called his attention to <persName
+            key="wallace_stevens">Mr. Stevens's</persName> very beautiful <!--tag--> “Susannah and
+          the Elders”, which he had not seen <anchor xml:id="n6"/>. I hunted up the magazine and
+          sent him a copy, telling him that it certainly should be included. As soon as <persName
+            ref="ws_braithwaite"> Mr. Braithwaite</persName> had read<pb/> it, he saw its beauty as well
+          as I did, and, as you know, it appeared among the first five poems of the year. Possibly
+          you have no opinion of <persName key="ws_braithwaite"> Mr. Braithwaite's</persName> taste,
+          but that is an advertisement which is a help with the public at large, and that particular
+          form of notoriety <persName key="wallace_stevens">Mr. Stevens</persName> owes entirely to
+          me. In the same way, when <persName key="maxwell_bodenheim">Mr. Bodenheim</persName>
+          <anchor xml:id="n7"/> was here last Spring he read me his poem <!--tag--> "On Heaven". He
+          told me that he was lunching with <persName key="ws_braithwaite"> Mr.
+            Braithwaite</persName> the next day, and I begged him to be sure and show <persName
+            key="ws_braithwaite"> Mr. Braithwaite</persName> this poem. As soon as he had left, I
+          telephoned <persName ref="ws_braithwaite"> Mr. Braithwaite</persName>, praised the poem
+          highly, and suggested that he ask <persName key="maxwell_bodenheim">Mr.
+            Bodenheim</persName> to let him see it. My remarks may have had no effect on <persName
+            key="ws_braithwaite"> Mr. Braithwaite</persName>, he is not easily influenced. But I
+          certainly did my best. It is quite possible that I have no praised all the people of whom
+          you think well. It is also possible that my “commercial sense” may be merely critical
+          judgment, and that I may not think as highly of so many people as you do, for in your
+          article in <!--tag--> "The Egoist" you speak as though the country were teeming with
+          poets, an opinion which you share with <persName key="ws_braithwaite"> Mr.
+            Braithwaite</persName>. But I agree with <persName key="conrad_aiken">Mr.
+            Aiken</persName>, that if there were so many excellent poets as that, this would be one
+          of the most remarkable eras in the history of the world <anchor xml:id="n8"/> It is true
+          that, as a rule, I refuse to read and criticize the manuscripts of young poets. But I have
+          been obliged to take this stand because of the number of manuscripts sent me and the time<pb/>
+          involved. Even here I make occasional exceptions.</p>
+        <p>It was only a year ago that you were anxious to reconcile <persName key="ezra_pound"> Mr.
+            Pound</persName> and me, and now you call me all sorts of names, and assume all sorts of
+          things. I can only think that the failure of <!--tag--> "Others" has embittered you
+          unduly, and again I will say: Will you come and make your charges to me categorically, and
+          will you listen to my account of the breach with <persName key="ezra_pound"> Mr.
+            Pound</persName>, the truth of which you can easily verify by applying to the <!--tag-->
+          Aldingtons. </p>
+        <closer>Sincerely yours,</closer>
       </div>
     </body>
     <back>
       <!-- Need to tag items in footnotes -->
-      <note target="#n1" resp="mb">Williams was an Associate Editor of Alfred Kreymborg’s little magazine Others: A Magazine of the New Verse (1915-1919) and guest edited the July 1916 number (Vol. 3, No. 1), which included Lowell’s poem “Chinoiseries.” At the time of Lowell’s letter, the magazine had briefly ceased publication, and would resume in December of 1916.
-      </note>
-      <note target="#n2" resp="mb">June 28, 1916 letter to WCW objects to “poems of the Minna (sic) Loy type
-      </note>
-      <note target="n3" resp="mb">The other contributors to Some Imagist Poets. In late 1915, early 1916 Lowell, Fletcher, and Richard Aldington withdrew poems scheduled for publication in Others.
-      </note>
-      <note target="n4" resp="mb">Walter Conrad Arensberg (1878-1954), American art collector, critic, and poet. He initially financed Others before withdrawing support because of Kreymborg’s focus on American poets over European poets (Churchill).
-      </note>
-      <note target="n5" resp="mb">Helen Hoyt (1887-1972), American poet. She served as an Associate Editor first of Poetry, and then of Others. She edited the Woman’s Number of Others in September, 1916 (Vol. 3, No. 3). 
-      </note>
-      <note target="n6" resp="mb">William Stanley Braithwaite (1878-1962), American poet and anthologist who published an annual Anthology of Magazine Verse from 1913-1939.
-      </note>
-      <note target="n7" resp="mb">Maxwell Bodenheim (1892-1954), American poet and novelist. He was a frequent contributor to Others, and along with Ben Hecht co-founded The Chicago Literary Times (1923-1924).
-      </note>
-      <note target="n8" resp="mb">Conrad Aiken (1889-1973) American poet. 
-      </note>
+      <note target="#n1" resp="mb">Williams was an Associate Editor of Alfred Kreymborg’s little
+        magazine Others: A Magazine of the New Verse (1915-1919) and guest edited the July 1916
+        number (Vol. 3, No. 1), which included Lowell’s poem “Chinoiseries.” At the time of Lowell’s
+        letter, the magazine had briefly ceased publication, and would resume in December of 1916. </note>
+      <note target="#n2" resp="mb">June 28, 1916 letter to WCW objects to “poems of the Minna (sic)
+        Loy type </note>
+      <note target="n3" resp="mb">The other contributors to Some Imagist Poets. In late 1915, early
+        1916 Lowell, Fletcher, and Richard Aldington withdrew poems scheduled for publication in
+        Others. </note>
+      <note target="n4" resp="mb">Walter Conrad Arensberg (1878-1954), American art collector,
+        critic, and poet. He initially financed Others before withdrawing support because of
+        Kreymborg’s focus on American poets over European poets (Churchill). </note>
+      <note target="n5" resp="mb">Helen Hoyt (1887-1972), American poet. She served as an Associate
+        Editor first of Poetry, and then of Others. She edited the Woman’s Number of Others in
+        September, 1916 (Vol. 3, No. 3). </note>
+      <note target="n6" resp="mb">William Stanley Braithwaite (1878-1962), American poet and
+        anthologist who published an annual Anthology of Magazine Verse from 1913-1939. </note>
+      <note target="n7" resp="mb">Maxwell Bodenheim (1892-1954), American poet and novelist. He was
+        a frequent contributor to Others, and along with Ben Hecht co-founded The Chicago Literary
+        Times (1923-1924). </note>
+      <note target="n8" resp="mb">Conrad Aiken (1889-1973) American poet. </note>
     </back>
   </text>
 </TEI>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!DOCTYPE doc [
 <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
@@ -54,10 +54,16 @@
                   <institution>Harvard College Library</institution>
                   <repository>Houghton Library Repository</repository>
                   <collection>Amy Lowell Correspondence</collection>
-                  <idno>427718954</idno>
+                  <idno type="URI"
+                     >https://iiif.lib.harvard.edu/manifests/view/drs:427718954$5i</idno>
                </msIdentifier>
                <physDesc>
-                  <p>Three pages on stationery that reads: “MISS A. LOWELL / HEATH STREET / BROOKLINE, MASS” in upper left corner. Typewritten in black ink, editorial corrections marked in fountain pen. Text written in pencil at top of first page reads “ “Atlantic” (Sedgwick).” Also in pencil is the word “fireworks” written above “this poem” in the first line. Ink smudges appear on the last page after the text; unsigned.</p>
+                  <p>Three pages on stationery that reads: “MISS A. LOWELL / HEATH STREET /
+                     BROOKLINE, MASS” in upper left corner. Typewritten in black ink, editorial
+                     corrections marked in fountain pen. Text written in pencil at top of first page
+                     reads “ “Atlantic” (Sedgwick).” Also in pencil is the word “fireworks” written
+                     above “this poem” in the first line. Ink smudges appear on the last page after
+                     the text; unsigned.</p>
                </physDesc>
             </msDesc>
          </sourceDesc>
@@ -65,7 +71,8 @@
       <encodingDesc>
          <editorialDecl>
             <p>This letter contains references to the following:</p>
-            <p><rs key="ww1" type="theme">WWI</rs>, <rs key="freeVerse" type="theme">free verse (vers libre)</rs>, <rs key="polyProse" type="theme">polyphonic prose</rs></p>
+            <p><rs key="ww1" type="theme">WWI</rs>, <rs key="freeVerse" type="theme">free verse
+                  (vers libre)</rs>, <rs key="polyProse" type="theme">polyphonic prose</rs></p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -78,60 +85,68 @@
    <text>
       <body>
          <div type="letter">
-            <p><placeName key="brookline">Brookline, Mass.</placeName></p>
-            <p><date when="1914-09-29">Sept. 29, 1914</date></p>
-            <opener><salute>My dear<persName key="ellery_sedgwick"
-                  >Ellery</persName>:</salute><anchor xml:id="n1"/></opener>
-            <p>I am venturing to send you <title key="allies" level="a">this poem</title><anchor xml:id="n2"/> because I
-               believe in it myself, and I am in hopes that, even through a form<anchor xml:id="n3"
-               /> which I believe you do not care for, you may see its serious intent. My ideas was
-               to represent the citizen army which <placeName key="france">France</placeName> and
-                  <placeName key="england">England</placeName> have put into the field; an army made up of men of
-               all occupations and all kinds, each one fighting for the peace of the world which he
-               knows and sees to be desirable, for liberty to do and work. And the sum total of all
-               these desires making that necessary security which we call “peace,” as opposed to the
-               devastating militarism of <placeName key="germany">Germany</placeName>. At the time when I wrote
-               <title key="allies" level="a">this poem</title>, as you will see by the date<anchor xml:id="n4"/>, we did not
-               know where the allied armies were, at least we in <placeName key="England">England</placeName> did
-               not know. We only knew that they were marching to meet the Germans. It is under this
-               figure that I have portrayed them. The words are crude, often violent. They are
-               intended to represent the unsentimental anger of men who quit all they desire and
-               regard as valuable, in the midst of achievement, to fight a wild animal. The poet’s
-               remarks may appear to you as flippant. They are intended to be merely the careless
-               high spirits of such a character, thinly cloaking an urgent and serious purpose.</p>
+            <opener>
+               <placeName key="brookline">Brookline, Mass.</placeName>
+               <dateline><date when="1914-09-29">Sept. 29, 1914</date></dateline></opener>
+            <salute>My dear<persName key="ellery_sedgwick">Ellery</persName>:</salute>
+            <anchor xml:id="n1"/>
+            <p>I am venturing to send you <title key="allies" level="a">this poem</title><anchor
+                  xml:id="n2"/> because I believe in it myself, and I am in hopes that, even through
+               a form<anchor xml:id="n3"/> which I believe you do not care for, you may see its
+               serious intent. My idea was to represent the citizen army which <placeName
+                  key="france">France</placeName> and <placeName key="england">England</placeName>
+               have put into the field; an army made up of men of all occupations and all kinds,
+               each one fighting for the peace of the world which he knows and sees to be desirable,
+               for liberty to do and work. And the sum total of all these desires making that
+               necessary security which we call “peace,” as opposed to the devastating militarism of
+               <placeName key="germany">Germany</placeName>. At the time when I wrote <title
+               key="allies" level="a">this poem</title>, as you will see by the date<anchor
+               xml:id="n4"/>, we did not know where the allied armies were, at least we in
+               <placeName key="England">England</placeName> did not know. We only knew that they
+               were marching to meet the Germans. It is under this figure that I have portrayed
+               them. The words are crude, often violent. They are intended to represent the
+               unsentimental anger of men who quit all they desire and regard as valuable, in the
+               midst of achieve<pb/>ment, to fight a wild animal. The poet’s remarks may appear to you as
+               flippant. They are intended to be merely the careless high spirits of such a
+               character, thinly cloaking an urgent and serious purpose.</p>
             <p>The metre is the one in which <persName key="paul_fort">Paul Fort</persName><anchor
                   xml:id="n5"/> has been working for so long in <placeName>France</placeName>. It
                has the quality of ruggedness which is so useful for this sort of poem. It should be
                read exactly as if it were prose, and the unexpected rhymes, and the occasional
                repetition, somewhat in the manner of a refrain, are what give it its character.</p>
-            <p>I read this poem to <persName key="charles_fiske">Charlie
-                  Fiske</persName><anchor xml:id="n6"/> on the steamer coming home. You could hardly
-               suppose him to be sympathetic to anything so different from the ordinary rhyme. In
-               fact, before he asked me if I would read it to him, he prefaced his remark by saying
-               that he did not care for the modern method. But while I was reading <title key="allies" level="a">this poem</title> he
-               burst into tears and told me that he thought if I had never written anything else my
-               reputation would be made by this. I hope you will feel the same way about it, because
-               I am very anxious to have it appear in the pages of <title key="atlantic" level="j">“The Atlantic.”</title> It is
-               too serious for a pictorial paper like <title key="century" level="j">“The Century”</title> or
-               <title key="scribners" level="j">“Scribners,”</title> and <title key="poetry" level="j">“Poetry”</title> and <title key="littleReview" level="j">“The Little Review”</title> have
-               not a large enough circulation. Of course I know you will do as you think best. I
-               only hope that you may find something in the poem which you consider worth while. </p>
+            <p>I read this poem to <persName key="charles_fiske">Charlie Fiske</persName><anchor
+                  xml:id="n6"/> coming home on the steamer. You would hardly suppose him to be
+               sympathetic to anything so different from the ordinary rhyme. In fact, before he
+               asked me if I would read it to him, he prefaced his remark by saying that he did not
+               care for the modern method. But while I was reading <title key="allies" level="a"
+                  >this poem</title> he burst into tears and told me that he thought if I had never
+               written anything else my reputation would be made by this.</p>
+            <p>I hope you will feel the same way about it, because I am very anxious to have it appear in the pages of <title
+                  key="atlantic" level="j">“The Atlantic.”</title> It is too serious for a pictorial
+               paper like <title key="century" level="j">“The Century”</title> or <title
+                  key="scribners" level="j">“Scribners,”</title><pb/> and <title key="poetry" level="j"
+                  >“Poetry”</title> and <title key="littleReview" level="j">“The Little
+                  Review”</title> have not a large enough circulation. Of course I know you will do
+               as you think best. I only hope that you may find something in the poem which you
+               consider worth while. </p>
             <p>It is too bad you have had such a nasty time. I believe that I am to have the
                pleasure of dining with you on Sunday next. I do hope the cool weather will bring
                back your strength.</p>
-            <closer><salute>Sincerely yours,</salute>
-               <signed><persName key="amy_lowell">Amy Lowell</persName></signed></closer>
+            <closer><salute>Sincerely yours,</salute></closer>
          </div>
       </body>
       <back>
          <div type="notes">
             <!-- Need to tag items in footnotes -->
-            <note target="#n1" resp="mb"><persName key="ellery_sedgwick">Ellery Sedgwick</persName> (1872-1960), editor of the <title key="atlantic" level="j">Atlantic Monthly</title>
+            <note target="#n1" resp="mb"><persName key="ellery_sedgwick">Ellery Sedgwick</persName>
+               (1872-1960), editor of the <title key="atlantic" level="j">Atlantic Monthly</title>
                from 1908-1938. Sedgwick, married to a childhood friend of Lowell, was one of her
                first literary connections. Her first published poem, “A Fixed Idea,” appeared in the
                Atlantic in 1910. </note>
-            <note target="#n2" resp="mb"><title key="allies" level="a">“The Allies,”</title> from <title key="menWomenGhosts" level="m">Men, Women and Ghosts</title> (Macmillan, 1916).
-               The poem was first published in <title key="littleReview" type="j">The Little Review</title>, January, 1915. </note>
+            <note target="#n2" resp="mb"><title key="allies" level="a">“The Allies,”</title> from
+                  <title key="menWomenGhosts" level="m">Men, Women and Ghosts</title> (Macmillan,
+               1916). The poem was first published in <title key="littleReview" type="j">The Little
+                  Review</title>, January, 1915. </note>
             <note target="#n3" resp="mb">The poem is written in what Lowell called Polyphonic Prose,
                poetry without enjambment that appears on the page looking like prose. </note>
             <note target="#n4" resp="mb">The poem’s subtitle, August 14, 1914, marks the German
