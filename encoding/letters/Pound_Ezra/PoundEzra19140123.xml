@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="ezra_pound">Ezra Pound</persName>, <date when="1914-01-23"
+               >23 January 1914</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref=""> <!-- Insert editor (whoever wrote the footnotes) here --> </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:427338414$1i</idno>
+               </msIdentifier>
+               <physDesc><p>Two pages typewritten in black ink. Archival notes read "(Ezra)" in pencil at the top of first page. Amy Lowell's return address is provided in the top left corner:          
+                  MISS <persName key="amy_lowell">A. LOWELL</persName>
+                  <placeName key="heath_street">HEATH STREET</placeName>
+                  <placeName key="brookline">BROOKLINE, MASS.</placeName> Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to keyword-ography --> </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+<text>
+      <body>
+         <opener><dateline><date when="1914-01-23">Jan. 23, 1914.</dateline></date>
+         <salute>My dear Mr. <persName key="ezra_pound">Pound</persName>:</salute></opener>
+         <p>Thanks for the letter. It took a load off my mind. I quite agree with you about correspondency, but I did want to know if you had got the poems. I am glad they are all going in.</p>
+         <p>The paper is looking up, I think; in the prose articles, I mean. Why did you get out of the direct control: A sacrifice to friendship, I imagine. You certainly make an excellent friend. By the way, I liked your friend <persName key="richard_aldington">Richard Aldington</persName>’s poem, "The Poplar," in current "<title key="poetry">Poetry</title>," and it was a good idea, your getting <persName key="dh_lawrence">Lawrence</persName> for <persName key="harriet_monroe">her</persName>.</p> 
+         <p>I am going out to <placeName key="chicago">Chicago</placeName> next month, to try and make her publish some more of my things which she has, and also load some more on her, if possible.</p>
+        <p>You might send me half a dozen copies of "<title key="egoist">The Egoist</title>" which contains my things, if you will, as it cannot be bought in this country.</p> 
+         <p>I sent some of my things, the other day, to</pb> "<title key="smartSet">The Smart Set</title>," with a personal note to Mr. <persName key="willard_wright">Wright</persName>, whereupon they all came travelling home again, with a letter from another man, who made no sort of scruple in opening my letter, in spite of the docket, and who begged me to send him some more of my work. I now see by the papers that Mr. Wright is no longer editor, and they are harking back to the old policy of the magazine, so it is no wonder they refused my things, and I certainly don’t want to appear in it, if it is going to be the kind of magazine it used to was.</p>
+         <p>I suppose you are joking</p>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="ezra_pound">Ezra Pound</persName>, <date when="1922-04-22">22 April
+                  1922</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:427338414$12i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>One page typewritten in black ink. The address given for Pound is
+                        <persName>Ezra Pound</persName>, Esq 70 bis, <placeName
+                        key="rueNotreDamDesChamps">rue Notre Dam des Champs</placeName>
+                     <placeName key="paris">Paris</placeName> Vie <placeName key="france"
+                        >France</placeName>. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1922-04-22">24 April 22</date></dateline>
+            <salute>Dear Ezra:</salute></opener>
+         <p><foreign xml:lang="fr">Pas de bile</foreign>, of course, I have never had any. As what
+            to people say about me – bless your heart, do you think that worries me? Because it
+            doesn’t, not the least little bit. Of course they say that I pay for my advertising,
+            that’s just the sort of thing they would say. It is always a wonder to me why they do
+            not go a step farther and say that I hire somebody to write the poems.</p>
+         <p>Now how am I going to answer your letter when I do not know what it is about? Of course
+            I should like to know what new scheme you have in view, but I cannot possibly give any
+            assent or dissent to anything until I know what that thing is. Financially, I am a
+            broken reed since the war; aesthetically, I am obstinate; personally, I am friendly, and
+            I consider you an uncommonly fine poet who ought to have an impresario, for your
+            knowledge of how to “get yourself over,” as we say in this little country is <hi
+               rend="underline">nil</hi>.</p>
+         <closer>Good luck, and let us hear from you,</closer>
+      </body>
+   </text>
+</TEI>
