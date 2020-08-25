@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1923-12-08">08 December 1923</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$141i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Two pages typewritten in black ink. Address given for H. D. in the top left
+                     corner of the first page: Mrs. Richard Aldington c/o Manager, Lloyd’s Bank, 67
+                     Kingsway, <placeName key="london">London</placeName> W.C.2. <placeName
+                        key="england">England</placeName>. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1923-12-08">December 8, 1923.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>Here are our half-yearly <title key="some_imagist_poets">Imagist Anthology</title> royalties:</lb>
+            By Sales</lb>
+            19 Imagist Poets .67-1/2 $12.32</lb>
+            12 “ 1916 .67-1/2 8.10</lb>
+            13 “ 1917 .67-1/2 8.77</lb>
+            $29.69</lb>
+            1/6 of $29.69 is……<measure type="currency" num="$4.95">$4.95</measure></lb>
+            I should have sent them in August, and I feel very guilty that I did not do so. Nothing
+            but the smallness of the sum seems to excuse my dilatoriness, but the truth is I have
+            been so drowned in this <title key="johnKeats"><persName key="john_keats">Keats</persName> book</title> that I have hardly gotten out of it for a moment. You
+            will forgive me, won’t you?</p>
+         <p>I do not know where you are or what you are doing. Do write and tell me about
+            everything, and do let me know where <persName key="winifred_bryher">Winifred Bryher</persName> is. I sent her a whole batch of
+            unpublished poems the other day – really about two months ago – and I have not heard a
+            word from her to say that she has received it. I sent it as usual to <placeName key="audleyStreet">South Audley Street</placeName>, where she always tells me to address her as the surest place. I suppose she has
+            gone to the <placeName key="parnirs">Parnirs</placeName>, of the <placeName key="southSeaIslands">South Sea Islands</placeName>, or the <placeName key="northPole">North Pole</placeName>, or somewhere, and the
+            package is awaiting her return home. Whatever you know about here, do tell me, and
+            tell me everything you are doing. I understand that <orgName key="houghton_mifflin">Houghton Mifflin</orgName> are to issue your
+            books next year; at least, so <persName key="ferris_greenslet">Ferris Greenslet</persName> told me a little while ago. I shall be
+            delighted to have them in print, for I should like to send a number of copies around for
+            Christmas.</p>
+         <p>There is precious little news here. I have been hard at work all Summer over my <title key="johnKeats"><persName key="john_keats">Keats</persName> book</title>, and have hardly been away from home. I have just been in <placeName key="nyc">New York</placeName> for two weeks,
+            and am going there again next week to give some lectures, but I am minimizing my
+            lectures this year in order that I may</pb> devote all my time to Keats. Getting
+            him through the press will prevent my going abroad this Summer, and sometimes it really
+            seems as though I should never go abroad again; but, of course, I know that is not true,
+            I might just possess my soul in patience.</p>
+         <p>I am awfully anxious to hear all about you. It seems so long since I have had a letter,
+            and I hate to get out of touch with you. It is one of the advantages of the Imagist
+            anthologies that I have to send the royalties to you every six months. Lots of love, my
+            dear, from both <persName key="ada_russell">Ada</persName> and me, and write soon.</p>
+         <closer>Affectionately yours,</closer>
+      </body>
+   </text>
+</TEI>

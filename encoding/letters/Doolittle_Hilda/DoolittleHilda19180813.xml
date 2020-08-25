@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1918-08-13">13 August 1918</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$78i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Five pages typewritten in black ink. Mrs. Richard Aldington 44 <placeName
+                        key="mechlenburghSquare">Mechlenburgh Square</placeName>
+                     <placeName key="london">London</placeName>, W.C. <placeName key="england"
+                        >England</placeName> is the typed address given for H. D. in the top left
+                     corner of the first page. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1918-08-13">August 13, 1918.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>I am perfectly delighted with this photograph of <persName key="richard_aldington">Richard</persName> which <persName key="helen_doolittle">your mother</persName> sent to me. I
+            think it is the best one of him that I have ever seen. Personally, I like him better
+            without the beard which appeared after I left, and which showed in the only other
+            photograph of him which I had. He looks well, which is good to see, and brings him up
+            before me so vividly that it makes me more homesick than ever.</p>
+         <p>I have not heard from you for ages. I rather thought that I should get a letter after
+            you got my article, and that you got it I know, for <persName key="dh_lawrence">Lawrence</persName> wrote me that you had sent
+            it to him. Perhaps your letter went down, but I am tormented with the fact that perhaps
+            you did not like the article, and hence your silence. That would really grieve me very
+            much, so that I hope it is merely my hyper-sensitive desire to get a little on paper of
+            my great admiration for Richard’s work, I was so sorry not to be able to include him in
+            my book that I specially wanted you to like this article. But I try to console myself by
+            feeling that probably your letter is sitting at the bottom of the broad <placeName key="atlanticOcean">Atlantic</placeName>.</p>
+         <p>Here are our half-yearly royalties:</lb> 
+            <hi rend="underline">SALES</hi></lb>
+            34 <title key="some_imagist_poets">Imagist Poets</title>, 1915 at .36-1/4 12.33</lb> 
+            24 " " 1916 at .36-1/4 8.70</lb> 
+            71 " " 1917 at .36-1/4 25.74</lb>
+            $46.77</lb>
+            $46,77 divided by 6-$7.76 or 1.11.9</lb>
+            They are not, as you see, of a very magnificent figure, but that can hardly be
+            expected. The War has cut into everybody’s sales – everybody who is not writing war
+            books, that is.</p></pb>
+         <p>As I wrote you last year, I am now letting the Anthologies go slowly, but surely, out of
+            print. I wrote to all of you and asked your advice on the subject, <add place="above">last year</add> and all of
+            you that deigned to reply agreed. I do not remember whether <persName key="fs_flint">Flint</persName> gave his opinion, and
+            I am quite sure that Lawrence never gave his, but the price of reprinting now is so
+            great and the sales so inconsiderable, and the fact that most of the poems in those
+            books have been reprinted in our own various books makes me feel that we had better let
+            them lapse. If you have changed your mind since you agreed, let me know, because, of
+            course, I want to be quite fair on the subject. But I do think it is probably better for
+            all of us to have people now forced to buy our individual books rather than getting us
+            this way.</p>
+         <p>There are now on hand:</lb>
+            4 Copies of "Some Imagist Poets – 1915."</lb>
+            147 " " "Some Imagist Poets – 1916."</lb>
+            94 " " "Some Imagist Poets – 1917."</lb>
+            So you see that it will not be a great while before they are unobtainable. Then they will probably be greatly desired by
+            collectors and bought at enormous figures at auctions, and we shall gain nothing
+            thereby. But such is the way of fame!</p>
+         <p>I wonder if you have come across a little pamphlet on me written by an unknown admirer,
+            Miss <persName key="winifred_bryher">Winifred Bryher</persName>. I know nothing whatever about the girl; perhaps you do. She is a
+            great admirer of yours, and writes really extremely good poetry. But this pamphlet is
+            the first of her published works, I believe. I judge that she has been very much
+            protected and cared for by Mr. <persName key="clement_shorter">Clement K. Shorter</persName>, the editor of "<title key="sphere">The Sphere</title>", and other
+            gentlemen of good standing, since her pamphlet has been sent not</pb> only to all the English
+            newspapers, but to all the American periodicals as well, and I can hardly think that a
+            new writer would have thought of doing this without advice.</p>
+         <p>Her book has been reviewed most favourably by Mr. Shorter in "The Sphere" and by some
+            one in "<title key="tatler">The Tatler</title>," and by some one else in the Literary Supplement of the "<title key="times">Times</title>." But
+            it has been fearfully slammed by an oaf named <persName key="james_douglas">James Douglas</persName> in "<title key="star">The Star</title>." The
+            papers here are principally amused that she should consider me unknown, which is
+            flattering as far as it goes.</p>
+         <p>Seriously, the girl has insight and a good deal of critical faculty, but she expresses
+            herself with such extreme admiration that I am afraid<add place="above"> that</add> perhaps her very words cause
+            their own reaction.</p>
+         <p>I have had a very characteristic letter from <persName key="michael_sadler">Michael Sadler</persName>, asking me if it did not
+            embarrass me to have a pamphlet written about me. Perhaps it does a little, considering
+            the terms she uses, but I am very grateful to her just the same. There is still too much
+            misunderstanding for one not to be glad to find such whole-hearted sympathy, and the
+            fact that I have never seen the girl, and know no one whom she knows, shows that it came
+            entirely through the poems.</p>
+         <p>I wish that I could send you a copy. Unfortunately it is not to be bought on this side
+            of the ocean. It is published by the <orgName key="eyreSpottiswoode">Eyre &amp; Spottiswoode</orgName>, and probably your circulating
+            library could produce it if you care to see it.</p>
+         <p>I feel quite sure that the <persName key="ezra_pound">Ezra</persName> crowd will get hold of it and</pb> make awful fun of it in
+            "<title key="egoist">The Egoist</title>," but possibly that will not do a great deal of harm, even if they do. What
+            does Ezra mean in his ultimatum in the last number of "<title key="littleReview">The Little Review</title>"? It sounds
+            almost as if he were going to withdraw from that Paper. It has made not hit on this side
+            of the ocean at all. I do not know what Ezra’s particular crowd may think of it since he
+            undertook so much of the management, but here it is unknown and unconsidered, and <persName key="james_joyce">James Joyce</persName>’s pornographic obscenities have not even caused a ripple of interest outside of
+            <placeName key="greenwichVillage">Greenwich Village</placeName>, where, I suppose, they are considered even as the Bible.</p>
+         <p>Do you remember my writing to you last year telling you what a gratuitous insult <persName key="wc_williams">William Carlos Williams</persName> had thrown at me in a series of letters? Well, by way of making things
+            too funny, here comes a very pleasant note from him in praise of "Appuldurocombe Park,"
+            which came out in the August number of "<title key="poetry">Poetry</title>." Oh, Hilda, things are odd!</p>
+         <p>You cannot think how hungry and thirsty I am for a sight of you and Richard. So many
+            poets here have gone to the war, and the travelling expenses are now so high, that we
+            meet each other very seldom in this vast country; and as there are none settled here in
+            <placeName key="boston">Boston</placeName>, with the exception of <persName key="conrad_aiken">Conrad Aiken</persName> with whom I have a continued and to me quite
+            unintelligible feud, it is lonely in the extreme.</p>
+         <p>I find, as the war goes on, that it is increasingly difficult to take things out of
+            one’s brain when one never has any stimulus of other poets to put things in. Luckily, I
+            have a good deal to run on, but somehow I feel that if the war does not end soon we
+            shall all be done, all</pb> people would be in prison cells.</p>
+         <p>My health, too, is so precarious and so rotten that it makes all travelling an added
+            burden. However, I do not mean to croak, as I am very much better off than most
+            people.</p>
+         <p>I sent to Sadler for some copies of "<title key="newPaths">New Paths</title>," and he said that he was sending it to
+            me, but it has not come yet. I am most anxious to see all the things that you have been
+            doing.</p>
+         <p>I cannot get Richard’s proofs out of <persName key="brown">Brown</persName>. He has asked me to read them for him, but he
+            never sends me any, and whether he is going to get along without my intervention, or
+            whether he is just as usual procrastinating, I do not know.</p>
+         <p>Your mother says that I had better send my letters to <placeName key="mechlenburghSquare">Mechlenburgh Square</placeName>, as you may
+            not stay in <placeName key="cornwall">Cornwall</placeName> very long, so I am sending this there and hope that it will be
+            promptly forwarded. Do tell me how yours and Richard’s work is getting on.</p>
+         <closer>Always affectionately yours,</closer>
+      </body>
+   </text>
+</TEI>

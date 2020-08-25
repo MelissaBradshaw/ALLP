@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+               key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1916-06-28">28 June 1916</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$20i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>One page typewritten in black ink. Archival notes read "Aldington" in pencil
+                     at the top of the page. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1916-06-28">June 28, 16.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+        <p> I enclose a letter to <persName key="richard_aldington">Richard</persName>, which I have left open on purpose, so that you can read it before you send it on to him. It is, of course, to you both.</p>
+         <p>I am awfully sorry that you cannot do the <placeName key="london">London</placeName> "chronique" while he is gone, but I perfectly understand why that would be impossible; and, as you will see by my letter to him, <persName key="ws_braithwaite">Braithwaite</persName> will keep the place open for him.</p> 
+         <p>I know you are fearfully lonely, my Dear. I wish I were anywhere near, it would be so good if <persName key="ada_russell">Ada</persName> and I could drop in on ou at intervals and cheer you up, and it would be so good for us to have you near by. But you are a brave woman, Hilda, and a good poet, and I believe those two qualities are the ones necessary to make a great artist. I have no words to describe my admiration for your poems. As I wrote Richard, they are exquisite and they are strong, and I think they will do a great deal to make people understand your work who did not quite get it in your smaller pieces, for no one can resist the human force, the tragic, awe-inspiring quality of these poems, even the people who know nothing of technique.</p> 
+         <p>I am going to try to write to you and Richard very often while he is away. Shall I send his letters to you, or direct to him? I am sure you will see <persName key="john_fletcher">Fletcher</persName> before long, as it was one of his chief reasons for going to <placeName key="england">England</placeName>.</p> 
+         <closer>With lots of love,</closer>
+               </body>
+   </text>
+</TEI>

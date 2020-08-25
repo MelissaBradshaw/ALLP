@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date when="1915-11-23"
+               >23 November 1915</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref=""> <!-- Insert editor (whoever wrote the footnotes) here --> </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$1i</idno>
+               </msIdentifier>
+               <physDesc><p>Five pages typewritten in black ink. Archival notes read "Aldington" in pencil at the top of first page. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to keyword-ography --> </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1915-11-23">November 23, 1915.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+            <p>Your letter of <date when="1915-11-04">November 4th</date> reached me in <placeName key="nyc">New York</placeName><!--should I tag this as the city or the state?--> a few days ago. Now that you say that <persName key="dh_lawrence">Lawrence</persName>’s book is "magnificent," I think perhaps I went off at half cock in my letter to <persName key="richard_aldington">Richard</persName> the other day. I wish you would send me the book, so that <persName key="john_fletcher">Fletcher</persName> and I could read it. I have no wish to do Lawrence any injury, and of course I do not care a snap about the public executioner; it was only as a business proposition that I thought we might have to decline him. I am going to take the matter up with <persName key="ferris_greenslet">Ferris Greenslet</persName> in a few minutes over the telephone, and see what he thinks. I do think Lawrence is getting cracked on sex things, and his presentation of them is not always of the most refined. It really does not matter much what you say in this world, Hilda; it is the way you say it that counts; and sometimes Lawrence’s way of saying it is most unpleasant.</p>
+            <p>Your second set of poems was certainly better than the first. And I think your arrangement is very good indeed. Personally, the one I like best is "Midday." I love that one. They are all beautiful. Your things always are, and give me the very greatest pleasure. As to my being able to get them in to any magazines, that is more doubtful. Most of the magazines here do not understand them – that is the frank truth; and except for <persName key="harriet_monroe">Harriet</persName> and "<orgName key="littleReview">The Little Review</orgName>"<!--title or org name?--> and things of that sort, it is almost impossible to place them. I</pb> will try sending "Late Spring" to "<orgName key="century">The Century</orgName>," and also "<orgName key="contest">The Contest</orgName>." I wish I thought there was any chance for "Sea Gods," but I am afraid they won’t understand it, beautiful as it is, though I will see what I can do; but do not lay it up against me, if I am unsuccessful. This getting things placed in the regular magazines is no joke whatever.</p> 
+            <p>However, I think we are slowly having an effect. Strangely enough, I came across some excellent <orgName key="imagists">Imagist</orgName> poetry here the other day, written by <persName key="jean_untermeyer">Mrs. <persName key="louis_untermeyer">Louis Untermeyer</persName></persName><!--should i tag this as both jean and louis?-->. Her husband’s poetry is, as you know, quite different and as a rule not good at all. But much the best poetry which I have seen, written by anyone outside our immediate group, are three poems of hers. Untermeyer himself, having been our frank enemy, is gradually coming to be very much interested; and both he and she are thoroughly nice people, honest and upright as possible. I like them both very much. Louis Untermeyer will not do a single thing unless he believes it himself, and I respect that attitude. Not only does he write poetry, but he reviews, and on the whole reviews very well, and quite honestly, in the <orgName key="chicagoEveningPost">Chicago Evening Post</orgName>.</p> 
+            <p>I think we are gradually having a distinct effect upon poets and people here. It is slow and it is hard work; but it is coming. A Yankee poem of mine called "Reaping," which came out in "<orgName key="newRepublic">the New Republic</orgName>" some weeks ago, has made a number of friends. I have two lectures in New York next week: one before the <orgName key="cosmopolitanClub">Cosmopolitan Club</orgName>, and one before the <orgName key="americanPoetrySociety">American Poetry Society</orgName>. And all these things help.</p> 
+            <p>But I think the most important thing of all is that this coming <title key="some_imagist_poets">Anthology</title><!--check--> should be a great advance on the last one, should be more marked and more virile. I quite agree with you that these last ones of yours have more body than the earlier ones. I think "Sea Gods"</pb> is fine. The second part about the violets fills me with delight and the sharpness of <del type="strikethrough">the </del>beauty which always hurts a little. <add place="inline">(The beauty hurts, I mean)</add><!--come back to depending on decision re: additions and deletions--></p> 
+            <p>Please do not let Richard’s feelings be hurt if Fletcher and I think two of his contributions not quite as good as they ought to be. I realize perfectly the strain under which he is working at present. The great improvement in "<title="egoist">The Egoist</title>" alone shows what tremendous work he is putting into it. How you two can write at all with the War so close to your doors I cannot see. But the public is not going to make all these allowances, and therefore we want to come out as strong as possible. Fletcher and I have so much written that we could of course fill in any gaps that are necessary. But we do not want to do that, because that would give us so much more space than I think we ought to have in our thoroughly democratic volumns <!--I corrected this from volums [sic]-->.</p>
+            <p>I am asking Fletcher to send you his poems at once, and I enclose one which you have not seen. I think my contribution should be the "Spring Day" which came out in "The Egoist," and this new one which is one of a series of four Yankee sketches I have done. The technique is quite different from my usual work, as you will see; it is dramatic rather than lyric, and I have been obliged to stick to the language the lady would have used herself. I think myself it is good; in fact, I am quite willing to abide by it; and the various people that I have read it to all like it very much. "Reaping" was the first one of this series, and this one is at present being considered by "The New Republic." If they do not take it, "The Century" has asked me to submit it to them; and I</pb> have promised to give Harriet third choice on it if neither of the other magazines takes it. I think it will startle you and Richard a little as being certainly a new departure for me, but I can assure you that it is true to the people described and that going insane is terribly prevalent in the <placeName key="newEngland">New England</placeName> villages, cut off as they are from the world during the long winters. It is a very different New England and portrayed very differently from <persName key="robert_frost">Frost</persName>’s. I think perhaps it is a truer New England than his, nearer the soil. But if you do not like it, just turn it down unhesitatingly, and we will put "Patterns" in instead, or I will submit something else entirely different. But if you do like it, I think "Spring Day" and "Off the Turnpike" could complete my contributions. But of course I can add "Patterns" to the other two or anything else you please, if we need to fill more space. Do not hesitate at all to say exactly what you think about it. I have written fewer short, fugitive things this year; things that you can chew on harder seem to give me greater pleasure to do just now, and I believe absolutely that an artist should follow his inclination in these matters.</p> 
+            <p>I have just posted my new book to you and Richard. <orgName key="macmillan">Macmillan</orgName> has taken one hundred copies for <add place="above">the </add><!--check after getting answer about additions-->English sale; but there is so much prejudice against American work over there that I do not believe they will sell them. I shall be very anxious to see Richard’s review of it, because I do not expect to get many intelligent reviews over here. The translations came out unexpectedly well. I only wish <persName key="remy_gourmont">Remy de Gourmont</persName> could have lived to see his, as I think he would have liked them.</p> 
+            <p>I cannot tell you how I long to see you both. There are no two people in the world whom I miss so much and whom I feel it such a loss to be parted from. I wish this weary War would end</pb> and permit us all to meet again, and I wish more than I can say that you and Richard could come over here, where I am sure we could all shove together into an excellent position. It is coming as it is, but it comes very slowly, and I am the only person who can push it in any way except by the poetry itself, as Fletcher is not very good at prose writing which inclines people to agree with him, and so far he has not succeeded in placing any prose articles except in "<title key="poetry">Poetry</title>." He has done some excellent work this year, and I have succeeded in placing two of his poems in "The New Republic." But we have a bitter enemy in one of the editors of "The New Republic," his name is <persName key="francis_hackett">Francis Hackett</persName>, and he has charge of all the book reviews. Why he hates us so I do not know, but the review I am enclosing to Richard by <persName key="padraic_colum">Padraic Colum</persName>, taken in connection with the articles they printed by <persName key="conrad_aiken">Conrad Aiken</persName> against Imagism, will show you their attitude, or rather the attitude of that particular editor. They are kinder to me personally, and I have had all the space I have been able to use.</p> 
+            <p>But the fate of Imagism rises or falls by this Anthology. We have created a lot of interest and a storm of abuse. It depends upon that next book whether the abuse is <subst><del type="strikethrough">bound</del><add place="above">forced</add></subst> to turn into a reluctant praise. Do be very careful what you send of <persName key="fs_flint">Flint</persName>’s and Lawrence’s. Turn down ruthlessly whatever you think is not up to standard, and if possible pull the standard up a little and make them measure to it. And above all, do not lose courage and do not let Richard, because things are coming on splendidly.</p>
+            <closer>Always affectionately,</closer>
+      </body>
+   </text>
+</TEI>

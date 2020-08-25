@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1918-10-03">03 October 1918</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$84i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Five pages typewritten in black ink. Address given for H. D. in the top left
+                     corner of the first page: Mrs. Richard Aldington care of Mrs. Randall, 3
+                     Christchurch Place Hampstead, <placeName key="london">London</placeName>, N.W.
+                        <placeName key="england">England</placeName>. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1918-10-03">October 3, 1918.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>I have sent you my new book<!--which book?-->. Perhaps I should say <persName key="richard_aldington">Richard</persName>’s book, seeing as how he is
+            the presiding deity over my volume. I trust that you will like it, but I am afraid that
+            you will not. I seem to remember that Richard, after once having praised "polyphonic
+            prose," went back on it, so possibly you will not care for the volume, considering its
+            form. However, such as it is, here it is.</p>
+         <p>To me came your good letter of what date I cannot say, since you never date them, but
+            the one in which you tell me that <persName key="winifred_bryher">Winifred Bryher</persName> is not Winifred Bryher. My dear, what
+            a bomb shell! Who on earth is she? My mind does not run easily on the purlieus of
+            "richest men." I have not the ghost of an idea who is rich in <placeName key="england">England</placeName> and who is poor. I
+            had an idea that the Duke of Westminster was the richest man in England, but from what
+            you say I can hardly suppose that Winifred is a young peeress. The only other things
+            that I can think of are a cosmopolitan banker and a large, native, good-natured
+            brewer.</p>
+         <p>But, in either case, I cannot see what that has to do with Winifred, and I regard her
+            self-consciousness on the subject as extremely foolish, and I would write and tell her
+            so, only you tell me that I must not mention it to her.</p>
+         <p>It is a handicap to be even well off. My father was not the "richest" anywhere, and yet
+            I have had enough trouble as I am in getting people to realize that I may be a decent
+            poet even if I am not starving in a garret. But it can be done I know, and I am happy to
+            say that I think all the newspapers and the people who once regarded me as an</pb> amateur
+            because necessity was not howling under my windows have now given up all thoughts of me
+            as anything but a hard-working and serious writer.</p>
+         <p>Winifred need not hide her name under a bushel. She ought really to rejoice on the added
+            handicap, and as to thinking that anybody would like her<add place="above"> only</add> on account of her money –
+            my but that is a snobbish thought! One has known even multi-millionaires and kept one’s
+            head, and, after all, Winifred did not make the money any more than she made her nose.
+            (In confidence, my dear, is she of the race that has a nose, and is that perhaps the
+            difficulty?) She is no more to be courted for that fact than for anything else for which
+            she is not responsible. Anyhow, I cannot help thinking that she would do better if she
+            did not hide under a nom de plume, and anyhow I am quite sure that she should trust me
+            with her real name – a secret which I will promise not to divulge if she does not wish
+            it – and you can assure her that I do not care a button whether she is a charwoman or a
+            princess of the blood royal. For God’s sake tell her that we are Americans, you and I,
+            and these things do not matter.</p>
+         <p>I think that she has a promise; I think that she needs sympathy and encouragement; I
+            think that you can do her a lot of good. After all, to think that people will care for
+            you anything except your essentials is a form of snobbishness, even if it is a
+            backhanded snobbishness. And don’t let her be a snob. It is a mistake, and if she thinks
+            that I am a snob – Oh Lord, she ought to meet me!</p>
+         <p>Of course tell her that I will be as nice as possible when she comes to <placeName key="usa">America</placeName> and do
+            everything to make her stay comfortable. I do not promise to ask her to spend the Winter
+            with me in the fashion that</pb> the English love so well, (but that, perhaps, you need not
+            say,) but she can count on me in every possible way. Certainly I owe her a great deal
+            for her interest and all that she is doing for me over there, as she seems to have
+            aroused Mr. <persName key="clement_shorter">Shorter</persName> to a violent partisanship on our side which, although it may annoy
+            certain of the younger men, I think cannot fail to do us good. As to Mr. Shorter’s
+            conservatism – what can you expect? The wonder to me is that he sees anything in us at
+            all. He is, however, a kindly, cosmopolitan, well-read gentleman, and, not being <persName key="ezra_pound">Ezra</persName>, I
+            approve of not quenching his smoking flax. I am thankful for all the appreciation that
+            we can get, and I never ask impossibilities of the middle aged, or of the conservative
+            papers from which I have received some amusing clippings.</p>
+         <p>I understand that he is going to write a paper on your Greek translations soon for "<title key="sphere">The Sphere</title>."</p>
+         <p>I thought that Winifred’s little article on all of us in "<title key="saturdayReview">The Saturday Review</title>" was very
+            interesting. I think that she should be a little more explicit as to what we have
+            written, because I do not think that people know us well enough to jump right away at
+            the knowledge that she assumes that they have, and I think she errs on the side of
+            over-exuberance and praise – an unfortunate fault for the subjects of her articles, as
+            over-praise always brings its own antidote in the reader’s mind, just as over-blame
+            does. But these things are slight and few, compared with the many things that she does
+            well and her genuine understanding and enthusiasm.</p>
+         <p>As to <persName key="john_fletcher">Fletcher</persName>, I despair of him. I had a letter from him the day after I had yours,
+            full of carping criticism and somewhat silly</pb> violence. He seems to have got it into his
+            head that I am his enemy instead of his friend, I do not know why, but I know him well
+            enough to know that there is never any use in remonstrating by letter. He makes such
+            ridiculous statements, such as that he has not seen any of our crowd since the
+            beginning of the year and then the following, "I feel that I must travel my own track
+            and they theirs." As if one could not see any one who is not writing exactly as one is
+            writing one’s self; In that case, dear Hilda, neither you nor I would see anybody at
+            all. We would live in a charming but icy isolation, contemplating our own navels and
+            gradually folding up inside out.</p>
+         <p>I regard Fletcher as a purely pathological case. I am fond of him, but I think he is
+            perfectly unsatisfactory, and I confess that this new manner of writing does not give me
+            any pleasure, at least none of the poems that I have seen in this later style have. I
+            did not care for his two contributions to <persName key="michael_sadler">Sadler</persName>’s "<title key="newPaths">New Paths</title>." And, by the way, why
+            were you not represented in that volume. Richard said that he had asked you both to
+            contribute. I am afraid that you are hypercritical of your own work. I wish that I were
+            there to give you a jolt and tell you how frightfully good it is, and now that the war
+            news is so good I cannot help thinking that some time or other we shall all meet again
+            and resume the happy intercourse that we had before. Certainly those seven short weeks
+            that we all passed together in 1914 have made all the difference in my life, and
+            certainly you and Richard are among the best friends I have.</p>
+         <p>It is splendid to know that Richard has such a good job and is out of danger. I have
+            just received word that my nephew has been distin</pb><!--pb in middle of word-->>guishing himself on the firing line, so
+            I feel quite happy. Richard asked me to tell him his name and address, so that in case
+            they were ever together, he might look him up. Here it is:</lb> 
+            Captain <persName key="james_roosevelt">James A. Roosevelt</persName>,</lb>
+            302nd Ammunition Train,</lb>
+            77th Division,</lb>
+            American Expeditionary Force</p>
+         <p>I have had a letter from <persName key="dh_lawrence">Lawrence</persName> which tells me that he has dedicated <title key="newPoems">his last book of poems</title> to me. He seems frightfully blue, and I do not see how he can be otherwise. His
+            prospects certainly are far from bright. It is no use telling him that it is his own
+            fault. His principle is never to bow to the taste of the public, and although I think a
+            certain amount of compromise is necessary, still his attitude is fine if suicidal.</p>
+         <p>Please tell me all about your call on Winifred, which you said that you were going to
+            make the afternoon you wrote. And please, oh please, dear Hilda, tell me the girl’s
+            name! If you prefer I will not mention that you told it to me. I will keep it shut up in
+            my heart, but I feel as if I must know it.</p>
+         <p><persName key="ada_russell">Mrs. Russell</persName> sends her best love, and so do I, and please pass it on to Richard to whom
+            I will write in a few days.</p>
+         <closer>Affectionately yours,</closer>
+      </body>
+   </text>
+</TEI>

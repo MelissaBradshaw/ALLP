@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+               key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1916-07-07">07 July 1916</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$21i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Two pages typewritten in black ink. Archival notes read "Aldington" in pencil
+                     at the top of the first page. Unsigned. Includes a postscript.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1916-07-07">July 7, 1916.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>I am enclosing a draft for <measure type="currency" num="£2.10">two pounds and ten pence</measure>, which represents <persName key="brown">Brown</persName>’s second instalment of ten dollars of the <measure type="currency" num="$30">thirty dollars</measure> he owed <persName key="richard_aldington">Richard</persName> on the agreement I made with him. There is still another ten dollars due; but as I am going to the country next week, I am terribly afraid that I shall not be able to collect it until Autumn, as the only way I can get it is by telephoning him, making a date for payment, then telephoning again once or twice after the date for payment has passed, and eventually sending in a man to get the money direct. However, I have no doubt that you will get it in time.</p> 
+         <p>Do drop me a line and tell me how things are going with you, and where Richard is. You people write so seldom nowadays that it makes me feel a thousand miles away from the centre of things, "the centre of things," of course, being where there are the most <orgName key="imagists">Imagists</orgName> at the moment.</p>
+         <p>Professor <persName key="william_phelps">William Lyon Phelps</persName> of <placeName key="yale">Yale</placeName> has written a very nice, though very slight, review of us for "<title key="poetryReview">The Poetry Review</title>." The paper is not out yet, but I saw the review in manuscript; it will be out in a day or two, and I will send you a copy. He is quite wild over Richard’s "Eros and Psyche," and likes your poems in this <title key="some_imagist_poets">Anthology</title> better than anything of yours he has read.</p>
+         <p>It is extraordinary how the movement is progressing. <persName key="wilkinson">Mrs. Wilkinson</persName> of the <placeName key="losAngeles">Los Angeles</placeName> "<title key="graphic">Graphic</title>" was here yesterday. She is tremendously enthusiastic, and I think she will write up some more about us in the "Graphic." One can hardly take up a paper that does not mention some of us; in fact,</pb> it is becoming a countrywide movement this side of the <placeName key="atlanticOcean">Atlantic</placeName>, and it is astonishing to think that a little handful of perfectly unknown poets have done this thing, for as <persName key="ferris_greenslet">Ferris Greenslet</persName> said to me yesterday, we have put cosmic poetry "absolutely on the blink." And it just proves what perfect sincerity and earnest endeavour will do.</p> 
+         <p>I wrote so recently that there is not much to say. There is another article coming out about all the new posts in a monthly here. The author, <persName key="richard_hunt">Richard Hunt</persName>, read it out loud to me the other day. It was very interesting, but I am sorry to say that especially featured me, but that is the commission he received from the editor, and of course what helps one of us, helps all.</p> 
+         <p>Our Anthology is leading the sales of this Spring’s issues of the <title key="newPoetrySeries">New Poetry Series</title>, as it did last year. I do not think it is going quite so rapidly, because then we were a freak novelty; but we have sold over five hundred copies already, and we have only been out a couple of months, so that is not so bad.</p> 
+         <p>Lots of love, dear Hilda, and write when you can.</p> 
+         <closer>Always affectionately,</closer>
+         <postscript>P.S. "The Poetry Review" has just come, and I hasten to send it to you.</postscript>
+               </body>
+   </text>
+</TEI>

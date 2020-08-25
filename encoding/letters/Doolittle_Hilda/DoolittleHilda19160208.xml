@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1916-02-08">08 February 1916</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$13i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Five pages typewritten in black ink. Archival notes read "Aldington" in pencil
+                     at the top of first page. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1916-02-08">February 8, 1916.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>It was very nice of you to give us an opportunity to chip in a little bit. That is what
+            I call being really friendly, and I am perfectly delighted that you should have written
+            to me. It is a wonder to me that your remittances from home ever come, with the mails in
+            the state they are, and there must have been lots of mail lost when the various vessels
+            have been sunk. As a matter of fact, I had received a couple of days before <orgName key="houghton_mifflin">Houghton Mifflin</orgName>’s statement. We have sold 428 books, and the total amount of the sales amounts
+            to $219.08, of which one-sixth is $36.51; therefore, I owe you and <persName key="richard_aldington">Richard</persName> <measure type="currency" num="73.02">$73.02</measure>. I
+            added just a little to it to make it a round sum, as I thought that probably you were
+            still stuck, as your letter only said that your remittances were coming, and coming is
+            not come. Please do not think anything about it, and do not dream of paying it back.
+            Take it as the most natural thing in the world, as I do. You see, my Dear Girl, I know
+            what it is to have shattered nerves, I had nervous prostration for seven years once, and
+            it is not a nice condition; so you just mustn’t have anything to worry about. Now if
+            anything else happens of a like kind in future, just let me know, for I am most anxious
+            to do everything I can for "the cause," and if you and Richard are not "the cause," I
+            don’t know what is.</p>
+         <p><persName key="dh_lawrence">Lawrence</persName> has sent me some more poems, which he says come in the collection he left
+            behind in <placeName key="italy">Italy</placeName>, and which has apparently just reached him. On the whole, <persName key="john_fletcher">Fletcher</persName> and I
+            think three of them distinctly better than "Resurrection," and we have taken the liberty
+            of substituting them for it. There is not time to send them over to you and get your
+            consent to them, and it has worried me a good deal as to what to do on the subject, but
+            finally</pb> both Fletcher and I agreed that the wisest thing to do was to calmly take them
+            for the book, trusting to your approval of our choice. As you have left us the carte
+            blanche to do what we wanted to with our own things, we thought this might extend to
+            Lawrence’s poems as well. We were all so agreed on the subject of the badness of
+            "Resurrection," or rather perhaps I should say its inadequacy and its inappropriateness
+            to our volume, that I thought the others would be better than that anyway. Of course, in
+            writing to Lawrence, I did not tell him my objections to "Resurrection;" I said all the
+            nice things I could about it, and suppressed the others, as I did not like to hurt his
+            feelings, but I am telling him now that we think these others that we have chosen are
+            better for the book, and I am sure he will not object. I cannot even send you copies of
+            them with this letter, because Lawrence asked me to see if I could find a publisher, and
+            I took them in to <persName key="ferris_greenslet">Ferris Greenslet</persName> yesterday, with a view to his publishing them in the
+            Autumn set of his <title key="newPoetrySeries">New Poetry Series</title>. He asked if he could keep them for a day or two,
+            and entirely forgetting that I wanted to make copies for you, I left them with him, and
+            he has gone off to <placeName key="washington_dc">Washington</placeName> on business for a day or two, and I cannot possibly get
+            hold of the poems until he comes back. This is excessively annoying, and I ought not to
+            have done it; but as there would not be time to hear from you anyway, I hope you will
+            forgive me, and I will send you the copies just as soon as I get them back.</p>
+         <p>The only thing that is delaying us now is my not having heard from you as to exactly
+            which of the various selections of the poems we made you will agree to. I hope you
+            understand that making this selection was merely a matter of space and nothing else. We
+            can go to press with the poems, without waiting for the Preface, as soon as I hear from
+            you.</p>
+         <p>I do wish there were any chance of getting you over here, for I am sure we should all
+            have a splendid time living in the same town together. Fletcher is improving so much; he
+            is much less nervous and seems to be very happy, and is writing busily all the time. He
+            seems to like it here, and I am sure that you and Richard would like this town better
+            than any other in <placeName key="usa">America</placeName>.</p></pb>
+         <p>I am giving one of my talks at the <placeName key="littleTheatre">Little Theatre</placeName> in <placeName key="chicago">Chicago</placeName> on <date when="1916-03-19>March 19th</date>, and I am
+            rather looking forward to it, as I should like to make some impression there. I think
+            they are altogether too fond of <persName key="carl_sandburg">Sandberg</persName>, and <persName key="el_masters">Masters</persName>, and <persName key="vachel_lindsay">Lindsay</persName> in Chicago.</p>
+         <p>Ferris Greenslet has made a ridiculous mess of his New Poetry Series by putting in
+            anything and everything, utterly regardless of its fitness, with the result that the
+            only volume of the Series which seems to be doing at all well is our <title key="some_imagist_poets">Anthology</title>. I think
+            that has really done pretty well, and apparently it is still selling, for when I went in
+            there yesterday they told me that they had just had to take over 85 more copies of the
+            220 copies of the second edition they had still unbound, and bind them – that since the
+            <date when="1916-01-01">first of January</date>. I hope the next one will go as well.</p>
+         <p>I am adding a note to my "Stravinsky Cuartet"[sic] as follows: "This Quartet was played
+            from the manuscript by the <orgName key="flonzaleyQuartet">Flonzaley Quartet</orgName> during their season of 1915 and 1916. The
+            poem is based upon the programme which M. <persName key="igor_stravinsky">Stravinsky</persName> appended to his piece, and is an
+            attempt to reproduce the sound and movement of the music as far as is possible in
+            another medium." I think this would explain to people why the onomatopoetic lines are
+            there, and that the poem is not intended as a joke or a take-off.</p>
+         <p>I have written to <persName key="harriet_monroe">Harriet</persName> to say that I have here any of your poems which she desires. I
+            am not altogether pleased with her attitude just now; there seems to be a great deal of
+            <persName key="ezra_pound">Ezra</persName> in it, judging by <title key="poetry">the last number</title>, although you will see that I did succeed in
+            bullyragging her to put in <persName key="fs_flint">Flint</persName>’s things in time for us to use them. I think the best
+            way would be for me to see Harriet when I go out, and read her these things and try to
+            get her to take them. I have always found that I could do more with her by</pb> personal
+            contact than in any other way. I am delighted with the contents of the new book; I think
+            it shows us all in advance of our last year’s work, and the bibliography shows an
+            advance in the publications of the group.</p>
+         <p>Now, Hilda, don’t you think it would be a good idea if a book of yours came out in
+            print? Have you got enough things to go in a book? I will do my best to force Ferris
+            Greenslet to take it if you have. I hate to have you the only one of us who does not
+            appear to have published a book, although for that very reason, the publishing of books
+            seems futile.</p>
+         <p>I wonder why Richard feels as he does about "polyphonic prose." Last year, in his review
+            of my book, he commended the metre as an interesting one, and said he had written
+            several things in it, and recommended young poets to study it. Now he writes me that he
+            does not like it, and the only things of mine he likes in it are the "Bombardment" and
+            "Spring Day." That seems to me a very curious volte-face, and I cannot quite see why he
+            takes it. Fletcher and I are devoted to the metre. We find it excellent for dramatic
+            things. Perhaps the reason Richard does not care for it is because he writes very little
+            dramatic poetry.</p>
+         <p>I am sending you an article in a Chicago monthly called the "Trimmed Lamp," which I
+            think shows the way the wind is blowing.</p>
+         <p><persName key="mary_aldis">Mrs. Aldis</persName> wanted to offer a prize for an <orgName key="imagists">Imagist</orgName> poem, through the auspices of "<title key="littleReview">The Little Review</title>"; but her judges were very peculiar: they consisted of myself, <persName key="arthur_ficke">Arthur Davidson Ficke</persName>, and <persName key="john_powys">John Powys</persName>. The whole thing seemed to me too absurd, and I
+            disapprove of prizes anyway, on principle, they so seldom get awarded justly; though, as
+            a matter of fact, I think when prizes are, and one cannot help it, it is a fine thing to
+            win them. But to begin with prizes for Imagist poems when almost nobody knows how to
+            write them, with myself as the only judge who knew what they were when written, would be
+            too idiotic. Fletcher entirely agreed with me, and we have persuaded Mrs. Aldis to
+            withdraw her suggestion – luckily, it had not got into print. Fletcher and I felt that
+            as the only original group of Imagists could run in competition, we should be put into
+            the curious position of half</pb> of us sitting in judgment of the other half, which seemed
+            most unfortunate. I hope you will approve of my action.</p>
+         <p>If I do not hear from you in a couple of weeks, I shall just have to take the matter
+            into my own hands and arrange your poems according to the group we most advised in our
+            letter. Next year we must begin a great deal earlier with our Anthology, that is, unless
+            the mails go more quickly.</p>
+         <p>Lots of love to you both, and don’t you let yourself get tired, Hilda, and don’t you
+            worry about anything! <persName key="ada_russell">Mrs. Russell</persName> joins me in sending much love.</p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1921-07-06">06 July 1921</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$122i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Two pages typewritten in black ink. Address given for H. D. in the top left
+                     corner of the first page: Mrs. Richard Aldington c/o Manager, Lloyd’s Bank 67
+                     Kingsway <placeName key="london">London</placeName> W.C.2, <placeName
+                        key="england">England</placeName>. Unsigned. Includes a postscript.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1921-07-06">July 6, 1921.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>I have just received a letter from <persName key="winifred_bryher">Winifred</persName> from <placeName key="zermatt">Zermatt</placeName> in which she speaks of having
+            just received "<title key="legends">Legends</title>" which had been following her round from place to place. As I
+            sent your copy to <placeName key="audleyStreet">1 South Audley Street</placeName> at the same time I sent hers, in her care, I
+            wonder whether by any chance your copy is travelling round after Winifred and she has
+            not received it to forward to you. That would only matter because I should not like you
+            to think that I did not send you off one of the first copies I received. My allowance
+            from the publisher all came at once, and I sent off my presentation copies together, so,
+            if you have not received yours and it does not appear on the hall table at 1 South
+            Audley Street, let me know and I will forward another.</p>
+         <p>From Winifred’s letter, I should imagine that she was having an exact but belated
+            honeymoon. She gives me no news whatever about anybody or anything except <persName key="robert_mcalmon">Robert</persName>, which
+            is quite as it should be. That does not leave me thoroughly up to date as to your plans
+            and adventures. Where are you, my dear, and what are you doing, and when is <orgName key="holt">Holt</orgName>
+            bringing out your <title key="hymen">book</title>? I have heard nothing more of that either. <persName key="ada_russell">Mrs. Russell</persName> tells me
+            that she wrote you telling you that I had had to have a fourth operation and that she
+            also sent the letter to 1 South Audley Street, but, as we have had no answer to that
+            either, I imagine you have not received any of these things.</p>
+         <p>My news is of the meagrest description. The surgeons informed me in April that I
+            had to have another operation at once. It was set for the <date when="1921-05-17">17th of May</date>, as my friend Mrs. <persName key="florence_ayscough">Ayscough</persName>, with whom I am collaborating in my Chinese poems you will remember, arrived
+            from <placeName key="shanghai">Shanghai</placeName> with a batch of poems</pb> to be fixed, and <orgName key="houghton_mifflin">Houghton Mifflin</orgName>
+            decided to print the <title key="firFlowerTablets">book</title> in the Autumn, so that meant a great rush to get everything
+            done before my operation. However, we finished it, and I then had the operation from
+            which I am now slowly and rather discouragingly recovering. Since then I have done
+            nothing but try and get well, and, as I have seen nobody, I have absolutely no news, but
+            that makes me all the more avid to hear some of yours, so do write as soon as you can
+            and tell me how you and <persName key="perdita_aldington">Perdita</persName> are and what you are doing and everything. I will not
+            write any more now, partly because I am tired and partly because there is really nothing
+            to say.</p>
+         <closer>Much love, my dear, from us both.</lb>
+            Affectionately yours,</closer>
+      </body>
+   </text>
+</TEI>

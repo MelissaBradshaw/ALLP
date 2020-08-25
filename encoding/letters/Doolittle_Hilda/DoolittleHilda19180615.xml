@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1918-06-15">15 June 1918</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$75i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Three pages typewritten in black ink. Mrs. Richard Aldington Bosigram, Pendeen,
+                        <placeName key="cornwall">Cornwall</placeName>, <placeName key="england"
+                        >England</placeName> is the typed address given for H. D. in the top left
+                     corner of the first page. Unsigned. Includes a postscript.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1918-06-15">June 15, 1918.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>I have your letter of <date when="1918-05-09">May 9th</date>. You did not date it, but that is what the postmark says,
+            so I suppose that is right.</p>
+         <p>I am awfully glad that you agree with me about <persName key="richard_aldington">Richard</persName>’s poems. I was so afraid you
+            would not, and I hated to seem disagreeable. I know that what I said about them is true,
+            but I do not think that I can produce any effect on him. I am too far away, and he
+            would probably think me too far removed from the life he is leading to understand his
+            attitude. In fact, that is evidently what he does think, for I have had a letter from
+            him written on <date when="1918-05-14">May 14th</date>. He says that he is quite willing to delete the dates in "Nights
+            of Love" but he does not seem to want to make any other changes. He says, with reference
+            to the other points: "I think the lines you quote should be clear to the unbiased mind."
+            That seems to settle it, and I do not know what else I can do. It is very good of you to
+            think that I have some influence over him and can help him, but I am afraid I have been
+            away from him too long, and he knows too little about the march of my own work to have
+            very much regard for my opinion. His letter was as nice as it could possibly be, most
+            friendly and sympathetic, but he clings to his own opinion, which is natural, after
+            all.</p>
+         <p>I do understand how you feel about the criticism, and yet I cannot help thinking that as
+            his guardian angel you would do well to put a veto on some of those poems. I think he
+            will thank you later. But of course that must be for you to decide.</p>
+         <p>In giving the poems to <persName key="brown">Brown</persName> over my head, he of course took away my authority, and
+            Brown is not a man to stickle at printing anything. His chief business is printing books
+            which other publishers do not want,</pb> and he regards himself as emancipated in
+            consequence, and pioneers of emancipation seldom admit the law of taste, and as the
+            publisher is willing to print them as they are, and Richard wants them so printed, I am
+            afraid I have absolutely no authority. I wish I had. I wish I could have got <orgName key="macmillan">Macmillan</orgName>
+            to take them, and I wish he could have made the changes. I am also very sorry that he
+            gave them to Brown, for I doubt if they ever see the light of day. Brown has had a book
+            of <persName key="john_fletcher">Fletcher</persName>’s for two years, and it is not out yet. Perhaps that last will be the saving
+            of the situation, although now that he has signed the contract, I doubt whether he could
+            get the book back from Brown if he wanted it. I will answer this letter of his of
+            course, but I have no hope of there being any change in his attitude unless you can
+            bring it about.</p>
+         <p>Are you all alone in <placeName key="cornwall">Cornwall</placeName>, or have you some one with you? Do write often. It seems
+            so long since I have seen you all, and now that we have no <title key="some_imagist_poets">Anthology</title> to keep us
+            together, there is of course a danger of our drifting apart unless we keep on
+            writing.</p>
+         <p>I am not surprised that Fletcher sets himself up, as you say. That is what I gathered
+            from his letters. I am afraid his idiosyncrasies are growing on him, and that he has
+            very little future. I will send you my new book when it comes out in the Autumn. I am
+            calling it "Can Grande’s Castle," and I am using Richard’s poem, "At the British
+            Museum," – that is, quotations from it – as my motto. I am not at all sure whether you
+            will like the book as it is all in "polyphonic prose," but I hope you will.</p>
+         <p>Much love from both <persName key="ada_russell">Mrs. Russell</persName> and me, dear Hilda, and you can count on me always. I
+            wish I could induce Richard to change some of those</pb> poems, but you see how it is.</p>
+         <closer>Always affectionately,</closer>
+         <postscript>P.S. Did you ever get the article on Richard, <persName key="fs_flint">Flint</persName>, and <persName key="dh_lawrence">Lawrence</persName> that I
+            sent?</postscript>
+      </body>
+   </text>
+</TEI>

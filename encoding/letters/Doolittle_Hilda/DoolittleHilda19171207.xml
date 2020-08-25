@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1917-12-07">07 December 1917</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$58i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Two pages typewritten in black ink. Mrs. Richard Aldington 44 <placeName key="mechlenburghSquare">Mechlenburgh Square</placeName>
+                        <placeName key="london">London</placeName>, W.C. <placeName key="england"
+                        >England</placeName> is the typed address given for H. D. in the top left
+                     corner of the first page. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1917-12-07">December 7, 1917.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:-</salute></opener>
+         <p>I was very glad indeed to get your letter of <date when="1917-11-14">November 14th</date>, and to know that you liked
+            the essay on yourself in "<title key="tendencies">Tendencies</title>." I think none of the essays in the book has been
+            so well taken as that one, and I hope that it will stimulate interest in your poetry. A
+            good many people have told me that after reading my book they felt they wanted to go and
+            read the authors themselves, and I only trust that this laudable desire will bear
+            fruit.</p>
+         <p><persName key="helen_doolittle">Your mother</persName> wrote me how much she liked it, and she said something else that gave me
+            even greater pleasure which was that it seemed like you; it almost startled her she felt
+            it was so true a description of your personality. To my mind, nothing could be higher
+            praise than that, except that Richard, who knows you better than anybody, liked the
+            account of your work. I do not suppose that no matter what I said about you as a person
+            I could satisfy him, and quite rightly, but I like to think that it has been my
+            privilege to be the first person to represent you to the world in toto your work and
+            yourself.</p>
+         <p>Your letter came two or three days ago, and Richard’s of the <date when="1917-11-18">18th</date> came just now. I am
+            answering his letter on a separate sheet enclosed. It is really for both of you, of
+            course, but he said so many things I wanted to answer that I thought I would do it this
+            way. What you may say about the Lawrences is perfectly horrible. I feel very sorry for
+            them, and I will send you some money for them in a little while. I think it better to
+            send to you for various reasons, among others, that as they cannot forever live in your
+            room, I shall not know their address until you send it to me. I want</pb> to think it over
+            for a few days and see what I can send them, and then I will send you a draft, which you
+            can turn over to them. I am still addressing you at <placeName key="mechlenburgSquare">Mechlenburg Square</placeName>, as I suppose it
+            will be forwarded to you at <placeName key="litchfield">Litchfield</placeName>, and I do not know your address there, and
+            Richard says that he will be through with the training school in a couple of weeks and
+            then I suppose you will have to move.</p>
+         <p>This is not much of a letter. I am just sending it off to acknowledge yours, but it
+            takes a great deal of love from both <persName key="ada_russell">Mrs. Russell</persName> and me.</p>
+      </body>
+   </text>
+</TEI>

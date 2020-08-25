@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1916-08-22">22 August 1916</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$23i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Five pages typewritten in black ink. Archival notes read "Aldington" in pencil
+                     at the top of the first page. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1916-08-22">August 22, 1916.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>I was delighted to get your letter. In fact, I am sorry to say that I am in debt to you
+            for two since I wrote. I was even more delighted to get yours and <persName key="richard_aldington">Richard</persName>’s photographs.
+            They will be the greatest pleasure and comfort to me, and I shall have them where I can
+            see them constantly.</p>
+         <p>I had already made up my mind to write to Richard all the time, whether I received
+            letters from him or not. I can imagine what it must be like to get news from the outside
+            world, and you need not fear that I shall not keep you informed as to the situation
+            here, to the best of my ability.</p>
+         <p>I wish I could go over and see you. It has been on my mind to take a steamer and go over
+            for a few weeks, just to show my interest and friendship for you and Richard, before he
+            goes to the front. After considering this, I have decided not to go, for reasons which I
+            hope you will consider conclusive. In the first place, I do not think the sea is very
+            safe at the moment; and although I have a right to risk my own life, I do not think I
+            have a right to risk anyone else’s, and <persName key="ada_russell">Mrs. Russell</persName> absolutely refuses to let me go
+            over without going with me. In the second place, now that <persName key="john_fletcher">Fletcher</persName> has gone away, I
+            think it extremely important to stay here and keep all our names before the public. This
+            I am wearing myself to skin and bones to do. And I know that is what Richard would care
+            to have me do, more than to see him personally. As soon as the war is over, I shall go
+            across at once. But just now, you must regard me as staying here to help along the
+            cause.</p>
+         <p>I have sold two of Richard’s poems to the "<title key="poetryReview">Poetry Review</title>" – "Images" and "Inarticulate
+            Grief." The rest of the poems I have sent to <persName key="harriet_monroe">Harriet</persName></pb> for consideration. She is not as
+            enthusiastic about them as she ought to be, but she has asked to keep them awhile longer
+            before answering.</p>
+         <p>I have also sold Richard’s essay on Mallarmé to the "Poetry Review." The poems appear in
+            the August issue, as you will see. How soon they will print the essay, I do not know.
+            They are supposed to pay on acceptance, but they do not – they pay on publication, and
+            not very promptly then; so I am afraid I shall not have any money to send Richard for
+            about a month.</p>
+         <p>I have also sold his article on "<persName key="henri_deRegnier">Henri de Régnier</persName>" to "<title key="dial">The Dial</title>." They have agreed to
+            pay <measure type="currency" num="$5.00">$5.00</measure> for it. This is not high, and I fear <persName key="ws_braithwaite">Braithwaite</persName> will not pay more, if as
+            much; but it is quite impossible to get these slight, exquisite things into the regular,
+            stodgy, high-pay magazines. "The Dial" has a very large circulation, and I thought it
+            better to accept it.</p>
+         <p>I am trying to get the editor of "<title key="drama">The Drama</title>" to pay Richard what he owes him, but
+            without a power-of-attorney it is a little difficult; however, I do not yet despair.</p>
+         <p>His article on "<persName key="pierre_louys">Pierre Louys</persName>" I do not think I can sell. Louys’ writing is not the kind
+            of thing that takes the American public, and Braithwaite, the editor of "The Dial," and
+            Harriet have all refused it; and I do not think there is any use in expecting it to be
+            printed in any of the paying magazines. Of course, <persName key="margaret_anderson">Margaret Anderson</persName> will take it for
+            the "<title key="littleReview">Little Review</title>," if you would like me to send it to her, only of course she does not
+            pay.</p>
+         <p>"The Dial" printed an attack upon us by a man named <persName key="he_warner">H. E. Warner</persName> in their Correspondence
+            Column, in which he foolishly and idiotically</pb> criticized the part of your poem about the
+            heat blunting the pears. I make a rule of never answering attacks, but I have answered
+            this letter only, however, to repudiate a misquotation he gives from me. I think it
+            always wiser for us not to answer attacks personally, and it seems quite impossible to
+            explain to such an unimaginative man why your poem is beautiful. Also, being one of the
+            group, things of that sort do not have the same effect from us that they do from other
+            people. But I have asked a very good friend of mine, a man of a great deal of
+            scholarship and of interest in our work, who has already written a long and interesting
+            article on the <orgName key="imagists">Imagists</orgName> which he is trying to have published, to answer it; and I hope
+            he will do so.</p>
+         <p>"The Dial" has changed hands, having been bought by a man named <persName key="martyn_johnson">Martyn Johnson</persName> who,
+            although not quite so radical as we could wish, is nevertheless thoroughly in sympathy
+            with our work. He has asked me to write critical essays for him and, as you see, he has
+            accepted Richard’s article on Régnier. "The Dial" has hitherto been the most reactionary
+            paper we have. His object is to change it gradually until it becomes sympathetic to the
+            new movements. He must do this slowly, and I think he has begun very well by making Dr.
+            <persName key="cj_masseck">C. J. Masseck</persName> the editor. I do not know Dr. Masseck, but everyone tells me that he is in
+            favour of all that we are trying to do. The ball is rolling steadily and constantly, and
+            I do not think we need have any fear for the future.</p>
+         <p>As I wrote Richard sometime ago, I am to give a series of four lectures on modern
+            American poets this Winter in various cities. The poets I am dealing with are <persName key="ea_robinson">Edwin Arlington Robinson</persName>, <persName key="robert_frost">Robert Frost</persName>, <persName key="el_masters">Masters</persName>,</pb> <persName key="carl_sandburg">Carl Sandburg</persName>, and the Imagists. Of course,
+            as they are American poets, I cannot say as much as I wish I could about Richard and
+            <persName key="dh_lawrence">Lawrence</persName> and <persName key="fs_flint">Flint</persName>, but I shall run them in in the Imagist lecture, although it will be
+            chiefly about you and Fletcher.</p>
+         <p>Can you send me a little biographical detail about yourself and about Richard? I should
+            like to have Richard’s for future use, and I want yours for these lectures. I want to
+            know where you were born, and when; where you were educated, and more or less what your
+            life was like; where you travelled; what you thought; what you read; what interested
+            you. I am going to publish these lectures afterwards in a book, and the arrangement will
+            be about like that of my "<title key="sixFrenchPoets">French Poets</title>" – some biography, a great deal of criticism, and
+            a lot of quotation. In spite of all these poets being alive, I think I can take a leaf
+            out of the French practice, and write about them now. I am giving these lectures in
+            <placeName key="boston">Boston</placeName>, at the <placeName key="brooklynInstitute">Brooklyn Institute of Arts and Sciences</placeName><add place="above"> in <placeName key="brooklyn">Brooklyn</placeName></add>, at the <placeName key="littleTheatre">Little Theatre</placeName> in <placeName key="chicago">Chicago</placeName>, and possibly in <placeName key="stLouis">St. Louis</placeName> and <placeName key="philadelphia">Philadelphia</placeName>; and <orgName key="macmillan">Macmillan</orgName> has
+            already agreed to publish them a year from now. All of which is very satisfactory.</p>
+         <p>Please tell Richard that his going to the war will only be an interlude, and an
+            interlude which I have no doubt will be an interesting experience, that he will not in
+            any way get out of the running here, and that I shall keep his name alive, and do my
+            best to place his things, until he comes back.</p>
+         <p>Keep your courage up, Dear Girl, and I really do believe this war will soon be over. I
+            think <placeName key="germany">Germany</placeName> is on her last legs. Richard writes that your courage and self-sacrifice
+            have helped him inconceivably, and that is</pb> a glorious thing for you to feel. We believe
+            that poetry is virile, not decadent and weak, and things such as you are going through
+            can only deepen and broaden your poetry, and that is what I know you both live for.</p>
+         <p>Mrs. Russell send her love, and you know you have mine. I am not writing to Richard by
+            this mail; this is to him as well as to you.</p>
+         <p>Please find out if Lawrence is in want because, if so, I should like to send you some
+            money to send him, or send it to him direct, as you may think best. He is proud, and one
+            has to go carefully.</p>
+         <closer>With a great deal of love,</closer>
+      </body>
+   </text>
+</TEI>

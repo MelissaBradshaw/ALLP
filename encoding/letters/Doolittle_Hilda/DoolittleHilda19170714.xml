@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1917-07-14">14 July 1917</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$52i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Four pages typewritten in black ink. Archival notes read "Aldington" in pencil
+                     at the top of the first page. Unsigned. Includes a postscript.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1917-07-14">July 14, 1917.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>I am sending you all the poem’s of <persName key="richard_aldington">Richard</persName>’s which I have, as you asked me to do. As
+            <persName key="harriet_monroe">Harriet Monroe</persName> has doubtless written you, she has accepted "Fatigues," but I had a copy
+            made of it, so that you should not lose it from your collection, and am sending it with
+            the others. I am awfully interested to know that Richard is to have another volume.
+            Please send it to me when it comes out. I have not heard from him since January, which
+            is my fault, as I have not answered his last letter. I shall do that, however, in a day
+            or two and send it to you to forward. Do tell me what he is doing and where he is, and I
+            cannot bear to lose touch, and now that we have no longer any anthology to get out, I am
+            terribly afraid that we may drift apart before the end of the war brings us together
+            again. I understand that it is impossible to leave <placeName key="england">England</placeName> just now, so I do not suppose
+            that there is any chance of your coming over at all.</p>
+         <p>I saw <persName key="helen_doolittle">your mother</persName> for a few minutes at <placeName key="brynMawr">Bryn Mawr</placeName> when I went down there to lecture in
+            May, and I found her awfully sympathetic and nice. We only had a little talk, and I
+            wished it might have been longer.</p>
+         <p>I think you will like what I say about you in my new book. It is also to be published,
+            slightly abridged, as a review of "Sea Garden" in <orgName key="brownU">Brown</orgName>’s "<title key="poetryJournal">Poetry Journal</title>,"<!--check the brown here--> and I will
+            send you a copy of it as soon as it comes out, and also of course the book when that
+            appears.</p>
+         <p>I am afraid that our "<title key="some_imagist_poets">Anthology</title>" is not doing as well as the others have done. Under a
+            separate cover, I am sending you all the</pb> clippings up to date. <persName key="john_fletcher">Fletcher</persName>’s "Lincoln" gets
+            the most praise and next to that <persName key="fs_flint">Flint</persName>’s "Zeppelins". The truth is the breaking out of
+            war in this country has turned everybody’s attention away from literature for the
+            moment. I cannot help hoping that they will turn back before long, but it is certain
+            that there is less interest than there has been for the past two or three years. I have
+            not advertised the "Anthology" as much as usual because <persName key="ferris_greenslet">Ferris Greenslet</persName> told me it
+            would be money absolutely thrown away, and I have been waiting until the first effect of
+            the war was past and people had settled down to the new conditions. I intend to
+            advertise again in September in conjunction with the two earlier ones. I think, however,
+            that the "Anthology" has really done its work, as I have already told you and as I have
+            just written Flint. People know what <orgName key="imagists">Imagist</orgName> work is; they know what we stand for. We
+            have made our principles understood, and, if we differ somewhat among ourselves as to
+            just what these principles are, why we have agreed enough to give the public a definite
+            idea of something. As we develop, it is inevitable that we should widen a little from
+            the original narrow path in which we walked together, and we shall probably<add place="above"> continue to</add>
+            stray from right to left, following our own bents, but I cannot help thinking that we
+            shall always have much in common. I do believe, however, that it will be better now to
+            publish our own books, rather than any group anthology, and I think this would have been
+            true even if the war had not made it so difficult to compile the volume. I know quite
+            well that you people do not follow me in all my experiments, but I suppose that is
+            inevitable, as we each become more individual we shall each depart more and more from
+            the group ideal. Still, I feel that we shall all be more in sympathy with each other
+            than with any other</pb> people, and that is a pleasure to me.</p>
+         <p>I wish we might meet and talk everything over; I wonder when we shall. Write some time.
+            It will be a great disappointment if I do not hear from you, even if we have no business
+            to transact.</p>
+         <p>I am also enclosing a money order for <measure type="currency" num="$5">five dollars</measure>, which is the last of <persName key="brown">Brown</persName>’s
+            payments on the original agreement with Richard. There may be more royalties in a year
+            or two, and I shall keep after him and try to get some if there are any. He sent me this
+            cheque some time ago, and I should have sent it to you, but, like everything else it got
+            delayed.</p>
+         <p>You probably know that no sheets or plates of books published in <placeName key="usa">America</placeName> can now be sent
+            to <placeName key="england">England</placeName>. <orgName key="constable">Constable</orgName>, however, agreed to print this new "Anthology" and we had
+            duplicate plates made here and shipped to <subst><del type="strikethrough">them</del><add place="above"> England</add></subst> on board the "Colonian".
+            Unfortunately the boat went down, and our plates are now delighting the mermaidens. They
+            were, however, insured, and the Constable purposes to have a new set made in England
+            from a copy of the book which has been shipped to them from here, so it ought to come out there.</p>
+         <p>I am afraid my book will not see the light of day in England at all, as my sale over
+            there is not so brilliant as to justify duplicate plates. Mr. <persName key="george_macmillan">George MacMillan</persName> wants me
+            to go over and give some lectures after the war, as I have been doing here, and possibly
+            I may, but that is too far ahead to consider.</p>
+         <p>In the mean time, there is a possibility that the book may be issued in translation in
+            <placeName key="paris">Paris</placeName>, but everything is very much in the air at present.</p></pb>
+         <p>How does it happen that you have resigned the assistant editorship of "<title key="egoist">The Egoist</title>?"
+            <persName key="ezra_pound">Ezra</persName>’s coming back on the paper fills me with horror, and he seems to have got in with
+            <persName key="margaret_anderson">Margaret Anderson</persName>. Her little sheet is entirely full of him. Of course Margaret
+            Anderson’s erratic method of publication and her peregrinations to the <placeName key="pacificCoast">Pacific Coast</placeName>
+            have more or less killed her contributors here. I rather think they have all left her
+            except myself, and I certainly do not feel inclined to put anything more into her paper
+            while the Ezra group is so prominent there. I have a theory that somehow he has raised
+            some money and has made it worth her while to take him, although I have known Margaret
+            Anderson to refuse offers of this sort before. If you know anything about these matters,
+            I wish you would let me know, for I feel very much out of it here.</p>
+         <p>I shall write to you again next month, when our semi-annual royalties come in, and in
+            the mean while, do keep me posted.</p>
+         <closer>Affectionately,</closer>
+         <postscript>P.S. Do not forget that "Leave Taking" and "On the March" have been accepted by
+            "<title key="sevenArts">Seven Arts</title>," and "Fatigues" has been accepted by "<title key="poetry">Poetry</title>."</postscript>
+      </body>
+   </text>
+</TEI>

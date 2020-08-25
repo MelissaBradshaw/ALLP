@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1919-07-14">24 July 1919</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$100i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Two pages typewritten in black ink. Address given for H. D. in the top left
+                     corner of the first page: Mrs. Richard Aldington care of Mrs. Randall, 3
+                     Christchurch Place <placeName key="london">London</placeName>, N.W. <placeName
+                        key="england">England</placeName>. Unsigned. Includes a postscript.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1919-07-24">July 24, 1919.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>I got your very nice letter from <placeName key="mullion">Mullion</placeName> a few days ago, and also your poems, but, in
+            the first place, let me congratulate you on the birth of your <persName key="perdita_aldington">daughter</persName>. I did
+            congratulate <persName key="richard_aldington">Richard</persName>, and I meant to write to you long ago, but I have been swamped with
+            the proof of my <title key="floatingWorld">new book</title><!--I think-->. Both <persName key="ada_russell">Mrs. Russell</persName> and I are perfectly delighted to know that
+            everything passed over so successfully, and that you are entirely recovered from the
+            pneumonia. You do not know, dear Hilda, how fond I am of you and how much your happiness
+            means to me.</p>
+         <p>You speak of wanting to be in a warmer place for the Winter. I suppose nothing could
+            induce you to come to <placeName key="usa">America</placeName>. It would be so nice to have you here, and I quite agree
+            with <persName key="winifred_bryher">Winifred Ellerman</persName> in thinking that this is the place for poetry now. I make no
+            doubt that I can dispose of your poems satisfactorily, and I shall set about it at once.
+            Do not worry about not being <foreign xml:lang="fr"><hi rend="underline">dans le movement</hi></foreign>. The "Movement" as I now see it is mostly
+            an artificial one, and I believe that the better poets will always write as they feel
+            without any regard for the fashionable thing in the minds of <foreign xml:lang="fr"><hi rend="underline">les jeunes</hi></>. I have seen so
+            many movements go under since I have been on the <hi rend="underline">tapis</hi> that I am no longer worried about
+            the fate of anything that is really good, and I think it is rather an advantage to be
+            out of it than otherwise. I have been in it for years and have borne the brunt of
+            ridicule, jests, diatribes, and am now reaping the benefit of a reasonable success, but
+            the result of it all to me has been to make me feel that one must write as one wishes,
+            and that one can force the public to take it if it is good. You have no idea of the
+            exaltation of poetry</pb> here in America. I have been asked to compile a Book Shelf of
+            Modern Poets by <orgName key="doubledayPage">Doubleday, Page &amp; Company</orgName> suitable for sale in department stores and
+            railway terminals. Conceive of such a thing! All this love for poetry naturally is not
+            very critical.</p>
+         <p>I think that your idea of sending Winifred over here is just the proper one, but I wish
+            that you would send yourself and your little daughter over too. We need you, and I am
+            just cheeky enough to think that you need us.</p>
+         <p>This takes lots and lots of love from Mrs. Russell and me.</p>
+         <closer>Affectionately yours,</closer>
+         <postscript>P.S. I will write again when I have disposed of the poems.</postscript>
+      </body>
+   </text>
+</TEI>

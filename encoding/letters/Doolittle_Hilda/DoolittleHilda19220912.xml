@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1922-09-12">12 September 1922</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$133i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Two pages typewritten in black ink. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1922-09-12">September 12, 1922.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>Here is our bi-yearly pittance from the <title key="some_imagist_poets">Imagist Anthologies</title>. They have still a few
+            copies left of each year’s issue, and I suppose we shall continue to get five-cent
+            pieces until they are all exhausted.</lb>
+            By sales:</lb>
+            13 Imagist Poets .67-1/2 8.78</lb>
+            4 " " 1916 .67-1/2 2.70</lb>
+            8 " " 1917 .67-1/2 5.40</lb>
+            1/6 of 16.88 is <measure type="currency" num="$2.82">$2.82</measure></p>
+         <p>I heard somewhere or other that your book of essays was refused by <orgName key="holt">Holt</orgName>. Is this true? I
+            think that I can place it for you with <orgName key="houghton_mifflin">Houghton Mifflin</orgName> if you care to send it to me. I
+            was so immensely struck with those essays which I saw last year, and I think there
+            should be no difficulty in placing them. I spoke to <persName key="ferris_greenslet">Ferris Greenslet</persName> about them last
+            year, but naturally you preferred to send them where "<title key="hymen">Hymen</title>" was published. However, if
+            Holt does not want them, do send them to me, for I am quite sure I can land them with
+            Houghton Mifflin.</p>
+         <p>I had a letter from <persName key="winifred_bryher">Winifred</persName> the other day. She seems to have rushed all over <placeName key="europe">Europe</placeName> and
+            <placeName key="asia">Asia</placeName> with a suit-case. I was afraid she was very much offended with me because I told
+            her she would have to change certain things in her book of poems if she wanted them
+            published over here. Since then she has sent me a portion of the manuscript in this
+            little pamphlet "<title key="arrowMusic">Arrow Music</title>," and she has done practically what I suggested she do, and
+            I think this little book is very charming.</p>
+         <p>Are you still in <placeName key="switzerland">Switzerland</placeName>, and what are your plans? I have been reading your
+            selections in the "<title key="miscellany">Miscellany</title>" with great interest. I particularly</pb> like
+            "Holy Satyr." How you think of the words you use, I do not know; it is a perfect marvel
+            to me, and a perfect delight. "Heliodora" is a very strange thing, but a very
+            interesting one, but rather unlike you, I think. "Toward the Piraeus" is the best thing
+            you have done in rhyme. I like your method of rhyming or not as you happen to feel like,
+            rhyming in some sentences and not in others. The series, 1, 2, 3, 4, 5, with which your
+            selection ends, is, I believe, the best of this collection, and No. 3 in hers is so
+            charmingly rhymed. Your work with rhyme, which appears all through these selections, is
+            very interesting to me. You certainly can write, Hilda, and nobody knows it better than
+            I.</p>
+         <p>I do not think the "Miscellany" on the whole is bad. <persName key="conrad_aiken">Conrad Aiken</persName> is too long-winded,
+            one cannot even read him, and I am not a great admirer of <persName key="sara_teasdale">Sara Teasdale</persName>, and I think
+            <persName key="alfred_kreymborg">Alfred Kreymborg</persName> falls down in his selections far below his best self, and <persName key="james_oppenheim">Oppenheim</persName> is
+            negligible, but on the whole I think the book looks pretty well. The truth of the matter
+            is that we American poets of to-day are so diverse in the way we write that I do not
+            think we fit together in a book very well. For that reason I think we are less
+            homogenous than the <title key="georgianPoetry">Georgian Anthology</title>, but personally I think so much better that even
+            if the reader gets a jar going from one selection to another, he nevertheless gets a
+            feeling of variety and profusion which is very effective.</p>
+         <p>Do write me and tell me what you are doing and what your plans for the Winter are. I
+            suppose there is no hope of your coming over here; I wish there were. And, as I said
+            before, do send me your essays and see if I cannot land them with Houghton Mifflin. With
+            a great deal of love in which <persName key="ada_russell">Mrs. Russell</persName> joins,</p>
+         <closer>Always affectionately yours,</closer>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1918-03-12">12 March 1918</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$70i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Three pages typewritten in black ink. Mrs. Richard Aldington 44 <placeName
+                        key="mechlenburghSquare">Mechlenburgh Square</placeName>
+                     <placeName key="london">London</placeName>, W.C. <placeName key="england"
+                        >England</placeName> is the typed address given for H. D. in the top left
+                     corner of the first page. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1918-03-12">March 12, 1918.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>I am sending two money orders, one for <measure type="currency" num="$25.48">$25.48</measure> for you and <persName key="richard_aldington">Richard</persName>, and one for
+            <persName key="dh_lawrence">Lawrence</persName>’s share which is <measure type="currency" num="12.74">$12.74</measure>, plus this little gift of <measure type="currency" num="$200.00">$200.00</measure>. Here is the account:</lb>
+            SALES</lb> 26 <title key="some_imagist_poets">Imagist Poets</title>, 1915 at .36-1/4 $ 9.43</lb> 43 Imagist Poets, 1916 at .36-1/4 15.59</lb>
+            142 Imagist Poets, 1917 at .38-1/4 51.47</lb> $ 76.49 $76.49 divided by 6 - $12.74 – 2.14.0</lb> I
+            am also writing a letter to Lawrence in care of you. </p>
+         <p>Do you know Richard is the only one of my three English <orgName key="imagists">Imagists</orgName> who took the trouble to
+            answer my requests for a biography. This makes the writing for <persName key="fs_flint">Flint</persName> and Lawrence very
+            difficult. The body of Flint’s work is so extremely slight that it will be hard to give
+            him enough space when I have nothing to say about him personally. As to Lawrence, I
+            suppose he has been much too worried and upset to think anything about it. But I think
+            it is unfortunate.</p>
+         <p>Do you know, Hilda, the more I read Richard’s work, the more deeply I admire it, and, by
+            the same token, the more I read Flint’s and Lawrence’s the less I like them.</p>
+         <p>Richard wrote me a charming letter the other day and said that he was sending me the
+            manuscript of his poems and would I look after it. You may certainly rely on me to do my
+            best. I am having a perfectly fearful time here with <persName key="brown">Brown</persName>. I do not think that Brown
+            means to be dishonest, but he is very unbusinesslike, and he bites off more than he can
+            chew. The result</pb> is that he is in a constant mess financially, and as Richard never gave
+            me that power of attorney, I have no real hold over him. Just now I have been trying my
+            best to get a number of copies of Richard’s "<title key="images">Images</title>" to send with the poetry libraries I
+            am sending to the thirty-four training camps in this country. He says he has sheets of
+            "Images," but they are not yet bound, and he keeps promising them for next week, and
+            they never come, and I do not think they ever will come. He has had the manuscript
+            of <persName key="john_fletcher">Fletcher</persName>’s <title key="japanesePrints">Japanese Poems</title> for a year and a half, and has not published it yet. I am
+            afraid if he takes this manuscript of Richard’s, he will just hold on to it and not
+            publish it. He has moved into new and rather splendid quarters, and I imagine has done
+            so by borrowing the money and therefore has no ready cash. I have asked him to send me
+            an accounting of the sales of Richard’s books so that I may see if the fifteen dollars
+            already paid covers the royalties due. I do not suppose it shall even be able to get the
+            accounting out of him for a long time, however.</p>
+         <p>I do, therefore, sincerely advise not having him print Richard’s new book. The only
+            trouble with that is the more businesslike publishers have got dreadfully cold feet
+            about publishing poetry just now. They do not want to spend any money on it, and they
+            are all cutting down. Still, <persName key="ferris_greenslet">Ferris Greenslet</persName> has asked to see the manuscript, but I
+            have no real hope there, nor have I with <orgName key="macmillan">Macmillan</orgName>, although I shall sound Mr. <persName key="gp_brett">Brett</persName> on
+            the subject when I go to <placeName key="nyc">New York</placeName> next week. There is a possibility that Mr. <persName key="alfred_harcourt">Harcourt</persName> of
+            <orgName key="holt">Holt</orgName>’s might be induced to take it. At any rate, I shall try all these people before
+            ceding the manuscript to Brown, but if Richard should have changed his mind and sent the
+            manuscript direct to Brown (for I have not yet received it) the matter ill be more
+            difficult. In a way</pb> I do not blame Brown, for I know he is struggling very hard against
+            dreadful odds. I do blame him for his eternal lying, however. He seems to think that it
+            would be bad policy to say that he is stuck for the moment, whereas I think every one
+            would respect him more, and the good will of his business would be saved if he told the
+            truth.</p>
+         <p>I will let you know after I have been to New York what the outlook is, and I do hope
+            that Richard’s manuscript will come in time for me to take it with me.</p>
+         <p>I am sorry to say that your "<title key="seaGarden">Sea Garden</title>" is out of print over here, and <orgName key="houghton_mifflin">Houghton-Mifflin</orgName>
+            tell me that it is so difficult to import anything that they are not going to import any
+            more sheets. If you can send me thirty-three copies, I can send them after the libraries
+            which have already gone out to be included in them. I cannot bear to have your work not
+            represented, but I took the very last copy that Houghton-Mifflin had.</p>
+         <p>I am up to my eyes in work, not only on my <placeName key="brooklyn">Brooklyn</placeName> lectures, but on some poems of my
+            own. I have been doing a long series called "Phantasms of War" for "<title key="independent">The Independent</title>,"
+            and I also have some polyphonic, semi-historical things that Macmillan is very anxious
+            to print in a book next Autumn, if I can get enough done. I have them all mapped out,
+            but they take a long time to write, and I am rather discouraged at the way time fleets
+            away. I think I shall gather my miscellaneous essays and lectures into a volume of prose
+            a year from now, in which case my present appreciation of Richard will have a permanent
+            form.</p>
+         <closer>Lots of love,</closer>
+      </body>
+   </text>
+</TEI>

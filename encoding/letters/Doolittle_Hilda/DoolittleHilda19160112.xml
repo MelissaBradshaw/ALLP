@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1916-01-12">12 January 1916</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$6i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Seven pages typewritten in black ink. Archival notes read "Aldington" in pencil
+                     at the top of first page. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1916-01-12">January 12, 1916.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>Your letter with the poems came safely a few days ago. You have certainly improved
+            enormously. Your poems are splendidly strong now, and seem to me to lose nothing of
+            their perfection with the added vigour. Both <persName key="john_fletcher"
+               >Fletcher</persName> and I are perfectly delighted with them. The only trouble with
+            this batch which you have sent us is that it oversteps our limits of space. As far as we
+            are concerned, we should like to have them all in, but the publishers do not think it
+            possible to print a larger book than we had last year in that series, for the price at
+            which that series is issued; and as in signing the contract the <title
+               key="some_imagist_poets">Anthologies</title> were supposed to be a part of their
+               <title key="newPoetrySeries">New Poetry Series</title>, I am afraid we must keep to
+            our original plan.</p>
+         <p>You remember that our rule last year was that we should each have a space which was
+            about equal, and to make it as near as possible, we agreed to have either seven short
+            poems apiece, or two very long poems, or one moderately long and five short. And I think
+            we might continue on that plan and say two moderately long and three short.</p>
+         <p>Now as far as my work is concerned, I was suggesting two long poems, as in the last two
+            Anthologies I was represented by short poems. I quite understand your objections about
+            "Off the Turnpike," and <persName key="ada_russell">Mrs. Russell</persName> thinks that
+            it would not go well with the other poems in the Anthology anyway, so I willingly
+            withdraw that poem from consideration, as I wrote <persName key="richard_aldington"
+               >Richard</persName> the other day.</p>
+         <p>I sent you a batch of my own poems to choose from about ten days ago. But what Fletcher
+            and I really think would be best for my contribution, if you agree, is "A Spring Day,"
+            "Patterns," and "In a Time of Dearth." You asked me to send some short poems, and I did
+            so, but I wrote with a </pb>view to their being printed in "<title key="egoist">The
+               Egoist</title>," not in the Anthology. I am very anxious not to appear with short
+            poems in this Anthology, and I hope you will let me have my way in this. I take back my
+            objection to "Patterns" because the poem has met with a better reception than anything I
+            have ever done, and an amusing part of it is that it has even been parodied (a vicarious
+            kind of fame) in a <placeName key="sanDiego">San Diego</placeName> newspaper, which
+            shows that it has wandered far afield. Fletcher is also anxious to have it included, and
+            I think these three moderately long poems of mine should make up my contribution.</p>
+         <p>Now to go back to yourself. You have here three short poems and four moderately long
+            ones. The long ones are not as long as the three I propose to put in of my own. But
+            still, if you put them in with the short ones, both Fletcher and I think that it will be
+            rather more than we bargained for, as they are in several sections each. And of course,
+            if you think mine are too long, why let us leave out "In a Time of Dearth" and put in
+            simply "A Spring Day" and "Patterns."</pb> Of course, new titles is what takes up space,
+            because each title requires a separate page. But the pages of the Anthology print rather
+            less than our pages do. Roughly speaking, we have thirty lines to a page, and the
+            Anthology has twenty-four. We think, therefore, that if you put in "The Shrine," "The
+            Temple," "Sea Gods," and either "The Contest" or the three short ones, it would be about
+            the right amount. Personally we prefer the three short ones to "The Contest." I should
+            suggest therefore beginning with "Sea Gods," with "The Shrine" next, then "The Temple,"
+            and then the three short ones in the order in which you have them here: "Moonrise,"
+            "Huntress," and "Mid-day." But if you have a very definite feeling that you prefer "The
+            Contest" to those three, why of course it shall be as you wish. Please let me know as
+            soon as possible as every minute counts. And please also let me know if you approve of
+            "A Spring Day," "Patterns," and "In a Time of Dearth" for me, or if you prefer simply to
+            have me put in "A Spring Day" and "Patterns." One reason why I think "Patterns had
+            better go into the Anthology is because it also refers to the War, although I have put
+            it back in another war. Still this condition would be the same at all times.</p>
+         <p>Now as regards Richard’s poems, of course, if you feel that "Whitechapel" is very
+            important, we will include it. I do not think we should exclude each other’s poems
+            except for reasons other than personal taste. And although I still feel "Whitechapel" to
+            be less important than you do, still I quite understand why Richard wants it, and I get
+            his symbolism absolutely. However, we will consider that in. We still feel, however,
+            that <persName key="fs_flint">Flint</persName>’s "Evil" is out of key, and if you could
+            induce him to put in something else instead of it, Fletcher and I would be very
+            grateful. I also understand why Richard wants the order he has here, and perhaps from
+            the point of view of the War, it is the best order. I am naturally sorry not to have
+            "Eros and Psyche" open the book, as "Eros and Psyche" is the most considerable poem, and
+            publishers always say that poems which open a book are half the battle. But we are quite
+            willing to leave these in Richard’s order if he prefers. With my contribution, I should
+            begin with "A Spring Day" and end with "In a Time of Dearth," because the poems read
+            better in this order; but if you prefer to end on a note of war, "In a Time of Dearth"
+            and "Patterns" can be changed and "Patterns" finish the book.</p>
+         <p>Fletcher’s preface was quite out of the question, not in matter but in manner. It was so
+            violent and militant, and I think we have got through the phase where it is necessary to
+            gird at critics. With his permission I am rewriting it, using much that he says but
+            putting it in a more conciliatory form. I think we must now take a stand upon our
+            principles quietly and without bitterness. We have done very well, we have made</pb>
+            considerable impression. I was amused at a friend of mine here<!--should this person be tagged? I'm not sure who AL is referring to here-->, who has always written
+            children’s poems in a perfect metrical style and who a year ago was utterly down on our
+            type of poetry. She has now taken to writing vers libre, which is not by any means good
+            enough to count yet, but it shows that the wind is blowing in the right direction.</p>
+         <p>Now I want to prepare you and Richard for a fact which I fear is about to happen. I do
+            not think that this new Anthology will create as much stir as the last one did, for
+            although most of our critics were hostile, nevertheless there was a great deal of space
+            given to us and our theories. Now we have come to that critical moment in the career of
+            every poet when he ceases to be interesting principally because he is new, when his
+            theories have become sufficiently digested to no longer pique heavy jokes and violent
+            opposition, when he is taken for granted as a poet, and his work must justify itself
+            slowly and without flamboyancy. I believe every artist, every school of artists, must go
+            through this period before they reach a fame which is unquestioned, which fame really
+            comes before the artist’s death. It is just this long, arid stretch, when people appear
+            to be indifferent, when the artist must work without much encouragement, even the caviar
+            encouragement of publicity, which kills so many promising young people. I think that we,
+            as <orgName key="imagists">Imagists</orgName>, and we, as individuals, are entering on this stage, and I have no doubt we
+            shall miss the discussion. We cannot miss the praise, because we have had very little,
+            but we shall miss the interest and the antagonism that we have enjoyed. I have very
+            little hope of this Anthology’s selling as well as the last, although the work in it is
+            clearly better. I am delighted with it as a volume, and I am more and more sure that the
+            work will live, some of it at any rate. But I know that we are all going to feel a
+            let-down this year, and I want to warn you of that, so that you may be prepared for it
+            when it comes. Fletcher and I have talked this over, and we agree absolutely. As Richard
+            says, it is the slow and gradually increasing seriousness with which our work is taken
+            which makes for fame.</pb> And this is true in both <placeName key="england">England</placeName> and <placeName key="usa">America</placeName>, but America has less
+            real artistic knowledge than England and dearly loves a novelty. It is in America that
+            we have made the most impression, but it is America that is going to pay the least
+            attention to us as the years go on. I think that our Anthologies have done us a great
+            deal of good, and I am thankful that our idea of publishing together for several years
+            has been justified, as I feel it has been abundantly. Whether or not it would be
+            feasible to keep up the Anthology after our three years I do not know, but that we are
+            vey much more seriously regarded and in a better position than we were a year and a half
+            ago is incontestable.</p>
+         <p>Fletcher and I went over another batch of his poems on Sunday, and he was to send you
+            some which we thought would do for the Anthology. His new book has knocked out our
+            calculations, as we wrote you; but personally I think the <placeName key="arizona">Arizona</placeName> poems and the Old
+            South are a far better group for him than these long ones that he has just sent you. Not
+            that the new ones are not good, but they are more like his other work and do not fairly
+            represent his progress. He feels that the others, being American subjects, will make
+            them unsympathetic to you, but I have no such feeling. I do not think you turned down
+            "Off the Turnpike" because it was American, but because it was in dialect, and many
+            people hate dialect poems. I confess I do not like them myself, and I only wrote a few
+            of them because I wanted to broaden my technique, and I needed to make a fresh effort to
+            avoid the pitfall of preciosity. I have not written any Yankee poems since Autumn, and
+            maybe I never shall write another. The three I did write represented a necessity at the
+            moment, and I do not regret them. But Fletcher’s American poems do not fall under this
+            ban, and as the largest circulation of our book is in America, I think American subjects
+            are not a mistake.</pb> Also I do not think that the English public particularly respect a
+            man who appears to have no interest in his own country, and I cannot think that these
+            poems of Fletcher’s will do him any harm in England.</p>
+         <p>I am sorry to say that the <orgName key="century">Century Company</orgName> has refused the poems of yours which I sent
+            them. Editors are very difficult things to manage. My friend, Mr. <persName key="benet">Benet</persName>, is
+            assistant-editor, and he is all for them; but Mr. <persName key="doty">Doty</persName>, the head man, turned them down,
+            although he said many of them were "Stunning." His reasons are that he has all the poems
+            they can use at the moment. I am sorry to have been so inadequate at getting your poems
+            placed in American magazines. It is not easy to get the new poetry printed in the old
+            established magazines. I have the greatest difficulty with my own, and it is only
+            occasionally that I get by.</p>
+         <p>I have written to <persName key="alfred_kreymborg">Kreymborg</persName> refusing to be included in <title key="others">his Anthology</title>, and Fletcher has
+            done the same. I trust that you and Richard will follow our lead and write to him
+            yourselves, although I think that none of your poems have yet appeared in his paper. But
+            Richard has had poems in it, and the man will certainly print them without even asking
+            permission, unless he is warned off. Fletcher has received no letter from him asking to
+            include his poems, and we both think that his writing to me was largely as a feeler, and
+            that it is possible there may be no Anthology if we take a firm stand and refuse to let
+            our poems go in.</p>
+         <p>I will send you the preface as arranged by me in a day or two. Whatever you send now in
+            the way of poems or changes must go in as you put it, because there is no time for any
+            more writing back and forth. Any changes you choose to make in the preface, of course I
+            shall submit to; but I beg you to remember that my object is to persuade, not to
+            antagonize. I have succeeded in persuading many people in my talks, and I think that the
+            method is working well. I am not writing a second letter to Richard, because this is to
+            him as well.</p>
+         <p>By the way, here is a funny thing. If you will read the "Hellenica"</pb> by <persName key="edward_obrien">Edward J. O’Brien</persName>
+            in the December "<title key="littleReview">Little Review</title>," you will see that we are having an effect. I do not of
+            course know whether these are real translations or whether they are original, but Mr.
+            O’Brien has for years written the worst metrical prose I think I have ever read, and
+            this certainly is an advance. Courage, my Children, we are getting there!</p>
+         <closer>Affectionately,</closer>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1920-08-06">06 August 1920</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$112i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>One page typewritten in black ink. Address given for H. D. in the top left
+                     corner of the first page: Mrs. Richard Aldington c/o Miss Winifred Ellerman 1
+                     South Audley St. <placeName key="london">London</placeName> W. 1. <placeName
+                        key="england">England</placeName>. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1920-08-06">August 6, 1920.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>Your book has come, and I think it very fine and make no doubt I can place it somewhere
+            satisfactorily, but not, I fear, until I go to <placeName key="nyc">New
+            York</placeName>.</p>
+         <p>I hear from <persName key="winifred_bryher">Winifred Ellerman</persName> that you are
+            sailing on the Adriatic on the <date when="1920-09-01">first of September</date>. She
+            seems to think that you are going on to <placeName key="california"
+               >California</placeName>; but, from your letter to me, I presume you are going to stay
+            a little while with your <persName key="helen_doolittle">mother</persName> in <placeName
+               key="philadelphia">Philadelphia</placeName> first. Now it occurs to me that Winifred
+            may be a little awkward to place during the visit to your mother. I should like to ask
+            her to come to me for a week or so, but I cannot tell how I shall be, my health is so
+            precarious. We can tell when you arrive.</p>
+         <p>I am contemplating meeting you in New York, as perhaps the services of somebody on the
+            spot will make your landing a little easier. It depends upon my health which is rather
+            nasty. New York is fearfully crowded, and I think it would be well for you to authorize
+            me to engage rooms for you (or engage them yourself), which you can step into on
+            landing, as you cannot go round from hotel to hotel looking for accommodations with a
+               <persName key="perdita_aldington">baby</persName> in tow.</p>
+         <p>Please let me know if there is anything I can do to help you. Perhaps there will be some
+            of your family on hand to meet you, but if there is anything I can do, you may be sure
+            that you can ask me to do it. I must see you before you go to California, at any rate.
+            It will be such a pleasure to be with you again. I will not write any more now, for I
+            want this letter to catch you before you sail. I do not know just when the Adriatic is
+            due, but I will find that out. <foreign xml:lang="fr">Au revoir</foreign>, then,
+               <foreign xml:lang="fr">à bientôt</foreign>.</p>
+         <closer>With a great deal of love from both <persName key="ada_russell">Mrs. Russell</persName> and me, 
+            Affectionately yours,</closer>
+      </body>
+   </text>
+</TEI>

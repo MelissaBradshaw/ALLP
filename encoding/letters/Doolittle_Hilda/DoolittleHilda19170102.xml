@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1917-01-02">02 January 1917</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$43i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Two pages typewritten in black ink. Archival notes read "Aldington" in pencil
+                     at the top of the first page. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1917-01-02">January 2, 1917</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>I am sorry to hear that <persName key="richard_aldington">Richard</persName> has already gone. He wrote me a letter, which I just
+            received, saying that when I got it he would be in <placeName key="france">France</placeName>. You must be fearfully lonely,
+            and I wish I were with you to give what little comfort I could.</p>
+         <p>Should you decide to come to <placeName key="usa">America</placeName>, please let me know at once, for I shall want to
+            see you as soon as possible. I am going on to <placeName key="nyc">New York</placeName> on Wednesday, to be there three
+            weeks, so if you come soon, I may be able to meet you.</p>
+         <p>You know I am lecturing about you at the <placeName key="brooklynInstitute">Brooklyn Institute of Fine Arts and Sciences</placeName>.
+            You never answered my letter requesting a slight biography, so I was obliged to write to
+            <persName key="helen_doolittle">your mother</persName>, who gave me merely the barest facts, as, she said, you were always so
+            reticent about yourself. I do wish you would give me some anecdotes, though, which I can
+            work in when the book is published. All the other poets I have spoken to have done so,
+            and I think it makes things interesting. There are four lectures, which are to be
+            divided as follows:</lb> 1. <persName key="ea_robinson">Edwin Arlington Robinson</persName></lb> 2. <persName key="robert_frost">Robert Frost</persName></lb> 3. <persName key="el_masters">Edgar Lee Masters</persName> and <persName key="carl_sandburg">Carl Sandburg</persName></lb> 4. <persName key="john_fletcher">John Gould Fletcher</persName> and H.D.,</lb> and I hope to be able to do you justice.</p>
+         <p>I have read your book through with the feeling of greatest envy and admiration. No one
+            of us is so perfect in technique as you; and the beauty of your work never ceases to
+            satisfy me. I only hope that these lectures and the book may be a means of making more
+            people</pb> understand you than do now. The public is a stupid beast.</p>
+         <p>I have sent some of Richard’s poems to "<title key="sevenArts">The Seven Arts</title>", and I hope they will accept
+            some. <persName key="brown">Brown</persName> still owes Richard <measure type="currency" num="$5">five dollars</measure> on my agreement. He told me he would pay me
+            last week, but, of course, it has not come. I probably shall get it, however, before
+            long.</p>
+         <closer>Keep me informed as to Richard’s movements, and your own, please, and believe me,
+            Always affectionately,</closer>
+      </body>
+   </text>
+</TEI>

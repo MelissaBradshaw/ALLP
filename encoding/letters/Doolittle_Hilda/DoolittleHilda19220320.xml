@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1922-03-20">20 March 1922</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$130i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Three pages typewritten in black ink. Address given for H. D. in the top left
+                     corner of the first page: Mrs. Richard Aldington c/o Manager, Lloyd’s Bank 67
+                     Kingsway <placeName key="london">London</placeName> W.C.2 <placeName
+                        key="england">England</placeName>. Unsigned. Includes a postscript with
+                     royalties for Some Imagist Poets.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1922-03-20">March 20, 1922.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>Thank you very much for your letter about "<title key="firFlowerTablets">Fir-Flower Tablets</title>." It was splendid to get. The book seems to be making friends. Even
+            <persName key="arthur_waley">Arthur Waley</persName>, who is not, I think, inclined to be very agreeable to other translators
+            calls it "an admirable book."</p>
+         <p>I wonder how your "<title key="hymen">Hymen</title>" is doing. I reviewed it for the "<title key="nyEveningPost">Post</title>." I wonder if you saw
+            the review. If you did not, I shall be very glad to send you a copy. I saw a
+            ridiculously ignorant one of it in the "<title key="londonSpectator">London Spectator</title>" and a superb one by <persName key="may_sinclair">May Sinclair</persName> in the "<title key="dial">Dial</title>."</p>
+         <p>I am delighted that you are included in the "<title key="miscellany">Miscellany</title>" this year. You should have been
+            in the first one. I have not seen your contributions, but <persName key="louis_untermeyer">Louis Untermeyer</persName> tells me they
+            are very fine. From those contributions to the book which I have seen (I have not seen
+            those of all the poets), I should say that it is going to be a better volume than the
+            last one.</p>
+         <p>Meanwhile I peg away at my <title key="johnKeats">book on <persName key="john_keats">Keats</persName></title> and, although I find it interesting, I cuss and
+            swear at ever having undertaken such an enormous task. On the whole, I think Keats was
+            more interesting as a man with potentialities than as a finished poet, although certain
+            of his things still delight me – rather lines and expressions than whole poems, however.
+            He ought to have lived in our age; I think he agreed with it a great deal in his point
+            of view. Of course, when I say that in print, everybody will come out with a howl and
+            say I am writing propaganda again; but that will not be true, so I need not care. I have
+            found enough new material to make the book worth doing, I think.</p>
+         <p>I am just starting off on another lecture trip which will carry me to <placeName key="charleston">Charleston</placeName>. It
+            should be lovely there. I was there once sixteen years ago. There is a beautiful old
+            place there laid out by <persName key="michaud">Michaud</persName>, a famous landscape</pb> gardener, in the
+            eighteenth century. The place is abandoned, has been, I think, since the Civil War, but
+            the grounds remain all laid out with azaleas and paths running between them, and the
+            azaleas are as high as small trees, and their blossoms drop on paths, and you walk
+            softly upon the colours of the rainbow. How you would delight in it!</p>
+         <p>I am very much worried about <persName key="winifred_bryher">Winifred</persName>’s poems which she sent me. They cannot be used,
+            Hilda, it is impossible. They have that curious malodorous touch which permeates the
+            freak poetry that the "<title key="littleReview">Little Review</title>" likes. She did better when she followed you and
+            me. <persName key="robert_mcalmon">Robert McAlmon</persName> is not a good model for her. I have not dared write to her for some
+            time because I hate to tell her that nothing can be done with the book, but it cannot
+            be. If it is published it will simply hurt her, and it will not be published by any
+            reputable firm. What a child of phases she is, and how important, therefore, that the
+            influences surrounding her should be the right ones! I do not suppose that either you or
+            I can do anything about it. Husbands take precedence over friends even when the friends
+            are past literary flames. I woke her up, you pointed her to beautiful perfection, and
+            Robert McAlmon is engaged in toppling her over. I wonder what the next phase will be.
+            She seems greatly enamoured of sexual problems at present, which is, I suppose, partly
+            the trend of our most youthful youth of to-day, and partly the effect of marriage. Poor
+            little girl; where will it end.</p>
+         <p>Well, I must stop this letter as I have a hundred things to do and I am leaving on
+            Monday. Write again soon. <persName key="ada_russell">Mrs. Russell</persName> joins me in much love, and please remember us
+            both to your mother.</p>
+         <closer>Affectionately yours,</closer></pb>
+         <postscript>P.S. Oh, the draft! It gets smaller and smaller and some day will stop altogether, since we are not reprinting, but
+            so long as there is half a two cent stamp to send, you shall have it. The account is as
+            follows.</lb>
+            By Sales:</lb>
+            11 <title key="some_imagist_poets">Imagist Poets</title> .67-1/2 $7.42</lb>
+            7 " 1916 .67-1/2 4.73</lb>
+            8 " 1917 .67-1/2  4.05</lb>
+            1/6 of 16.20 is <measure type="currency" num="$2.70">$2.70</measure> or 12s 5d</postscript>
+      </body>
+   </text>
+</TEI>

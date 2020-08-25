@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1918-04-11">11 April 1918</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$73i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Two pages typewritten in black ink. Mrs. Richard Aldington 44 <placeName
+                        key="mechlenburghSquare">Mechlenburgh Square</placeName>
+                     <placeName key="london">London</placeName>, W.C. <placeName key="england"
+                        >England</placeName> is the typed address given for H. D. in the top left
+                     corner of the first page. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1918-04-11">April 11, 1918.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:-</salute></opener>
+         <p><persName key="richard_aldington">Richard</persName>’s book did not come for weeks after the letter about it. It finally reached me
+            in <placeName key="nyc">New York</placeName> a week or two ago. I kept it until I came home for reasons which I have told
+            Richard in my letter to him, and I am sending it to <persName key="brown">Brown</persName> to-day. I think it is splendid
+            work, but I will not duplicate what I said about it in my letter to Richard, as I want
+            you to read that letter and if you do not think I ought to have said anything that I
+            did, or if you think that it will trouble him, please just tear the letter up, or keep
+            it for yourself, or send it to him mutilated and play the censor did it. The letter is
+            meant as much for you as for him, therefore, I am not enclosing it in a separate
+            envelope, but putting it in with yours, so that you can read all my news before sending
+            it on to Richard.</p>
+         <p>Do write often again. I care so much to hear. You will probably be able to answer my
+            questions about <persName key="john_fletcher">Fletcher</persName> better than Richard will. If you can find out anything without
+            seeming to do so, I shall be eternally obliged.</p>
+         <p>I think you will like what I said about Richard in my lecture. I hope so at any rate. I
+            shall include this paper on Richard in a volume of lectures and essays which I shall get
+            out before long. In the meanwhile, I am hard at work on a long poem which will come out
+            in a book of poems that I am publishing this Autumn.</p>
+         <p>Please send me a copy of "<title key="newPaths">New Paths</title>" when it comes out, as I shall be very glad to see
+            it. You will be amused to know that one of the chapters of my "<title key="tendencies">Tendencies</title>" is to
+            appear in the "<title key="revueDeParis">Revue de Paris</title>," and that a Spanish</pb> translation of my poems is to be
+            issued in <placeName key="mexico">Mexico</placeName>. You see, my dear, the only thing to do is to hang on. I do believe
+            that time brings recognition, if we do not let ourselves get kicked off the tree before
+            it comes.</p>
+         <p>This war is terribly hard. The hardest of all for you, I think. You cannot imagine how
+            much <persName key="ada_russell">Mrs. Russell</persName> and I think of you, and how often we speak of you, and how we wish we
+            were there to give you the glad hand while Richard is away.</p>
+         <closer>Ever so much from us both,</closer>
+      </body>
+   </text>
+</TEI>

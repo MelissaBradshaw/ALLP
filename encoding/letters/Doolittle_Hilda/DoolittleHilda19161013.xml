@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1916-10-13">13 October 1916</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$31i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Five pages typewritten in black ink. Archival notes read "Aldington" in pencil
+                     at the top of the first page. Unsigned. Includes a postscript.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1916-10-13">October 13, 1916.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>I am enclosing a bank draft for <measure type="currency" num="£1.16">£ 1.16</measure>.
+            This represents <measure type="currency" num="$5">$5</measure> for <persName
+               key="richard_aldington">Richard</persName>’s article on "<persName
+               key="stephane_mallarme">Mallarmé</persName>" and <measure type="currency" num="$4"
+               >$4</measure> for his poems in the August "<title key="poetryReview">Poetry
+               Review</title>".</p>
+         <p><persName key="martyn_johnson">Martyn Johnson</persName>, the editor of "<title key="dial">The Dial</title>", wrote to me the other day and asked me if I
+            could give him Richard’s address, as he was delighted with the <persName key="henri_deRegnier">Henry de Régnier</persName> article,
+            and he wanted to have Richard do some more articles for him. I instantly told him to
+            write C/o "<title key="egoist">The Egoist</title>", and as "The Dial" has quite a circulation, I think it will be a
+            good thing for Richard, if he can find time to write anything for it.</p>
+         <p>I saw a long letter in one of the numbers of "The Egoist" by <persName key="wc_williams">William Carlos Williams</persName>,
+            which I suppose he got in through <persName key="ezra_pound">Ezra</persName>. The "<title key="others">Others</title>" group has entirely failed,
+            apparently, and they are very bitter with us because we haven’t. I suppose that is
+            inevitable. They failed because of the ridiculous manner in which they ran their paper,
+            and the spirit of bad-boys-out-on-a-frolick which they permitted to imbue it. I have a
+            correspondence with William Carlos Williams which, I think, will open your eyes to their
+            attitude. The first letter I took half in fun, as you will see by my answer. The second
+            letter is an astonishing document, and shows the fine Italian hand of Ezra. I enclose a
+            copy of my answer. Please show these to Richard. It is as well to know our friends from
+            our enemies.</p></pb>
+         <p><persName key="john_fletcher">Fletcher</persName> writes me that you all dined together the other day. He also tells me that you
+            are all to have your poems in your hands on November first. That is good, because they
+            ought to be here to me by December first, and I will send my contributions to you to get
+            there by the same date.</p>
+         <p>I think Fletcher feels it would be better not to have another "<title key="some_imagist_poets">Anthology</title>", and I suppose
+            as far as the effect of the movement is concerned it won’t make much difference whether
+            we do or not. The "Anthology" has done its work, has lifted us out of the attitude of
+            young charlatans in which Ezra had unfortunately left us, and has shown the world at
+            large that there is a section of the new poetry which is serious and hard-working and
+            has something in it. It has succeeded beyond my wildest dreams, and I do not think
+            another number will help or hurt the cause. We are now accepted, and, of course, it will
+            be our individual effort in future which will count.</p>
+         <p>On the other hand, we signed for three years, and although that is immaterial (the
+            publishers being willing or not, as we choose), we have told so many people that it was
+            for three years and as our sales amply justify another number, I have come to the
+            conclusion that it would be better for us to continue and round out our three years.
+            Also, the failure of "Others" and the success of our "Anthology" has proved that the
+            public does distinguish</pb><!--what should we do when a page break occurs in the middle of a word?--> between good work and charlatanism. Not that I think all the
+            "Others" contributors were charlatans. In spite of Williams’s childish bitterness and
+            injustice, I think he is a sincere fellow and an honest worker, and I think various
+            others of their contributors were so, too. Unfortunately the policy of the paper was the
+            reverse of this. It was because I felt this so strongly, that I wanted us to withdraw
+            our support from "Others". Now I feel that if their anthology and their paper have gone
+            to the wall and ours still continues to appear, it will prove, more conclusively than
+            anything else can do, the value of our work. Therefore, after taking one thing and
+            another, I have decided that it would be distinctly better to print this year’s
+            "Anthology". I do not think there is any reason to extend the contract for any years
+            after this, nor do I think it would be wise to do so. Imagism has come to mesh a
+            definite artistic point of view. That we all differ slightly in our individual
+            interpretations of that point of view, I know quite well. But the attitude at large has
+            become as distinct a phase of art as Romanticism, or Impressionism, or Classicism, or
+            any of the other names by which main groups of artistic tendencies are known.</p>
+         <p>Ezra and his group may bite and scratch all they want. As far as the public here is
+            concerned, they do not exist. Much as I admire much of Ezra’s work, his output is so
+            slight that he has fallen into a backwater, and his violent diatribes against</pb> everything
+            and everybody have served to make him a laughing-stock. And those of his disciples who
+            swear by him are not only in the backwater, they have never been out of it, and we need
+            fear them no more than if they were gnats. Still, we stand in an awkward position, for
+            the conservatives are against us on one side, and the Ezra group are against us on the
+            other. It is only the kindly and outside public who admire us. But they do admire us and
+            support us, and I think we are rapidly becoming the thing which is most influencing the
+            younger generation. The main thing is that we should all keep together and push each
+            other as much as possible, and above all, avoid schisms and differences – that is,
+            stated differences – among ourselves. That six poets should have kept within the cover
+            of one volume without fighting, for three years, is a remarkable thing, and I think we
+            have all shown great generosity and self control. But the effect of this generosity and
+            self-control is evident in the increasing consideration with which we are treated by the
+            world at large.</p>
+         <p>I have not seen your book yet, as it is not out, over here; but Fletcher writes it is
+            very fine. I shall review it, either for "<title key="poetryReview">The Poetry Review</title>" or for <persName key="harriet_monroe">Harriet</persName>.</p>
+         <p>My own book will be out in ten days or so, and I shall send you a copy at once. I shall
+            be most grateful if you can review it as soon as possible for "The Egoist". There will
+            be things in it that neither you nor Richard will like nor subscribe</pb> to. I cannot see
+            Imagism quite within the boundaries that you do. But there will be other things in the
+            book which I think you will like – some old friends which you have already said you
+            liked.</p>
+         <closer>With lots of love to Richard, Affectionately,</closer>
+         <postscript>P.S. We have sold 700 copies of our 2nd Anthology to date.</postscript>
+      </body>
+   </text>
+</TEI>

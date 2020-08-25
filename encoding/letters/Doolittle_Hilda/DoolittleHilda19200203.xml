@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1920-02-03">03 February 1920</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$106i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Five pages typewritten in black ink. Address given for H. D. in the top left
+                     corner of the first page: Mrs. Richard Aldington care of Sir <persName
+                        key="john_ellerman">John Ellerman</persName> 1 South Audley Street
+                        <placeName key="london">London</placeName> W. 1, <placeName key="england"
+                        >England</placeName>. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1920-02-03">February 3, 1920.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>Thank you ever so much for your letter of <date when="1920-01-01">January 1st</date>, which came just as I was starting
+            out on a lecture trip, so I have waited until now to answer it. Now I am going to have
+            an operation this week, and I do not know when I shall be up to writing again.</p>
+         <p>It was awfully nice of you to be so interested in the <orgName key="contemporaryClub">Contemporary Club</orgName> row. I was only
+            annoyed with them because I had especially stipulated that there should be no
+            discussion. I think that the time for discussing the new poetry has gone by. I am
+            willing to talk about it, explain it, anything, but I will not stand up to be badgered
+            even with the result, as always happens, of my beating my opponents. But at the
+            Contemporary Club there was no possibility of discussion, since all they did was to call
+            me names. I had used some of your work and some of <persName key="carl_sandburg">Sandburg</persName>’s to illustrate my points,
+            so you and Sandburg came in for a round robin of diatribes, and I personally was called
+            every name you possibly can think of which was insulting. As there was no way of
+            answering these gentlemen, except by saying "You’re another," I refused to answer at
+            all, merely telling the Club that I had made this stipulation about there being no
+            discussion, that it had been agreed to by their secretary, and that I did not think they
+            were keeping faith with me. On the whole I think my silence scored as well as any
+            eloquence would have done. But I realized after that meeting more than I had ever
+            realized before how impossible it was for you to live in <placeName key="philadelphia">Philadelphia</placeName>.</p>
+         <p>I am happy to say that Philadelphia is now in the last century, and that in other places
+            there is a very different attitude. New York is</pb> most anxious to hear everything. I had 921 people to hear me read at 
+            <placeName key="stMarksBouwerie">St. Mark’s in-the-Bouwerie</placeName> in November, and 720 at <placeName key="columbiaU">Columbia University</placeName> a few days later, so
+            you can see that there is an interest, and even those in the high places are taking
+            things up. I am to give the Phi Beta Kappa poem at Columbia University in June, and what
+            is still funnier, so funny that it causes me to smile, I am to receive the degree of
+            Doctor of Literature from <placeName key="BaylorU">a Western University</placeName> this Commencement. Oh, Hilda, but the
+            world is a funny place!</p>
+         <p>I sold "The Islands" to the "<title key="northAmericanReview">North American Review</title>," and it has already appeared, so I
+            suppose you have the cheque by this time. "Thetis" is at the moment being considered by
+            "<title key="bookman">The Bookman</title>," and I certainly hope they will take it. When may we expect another book
+            from you, my dear? Before long, I hope. But certainly I have been too ill to think of
+            books. <persName key="winifred_bryher">Winifred</persName> writes that she hopes you are going to <placeName key="greece">Greece</placeName> with her. I wonder if you
+            do. Personally, I think that the charms of your baby will keep you where you are, and I
+            imagine that travelling with Winifred is a bit strenuous. Soon an eager child must
+            require a dragon of strength to keep up with her it seems to me. I do hope that she will
+            come to <placeName key="usa">America</placeName>. I think that it will do her good and open her eyes, and I believe that
+            she stands much more chance of getting an audience here than she does at home.</p>
+         <p>Of course I should be delighted to write the Preface to her book. I only did not say so
+            in loud tones because I did not want to make her feel obliged to have me. She is such a
+            queer child that I am always afraid of treading on her toes, and I did not want to seem
+            to push myself in where she did not want me to be. It is unfortunate that her
+            knowledge of business</pb> is so slight for
+            instead of giving <orgName key="macmillan">Macmillan</orgName>’s letter to me to <orgName key="constable">Constable</orgName> and letting them decide what
+            they would do, and then letting me decide what I would do about the Preface, she
+            returned the letter to me, which means that the whole transaction is to do over again,
+            and now she tells me that Constable is printing her book over there, which changes the
+            proposition entirely. However, I saw Mr. <persName key="ec_marsh">Marsh</persName> when I was in <placeName key="nyc">New York</placeName>, and he says that
+            he thinks they will be perfectly willing to take sheets on condition that I write the
+            Preface for the book, so I have sent the letter back to Winifred and told her this, and
+            possibly something will happen now.</p>
+         <p>You asked me what I thought of your little friend <persName key="viola_jordan">Viola Jordan</persName>. She was a little fresh,
+            but rather pleasantly so, and she was so genuinely enthusiastic that I enjoyed seeing
+            her. Her <persName key="virgil_jordan">husband</persName> is a very nice fellow; he seemed very quiet and dependable. She is what
+            the French call<foreign xml:lang="fr"><add place="above"> une</add> <hi rend="underline">fausse naïve</hi></foreign>. She poses as if she were very
+            simple and innocent, but I think myself that she is far more developed mentally and far
+            shrewder than she would give the impression of being. I do not personally care for poses
+            and should have preferred her to be natural, but, nevertheless, I enjoyed them both.
+            They have been playing with the <placeName key="greenwichVillage">Greenwich Village</placeName> crowd a good deal, and she has got
+            rather tired of it, as, indeed, has every one else. It amuses me to observe as we go on
+            how those of us who are sincere and whose work is a part of ourselves, our very flesh
+            and blood, rise to the top, while those who wrote with the surface or shell go gradually
+            under.</p>
+         <p>The "<title key="littleReview">Little Review</title>" has got queerer and queerer until now it is really almost crazy, and
+            nobody has any respect for it at all. I never think of writing for it, and I think
+            nobody else of any standing does. The "<title key="dial">Dial</title>"</pb> has been sold to a young <orgName key="harvard">Harvard</orgName> man named <persName key="schofield_thayer">Schofield Thayer</persName> and they are trying to
+            make it into a sort of "<title key="sevenArts">Seven Arts</title>." Only one number of the revised magazine has
+            appeared as yet. They have turned it into a monthly and may do something with it, but I
+            have my doubts, as I think their probably object is to make an organ in which the
+            recently graduated Harvard man can air his views and his work, and there do not seem to
+            be any such of any great talent at present. They have not asked me to contribute which I
+            take is a sign that they are keeping it more or less in a ring. I wanted to go to see
+            them when I was in New York, but did not have the time. They have every reason to
+            succeed. The owner is a rich man, and this is his hobby, but I doubt whether they
+            do.</p>
+         <p><title key="poetry"><persName key="harriet_monroe">Harriet</persName>’s magazine</title> goes along in its own way. It has its own clientele, but it has no
+            influence whatever outside of a small group. It is exceedingly funny to me that a woman
+            could have had a magazine running for six years and never increase its circulation to
+            any amount that counts as a circulation and have no influence on the growth of poetry in
+            any way. It would horrify her if she knew this was the case, but it is, and it is
+            surprising and shows Harriet’s glorious ineptness better than anything else could
+            possibly do. Poetry is a power over here. People are avid for it. Poets have no
+            difficulty in getting published. The public is large; the editors eager. And to conduct
+            a poetry magazine which has not counted at all is really a bit singular.</p>
+         <p>My own books are selling more all the time, which pleases me, and even the poor, dear,
+            old <title key="some_imagist_poets">Imagist Anthologies</title>, which we are letting go out of print, still have a sale for
+            their remainder as you will see by the enclosed <measure type="currency">money order</measure><!--not sure what to do with this because no amount-->. The sale is not brilliant,
+            but it still shows a</pb> demand, although not
+            enough to keep the books in print.</p>
+         <p>Do write to me again and cheer up my convalescence and tell me all your plans. Do let me
+            know whether or not you did go with Winifred or where you are. <persName key="richard_aldington">Richard</persName> wrote me that you
+            were with the Ellermans so I am sending this letter here.</p>
+         <closer><persName key="ada_russell">Ada</persName> joins me in much love, 
+            Affectionately yours,</closer>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1921-01-13">13 January 1921</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$116i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Four pages typewritten in black ink. Address given for H. D. in the top left
+                     corner of the first page: Mrs. Richard Aldington Mrs. Richard Aldington ‘Leven
+                     Oaks Hotel Monrovia <placeName key="california">California</placeName>. On the
+                     first page, the date was originally given as 13 January 20; "20" was crossed
+                     out in pencil, and "21" was written in its place. Subsequent pages read "13
+                     January 21." Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1921-01-13">January 13, 1921.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>Thank you very much for your letter of <date when="1920-12-22">December 22nd</date>. I should have answered it sooner,
+            but really, my dear, you can understand how difficult it is to catch up with things, I
+            have been ill so long; and then <orgName key="houghton_mifflin">Houghton Mifflin</orgName> insist upon my <title key="legends">legend book</title> coming out
+            in April, which means that the manuscript must be in in March, and one of the legends
+            which I have been mulling over during my illness suddenly came to a head and had to be
+            written and I had to drop everything and get at it. It is queerer than Dick’s hat-band,
+            but I think it will make a good contrast to the others.</p>
+         <p>Then <orgName key="yale">Yale</orgName>, who has never smiled either upon new poets or upon women, was suddenly seized
+            with a desire to have me come down there and give one of the lectures of the <orgName key="francisBergenFoundation">Francis
+            Bergen Foundation</orgName>. This time it is to be on the centenary of <persName key="john_keats">Keats</persName>’s death, and means a
+            lecture on Keats; and as a kind of <foreign xml:lang="fr">bonne bouche</foreign>, to make up for asking me to talk on
+            some other poet, they have added a reading of my own poems at the <orgName key="elizabethanClub">Elizabethan Club</orgName> the
+            day before. As Yale is the only one of the larger colleges at which I have not yet
+            spoken, and as they are so sadly in need of a little proselytizing, I thought I had
+            better do it. Luckily, I have finished my legend, or virtually so; and therefore I am
+            able to start on the Keats lecture; but all this coming so soon after my operation has
+            put rather a strain upon me, and my mail has got jiggled off into a corner,
+            perforce.</p>
+         <p>Please tell <persName key="winifred_bryher">Winifred</persName> that I shall write to her in a day or two, but as your letter
+            precedes those of hers which I have not answered, I feel that you come first on the list
+            this time. Please tell her that I delight in her letters; they have been the brightest
+            star of my illness. She is such a good and faithful correspondent.</p></pb>
+         <p>Now, my dear, I have some news for you. Mr. <persName key="robert_holliday">Holliday</persName> of <orgName key="holt">Henry Holt &amp; Company</orgName> wrote
+            most enthusiastically welcoming my suggestion that they look over the manuscript of your
+            book, "<title key="hymen">Hymen</title>," with a view to publication. I told them all about <persName key="harold_monro">Monro</persName>, but they were
+            willing to read the volume as it was, and I sent it to them at once. I have not heard
+            anything as yet, but I suppose I shall soon, and I will let you know as soon as I do. I
+            have told them that they would have to make arrangements through Monro as he owns the
+            copyright, but it is possible that he is not copyrighting it in <placeName key="usa">America</placeName>, in which case
+            of course it cannot be copyrighted here as it would not be able to come out
+            simultaneously with the English edition. I do not think that matters much, as it is not
+            like a best seller novel. Lots of English books here are published here that are not
+            copyrighted. There the matter is at present, and I will let you or Winifred know as soon
+            as a new phase opens.</p>
+         <p>Winifred’s accounts of your adventures with your <persName>nurse</persName><!--should this person be tagged?--> fill me with joy. That woman is
+            as good as a penny dreadful all by herself, and I am afraid you young things do not hold
+            a strong enough hand over her. English servants always have to be held down very
+            tightly. They get out of hand if they are allowed the least leeway, at least that is the
+            experience of an old housekeeper. I have been keeping house for twenty years with
+            various nationalities, and I could write a book on the different ways each has to be
+            treated. What between the nurse and the <persName>chauffeur</persName><!--should this person be tagged?--> when you went to <placeName key="sanDiego">San Diego</placeName> I must say
+            you are having an exciting time. What I do regret is that we are no nearer together. It
+            would be such fun to be able to talk. Now that I am getting back to normal again, I feel
+            very much in need of a good talk.</p>
+         <p>Winifred says that you want to know somewhere to spend the Summer, but of course you
+            must realize that there are so many places that one cannot give you any advice. What
+            between East, and West, and mountains, and seas, you</pb> have a variety of
+            choice which is simply bewildering. I think if I wanted the sea, I should take the <placeName key="maine">Maine</placeName>
+            coast, if I were you. If you wanted sea bathing, I should try the Cape – <placeName key="capeCod">Cape Cod</placeName>, that
+            is – or <placeName key="longIsland">Long Island</placeName>. If you want mountains or woods, there is all of <placeName key="newHampshire">New Hampshire</placeName> and
+            much of Maine. <placeName key="peterborough">Peterborough</placeName> has the <orgName key="macdowellColony">MacDowell Colony</orgName> of artists and is a lovely country.
+            There are lots of places that are not over-fashionable, plenty, I think, of the type you
+            want; but what grieves me is that I shall be in none of them. I hope to get over to
+            <placeName key="england">England</placeName> this Spring, but the doctor seems to think that May is too soon for me to
+            attempt a sea voyage, and I think June would be too late, which would put my going off
+            until the Autumn. I distinctly do not want that as I am afraid of the English cold in
+            the Autumn. At present I am merely getting well and doing my work.</p>
+         <p>I have another month quietly here, and then I start to <placeName key="nyc">New York</placeName> to lecture at the
+            <orgName key="brooklynInstitute">Brooklyn Institute of Arts and Sciences</orgName>; from there to Yale for my two lectures, and
+            back again to New York for a lecture at <orgName key="columbiaU">Columbia</orgName>. Then I come home for a brief space,
+            and dash off for a <orgName key="universityExtensionSociety">University Extension Society</orgName> lecture in <placeName key="philadelphia">Philadelphia</placeName>; and somewhere
+            in the offing, <orgName key="brownU">Brown University</orgName>, <orgName key="dartmouth">Dartmouth</orgName>, and <orgName key="smithCollege">Smith College</orgName>, with a plethora of proof
+            stuck into the interstices, and, I hope, another legend which cries to be written down.
+            You see there is not much time, and I think for a lady who has had two operations in
+            eight months, it is not perhaps a bad record.</p>
+         <p>Winifred suggests that your book of Greek essays be submitted to <persName key="ferris_greenslet">Ferris Greenslet</persName> to
+            take abroad with him, but it would be too late for that just now as he sails almost
+            immediately; but I would not hurry it, just let it simmer and digest, and next year will
+            be quite as good as this year for its publication. Art is long, and the more I see of
+            things, the more I am convinced that it is a mistake to hurry anything; and the farther
+            away we get</pb> from the war, the better will be the selling possibilities, I
+            think. The sales market has been completely knocked out in the general slump of business
+            lately, and the publishers are looking very unhappy, so I really think that some months
+            hence would be a better time to submit any manuscripts you have than the present would
+            be.</p>
+         <p>If Holt does take this book of yours, they are a very good firm and much interested in
+            modern poetry, more interested, I think, than Houghton Mifflin. In fact, I am inclined
+            to think that if I were not with Houghton Mifflin, I should be with Holt. With me, it is
+            scarcely a matter of choice as Ferris Greenslet is such an old and tired friend of mine,
+            but Holt has got younger and more energetic blood in the firm, and if this book is
+            published by them, I do not know why they would not make a good firm to continue to
+            publish your American editions. However, we can decide that later when you have a volume
+            ready.</p>
+         <p>I cannot write any more now as I have a perfect stack of letters to answer, but this
+            takes lots of love from <persName key="ada_russell">Mrs. Russell</persName> and me to you both, and most kind rememberances to
+            your mother. Winifred’s picture of <persName key="perdita_aldington">Perdita</persName> and her Christmas Presents, which came this
+            morning, is absolutely delightful. What a healthy looking little creature she is! Tell
+            Winifred to take some snap shots of you and herself, and send them to me.</p>
+         <closer>Much love,</closer>
+      </body>
+   </text>
+</TEI>

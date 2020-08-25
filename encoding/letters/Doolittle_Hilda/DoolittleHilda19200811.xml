@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+               key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1920-08-11">11 August 1920</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$113i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>One page typewritten in black ink. Address given for H. D. in the top left
+                     corner of the first page:  Mrs. Richard Aldington
+                     c/o Miss Winifred Ellerman
+                     1 South Audley St. 
+                     <placeName key="london">London</placeName>, W.1. 
+                     <placeName key="england">England</placeName>. Unsigned. Addendum written by secretary at the end of the letter.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1920-08-11">August 11, 1920.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>I trust this will reach you before you sail. I am not going to write any more now because I have just written you a letter, and I want this to go in the mail at once.</p> 
+         <closer>Affectionately yours,</closer>
+         
+         
+         <p>By sales</lb>
+            20 <title key="some_imagist_poets">Imagist Poets</title>, 1915    .46 2/3     $9.33</lb>
+            23      "       "           "        .58 1/3        13.42</lb>
+            13      "       "         1916    .46 2/3          6.07</lb>
+            17      "       "           "         .58 1/3          9.92</lb>
+            19      "       "         1917    .46 2/3       8.87</lb>
+            21      "       "           "        .58 1/3     12.25 </lb>
+            59.86</lb>
+         One sixth of $59.86 is <measure type="currency" num="$9.97">$9.97</measure></p>
+         <p>Miss <persName key="amy_lowell">Lowell</persName> was obliged to leave 
+         before this letter could be signed</p>
+      </body>
+   </text>
+</TEI>

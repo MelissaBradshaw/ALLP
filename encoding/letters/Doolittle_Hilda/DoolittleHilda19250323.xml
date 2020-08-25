@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1925-03-23">23 March 1925</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$147i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Two pages typewritten in black ink. Address given for H. D. in the top left
+                     corner of the first page: Mrs. Richard Aldington care Manager, Lloyd’s Bank, 67
+                     Kingsway, <placeName key="london">London</placeName> W.C.2, <placeName
+                        key="england">England</placeName>. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1925-03-23">March 23, 1925.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>Your letter of <date when="1925-03-06">March sixth</date> was very nice to get. I do not advise your having the "<title key="johnKeats">Keats</title>"
+            sent to <placeName key="europe">the continent</placeName> if you are running round, for he is really very bulky, and you can
+            get it when you come to <placeName key="london">London</placeName>.</p>
+         <p><persName key="ada_russell">Mrs. Russell</persName> and I land in <placeName key="england">England</placeName> on <date when="1925-04-21">April twenty-first</date>, and we sail for home on <date when="1925-07-18">July eighteenth</date>, so that gives us a good leeway; in case you come to England, I am almost
+            sure to be there.</p>
+         <p><persName key="jonathan_cape">Jonathan Cape</persName> has done nobly with the lectures, and I am booked for about twenty
+            readings – at all the English universities and before various poetry societies, etc.</p>
+         <p>If you think that the London reviews of the "Keats" are good, that is not my idea
+            of good. On the other hand, the provincial papers and the Scottish papers have been
+            really good. The London papers, in spite of the space that they have allowed me, have
+            adopted their usual sneering tactics, but their interest to hear me speak is surprising.
+            I am giving a lecture at <orgName key="birminghamU">Birmingham University</orgName> on "Modern American Poetry" and shall
+            read some of your things there. I feel that it is really going back ten years and expect
+            to be greeted with potatoes and rotten eggs. But, as far as I can make out, it is the
+            literary set who are hostile, the public at large seem well enough disposed. Poets are a
+            jealous crowd, and when I saw <persName key="edith_sitwell">Edith Sitwell</persName> patronizing you and me in "<title key="vogue">Vogue</title>" the other
+            day, I could not help smiling.</p>
+         <p>I have not seen the collected edition of your books published by Boni and Liveright, but
+            I am very anxious to get it. The English can talk as they want, but I think the American
+            poets beat them all to a frazzle, and I expect to hint as much, gently but firmly, in my
+            lecture.</p></pb>
+         <p>I am sending this to the bank so that you may receive it
+            somewhere, some time. I wrote to <persName key="winifred_bryher">Winifred Bryher</persName> the other day and sent my book to her
+            <placeName key="audleyStreet">South Audley Street</placeName> address. I hope she will get it sometime.</p>
+         <p>I did not send you any royalties from the <title key="some_imagist_poets">Imagist anthologies</title> in February for the simple
+            reason that there were none. 1915 and 1916 are out of print and there are only six
+            copies of 1917 left, so we shall soon have done with it altogether. It did its work and
+            served its turn, and I, for one, shall be glad to have it entirely disposed of.</p>
+         <p>Both Mrs. Russell and I are looking forward very much to seeing you. We shall be at the
+            <placeName key="berkleyHotel">Berkley Hotel</placeName>, but my bank address will probably be safer. It is care of Messrs. <orgName key="brownShipley">Brown, Shipley &amp; Co.</orgName>, 123 Pall Mall, London, S.W.</p>
+         <closer>Affectionately yours,</closer>
+      </body>
+   </text>
+</TEI>

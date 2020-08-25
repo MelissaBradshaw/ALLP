@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+               key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1916-12-20">20 December 1916</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$37i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Five pages typewritten in black ink. Archival notes read "Aldington" in pencil
+                     at the top of the first page. Unsigned. Includes a list of manuscripts enclosed with the letter.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1916-07-07">December 20, 1916</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>I am so sorry to have been so long<add place="above"> in</add> returning these poems for the <title key="some_imagist_poets">Anthology</title> to you, and telling you about them, and sending you mine. But, as <persName key="ada_russell">Mrs. Russell</persName> wrote you, I have really been very ill, and I am only just getting back to work again. I am now confronted with the fact that the lectures I am to give next month are not written, and I am only allowed to work a few hours a day.</p> 
+         <p>After all these explanations, I will go at once to business, for I am sure you will understand. Two months in bed, and five weeks utterly unable to do anything, with a trained nurse in the house and much pain, have not added to my efficiency this Autumn, I am sorry to say. However, I am round again now, and if I can prevent myself from overdoing, I may stay well for a while.</p> 
+         <p>To begin with <persName key="richard_aldington">Richard</persName>’s poems. I like some of his earlier ones better than this last batch which you sent. My choice for his selection would be as follows: 
+            December 25, 1915
+            Bondage
+            Prayer
+            Field Manoevres
+            Leave-taking
+            On the March
+            A Moment’s Interlude
+         This makes the usual seven for him. But there are two others which might be included, "Images", and "Two Impressions." Without the last two, it would make nine pages for him; with the last two, eleven, which</pb> does not seem excessive. I hope he will let me put this selection in,<add place="above"> for I</add> cannot help liking them better than the others.</p>
+         <p>I will try to get "Malady" printed somewhere, but I have my doubts whether it will be well understood here. Some of these others, though, I still have hopes of getting into some magazine before they are printed in the Anthology. But now that so many of the little magazines have failed, it is getting increasingly difficult to place things.</p> 
+         <p>Of course, your "Tribute" is all right, and will go in just as it is. It will make, I think, fourteen pages.</p> 
+         <p>My selection for <persName key="john_fletcher">Fletcher</persName> would be his
+            Lincoln
+            Blackberry Harvest
+            Moonlight, and 
+            Dawn
+         with possibly "Armies", if he very much desires it. But he will have ten pages without "Armies", and I rather advise not including it. However, that can be as he pleases.</p> 
+         <p><persName key="fs_flint">Flint</persName>’s collection is really very bad, as you warned me it would be. The first two poems of his batch I am returning. Somehow, when Flint touches passion he makes it as unpleasant as a piece of raw beefsteak. The beauty, the feeling, all washes away and nothing is left but nausea. Break this to him as gently as possible. I know he never understands why I return so many of his poems, but it is on</pb> this account. I do not mind anybody’s saying anything they like, but they must say it with beauty and charm. 
+            Searchlight
+            Zepplins
+            Devonshire
+            Soldiers
+            Dusk
+         This makes a contribution of nine pages, which is really long enough. But if he wants to send over some others, I think they might be considered short enough to be included in the usual seven.</p>
+         <p>For the <persName key="dh_lawrence">Lawrence</persName> selection I unhesitatingly take "Terra Nuova". This alone will make between eleven and twelve pages, which should be quite enough for him.</p> 
+         <p>For my contribution I send you a number of little, short poems, which I call "Lacquer Prints", because they are obviously based on the Hokku. I should like to have them printed as one poem, called "Lacquer Prints", with the sub-titles as here indicated, which sub-titles are not to appear in the Table of Contents. They will make about seven or eight pages.</p>
+         <p><persName key="ferris_greenslet">Ferris Greenslet</persName> is in a great hurry, and keeps asking me if I can’t send him the manuscript. I think he wants to send out some dummies with his travelling men. So do answer by return mail.</p>
+         <p>I perfectly love these poems of Richard’s, and, strangely enough, the one I love best of all is "Prayer". I have read that, I don’t</pb> know how many times since I got it, and tried so hard to learn how it is done.</p> 
+         <p>I think there is more charm in this group I have selected than in the others, but, of course, I do not want to impose my decision upon you if you think differently. Still, I cannot help hoping that you will let it stand, as I have such a weakness for it.</p> 
+         <p>I fear Fletcher may be hurt about my leaving out his war poems; but as Richard’s things deal with the army, and Flint’s deal with war conditions, I think it would be better to exclude war poems from Fletcher’s selections.</p> 
+         <p>I cannot write any more now, because I am crowded with work and because this must go off.</p> 
+         <p>By the way, I have done my best with <persName key="john_cournos">Cournos</persName>’s poems, but it is no use. I have succeeded in selling one to <persName key="ws_braithwaite">Braithwaite</persName> – "To A Poet". The others I return to you. I imagine I can always get anything into "<title key="littleReview">The Little Review</title>", if you want me to send anything there. But as they pay nothing, I thought that was of no particular advantage. Besides, "The Little Review" and "<title key="poetry">Poetry</title>" you have as much "pull" with as I.</p> 
+         <p>Flint requests me to get his things into a paying review. I will have copies made of them and send them to <persName key="harriet_monroe">Harriet</persName>. I will also try Braithwaite, but I do not think there is much hope. Do try to make him feel that I am doing my best for him, but, really, Hilda, his things are not very good nowadays.</p> 
+         <p>No more just now.</p> 
+         <closer>Affectionately yours,</closer></pb>
+         <postscript>List of manuscripts enclosed with letter: 
+         
+         F.S. Flint:  -     -     -     On A Certain Citizen 
+            Cournos   -    -    -    -      Autobiography
+            Not Forgot
+            My Kingdom
+            Richard Aldington -     The Sea
+            Sunset and Moonrise
+            Song of the Wise Virgins
+            Autumn Rain
+            New Adam
+            The Moaning Lover
+            Hymn to Priapus
+            Street Lamps
+            Purity
+         Ballad of a Lovely Woman</postscript>
+         
+      </body>
+   </text>
+</TEI>

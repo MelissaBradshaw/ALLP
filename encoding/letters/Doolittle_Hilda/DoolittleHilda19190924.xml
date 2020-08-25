@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1919-09-24">24 September 1919</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$104i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Two pages typewritten in black ink. Address given for H. D. in the top left
+                     corner of the first page: Mrs. Richard Aldington c/o Miss Winifred Ellerman, 1
+                     South Audley Street, <placeName key="london">London</placeName>, W.1,
+                        <placeName key="england">England</placeName>. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1919-09-24">September 24, 1919.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>I enclose you cheque for our half yearly royalties from <orgName key="houghton_mifflin">Houghton Mifflin</orgName>. They are
+            getting very slim, for, as you know, we are letting the editions run out, so that there
+            will be less and less from this source until finally there is none at all. The
+            bookkeeping is as follows:</lb>
+            By sales</lb>
+            24 <title key="some_imagist_poets">Imagist Poets</title>, 1915 .43 ½ $10.44</lb>
+            20 " " 1916 .43 ½ 8.70</lb>
+            24 " " 1917 .43 ½ 10.44</lb>
+                              $29.58 </lb>
+            One-sixth of $29.58 is <measure type="currency" num="$4.93">$4.93</measure></p>
+         <p>Now as to your poems, I have already placed "The Islands" in the "<title key="northAmericanReview">North American Review</title>." The shorter one I Have not been able to place yet, but I hope to before long. I
+            shall be in <placeName key="nyc">New York</placeName> the last week in October and the first week in November lecturing
+            at <placeName key="columbiaU">Columbia University</placeName>, and while I am there I can run round and see editors, and I hope
+            to be able to get some one to take this poem of yours.</p>
+         <p>Now I want to ask you an interesting question: Was <persName key="winifred_bryher">Winifred Ellerman</persName> hurt by my letter
+            to her about her book "<title key="development">Development</title>"? She seems a very queer, uncertain child and one
+            upon whose toes one is always treading unconsciously. She sent me the book and asked my
+            opinion on it, and I wrote her exactly what my opinion was, some of it favourable, some
+            of it more moderate in tone. I do not really think the book was ready for publication,
+            but I told her as she was publishing it not to worry about that. As I think she will
+            probably have shown you my letter, I will not go at all into the details of what I said,
+            but certainly I did not couch it in a way to hurt any one’s feelings, and equally
+            certainly, when one is asked for a criticism, one should not be huffed when it is
+            given.</p></pb>
+         <p>I do not understand the girl nor her attitude toward her art. If she is the serious
+            artist I suppose, she would be willing to accept criticism even if she did not want to
+            follow it. There is no necessity whatever for any one to follow criticism, but one
+            should not be annoyed at receiving it. Does she think she is the genius of the world who
+            can arrive at success spontaneously, as it were? I hope I have not hurt her feelings for
+            I like the girl from her letters, and value her youthful and exuberant attitude toward
+            poetry, but she seems inclined to squabble with people rather.</p>
+         <p>What I am really afraid of is that she will think that <persName key="ferris_greenslet">Ferris Greenslet</persName>’s remarks about
+            her book came from me. As a matter of fact, I gave Ferris Greenslet no opinion whatever
+            about the book before he read it, and I had no idea what he had written to her until
+            after he wrote it. It was rather funny, therefore, that our opinions should more or less
+            coincide. If Winifred chooses to be offended I suppose it cannot be helped, but I am
+            very sorry if such is the case. However, possibly you can straighten things out. I am
+            afraid she will find the pathway to success very hard if she is going to take the
+            remarks made about her work in this way.</p>
+         <p>Do write me from time to time and tell me how you are. Since I do not know if you are
+            still in <placeName key="cornwall">Cornwall</placeName> I am sending <persName key="richard_aldington">Richard</persName>’s cheque to his <placeName key="london">London</placeName> address, and yours to you
+            at the address you have given me. I wonder how it will be when I go to <placeName key="england">England</placeName> and when
+            I can come. <persName key="ada_russell">Mrs. Russell</persName> joins me in much love. You will shortly receive my new book
+            which I hope will be out next week.</p>
+         <closer>Affectionately yours,</closer>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1923-03-30">30 March 1923</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$137i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Four pages typewritten in black ink. Address given for H. D. in the top left
+                     corner of the first page: Mrs. Richard Aldington c/o Manager, Lloyd’s Bank, 67
+                     Kingsway, <placeName key="london">London</placeName> W.C.2. <placeName
+                        key="england">England</placeName>. Unsigned. Date was changed from March 20,
+                     1923 to March 30, 1923; the change was made in pencil. At the end of the letter, "Draft according to exchange" was added in pencil.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1923-03-30">March 30, 1923.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>I believe I have never answered your letter of last October, and I am sure I never
+            thanked you for your Christmas card, all of which deserves <subst><del type="strikethrough">my</del><add place="above">a</add></subst> sincere apology. But really, my dear, I find letters exceedingly hard to write, with
+            this terrible <title key="johnKeats"><persName key="john_keats">Keats</persName> book</title> taking all my time and all my energy. Perhaps, when it is
+            finished, I shall burst into a perfect flame of correspondence. But now I have something
+            most important to write you, and my only regret at not writing earlier is that you may
+            have heard it first from <persName key="ferris_greenslet">Ferris Greenslet</persName>. <orgName key="houghton_mifflin">Houghton Mifflin</orgName> will take your <title>book</title><!--which book-->. I gave
+            Ferris your <placeName key="london">London</placeName> bank address, as he was very anxious to see you when he went over,
+            which he did about three weeks ago. I told him I had no idea whether you were in <placeName key="england">England</placeName>
+            or were going to be there, and I think he was not going on <placeName key="europe">the Continent</placeName>, but probably
+            he will succeed in reaching you somehow and you can talk over the terms he suggests,
+            which I strongly advise you to accept, although they are not calculated to turn <add place="above">your royalties</add> into a mine of gold.</p>
+         <p>My experience with Houghton Mifflin is that they make very severe contracts with their
+            authors, but that they live absolutely up to the letter of them and frequently interpret
+            them to the author’s advantage. It <subst><del type="strikethrough">is</del><add place="above">was</add></subst> just the other way with
+            <orgName key="macmillan">Macmillan</orgName>, who made what seemed like an extremely lenient contract, and then crept up on
+            it on all points. As I told <persName key="marianne_moore">Marianne Moore</persName> that Houghton Mifflin had accepted it, and as
+            she is more prompt in her correspondence than I, I think you may have heard the news
+            from her as well as from Ferris.</p>
+         <p>My only wish that you had not sent <title>your new poetry volume</title><!--which one--> to <orgName key="holt">Henry Holt</orgName>, as my
+            experience, and that of all the authors with whom I have talked, is that it is better to
+            be published by one firm, and not to scatter one’s</pb> books among a number of
+            firms, for in that case no firm takes the same interest in you as they would do if they
+            were your sole publishers. I think Houghton Mifflin are beginning to see the error of
+            their ways in not accepting "<title key="hymen">Hymen</title>" and having all your books in their hands. Being a
+            perfectly honest person, I was compelled to tell Ferris that Marianne Moore had told me, <add place="above">on the whole, I think it was <persName key="louis_untermeyer">Louis Untermeyer</persName> who told me; not Marianne Moore</add> that Henry Holt had taken your new poems, but he must want to publish your
+            things as in spite of this he is willing to take your essays, which shows he must want
+            them a good deal. If you do see him or if you do correspond with him, I hope you will
+            agree to give him first chance on whatever new books you have, as I think he is
+            realizing more and more that you are a very important person in this poetry renaissance,
+            and that it would be a good thing for his firm to be your publishers.</p>
+         <p>Here is the little pittance for our half-yearly royalties on the "<title key="some_imagist_poets">Imagist Anthologies</title>."
+            They sell os little now that the few copies we have left of each volume seem to go on
+            forever, but, as I have long since given orders that they are not to be reprinted, I
+            suppose these liter doles of five and ten cent pieces will end in time. They report that
+            there are 25 copies of the 1915, 23 copies of the 1916, and 31 copies of the 1917
+            volumes left over.</p>
+         <p>I should have sent you this money last month, but I have been away for six weeks touring
+            the Middle West and giving seventeen lectures. It was a most interesting experience, but
+            a little too strenuous for me. I came home with a wretched cold which it has taken me an
+            age to throw off, but I am all right now.</p>
+         <p>I am not coming to <placeName key="london">London</placeName> this Spring as I had hoped, because I have got the Keats book
+            ready for the press and they are very anxious to publish it next Autumn. I hope that
+            I may get it done in time, but the mere manual</pb> labour of writing seems
+            to make that doubtful, though I have not said as much to the publishers. However, I am
+            getting on swimmingly, and, if I could write more hours a day and if there were more
+            days between now and Autumn, I could certainly finish it in time. As it is now, it is a
+            mere question of how long it will take to put it down on paper, for this book is now
+            entirely crystallized in my mind, and my stacks of notes are now numbered and in order
+            so that I have no difficulty in using them. Two years is a long time to meditate on a
+            book and do the preliminary work on it, and that I have reached the stage of writing is
+            almost an intoxication to me after the drudgery which preceded it.</p>
+         <p>I heard of you last from <persName key="winifred_bryher">Winifred Bryher</persName>, although she said she had not seen you. She
+            and <persName key="robert_mcalmon">McAlmon</persName> seem to be getting along all right. I cannot quite make out how. Marianne
+            Moore seemed to think it was a marriage of convenience and that they were not living
+            together as husband and wife. Personally, from Winifred’s letters, I should doubt this.
+            I should doubt it all more from her poems, and I do not know whether Marianne Moore
+            knows any more about it than I do, as neither of us have seen them since they were
+            married. I wish you would give me your opinion on the subject; in confidence, of
+            course.</p>
+         <p>If there is any more I can do for you at any time to forward your work here, or anything
+            else that ou would like, you know you can always command me. I thought your poems in the
+            "<title key="miscellany">Miscellany</title>" were particularly fine. I wonder how <persName key="conrad_aiken">Aiken</persName>’s "<title key="americanPoetry">Anthology</title>" is getting on in
+            London. The book has had long reviews; scarcely, I think, favourable ones. The animosity
+            of the English press toward American poetry is one of the things that prove how
+            extremely vital and interesting American poetry is, I believe.</p>
+         <p>Well, my dear, this rambling around must end. I will try not to be so dilatory in
+            answering your next letter, which is a hint that you write me at</pb> once and
+            tell me your news, because, like most bad correspondents, I like getting letters.</p>
+         <closer><persName key="ada_russell">Ada</persName> sends her love, and I am as always, Affectionately yours,</closer>
+         <p>Statement of Account.</lb>
+            By sales:</lb>
+            21 Imagist Poets at (in pencil) .67-1/2 $ 14.18</lb>
+            13 " " 1916 .67-1/2 8.77</lb>
+            13 " " 1917 .67-1/2 8.78</lb>
+            1/6 of $31.73 is <measure type="currency" num="$5.29">$5.29</measure>.</lb>
+            <add place="below">Draft according to exchange.</add></p>
+      </body>
+   </text>
+</TEI>

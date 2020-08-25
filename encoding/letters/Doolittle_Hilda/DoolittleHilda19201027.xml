@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1920-10-27">27 October 1920</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$114i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Two pages typewritten in black ink. Address given for H. D. in the top left
+                     corner of the first page: Mrs. Richard Aldington c/o Miss Winifred Ellerman
+                     Carmel Highlands Inn Carmel by the sea <placeName key="monterey"
+                        >Monterey</placeName>, <placeName key="california">California</placeName>.
+                     Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1920-10-27">October 27, 1920.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>Since writing a letter to <persName key="winifred_bryher">Winifred</persName> yesterday, I have had another communication from
+            <persName key="ferris_greenslet">Ferris Greenslet</persName> of the <orgName key="houghton_mifflin">Houghton Mifflin Company</orgName>. He says that he thinks <placeName key="england">England</placeName> is the
+            best place to have the <title>book</title><!--not sure which. Translations? Hymen?--> set up in, and he will be perfectly willing to take a
+            certain number of sheets for sale in <placeName key="usa">America</placeName>. He thinks you have a larger audience
+            in England still than you have in America, and perhaps that is true. He is going to
+            England in February and he proposes to take the manuscript of the book with him,
+            arranging for a publisher there – I imagine it will be <orgName key="constable">Constable</orgName> since he is their agent
+            – and arranging to have the sheets brought back here.</p>
+         <p>If I were you, I should accept this, for I am inclined to believe that this estimate of
+            your popularity in England is correct, and I think Houghton Mifflin are a much better
+            firm for this kind of thing than <orgName key="holt">Holt</orgName>, whom I mentioned to Winifred in my letter
+            yesterday. I do not think the thing will go to pieces in any way if you leave it in
+            Ferris’s hands and if you give me carte blanche to arrange with him as I would for
+            myself, or, if you prefer, he will communicate with you directly. He was perfectly
+            willing to do so, but I told him to wait before I was afraid to trouble you with
+            business details.</p>
+         <p>If this matter meets with your approval, I will tell Ferris to go ahead and see what
+            arrangements he can make in England. If you would prefer to try America first, I will
+            send it to Holt, as I proposed to do in my letter to Winifred, but of course, in that
+            case, it will be difficult to go back again to Ferris Greenslet, supposing Holt should
+            refuse. There are other publishers, but I think none as good as Houghton Mifflin or
+            <orgName key="macmillan">Macmillan</orgName>. I doubt whether <orgName key="harcourtBraceHowe">Harcourt, Brace &amp; Howe</orgName>, who go in very much for the socialist
+            radical books, would care for the book. <orgName key="knopf">Knopf</orgName> is feeling poor at the moment,</pb> and I am much averse to trying new upstarts
+            like <orgName key="thomas_seltzer">Thomas Seltzer</orgName>, and there is simply no hope of the old fogy publishers like
+            <orgName key="scribner">Scribner</orgName> and <orgName key="harper">Harper</orgName>. My advice would be to leave it in Ferris’s hands and see what he
+            can do. He wants your name on his list, but he is a little afraid to risk entire
+            publication in this country.</p>
+         <p>Much love, dear Hilda, and I do trust that <placeName key="monterey">Monterey</placeName> will do as much good as it sounds as
+            if it would. Winifred makes it out perfectly delightful, and I wish I were with you
+            dabbling my feet in the ocean and looking at that lovely view which I remember so well.
+            Instead of that, I go to bed on Friday and am cut into little pieces. Let me know what
+            to do about Ferris, and believe me,</p>
+         <closer>Affectionately yours,</closer>
+      </body>
+   </text>
+</TEI>

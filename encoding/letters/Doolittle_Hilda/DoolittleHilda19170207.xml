@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1916-02-07">07 February 1917</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$45i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Three pages typewritten in black ink. Archival notes read "Mrs Richard
+                     Aldington" in pencil at the top of the first page. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1916-07-07">February 7, 1917.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>I have waited in vain for your second letter about <persName key="fs_flint">Flint</persName>’s and <persName key="john_fletcher">Fletcher</persName>’s opinions in
+            regard to my "Lacquer Prints", but although it is two weeks since I received your last
+            letter, I have had no other. We can no longer delay going to press.</p>
+         <p>I rather thought you might send me some more of Flint’s things, as his contribution is
+            short, but in a letter I had from him this morning, he does not mention the subject, so
+            I suppose I may take it that nothing more will come.</p>
+         <p>Fletcher advised me to send "Lacquer Prints" so I suppose his permission is given and I
+            hardly think that Flint will disapprove. Whether or not you have sent them to <persName key="dh_lawrence">Lawrence</persName>,
+            I do not know, but I trust that I am doing right in considering that they are
+            satisfactory.</p>
+         <p>Of course, as you say, we must do everything that <persName key="richard_aldington">Richard</persName> wants, and I have changed the
+            poems in accordance with his list with one exception. I have not included "Middle Ages"
+            because I really do not think that the American public would care for it, and I am more
+            anxious than any one else to have Richard well liked over here. His poetry is, to my
+            mind, so exceedingly beautiful that I cannot bear to print anything that I think people
+            would not understand, as I want his reputation to grow by leaps and bounds.</p>
+         <p>I am glad to say that I have sold two of his poems to "<title key="sevenArts">The Seven Arts</title>", namely, "Leave
+            Taking" and "On the March". Of course I cannot place any of the others now that are
+            coming out in the <title key="some_imagist_poets">Imagist Anthology</title>, and I am afraid it would be impossible to think of
+            publishing "Malady" and "Middle Ages" over here.</p></pb>
+         <p>Richard’s contribution now runs: "Vicarious Atonement", "Bondage", "A Moments
+            Interlude", "Field Manoeuvres", "On the March", "Leave Taking", "Inarticulate Grief",
+            "Captive", "R.V. and Another", and "Prayer". The last one I absolutely insist upon
+            having as I love it so much. This is more than the seven titles which Richard is really
+            entitled to, being, in fact, ten, but the space is no more than you have, as well as I
+            can calculate it, and not as much as Fletcher’s, so I think we can strain a point.</p>
+         <p>I have included your new contribution exactly as you sent it; that is, "The God",
+            "Adonis", "Pygmalion" and "Eurydice", taking out your "Tribute". The other contributions
+            remain as they were when I wrote you last.</p>
+         <p>I shall have to put in the acknowledgements a word of thanks to <persName key="arthur_ficke">Arthur Davison Ficke</persName>, as
+            I got the original of my adaptation of the Japanese poet <persName key="yakura_sanjin">Yakura Sanjin</persName> from his book
+            "<title key="japanesePrints">Chats on Japanese Prints</title>".</p>
+         <p>I have an appointment with Mr. <persName key="roger_scaife">Scaife</persName> on the firm of <orgName key="houghton_mifflin">Houghton, Mifflin &amp; Co.</orgName> on
+            Wednesday, when I shall hand him this manuscript.</p>
+         <p>Fletcher has sent me a book of his which he wants Houghton-Mifflin to take and in which
+            two of the poems of his contribution appear; namely, "Lincoln" and "Armies", but I think
+            we can make the arrangement which we have done before that our volume appears a month or
+            two in advance of his. If I cannot do that, I don’t know what the dickens I shall do,
+            but I am not going to cross that bridge</pb> until I get to it.</p>
+         <p>Our statement has come in from Houghton, Mifflin &amp; Co. for the six months ending <date when="1917-01-31">January 31, 1917</date>, but I do not think it is quite correct, and I am going to speak to Mr. Scaife
+            about it and get it fixed on Wednesday, so I cannot send you all your shares until after
+            that date.</p>
+         <p>I have five dollars more which I have collected from Brown to send, also, which leaves
+            him only five dollars to pay on the <measure type="currency" num="$30">thirty dollars</measure> he agreed to pay<add place="above"> Richard</add> last year. I think then we shall have to give him another year before we dun him
+            for more royalties for Richard’s "Images".</p>
+         <p>I also have a <measure type="currency" num="$20">twenty dollar check</measure> here which "The Seven Arts" sent me for the two poems
+            they have taken.</p>
+         <p>I will put all this, together with his share of the Imagist royalties and yours, in a
+            draft and send it to you as soon as I have had my interview with Scaife.</p>
+         <p>I imagine that now we are so near the verge of war that the sailings will be uncertain
+            and for that reason I think it is not wise to wait for further word from you.</p>
+         <p>I am thankful that our government has taken a definite stand and that we may no longer
+            appear to the world to hold a neutrality which we certainly do not feel.</p>
+         <closer>With lots of love, dear Hilda, Affectionately,</closer>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1917-12-03">03 December 1917</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$64i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Two pages typewritten in black ink. Mrs. Richard Aldington 44 <placeName key="mechlenburghSquare">Mechlenburgh Square</placeName>
+                        <placeName key="london">London</placeName>, W.C. <placeName key="england"
+                        >England</placeName> is the typed address given for H. D. in the top left
+                     corner of the first page. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1917-12-03">December 3, 1917.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>The enclosed letter was opened by me by mistake. The other letters lay over it, and I
+            did not see your name until after I had opened it and saw that it began "Dear Hilda,"
+            and I am sending it to you envelope and all that you may see that it was not altogether
+            extraordinary that I should have opened it.</p>
+         <p>I wonder if you ever got my book<!--which book?-->>. <persName key="john_fletcher">Fletcher</persName> got his copy, which I sent at the same time
+            as I sent yours, but I have not heard yet from any of the others I sent to <placeName key="england">England</placeName>. If
+            you did not get it, please let me know and I will send you another copy. I hope you like
+            the essay on you. People are calling it the "almost lyrical appreciation of 'H.D.'."
+            Also, I am anxious to receive that biographical material about <persName key="richard_aldington">Richard</persName> as soon as
+            possible, as I must begin to prepare my lectures shortly. Also I should like some
+            news.</p>
+         <p>I think Richard must be an officer from what you say, and <persName key="helen_doolittle">your mother</persName> tells me that he
+            may be sent to the Eastern front, but I do not feel that I know anything definite, and I
+            should be awfully glad to be brought up to date.</p>
+         <p>I sent Richard’s letter and poems to <persName key="brown">Brown</persName>. I do not think I like these rhymed things
+            quite as much as Richard’s vers libre, but neither does he, as he says in the letter. I
+            am not quite like the rest of you – everything that interests me turns into poetry, and
+            just now I cannot get away from the war. I am writing a series called "Phantasms of War"
+            for "The Independent," and I am sending you enclosed the first one which I think may
+            interest you. It may not be what Richard calls art, but somehow I cannot divorce art
+            from life, and if <persName key="homer">Homer</persName> made art out of the</pb> Trojan war, it seems to me we ought to be
+            able to do the same with this war. Anyhow, I am trying and if I fail – well, it is all
+            in the day’s work.</p>
+         <p>This is not much of a letter, but there is not much to say. I do nothing but work, and
+            the whole country is given over to war preparations.</p>
+         <closer>Write soon and with a great deal of love to you both, Affectionately
+            yours,</closer>
+      </body>
+   </text>
+</TEI>

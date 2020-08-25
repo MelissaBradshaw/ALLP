@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1916-09-13">13 September 1916.</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$28i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Two pages typewritten in black ink. Archival notes read "Aldington" in pencil
+                     at the top of the first page. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1916-09-13">September 13, 1916.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>I received your letter last night, containing <persName key="richard_aldington">Richard</persName>’s poems. I think "Prayer" and
+            "Bondage" are very beautiful. Whether or not I can sell them at once I do not know. You
+            see, I have already done considerable selling of Richard’s things of late. Papers like
+            "<title key="sevenArts">The Seven Arts</title>" I do not think are very understanding in Imagist work. I fear "<title key="poetryReview">The Poetry Review</title>" is rather filled up to the present, and I know there is no use in asking
+            <persName key="harriet_monroe">Harriet</persName> to buy more until she has published those she has. I think I shall try "<title key="century">The Century</title>" with one of these; but that is a very problematic amusement. Anyway, I will see
+            what I can do to get them into something, and to get the best price for them.</p>
+         <p>You will be glad to know that our old <title key="some_imagist_poets">Anthology</title> – the 1915 one – has just had to be
+            reprinted for the third time. We sold over fifty copies of it in the last month. Also
+            <orgName key="constable">Constable</orgName> has ordered 165 copies of the 1916 Anthology, 15 of these for review purposes,
+            making 150 for sale. That is not so bad. Do keep your eyes out for the criticisms, and
+            let me have them.</p>
+         <p>I see that <persName key="martyn_johnson">Martyn Johnson</persName> has announced Richard as one of his contributors to "<title key="dial">The Dial</title>," which he has just bought. He was so in love with Richard’s paper on <persName key="henri_deRegnier">Henry de Régnier</persName> that I think he will take a good deal of Richard’s prose work. They publish no
+            poetry. "The Dial" is not a general magazine, it is a magazine of criticism only,
+            criticism in all the arts, so that any articles on the war or anything of that sort
+            would not be pertinent. But any critical article that Richard feels like sending, I am
+            sure would meet with consideration.</p>
+         <p>I have told "The Dial" and everybody else with whom I have to do that</pb> I am acting here
+            as Richard’s agent, and that they must send their cheques to me. By this process I know
+            when he has been paid, and also I am on the spot and can enforce payment. "<title key="poetryReview">The Poetry Review</title>" wrote me the other day and asked me to whom they should send his cheque for the
+            <persName key="stephane_mallarme">Mallarmé</persName> article, which was published this month, and I told them to send it to me; it
+            has not come yet, and I suppose it won’t for some little time; but I hope to have it
+            before long.</p>
+         <p>There is not much to tell you. I am busy with the proofs of my new book, as I suppose
+            you are with yours. I have also written some poems. I wish I could see you all, but I
+            trust the war will not last forever. Now I must go back to my proofs.</p>
+         <p>With a great deal of love from <persName key="ada_russell">Mrs. Russell</persName> and me to you and Richard,</p>
+         <closer>Affectionately yours,</closer>
+      </body>
+   </text>
+</TEI>

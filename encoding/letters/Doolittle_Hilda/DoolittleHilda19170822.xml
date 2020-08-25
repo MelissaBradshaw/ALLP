@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+               key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1917-08-22">22 August 1917</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$58i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Three pages typewritten in black ink. Archival notes read "Aldington" in pencil
+                     at the top of the first page. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1917-08-22">August 22, 1917.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:-</salute></opener>
+         <p>I am enclosing various things. Foremost in importance the checks for yours and <persName key="richard_aldington">Richard</persName>’s royalties of our "<title key="some_imagist_poets">Anthology</title>" for the half-year ending <date when="1917-07-30">July 30th</date>. The single royalties for each of us amount to <!--not sure about this--><measure type="currency" num="£9.16.4">9.16.4</measure>, and you will notice the double amount comes to a little more. This is due to the fact that I was paid in American money, and the exchange, of course, increases as the sum grows larger. Here is the amount:-</lb>
+         <hi rend="underline">SALES</hi></lb>
+            86 Imagist Poets, 1915 at .36 ¼ 31.17</lb>
+            226   "       "  , 1916   "  .36 1-4   81.92</lb>
+            50   "       "     ,  "  to <placeName key="england">England</placeName>      15.94</lb>
+            434    "      "     , 1917   "  .36 1-4   157.32</lb>
+            285.35</lb>
+            285.35 divided by 6-47.72 – 9.16.4</p>
+         <p>I am also sending you a review of your book, which has just come out in "<title key="poetryJournal">The Poetry Journal</title>." It is a <foreign xml:lang="fr">résiemé</foreign> of what I said in the book abridged for magazines purposes. I hope you will like it.</p> 
+         <p>It seems ages since I have heard from you, and I must say that I miss your letters very much. I wrote to Richard some time ago, and sent it to you.</p> 
+         <p>I received beautiful little copies of your "<title key="tribute">Tribute</title>" and Richard’s Sapphic<add place="above"> love poems</add>. <persName key="charles_bubb">Mr. Bubb</persName> tells me that he is going to bring out Richard’s translations of <persName key="remy_gourmont">Remy de Gourmont</persName>’s "<title key="saintsParadise">Saints of Paradise</title>," and says that you have suggested that he print the French on one side of the page, and the translations on the other side. I tell him that I think he cannot print the French text without</pb> the permission of the "<title key="mercureDeFrance">Mercure de France</title>," as they are copyrighted, and I advised him to get permission from M. <persName key="alfred_valette">Alfred Valette</persName>, who is the editor of the "Mercure de France." But I have also told him that if he cannot get a copy of the book, I will have the French poems copied and sent him.</p> 
+         <p>Things are going on here about as usual. Our book, as you see, has not sold quite as well as the other copies did, which is partly the fault of the time, and partly due to the fact that the contents are not as interesting as the earlier volumes. Still it is not doing so badly, and the other volumes continue to sell.</p> 
+         <p><persName key="harriet_monroe">Harriet</persName> is having great difficulty in raising her guarantee fund, I understand, but that is natural in this time of war.</p> 
+         <p><persName key="margaret_anderson">Margaret Anderson</persName> has gone over the body and soul to <persName key="ezra_pound">Ezra</persName>, and I have told her that while she is running him so hard, I will not put anything into <title key="littleReview">her magazine</title>.</p>
+         <p>The most alive and interesting paper here to-day is "<persName key="sevenArts">The Seven Arts</persName>," but I regret that they are so pacific in tendency. They are not pro-German, as <persName key="john_fletcher">Fletcher</persName> thinks, but they are socialists, and too much imbued with their own theories to realise the necessity of our going to war, Being ambitious young men, they say this, and bring down upon themselves much misunderstanding in consequence. I do not agree with their attitude at all, and I am very sorry they hold it, but apart from this, it is certainly the most alive and interesting of the radical papers.</p> 
+         <p>The war is not having such a devastating effect upon us yet intellectually, as it has had upon England, but I fear that will come. At any</pb> rate, I feel more than ever that we who are not fighting must keep the torch lit, and keep the civilized world and art going as a sacred duty.</p> 
+         <p>Do write sometimes, and tell me where Richard is, and how he is.</p> 
+         <closer>With a great deal of love,</closer>
+      </body>
+   </text>
+</TEI>

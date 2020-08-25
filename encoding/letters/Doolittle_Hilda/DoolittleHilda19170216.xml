@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1917-02-16">16 February 1917</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$49i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Three pages typewritten in black ink. Archival notes read "Aldington" in pencil
+                     at the top of the first page. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1917-02-16">February 16, 1917.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>Our half-yearly statement has come in, showing the sales of our two volumes of <title key="some_imagist_poets">Imagist Poets</title> up to <date when="1917-02-01">February 1st</date>, from which you will see that we made <measure type="currency" num="$167.66">$167.66</measure>. The <measure type="currency" num="$1.50">$1.50</measure> refers
+            to a copy which was bound especially for a subscriber and which they charged me for on
+            the last bill by accident. Yours and <persName key="richard_aldington">Richard</persName>’s shares, therefore, are each <measure type="currency" num="$27.94">$27.94</measure>.
+            Besides which there is <measure type="currency" num="$10.00">$10.00</measure> which "<title key="sevenArts">The Seven Arts</title>" paid him for the poems "On the
+            March" and "Leave Taking", and <measure type="currency" num="$5.00">$5.00</measure> from <persName key="brown">Brown</persName> on that original contract. I have added
+            all this together in one draft for 16+16+4, which I enclose. Brown now has only $5.00
+            more to pay on that contract. I think in a former letter I told you that he had nothing
+            more to pay, but I misunderstood it. I have since looked up the receipts, and found
+            there is still $5.00 more due.</p>
+         <p>To my great distress <persName key="james_oppenheim">James Oppenheim</persName> found that he could not publish "On the March" and
+            "Leave Taking" in time for them to appear in our Anthology, and I thought it was more
+            important for Richard to keep them in "The Seven Arts", partly because of getting more
+            money for them, and partly because it is well to appear in different places. As I have
+            so few of Richard’s things to choose from, and no time to do it in, the manuscript being
+            already at the printers, I had no time to communicate with you, I substituted "Dawn" and
+            "Images" for the poems left out. I hope this will meet with your approval. At any rate,
+            I did what I thought would be the best thing.</p>
+         <p>I am correcting the proofs of the book today. You will be glad to know that our first
+            volume is in the third edition, and our second volume is in the second edition, and that
+            <orgName key="constable">Constable</orgName> sent for more</pb> sheets of the first volume no longer ago than last month,
+            showing that it is still selling in <placeName key="england">England</placeName>. I think that the renewed interest that the
+            press in your country is showing in us is a very encouraging thing. Did you see poor Mr.
+            <persName key="bourdillon">Bourdillon</persName>’s letter in <title key="times">The Times</title>? How the stand-patters do fight and how surely they are
+            being pushed aside!</p>
+         <p>I got your letter saying that you had no anecdote. I had already taken the liberty of
+            writing to <persName key="helen_doolittle">your mother</persName> for certain data such as where you were born, where you were
+            educated, etc. She replied that you were so reticent yourself that she could give me the
+            barest details, but I have done the best I can, and I hope you will like book when it
+            comes out.</p>
+         <p>Now I want a photograph for the volume. It is to be like my "<title key="sixFrenchPoets">Six French Poets</title>" with
+            photographs and signatures of each of the poets. I have a little photograph of you that
+            you sent me last summer, but, in one of his letters to me, Richard said that you were
+            sending me an "Art" photograph of yourself, but this has never come. Now I am a very
+            selfish person, and I do not want to sacrifice this one photograph that I have to the
+            lithographers because they invariably dirty and generally spoil everything that they
+            touch. Not only do I want this photograph, but Mr. <persName key="ws_braithwaite">Braithwaite</persName> wants it for the <title key="bostonTranscript">Boston Transcript</title>, and he wants it P.D.Q., for he wants to put in a review of you. Therefore,
+            will you please send it by return mail. Even return mail will be dreadfully slow.</p>
+         <p>I enclose a very nice little mention of your book from "<title key="outlook">The Outlook</title>". Really that book
+            of yours was a perfect gem. I don’t know anything that gave me a greater pleasure than
+            minutely studying your work for my lecture. It taught me a great many thing. Your
+            perfection in</pb> your own medium is something to make every poet proud for you and
+            despairing for himself.</p>
+         <p>While I was in <placeName key="nyc">New York</placeName>, I had a very interesting time with Mr. <persName key="patterson">Patterson</persName> of the
+            Department of English of <placeName key="columbiaU">Columbia University</placeName>, who has written a book on prose rhythm. He
+            announced, in his book, that vers libre was only prose. I met him one afternoon and told
+            him that I thought he was mistaken, and on that account he invited me to his laboratory
+            where for an hour and a half I read your "Oread" into a sound machine, with the result
+            that he has written me that he is now willing to admit what he was not willing to admit
+            before, that the cadences of vers libre are not the cadences of prose. He was very sad
+            when I left New York, for it is hard for him to work without me, as he knows very little
+            about the aesthetic side of the free forms; but I think, through correspondence, and
+            through seeing him occasionally, we may be able to make some interesting experiments,
+            which will end by proving conclusively to the doubters that vers libre is by no means
+            the chopped prose they think. At any rate it is a very interesting experiment.</p>
+         <p>I have not time to write any more now, as I am starting out on a lecture tour in the
+            West and things are pressing.</p>
+         <p>Send the photograph instanter, and please send your full signature on a separate piece
+            of paper so that I can reproduce it beneath the photograph for the book.</p>
+         <closer>Affectionately yours,</closer>
+      </body>
+   </text>
+</TEI>

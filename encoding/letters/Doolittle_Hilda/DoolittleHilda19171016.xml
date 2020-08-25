@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1917-10-16">16 October 1917</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$61i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Three pages typewritten in black ink. Archival notes read "Aldington" in pencil
+                     at the top of the first page. 44 <placeName key="mechlenburghSquare">Mechlenburg Square</placeName> <placeName key="london"
+                        >London</placeName>, W.C. <placeName key="england">England</placeName> is
+                     the typed address given for H. D. in the top left corner of the first page.
+                     Unsigned. Includes a postscript.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1917-10-16">October 16, 1917.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:-</salute></opener>
+         <p>Thank you ever so much for your nice letter from <placeName key="">Litchfield</placeName> (I saw that by the
+            postmark). I am awfully glad that you and <persName key="richard_aldington">Richard</persName> liked that review in "<title key="poetryJournal">The Poetry Journal</title>." I hope you will like the part about you in my new book, "<title key="tendencies">Tendencies in Modern American Poetry</title>," as well. The review was merely a condensation of the essay.</p>
+         <p>By the way, out of a blue sky comes a letter from <persName key="ezra_pound">Ezra Pound</persName>. I enclose it and my
+            answer. They need no comment. I think your method of being on perfectly good terms with
+            them all is a good one, and it is the one I should certainly pursue in regard to Ezra
+            Pound were I in <placeName key="london">London</placeName>. I do not bear him a bit of a grudge for what he did, but I do
+            not want to be mixed up with him publicly, as I think he has queered himself all over
+            the shop. It is for that reason I will not contribute to "<title key="littleReview">The Little Review</title>." I am
+            afraid <persName key="margaret_anderson">Margaret Anderson</persName> is a little sore about it, but I really cannot do it while Ezra
+            is so much in evidence there.</p>
+         <p><persName key="john_fletcher">Fletcher</persName> writes me very blue letters. Poor boy! He does not know how to get on with the
+            world. I think it owes him a better position than he has yet attained. I do hope that my
+            remarks about him in the new book may do him some good.</p>
+         <p>I was sorry to say that "<title key="sevenArts">The Seven Arts</title>" has been obliged to cease publication. That is
+            a real calamity for all of us, as it was rapidly becoming the best paper for the younger
+            writers in this country. <persName key="harriet_monroe">Harriet</persName> is keeping on, of course, but we know what she is. They
+            ("The Seven Arts") have a promise of a subside after the war is over, so we may hope
+            that they will resume in time.</pb> Meanwhile, we have no organ-none of us younger writers,
+            but just have to put things round wherever we can.</p>
+         <p><persName key="dh_lawrence">Lawrence</persName> writes me that none of the publishers will take his new book and he seems
+            awfully down on his luck. He wants me to get some essays of his into "<title key="newRepublic">The New Republic</title>,"
+            or "<title key="yaleReview">The Yale Review</title>." But as a matter of fact, the editors of those papers are both
+            conservatives, and do not love me very dearly, and I think he would do better to send
+            the articles direct, rather than to trust to any intervention of mine. Do they need any
+            more money, do you think? I wish you would let me know from time to time if you think
+            they do.</p>
+         <p>It is good news to know that Richard is again in <placeName key="england">England</placeName>. "<title key="dial">The Dial</title>" says he is in a
+            training camp for officers. I hope that means he is going to be an officer himself.</p>
+         <p>I wish you would tell him that I think his "Fatigues" one of the most beautiful poems I
+            have read for a long time. I have asked "The Seven Arts" to return to him the poem of
+            his which they had not yet published.</p>
+         <p>I am afraid the times are going to be rather difficult for us not until the war is over,
+            but we must all keep on, and you above all must not let yourself get discouraged,
+            because we need you.</p>
+         <p>Give my love to Richard, and keep a great deal for yourself. In both of these measures
+            <persName key="ada_russell">Mrs. Russell</persName> would join, but she is away for a few weeks with her family in <placeName key="saltLakeCity">Salt Lake City</placeName>.</p>
+         <closer>Lovingly,</closer>
+         <postscript>P.S. I am to deliver a lecture on the English <orgName key="imagists">Imagists</orgName> in February, so will you
+            please give me all the dates you can about Richard’s life; about the</pb> things that have
+            influenced him, and all the little thousand and one things which go to make a good
+            personal memoir. You will see the kind of thing I want from the essays in the new book,
+            but do not be as sketchy as you were about yourself. If it had not been for <persName key="helen_doolittle">your mother</persName>,
+            I should have been up a tree about you. As it was I did not have half
+            enough.</postscript>
+      </body>
+   </text>
+</TEI>

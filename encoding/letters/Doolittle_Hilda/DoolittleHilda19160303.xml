@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+               key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1916-03-03">03 March 1916</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$18i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Two pages typewritten in black ink. Archival notes read "Aldington" in pencil
+                     at the top of first page. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1916-03-03">March 3, 1916</date></dateline>
+            <salute>My dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>Your royalties were <measure type="currency" num="73.02">$73.02</measure>, which makes $36.51 apiece for you and <persName key="richard_aldington">Richard</persName>. You will find that I did not add a great deal to the money I sent you. By all means, keep it as a fund for your poor artists; or, better still, as a fund in case the submarine warfare makes the arrival of funds from <placeName key="usa">America</placeName> really difficult.</p> 
+         <p><persName key="john_fletcher">Fletcher</persName> has not said anything to me about going abroad. I don’t believe he will, unless the maritime situation clears up. Feeling is running rather high here just now; but I think you would be pleased with it if you were here. What I wrote Richard about America’s neutral attitude applies to the country at large – not to the section of it to which I, and others like me, belong.</p> 
+         <p><persName key="fs_flint">Flint</persName> has bowed to our decision about "Evil", and has asked me to put in "War-time" instead. Of course, it comes very late, and the book is in the press; but I shall do my best to get it in.</p>
+         <p>This is not much of a letter, because – you will be glad to hear – my "<title key="sixFrenchPoets">Six French Poets</title>" has already gone through its first edition, and I am very busy preparing a second one; and also getting ready <title key="menWomenGhosts"><!--I assume: should check-->my next volume of poems</title>, to come out in the Autumn.</p> 
+         <p>Yes, the lectures are going very well, and I think the people are paying more attention to imagism every day – at least, they no longer consider it the attitude of imbeciles and charlatans only. I think next Autumn I may extend my lecture tour a little further afield. <persName key="ec_marsh">Mr. Marsh</persName> says he can tell from the sale of my books where I have been, and I think that is equally true of the "<title key="some_imagist_poets">Anthology</title>", for I bring you</pb> all in the course of my lecture.</p> 
+         <p>This is a very short letter because I am fearfully busy. I will write again in a few days, more at length.</p> 
+         <p>I was asked out the other day to address a number of <placeName key="harvard">Harvard</placeName> students on the subject, so you can see that the interest is spreading.</p> 
+         <closer>Affectionately yours,</closer>
+         </body>
+   </text>
+</TEI>

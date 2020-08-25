@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1921-09-12">12 September 1921</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$128i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>One page typewritten in black ink. Address given for H. D. in the top left
+                     corner of the first page: Mrs. Richard Aldington c/o Manager, Lloyd’s Bank 67
+                     Kingsway <placeName key="london">London</placeName> W.C.2 <placeName
+                        key="england">England</placeName>. Unsigned. Includes an enclosure and a
+                     statement of royalties due to H.D.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1921-09-12">September 12, 1921.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>This is only a hurried scrawl to send off your half-yearly royalties on the "<title key="some_imagist_poets">Imagist Poets</title>." They should have gone before, but I have been frightfully busy getting 
+            Mrs. <persName key="florence_ayscough">Ayscough</persName>’s and my <title key="firFlowerTablets">book of Chinese translations</title> into the press, and I am equally
+            breathless in my efforts to get it out again. But I cannot hold this cheque any longer;
+            vast though it is, my conscience says it ought to go to you.</p>
+         <p>I hear from <persName key="winifred_bryher">Winifred</persName> on occasion. It is too bad that they have refused her book. I
+            wonder when yours is coming out. I have preempted it for the "<title key="nyEveningPost">New York Evening Post</title>,"
+            but I have seen no announcements of it and I have no idea when it is due.</p>
+         <p>Since my operation, my work has been confined to these Chinese things, but once that
+            book is out of the way, I shall tackle <persName key="john_keats">Keats</persName> in earnest. My lectures begin in November,
+            but I feel better than I have for a long time and, although I do not permit myself to
+            hope that I am cured, at any rate I am having a pleasant respite.</p>
+         <p>Where are you and what are you doing? I long to hear. And how is <persName key="perdita_aldington">Perdita</persName>? I have no time
+            for a longer letter, but you will know that this takes much love from both <persName key="ada_russell">Mrs. Russell</persName>
+            and me.</p>
+         <closer>Affectionately yours,</closer>
+         <p>Enclosure.</p>
+         <p>The account of the "Imagist Poets" is as follows:</lb>
+            By sales</lb>
+            Binding 50 Imagist Poets 1916 26 Imagist Poets 17.55</lb>
+            less folding at .105 5.25 15 " " 1916 10.12</lb>
+            July 30 Balance 36.75 2 " special .51</lb>
+            20 " 1917 13.50</lb>
+            1 " special .32</lb>
+            42.00 42.00</lb>
+            1/6 of $36.75 is <measure type="currency" num="$6.13">$6.13</measure></p>
+      </body>
+   </text>
+</TEI>

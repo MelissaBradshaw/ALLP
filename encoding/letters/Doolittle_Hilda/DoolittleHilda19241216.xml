@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="hilda_doolittle">Hilda Doolittle (Aldington)</persName>, <date
+                  when="1924-12-16">16 December 1924</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425539886$144i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Three pages typewritten in black ink. Address given for H. D. in the top left
+                     corner of the first page: Mrs. Richard Aldington c/o Manager, Lloyd’s Bank, 67
+                     Kingsway, <placeName key="london">London</placeName> W.C.2. <placeName
+                        key="england">England</placeName>. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1924-12-16">December 16, 1924.</date></dateline>
+            <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
+         <p>A delightful little Christmas card came from you this morning. I am so glad to get it.
+            But how far ahead of me you have got! It never occurred to me to send my European
+            Christmas cards until this week, and now you make me fear that mine to you will come
+            after the day, which, although it may have become a habit, is nevertheless
+            regrettable.</p>
+         <p>My dear, your "<title key="heliodora">Heliodora</title>" is superb! I have not really been able to read it yet with the
+            thoroughness that I want to, slim volume though it is, because I only finished the
+            corrections of my "<title key="johnKeats">Keats</title>" yesterday, and nobody knows what a grind that book has been,
+            but I have read enough of "Heliodora" to realize that it is no fall from "<title key="hymen">Hymen</title>," on the
+            contrary, it is a magnificent thing. Mr. <persName key="ferris_greenslet">Greenslet</persName> tells me what <orgName key="boniLiveright">Boni &amp; Liveright</orgName> are to
+            publish a collected edition of your books, for which I am heartily thankful, although I
+            wish it were not Boni &amp; Liveright but <orgName key="houghton_mifflin">Houghton Mifflin</orgName>. But Houghton Mifflin are so slow
+            to jump when they should. It will be a comfort to have your "<title key="seaGarden">Sea Garden</title>" in print again.
+            People are always asking me where they can get it. I enc</p>
+         <p>I am enclosing a little card which the publishers have printed for my book, which,
+            between us, we did not get out for Christmas. It means that my real Christmas present to
+            you, the book itself, will follow as soon as it is issued.</p>
+         <p>I also enclose a draft for the last two royalty payments on the surviving "<title key="some_imagist_poets">Imagist Poets</title>." The account is as follows:</lb>
+            3 Imagist Poets at .671/2 2.03</lb>
+            10 " " 1916 at .67-1/2 6.75</lb>
+            11 " " 1917 " " 7.43</lb>
+            1/6 of 16.21 is <measure type="currency" num="$2.70">$2.70</measure></pb> This represents both the
+            February 1924 and the August 1924 payments, which I am sending together as they are both
+            so small. The two first anthologies went out of print with the August statement, and
+            there are only six copies of the "1917" left, so we shall soon have done with them
+            altogether.</p>
+         <p>I have not heard a word from <persName key="winifred_bryher">Winifred</persName> for ever so long. It is entirely my fault. She
+            wrote and told me that she was unable to do the article on me as she had planned, and
+            what should she do with the manuscript I sent her. And I have never answered her, owing
+            entirely to pressure of work. I have been grinding at this book so steadily that I have
+            not been able to keep up with my mail at all. Four years and two months I have been at
+            it, and I am so weary to the core, but I have a sort of colt-let-out-in-a-meadow kind of
+            feeling now that it is all over.</p>
+         <p>I am going to <placeName key="england">England</placeName> – think of it, after eleven years! We are sailing on the
+            Berengaria for <placeName key="southampton">Southampton</placeName> on April fifteenth, and I expect to give some lectures and
+            readings while I am there. I have quite a number booked. We shall stay until about the
+            middle of July and then sail for home again without going on to <placeName key="europe">the continent</placeName> at all.
+            Some other time I hope to go to <placeName key="italy">Italy</placeName> again, but my initial trip, after all these many
+            operations of mine, will not take me beyond England. I do hope you will manage to be in
+            <placeName key="london">London</placeName> while we are there. It seems so long since we have met, and I am so anxious to
+            see you again.</p>
+         <p>I hope you will like my book. I shall be dreadfully disappointed if you do not, but I
+            hope you will like still better the poetry volume which I expect to bring out a year
+            from now. After all, poetry is my real job.</p>
+         <p>What happened to your book of essays on Greek subjects, the one which I read the
+            manuscript of and spoke to Ferris Greenslet about? Is that coming out with Boni &amp;
+            Liveright’s collected edition or not? There are so many people I should like to give it
+            to.</p></pb> 
+         <p>Drop us a line, dear Hilda, and tell us your news. I got a
+            little breath of you from <persName key="louis_untermeyer">Louis Untermeyer</persName> in the Summer, but it seems a long time since
+            I have heard from you yourself, and that made the Christmas card particularly
+            welcome.</p>
+         <p><persName key="ada_russell">Mrs. Russell</persName> sends her love, and so do I, both to you and your <persName key="helen_doolittle">mother</persName>, if she is with
+            you.</p>
+         <closer>Affectionately yours,</closer>
+      </body>
+   </text>
+</TEI>
