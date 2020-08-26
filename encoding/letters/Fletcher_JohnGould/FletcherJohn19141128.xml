@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="john_fletcher">John Gould Fletcher</persName>, <date when="1914-11-27">27
+                  November 1914</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="as">Anthony Shoplik</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425963709$4i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>This letter is six pages long (seq. 4-9). It is typed on what seems to be
+                     notebook paper, which is torn in the bottom right-hand corner of the first
+                     page, and on the left side of the paper for the rest of the pages. There are
+                     several places where the text runs off the page on the right margin. The words
+                     "John Gould" are written in pencil across the top of the first page.
+                     Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1914-11-25">November 27, 1914.</date></dateline>
+            <salute>My dear Mr. <persName key="john_fletcher">Fletcher</persName>:</salute></opener>
+         <p>After I wrote to you yesterday I had a telephone message from Mr. <persName key="ferris_greenslet">Greenslet</persName> of <orgName key="houghton_mifflin">Houghton Mifflin Company</orgName> to say that they have definitely accepted your <title key="irradiations">book</title>. I hurriedly added
+            the thing in a postscript and sent off the letter but did enter into details. Now here
+            is the arrangement I have made for you which I hope you will approve. Ferris Greenslet
+            has conceived the idea, pushed thereto largely by many criticisms against the way
+            publishers treat modern poetry, to issue a series of small books in paper covers at the
+            price of fifty cents each <gap reason="illegible" quantity="2"
+               unit="character"/> that they may reach everybody. He intends to
+            be very careful and only have the very best poetry in this series. Of course his <gap reason="illegible" quantity="9" unit="character"/><!--my best guess is "intention" here--> may not always agree with ours, as I think it is possible he may not always
+            consider best poetry what we consider so, <gap reason="illegible" quantity="5"
+               unit="character"/></pb> for one volume and <title key="some_imagist_poets">our anthology</title> for another. I believe he intends to have something of <persName key="lawrence_binyon">Lawrence Binyon</persName>’s for
+            another volume, and whatever we may personally think of Lawrence Binyon he has
+            sufficient good standing to have his name carry weight and dignity. I think another
+            volume is going to be a collection of all the translations which <persName key="lafcadio_hearn">Lafcadio Hearn</persName> made
+            from Japanese poetry which are scattered through his writings and have never been
+            collected before. You will see therefore from the start it is going to be rather an
+            unusual and interesting series. I think I know enough of the situation to feel that any
+            book issued in this series will stand just about as much chance of succeeding with the
+            public as any book issued separately. I think therefore it is the best possible way for
+            your book and our anthology to appear.</p>
+         <p>The terms I have agreed to are that he shall publish the book at his own expense but he
+            will then keep the proceeds up to the amount of what he spent in publishing, and</pb> give
+            you ten percent of the proceeds of all the sales. This is not a very brilliant
+            arrangement, monetarily, but considering the great difficulty in persuading any
+            publisher to take poetry and the utter indifference of the public, which I must say
+            largely justifies the publisher, and the almost complete lack of sale for books of any
+            kind except war books at the moment, I am sure that this is as good an arrangement as
+            any one could have made for your book. Of course if you do not like any of this the
+            contract is not yet signed (naturally, as I have not signed it) and you can withdraw
+            from the transaction if you want to, but I can assure you that the Houghton Mifflin
+            Company are the most honest publishers that you will find in <placeName key="usa">America</placeName>.</p>
+         <p>I did not offer your book to <orgName key="macmillan">Macmillan</orgName> as I knew they were over stocked with poetry but
+            as you know I did offer it to <persName key="thomas_mosher">Mosher</persName> and also put out a feeler in that regard to</pb> <gap reason="illegible" quantity="9" unit="character"/> it was refused. Macmillans turned down our anthology largely, I
+            think, on account of <persName key="ezra_pound">Ezra</persName> writing them an insulting letter about the advertisement of my
+            book, and they told me with great vigor that they did not wish to be connected with the
+            "<orgName key="imagists">group</orgName>." Houghton Mifflin, on the other hand are anxious to be connected with the group
+            as you see from their being willing to print your book and the anthology. I think it is
+            the best publishing proposition for poetry I have heard of for a long time and I believe
+            that with books at fifty cents and a big publishing house like Houghton Mifflin Company
+            behind it will have a very great chance to gain the popular ear.</p>
+         <p>They kick at <persName key="ford_hueffer">Hueffer</persName>’s "Heaven" for the anthology. In fact their acceptance of that
+            book depends upon the removal of that poem and something else substituted less alien to
+            the puritan susceptibilities of most of the partners. I will talk to you about this on
+            Tuesday. In the mean time I have written to <persName key="richard_aldington">Richard</persName> and asked him what he thinks of it
+            and to tell him that I think the only chance</pb> of publishing in a first class house is
+            this one. I think it is better to sacrifice one poem than to have to take the book to a
+            small firm like <orgName key="boniLiveright">Boni</orgName>’s. I have not put your preface in the book. I am afraid that it
+            would not get people to read the book, I think it would antagonize them to start with. I
+            think some sort of preface is an excellent thing, but I think you should assume that
+            your readers are in sympathy with you. They must be in some sort of sympathy, if only
+            curiosity, or they would never have bought the book, and I do not think it is good
+            policy to kick the <gap reason="illegible" quantity="5" unit="character"/> in the preface, but again we can talk this over on
+            Tuesday.</p>
+         <p>I am only writing you this that you may know just where you stand. Of course you know
+            that this whole series will be handled by <orgName key="constable">Constable</orgName>’s in <placeName key="england">England</placeName>. I believe it to be a
+            very excellent publishing venture.</p>
+         <p>I am terribly doubtful whether these letters will ever reach you. I am sending them to the main <orgName key="americanExpress">American Express</orgName> office as I have not the slightest idea where else to send
+            them and you said American Express in your letter. I do hope you will give me a more
+            definite address before long because I feel quite at sea as to your whereabouts. I leave
+            here on Monday as I wrote you Tuesday and go to the <placeName key="hotelStRegis">Hotel St. Regis</placeName>, <placeName key="fifthAvenue">Fifth Avenue</placeName>, where
+            you can get me either by letter or telephone. Looking forward very much to Tuesday
+            night, believe me.</p>
+         <closer>Yours very sincerely,</closer>
+
+
+
+      </body>
+   </text>
+</TEI>

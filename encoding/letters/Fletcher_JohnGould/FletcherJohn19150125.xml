@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="john_fletcher">John Gould Fletcher</persName>, <date when="1915-01-25">25
+                  November 1915</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="as">Anthony Shoplik</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425963709$10i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>This letter is four pages long (seq. 10-13). It is typed on something like
+                     notebook paper with hole punches in it on all four pages. The words "John Gould
+                     Fletcher" are written in pencil across the top of the first page. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1915-01-25">January 25, 1915.</date></dateline>
+            <salute>Dear <persName key="john_fletcher">Boy</persName>:</salute></opener>
+         <p>I have got a lot of letters to write; but as you most thoughtfully and kindly say, I am
+            so busy that it is almost impossible to write.</p>
+         <p>Your poem "Chicago" was forwarded to me in <placeName key="nyc">New York</placeName>, and I meant to sit right down and
+            tell you how much I liked it, and how exceedingly swirling and windy I think it is.
+            Where in the Devil you got such a nice expression as "smoky-blue pipes" from I wish I
+            knew, and I would go and pick some like it. I have not time to go through it in detail
+            and tell you all I think of it; I will reserve that until we meet.</p>
+         <p>I am rehearsing our operettas for eight hours a day; and before the rehearsals begin and
+            after they end, I am too done to sit down and write. I am dictating this letter now
+            while I am dressing, because I cannot let any longer time elapse before sending you a
+            word, and also because I have been having a terrible time about the title of the
+            <title key="some_imagist_poets">Anthology</title>.</p>
+         <p>I won’t tell you all my tribulations; it would take too long. Suffice it to say that
+            <persName key="ferris_greenslet">Ferris Greenslet</persName> was very much averse to changing the name, feeling that Imagiste had
+            come to mean a certain kind of poetry, and had therefore a certain mercantile value. He
+            accepted us under that title and advertised us so and, although he was very nice about
+            it, he was a good deal upset by the proposal of a change. I, too, felt that a change was
+            the greatest mistake in the world. Even if <persName key="ezra_pound">Ezra</persName> had invented the name, it is we who have
+            given the name value; for all the good work that Ezra has done since he announced
+            himself an Imagiste could be crowded in a couple of pages, if it took as much room as
+            that. I did not like</pb> to be downed either; and if Ezra published me without my permission
+            in the first Anthology as an Imagiste, I have a great objection to backing down at his
+            bidding when he decides that he does not want me to be one.</p>
+         <p>I sent a cable to <persName key="richard_aldington">Richard</persName>, which it hurt me very much to do, explaining this as well as
+            I could. And to-day comes a letter from him, enclosing one from <persName key="fs_flint">Flint</persName>. Flint’s letter
+            says that he remembers that Ezra did not invent the name "Imagiste," that it started in
+            their talks at a little club where they used to meet, called "<orgName key="poetsClub">The Poets’ Club</orgName>," of which
+            <persName key="te_hulme">Hulme</persName> was the founder, when they were always talking about the image. He adds: "Of
+            course, at the back of my head I have known this all the time, but I never took the
+            thing seriously. However, if Ezra is going to make it a part of his strategie litteraire
+            to our hurt, then I think that it and he should be put in their place." He also suggests
+            putting this in a preface. But I know that a fighting preface is a mistake. The fighting
+            should come afterwards, in the "<egoist>Egoist</egoist>" and elsewhere, if we need to fight.</p>
+         <p>Richard writes as follows: "I enclose a note from Flint to me which came five minutes
+            after your wires. That letter and our great desire to play square all round influenced
+            us to say that, if you and <orgName key="houghton_mifflin">Houghton, Mifflin</orgName> consider the Imagiste title absolutely
+            necessary, why we will acquiesce. You know how much we want the Anthology. And though we
+            really do not want the Imagiste title, we won't stand in the way of its coming out. So
+            go ahead in the name of God and St. George." Under these circumstances, Mr. Greenslet
+            and I have decided that really it is much easier to keep the name "Imagiste."</p>
+         <p>At first we thought of calling it "Quintessentialist;" but that is too long, and I am
+            sure the public is tired of "ists" and we had better hold to what we have got. If Ezra
+            turns stuffy, we will burst into print and tell something closely approaching the whole
+            story. As it is, I really think that to allow Ezra to take us up to ornament his career
+            with when he chooses and drop</pb> us when he thinks we sparkle a little too brightly is a
+            very foolish position for us to be in. Also our work is so much superior to his, and so
+            much better than any work which he can get his new satellites to do, that I think
+            whether or not they call themselves <orgName key="imagists">Imagistes</orgName> will matter not at all. The public will
+            soon be able to tell the false from the true. Therefore, I am taking the liberty of
+            going ahead on this plan with Flint's and Richard's and <persName key="hilda_doolittle">Hilda</persName>'s consent, in spite of
+            what you wrote to me, as I feel sure that, if you were here and I could explain
+            everything to you in detail by word of mouth, you would agree with me that it was the
+            best thing to do; in fact I am assuming so much on my friendship as to take your
+            permission for granted.</p>
+         <p>It has not been any easy business running this Anthology, and I feel quite sure that,
+            had I known what it meant, I should never have proposed it. But I do not want to back
+            down now. I only want you to help me fight Ezra if necessary, and help us make the name
+            "Imagiste" which was forced upon us against our will into something so worth while that
+            its connection with Ezra and his littlenesses will be forgotten.</p>
+         <p>It is a horrible thing, working with so many people, so many miles apart. I want to
+            please everybody; and I want to be fair to the publisher, who has been awfully square
+            with us and most patient over all these suggested changes; and I hope that in the end
+            what I do will please you too. At any rate, the book is Imagiste now, and Imagiste it
+            must remain; and with Flint’s and Richard’s agreeing, I am sure you won’t be the one to
+            stand out.</p>
+         <p>We cannot get a poem of <persName key="ford_hueffer">Hueffer</persName>’s in, as Richard does not like to ask him; and there is
+            no time now to write, as the book has gone to press, I believe. Otherwise it will come
+            out after the</pb> others of the series, which would be a great mistake. I do hope you are
+            coming here soon; I want very much to see you. It is always more satisfactory to talk
+            than to write, particularly when you are rehearsing eight hours a day. I wish you could
+            be here for our operettas next week; but I fear it is too late for that now, and I don’t
+            know whether you would enjoy them very much.</p>
+         <p><persName key="herbert_croly">Croly</persName> of "<title key="newRepublic">The New Republic</title>" was very much interested in your Indian poem and took the
+            whole thing to consider, saying that he would let me know if he could get it to pass the
+            other editors; and whether he will take it all or in part, I do not know. I left it with
+            him and have heard nothing more. I will you know as soon as I do. Forgive haste, but I
+            wanted to put you <foreign xml:lang="fr">au courant</foreign> as soon as possible.</p>
+         <closer>Affectionately yours,</closer>
+
+      </body>
+   </text>
+</TEI>

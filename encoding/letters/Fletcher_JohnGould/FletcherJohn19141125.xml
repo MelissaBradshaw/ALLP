@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="john_fletcher">John Gould Fletcher</persName>, <date when="1914-11-25">25
+                  November 1914</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="as">Anthony Shoplik</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425963709$1i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>Three pages typewritten in black ink. It is typed on Amy Lowell’s stationary,
+                     with the engraved heading "Miss A. Lowell, Heath Street, Brookline, Mass." The
+                     words "John Gould" are written in pencil across the top of the first page.
+                     Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1914-11-25">November 25, 1914.</date></dateline>
+            <salute>Dear Mr. <persName key="john_fletcher">Fletcher</persName>:</salute></opener>
+         <p>I am very glad you have landed on these shores and I hope to see you before long. I am
+            going on to <placeName key="nyc">New York</placeName> next Monday to attend to some business and I want you to dine with
+            me on Tuesday evening at the <placeName key="hotelStRegis">Hotel St. Regis</placeName>, <placeName key="fifthAvenue">Fifth Avenue</placeName>, and we can have a good
+            old-fashioned talk about everything in general and the state of things in <placeName key="usa">America</placeName> in
+            particular.</p>
+         <p>Now I have a little blow for you and a little of what I hope is going to be good news.
+            In the first place Mr. <persName key="thomas_mosher">Mosher</persName> has returned your <title key="irradiations">book</title> to me with a very kind note saying
+            that he has given up the publication of any new poetry on his own hook and will only
+            publish for authors at their own expense. They tell me he is getting very tired and is
+            not well. He is also giving up the "<title key="bibelot">Bibelot</title>," a magazine which he has run for twenty
+            years, so I think his remarks are bona fide. I will tell you all my tentative efforts
+            with your book when I see you. I could not bear to write to you of a complete break-down
+            of your hopes for its publication, but I think I have landed it with a publisher at last
+            and with a most excellent publisher, namely Messrs. <orgName key="houghton_mifflin">Houghton Mifflin &amp; Company</orgName>. Mr.
+            <persName key="ferris_greenslet">Greenslet</persName> is extremely enthusiastic over it and it is in his hands now, and although I
+            have not been told definitely that they have accepted it, still from what he says I
+            think that is practically the case. As soon as he lets me know definitely I will drop
+            you a line.</p>
+         <p>I am having a hard time with the publication of our <title key="some_imagist_poets">anthology</title> over here. The publishers
+            shy away from <persName key="ford_hueffer">Hueffer</persName>’s "Heaven" like a plague and what I am going to succeed in doing I
+            cannot imagine, however I guess it will all come out right in the end.</p>
+         <p>Let me know your address in New York and let me be sure to see you on Tuesday night as I
+            am going home on Wednesday. I sent you a copy of my <title key="swordBladesAndPoppySeed">book</title>. Did you ever get it, I wonder?
+            If not I will bring one to New York with me because I want you to have it from me.</p>
+         <closer>Very sincerely yours,</closer>
+      </body>
+   </text>
+</TEI>
