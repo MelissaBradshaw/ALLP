@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="john_fletcher">John Gould Fletcher</persName>, <date when="1915-07-13">13
+                  July 1915</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="as">Anthony Shoplik</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425963709$19i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>This letter is 3 pages long (seq. 19-21). It is typed on something like
+                     notebook paper and words are printed on the page in a slanted manner, with a
+                     few words written in the margins in pen. The words "John Gould " are written in
+                     pencil across the top of the first page. At the end of the letter, "Margaret
+                     Anderson has taken 'Patterns'" is written in pencil. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1915-06-23">June 23, 1915.</date></dateline>
+            <salute>My dear Mr. <persName key="john_fletcher">Fletcher</persName>:</salute></opener>
+         <p>I am very sorry to hear that your <persName>sister</persName><!--not sure if this is Adolphine Fletcher Terry or Mary Fletcher Drennan--> is ill. I hope by this time she is ever so much
+            better. <persName key="ada_russell">Mrs. Russell</persName> has been ill; we were afraid of typhoid at one time, but it turned
+            out not to be that, I am thankful to say. She is still in bed with a trained nurse<!--should "nurse" be tagged?-->, and
+            our moving to <placeName key="dublin">Dublin</placeName> is postponed. If she is well enough, she will go to <placeName key="saltLakeCity">Salt Lake City</placeName>
+            the end of July, as she planned, and once she is gone, I shall go up to Dublin. But at
+            the moment, everything is uncertain.</p>
+         <p>I am sending you a letter which I received yesterday addressed to you in <persName key="richard_aldington">Richard</persName>’s
+            handwriting. He seems to be very much worried lest they conscript him, which would be an
+            awful blow for our cause. He tells me that he and <persName key="fs_flint">Flint</persName> are writing the article for the
+            "<title key="mercureDeFrance">Mercure</title>;" and he also tells me that he has written an article on me for "<title key="egoist">The Egoist</title>,"
+            which I think is very nice <gap reason="illegible" quantity="10" unit="character"/> that they will not come over here;</pb>
+            that they cannot, in fact, as he does not believe he could get permission. And I am
+            afraid that may be true.</p>
+         <p>Did you see "<title key="others">Others</title>?" I have it – a most wretched little paper, at least judging by the
+            first number. I feel rather sorry that I sent them anything; but it cannot be helped
+            now.</p>
+         <p>Your friend <persName key="brownStudio">Brown</persName> of the <orgName key="studioBookshop">Studio Bookshop</orgName> has been so very nice to me that I took a leaf
+            out of your book and sent him one of my poems, "La Vie de Bohême." I do not think you
+            remember it; it was written about a year ago, and is not one I care much for, but they
+            have accepted it with glee.</p>
+         <p>You will be amused to hear that the "<title key="century">Century</title>" has taken "The Paper Windmill." I believe
+            they think it is prose and will print is as such, but perhaps that is better than
+            nothing.</p>
+         <p>"<title key="newRepublic">The New Republic</title>" has ordered a sort of boiling down of my Round Table lecture: viz. a
+            fifteen-hundred-word article on "The New Manner in Modern Poetry." I am very much
+            pleased with that. I have sent them your "Clipper Ship" and implored them to take it;
+            but they are so queer <add place="below">that I do not known what they will do. I will let</add></pb> you know as soon
+            as I hear. There is nothing further here. I am going to begin my French translations
+            this week, as they delay makes it impossible for me to wait until I get to Dublin. I am
+            pretty tired as there has been a good deal of anxiety over Mrs. Russell, but I am
+            feeling better now, and hope to get these translations done sometime.</p>
+         <p>I hope things are looking up with you and that the four-year-old youngster is not too
+            obstreperous.</p>
+         <closer>Affectionately yours,</closer>
+
+         <add place="inline"><postscript>Margaret Anderson has taken "Patterns."</postscript></add>
+      </body>
+   </text>
+</TEI>

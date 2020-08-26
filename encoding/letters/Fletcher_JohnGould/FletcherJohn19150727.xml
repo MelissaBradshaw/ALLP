@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                  key="john_fletcher">John Gould Fletcher</persName>, <date when="1915-07-27">27
+                  July 1915</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="as">Anthony Shoplik</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425963709$22i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>This letter is 3 pages long (seq. 22-24). It is typed on something like
+                     notebook paper and words are printed on the page in a slanted manner at
+                     times,.The words "John Gould " are written in pencil across the top of the
+                     first page. Unsigned.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1915-07-27">July 27, 1915.</date></dateline>
+            <salute>Dear Mr. <persName key="john_fletcher">Fletcher</persName>:</salute></opener>
+         <p>I am enclosing two reviews which <persName key="richard_aldington">Richard</persName> sent me. <persName key="ford_hueffer">Hueffer</persName>’s, as you see, is a very nasty
+            attack upon us three, no one of us being willing to kowtow to him. It seems that he
+            tried to persuade Richard to leave us in the lurch last winter and have nothing more to
+            do with us. I think Richard has behaved awfully well, as he absolutely refused to
+            listen. Of course, the violent praise of <persName key="fs_flint">Flint</persName> is by way of putting us still farther in
+            the background. I do not mind the article in the least, and I hope you won’t; and I
+            think the dignified thing for us to do is to pretend we have not seen it or, if we have,
+            that it is not worthy of attention. That is what Richard is going to do, and that is
+            what I am going to do. Hueffer is a beastly German cad. Richard says that he and <persName key="ezra_pound">Ezra</persName>
+            are thick again. He is just sore about <persName key="ferris_greenslet">Ferris Greenslet</persName> not being willing to print his
+            "Heaven." We are quitting him for good, and I am not sorry.</p></pb>
+         <p>The other article is by <persName key="edward_storer">Edward Storer</persName> in the "<title key="britishReview">British Review</title>," and, as Richard says, it
+            means to be nice. But Richard says he greatly prefers the Greek things, so that he likes
+            Richard and <persName key="hilda_doolittle">Hilda</persName> best. I am sorry he understands you so little, but the review just
+            shows how different the American and the English types of mind are. The Americans have
+            some comprehension of the imaginative, and the English not a rag.</p>
+         <p>I was not overcome with joy at <persName key="padraic_colum">Padraic Colum</persName>’s article on us. But then, what can you
+            expect? He has his way to make, and he obviously is not one of us; so he thinks the best
+            rôle to pursue is that of the superior critic.</p>
+         <p>I do not think it is worth while your writing to "<title key="transcript">The Transcript</title>" about the preface. We
+            all agree with your preface absolutely and, though it did not happen to be the preface
+            to "<title key="some_imagist_poets">Some Imagist Poets</title>," it might have been; and in slamming it, they are slamming their
+            point of view just as much as yours.</p>
+         <p>A ridiculous paper here called "<title key="zionsHerald">Zion’s Herald</title>" put in a piece to the effect that I was
+            the editor of the <title key="newPoetrySeries">New Poetry Series</title>. I wrote to them at</pb> once, because I am certainly not
+            going to be made responsible for Greenslet’s taste.</p>
+         <p><persName key="ada_russell">Mrs. Russell</persName> is much. better, I am thankful to say, and she leaves day after to-morrow
+            for the West, and I go up to <placeName key="dublin">Dublin</placeName> on Friday. So send your next letter there.</p>
+         <p>I trust the baby is better, and that your sister’s<!--not sure which baby or which sister--> trip to <placeName key="chicago">Chicago</placeName> will do her good.</p>
+         <closer>Affectionately yours,</closer>
+
+      </body>
+   </text>
+</TEI>
