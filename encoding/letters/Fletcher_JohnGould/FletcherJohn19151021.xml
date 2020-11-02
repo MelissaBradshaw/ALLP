@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+               key="john_fletcher">John Gould Fletcher</persName>, <date when="1915-10-21">21 
+                  October 1915</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="as">Anthony Shoplik</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="ppm">Prakruti Maniar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="ppm">Prakruti Maniar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425963709$38i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>This letter is 2 pages long (seq. 38-39). It is typed on notebook paper that has tears around the edge. 
+                     The words “John Gould” are written in pencil across the top of the first page. </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1915-10-21">October 21, 1915.</date></dateline>
+            <salute>My dear <persName key="john_fletcher">Mr. Fletcher</persName>:</salute></opener>
+         <p>I am very glad indeed to know that you are 
+            arriving in <placeName>our town</placeName>, although I confess I wish 
+            you had not done so quite so hastily, and had 
+            looked over the ground a little bit before you 
+            came. I say this purely on your own account, 
+            for the ground does not lie quite so well as it 
+            will three weeks later. By which I mean that 
+            <persName key="engel">Mr. Engel</persName> had an operation yesterday, and is in 
+            hospital, and I do not suppose he will be back 
+            at his office for three weeks. Under these circumstances, 
+            of course, he cannot give you any 
+            job to do before that time at least, or so I 
+            should imagine. Also I am working night and day 
+            on <title>these proofs</title>; and in the few moments after 
+            dinner in which I am not hard at work I am a very 
+            dull person I am afraid, as the fatigue attendant 
+            on so long a stretch of drudgery has almost floored 
+            me. However, we will do our best, and I hope that 
+            <persName key="ferris_greenslet">Ferris Greenslet</persName> will be able to find 
+            you something pending <persName key="engel">Mr. Engel</persName>'s recovery. </p>
+         </pb>
+         <p>Please telephone me when you reach town, or as soon after you get placed as possible, just to let me 
+            give you the glad hand and "welcome to our city." I am afraid there is no use in suggesting that you 
+            come out here before Sunday, as I shall really have not a moment to spare. The motor goes back and forth 
+            to <placeName>Norwood</placeName> where the press is with copy twice a day, and it leaves me absolutely filled 
+            up. My miserable health this summer has delayed the thing a month, and <orgName>the publishers</orgName>are impatient and so am I. </p>
+         <p>I shall expect you on Sunday to supper at seven as usual, and we will take up our old routine 
+            and have as pleasant a talk as last year. In the meantime, here is the twenty-five dollars, 
+            which you may return or not on the first of December, as you please. </p>
+         <closer>Affectionately yours,</closer>
+      </body>
+   </text>
+</TEI> 
