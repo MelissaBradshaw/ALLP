@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+               key="john_fletcher">John Gould Fletcher</persName>, <date when="1916-03-31">31
+                  March 1916</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="as">Anthony Shoplik</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="ppm">Prakruti Maniar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="ppm">Prakruti Maniar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425963709$50i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>This letter is 1 page long (seq. 49). It is typed on good quality typing paper 
+                     (neither notebook paper nor Lowell’s nice cardstock). The words “John Gould” 
+                     are written in pencil across the bottom of the first page. </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1916-03-31">March 31, 1916.</date></dateline>
+            <salute>Dear <persName key="john_fletcher">J.G.F.</persName>:</salute></opener>
+         <p>Here are the ones of <persName key="hilda_doolittle">Hilda</persName>’s which I have. These do not include the 
+            ones in the <title key="some_imagist_poets">“Anthology”</title>, with the exception of <title>“Sea Gods”</title>, as I have no copies of the 
+            others.</p>
+         <p>The sad  part is, I find “<title>The Shrine</title>” is one of the ones we have included, which is most unfortunate, 
+            as <persName key="harriet_monroe">Harriet</persName> has accepted it, and I have no other to offer her instead. I wish they were a little 
+            more business-like in <placeName key="england">England</placeName> and would remember where they send things before they send them out 
+            again.</p> 
+         <p>I have all the proof of the “<title key="some_imagist_poets">Anthology</title>” now, so that will soon be off our hands. </p>
+         <closer>Sincerely yours,</closer>
+      </body>
+   </text>
+</TEI>

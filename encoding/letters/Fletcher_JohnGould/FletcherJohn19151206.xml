@@ -1,0 +1,153 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+               key="john_fletcher">John Gould Fletcher</persName>, <date when="1915-12-06">06
+                  December 1915</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="as">Anthony Shoplik</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="ppm">Prakruti Maniar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="ppm">Prakruti Maniar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425963709$47i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>This letter is 2 pages long (seq. 47-48). It is typed on good quality typing paper (neither notebook paper nor 
+                     her nice cardstock – somewhere in between these). The words 
+                     “John Gould” are written in pencil across the top of the first page. </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1915-12-06">December 6, 1915.</date></dateline>
+            <salute>Dear <persName key="john_fletcher">J.G.F.</persName>,</salute></opener>
+         <lg>
+            <lb>To-night you said a thing</lb>
+            <lb>Which left me much upset and wondering.</lb>
+         </lg>
+         <lg>
+            <lb>You seemed to feel that rhyming was so hard</lb>
+            <lb>To have the knack made any man a bard.</lb>
+         </lg>
+         <lg>
+            <lb>To turn out couplets fast as you could think</lb>
+            <lb>Was quite a worthy use of printer’s ink.</lb>
+         </lg>
+         <lg>
+            <lb>But pointing to your friend whom I’ll not name </lb>
+            <lb>I said his verse would put a child to shame.</lb>
+         </lg>
+         <lg>
+            <lb>To reach the end within a given time</lb>
+            <lb>And wind up sharply on a tidy rhyme</lb>
+         </lg>
+         <lg>
+            <lb>Seemed to call forth a terrible commotion</lb>
+            <lb>And make his brain whirl like a stormy ocean. </lb>
+         </lg>
+         <lg>
+            <lb>Such tricks he used to cause his words to fall </lb>
+            <lb>Each on its accent! And that isn’t all.</lb>
+         </lg>
+         <lg>
+            <lb>Some verbs expanded with that fearful “did,” </lb>
+            <lb>Others condensed; and nothing neatly hid.</lb>
+         </lg>
+         </pb>
+         <lg>
+            <lb>Was that a style of which one could be proud?</lb>
+            <lb>I ask you, and my horror cried out loud.</lb>
+         </lg>
+         <lg>
+            <lb>You shook your head. “He rhymes so easily,”</lb>
+            <lb>You sadly murmured, “it amazes me.”</lb>
+         </lg>
+         <lg>
+            <lb>I vowed to you that I could do it too. </lb>
+            <lb>“But he does not repeat him rhymes,” said you.</lb>
+         </lg>
+         <lg>
+            <lb>I told you I could rhyme for half a day, </lb>
+            <lb>You doubted me. And now, behold my way! </lb>
+         </lg>
+         <lg>
+            <lb>Not wishing to admit that I’m defeated </lb>
+            <lb>I’ve done the thing, and not a rhyme repeated.</lb>
+         </lg>
+         <lg>
+            <lb>I could go on like this till you were dead,</lb>
+            <lb>But it is late and I must go to bed.</lb>
+         </lg>
+         <lg>
+            <lb>I’ve proved my point and if these lines don’t go well</lb>
+            <lb>They took me just ten minutes.</lb>
+         </lg>
+         <lg>
+            <lb>P.S. The postscript holds the letter’s kernel, </lb>
+            <lb>So tell me, did you take the <title key="poetryJournal">Poetry Journal</title>?</lb>
+         </lg>
+      </body>
+   </text>
+</TEI>
