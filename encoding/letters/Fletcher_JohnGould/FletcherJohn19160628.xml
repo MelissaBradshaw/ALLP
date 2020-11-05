@@ -8,8 +8,8 @@
       <fileDesc>
          <titleStmt>
             <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
-               key="john_fletcher">John Gould Fletcher</persName>, <date when="1916-02-07">07
-                  February 1916</date></title>
+               key="john_fletcher">John Gould Fletcher</persName>, <date when="1916-06-28">28
+                  June 1916</date></title>
             <author key="amy_lowell">Amy Lowell</author>
             <editor ref="">
                <!-- Insert editor (whoever wrote the footnotes) here -->
@@ -54,12 +54,11 @@
                   <institution>Harvard College Library</institution>
                   <repository>Houghton Library Repository</repository>
                   <collection>Amy Lowell Correspondence</collection>
-                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425963709$49i</idno>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425963709$51i  </idno>
                </msIdentifier>
                <physDesc>
-                  <p>This letter is 1 page long (seq. 49). It is typed on good quality typing paper 
-                     (neither notebook paper nor Lowell’s nice cardstock). The words “John Gould” are written in 
-                     pencil across the top of the first page.</p>
+                  <p>This letter is 5 pages long (seq. 51-55). It is typed on good quality typing paper (neither notebook paper 
+                     nor Lowell’s nice cardstock). The words “John Gould” are written in pencil across the top of the first page. </p>
                </physDesc>
             </msDesc>
          </sourceDesc>
@@ -80,11 +79,161 @@
    </teiHeader>
    <text>
       <body>
-         <opener><dateline><date when="1916-02-07">February 7, 1916.</date></dateline>
+         <opener><dateline><date when="1916-06-28">June 28, 1916.</date></dateline>
             <salute>Dear <persName key="john_fletcher">J.G.F.</persName>:</salute></opener>
-         <p>Here is the “Impressionist Picture of a Garden” which I promised you for the “Trimmed Lamp.” 
-            I forgot to send it with the other things.</p> 
-         <p>I am telephoning this from <placeName>town</placeName>, so I cannot sign it. </p>
+         <p>Your two letters came day before yesterday, and I was thankful to get them. 
+            You do not mention having been to <orgName key="constable">Constable</orgName>'s, so I suppose you have forgotten that 
+            you gave me that as an address before you knew where you would be. If you have not been there yet, there must 
+            be a letter waiting for you. </p> 
+         <p>You told me just what I wanted to know about the conditions in <placeName>England</placeName>. 
+            That placard in <placeName>Trafalgar Square</placeName> must be supremely ridiculous. In fact, I have 
+            been told by an English friend that somebody got up in the House of Parliament and said that it was 
+            making them a laughing-stock before the nations. But their earnestness and sobriety in pursuing this 
+            war is magnificent, and the fact that you feel it, is not at all surprising to me, for I am sure 
+            it is there. </p>
+         <p>Here things are moving much the same – creaking along rather than flowing, as usual at this season 
+            of the year. <persName>Richard</persName> has written that he cannot undertake to do <title>the chronicle</title> 
+            for <persName>Braithwaite</persName>, as he finds he will not be able to get any books or have any leisure 
+            for reading, and that <persName>Hilda</persName>, having taken on “<title>The Egoist</title>,” will not have time for 
+            it either. This is unfortunate, considering how hard I had to work to get 
+            <persName>Braithwaite</persName> to actually authorize me to ask him. Not that 
+            <persName>Braithwaite</persName> did not want to, but he is so procrastinating. However, I naturally have not 
+            done any complaining about this difficulty to <persName>Richard</persName>, as I do not want to make him feel that anything he does has 
+            put me out at all. He needs all his courage now, and all the affection and understanding we can 
+            all of us give him. <persName>Braithwaite</persName> behaved like a trump about it. That 
+         </pb>
+            man is the most loyal thing, barring yourself, I have yet struck! He instantly asked me to tell <persName>Richard</persName> that he 
+            should hold the position open for him when he returned from the war, and should get 
+            no one else to take it in the interval. But if I were you, I should take it informally 
+            while you are in <placeName>England</placeName>. I think an article on the state of poetry in <placeName>England</placeName> at this 
+            moment would be very acceptable to <persName>Braithwaite</persName>. However, please understand that I have not 
+            spoken to him about it and am not writing with his authority. They sold 2600 copies 
+            on the newsstands alone of <title>the second number</title>, which is pretty fine I think. I am going 
+            to ask <persName>Braithwaite</persName> if you subscribed, and if you did not, I shall subscribe for you, 
+            so that you may get <title>the paper</title> while you are abroad. They have got what I think 
+            is a really fine <title>poem </title>by <persName>Bodenheim</persName> in the next number.</p>
+         <p>
+            I had a letter from <persName>William Carlos Williams</persName> this morning, asking me to send a 
+            poem for the August number of “<title>Others</title>,” which he is editing “pro tem.”  
+            I do not know whether <persName>Kreymborg</persName> is ill or away. I wrote and told <persName>him</persName> about 
+            our conversation with <persName>Kreymborg</persName> in <placeName>New York</placeName>, and said that, although I 
+            thought my original objections to “<title>Others</title>” had been more or less done 
+            away with by their more recent publications, nevertheless that you and I had made 
+            this agreement that we would stay out together, and that I could not therefore change. 
+            I like <persName>Williams</persName>, and I do not want him to be angry, and I wrote the 
+            letter as nicely as I could. “<title>Others</title>” comes out most uncertainly 
+            now that <orgName>Marshall</orgName> is publishing it, and I think there must be some hitch 
+            in <persName>Kreymborg</persName>’s “<title>Mushrooms</title>,” for I received a letter from 
+            <persName>Marshall</persName> – a personal letter signed with his name – two or three days ago, 
+            saying that he was enclosing a circular, and might he send me a few <title>copies</title>; 
+            and as I had already had a circular, without any letter, when <title>the book</title> first appeared, 
+            I can only assume that things are not going well there. 
+         </p>
+         <p>
+            What is more important, I fear that <persName>Sandburg</persName>’s <title>book</title> is not selling very well 
+            either. They have entirely ceased to advertise it, and I have seen very few 
+            references to it in any paper. Of course, I do not get his 
+            </pb>
+            reviews, but there is 
+            nothing like the furor there was over “<title>Spoon River</title>” last year or over <persName>Frost</persName>’s books.   
+         </p>
+         <p>
+            My own affairs are going remarkably smoothly. <persName>Lebowich</persName> tells me that they had a 
+            quantity of letters for and against the “<title>Docket</title>,” and he told 
+            Mr. <persName>Braithwaite</persName> he wished he could get another poem that produced so much 
+            of a sensation. A good many of the letters, I fear, were hostile, but I 
+            take all that in the day’s work now. 
+         </p>
+         <p>
+            “<title>Sword Blades</title>” has just gone into another edition, to my intense satisfaction. 
+            I have agreed to speak before the <orgName>Washington University Association</orgName> 
+            in <placeName>St. Louis</placeName> on the <date>7th of November</date>, giving the same lecture that 
+            I gave in <placeName>Chicago</placeName> last year; and they tell me that they may ask me later to 
+            repeat my four <placeName>Chicago</placeName> lectures in the Spring. I am also to repeat 
+            these four lectures at the Brooklyn Institute of Arts and Sciences, 
+            and I think I shall hire the Vendome and give them here on my own 
+            recognizances after my return from St. Louis. 
+         </p>
+         <p>
+            Mrs. “Jack” <persName>Gardner</persName> has just caught on to us. I read her some of my things 
+            the other day at <persName>Bessie Perkin</persName>’s, and she has been raving about those 
+            Napoleonic pieces ever since. Now she is all agog – evidently thinks she 
+            has got hold of a new thing which it is very well worth while for her to know. 
+            You know she always likes to be in the swim. I am sending her your 
+            two <title>books</title> to-day. She will make an excellent advertising agent for us; 
+            nothing could be better. 
+         </p>
+         <p>
+            I have sent “<title>Malmaison</title>” to <persName>Margaret Anderson</persName>, but I have not 
+            had a word in return. I do not know whether the duns have got her, or whether she is a little slow, 
+            or whether she does not like the poem. I sent five poems to “<title>The Independent</title>” 
+            the other day, and to my intense aston-
+            </pb>
+            ishment they took them all, and said 
+            they would like a sketch of me by <persName>Frost</persName> on the opposite page. I do not think 
+            that <persName>Frost</persName> does this sort of thing, and I suggested <persName>Louis Untermeyer</persName>. 
+         </p>
+         <p>
+            <persName>Richard</persName> writes me that <persName>Miss Weaver</persName> positively refused to print 
+            <persName>Jean Untermeyer</persName>’s “<title>Clothes</title>.” That is awfully embarrassing, as 
+            <persName>Richard</persName> accepted it, and I told her so. But the good <persName>Braithwaite</persName> 
+            instantly helped me out of the hole by accepting it himself. 
+         </p>
+         <p>
+            I am enclosing a little clipping about you which came the other day. 
+            There are no reviews of any account yet. I have sent all I have got to 
+            <persName>Richard</persName>, so you can get them. The best one so far is by 
+            <persName>William Lyon Phelps</persName> and will appear in the July number of 
+            the “<title>Poetry Review</title>.” If <persName>Braithwaite</persName> only had some idea of choosing poetry, 
+            he could make that a good paper, for he has got a wonderful 
+            business hustler in <persName>that Jew</persName>. 
+         </p>
+         <p>
+            I do hope you will come back in the Autumn, because I think the fruit 
+            is ripe, and you don’t want it to tumble to the ground and rot, 
+            because there is no one here to pick it. 
+         </p>
+         <p>
+            I wish you would send me a sketch of your early life – of all your life, up to 
+            date – with anecdotes and things, for I am preparing my lectures 
+            along the line of my French lectures, and I want some biographical material 
+         </p>
+         <p>
+            I suppose by the time you get this you will be married, in which case please 
+            remember me most kindly to <persName>your wife</persName>, and tell her that I hope we shall be 
+            great friends always and that I am very anxious to see her and welcome her into 
+            our little circle. <persName>Mrs. Russell</persName> has not yet come back, but I expect her 
+            a week from Sunday. It is beautiful here now, but very hot for the first time, 
+            and up to now it has done nothing but rain, day in and day out. I envy you being 
+            in <placeName>England</placeName> again, even in war time. One gets rather stale staying in the same place.
+         </p>
+         <p>
+            <persName>Bodenheim</persName> has departed, I think stealing his way to <placeName>California</placeName> on 
+            freight cars – that is the way he intended to go. He came round 
+            and told me a marvelous story of wishing to be there on <date>June 15th</date>, 
+            to stretch him-
+            </pb>
+            self upon the grave of his beloved and vow to lead a 
+            better life. For this purpose, he needed <!--transaction-->$150.00, and he wished to 
+            sell two <title>plays</title>, with all the rights – “movie” and otherwise – 
+            for cash down, in order to get there; and he wanted to know if I knew 
+            anybody who would take the plays on these terms. Needless to remark, 
+            I did not, and I was not such a fool as to be “touched” for the 
+            hundred and fifty. But I gave him a <!--transaction -->cheque to cover the damage<persName>Mary</persName> 
+            inflicted upon his overcoat, and I am sure that cheque will never go 
+            into a new coat; it will go into food and drink as long as it lasts. 
+            He was to let me know if he didn’t start, and as he has not let me know, 
+            I suppose he has gone. He read me an excellent poem, the best he has done I 
+            think, and I instantly told him to take it to <persName>Braithwaite</persName>; and then I rang 
+            up Braithwaite and told him how good the poem was, with the result that 
+            he accepted it; and it appears in <title>the July number</title>. I am afraid he did not 
+            get paid in advance, however; but they do pay on <title>that paper</title>, some months 
+            late, so he will get the money in the end. 
+         </p>
+         <p>
+            I guess that is all my news, except that I miss our Sunday 
+            chats very much. Write again and often! 
+         </p>
          <closer>Affectionately yours,</closer>
       </body>
    </text>
