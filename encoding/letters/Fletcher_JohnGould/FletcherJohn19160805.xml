@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+               key="john_fletcher">John Gould Fletcher</persName>, <date when="1916-08-05">05 August 1916</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="as">Anthony Shoplik</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="ppm">Prakruti Maniar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="ppm">Prakruti Maniar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425963709$56i </idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>This letter is 5 pages long (seq. 56-60). It is typed on good quality typing paper 
+                     (neither notebook paper nor Lowell’s nice cardstock, buy somewhere in between). 
+                     The words “John Gould” are written in pencil across the top of the first page. </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1916-08-05">August 5, 1916 </date></dateline>
+            <salute>Dear <persName key="john_fletcher">J.G.F.</persName>:</salute></opener>
+         <p>
+            I feel very guilty when I think I have two letters from you to answer. 
+            I do not know where time goes to, but it certainly goes, and I wake up to find 
+            that more of it has elapsed between letters than I intended.  
+         </p>
+         <p>
+            I think you are quite right about our being independent in sending to magazines, 
+            now that you are so far away. I was not at all surprised that you sent to “<title>Others</title>,” 
+            I was only surprised that you did not tell me; but it does not make the 
+            slightest difference, and as you will see, I send a poem to <title>that number</title> after 
+            being told by <persName>Williams</persName> that you had done so. I do not think much of it as a number, 
+            I am bound to confess, and as it had my two horrors, <persName>Jeanne d’Orge</persName> and 
+            <persName>Minna Loy</persName> in it, 
+            I was not too pleased to think I had contributed. However, that is all over now. 
+            I refused to send another poem to <persName>Helen Hoyt</persName>’s <title>Women’s Number,</title> as I thought that with 
+            Helen Hoyt for editor the contributions would be of the most lively. 
+         </p>
+         <p>
+            <persName>Braithwaite</persName> tells me that he owes you <measure>$1.50 </measure>(large sum) for your poem in 
+            <title>“The Poetry Review,”</title> and he asked where he should send it. 
+            I told him he had better send it to me, as I was writing to you 
+            all the time; but it has not appeared, and I am writing by this mail 
+            direct to <persName>Lebowich</persName> to dun him for it. 
+         </p>
+         <p>
+            There is a new magazine being got up here, or rather in 
+            New York, called “<title>The Seven Arts</title>.” An unknown donor is giving the money, 
+            and they are to carry it on for a year. If at the end of that time the 
+            anonymous donor does not like the results, he will withdraw his support, 
+            and they will have to do the best they can on the reputation 
+            they have made during that year. If on the other hand he does 
+            like it, he will continue to pay the bills. They are to pay on 
+            acceptance, but whether their pay is large or small I do not know. 
+            The editor is <persName>James Oppenheim</persName>, and there are about eight sub-editors, 
+            two of whom are <persName>Louis Untermeyer</persName> and <persName>Robert Frost</persName>. They say they 
+            represent no school and have no propaganda, but are going to publish 
+            everything that is good. It is to contain not only poetry but critical work 
+            and everything pertaining to the arts. I am a little doubtful whether 
+            it is to include fiction or not. It sounds well. They have already 
+            solicited contributions from me, and I imagine that they would like 
+            you to contribute also. The first number is to be out in October 
+            I think. This seems to be the only bit of real news I have. 
+         </p>
+         <p>
+            The sale of the <title>Imagist 1916 Anthology</title> is only 
+            35 volumes short of the 1915 volume at this date, 
+            although they have not yet sent any to <placeName>England</placeName>. 
+            With their usual policy of letting things slide, the book was 
+            not forced upon the English house. I had a talk with <persName>Greenslet</persName> 
+            about this before I left <placeName>Boston</placeName>, and he regretted extremely 
+            the stupidity of their office in not having seen to this, 
+            but said it was when he was away on his vacation, that he had 
+            now written, and that their contracts with Constable were such 
+            that they could not refuse to take the book. I have written 
+            him again about it, having received his statement as follows: 
+            <measure>
+            249 Imagist Poets,  1915.      .36 ¼    $90.26 
+            389   “         ”   1916.      .36 ¼    141.01 
+            </measure>                                        231.27 
+         </p>
+         <p>
+            I enclose a draft for b8-1-7 , your share of the 
+            gross profits of the two volumes. There are three <measure>(3) undivided 
+            cents</measure>, which I was keeping on commission!!! We inserted a new 
+            advertisement, embodying a paragraph from Mrs. <persName>Aldis</persName>’s review 
+            of some of <persName>Phelps</persName>’s, two weeks ago, and I think I shall 
+            advertise it again in about a month. That I think will be sufficient. 
+         </p>
+         <p>
+            I have asked <persName>Lebowich</persName> to send you all the copies 
+            of “<title>The Poetry Review</title>” from the beginning of the year. 
+         </p>
+         <p>
+            I suppose you see "<title>The Little Review</title>" or can get it at the 
+            <placeName>Poetry Bookshop</placeName>. <persName>Margaret Anderson</persName> has moved to 
+            <placeName>California</placeName> for the 
+            Summer.  Her address is: <placeName>P. O. Box 696, Mill Valley, California</placeName>. 
+            She expects to be back in <placeName>Chicago</placeName> for two months in the Autumn, 
+            then to move the Review bodily to <placeName>New York</placeName>. It is not very easy to 
+            get copies of it now, as she is so far away. I am sending you a 
+            copy of the June-July number, however, because it contains Mrs. Aldis’s 
+            review of us, which I think is extremely nice. 
+         </p>
+         <p>
+            Thank you very much for your biographical notes, which I shall use 
+            with great interest. I have not begun to write my lectures yet, but I expect to very soon. 
+         </p>
+         <p>
+            I do hope you will write some English literary notes for 
+            <persName>Braithwaite</persName>, as I think he needs the foreign element in his paper. 
+            I had your poems typewritten, and have sent them to <persName>Benét</persName>, 
+            but have heard nothing about them yet. Benét is always as slow 
+            as cold molasses, so don’t expect to hear for some time. 
+         </p>
+         <p>
+            I rather think you are right about “Others” breaking up.  
+            This handing it over to a new editor every month looks to me 
+            like the last gasp. As to “Poetry,” I think it is 
+            disintegrating since <persName>Alice Henderson</persName> left. <persName>Harriet</persName>’s one desire 
+            seems to be to get in new people, whether they are good for anything or not.  
+         </p>
+         <p>
+            <persName>Mr. Bridges</persName> treated me as white as snow about 
+            “<title>Battledore and Shuttlecock</title>” which appears in the August number of 
+            “<title>Scribner</title>’s” with the most charming woodcuts. I am beginning to 
+            think that the rowing I gave the old gentleman had a good effect. 
+         </p>
+         <p>
+            You seem to have handed a lot of things to 
+            “<title>The Poetry Journal</title>” before you left, but why 
+            you gave <persName>Aiken</persName> such high praise is beyond my comprehension. 
+            However, "chacun à con goût." 
+         </p>
+         <p>
+            I suppose from your letter that you have no 
+            intention of returning this Autumn. That will be a terrible blow for 
+            me. However, I cannot but feel that the war will not last much 
+            longer, and we can all meet again. I wish it would stop before Richard 
+            gets there. I had a letter from him from the camp the other day, 
+            and I must say it sounded to me more healthy in tone and happier 
+            than anything I have had from him for some time. There is nothing 
+            like having a thing settled, one way or the other, to give one peace 
+            of mind, and I think he suffered terribly from indecision, feeling 
+            that he ought to go and yet did not want to. 
+         </p>
+         <p>
+            <persName>Lawrence</persName> writes us, “we are gaily ringing our last shilling.” 
+            Whether that means he and his wife, or England, I do not know. 
+            Even if his books are being published, I suppose it will be a long 
+            time before he gets any royalties. Do let me know if he needs 
+            anything, for I am worried about him. I am sending him his share 
+            of the Imagist royalties, which, at the rate they live, will help a little.  
+         </p>
+         <p>
+            <placeName>Hilda</placeName> writes that she is moving, to be near Richard at the camp, 
+            and that she will send me her address. So far she has not done so, 
+            and if you have it, I wish you would send it. 
+         </p>
+         <p>
+            I have not written much since I have been up here – 
+            a few shortish poems and a longish one that I rather like, 
+            and an article or two, among them a criticism of Mrs. Aldis’s 
+            book for Harriet. The Summer is never my best time. 
+         </p>
+         <p>
+            Reedy tells me that he is writing an article for the "<title>Mirror</title>” 
+            on my work, which I am anxious to see. 
+         </p>
+         <p>
+            Richard writes, urging me to go out West and give some 
+            talks, as he has heard that people are interested in us there. And 
+            I think I may do that next Spring. <persName>Margaret Wilkinson</persName> of 
+            the “<title>Los Angeles Graphic</title>” appeared the other day, 
+            just before I left town. She is a nice little woman, 
+            and extremely enthusiastic over us. She has a poem in this month’s 
+            “Poetry” but it is not any great shakes. It seems that <persName>John Vance Cheney</persName> 
+            and a man who writes under the name of "<persName>Yorick</persName>" in a <title>San Diego paper, 
+            </title>are down on us and have done a lot to prejudice people against us. 
+            <persName>Mrs. Howard</persName> writes from <placeName>San Diego</placeName> that she thinks she has done a little 
+            to counterbalance their influence. I sincerely hope so. 
+         </p>
+         <p>
+            Remember me to your wife, and with much love in which <persName>Mrs. Russell</persName> joins, 
+         </p>
+         <closer>Affectionately yours,</closer>
+      </body>
+   </text>
+</TEI>
