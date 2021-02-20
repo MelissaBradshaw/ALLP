@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+               key="john_fletcher">John Gould Fletcher</persName>, <date when="1916-10-11">11 October 1916</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="as">Anthony Shoplik</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="ppm">Prakruti Maniar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="ppm">Prakruti Maniar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425963709$69i  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>This letter is 6 pages long (seq. 69-74). It is typed on good quality typing 
+                     paper (neither notebook paper nor Lowell’s nice cardstock, but somewhere in between). 
+                     The words “John Gould Fletcher” are written in pencil across the top of the first page. </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1916-10-11">October 11, 1916</date></dateline>
+            <salute>Dear <persName key="john_fletcher">J.G.F.</persName>:</salute></opener>
+         <p>Your letter of <date when="1916-09-25">September 25th</date> has this minute come, and I was awfully interested to see 
+            what you said about the state of mind of our little group. My feeling is exactly yours. 
+            The “<title key="some_imagist_poets">Anthology</title>” has done exactly what I hoped it would do – in fact, it has done more than in my wildest 
+            dreams/ever dared to hope. But I think the moment for its usefulness has gone by. 
+            I don’t believe there is much point in having another. 
+            I think that another would sell about as well as this one has, which, I imagine, is not bad, 
+            that is, judging from their statement on the <date when="1916-08-01">first of August.</date> 
+            Since getting your letter I telephoned in to <persName key="ferris_greenslet">Ferris Greenslet</persName>, and 
+            he is to tell me the exact sale on Friday (to-morrow being a holiday) and I will add it as a 
+            postscript to this letter before sending it off. </p>
+         
+         <p>I don’t, personally, think there is any real getting together 
+            between you and me and the other members of the group. I don’t count <persName key="dh_lawrence">Lawrence</persName>, 
+            because he never was an Imagist and never cared a snap about the tenets. 
+            <persName key="hilda_doolittle">H.D.</persName> is, as you say, excessively narrow. I was awfully annoyed with her articles on 
+            <persName key="marianne_moore">Mary Anne Moore</persName><!-- spelled incorrectely in the letter - ppm --> and a woman named <persName>Mew</persName>, 
+            in the August and September “<title key="egoist">Egoist</title>”;they are so jejune and so over-praised. 
+            In fact, I have written her a letter objecting 
+            to that form of criticism coming from any one of our group, 
+            but I don't think I shall send the letter – at least, not in its present form, 
+            for I think that Hilda is pretty well overwrought. 
+            She is trying to do a job on that paper for which she is by no means fitted, 
+            and they have not seen me for so many years that I don’t believe they are very inclined to 
+            take my criticism on anything.</p>
+         
+         <p>Personally, I should much rather not have any “Anthology” this year. 
+            I think the anthology business is run into the ground anyhow, with 
+            <title>Braithwaite’s</title>, and <title key="poetry">Harriet’s</title>, and all the others, and I think the time has 
+            come when we have got to go it on our own. If we ever develop individually; it is quite plain that 
+            we cannot hold to the narrow tenets that please Hilda. But still, you know my sense of honour, 
+            and I said I would do it for three years, and I will.</p>
+         
+         <p>Greenslet says that they are still going to print the “<title key="newPoetrySeries">New Poetry Series</title>,” 
+            but maybe they won’t call it that, and they are going to vary the 
+            covers of the individual volumes, which I think is a good idea. 
+            Our contract said nothing about the series anyway, and he is quite willing 
+            to carry it (the Anthology) on again this year; although he agrees with me that it has done its job. </p>
+         
+         <p>
+            Now from the letters that I have had from Richard and Hilda, 
+            I feel quite sure that they will both feel it a good deal if we 
+            abandon this year’s “Anthology”. I am afraid Hilda’s book is not 
+            going to sell at all over here, I don't know how it has done in 
+            <placeName key="england">England</placeName> – do you? Maybe we are quits, because my books do not sell in England. 
+         </p>
+         
+         <p>
+            I had already made up my mind to send “<title>Lacquer Prints</title>” as my contribution. 
+            Whether they will make a full contribution or not I don’t know. I have not counted yet. 
+            If they do not, I will add something to them. </p>
+         <p>
+            Your “<title>Lincoln</title>” is a superb poem. I was reading it again only yesterday, and I think you 
+            certainly must have it for one of your three. I see from <persName key="edmund_brown"></persName>Brown’s list that he is 
+            publishing your “<title>Japanese Prints</title>” as one of his little booklets. 
+            Evidently you have not instructed him to send me a copy, so I shall just go and get one. 
+         </p>
+         <p>
+            <title>My book</title> is not out yet. I shall certainly send it to you as soon as it is. 
+            <orgName>They</orgName> hope to publish it a week from to-day, but I do not think they will get it out until 
+            the week after that. 
+         </p>
+         
+         <p>
+            I told Hilda to have the contributions here to me by the <date when="1916-12-01">first of December</date>, and that I would have 
+            mine over there by that date. I don’t know how to sound <persName key="richard_aldington">Richard </persName>and Hilda about this year’s “Anthology”, 
+            and as I am quite convinced from their letters that they want it, I guess we had better go ahead and 
+            round the thing up squarely.  
+         </p>
+         <p>
+            Mr. <persName key="ec_marsh">Marsh</persName> tells me that the advance sale on "<title key="menWomenGhosts">Men, Women, and Ghosts</title>” 
+            is the best I have had for any book so far, even “<title key="sexFrenchPoets">Six French Poets</title>,” which is hopeful. 
+         </p>
+         
+         <p>
+            I am fearfully tired, for I have just finished a <title>long poem</title> on 
+            Lord Nelson and Lady Hamilton, in polyphonic, a sort of companion piece to 
+            "<title>Malmaison</title>". <persName key="ada_russell">Mrs. Russell</persName> thinks it is the strongest thing I have done, 
+            but she is the only person who has seen it so far – she and my secretary, 
+            and I guess they are both prejudiced. Anyhow, I am not going to do any more 
+            until I come back from <placeName key="chicago">Chicago</placeName> and <placeName key="stLouis">St. Louis</placeName>, 
+            whither I am going in about ten days. 
+         </p>
+         
+         <p>
+            There is, to my mind, a chance that Richard may grow. 
+            You say he is already altered. But I don’t believe there is any hope of H.D.’s 
+            changing materially in any way, and I am quite sure that <persName key="fs_flint">Flint</persName> is absolutely done. 
+            I am just as sick of being bound up in a group as you are. I still think that Imagism, 
+            as you and I interpret it, is a splendid movement, but narrowed, as H.D. would have 
+            us narrow it, I think means death. It does to me, anyhow. We should go ahead with this 
+            “Anthology’, however, as if it were all right, because I have already hinted to 
+            Richard and Hilda that I thought its usefulness was over, and as they have not taken the hint, 
+            I feel we had better finish up brown. Of course there is no question of there ever being another after this. 
+         </p>
+         
+         <p>
+            I still hope that you will change your mind about staying over there too long, 
+            because I believe distinctly that your future is here, although, of course, 
+            you must do as you think best. But from everything I hear about England, 
+            it is all war over there now. 
+         </p>
+         
+         <p>
+            People are pretty well wrought up here, with the German 
+            submarine exploits off <placeName key="nantucket">Nantucket</placeName>. I hope it will have a good effect at 
+            the election and bring <persName>Hughes</persName> in triumphantly. 
+            <persName>Wilson</persName>’s policy has been a disgrace to the country. 
+         </p>
+         
+         <p>
+            I wish I had been with you all at your meeting the other day. 
+            It is jolly homesick here without anybody. However, some day the <rs key="ww1" type="theme">war</rs> will end, 
+            and if you don’t come home, I can go over there. 
+         </p>
+         
+         <closer>Affectionately yours, </closer>
+         
+         <postscript>P.S.
+            <p>
+                  Ferris Greenslet has just telephoned that we have sold 700 copies up to date – 
+                  somewhat over 500 here, and 160 sent to England. That, you will see, 
+                  is a little over 300 copies since the first of August, which I think is not bad at all. 
+            </p>
+            <p>
+               I have just had rather an unpleasant passage of arms with 
+               <persName key="wc_williams">William Carlos Williams</persName>. I am sending you the correspondence. 
+               The first letter I took as half a joke, and answered accordingly. 
+               It was either a joke or an insult – I preferred to take it as the former. 
+               The second letter admitted of no question. I enclose a copy of my answer. 
+               You were quite right in suspecting that "<title key="others">Others</title>" had gone to the wall, 
+               and it proves to me more conclusively than anything else could, that art which is not sincere 
+               has no chance. It may make a splash for five minutes, but it counts 
+               for nothing in the long run. You will see from Williams’s letter how active our friend 
+               <persName key="ezra_pound">Ezra</persName> is in distributing lies. To be sure, he lied to me about Hilda before I knew her, 
+               and about Lawrence before I knew him, and in neither case had he the same motive for 
+               falsifying facts that he has now.  I like Williams, and I believe him to be sincere. 
+               He is evidently terribly bitter over the failure of “Others”, and utterly bamboozled by 
+               Ezra. I feel sure that he will not come to see me when I am in <placeName key="nyc">New York</placeName>. I think he is 
+               too upset to desire to be just. It is as well to know how matters stand with that group, 
+               although they can’t hurt us in any way. 
+            </p>
+            <p>
+               But this letter of Williams’s, and the failure of 
+               “Others” makes me feel a little differently about the publication of the 
+               1917 "Anthology”. I think now that it is well to print it, in order to show them 
+               and the public at large that we have not gone under in the “Others” crash, 
+               that our movement is still flourishing. 
+            </p>
+            <p>
+               I have sent copies of the Williams correspondence to Hilda, 
+               and I suppose she will show it to Richard. And I have also told her just what I think about the 
+               "Anthology", and that I think it is well to keep it up through this year, as we planned. 
+            </p>
+            <p>
+               I don’t believe in five years anything will be heard of the 
+               Ezra group. I am sorry for Ezra, he had such an overwhelming 
+               conceit that it must be hard to find himself kicking about in a backwater. But he has only himself to thank. 
+            </p>
+         </postscript>
+         
+    
+      </body>
+   </text>
+</TEI>
