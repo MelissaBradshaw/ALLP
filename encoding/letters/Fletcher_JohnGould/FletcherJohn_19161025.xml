@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+               key="john_fletcher">John Gould Fletcher</persName>, <date when="1916-10-25">25 October 1916</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="as">Anthony Shoplik</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="ppm">Prakruti Maniar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="ppm">Prakruti Maniar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425963709$75i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>This letter is 2 pages long (seq. 75-76). It is typed on good quality typing paper 
+                     (neither notebook paper nor Lowell’s nice cardstock, but somewhere in between). 
+                     The words “John Gould Fletcher” are written in pencil across the top of the first page. </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1916-10-25">October 25, 1916</date></dateline>
+            <salute>Dear <persName key="john_fletcher">J.G.F.</persName>:</salute></opener>
+         
+         <p>I got your generous letter of <date when="1916-10-07">October 7th</date>. 
+            I am awfully glad you liked “<title>Thompson’s Restaurant</title>” and “<title>Opera House</title>”, 
+            but as to my going you one better, that’s a matter of opinion. 
+            You must not depreciate yourself. It is more important to invent a thing than to 
+            elaborate it, and there is no living poet out of whom I have got so much inspiration as out of yourself. 
+            Think what “<title>ondon Excursion</title>L” taught me! And I don’t feel that I have got 
+            to the end of its possibilities yet. So strongly do I feel this debt, 
+            that I have acknowledged it with thanks, in the Preface of “<title key="menWomenGhosts">Men,  Women and Ghosts</title>”. 
+            As a matter of fact, you can do lots of things that I can’t do. 
+            For instance, your "<title>Lincoln</title>” is a very fine thing; and the “<title>Clipper-Ships</title>” and “<title>The Old South</title>”. 
+            If you envy me at times, I envy you more times. Much of your work has been my despair, 
+            and I have no doubt it is because of the prick it gave me that I have 
+            forced myself to do better and always better, striving to out-do you. </p>
+         
+         <p>
+            I have just completed <title>a poem</title> on Nelson and Lady Hamilton, 
+            which various people who have seen it think is the best 
+            thing I have done – better even than "<title>Malmaison</title>" or "<title>The Hammers</title>". 
+            It is about as long as "The Hammers", and I don't 
+            believe will get into any magazine, therefor. So when it will see the light of day, Goodness only knows. 
+         </p>
+         
+         <p>
+            You can’t think how I miss our Sunday evening talks, and all our alliance, offensive and defensive. 
+         </p>
+         
+         <p>
+            The <title key="menWomenGhosts">new book</title> has had two excellent reviews, one by <persName key="ws_braithwaite">Braithwaite</persName>, 
+            and, strangely enough, an even more complimentary one by <persName key="william_reedy"></persName>William Marion Reedy, in “The Mirror”. 
+            I won’t send them along, because they are just about my book, and not about the Imagists. 
+         </p>
+         
+         <p>
+            Meanwhile, however, jealousy goes on apace. I send you the last letter in 
+            my correspondence with <persName key="wc_williams">Williams</persName>. I have not answered it, nor shall I. 
+            I think that incident is closed – not with flying colours on the part 
+            of the <persName key="ezra_pound">Ezra</persName> section. I knew that Williams preferred to hide behind vague generalities, 
+            to coming to see me and making his charges specific. Now I have proved it. 
+         </p>
+         
+         <p>
+            <persName key="josephine_peabody">Josephine</persName> has turned nasty too, but I suppose that was to be expected. 
+            She has written me a beastly letter, all full of hypocritical commiserations, 
+            because she “finds this book less good than ‘<title key="swordBlades">Sword Blades</title>’.” 
+            As she is the only person who has hitherto said so – the verdict being, 
+            as a rule, the other way – I do not worry. Of course I knew last Winter that she was turning sour, 
+            but this year she is hopelessly curdled. 
+         </p>
+         
+         <p>
+            <persName key="odell_shepard"></persName>Odell Shepard has got a doctor’s degree, and is Dr. Shepard – annoying things! 
+            The magazines simply bristle with his opinions about poetry, which makes me sick. 
+            But my edition is very nearly sold out, a week after publication, and 
+            <persName>Mr. Marsh</persName> thinks we shall have to have a new one before Christmas. I hope to Goodness that is true. 
+         </p>
+         
+         <p>
+            So things go here. No more at this present writing, as our ancestors used to say. 
+         </p>
+         
+         <closer>Always your affectionate old friend, </closer>
+      </body>
+   </text>
+</TEI>

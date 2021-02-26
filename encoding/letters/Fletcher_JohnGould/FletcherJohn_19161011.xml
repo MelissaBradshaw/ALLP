@@ -108,7 +108,7 @@
          
          <p>Personally, I should much rather not have any “Anthology” this year. 
             I think the anthology business is run into the ground anyhow, with 
-            <title>Braithwaite’s</title>, and <title key="poetry">Harriet’s</title>, and all the others, and I think the time has 
+            <title key="magazineVerse">Braithwaite’s</title>, and <title key="poetry">Harriet’s</title>, and all the others, and I think the time has 
             come when we have got to go it on our own. If we ever develop individually; it is quite plain that 
             we cannot hold to the narrow tenets that please Hilda. But still, you know my sense of honour, 
             and I said I would do it for three years, and I will.</p>
@@ -138,7 +138,7 @@
             Evidently you have not instructed him to send me a copy, so I shall just go and get one. 
          </p>
          <p>
-            <title>My book</title> is not out yet. I shall certainly send it to you as soon as it is. 
+            <title key="menWomenGhosts">My book</title> is not out yet. I shall certainly send it to you as soon as it is. 
             <orgName>They</orgName> hope to publish it a week from to-day, but I do not think they will get it out until 
             the week after that. 
          </p>
@@ -186,8 +186,8 @@
          <p>
             People are pretty well wrought up here, with the German 
             submarine exploits off <placeName key="nantucket">Nantucket</placeName>. I hope it will have a good effect at 
-            the election and bring <persName>Hughes</persName> in triumphantly. 
-            <persName>Wilson</persName>’s policy has been a disgrace to the country. 
+            the election and bring <persName key="charles_evan_hughes">Hughes</persName> in triumphantly. 
+            <persName key="woodrow_wilson">Wilson</persName>’s policy has been a disgrace to the country. 
          </p>
          
          <p>
