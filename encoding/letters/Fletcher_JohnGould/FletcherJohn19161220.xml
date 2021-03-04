@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+               key="john_fletcher">John Gould Fletcher</persName>, <date when="1916-12-20">20 December 1916</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="">
+               <!-- Insert editor (whoever wrote the footnotes) here -->
+            </editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="as">Anthony Shoplik</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="ppm">Prakruti Maniar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="ppm">Prakruti Maniar</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="">
+                  <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when="">
+               <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425963709$78i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>This letter is 4 pages long (seq. 78
+                     -
+                     81). It is typed on good quality typing paper (neither
+                     notebook paper nor Lowell’s nice cardstock, but somewhere in between). The words “John
+                     Gould Fletcher” are written in pencil across the top of the first page</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following:
+               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc> &personography; </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1916-12-20">December 20, 1916</date></dateline>
+            <salute>Dear <persName key="john_fletcher">J.G.F.</persName>:</salute></opener>
+        
+         <p>
+            I have so many things to thank you for, that I hardly know where to begin. 
+            <persName key="ada_russell">Mrs. Russell</persName> will have written you that I have been very ill, and 
+            I am only just allowed to begin work again, a few hours a day. 
+            And things have piled up so terribly, particularly my lectures, that I do not know where to begin. 
+         </p>
+         <p>
+            But first of all let me thank you for your letter about “<title key="menWomenGhosts">Men, Women and Ghosts</title>”, 
+            which was so unexpected and so beautiful that I burst into tears. 
+            It did a lot to help me get well, I assure you. I kept it on my bed and 
+            read it again and again. Such letters as that make up even for illness. 
+            The book is doing very well, having gone through its first edition in a month, 
+            and they now tell me that they think a third edition will be called for before long. 
+         </p>
+         <p>
+            Our <title key="some_imagist_poets">Imagist Anthology, 1916</title>, has just had, or is going to have, a second edition, so that we are all to the good over here. 
+         </p>
+         
+         <p>
+            I fear you may be disappointed at <persName key="ferris_greenslet">Ferris Greenslet’s</persName> having refused the manuscript you sent him. 
+            I did my best to make him take it, but without success. They have lost so much money on 
+            “<title key="newPoetrySeries">The New Poetry Series</title>” (owing to their own stupidity) that they are getting very 
+            wary as to what they take – and we know already that Ferris Greenslet has no judgement. 
+            I think you will stand more chance with your book of war poems, as Ferris 
+            has a partiality for war poems. So I advise you to send it over as soon as you get it done. 
+         </p>
+         <p>
+            I was sorry you felt the way you did about <persName key="ws_braithwaite">Braithwaite</persName>. 
+            His article is not worthy of being taken seriously. 
+            He told me himself that it was written in the “<title key="transcript">Transcript</title>” office a half hour before it had to go to press. 
+            He has included your “<title>Lincoln</title>” in his <title key="magazineVerse">Anthology</title> – at least he had the last time 
+            I saw the manuscript – and his not putting it among those five poems was entirely a matter of space. He told me that himself. 
+         </p>
+         
+         <p>
+           Braithwaite is going down hill rapidly. He has so many irons in the fire that 
+           he pays less attention than ever to each one. “<title key="poetryReview">The Poetry Review</title>”, 
+           as you have doubtless seen, is perfectly rotten, and he has now become 
+           the editor of another paper, a quarterly, called “<title key="stratfordJournal">The Stratford Journal</title>”, 
+           which bids fair to be worse than any of them. It does not deal particularly 
+           with poetry, and the only number I have seen was really shockingly poor. 
+         </p>
+         
+         <p>
+            Still, naturally, I do want that article on me to be printed, 
+            and it was a bit tough on me to have you refuse to let Braithwaite have it, 
+            because it is not he who would get the benefit, it would be I. 
+            However, I have sent it to <persName key="harriet_monroe">Harriet</persName>. But I have no real hope of her taking it. 
+            She will not like me to receive so much praise, I fear. 
+            Have you any objection to my giving it to <persName key="margaret_anderson">Margaret Anderson</persName>, if Harriet refuses it? 
+            I really do want it to appear in print. At least, Braithwaite would pay you something, 
+            and Margaret Anderson won’t pay you anything. I will do just as you think best, 
+            only let me know soon, so that I may get some benefit from it. 
+         </p>
+         
+         <p>
+            I am going to give you a great send-off in my lectures, 
+            and Mr. <persName key="george_brett">Brett</persName> is delighted over the volume and seems to think he is going 
+            to push it personally. So it ought to have some sale, and do you good. 
+         </p>
+         
+         <p>
+            Now about your contributions to the Anthology. <persName key="hilda_doolittle"></persName>Hilda has given me permission to use the “Lincoln”, 
+            and my selection for you would be: 
+            
+            <l><title>Lincoln</title></l>
+            
+            <l><title>Blackberry Harvest</title></l> 
+            
+            <l><title>Moonlight</title></l> 
+            
+            <l><title>Dawn</title></l> 
+            
+            and if you want one of the war poems – <title>“Armies”</title>. But your contribution will be about 
+            ten pages as it stands, which is about our usual, so that, 
+            unless you particularly want “Armies”, I do not advise putting it in. 
+            In fact, <persName key="richard_aldington">Richard’s</persName> poems deal almost entirely with the war, and as 
+            the ones that I could get that were any good of <persName key="fs_flint">Flint’s</persName> had war themes, 
+            I rather advise you not to put this in, particularly if you are going to 
+            publish a volume of war poems shortly. But personally I am quite willing, 
+            you understand, to take it. I think it the best of the three war poems. 
+         </p>
+         <p>
+            As we are including the “Lincoln”, and there are so 
+            few war poems to be put in this selection, 
+            I advise dropping the title, “War and Peace”, merely 
+            letting the poems stand on their own titles. 
+            Also, there is another thing that I would suggest, 
+            and that is leaving out the opus numbers of your early books 
+            in the bibliography. Also, I think I must put down who published them, 
+            although I can put “out of print” in brackets after them, if you prefer. 
+            But are they out of print? I should doubt it. Let me know what you want 
+            me to do about this, so that I can get the bibliography as you want.  
+         </p>
+         <p>
+            I will not write any more now, as it is important to get this off. 
+            I wish you were here. Mrs. Russell and I constantly say how we wish 
+            you were coming out to dinner. And you can’t think how much I miss the stimulus of our talks! 
+         </p>
+         <p>
+            Answer by return mail, if possible. 
+         </p>  
+         <closer>Affectionately, </closer>
+      </body>
+   </text>
+</TEI>
