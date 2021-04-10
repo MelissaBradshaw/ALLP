@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="../../ALLP_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                    key="john_fletcher">John Gould Fletcher</persName>, <date when="1917-01-01">01 January 1917</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="">
+                    <!-- Insert editor (whoever wrote the footnotes) here -->
+                </editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="as">Anthony Shoplik</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="ppm">Prakruti Maniar</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="ppm">Prakruti Maniar</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref="">
+                        <!-- insert name -->
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when="">
+                    <!-- Add date when published to website here -->
+                </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425963709$91i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>This letter is 1 page long (seq. 91). It is typed on good quality typing paper 
+                            (neither notebook paper nor Lowell’s nice cardstock, but somewhere in between). 
+                            The words “John Gould Fletcher” are written in pencil across the top of the first page. </p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following:
+                    <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc> &personography; </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1917-01-01">January 01, 1917</date></dateline>
+                <salute>Dear <persName key="john_fletcher">J.G.F.</persName>:</salute></opener>
+            <p>
+                I am sending you a copy of <persName key="ws_braithwaite">Braithwaite</persName>’s “<title key="magazineVerse">Anthology</title>”, which is not as good as last year’s. 
+                That unfortunate remark about me and the Imagists appears in the Preface and makes me sick. 
+                But he does say some awfully good things about you, and he has included your “<title key="goblinsAndPagodas">Goblins and Pagodas</title>” among the worthwhile books, 
+                as you will see – not, I am sorry to say, in the back of this book, but at the end of the Preface. 
+            </p>
+            <p>
+                Braithwaite is a difficult man to manage, as you know well; and I really <sic>thing</sic> he has gone quite to pieces lately. 
+                But, for Heaven’s sake, don’t think I had anything to do with the “Anthology”!  
+                I did not see it until it was written, and I have hardly laid eyes on Braithwaite this Summer and this Winter. 
+                It is a terrible thing to me to realize that you are so suspicious and do not trust me. In fact, it has made me very unhappy, 
+                for I am sure you did not mean to do it. I wish you would write to me soon, and dispel the impression 
+                which your letter of <date when="1916-12-07">December 7th</date> left. 
+            </p>
+            <p>
+                Nothing makes me more unhappy than to feel that you and I are at variance in any way, 
+                so I feel no sympathy with any other poet such as that I feel with you. This is New Year’s Day, 
+                and I wish you every sort of happy New Year, and above all, may we have no misunderstandings in it. 
+            </p>
+            <closer>Always affectionately,</closer>,
+        </body>
+    </text>
+</TEI>

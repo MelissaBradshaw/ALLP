@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="../../ALLP_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                    key="john_fletcher">John Gould Fletcher</persName>, <date when="1917-02-06">06 February 1917</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="">
+                    <!-- Insert editor (whoever wrote the footnotes) here -->
+                </editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="as">Anthony Shoplik</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="ppm">Prakruti Maniar</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="ppm">Prakruti Maniar</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref="">
+                        <!-- insert name -->
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when="">
+                    <!-- Add date when published to website here -->
+                </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425963709$92i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>This letter is 6 pages long (seq. 92-97). It is typed on good quality typing paper 
+                            (neither notebook paper nor Lowell’s nice cardstock, but somewhere in between). 
+                            The words “John Gould Fletcher” are written in pencil across the top of the first page.  </p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following:
+                    <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc> &personography; </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1917-02-06">February 6, 1917</date></dateline>
+                <salute>Dear <persName key="john_fletcher">J.G.F.</persName>:</salute></opener>
+            <p>
+                I have a good many letters of yours to answer and that delightful book “<title><foreign>Légendes de Noel</foreign></title>" to thank you for. 
+            </p>
+            <p>
+                Perhaps I can do something with “<title>The Napoleon Star</title>” some day. Just now I am off on a rather different tack.  
+            </p>
+            <p>
+                Your book is here, “<title key="underTheGuns">Under the Guns</title>”, and I like it very much indeed. 
+                Some of it, of course, is already familiar; much of it is perfectly new. 
+                Your “<title>White Butterflies</title>” is excellent as I told you in accepting it for the <title>Imagist Anthology</title>. 
+                I like “<title>Armies</title>” very much and “<title>The Return</title>”. I think perhaps I am rather particularly attracted by 
+                “<title>Street Corner</title>” and “<title>The Bayonets</title>” is very good. Your “<title>Washington</title>” is interesting, but not, 
+                I think, quite so good as your “<title>Lincoln</title>”, but still very good, and your picture of cranes lifting barrels up and down is excellent. 
+            </p>
+            <p>
+                I think if I can get <orgName key="houghton_mifflin">Houghton-Mifflin</orgName> to accept it, it would be quite easy to make an arrangement for the 
+                <title key="some_imagist_poets">Imagist Anthology</title> to come out a few weeks ahead of it, thus allowing it to contain both your “Lincoln” and your “Armies”. 
+                But I am a little bit doubtful about Houghton-Mifflin as <persName key="ferris_greenslet">Ferris Greenslet</persName> is not there and <persName key="roger_scaife">Scaife</persName> 
+                is a bit difficult to manage. He is very anxious to see the poems, and as I am going to take them in myself on 
+                Wednesday, I think I can read aloud to him certain ones and perhaps induce him to take more interest 
+                than he otherwise would. At any rate you can be sure I shall do my best. 
+            </p>
+            <p>
+                If they do accept the book, I do not think there will be very much time for any magazines to print the poems, 
+                as they undoubtedly will want to publish it this Spring, and I imagine you will prefer to have it appear as a book, 
+                than to wait and have it published later when possibly its peculiar fitness is past, merely for the sake 
+                of having some of these poems in the magazines. I shall not do anything about sending them around until I have Scaife’s answer. 
+                If his answer is in the negative, I will do what I can about placing them, but it is not so easy, as you know. 
+            </p>
+            <p>
+                I have just had a poem refused by <orgName key="scribner">Scribner</orgName> this week. “<title key="sevenArts">The Seven Arts</title>” is not so sympathetic to our point of 
+                view as I wish it was. It has already refused my long <title>Nelson poem</title>, which I think is probably the best thing 
+                I have done, an opinion which is shared by the “<title key="northAmericanReview">North American Review</title>” who have reversed 
+                their policy of years against printing long poems, and accepted this one after a day’s consideration, 
+                although it will take up fifteen of their pages. 
+            </p>
+            <p>
+                I think your book stands more chance now that we are so near war ourselves. At any rate you may be quite sure that I shall do my best to get them to accept it. 
+            </p>
+            <p>
+                If they do accept it, I will try to place the “<title>Washington</title>” with <persName key="ellery_sedgwick">Ellery Sedgwick</persName>, 
+                but I can be almost certain that he will refuse to touch anything that has a time limit attached to it. I will also try him 
+                in case they do not take the book, but you know how little effect I have on him, and Ferris Greenslet, as I have said, 
+                is on his way to <placeName key="europe">Europe</placeName>. He sailed on the <placeName key="finland">Finland</placeName> and was due 
+                to reach <placeName key="england">England</placeName> this morning, and if you have a copy of the book there, I strongly 
+                advise you to show it to him and clinch the matter on this spot, regardless of anything I may have done over here. 
+            </p>
+            <p>
+                I was delighted with that two-column review of the Imagist Poets. I think we are decidedly looking up, 
+                and I have not a doubt but that some day we shall have a reputation in England. 
+            </p>
+            <p>
+                The <title key="pallMallGazette">Pall Mall Gazette</title> has already announced that I ought to have a good many admirers now. 
+                I think chiefly on account of my Yankee poems, which is the sort of thing they always like.
+            </p>
+            <p>
+                Did you see the rather long and good article, although <persName>the man</persName> is naturally disposed to be unsympathetic 
+                with my work, of “<title key="menWomenGhosts">Men, Women and Ghosts</title>” in “<title key="newAge">The New Age</title>”? All these 
+                things seem to prove that we are getting on. 
+            </p>
+            <p>
+                <persName key="fs_flint">Flint</persName> writes me that in “<title key="observer">The Observer</title>” of the <date when="1917-01-21">21st of January</date> 
+                in a long two-columned article on “<title>Cambridge History of English Literature</title>”, the writer spoke about “<persName>Mr. Shaw</persName>, <persName>Mr. Wells</persName> and the Imagist Poets” 
+                as representing the modern tendency to ignore tradition. Flint says: “Of course that is silly, but the collocation is symptomatic.” 
+            </p>
+            <p>
+                You will be interested to hear that the <orgName key="macmillan">MacMillans</orgName> have ordered a third printing of 
+                “Men, Women and Ghosts” and that I have signed a contract for my new book which is to be called 
+                “<title key="tendencies">Tendencies in Modern American Poetry</title>”. 
+            </p>
+            <p>
+                My lectures were very well attended. I had between three and four hundred people at each one and they were 
+                immensely enthusiastic. 
+            </p>
+            <p>
+                I also went down and spoke at <orgName key="princeton">Princeton University</orgName>, where I had ninety boys, 
+                although the literary club I spoke before only numbered fifty, and almost all the English Department. 
+                <persName>The President of the Club</persName> wrote me afterwards that I had converted the Faculty to a man which, if true, is certainly starting. 
+            </p>
+            <p>
+                I wish you had been with me in <placeName key="nyc">New York</placeName> for I made some interesting experiments with a 
+                <persName>Mr. Patterson</persName>, who is in the English Department at <orgName key="columbiaUniversity">Columbia University</orgName> 
+                and has just written <title>a book on Prose Rhythms</title> in which he affirmed that vers libre came under the head of prose. 
+                I met him at <persName>Mr. Atherton</persName>’s and after some discussion he said that he would be delighted to change all of 
+                his opinions if I could prove to him that he was wrong. I passed a whole afternoon with him, 
+                working with his sound photographic machine and leaving records for him to work on when I was not there with the result that 
+                he announced what I believe to be true; that cadence in vers libre is somewhat analogous to phrasing in music. 
+                I also discovered in preparing myself beforehand for this seance that cadences are made up of time limits, 
+                but the time limits do not have to be exactly the same to each cadence. In other words, they are each of the 
+                same portion but there may be uneven numbers of them to a cadence. 
+            </p>
+            <p>
+                What we shall get, I do not know, and as I had to leave <placeName key="nyc">New York</placeName> after this first meeting, 
+                of course we shall not get on so fast as though I were there. I trust Mr. Patterson will make some definite discoveries in 
+                time to have me incorporate them in my book which, of course, will not appear until next autumn. 
+            </p>
+            <p>
+                When you suggest that you would rather be published by Macmillan, you suggest what I fear is an absolute impossibility. 
+                <persName key="george_brett">Mr. Brett</persName> has lost a lot of money I think on poets. 
+                <persName>Masters</persName>’s two last books are not selling at all, and I do not think he is very happy on the subject of 
+                American poetry. He is exceedingly nice to me, but I think his interest is largely because I write prose, too. 
+                But then, this last book has sold very well. <persName key="ec_marsh">Mr. Marsh</persName> told me that before 
+                Christmas with the exception of “<title>Spoon River</title>” and Tagore’s books, it was the best selling poetry that they had. 
+                As I look back on it, I feel sure that Mr. Brett would not have taken me in the beginning if I had not been a sister of <persName>my 
+                two brothers</persName>. Also, he would not have taken me if I had not been willing to pay for my own books. 
+                I think he could probably be induced to publish your new book if you had paid for it, but he does not publish a 
+                great many books that way and hates to have it known that he publishes any. I do not think there is the slightest use 
+                in even suggesting it to him as a venture of his own. 
+            </p>
+            <p>
+                I am returning you the money order. It was very sweet of you to send it, but those books were intended as a Christmas present, 
+                so I beg you will get the <orgName key="englishPostOffice">English Post Office</orgName> to refund you. 
+            </p>
+            <p>
+                I will write you again after I have got some more from Scaife. The Imagist Anthology is going to press at once. 
+            </p>
+            <p>
+                <persName key="hilda_doolittle">Hilda</persName> writes me that she will let me know what you and Flint think of “<title>Lacquer Prints</title>”, 
+                but I have had no word from her and I have waited two weeks. She herself has passed them. I know very well that you have passed 
+                them too, because you advised me to send them. In a letter I have from <persName key="fs_flint">Flint</persName> this morning, he does not mention the matter. 
+                I doubt whether Hilda even intended to ask <persName key="dh_lawrence">Lawrence</persName>, as he is so far away. 
+                At any rate, in the present state of our shipping, I can no longer delay sending in the book or we shall 
+                not be out in April. Therefore, I am taking it in as it is. 
+            
+            </p>
+            <p>Goodbye for the moment, <persName key="john_fletcher">dear boy</persName>,; I will write again shortly. </p>
+            
+            <closer>Affectionately yours,</closer>,
+            
+            <postscript>Enclosure</postscript>
+        </body>
+    </text>
+</TEI>

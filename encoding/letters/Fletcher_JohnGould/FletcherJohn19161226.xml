@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="../../ALLP_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                    key="john_fletcher">John Gould Fletcher</persName>, <date when="1916-12-26">26 December 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="">
+                    <!-- Insert editor (whoever wrote the footnotes) here -->
+                </editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="as">Anthony Shoplik</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="ppm">Prakruti Maniar</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="ppm">Prakruti Maniar</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref="">
+                        <!-- insert name -->
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when="">
+                    <!-- Add date when published to website here -->
+                </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425963709$83i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>This letter is 8 pages long (seq. 83-90). It is typed on good quality typing paper 
+                            (neither notebook paper nor Lowell’s nice cardstock, but somewhere in between). 
+                            The words “John Gould Fletcher” are written in pencil across the top of the first page.  </p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following:
+                    <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc> &personography; </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1916-12-26">December 26, 1916</date></dateline>
+                <salute>Dear <persName key="john_fletcher">J.G.F.</persName>:</salute></opener>
+                
+            <p>Your letter of <date when ="1916-12-07">December 7th</date> came yesterday, Christmas Day, and you can imagine how unhappy it made me feel. 
+                In the first place, I have really been very ill, and am far from well yet, and it is discouraging to feel that you 
+                apparently think that I could not have been as ill as <persName key="ada_russell">Mrs. Russell</persName> represented, 
+                because I could send you a cable. As a matter of fact, naturally the cable was only sent in my name, and at my request. 
+                I was four days under morphine, and five weeks in bed with a trained nurse, and am only just beginning to get round a little. 
+                One of the few things I forced myself to do during my convalescence was to read the manuscript of <title key="lovesTragedy">that book</title> of yours, 
+                a labour which I now heartily regret having undertaken. It is a question of “fools rushing in”. </p>
+            
+            <p>
+                But certainly I never expected that, whatever occurred, you would accuse me of disloyalty. 
+                Certainly nothing in our association together for the last three years points that way. 
+                You know quite well that I have done everything in my power to forward your work, 
+                in the eyes of the public and in the eyes of individuals. I have mentioned you again and again in print, 
+                I have even put my indebtedness to you in the Preface of “<title key="menWomenGhosts">Men, Women and Ghosts</title>”, and 
+                I am now preparing my lecture upon you, which will be delivered in <placeName key="brooklyn">Brooklyn</placeName> and in 
+                <placeName key="chicago">Chicago</placeName>, and which is to appear in book form next Autumn. 
+                You are perfectly aware that I have always considered you the poet with the greatest amount of genius living to-day; 
+                you work has given me inspiration and interest beyond that of any contemporary poet. 
+                Personally, I <pb/>care more for it all the time – that is, I care more for the style of work which attracted me at 
+                first, -- and in praising you I have not acted simply for the ties of friendship, 
+                (although I should have done my best to praise you had I not liked your work and still was your friend) 
+                but I have praised your poetry con amore, because I felt it to be worthy of praise, 
+                and because I was heartily in sympathy with it and anxious to have the world appreciate its merits. 
+            </p>
+            <p>
+                As you yourself say in this letter, we have not always seen eye to eye, 
+                and I do not like all of your poems as well as I do some of them. 
+                This may be a fault in my critical faculty or it may be a fault in yours. 
+                You must, of course, write as you feel. But I must, of course, speak as I feel. 
+                My word would be of very little value in the eyes of the public if it were not known that 
+                I had an artistic conscience, a conscience which will not permit me to lie in 
+                stating my opinions upon anybody’s work. Wholesale praise, merely because one likes the 
+                person is the kind of thing that has ruined Braithwaite; and it not only ruins the perpetrator, but it ruins the 
+                effect of the praise on the author praised. I should certainly never go out of my way to say disagreeable 
+                things about anything of yours, I should prefer to be silent; but if asked a point-blank question, 
+                I should reply as I thought, as I hope you would always do in a similar case. 
+            </p>
+            
+            <p>
+                I am quite aware that you defended “<title key="patterns">Patterns</title>” magnificently last year, but I thought that you 
+                really believed “Patterns” to be a good poem. I should prefer to think that than to feel you merely praised me out of friendship. 
+                I want your friendship; I value it as <pb/>I do that of few people; I need it; but I do not wish your 
+                friendship ever to force you into an equivocal position in regard to my work, and I do not want to feel that 
+                I can only hold your friendship on the terms of artistic insincerity. 
+            </p>
+            <p>
+                I am sorry to say that I do not think these poems in “<title key="lovesTragedy">Love’s Tragedy</title>” are as good as some of the 
+                others you have done – for instance, your “<title>Lincoln</title>”, “<title>Clipper-Ships</title>”, some of “<title key="irradiations">Irradiations</title>”, 
+                “<title>The Old House</title>”, the “<title>Green Symphony</title>”, the “<title>Blue Symphony</title>”, “<title>The Old South</title>”, 
+                and a number of others. I am quite aware that they are different, and intended to be different, 
+                but I cannot feel that they are as good of their kind as these other poems that I have mentioned are of theirs. 
+            </p>
+            <p>
+                What happened in regard to <persName key="ferris_greenslet">Ferris Greenslet </persName>was this: Ferris telephoned me and 
+                said that he had this manuscript, and that he would like to have my frank opinion upon it. 
+                In other words, he was asking me to act as an expert, in the same way that <persName key="george_brett">Mr. Brett</persName> sent my 
+                “<title key="sixFrenchPoets">Six French Poets</title>” to some one before deciding to accept it. 
+                I could, of course, have refused the position, and I sincerely wish that I had done so. 
+                I should have done so had I realized that these poems were some of the ones which I had seen three years ago, 
+                and which I had told you at that time I did not entirely appreciate. As it was, I thought I might help you by urging 
+                Ferris Greenslet to take the book, if I read over the manuscript; and although I was only just getting over 
+                the acute stage of my illness – hardly over it, in fact – I told Ferris he might send me the manuscript. 
+                When I read it I was confronted with the awful difficulty of realizing that I could not <pb/>endorse it as enthusiastically as I 
+                had “Irradiations” and “<title key="goblinsAndPagodas">Goblins and Pagodas</title>”. I can tell you I suffered in this thought, for I knew perfectly well that you must 
+                think highly of these poems. Love poems are always peculiarly personal to the author, and it is especially hard to have 
+                them meet with a cold reception. 
+            </p>
+            <p>
+                Now I do not say that my judgement is infallible – I only say that it is my personal judgment. 
+                You had asked me to act as your agent, but you had not sent these poems through me. 
+                Ferris has been very kind to me – I will tell you more about that in a minute – and he had asked me to read the 
+                manuscript as a favour to him. What was I to do? He has already lost a <measure>couple of hundred dollars</measure>, or more, on each of 
+                <title>your volumes</title>. Should I be just to him if I told him that I thought these poems were among the best you 
+                had done when I don’t? What I did do was to sit on the fence. When he asked me point-blank exactly what I thought of these poems, 
+                I told him that I did not think they were quite up to your best standard, but that I thought the public would 
+                very likely enjoy them better than the poems that I preferred, and I begged him to publish them. I can do no more. 
+            </p>
+            <p>
+                The truth is, that Ferris has got “cold feet”, he has lost so much money in poetry. 
+                His decisions have been ridiculous, and the poems he has published have, many of them, been abominable, as you know. 
+                I have frankly told him what I thought of such men as <persName key="shivell">Shivell</persName> and <persName key="pulsifier">Pulsifier</persName>. 
+                I have even told him that he has ruined his "<title key="newPoetrySeries">New Poetry Series</title>” by the inclusion of a lot of trash. 
+                I suspect it was on account of these criticisms that he asked my opinion of “Love’s <pb/>Tragedy”. 
+                Had I had the slightest idea that the volume contained poems I had already seen, I should not have permitted him to send it to me. 
+                But I was in an awkward position in regard to him, as you will hear: 
+            </p>
+            <p>
+                I have had a little trouble lately with Mr. Brett in regard to my advertising. I was very much annoyed at the way they treated me, 
+                because they refused to let me advertise my book as much as I thought that it ought to be advertised, even though I paid for it. 
+                I felt that Mr. Brett was keeping me back to push people like <persName key="el_masters">Masters</persName> and <persName key="tagore">Tagore</persName>, 
+                in whom he was more greatly interested. At one time I felt that I should be obliged to take my books away from <orgName key="macmillan">Macmillan</orgName>. 
+                In order to find out where I stood, I asked Ferris Greenslet whether he would be willing to have me return to him, 
+                and he replied that they would accept me with open arms. Since then, things have been more or less straightened out with 
+                Mr. Brett. Mr. Brett has expressed his belief in me, and his willingness to push me to every extent. 
+                He is particularly interested in <title>my book on the American Poets</title>, which is coming out next year. 
+                Therefore, after having received Ferris’s assurance that he would take me back, I was obliged to go and tell him that 
+                once more I had decided to remain for the present with Macmillan. 
+                This is not the first time this sort of thing has occurred, and all this makes it very difficult for me to refuse to do Ferris a favour. 
+            </p>
+            <p>
+                Now here is my proposition for you; which I make purely in order to prove to you what should require no proof, viz., that I am loyal to 
+                you in every possible way, as I conceive loyalty. (I do not conceive <pb/>loyalty to be the denying of one’s artistic impulses, 
+                and I never wish you to say in print or in private anything which you do not believe about my work.)  
+            </p>
+            <p>
+                If you will return to me the manuscript of “Love’s Tragedy”, I will pay for its publication, and Ferris Greenslet will 
+                accept it if I take the risk, because I have already spoken to him about that. In order to save your pride, which I know well 
+                and which I admire, I will only agree to print a first edition of 750 copies, and to advertise it to the price of <measure>$250</measure>, 
+                which I think is more than the advertising of your other books has come to. And I will pay you no royalties whatsoever until after I have 
+                been reimbursed for the manufacturing of the book and for the advertising, and you shall receive an accurate account twice a year, 
+                when Ferris sends it to me. After I have been reimbursed, any royalties that come in shall go entirely to you, as I naturally have no 
+                wish to make a penny out of the transaction. Should the book go into a second edition, it will at least prove its value, 
+                and I shall stand corrected, but I do not feel that I should print a second edition at my expense; that will have to be paid for either 
+                by you or by Ferris Greenslet. Hitherto none of your books has gone into a second edition, and if this should do so, it will prove 
+                that you were right as to the book’s value, and I was wrong. 
+            </p>
+            <p>
+                I think you can accept this offer without feeling that it in any way injures your pride, 
+                as I should merely be acting as a publisher, and merely assume the risks, supposing there should be any risks, 
+                of getting the book before the public. <pb/>
+            </p>
+            <p>
+                Meanwhile, I have already told Ferris Greenslet that I thought your <title>volume of war poems</title>, 
+                from the specimens I had seen, were good, and he has asked me to write you and request you to send him the volume. 
+                And I rather think, in view of the present unfortunate situation, he will accept it.  
+            </p>
+            <p>
+                I think you will see from this, that, far from being disloyal to you, I am one of your truest friends. 
+                Anyhow, if your heart does not tell you that, and if all my efforts for you in the past do not tell you that, 
+                I despair of your ever realizing it. But, again, I want you to understand, that fond of you as I am as a friend, 
+                it is as a poet that I admire you; and it is because I do admire you so heartily and unreservedly that I have 
+                pushed your work and done all that I have been able to do to get you the position which in my opinion you deserve. 
+            </p>
+            <p>
+                I am prepared to accept whatever you choose for the <title>Imagist Anthology</title>. If you do not like the suggestions made in my 
+                last letter, you are quite at liberty to abrogate them, and I will put in whatever you please and as you please it. 
+                At the same time, I do feel that you have made some mistakes in getting yourself before the public, in the past. 
+                I think had you taken my advice on what is, after all, a business proposition, you would have done better. I think “<title>Goblins and Pagodas</title>” 
+                would have sold better had there been fewer symphonies, and had those American poems been left in. I have told Ferris so, again and again, 
+                I think that, as far as the public is concerned, you make the mistake of printing too long a series of poems together, of subject too closely 
+                allied, which causes the average reader to lose interest on account of <pb/>the want of variety. This I felt strongly in “Love’s Tragedy”. 
+                I also think that the Preface of your last book overweighted the volume; but you did not see fit to consult me at the time of 
+                its publication, and you were right here to arrange things with the publishers yourself. Of course, you must do as you think best about 
+                your own poems always. This is merely my opinion. But you will notice that even my enemies, like <persName key="wc_williams">Williams</persName>, admit to my having sound business sense. 
+            </p>
+            <p>
+                As to acting as your agent, what I intended was that I would send round such poems of yours as you chose to send me, 
+                to such magazines as you designated, and that I would make myself responsible for collecting the payments for them and remitting it to you. 
+                I am not in the least anxious to act as anyone’s agent, as I have more work of my own than I can attend to properly. 
+                I only thought it would be a convenience, as you are so far away. But you must do exactly as you think best about that. 
+            </p>
+            <p>
+                I trust, <persName key="john_fletcher">Dear Boy</persName>, that I have made it clear that whatever my feeling for your individual 
+                poems may be, my feeling for your work as a whole is that of the very highest admiration and delight, and that I am always, 
+                
+            </p>
+                <closer>Your most sincere and affectionate friend</closer>,
+        </body>
+    </text>
+</TEI>
