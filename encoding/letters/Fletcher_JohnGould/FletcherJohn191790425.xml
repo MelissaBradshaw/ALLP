@@ -8,7 +8,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
-                    key="john_fletcher">John Gould Fletcher</persName>, <date when="1917-03-29">29 March 1917</date></title>
+                    key="john_fletcher">John Gould Fletcher</persName>, <date when="1917-04-25">25 April 1917</date></title>
                 <author key="amy_lowell">Amy Lowell</author>
                 <editor ref="">
                     <!-- Insert editor (whoever wrote the footnotes) here -->
@@ -53,10 +53,10 @@
                         <institution>Harvard College Library</institution>
                         <repository>Houghton Library Repository</repository>
                         <collection>Amy Lowell Correspondence</collection>
-                        <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425963709$100i  </idno>
+                        <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425963709$109i</idno>
                     </msIdentifier>
                     <physDesc>
-                        <p>This letter is 9 pages long (seq. 100-108). It is typed on good quality typing paper 
+                        <p>This letter is 4 pages long (seq. 109-112). It is typed on good quality typing paper 
                             (neither notebook paper nor Lowell’s nice cardstock, but somewhere in between). 
                             The words “John Gould Fletcher” are written in pencil across the top of the first page.  </p>
                     </physDesc>
@@ -79,8 +79,89 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1917-03-29">March 29, 1917</date></dateline>
+            <opener><dateline><date when="1917-04-25">April 25, 1917</date></dateline>
                 <salute>Dear <persName key="john_fletcher">J.G.F.</persName>:</salute></opener>
+            <p>
+                It is awfully annoying about <persName key="ferris_greenslet">Ferris Greenslet</persName>’s having refused that book, 
+                and nobody could feel worse about it than I do. I know they have got awfully cold feet just now. 
+                You see everything costs so much, and the income tax is going to be so dreadfully high, 
+                that I think every publishing house is cutting down tremendously. 
+            </p>
+            <p>
+                After all, you can’t blame Greenslet for publishing <persName key="odell_shepard">Odell Shepard</persName> if he wants to. 
+                What you forget is that a publishing concern is a business, not a charity, not even an educational institution, 
+                and if Greenslet thinks that Odell Shepard will sell, which I think he probably will to a certain extent, 
+                he naturally publishes him.  
+            </p>
+            <p>
+                It has been most unfortunate that neither of <title>your two books</title> have sold well, 
+                because of course before an author has made any reputation at all, when he is still new, there is always a 
+                chance that he may make a ten-strike, and publishers are willing to give him a try, but if he has published several 
+                books, and they have not been commercially successful, the publisher looks upon the thing as a bad 
+                monetary proposition, and in some ways the author is worse off than if he had never published anything. 
+            </p>
+            <p>
+                I wish Ferris would be a sport and publish this book, whether he thinks it will sell or not. 
+                I know that he will regret some day not having done so, but just at this moment with everything up in the air with the war, 
+                I do not think he feels at all sporty. I am awfully grieved myself, and I am going to take the manuscript to <persName key="roland">Roland Holt</persName> when 
+                I go on to <placeName key="nyc">New York</placeName> next month, but I have no real hope of his taking it either, 
+                as he has just refused a book of <persName key="richard_hunt">Richard Hunt</persName>’s <pb/>which, I think, had distinct points. 
+                In his letter to Hunt he spoke of the war conditions as making publishers very wary, and so I think you will find them to be. 
+            </p>
+            <p>
+                I do not know what you did to Constable, nor why they will not handle your books, 
+                but I suspect you went to see them when you first <add place="above">got over there </add> and made somebody angry, because 
+                they tell me here that <orgName key="constable">Constable</orgName> refused to take any copies of “<title key="goblinsAndPagodas">Goblins and Pagodas</title>”, 
+                and I imagine it is this fact which has influenced Ferris Greenslet very largely in his decision. 
+            </p>
+            <p>
+                They are taking plates of our <title key="some_imagist_poets">Imagist Poets</title> and reprinting them in <placeName key="england">England</placeName>, 
+                at their own expense apparently, and I know they are doing this to various other books. 
+                I do not know whether Odell Shepard’s book is among them. 
+            </p>
+            <p>
+                I wish I could do anything for you. I wish I could force these things down people’s throats. 
+                I hope that my book of criticism will have the effect of making people understand you better than they do now. 
+                I grieve from the bottom of my heart at your disappointment, but I wish I could make you feel that it 
+                means nothing in the long run, that what is good will survive all the inanity of publishers and <del rend=""><!--what is the word for typed over in a typewriter?-->conditions </del>editors. 
+                I also wish that I could make you feel less bitterly towards a publisher who looks out for his pocket first. 
+                Please give up the Utopian idea of believing that they are primarily interested in art. 
+                They are not, and I do not believe they ever were or ever will be.  
+            </p>
+            <p>
+                What I am afraid of in taking your book to Holt is that they know that Feris Greenslet has published two volumes 
+                for you, and the <pb/>fact that now one is offered to them means that <orgName key="houghton_mifflin">Houghton-Mifflin</orgName> 
+                do not want it. This stands in the way of its acceptance with any other firm at the start. 
+                Of course I shall try to keep this out of their knowledge as long as possible, and as I said before, 
+                I am going to have a heart to heart talk with Feris Greenslet and see if I cannot force it down 
+                his throat, but I do not believe I can.  
+            </p>
+            <p>
+                Don’t lose courage, <persName key="john_fletcher">dear boy</persName>; the war is going to knock us all, but 
+                <persName key="hilda_doolittle">Hilda</persName> writes me that you are doing some splendid work, 
+                and it seems to me that I have never read anything more beautiful than “<title>Moonlight</title>” and “<title>Dawn</title>” 
+                in the last Anthology.
+            </p>
+            <p>
+                I sent you a copy of <title>the new Anthology</title> yesterday. I dare not send more than one, as there 
+                seems to be a doubt as to whether they might confiscate them in that case, and Feris Greenslet advised me to 
+                send only one, and to order Constable to send more of the regular edition. This I shall certainly do.  
+            </p>
+            <p>
+                I also send you <persName key="ws_braithwaite">Braithwaite</persName>’s criticism. I got them to let Braithwaite write this criticism, 
+                although he is no longer connected with the “<title key="transcript">Transcript</title>”. The alternative was, I feared, to be 
+                <persName key="nathan_dole">Nathan Haskell Dole</persName>, and it seemed to me very important to ward him off. 
+                This appeared the day <title>the book</title> was published. 
+                As all the rest of us, except <persName key="dh_lawrence">Lawrence</persName>, have had out pictures in the “Transcript” sooner or later, 
+                I thought it Hilda’s turn, which is why her picture appears. 
+                This is the only review we have had so far, and I think the war conditions will make the others slow in coming. 
+            </p>
+            <pb/>
+            <p>
+                If I do not succeed in getting rid of the book en bloc<!--en bloc has been underlined--> to Holt, I will try to get 
+                some of the magazines to take some of the separate poems, but I cannot do that until I know what the 
+                possibility of publication will be. Do not let your spirits go down, and remember it is largely war conditions. 
+            </p>
             <closer>Affectionately yours,</closer>,
         </body>
     </text>
