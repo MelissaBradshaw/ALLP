@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="../../ALLP_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                    key="john_fletcher">John Gould Fletcher</persName>, <date when="1917-03-29">29 March 1917</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="">
+                    <!-- Insert editor (whoever wrote the footnotes) here -->
+                </editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="as">Anthony Shoplik</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="ppm">Prakruti Maniar</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="ppm">Prakruti Maniar</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref="">
+                        <!-- insert name -->
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when="">
+                    <!-- Add date when published to website here -->
+                </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425963709$100i  </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>This letter is 9 pages long (seq. 100-108). It is typed on good quality typing paper 
+                            (neither notebook paper nor Lowell’s nice cardstock, but somewhere in between). 
+                            The words “John Gould Fletcher” are written in pencil across the top of the first page.  </p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following:
+                    <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc> &personography; </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+                </x>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1917-03-29">March 29, 1917</date></dateline>
+                <salute>Dear <persName key="john_fletcher">J.G.F.</persName>:</salute></opener>
+            <p>
+                I was delighted to get your letter of <date when="1917-03-06">March 6th</date> yesterday morning, 
+                for, to tell the truth, I was somewhat upset by the one of <date key="1917-02-12">February 12th</date>, which came a couple 
+                of weeks ago; upset because I did not quite agree with your point of view in it, and I hate to disagree with you always, 
+                and particularly when you are so far away, but this new letter, in which you have changed your mind, agrees with me exactly.   
+            </p>
+            <p>
+                You see the point is this: – As you say, possibly <persName key="harriet_weaver">Miss Weaver</persName> would not sell 
+                <title>her paper</title>, particularly as you planned to leave her as editor. In that case she would go around and tell everybody that she had been approached – 
+                she might even call it “bribed” – to run her paper a certain way, and she could make a very nasty 
+                story about that. Also, suppose she did consent to leave <persName key="ezra_pound">Ezra</persName> out of the paper for a consideration, 
+                it would give Ezra a splendid handle to beat us with, because he would know perfectly well where the 
+                money came from, and he would not only be able to enlist the sympathy of the outside world and pose 
+                as a martyr to capital, and I think he might be able to hurt us very seriously by leaving the impression 
+                with the public at large that our success was largely due to methods of this kind. I do not believe that 
+                any good is to be gained by trying to muzzle one's enemies. That is the action of weakness, and is sure 
+                to come back on the perpetrator like a boomerang. The only thing for us to do is to write more and 
+                better until Ezra is acknowledged by the world at large to be out of the running with us. 
+                I think it only needs time for that to be a fact; besides, Ezra is so curiously constituted that if you 
+                only give him rope enough, he will hang himself. If he is permitted to say pretty much what he 
+                wants in <pb/>“<title key="egoist">The Egoist</title>”, he will soon disgust people so thoroughly that he will have no chance at all. 
+                The only reason he has any influence still is because his remarks are so carefully edited 
+                before they are allowed to appear. <persName key="harriet_monroe">Harriet Monroe</persName> told me, when I was in <placeName key="chicago">Chicago</placeName>, that she had to 
+                blue pencil all his articles so as to make them possible at all, which does not mean that Harriet is 
+                getting tired of him, because I think she is peculiarly loyal, as far as he is concerned. 
+                This was just a statement of fact. 
+            </p>   
+            <p>
+                Personally, I hate “<title>The Egoist</title>”, and if it were not a seeming disloyalty to the others of the group, 
+                I would discontinue my subscription at once. The thing has practically no circulation; even in <placeName key="england">England </placeName>
+                it is almost unknown, outside of a small group, and to be in it or out of it makes not the slightest difference in any way. 
+                I have not observed that writing in it has helped any one to a wider public, nor has it gained 
+                for any of its contributors the entrance to any other magazine; therefore, I would not worry about it at all or let 
+                Ezra’s being in it or out of it give you a moment’s discomfort. 
+            </p>
+            <p>
+                I am awfully sorry you are so blue. I do not wonder at it at all, and I assure you that your being away 
+                this winter has added very materially to the difficulties of writing for me. I got so much inspiration 
+                out of our Sunday talks, and talking to you did so much to clear my ideas and to show me what I really thought; 
+                also, I think the contact of our two minds whetted us both to make discoveries, which we should not have made alone, 
+                (at least that was the case with me) and I have missed you terribly. <persName key="ada_russell">Mrs. Russell</persName> and I have often 
+                said what would we not <pb/> give to see you again. I think you are quite right, however, not to make the voyage or subject <persName key="florence_emily_arbuthnot">your wife</persName> 
+                to it with this submarine menace going on. Think how foolish you would feel as you sank beneath the waves to realize that you had cut
+                your life short, and deprived the world of what you will write in the future, for a mere caprice!  
+            </p>
+            <p>
+                Now that we are certainly going to enter the war, I think a great strain is off the people in this part of the country. 
+                We have always been pro Ally, and to be able to be so with all our might and main is a relief. 
+                I think there is going to be some difficulty between the English elements and the German elements in our population, 
+                and I suspect that many friendships of long duration will be snapped, but, on the whole, I believe that 
+                this will have the effect of making America more homogenous, more truly a nation, than it has been for many years – 
+                since this vast tide of immigration has done so much to change the temper of her people, in fact.  
+            </p>
+            <p>
+                I enclose a poem which I wrote a few weeks ago and put in the “<title key="transcript">Transcript</title>”, 
+                as it seemed to me a daily paper was the place for it. It has been very well liked. 
+                Many people, including <persName key="ellery_sedgwick">Ellery Sedgwick </persName>(which is a joke), think it is one of the best things I have done. 
+                Anyhow, it came from my heart. I rather wish it could be printed in an English 
+                daily paper, but I have no way of knowing how that could be done. Perhaps the “<title key="observer">Observer</title>” 
+                would print it. If you feel like taking it round to them, I should be very glad. 
+                Of course the fact that it appeared in the <title>Boston “Transcript”</title> should be mentioned.
+            </p>
+            <p>
+                I was perfectly wild over your poems for the <title>new Anthology</title>. <pb/>I think “Moonlight” and “Dawn” are two of the 
+                most beautiful things you have done, and they fill me with envy, malice, and all uncharitableness. 
+                I do not believe you need worry about whether or not you have retrograded or advanced as a poet. 
+                There are always “ups and downs” periods in every poet’s creative life, and being so near the active 
+                seat of war makes it very difficult to write, naturally. It will be after the war is over, as 
+                a recollected experience, that you will find what you have gained. 
+            </p>
+            <p>
+                As to our fellow Imagists, I quite agree with you that <persName key="richard_aldington">Aldington</persName> is far and 
+                away the best of the lot. I have full belief in him, as a poet possibly more than as an essay writer, 
+                and as to his character, it is “<foreign xml:lang="fr">sans peur et sans reproche</foreign>”. <persName key="fs_flint">Flint</persName> 
+                has always been an exceedingly conceited fellow. The amount of swelled head he has managed to acquire, with very 
+                little reason therefor, is unique in my experience. <persName key="hilda_doolittle">Hilda</persName> is faded – so faded physically, 
+                that I think it affects her mentally. I do not wonder that Miss Weaver got discouraged with her; as an editor 
+                she must be absolutely useless. In regard to <persName key="dh_lawrence">Lawrence</persName>, he has always been primarily a novelist, 
+                and only a poet as a side show. As such, he need not seriously concern us.  
+            </p>
+            <p>
+                Still, I do not know whether we are wise to discontinue the <title key="some_imagist_poets">Imagist Anthology</title>, 
+                just at this point, or not. <placeName key="england">England</placeName> seems to be waking up to us. 
+                The English are a queer people. If you hammer, hammer, hammer, bye and bye they will pay attention. 
+                It always takes years before they realize that anything has anything in it. Now they have just begun to see 
+                that we amount to something, and whether or not it <pb/> is wise to discontinue our collective publication at 
+                the very moment that it is beginning to be noticed over there, I cannot quite make up my mind. 
+                Of course the production of the individual poets has something to do with it. 
+                I do not know what <persName key="richard_aldington">Richard</persName> will be able to produce in the trenches. 
+                The <persName>other three</persName> seem to be hopeless, but there are always you and I. 
+                Anyway, I am going to talk the matter over with <persName key="ferris_greenslet">Feris Greenslet</persName> when he 
+                comes back. We do not want to lose any of the ground we have gained either by inadequate production or by 
+                ceasing any publication just as soon as it is beginning to be noticed.  
+            </p>
+            <p>
+                As far as <placeName key="usa">America</placeName> is concerned, I do not think there is any advantage in 
+                keeping on the Anthology. It has done its business with the American public. The word “Imagist” and the kind of poetry for 
+                which we stand is now thoroughly recognized, and I think we can do quite as well on our own hooks, as we can together, 
+                but the situation is so different in England that I do not feel in a position to form an opinion at present. 
+                At any rate, I shall form none without first consulting you, after I have seen Ferris Greenslet. He has not come home, and <persName key="roger_scaife">Mr. Scaife</persName> 
+                does not know when he will come. Nobody knows whether he is on the water, or where he is, as announcements of sailings have been 
+                discontinued in the papers, and he would not be allowed to cable his own departure. 
+                There is, therefore, nothing to be done at present but to wait until his arrival. 
+            </p>
+            <p>
+                <title>Our book</title> will be out about the middle of April. Of course I shall send you a copy as soon as it comes. 
+                I sent you a copy of <title>Harriet’s Anthology</title>, which is just out a week or so ago. 
+                Of course it is not exactly <pb/>the selection I would have made myself in all instances. 
+                I would never have left out your “Green Symphony”, for instance, which I think is, on the whole, finer than the “Blue”; 
+                still, I must admit that I think it is a very creditable volume and shows that the poetical renaissance, 
+                which we claim to exist, is a fact and not a fancy.  
+            </p>
+            <p>
+                You will be amused to hear that <persName key="ws_braithwaite">Braithwaite</persName> has had a fight with 
+                <persName>Edgett</persName> and has left the “Transcript”. The reviews of <title>his Anthology</title> have been uniformly bad, 
+                and I am afraid his unbusinesslike methods have made them mad in there, but they did not kick him out; 
+                he kicked himself out in a fit of spleen, thinking himself more valuable than he really is. 
+                You will probably be glad to know of this, but I am sincerely sorry, for I believe the alternative will be 
+                <persName key="nathan_dole">Nathan Haskell Dole</persName>, which will be most unfortunate. They are neither of them bright, 
+                but Dole is a malicious dolt, whereas Braithwaite is merely ignorant, and he certainly is kindly. 
+            </p>
+            <p>
+                “The Transcript” had a review of Harriet’s Anthology by <persName key="kate_buss">Kate Buss</persName>, which I will send 
+                you, and you will see how inadequately this sort of work will be done on the “Transcript”, if Braithwaite doesn’t do it. 
+                Also, this little notice was on the back page, not on the book page at all. Now this is one of the most important books 
+                that has come out lately, and to treat it this way shows a narrow-mindedness which is a disgrace to a paper like the 
+                “Transcript”. At least Braithwaite insisted upon space.   
+            </p>
+            <p>
+                I am sorry that you felt obliged to jump on him so hard in the “<title key="poetryReview">Poetry Review</title>”, because I think it is 
+                just this sort of thing which has forced him out, and in all these considerations, it is a question of what is going to be the 
+                result of any action. If jumping out of the frying <pb/> pan means jumping into the fire, you had better stay in the frying pan. 
+                Anyway, I send you two clippings from the “Transcript”, which speak for themselves, but which will show you that Edgett read your review. 
+                I am inclined to think that this, and the many hostile reviews which his new Anthology has received, is responsible for their attitude 
+                towards him. I have no brief to hold for his work, as you know, but I think Edgett and Dole, as a combination, would be very much worse. 
+                Also, I am sorry for Braithwaite, and it looks to me now as though he would starve. 
+                Ignorance I can forgive; malicious underhandedness, I cannot.  
+            </p>
+            <p>
+                My trip out West was eminently successful, as far as it went. I spoke in the <orgName>Medical School</orgName> in <placeName key="stLouis">St. Louis</placeName>, 
+                under the auspices of the <orgName>Washington University Alumni Association</orgName>, and the hall was so crowded that they had to put 
+                in seventy-five extra chairs. The enthusiasm was tremendous. I met <persName key="orrick_johns">Orrick Johns</persName> while I was there, 
+                and he assumed disposed to be friendly and enthusiastic to all of us and did not at all take the tone which <persName>Williams</persName> took in the Autumn.  
+            </p>
+            <p>
+                <persName key="kreymborg">Kreymborg</persName> is reading his poems to the sound of a “mandalute” – whatever that may be – 
+                but I do not think that sort of freak stuff is likely to work very long. Kreymborg is a clever fellow, and if he 
+                did not have some admixture of the charlatan in his composition, I think he would be an interesting fellow. 
+                But the older I get, the more I value sincerity, and the less I care twopence for any one who has not got it. 
+                I have his advertisement somewhere; if I can find it, I will send it to you. 
+            </p>
+            <p>
+                I also send you a copy of a review of <title key="magazineVerse">Braithwaite’s Anthology</title><pb/> by <persName>Aiken</persName> in “<title key="dial">The Dial</title>”. 
+                I think this is much better than his critical work usually is. It is more restrained and less bumptious; in fact, I quite like this review. 
+            </p>
+            <p>
+                You will be amused to learn that <persName key="maurice_browne">Maurice Browne</persName> failed the day before I arrived in <placeName key="chicago">Chicago</placeName>, 
+                so I only gave my lecture for Harriet, and gave up the others, as I did not want to run the risk myself, and there had been no time 
+                to advertise them properly. 
+            </p>
+            <p>
+                I think that Harriet has run her poetry talks into the ground. Having one every Sunday by so many poets, 
+                most of whom cannot read aloud at all, I think it had rather weakened people’s interest, although my hall was so 
+                crowded that they slopped over into the adjoining room. I believe that conditions here are getting more normal. 
+                I think that the “boom” is decidedly over. <persName key="vachel_lindsay">Vachel Lindsay</persName> tells me that nobody wants him 
+                any more, and it seems to me that as people are getting more educated, they are beginning to distinguish between the really serious 
+                artists and those with the scholarly intent, and the half-baked ones. Also the close proximity of war is taking people’s 
+                attention off the freaks. The result may be a less apparent demand for the works of the modern poets, 
+                but I believe the real ones stand more chance of being appreciated than they ever have before. 
+                In other words, the conditions, I hope, will settle down more to that of England than it has been for some time. 
+            </p>
+            <p>
+                You will be glad to hear that “<title key="swordBladesAndPoppySeed">Sword Blades</title>” has gone into a third edition, 
+                so that I think we are moving.  
+            </p>
+            <p>
+                <persName key="william_bradley">William Aspinwall Bradley</persName> is here, and spoke so pleasantly of <pb/> you the other night. 
+                He said he enjoyed that evening you passed together very much, and he wishes you were here, and I echoed him with all my heart.   
+            </p>
+            <p>
+                You will be amused to hear that they have kicked me out of the Presidency of the <orgName>Poetry Club</orgName>, and 
+                <persName key="josephine_peabody">Josephine</persName> has practically come out as my avowed enemy. 
+                She still tries to hide it under a cloak of friendship, but I am on guard. I shall not go to the Poetry Society again, 
+                and I am thankful that I am out of it. It is getting perfectly impossible, and they are asking the Harvard boys 
+                for every meeting. Bradley, who went last time, told me that those old women kow-towed to the young men in a 
+                perfectly ridiculous way which made him quite sick. He says he shall not go again, either. 
+            </p>
+            <p>
+                I am off to <placeName key="buffalo">Buffalo</placeName> tonight for a lecture tomorrow, or rather a reading, and I 
+                am to go to <placeName key="brynMawr">Bryn Mawr</placeName> in May.  Also, I hope to see <persName key="wm_patterson">Mr. Patterson</persName> 
+                when I am passing through <placeName key="nyc">New York</placeName> in May. I have had several letters from him, but very little 
+                can be done that way.
+            </p>
+            <p>
+                This is a terribly long letter, and does my best to make up for the good talk I wish we could have. 
+                I do wish you would come back and settle in <placeName key="boston">Boston</placeName> for good, but I suppose that would be 
+                too good to be true. 
+            </p>
+            <p>
+                Please remember me most kindly to your wife, if you can be remembered to a person whom you have never seen, and believe me  
+            </p>
+            <closer>Affectionately yours,</closer>,
+        </body>
+    </text>
+</TEI>

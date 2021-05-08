@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="../../ALLP_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                    key="john_fletcher">John Gould Fletcher</persName>, <date when="1917-02-16">16 February 1917</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="">
+                    <!-- Insert editor (whoever wrote the footnotes) here -->
+                </editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="as">Anthony Shoplik</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="ppm">Prakruti Maniar</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="ppm">Prakruti Maniar</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref="">
+                        <!-- insert name -->
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when="">
+                    <!-- Add date when published to website here -->
+                </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno>https://iiif.lib.harvard.edu/manifests/view/drs:425963709$98i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>This letter is 2 pages long (seq. 98-99). It is typed on good quality typing paper (neither notebook paper nor Lowell’s nice cardstock, 
+                            but somewhere in between). The words “John Gould Fletcher” are written in pencil across the top of the first page.  </p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following:
+                    <!-- Insert tagged subject keywords here; will link to keyword-ography -->
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc> &personography; </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </x>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1917-02-16">February 16, 1917</date></dateline>
+                <salute>Dear <persName key="john_fletcher">J.G.F.</persName>:</salute></opener>
+            <p>
+                Here is our February account from <orgName key="houghton_mifflin">Houghton-Mifflin</orgName>, from which you will see that we made $167.65 <!--transaction-->. 
+                The $1.50 refers to a copy which was bound up especially for a subscriber and which they charged me for on the last bill by accident. 
+                Your share, or one-sixth of this amount, is <add place ="left">£</add><!--the addition is vague and done in pencil--><del rend="strikethrough">5.6.2</del>, for which I am enclosing draft.  
+            </p>
+            <p>
+                You will be glad to hear that <title>our first volume</title> is in its third edition, <title>our second volume</title> in its second and that I am correcting the proofs of the 
+                third volume today. 
+            </p>
+            <p>
+                I took <title key="underTheGuns">your book</title> in to <persName key="roger_scaife">Mr. Scaife</persName> the other day and read him “Lincoln” and some other poems from it, 
+                and did everything in my power to make him feel that it as a remarkable book and that he should not fail to publish it, 
+                but the truth is they are dreadfully wary just now about accepting books with war hanging over us and the uncertainty of the market. 
+                I am going off on my Western lecture trip tomorrow, so I telephoned in to him to know if he had made any decision 
+                about your book. He says that he is rather doubtful about publishing it. I urged and urged him to do so, said everything I could, 
+                but the best I could get out of him was that he would make no decision himself, which I think is wise, 
+                considering how little he knows about literature, but would wait for <persName key="ferris_greenslet">Feris Greenslet</persName> to decide upon it and would hold 
+                the manuscript over until Feris got home or until you saw Feris in <placeName key="london">London</placeName>, which I advise you to do immediately, 
+                and do everything in your power to interest him in the book and not to antagonize him, because I think 
+                Feris Greenslet is genuinely interested in you and you stand much more chance with him than with Scaife. 
+            </p>
+            <pb/>
+            <p>
+                I also asked Scaife if he would give your “<title>Washington</title>” to <persName key="ellery_sedgwick">Ellery Sedgwick</persName>, as I felt that I was the last person 
+                to whom Ellery would listen, and he promised to have it typewritten and sent in to Ellery. I will remind him of this, 
+                but I have not much hope there, as Ellery is such a stand-patter.
+            </p>
+            <p>
+                I dare not send the other poems around for fear Houghton-Mifflin will accept the book after all, 
+                and then we shall have to take them out of the hands of the magazines in order to get them in time for the book. 
+                This is all terribly disturbing, and I trust you realize that I am doing my best with a most difficult state of affairs. 
+                Do let me know if you see Feris and what he says. 
+            </p>
+            <p>
+                You will be glad to know that “<title key="menWomenGhosts">Men, Women and Ghosts</title>” has gone into a third edition, 
+                so I think we are all looking up, but I do think the publishers are more and more chary of publishing books on their own responsibility. 
+                Personally, I believe that if we knew the truth, we should find that a great many of the books of verse were published by the authors or kind friends of the authors. 
+            </p>
+            <p>
+                I should think the closeness of <placeName key="usa">America</placeName> to war would make your book more valuable, 
+                and I am sure that if you work Feris right that you can get your point with him, and Scaife says that he will take Feris’s opinion absolutely. 
+            </p>
+            <p>I am in a great hurry finishing up last things, so I shall not write any more now. </p>
+          
+            <closer>Affectionately yours,</closer>,
+        </body>
+    </text>
+</TEI>
