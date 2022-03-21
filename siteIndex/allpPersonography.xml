@@ -42,7 +42,7 @@
         <listPerson>
            <head>List of people mentioned in ALLP</head>
             
-               <!--********* MAIN BITCH ********-->
+               
                <person xml:id="amy_lowell" sex="F">
                <persName ref="http://viaf.org/viaf/32082875">
                <surname>Amy</surname>
