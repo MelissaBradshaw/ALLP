@@ -11,16 +11,16 @@ _Lowell's letters show her talking to—sometimes arguing with—the most promin
 
 ## Project Links:
 
-◼️: **[AmyLowell.com](http://amylowell.com)** (Currently Under Construction)
+🔸 **[AmyLowell.com](http://amylowell.com)** (Currently Under Construction)
 
-◼️: **[Website Wireframe](https://vhmy7z.axshare.com/home.html)** (_Fall 2019_)
+🔸 **[Website Wireframe](https://vhmy7z.axshare.com/home.html)** (_Fall 2019_)
 
-◼️: **[Site Index](https://github.com/MelissaBradshaw/ALLP/tree/master/siteIndex)**
+◼️ **[Site Index](https://github.com/MelissaBradshaw/ALLP/tree/master/siteIndex)**
 
-◼️: **[Encoding Guidelines and Materials](https://github.com/MelissaBradshaw/ALLP/tree/master/encoding)**
+◼️ **[Encoding Guidelines and Materials](https://github.com/MelissaBradshaw/ALLP/tree/master/encoding)**
 
-◼️: **[Project Team](https://github.com/MelissaBradshaw/ALLP/wiki/Project-Team)**
+◼️ **[Project Team](https://github.com/MelissaBradshaw/ALLP/wiki/Project-Team)**
 
-◼️: **[Acknowledgements](https://github.com/MelissaBradshaw/ALLP/wiki/Acknowledgements)**
+◼️ **[Acknowledgements](https://github.com/MelissaBradshaw/ALLP/wiki/Acknowledgements)**
 
 
