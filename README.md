@@ -11,7 +11,7 @@ _Lowell's letters show her talking to—sometimes arguing with—the most promin
 
 ## Project Links:
 
-◼️ **[AmyLowell.com](http://amylowell.com)** (Currently Under Construction)
+◼️: **[AmyLowell.com](http://amylowell.com)** (Currently Under Construction)
 
 ◼️: **[Website Wireframe](https://vhmy7z.axshare.com/home.html)** (_Fall 2019_)
 
