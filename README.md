@@ -11,14 +11,16 @@ _Lowell's letters show her talking to—sometimes arguing with—the most promin
 
 ## Project Links:
 
-:computer: **[Website Wireframe](https://vhmy7z.axshare.com/home.html)** (_Fall 2019_)
+◼️ **[AmyLowell.com](http://amylowell.com)** (Currently Under Construction)
 
-:card_file_box: **[Site Index](https://github.com/MelissaBradshaw/ALLP/tree/master/siteIndex)**
+◼️: **[Website Wireframe](https://vhmy7z.axshare.com/home.html)** (_Fall 2019_)
 
-:symbols: **[Encoding Guidelines and Materials](https://github.com/MelissaBradshaw/ALLP/tree/master/encoding)**
+◼️: **[Site Index](https://github.com/MelissaBradshaw/ALLP/tree/master/siteIndex)**
 
-:dancers: **[Project Team](https://github.com/MelissaBradshaw/ALLP/wiki/Project-Team)**
+◼️: **[Encoding Guidelines and Materials](https://github.com/MelissaBradshaw/ALLP/tree/master/encoding)**
 
-:star: **[Acknowledgements](https://github.com/MelissaBradshaw/ALLP/wiki/Acknowledgements)**
+◼️: **[Project Team](https://github.com/MelissaBradshaw/ALLP/wiki/Project-Team)**
+
+◼️: **[Acknowledgements](https://github.com/MelissaBradshaw/ALLP/wiki/Acknowledgements)**
 
 
