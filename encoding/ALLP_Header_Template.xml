@@ -10,7 +10,7 @@
             <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key=""> <!-- Insert recipient name and key ID --> </persName>, <date when=""
                   > <!-- Insert date --> </date></title>
             <author key="amy_lowell">Amy Lowell</author>
-            <editor ref=""> <!-- Insert editor (whoever wrote the footnotes) here --> </editor>
+            <editor ref="mb">Melissa Bradshaw</editor>
             <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
                Chicago</sponsor>
             <principal ref="mb">Melissa Bradshaw</principal>
@@ -49,7 +49,7 @@
                   <collection>Amy Lowell Correspondence</collection>
                   <idno type="URI"> <!-- Insert item's HOLLIS link here --> </idno>
                </msIdentifier>
-               <physDesc> <!-- Insert physical description here. --> 
+               <physDesc> <!-- Insert physical description here, including description of letterhead, header addresses, etc. --> 
                </physDesc>
             </msDesc>
          </sourceDesc>
@@ -70,7 +70,7 @@
    </teiHeader>
    <text>
       <body>
-         <p>Some text here.</p>
+         <p>LETTER TEXT HERE</p>
       </body>
    </text>
 </TEI>
