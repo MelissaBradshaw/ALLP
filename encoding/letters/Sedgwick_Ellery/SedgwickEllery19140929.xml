@@ -87,8 +87,8 @@
          <div type="letter">
             <opener>
                <placeName key="brookline">Brookline, Mass.</placeName>
-               <dateline><date when="1914-09-29">Sept. 29, 1914</date></dateline></opener>
-            <salute>My dear<persName key="ellery_sedgwick">Ellery</persName>:</salute>
+               <dateline><date when="1914-09-29">Sept. 29, 1914</date></dateline>
+            <salute>My dear<persName key="ellery_sedgwick">Ellery</persName>:</salute></opener>
             <anchor xml:id="n1"/>
             <p>I am venturing to send you <title key="allies" level="a">this poem</title><anchor
                   xml:id="n2"/> because I believe in it myself, and I am in hopes that, even through
