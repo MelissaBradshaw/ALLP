@@ -33,7 +33,7 @@
             <respStmt>
                <resp>Encoding assistance provided by</resp>
                <persName ref="drr">Danielle Richards</persName>
-               and <persName ref="fo">Felix Oke</persName>
+               <persName ref="fo">Felix Oke</persName>
                </persName>
             </respStmt>
          </titleStmt>
