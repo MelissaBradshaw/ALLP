@@ -29,7 +29,8 @@
             </respStmt>
             <respStmt>
                <resp>Encoding assistance provided by</resp>
-               <persName ref=""> <!-- insert name --> </persName>
+               <persName ref="drr">Danielle Richards</persName>
+                <persName ref="fo">Felix Oke</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -76,29 +77,75 @@
    </teiHeader>
    <text>
       <body>
-          <opener><dateline><date when="1914-01-23">April 7, 1914</dateline></date>            
-            <salute>My dear Mr. <persName key="ezra_pound">Pound</persName>:</opener></salute>
-            <p>I think your scheme of a quarterly is really better than taking over "<title key="egoist">The Egoist</title>." I don’t feel myself very much in sympathy with "The Egoist" as it has been run, as you must be aware from my letter, and the change of policy would probably lose their its present public, without the certainty of gaining a new one.</p>
-            <p>On the other hand, a new paper has the advantage of having everything to make or lose, without prejudice either way, which attracts me very much more. It has always been supposed that quarterlies would not go on this side of the water, and I am inclined to think that one would have to trust mostly to one’s English audience. I think, however, that if four first-class numbers could be brought out a year, by first-class people, that the magazine would soon gain a reputation.</p> 
+         <div type="letter">
+          <opener><dateline><date when="1914-04-07">April 7, 1914</dateline></date>            
+            <salute>My dear Mr. <persName key="ezra_pound">Pound</persName>:
+            </salute>
+          </opener>
+            <p>I think your scheme of a quarterly is really better than taking over <title key="egoist">"The Egoist."</title> 
+               I don’t feel myself very much in sympathy with "The Egoist" as it has been run, as you must be aware from my letter, 
+               and the change of policy would probably lose <subst><del type="strikethough">their</del><add place="above">its</add></subst> present public,
+               without the certainty of gaining a new one.</p>
+            <p>On the other hand, a new paper has the advantage of having everything to make or lose, without prejudice either way, which 
+               attracts me very much more. It has always been supposed that quarterlies would not go on this side of the water, and I am 
+               inclined to think that one would have to trust mostly to one’s English audience. I think, however, that if four first-class
+               numbers could be brought out a year, by first-class people, that the magazine would soon gain a reputation.</p> 
             <p>In some ways a quarterly is more difficult to manage than a fortnightly or monthly, because 
-            </pb>
-            you cannot speak about current events in the same way, and it is more difficult to gain an audience for disconnected articles. But we can talk all this over when I am in <placeName key="london">London</placeName>.</p> 
-            <p>I am very anxious to have something done, because I find myself completely isolated over here, and although the magazines are very good, and print me, there is nothing that really sympathizes with me, or my objects. I feel that to gain the recognition I deserve, it will be necessary to create a public which shall no longer be bound by the Victorian tradition. That can be done, and done fairly quickly, I think, if one can only get an ear.</p>
-            <p>I don’t know who <persName key="james_joyce">Joyce</persName> is. You say he and <persName key="dh_lawrence">Lawrence</persName> are the best among the younger men. I quite agree with you as to Lawrence, but I never heard of Joyce. What did he write, and who is he?</p>
-            <p>I don’t believe that there is much use in reprinting pages from French books, nor do I think that you can expect help from the French departments of the universities, or the <orgName key="allianceFrancaise">Alliance Française</orgName>. All the libraries have the French periodicals, and by the people who care for French, they are universally read. I think if we wish to have 
-            </pb>
-            a French section, we must take our things first hand, as though we were merely another French review. We shall be bought by the libraries and universities on our own merits, and not because we are a rehash of what has already appeared in other books or magazines. The great difficulty in the periodical <subst><del type="strikethrough">would</del><add place="above">will</add></subst> be taking a happy medium and not using either extreme of <subst><del type="strikethrough">contributors</del><add place="above">articles</add></subst>. With the preeminently "bourgeois," of course, we wish to have nothing to do; <subst><del type="strikethrough">B</del><add place="above">b</add></subst>ut there is a fantastic extreme also! Which I think is what wrecked <del type="strikethrough">the editor </del>of "<title key="smartSet">The Smart Set</title>" as a paying proposition.</p>
-            <p>I will make all inquiries I can<del type="strikethrough">,</del> and do everything in my power<del type="strikethrough">,</del> to find out what sales we might make, and what we could do by way of American contributors, and come over primed, in July. I am not coming solely for the sake of the magazine. I am coming on the principle that a boat goes into the dry dock to have its keep scraped.</p> 
+            <pb n="2"/>
+            you cannot speak about current events in the same way, and it is more difficult to gain an audience for disconnected articles.
+            But we can talk all this over when I am in <placeName key="london">London</placeName>.</p> 
+            <p>I am very anxious to have something done, because I find myself completely isolated over here, and although the magazines are very good, 
+               and print me, there is nothing that really sympathizes with me, or my objects. I feel that to gain the recognition I deserve, it will be necessary
+               to create a public which shall no longer be bound by the <!--possibly address this in note-->Victorian tradition. That can be done, and done fairly quickly, I think, if one can only get an ear.</p>
+            <p>I don’t know who <persName key="james_joyce">Joyce</persName> is. You say he and <persName key="dh_lawrence">Lawrence</persName> 
+               are the best among the younger men. I quite agree with you as to Lawrence, but I never heard of Joyce. What did he write, and who is he?</p>
+            <p>I don’t believe that there is much use in reprinting pages from French books, nor do I think that you can expect help from the French
+               departments of the universities, or the <orgName key="allianceFrancaise">Alliance Française</orgName>. All the libraries have the French periodicals,
+               and by the people who care for French, they are universally read. I think if we wish to have 
+            <pb n="3"/>
+            a French section, we must take our things first hand, as though we were merely another French review. We shall be bought by the libraries
+            and universities on our own merits, and not because we are a rehash<!--There's a stroke mark here--> of what has already appeared in other books or magazines. 
+            The great difficulty in the periodical <subst><del type="strikethrough">would</del><add place="above">will</add></subst> be taking a happy
+               medium and not using either extreme of <subst><del type="strikethrough">contributors</del><add place="above">articles</add></subst>. With the
+               preeminently <quote type="french">"bourgeois,"</quote><!--we may add an attribute here--> of course, we wish to have nothing to do;
+               <subst><del type="strikethrough">B</del><add place="above">b</add></subst>ut there
+               is a fantastic extreme also<del type="erase">!</del> Which I think is what wrecked <del type="strikethrough">the editor</del> of <title key="smartSet">"The Smart Set"</title> as
+               a paying proposition.</p>
+            <p>I will make all inquiries I can<del type="erase">,</del> and do everything in my power<del type="erase">,</del>
+               to find out what sales we might make, and what we could do by way of American contributors, and come over primed, in <date when="1914-07">July</date>.
+               I am not coming solely for the sake of the magazine. I am coming on the principle that a boat goes into the dry dock to have its keep scraped.</p> 
            <p> I had a very nice letter indeed from <persName key="wb_yeats">Yeats</persName> the other day, the second I have had from him, 
-           </pb>
-            saying that he was returning to <placeName key="england">England</placeName>, and, unfortunately, had <add place="above">had</add> no <placeName key="boston">Boston</placeName> lectures. I tried to get him one from <persName key="lawrence_lowell">my brother</persName>, but he said that the schedule was already made up for this year, and they had no time left. I regretted very much losing the pleasure of having him at my house. He wrote me very pleasant things about your marriage, and told me more than you have ever done, You Secretive Feline!.</p>
-            <p>I enclose a little token of good will<del type="strikethrough>,</del> in the form of a wedding present. <placeName key="abyssinia">Abyssinia</placeName>, as you know, contains little but elephant’s tusks and barbarians. Therefore I am going to ask you to buy your own wedding present with the draft I enclose, in order that you may get something that you really want. It carries with it the best possible wishes to you and Miss <persName key="dorothy_shakespear">Shakespeare</persName>. </p>
-            <p>I liked some of your things in "<title key="poetryDrama">Poetry and Drama</title>" very much indeed, particularly your spring crocuses, and your Faun. You are extremely good in "L’Ironie <add place="above">de</add> Société," if I may coin such a kind of verse.</p> 
-            <p><persName key="harriet_monroe">Harriet</persName><subst><del type="strikethrough">’s</del><add place="above"> has</add></subst> printed a lot of me in <title key="poetry">the April number</title>, as you will see. You may like the "Vers Libre" ones. The first <add place="above">two poems</add> you know. The last one
-            </pb>
-            I feel quite sure you will dislike extremely. It is what I might call "semi-Fort." Only "semi", I have done better work in that medium. Don’t mix it up with a semaphore; I am afraid it has no such telegraphic quality.</p> 
-            <p>When you get through your honey-moon, let me know how you feel about some more stuff for "The Egoist," to be published before October. <subst><del type="overwrite">a</del><add place="inline">A</add></subst>nd for the moment, <subst><del type="overwrite">g</del><add place="inline">G</add></subst>oodby.</p>
-            <postscript>P.S. How is <persName key="john_fletcher">Fletcher</persName>, I wrote to him, congratulating him on the looks of his things in "The Egoist," and I have not heard from him for ages. It is my fault, for I didn’t answer his letter for a long time. I hope he is all right, for <subst><del type="strikethrough">be</del><add place="above">he</add></subst> worries me a bit, <add place="inline">he seemed so irrevocably tired last Autumn.</add></postscript>
+           <pb n="4"/>
+            saying that he was returning to <placeName key="england">England</placeName>, and, unfortunately, had <add place="above">had</add> no
+              <placeName key="boston">Boston</placeName> <!--Is this Amy's lecture or Yeats?-->lectures. I tried to get him one from <persName key="lawrence_lowell">my brother</persName>,
+              but he said that the schedule was already made up for this year, and they had no time left. I regretted very much losing the pleasure of
+              having him at my house. He wrote me very pleasant things about your marriage, and told me more than you have ever done, <subst><del type="overwrite">y</del><add type="inline">Y</add></subst>ou Secretive Feline<subst><del>!</del><add>.</add></subst></p>
+            <p>I enclose a little token of good will<del type="strikethrough">,</del> in the form of a wedding present. <placeName key="abyssinia">Abyssinia</placeName><!--we might add a geo reference as attribute-->,
+               as you know, contains little but elephant’s tusks and <!--are we tagging moments of racism, antisemitism, etc-->barbarians. 
+               Therefore I am going to ask you to buy your own wedding present with the draft I enclose,
+               in order that you may get something that you really want. It carries with it the best possible wishes to you and
+               Miss <persName key="dorothy_shakespear">Shakespeare</persName><!--she is misspelling Shakespear"-->.</p>
+            <p>I liked some of your things in <title key="poetryDrama">"Poetry and Drama"</title> very much indeed, particularly your <title>spring crocuses</title>,
+               and your <title>Faun</title>. You are extremely good in <quote type="french">"L’Ironie <add place="above">de</add> Société,"</quote> if I may coin such a kind of verse.</p> 
+            <p><persName key="harriet_monroe">Harriet</persName><subst><del type="strikethrough">’s</del><add place="above">has</add></subst> printed 
+               a lot of me in <title key="poetry">the April number</title>, as you will see. You may like the <quote type="french">"Vers Libre"</quote> ones. The first
+               <title><add place="above">two poems</add></title> you know. The <title>last one</title>
+            <pb n="5"/>
+            I feel quite sure you will dislike extremely. It is what I might call <quote>"semi-Fort<subst><del>,</del><add>.</add></subst>"</quote>
+               <subst><del type="overwrite">O</del><add place="inline">o</add></subst>nly
+               <quote>"semi"</quote>, I have done better work in that medium.
+            Don’t mix it up with a semaphore; I am afraid it has no such telegraphic quality.</p> 
+            <p>When you get through your honey-moon, let me know how you feel about some more stuff for "The Egoist," to be published before <date when="1914-10">October</date>.
+               <subst><del type="overwrite">a</del><add place="inline">A</add></subst>nd for the moment, <subst><del type="overwrite">g</del><add place="inline">G</add></subst>oodby.</p>
+            <postscript>
+               <label>P.S.</label> 
+               <p>How is <persName key="john_fletcher">Fletcher</persName>, I wrote to him, congratulating him on the looks of his things
+               in "The Egoist," and I have not heard from him for ages. It is my fault, for I didn’t answer his letter for a long time. I hope he is all
+               right, for <subst><del type="strikethrough">be</del><add place="above">he</add></subst> worries me a bit<subst><del type="overwrite">.</del><add type="inline">,</add></subst>
+                  <add place="inline">he seemed so
+                  irrevocably tired <date when="1913">last Autumn</date>.</add></p>
+            </postscript>
+         </div>
       </body>
    </text>
 </TEI>
