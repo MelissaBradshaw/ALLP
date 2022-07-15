@@ -32,9 +32,10 @@
             </respStmt>
             <respStmt>
                <resp>Encoding assistance provided by</resp>
-               <persName ref="">
-                  <!-- insert name -->
+               <persName ref="drr">
+                 Danielle Richards
                </persName>
+               <persName ref="fo">Felix Oke</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -83,8 +84,9 @@
    </teiHeader>
    <text>
       <body>
+         <div type="letter">
          <opener><dateline><date when="1922-04-22">24 April 22</date></dateline>
-            <salute>Dear Ezra:</salute></opener>
+            <salute>Dear <persName key="ezra_pound">Ezra</persName>:</salute></opener>
          <p><foreign xml:lang="fr">Pas de bile</foreign>, of course, I have never had any. As what
             to people say about me – bless your heart, do you think that worries me? Because it
             doesn’t, not the least little bit. Of course they say that I pay for my advertising,
@@ -98,6 +100,6 @@
             knowledge of how to “get yourself over,” as we say in this little country is <hi
                rend="underline">nil</hi>.</p>
          <closer>Good luck, and let us hear from you,</closer>
-      </body>
+         </div></body>
    </text>
 </TEI>
