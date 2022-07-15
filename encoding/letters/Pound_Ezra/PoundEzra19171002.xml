@@ -29,7 +29,8 @@
             </respStmt>
             <respStmt>
                <resp>Encoding assistance provided by</resp>
-               <persName ref=""> <!-- insert name --> </persName>
+               <persName ref="drr">Danielle Richards</persName>
+               <persName ref="fo">Felix Oke</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -70,12 +71,15 @@
       </profileDesc>
    </teiHeader>
    <text>
-      <body>
-<opener><dateline><date when="1917-10-02">October 2, <add place="below">[1917]</add></date></dateline>
+      <body><div type="letter">
+<opener>
+   <dateline>
+      <date when="1917-10-02">October 2, <add place="below">[1917]</add></date></dateline>
             <salute>Dear <persName key="ezra_pound">Ezra</persName>:-</opener></salute>
             <p>Your letter has come.</p> 
-            <p>I accept your <foreign xml:lang="fr">amende honorable</foreign>, and I am very glad there is no hostile feeling.</p>
+            <p>I accept your <hi rend="underline"><foreign xml:lang="fr">amende honorable</foreign></hi>, and I am very glad there is no hostile feeling.</p>
             <closer>Sincerely yours,</closer>
-      </body>
+      </div></body>
   </text>
 </TEI>
+
