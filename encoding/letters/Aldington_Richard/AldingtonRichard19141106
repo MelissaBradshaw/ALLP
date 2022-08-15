@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1914-11-06"
+               >06 November 1914</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="sl">Samantha Lepak</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="vod">Tori O'Dea</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="vod">Tori O'Dea</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="drr">Danielle Richards</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$1i</idno>
+               </msIdentifier>
+               <physDesc><p>The letter is three pages of cream-colored paper with typewritten text on both sides of each, totaling 6 pages. Several words have smudges from where the secretary tried to erase letters.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><dateline><date when="1914-11-06">Nov. 6, 1914.</dateline></date>
+            <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+         <p>I enclose a draft for <measure type="currency" num="200">$200.00</measure> for you to transmit to 
+            <persName key="remy_gourmont">Remy de Gourmont</persName>.<anchor xml:id="n1"/>
+            I do not want his Anglo Indian Land Bank Shares. I do not suppose they are of any particular value and even if
+            they were I do not want to deprive him of them. This seems a very little sum to pay for
+            the inspiration and knowledge I have derived from his writings. Through him I can pay
+            a little of my immense debt to his nation. Will you therefore transmit it to him with
+            any sort of message which you think will make it easy for him to access it. Money
+            goes farther in <placeName key="france">France</placeName> than in America so it ought to make some little difference.</p>
+         <p>We are all stuck for money over here. Dividends are not being paid and business
+            concerns are shutting down. If the war continues I think of course that America will not suffer in
+            the end but for the moment things are in a bad way. I came home to find my home considerably reduced 
+            and I hear the same story on all sides.</p>
+         <p>I have been making inquiries about a magazine which would like to have some articles by
+            Remy de Gourmont. "<title key="atlantic" level="j">The Atlantic</title>" refused as “The Atlantic” always refuses everything that the
+            <persName key="ellery_sedgwick">editor</persName> did not think of himself first,<anchor xml:id="n2"/> among other things I am sorry to say, the four poems of
+            yours and <persName key="hilda_doolittle">Hilda's</persName> which I sent them. I have not heard from <persName key="margaret_anderson">Miss Anderson</persName> yet in regard to those
+            of your poems I sent her but I do not think she will refuse them. But as I told you she pays no
+            money yet so that it is of no advantage [smudged word] advantage [sic] of being always in something. I am
+            awfully sorry about “The Atlantic;” it is maddening. Since <persName key="yard_robert">Mr. Yard</persName> left "<title key="century" level="j">The Century</title>" there are
+            no editors of the better known magazines who have a ray of sense or taste. I have just had a
+            number of my poems refused by "<title key="scribners" level="j">Scribner’s</title>." I felt sure they would refuse them but I sent them
+            on the chance and they came back almost by return mail. Still I do not despair. I think it is
+            merely a question of teaching the public and the later magazines will fall into line.</p>
+         <p>I shall go on trying with the Remy de Gourmont suggestion until I land it somehow or
+            until it is quite proven that there is nothing here which is either not already fully stocked with
+            European correspondence utterly unable to appreciate this very remarkable opportunity.</p>
+         <p>I have heard nothing from the <orgName key="macmillan">Macmillan Company</orgName> yet about the anthology but there is really
+            nothing to worry about in that because even if they should find themselves overstocked with
+            poetry for the moment I think <orgName key="houghton_mifflin">Houghton Mifflin</orgName> will undoubtedly take it. The whole interest of
+            everybody is centered in the war and it is difficult to get a hearing for anything else.</p>
+         <p>I am glad to know that you have got a job which helps you to feel that you are doing
+            something for the country for I know how that was worrying you when I left. I cannot tell you,
+            dear Richard, how loyal and splendid I think you and Hilda are about this ridiculous row which
+            <persName key="ezra_pound">Ezra</persName> is making over my advertisement. I cannot thank you enough and it warms my heart all
+            through to feel that I have some sincere and splendid friends alty [sic].</p>
+         <p>I have not seen the November <title key="poetry" level="j">“Poetry”</title> yet but I am afraid the same advertisement is appearing
+            in it. I saw the proof and corrected it myself but as I did the same thing with the advertisement in
+            “The Atlantic” and as they reprinted it wrong again I have no hope. The Macmillan Company
+            assures me that it shall never appear after this and that the one I sent you the other day will
+            appear in the December magazines. They are frightfully stupid in there and have made blunder
+            after blunder but I do think I have succeeded in making them realize the seriousness of the
+            situation now and that far from doing me good they will seriously injure me if they continue
+            putting in this advertisement.</p>
+         <p>It has been a great worry and has almost made me sick and on top of the ptomaine
+            poisoning I had in <placeName key="nyc">New York</placeName> I have been pretty miserable. I wish you would explain all this to
+            <persName key="ford_hueffer">Hueffer</persName>. I do not want to make enough of it to write to him but at the same time I feel that
+            Ezra will do everything in his power to inflame him against me and I shall be very sorry to have that
+            happen. I tried very hard to be tactful when I was in <placeName key="england">England</placeName> and to offend nobody and it is
+            extremely annoying to have a blunder of the publishers upset everything.</p>
+         <p>I am afraid this is rather a sad letter but I do not feel very gay. I am working very hard, so
+            hard that I am a little afraid I may have to knock off for a day or two as I am getting so tired.
+            Those French lectures<anchor xml:id="n3"/> mean a lot of work and so does the play,<anchor xml:id="n4"/> but after all we are just here for
+            working and if I can only get through the winter without my health crashing I shall be satisfied.</p>
+         <p>I will let you know just as soon as I know anything about <title key="some_imagist_poets" level="m">the anthology</title> or just as soon as
+            I have landed those articles of Remy de Gourmont’s. Of course they will still have to be
+            delivered in English. If you have not time to make the translation I will do it gladly for nothing.</p>
+         <p>Do calm <persName key="fs_flint">Flint</persName> down.<anchor xml:id="n5"/> I would not have hurt his feelings for anything. He has been awfully
+            nice to me.</p>
+         <p>Write soon. Your letters are the greatest pleasure. You cannot think how I miss you and
+            Hilda. <persName key="ada_russell">Mrs. Russell</persName> and I often talk about you. A good talk with you two would cheer me up. I
+            feel so awfully down. Give my love to Hilda.</p>
+         <closer>Yours ever.</closer>
+      </body>
+      <back>
+         <div type="notes">
+            <note target="#n1" resp="mb">Aldington's October 21, 1914 letter to AL describes Remy de Gourmont as 
+               struggling financially because of the war. He proposes several solutions to aid de Gourmont, 
+               including paying him for translations of his poetry Aldington has previously published, persuading 
+               Harriet Monroe to publish him in Poetry, and getting him work at a newspaper. Aldington asks Lowell
+               to advance de Gourmont $200 against his shares in the Anglo-Egyptian Land-Bank.</note>
+            <note target="#n2" resp="mb">Ellery Sedgwick, editor of The Atlantic, and Lowell had a long and often
+               contentious friendship, disagreeing on the aesthetic value of free verse and experimental poetry
+               more generally.</note>
+            <note target="#n3" resp="mb">Lowell gave a series of lectures in 1914 that became the book Six French
+               Poets: Studies in Contemporary Literature (1915).</note>
+            <note target="#n4" resp="mb">Lowell translated the libretto for Pierrot Qui Pleure et Pierrot Qui Rit,
+               an 1889 operetta by French playwright Edmond Rostand, best known for his play Cyrano de Bergerac.
+               It was performed February 2-4, 1915, starring soprano Maggie Teyte and tenors John Campbell and George
+               Mitchell, accompanied by the Boston Opera Orchestra, for the benefit of the Boston Women’s Municipal league,
+               The production, financed and directed by Lowell also included her translation of Jean-Baptiste’s operetta
+               La Latiere de Trianon.</note>
+            <note target="#n5" resp="mb">Aldington’s letter from October 21, 1914 reports F.S. Flint as upset at the
+               Macmillan advertisement, as well as being excluded from advertising and from Alice Corbin Henderson’s
+               review of Pound’s Des Imagistes anthology in Poetry.</note>
+         </div>
+      </back>
+   </text>
+</TEI>
