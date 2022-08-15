@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1915-02-27"
+                    >Feb. 27, 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$58i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>The letter consists of three sheets of paper with typewriting on both sides, and on one side of the
+                            third page. On the top are two holes punched a few inches apart. On the top of each sheet (every
+                            other page) there is a page number in the center.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1915-02-27">Feb. 27, 1915.</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>What you must think of me for not having written for so long I cannot imagine; but the
+                truth is, I have been working so hard that I have not had time to do anything, and hardly to get
+                my work finished. Now that the plays<anchor xml:id="n1"/> are over, the lectures<anchor xml:id="n2"/> are coming, once a week, and
+                although I had read up a lot beforehand, I find that the mere writing of forty pages, which is what
+                it takes to talk an hour, and going over the ground that I have been reading again to do it, can
+                hardly be done in the six days between the lectures. It is very interesting, but an awful piece of
+                work.</p>
+            <p>Also our book is in the press; my old “<title key="domeManyColouredGlass" level="m">Dome</title>” is going into the second edition; and
+                <persName key="john_fletcher">Fletcher</persName> is staying here; so you will see that my time is fully occupied.</p>
+            <p>I am very much interested about your projected periodical.<anchor xml:id="n3"/> Of course you can count on
+                me to represent America, and I will gladly give you one poem for each of the first four numbers,
+                and a numerical chronicle if you so desire; anything in fact you may want. Now here is the sad
+                position I am in. As you know, I guaranteed the money for our “Pierrot,” whereupon the worst
+                blizzard of the season struck us, and all the cars stopped running, and it was during that
+                particular time that we had the play. The result was that, although everybody tells me that it was
+                the reatest artistic success that <placeName key="boston">Boston</placeName> ever had, it was a financial failure. Far from the <orgName key="womensMunicipalLeagueBoston">charity</orgName> for
+                which it was gotten up having any money, I have been fearfully bled to the tune of some
+                thousands. This is suffering for art, if you like. The person who agreed to help foot the loss 
+                with me backed out, so that I was left to do it all alone; and I can only console myself by realizing
+                that, as the war is here, it would probably have been foolish to go abroad this summer; and now I
+                could not afford to go, even if there were no war.</p>
+            <p>All this means that I cannot help you to finance the review, as I would have liked to do
+                this year. I think when my account for my books comes in in the middle of the summer, I can
+                probably send you something; but I cannot promise until I know how things are coming out. You
+                see there is still our <title key="some_imagist_poets" level="m">Anthology</title> to finance; and as I do not intend to pay myself anything out of
+                that except my sixth, there is nothing to be looked for there. The lectures are helping a little, but
+                nothing to what was lost. But let’s forget it! If you need any money to help start your new
+                review, let me know and I will do all I can.</p>
+            <p>Fletcher is staying with me for a week. I think he must be having a perfectly awful time,
+                because I work all the time and do not have time to see him. He has written some splendid things
+                in polyphonic; and an awfully generous and nice article of him is, I believe, coming out in the
+                April “<title key="poetry" level="j">Poetry</title>” talking about it and giving me the credit for having invented it.</p>
+            <p>I am sorry that you wrote quite such a violent letter to <persName key="herbert_croly">Mr. Croly</persName>. You see, they do not
+                need to be commercial as he insinuated, and they are not. They are <title key="newRepublic" level="j">the only magazine I know</title>
+                that neither has to cater to its contributors nor to its advertisers, as they are endowed, <measure type="currency" num="50,000">$50,000</measure> a
+                year for five years. Croly is an idealist in things political, and this magazine was got up to boom
+                that side. Although I do not know that he would like me to consider it so, the artistic and literary
+                side is of second importance to him. He is also an idealist in another way: he firmly believes in
+                democracy, with the result that he has chosen five editors to work with him, and that everything
+                that is accepted has to be passed by all six editors. I have succeeded in forcing one of <persName key="robert_frost">Frost’s</persName>
+                poems upon them, and I gave them various others, but all were returned, including mine. Croly 
+                is very anxious to have poetry, and good poetry, and seems to believe in me and my power to send
+                him good poetry, not only mine but other people’s. But he has younger and more ignorant
+                editors, and it is almost impossible to get anything through. Still, I do believe that the man means
+                well; but I am forced to agree with him that those articles of <persName key="remy_gourmont">M. de Gourmont</persName> were not as good
+                as they ought to have been. I wrote him a strong letter, urging him to pay the full amount, telling
+                him that I considered him morally and I thought legally bound to do so. There was nothing said
+                to me when I ordered them about any standard they had to come up to. The one request was that
+                any Gallicisms should be deleted, as I wrote you. I hope that Croly will pay him the money, but I
+                cannot help thinking, dear Richard, that it is just as well not to come off at half-cock like that.</p>
+            <p>Editors are annoying, stupid things, and our natural enemies. But still they are the only
+                things we have got to get us over to the public; and they have to be used like building materials
+                of any sort – straw bricks or boards or line stone. They are not absolutely perfect materials, but
+                they are all we have got to build with. I think it is foolish, perhaps a little ungentlemanly if you
+                will pardon the term, I know it is very youthful, to let one’s self go on in the manner of your
+                letter. It does not impress the editors; it does not even depress them. It only leaves them
+                feeling that they will never take your judgment again. And really your scorn of America is a little
+                insular, and no nationality likes to be told that it belongs to a silly nation. In fact, I think it is wise
+                to “menager” editors a little, not to the point of losing one’s self-respect, of course, but to the
+                point of not hitting them over the head with a broom-stick just because you happen to want to.</p>
+            <p>I had very great hopes of working you in as a regular contributor. It was one of my hopes
+                from the first moment that I knew the magazine was starting. I thought it could be done through
+                the translation of the de Gourmont articles, then suggesting that you should do reviews and
+                things of that sort; but I am afraid you have upset the apple-cart now and there is no use of
+                mentioning your name for some time to come, at least.</p>
+            <p>By the way, you are probably entirely right about my never having read any of your
+                translations of Remy de Gourmont, and I apologize for making the remark. I distinctly thought 
+                that I had seen some; but as I cannot find any in “<title key="egoist" level="j">The Egoist</title>” and have not seen them in the
+                manuscript, it must have been an invention of my over-fertile brain.</p>
+            <p>Your poem in “<title key="poetryDrama" level="j">Poetry and Drama</title>” is perfectly beautiful, charming and simple. It may be
+                entirely Elizabethan; that is no objection in my mind, but I think it is a little hard; if <persName key="hilda_doolittle">Hilda</persName>
+                follows the Greek and you follow the Elizabethan, that I should not be allowed to follow <persName key="john_keats">Keats</persName>
+                without being called a plagiarist. You like your models; therefore they are worthy to be admired.
+                You do not like mine; therefore be damned to them. It is a simple and easily comprehended
+                attitude, but I think hardly a critical one. Well, we must each follow our own particular will o’
+                the wisp. I love your will o’ the wisp, yours and Hilda’s, wherever it leads you; and if you do not
+                like mine, say so, and I forgive you, and there is no harm done.</p>
+            <p>I think I shall be the ‘afther’[sic] sending you some of my poems for “The Egoist” before
+                long, do you approve? I see you are advertising me as a contributor; and under these
+                circumstances I might just as well contribute. I do not understand about Hilda’s poems. I wrote
+                <persName key="harriet_monroe">Harriet</persName> about the ones that are to come out in the Anthology and said that they must be published
+                at once, and gave her the names of those in it, whereupon she replied that she had no poems of
+                those titles and gave me a lot of titles which I had never heard of. Did Hilda change the titles, or
+                are they different poems; or what has happened? Please tell Hilda I think <persName key="frances_gregg">Frances Gregg’s</persName> poem
+                in the February “Poetry” was perfectly beautiful. I subscribe to it with all my heart.</p>
+            <p>Many thanks for your invocation to me in your Cosmic Sonnet. They are most amusing,
+                those cosmic sonnets. I am sending you a little thing which I think may amuse you, by a
+                gentleman who spends his life taking off other people’s things. It is rather an amusing idea,
+                taking “Tipperary.” You will perceive with sorrow what company I am marching in; and, alas,
+                you said that my head might be turned. Oh, Richard, how little you realize that my head is more
+                firmly moved the other way than ever. Nothing has happened to me which should turn anyone’s
+                head, I assure you.</p>
+            <p>I hope you and <persName key="ferris_greenslet">Greenslet</persName> are getting on well. I told Fletcher about your possible new
+                venture in the magazine line, as you told me I might, and he will undoubtedly write you himself.</p>
+            <p>Now I must stop and go back to my lecture on Remy de Gourmont for next week. I am
+                kind of nervous about it.</p>
+            <closer>Love to you and Hilda from <persName key="ada_russell">Mrs. Russell</persName> and me.</closer>
+        </body>
+        <back>
+            <div type="notes">
+                <note target="#n1" resp="mb">Lowell translated the libretto for Pierrot Qui Pleure et Pierrot Qui Rit, an 1889 operetta by French playwright Edmond Rostand, best known for his play Cyrano de Bergerac. It was performed February 2-4, 1915, starring soprano Maggie Teyte and tenors John Campbell and George Mitchell, accompanied by the Boston Opera Orchestra, for the benefit of the Women's Municipal League of Boston. The production, financed and directed by Lowell also included her translation of Jean-Baptiste’s operetta La Latiere de Trianon. The Women’s Municipal League of Boston was founded in 1909 by Lowell’s older sister, Katherine Roosevelt Bowlker, the organization worked to educate women in municipal government so that they could both influence lawmakers on issues such as immigration, housing, city sanitation, and infant and prenatal care, and themselves volunteer for these causes.</note>
+                <note target="#n2" resp="mb">Lowell gave a series of lectures in 1914 that became the book Six French Poets: Studies in Contemporary Literature (1915).</note>
+                <note target="#n3" resp="mb">Aldington described plans to start a periodical in a letter to Lowell dated February 1, 1915, “a small quarterly to fill the bleeding gap caused by the war.” He tells her of meeting expatriate American artist George Wolfe Plank (1883-1965) who edited a small magazine in Philadelphia, The Butterfly, with a low overhead, and with whom Aldington wants to collaborate on a similarly inexpensive little magazine. His proposed magazine, which did not materialize, would bring together a small group of poets representing Russia, France, Italy, Germany, and the United States. Plank would be art editor, Aldington the English Editor, and Lowell the American editor.</note>
+            </div>
+        </back>
+    </text>
+</TEI>

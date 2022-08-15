@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1915-03-15"
+                    >March 15, 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$63i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of four sheets of paper with typewriting on both sides. On the top of each
+                        new sheet (every other page) is a page number in the center and the date, typed in the upper right
+                        corner. There are some crossed out words with edits written above them in pencil, but no identifying 
+                        information or letterhead on the pages.</p></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1915-03-15">March 15, 1915.</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>Your letter came yesterday morning and reduced me to a state of perfect inanity with
+                excitement and joy.<anchor xml:id="n1"/> I was utterly unable to do anything during the day, and that was very
+                awkward as I am preparing my <persName key="francis_jammes">Francis Jammes</persName> lecture. I did not cable yesterday because I
+                was waiting to see <persName key="john_fletcher">Fletcher</persName>, who is living here in <placeName key="">Boston</placeName> for a little while and who was coming
+                out to dinner last night. I am sending you a cable now, which you will undoubtedly receive
+                weeks before this reaches you, as one of your letters to me was written three weeks ago.</p>
+            <p>Fletcher will send you one of his poems immediately, and I am sending you four of mine
+                for you to choose from for the Imagist number. <del rend="strikethrough">“Lead Soldiers”</del> <add place="above">Spring Day</add> I consider one of the 
+                very best things I have ever done, but it may be too long for your purposes. Of the other three
+                you will choose which ever one you like best. As you say that you want a page of us, I imagine
+                that you want us each to be represented by a rather short poem. But I rather like <del rend="strikethrough">“Lead Soldiers”</del> <add place="above">Spring Day</add>
+                myself <add place="above">and Fletcher is simply wild about it</add> so I cannot help hoping that as you are
+                getting out a special number, you are not limiting each of us as to space. Fletcher tells me that he
+                is sending you a poem he wrote on Chicago. Of course he may change his mind and send you
+                something else, but that is what he said last night, and I think that would be about as long as
+                <del rend="strikethrough">“Lead Soldiers”</del> <add place="above">Spring Day</add>. He said that it was the only one he had.</p>
+            <p>Now as to the articles on Fletcher and me. I should like very much to write one on him,
+                but I cannot do anything about it until after the 25th of March when my lectures end, and, on the 
+                other hand, he wants to write on me, and we cannot very well write each one on the other or it
+                will look like what we call a “frame-up” here in America. Also, the difficulty of my writing
+                about him is that his book is dedicated to me<anchor xml:id="n2"/> and that may look a little bit as though we were in
+                collusion. Now here is the difficulty about me. <persName key="josephine_peabody">Mrs. Marks</persName>,<anchor xml:id="n3"/> whom you suggest should write
+                about me, is sick in bed with nervous prostration and cannot do a thing, and I know no other
+                human being who has either knowledge or interest enough in the new poetry to make a decent
+                article, except <persName key="ferris_greenslet">Ferris Greenslet</persName> himself. I wonder if it would do to have him write on either
+                Fletcher or me. Only a few people will know that he is in the firm that publishes us. Anyhow he
+                is due back next Saturday, and Fletcher and I are going to see him then and ask him his opinion
+                on the subject and if he will consent to do one of us, whichever one he doesn’t do will be done
+                by the other. I will cable you as soon as I have seen Greenslet. If Greenslet doesn’t want to do
+                either of us, I don’t know what I shall do. There is a man named <persName key="ws_braithwaite">Braithwaite</persName><anchor xml:id="n4"/> whose name is
+                fairly well-known in <placeName key="england">England</placeName>. He compiled an <title key="elizabethanVerse" level="m">Elizabethan Anthology</title> and he gets out a
+                wretched volume called an <title key="magazineVerse" level="j">Anthology of Magazine Verse</title>, every year. He would do it for a
+                consideration, I know, and it is a sad thing that he has some weight over here, but I do not think
+                he is an honest critic, and I should hate to have him if I could help it. Anyhow I will cable you
+                when Fletcher and I have seen Greenslet, and we will get the articles off to you about the first
+                week in April which ought to be time enough for your May number.</p>
+            <p>I am perfectly delighted about your new review.<anchor xml:id="n5"/> Of course I will be the American editor,
+                and of course I will give you what money I can toward it; <measure type="currency" num="500">$500</measure> anyway for this year and it may
+                be more. I think if <persName key="george_wolfe_plank">Plank</persName> succeeds in getting any money for it, we ought to be able to do it on
+                voluntary contributions. You have quite a number of people to pull from. Anyway if you go into
+                it, I will go with you with pleasure. Only we ought to pay our printers’ bills as we go along, and
+                not run the risk of getting into an awful mess by running on tick the way <persName key="margaret_anderson">Margaret Anderson</persName> <del rend="strikethrough">did</del> <add place="above">does</add>.</p>
+            <p>How soon do you want the <measure type="currency" num="10">ten pounds</measure> for “<title key="egoist" level="j">The Egoist</title>”? If you will just drop me a line
+                and say when I will send it to you on the dot. I do not send it on chance because this
+                is the worst month I have. Any of the successive would be easier for me to get it.</p>
+            <p>It is perfectly splendid about “<title key="mercureDeFrance" level="j">The Mercure</title>." I am sending my “<title key="bombardment" level="a">Bombardment</title>” over to <persName key="paul_fort">Paul Fort</persName> to show him how thoroughly I
+                sympathize with him in the “Assassination”, as he calls it, of his beloved Cathedral. I had a letter
+                from him yesterday, and of course, as you suppose, I shall subscribe to his “Poèmes de France”.<anchor xml:id="n6"/></p>
+            <p>You are a dear, good friend, that is one thing, Richard, and I feel sure that the running
+                wedge with us all pushing is the thing.</p>
+            <p><persName key="ezra_pound">Ezra’s</persName> not answering your letters amuses me and gives me a kind of a horrible delight
+                that he has dished himself by his greediness in wishing to be <del rend="strikethrough">the</del> chief cook and bottle washer.
+                By which same token, I had nothing to do with the horrible note which <persName key="harriet_monroe">Harriet</persName> put in to “<title key="poetry" level="j">Poetry</title>”
+                this month.<anchor xml:id="n7"/> Of course I have never said that I was the editor of the Anthology, as I am not, and
+                Harriet had no business to assume that I was. I shall write her a letter for the next number and
+                make her insert it, denying the exalted position. I cannot help thinking that her putting it in at all
+                was a sop to Ezra, though what business she has to sop Ezra with remarks that look as though
+                they were inspired, I do not know.</p>
+            <p>Our letters do seem to have been awfully business-like lately, but what can we do when
+                there are so many exciting things happening. I liked your article about <persName key="hilda_doolittle">Hilda</persName> in “<title key="littleReview" level="j">The Little Review</title>”.<anchor xml:id="n8"/> I would write you a lot about <persName key="joris_karl_huysman">Huysmans</persName> in answer to your next to last letter if I had
+                time, but I must get back to my lecture. Nobody knows what a hard pull those have been.</p>
+            <closer>Ever so much love to you both from <persName key="ada_russell">Mrs. Russell</persName> and me.</closer>
+            <postscript>
+                <label>P.S.</label>
+                <p>Of course in “Spring Day”, a man goes into the city and comes out again just the way the
+                    man did in Fletcher’s “London Excursion”, but the motive for the poem in my case was not his
+                    impressions of the city but the prevalence of Spring colour and spring feeling over everything.
+                    Also the poem is treated in such a different manner from Fletcher’s that both he and I think there
+                    is no clashing.</p>
+                <p>At first I was going to send you another poem on the war, but Fletcher has persuaded me
+                    to send you this instead. As the other poem principally with the horrors and massacre of war
+                    rather than with its glory, I do not believe it would be much in keeping with the temper of the
+                    English at this time. Fletcher has been so urgent and enthusiastic that I have decided to substitute
+                    “Spring Day” for it and I think he is right in feeling that it is one of the best things I have done.</p>
+            </postscript>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">Aldington’s February 22, 1915 letter proposes that the May 1915 issues of The Egoist be devoted to the Imagistes, with F.S. Flint writing “a sort of history of Imagism, showing how it was in the air before Ezra came to town,” an article by Lowell on Fletcher, a review of Some Imagist Poets by Harold Monro, and new poems from the six contributors to the anthology.</note> 
+                <note target="#n2" resp="mb">John Gould Fletcher, "Irridations: Sand and Spray" (1915).</note> 
+                <note target="#n3" resp="mb">Josephine Preston Peabody (Mrs. Lionel Marks, 1874-1922), American poet and playwright.</note> 
+                <note target="#n4" resp="mb">William Stanley Braithwaite (1878-1962), editor, anthologist, critic, and poet. His annual "Anthology of Magazine Verse," published between 1913-1929 reprinted poetry from both mass circulation and little magazines that he considered significant, along with an introduction commenting on the past year in poetry, and a comprehensive index of poetry published that year. His Book of Elizabethan Verse, with an introduction by Thomas Wentworth Higginson, was published in 1906.</note> 
+                <note target="#n5" resp="mb">Aldington described plans to start a periodical in a letter to Lowell dated February 1, 1915, “a small quarterly to fill the bleeding gap caused by the war.” He tells her of meeting expatriate American artist George Wolfe Plank (1883-1965) who edited a small magazine in Philadelphia, The Butterfly, with a low overhead, and with whom Aldington wants to collaborate on a similarly inexpensive little magazine. His proposed a magazine, which did not materialize, would bring together a small group of poets representing Russia, France, Italy, Germany, and the United States. Plank would be art editor, Aldington the English Editor, and Lowell the American editor.</note> 
+                <note target="#n6" resp="mb">Paul Fort (1872-1960), French poet associated with the Symboliste movement. Lowell credited his experiments in metered, rhymed prose with inspiring her own experiments in prose poetry, which she called polyphonic prose. He is one of the poets discussed in Lowell’s Six French Poets: Studies in Contemporary Literature (1916). Poèmes de France was a bi-monthly publication of Forts’ poems about World War I. Lowell’s poem “The Bombardment” (collected in Men, Women and Ghosts, 1916) was published in the November 1914 Poetry.</note> 
+                <note target="#n7" resp="mb">Poetry Vol. 5, No. 6 (March, 1915) includes an announcement that Houghton Mifflin will publish the Imagist anthologies, crediting Lowell as the sold editor: “Boston is discovering Imagism! The Houghton-Mifflin Company will soon publish Miss Lowell’s new anthology of certain members of the group” (298).</note> 
+                <note target="#n8" resp="mb">Aldington’s article about H.D., “A Young American Poet,” appeared in the The Little Review Vol. 2, No. 1 (March, 1915) pp. 22-25.</note> 
+            </div> 
+        </back>
+    </text>
+</TEI>
