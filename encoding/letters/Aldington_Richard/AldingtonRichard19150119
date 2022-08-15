@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1915-01-19"
+                    >Jan. 19, 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$51i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter is four sheets of paper with typewriting on both sides of each page. The first is
+                        ordinary and with no holes, but the rest have two holes punched into the top as if they were kept
+                        in a binder together that way. The lines of type are very close
+                        together on the hole-punched sheets. There are page numbers at the top of each new sheet.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1915-01-19">Jan. 19, 1915.</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>This last week has been hectic, with the <orgName key="houghton_mifflin">publishers</orgName> on one side and my knowledge of
+                what you and <persName key="hilda_doolittle">Hilda</persName> and <persName key="fs_flint">Flint</persName> were feeling on the other. I have bankrupted myself on cables to
+                ease the strain a little for you; and now that the thing is finished, I feel quite sure that you will all
+                be thoroughly displeased with me. But after you have read this letter and reflected a little while, I
+                think you will see that I have done the very best possible thing. Certainly I have tried to, and
+                certainly I can do no more. It has got to go now, bad or good.</p>
+            <p><persName key="ferris_greenslet">Mr. Greenslet</persName> was a good deal disturbed, as I wrote you, by our wish to change the title.
+                “Imagiste” has come to have a certain meaning among lovers of poetry; and although <persName key="ezra_pound">Ezra</persName> is
+                known to have invented it, it has swung far beyond him and really become a word to designate a
+                certain kind of poetry. For that reason it has a commercial value, as people interested in our sort
+                of poetry know that they are getting it when they see the word “Imagiste” on the cover. Ezra
+                knows that very well or he would not be so anxious to hang on to the word because, mind
+                you, Ezra is thoroughly American in his understanding of the value of advertisement.</p>
+            <p>Now, although I am paying for the printing of the <title key="some_imagist_poets" level="m">book</title>,<!-- This seemed like the first reasonable place to encode the title for the book that AL is referring to in the first three paragraphs, since it's the first time she mentions the "book" itself and not just titles that are in consideration. – VOD --> the publishers are paying for part
+                of the advertising, and they naturally do not wish to lose any more than they can help. They
+                accepted the book on the understanding that it would go out as Imagiste poetry, with the weight
+                behind it which Imagiste poetry has got. Hence it was quite natural that Mr. Greenslet should be
+                considerably disturbed at having this weight suddenly removed from the book. “The Six” meant
+                nothing from the buyer’s point of view; “Some Twentieth Century Poets” was also indefinite, 
+                as everybody is a twentieth century poet if you come to that, and it gave no suggestion as to what
+                sort of poetry the book continued; it was neither a taking or an explaining title, and Mr. Greenslet
+                just would not have it. “Some New Poets” seemed to him just as vague and rather less attractive.
+                And there we stuck, he begging me not to change the title, and I assuring him that, although I
+                personally never would have changed it, I was bound to do as you wished. If he had not been a
+                very patient man and also devoted to our interests–quite crazy about us, in fact–I think that he
+                would have thrown us over; but as it was, he worked just as hard as I did to try and find a title
+                which would induce people to read the book and to which we should all agree. Suddenly he
+                suggested “Quintessentialist.” He swears that that is what we really are, because we try to give
+                the quintessence of a picture or an emotion without any obscuring ornamentation. So convinced
+                of this was he that, in a review of my book which he is writing for “<title key="newRepublic" level="j">The New Republic</title>” and in
+                which he discusses Imagism at some length, he says that he thinks a better title for us would be 
+                “Quintessentialists,” as that would take in poems like your “Little Boy” which with Ezra’s
+                narrow rules would hardly be called Imagist. I think it is not a bad name.</p>
+            <p>In altering the preface, you will see that I have arranged it in such a manner as to show
+                that we were simply taking another name because we are forced to; and we shall not force it
+                down the public’s throat by way of advertisement in the manner of Vorticism. Also in the
+                preface we are saying that we are not an exclusive artistic sect, which removes us from the
+                charge of being another tu’penny ha’penny school.<anchor xml:id="n1"/> We simply take this name as a convenient
+                shortening of all those tenets for which we stand.</p>
+            <p>Mr. Greenslet is immensely enthusiastic over the name and says that, if we need any
+                defense or writing up in the papers over here, he will do it for us. And as a great many of the
+                reviews I have had have spoken slightly of Ezra and said how much better work I was doing and
+                what a pity it was that such theories should be made ridiculous by him, I think people are ripe for
+                a schism, and I think we shall be criticized most favorably and known as the members of the
+                original movement who had anything real in them; while to make them understand that we are
+                distinct from Ezra’s stuff and the people whom he will doubtless exploit from now on, we must
+                have a convenient handle for them to call us by. That handle is supplied by Quintessentialist in
+                good sound English, mind you, without this final “e” and if we are dignified and quiet and
+                simple about the matter, I think it will not take long before the Quintessentialist movement is
+                considered the most interesting and promising of the present day.</p>
+            <p>I know your objections to isms and schools and fads, and we must not be an ism or a fad;
+                and if reviewers choose to consider us a school, why let them. What we shall really be is a
+                number of simple, quiet people, doing the best work we can along our own lines and gradually
+                changing the point of view about poetry. Of that I am perfectly sure; and Mr. Greenslet, who is
+                quite used to feeling the public pulse, is quite certain that our group shows more conclusively
+                than anything else that poetic renaissance which is upon us.</p>
+            <p>I have no wish to pose as the head of a new school, as Ezra will undoubtedly tell you. I
+                have no doubt also that he will tell you that you are simply exchanging him for me, and that what
+                I wanted all along was to rush myself into the position of leader. Search your hearts, you two,
+                and I think you will see quite plainly that that has not been my object all along. I have striven for
+                a perfect democracy. I have worked for the group ideal. This new <title key="swordBladesAndPoppySeed" level="m">book</title> of mine has placed me in
+                a position where I can neither be hurt nor helped by any coadjutors, where my future is entirely
+                up to me, and I can make it or mar it by my own efforts. But I do not want to make a success
+                alone. I want us all to go together. As a group, I believe that we are invincible; and if Ezra tries
+                to insinuate any such things as I have suggested, repudiate them in your own minds for they are
+                not true.</p>
+            <p>I have sent your manuscript in to Mr. Greenslet and left it in his charge. If he does not
+                want it, he will take it back to you in <placeName key="london">London</placeName>, whither he sails on the sixth of February. He likes
+                the poems in it very much, because he told me so; but whether he will print it or not I cannot say,
+                although I am bound to tell you that I think he feels that too much of it is contained in other
+                books to make it worth while to bring it out at this moment. I am giving him a letter to you
+                Please be gentle with him and ‘roar him as gently as any sucking dove.’<anchor xml:id="n2"/> His opinions and yours
+                will frequently not coincide. He likes many things that you repudiate. But he is earnest,
+                teachable, and enthusiastic, and painfully shy, which he covers up by a dried-up, unsympathetic
+                manner which was very difficult for me to get over at first. He will fight for us, work for us, push
+                us! I am surprised myself at the interest he takes in us. He knows <persName key="ford_hueffer">Hueffer</persName> personally, and I think
+                he said that he introduced Mr. and Mrs. Hueffer to each other. Be a little elastic with him, and do
+                not propound your views too violently or too uncompromisingly. To get things into people’s
+                heads, insinuation is better than clumping them over the cranium with a shilaly.<anchor xml:id="n3"/> We have got
+                a jewel in Greenslet and a publishing medium of whom we may well be proud.</p>
+            <p>I am glad now that <orgName key="macmillan">Macmillan</orgName> did not take the book, for they have very little knowledge
+                of literature; and their publishing, though eminently satisfactory, is done more as a business than
+                as an artistic pleasure. I think Greenslet with his new series has definitely taken his stand on our
+                side, and I want you to like him, for I think that through him will come your best chance of your
+                getting a berth in America when you want to come over and try it. He is all prepared to like you
+                and Hilda and Flint immensely; and if you only won’t let yourself be too jarred by some of his
+                predilections and get through the crust, you will find an honest, loyal, splendid fellow, who will
+                help us in every possible way.</p>
+            <p>I like your <persName key="clara_shanafelt">Clara Shanafelt</persName><anchor xml:id="n4"/> very much indeed, particularly the first and last. I will write
+                her a letter when I have a little more time. I am rather sorry you could not cook up a little
+                something nicer to say about <persName key="harriet_monroe">Harriet’s</persName> book.<anchor xml:id="n5"/> She called it a slam and felt it rather badly.
+                Criticizing is a dreadful business: We must tell the truth, and yet it is a shame to quench the
+                smoking flax. I thought you got out of it rather well, but Harriet saw through it quite clearly; and
+                of course that doesn’t help us very much, as I am afraid Ezra still has her ear by his article on the
+                Spoon River Anthology, which is her latest find. What do you think of the Spoon River Anthology 
+                by the way? Personally I think I have worked out that this sort of poetry, which is not
+                poetry at all, really has to be done in rhyme to get the tang into it; but given as it is, it might
+                just as well be prose. But I won’t go into that now, it would lead me too far. Perhaps I will go into it
+                in a review when the book comes out. Your <persName key="murial_chilkowski">Murial Chilkowski</persName><anchor xml:id="n6"/> is interesting, I think. You should
+                like to send £10 to “<title key="egoist" level="j">The Egoist</title>.” I had another letter from <persName key="harriet_weaver">Miss Weaver</persName> on the subject, but
+                Ezra’s presence bothers me a little under the circumstances. It seems ridiculous to help support a
+                thing when he is in it, continuing to swagger through its pages with his prejudices sticking out all
+                over him like curl-papers. Your articles and those of the unpronounceable lady, whom I won’t
+                attempt to spell again, and the poems, make the paper of value to me. Tell me what you think
+                about the £10?</p>
+            <p>To-morrow I begin to rehearse six hours a day until my operettas are over.<anchor xml:id="n7"/> I am
+                awfully tired now, and I must say the change of title of the Anthology has given me no end of
+                trouble. It was no easy matter to make them set up their folder all over again when they got it
+                into print. I am tired, Richard, so tired that I wonder some times whether I am to get through the
+                winter without breaking down; and even if you don’t like the name, please be considerate about
+                it, for there is absolutely nothing more I can do, and we shall just have to give it up entirely if we
+                cannot agree on this. I am having a hard time with Harriet too, about getting all our poems
+                printed in time. It has been no joke, running this Anthology, has it? But I think we shall be glad
+                of it in the end.</p>
+            <closer>Love to you both,</closer>
+        </body>
+        <back>
+            <div type="notes">
+                <note target="#n1" resp="mb">Derogatory adjective meaning cheap.</note>
+                <note target="#n2" resp="mb">In A Midsummer Night’s Dream, Act 1, Scene 2, Bottom promises "I will aggravate my voice so that I will roar you as gently as any sucking dove.”</note>
+                <note target="#n3" resp="mb">Alternate spelling of shillelagh, wooden Irish walking stick or cudgel.</note>
+                <note target="#n4" resp="mb">American poet (nd) who had three poems in The Egoist, Vol. 2, No. 1 (January 1, 1915).</note>
+                <note target="#n5" resp="mb">Harriet Monroe, You and I (Macmillan, 1914). Aldington’s review, “War Poems and Others,” in The Egoist, Vol. 1, No. 24 (December 15, 1914) notes that out of 236 pages of poetry, he only likes the first poem. “I am frankly out of sympathy with a good deal of the volulme,” he writes (458-459). Spoon River Anthology: Edgar Lee Masters’ Spoon River Anthology was published by Macmillan in April, 1915. The poems ran serially in the magazine Reedy’s Mirror in 1914 under the pseudonym Webster Ford.</note>
+                <note target="#n6" resp="mb">Muriel Ciolkowska, frequent contributor to The Egoist, had an installment of her series of "Fighting Paris" essays in No. I, Vol. II (January 1, 1915).</note>
+                <note target="#n7" resp="mb">Lowell translated the libretto for Pierrot Qui Pleure et Pierrot Qui Rit, an 1889 operetta by French playwright Edmond Rostand, best known for his play Cyrano de Bergerac. It was performed February 2-4, 1915, starring soprano Maggie Teyte and tenors John Campbell and George Mitchell, accompanied by the Boston Opera Orchestra, for the benefit of the Women’s Municipal league of Boston. The production, financed and directed by Lowell also included her translation of Jean-Baptiste’s operetta La Latiere de Trianon.</note>
+            </div>
+        </back>
+    </text>
+</TEI>
