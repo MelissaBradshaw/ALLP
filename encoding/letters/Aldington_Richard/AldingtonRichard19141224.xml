@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1914-12-24"
+                    >Dec. 24, 1914</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$34i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of 8 sheets of paper with typewriting on the front and back of each. On each
+                        new sheet (aka every other page), there are hand-written page numbers. Some letters are erased or scrubbed out.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1914-12-24">Dec. 24, 1914.</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>I have a lot of letters to answer and also one of <persName key="hilda_doolittle">Hilda's</persName>. I have been waiting to hear from
+                you about the Anthology because, to tell the truth, I had not the heart to write until I knew what
+                you would decree its fate to be. I have set my heart on our little group publishing together so
+                strongly that it was almost more than I could bear to think that it might fall to the ground.</p>
+            <p>Now I have really quite good news for you. I think <persName key="ferris_greenslet">Mr. Greenslet</persName> is slowly wheeling
+                round, although it is quite clear that he will not wheel fast enough to publish “<title key="heaven" level="a">Heaven</title>” in this
+                year’s number of the Anthology; still, I think that with gentle handling he will put it into some
+                other year. I told him what you had said in your letter, or rather a paraphrase of it, and he begged
+                me to tell you that he liked “Heaven.” It was a mere commercial attitude which kept him from
+                putting it in the first number. He felt that the public would be prejudiced against us all, and that
+                he wished to avoid; but when I suggested that it might be put into one of the later parts, he quite
+                agreed that it might; so I think that a little patience and tact on our parts will bring the whole
+                thing out right in time. It is also true that the head of his firm is a perfectly unliterary, very
+                conventional, and stupid man, and I think Mr. Greenslet didn’t wish to have him come down on
+                the whole scheme like a cartload of bricks on account of that poem. I know <persName key="george_mifflin">Mr. Mifflin</persName> myself,
+                and I think it very likely would have caused him to stop the whole arrangement; but after we
+                have made a success with our first volume, a success d’estime, even if not a commercial success,
+                I believe he will let us put in pretty much what we like next year and the year after, for the
+                contract is to be made out for three years.</p> <!-- Missy has Ford Madox Hueffer listed in the "people mentioned" for this letter, but his name isn't mentioned and I couldn't find a pronoun that seemed to be specifically referring to Hueffer. I was thinking if there was one, it would be in this paragraph since AL is talking about Hueffer's poem "Heaven." LMK if I'm missing something! I went through with a pretty fine tooth comb. Same goes for "Houghton Mifflin" the publisher versus Mr. Mifflin the person. I couldn't make out a specific pronoun that might be referring to the publisher rather than the person, but Missy also has "Houghton Mifflin" listed as a publisher in this letter. – VOD -->
+            <p>Unfortunately, I have to pay for the printing of the book, and for whatever advertising
+                may seem advisable outside of their advertising for the whole series, which they will do at their
+                expense. This I am very glad to do as my contribution towards our group. If there are any assets
+                from the sales, I will divide them in equal parts and send them to all of us.<anchor xml:id="n1"/></p> <!-- Not sure how we want to encode this kind of transaction. – VOD -->
+            <p>The book is to be called “<title key="some_imagist_poets" level="m">Some Imagist Poets</title>,” as we decided. I have no wish to drop the
+                name, and neither has Ferris Greenslet, although I warned him of <persName key="ezra_pound">Ezra’s</persName> possible behavior. I told
+                him of the letters Ezra wrote <orgName key="macmillan">Macmillan</orgName>, although I did not tell him that we had offered this book
+                to Macmillan. He replied that he didn’t care in the least what Ezra might do, that he was quite
+                used to that sort of thing, that he knew Ezra personally, and understood the whole situation. In
+                this he differs very much from Macmillan, as neither <persName key="george_brett">Col. Brett</persName>, the head of the firm, nor 
+                <persName key="ec_marsh">Mr. Marsh</persName>, his lieutenant, are in the least personally acquainted with any of the younger men nor
+                their works, except in a perfectly superficial way. I think the real reason that Brett refused to
+                have anything to do with the Anthology was more because he has been over-reaching himself on 
+                poetry the last few years than because of Ezra’s letters, although Ezra’s letters undoubtedly
+                pushed the balancing pendulum entirely over.</p>
+            <p>Greenslet, on the other hand, feels that Brett has been getting ahead of him in the matter
+                of the younger poets and is anxious to get back and show himself an up-to-date, go-ahead
+                publisher. Therefore I think we have nothing to fear on that score.</p>
+            <p>The contract is not signed yet, because it takes some little time to draw it up; but I have a
+                letter from Greenslet agreeing to publish the volume if “Heaven” was taken out; and as
+                “Heaven” has been taken out, his letter would hold him even without any contract.
+                Besides, he isa perfectly honest man, the most honest publisher in America, I firmly believe; 
+                and therefore the contract is as good as signed already</p>
+            <p>As to your saying to Ezra that we hoped he would come in later—that I have simply got
+                to decline. You can see yourself that, after the way Ezra has treated me, it would be extremely
+                undignified and weak for me to admit him into a venture which I was financing. That it might be
+                possible for Ezra to apologize and show himself so sincerely sorry as to make the situation
+                possible, I do not deny; but I cannot imagine that’s happening; and unless it does, I am afraid I
+                must refuse to have anything to do with Ezra in anything which I happen to have a finger in. I am
+                sorry for him, for I know his day is over and ours has just begun; but he did it himself and did it
+                maliciously, and there is nothing whatever which I could do to alter it that I did not try to do
+                while I was in <placeName key="london">London</placeName>. His behavior since has knocked him completely out of any of my
+                schemes. Therefore, although I have left our tribute to him in the preface, I have taken out the
+                paragraph saying that we hoped he might contribute in future.</p>
+            <p>Now as to your own book<anchor xml:id="n2"/>–it was not Ferris Greenslet who refused it; it was I who didn’t
+                give it to him. My reasons for doing so were purely commercial: it seemed to me a mistake
+                for you to publish this volume just now. Out of the twenty-six original poems in this volume, ten
+                were in the first Imagiste Anthology, and six in the new one, the seventh being your “Faun
+                Seeing Snow for the First Time” which doesn’t seem to be in this book at all. That leaves only
+                ten original poems which would make the public care to buy this book rather than the others. It
+                seemed to me that to have a number of volumes in which your poems appear all coming out very
+                close together; was an error of judgment. A good deal of these volumes are translations, which I
+                don’t think ever have as much attraction as a volume of original work. If you had written them
+                alone, merely as translations, they would go along as that; but put with original work they must
+                necessarily take a second place. It seemed to me, therefore, that it would be better to publish the
+                volume next autumn, when it would not conflict with our new Anthology nor with the old one,
+                which is being extensively advertised by the <orgName key="boniLiveright">Boni’s</orgName>, who are pushing all their old stuff, not
+                having capital enough to accept any new.</p>
+            <p>I asked Ferris Greenslet whether he would be willing to take a volume of your poems. He
+                said yes, he thought he would; and if you would like to have him do so, I will hand him this
+                book, and perhaps it would be well to give it to him anyway and see what he thinks of it. That I
+                will do; but I can’t help thinking that it would be well to delay publication until the new
+                Anthology is out and has been on sale for at least six months.</p>
+            <p>Ferris Greenslet is going over to London in the middle of January, and I will give him a
+                letter to you, and you can talk to him. If he takes your book, the offer from the London publisher
+                will not matter to him, as <orgName key="constable">Constable</orgName> are their agents and the whole series will go
+                through them. So much for that business!</p>
+            <p>Now let me thank you very much for the two letters of <persName key="remy_gourmont">Remy de Gourmont</persName> which you
+                sent me. I shall be delighted to have one of his volumes with a dedication, and even more
+                delighted if I might have some of his manuscripts, as you suggest. What would please me more
+                than anything else, but what I feel would now be impossible, would be to have you send him a
+                copy of my book and get him to honestly tell me what he thinks of it. But I am afraid that is
+                unfeasible: in the first place, because he might not be willing to be brutally honest to me under
+                the circumstances, and also because I fear he is too ill to turn his mind to such a task at present,
+                and thirdly because I fear it might look as though I had some such ideas in my head when I sent
+                him the money. Therefore, that is quite out of the question, although his criticism would have
+                been of the utmost value to me.</p>
+            <p>Now I am bound to tell you that I was awfully disappointed in that first article of his.
+                Richard let us be honest–there really wasn’t a damned thing in it that any tyro could not have
+                written. I am sorry you told him what I said about Gallicisms, for Frenchmen are so strangely
+                constructed that, if they are told to be careful what they write, they never can write anything at
+                all of interest. They seem to feel this prohibition weighing on them like a shackle, even in
+                subjects where, left to themselves, they would have no temptation to break it. It is either this or
+                because M. de Gourmont regards Americans as in the kindergarten class that he writes such a
+                singularly elementary little paper. Now “<title key="newRepublic" level="j">The New Republic</title>” is not an elementary paper,
+                certainly has no intention of being one, and I don’t think a mere statement of facts which can be
+                got out of any newspaper will seem to them worth the price they are paying. It would not,
+                therefore, surprise me very much if <persName key="herbert_croly">Mr. Croly</persName> returned this article, with a request for something
+                a little more thoughtful. I have given him your address and suggested that he communicate
+                directly with you, send you the money for M. de Gourmont etc. I have also told him that, if he
+                prefers to do the business through me, as heretofore, I shall be delighted to have him do so. But I
+                imagine he will write to you directly. And if he should refuse this article, don’t be discouraged
+                and don’t let M. de Gourmont be discouraged. Only suggest to him to write as though for a
+                French review. Should anything prohibitive crop up in his articles, you could easily delete it in
+                the translation.</p>
+            <p>Now, Richard, here’s another thing–please don’t be hurt with me, if I say to you to be
+                jolly careful about your translation. M. de Gourmont’s style is so essential a part of his greatness
+                that in translating him you ought to make a special effort to retain its perfume. That is the great
+                difficulty in translating: to keep the aroma of the original. I don’t think you have quite done that
+                in this article; so do be awfully careful in future, for if M. de Gourmont is to make a public here
+                and if “The New Republic” are to be sponsor for him before the American people, he ought to
+                have every chance of getting himself over, and not a mere emasculated edition of himself. Of
+                course, I have not read the original of this article, and it may very well be that it is just as
+                uncharacteristic in manner as in matter; but I have read other of your translations before, and I do
+                think that this has been their fault. They seem to me translations—just bad translations—and you
+                translate Henri de Renier into the same English that you translate Remy de Gourmont. Therefore,
+                forgive me if I say “Be careful,” because not only is it not fair to your author not to give the
+                whole of him but it defeats your object of “getting over” as the actors say. Please don’t mind my
+                saying this; you know I do it with the best will in the world.</p>
+            <p>Now I want to thank you for your nice, long article on me in the “<title key="egoist" level="j">Egoist</title>.”<anchor xml:id="n3"/> I was not in the
+                least angry. In the main, I was most sincerely pleased and surprised, for I never thought to hear
+                such genuinely sympathetic praise from you; and it means more to me to please you than I can
+                say. And Hilda’s letter makes me realize how splendidly you are working in my behalf, and I am
+                immensely happy that it should be so. I am not at all surprised that you do not like some of the
+                poems, particularly the long, narrative poems in stanzas. I knew you wouldn’t like them; and
+                when I tell you that I have just written another, I am quite sure you will tear your hair and howl
+                with rage. But I seem unable to confine myself to one style; I must write in many, according as
+                the mood seizes me. I must work out my own destiny; and you know quite well that it is at least
+                not the destiny of weakness nor ignorance, so forgive me if I ‘gang my ane gait’<anchor xml:id="n4"/> and write the
+                things you hate as well as the things you like. The only squeal I could make as to your criticism
+                is that when you said “<title key="maxBreuck">Max Breuck</title>” <!-- Missy has both the poem title and the work it's published in (SBPS) listed in the metadata spreadsheet. I couldn't find a reference to the collection in addition to the poem. LMK if I'm missing something! – VOD --> 
+                and the others were false in cadence, I think you might have
+                added, in fairness to me, that you considered everything false in cadence which was written in
+                regular meters. It sounded as if I were writing false meter when I tried for regular meters; and
+                that, you know, is not the case. I am sincerely glad you said just what you thought: the bad and
+                the good; it is exactly what I want and what I hope you will always do. And I am awfully glad
+                you like those <persName key="paul_fort">Paul Fort</persName> meters. <persName key="john_fletcher">Fletcher</persName> has christened them “polyphonic” prose, which I think
+                an excellent name; for as you and I know, although Paul Fort gave me the idea, they are written
+                on a somewhat different scheme from Paul Fort’s and based on a different rhythm, the rhythm of
+                vers libre in fact, instead of the Alexandrine. Fletcher has written an article upon them, which
+                <persName key="harriet_monroe">Harriet</persName> has accepted for “<title key="poetry" level="j">Poetry</title>” <!-- Harriet Monroe and "Poetry" weren't listed in the metadata spreadsheet, but I added them in since that seemed appropriate! – VOD -->
+                and he is trying them himself now; so that we stand a very
+                good chance, with yours and his and my attempts, of doing something which Ezra can not claim
+                in the slightest degree, and which in self-defense he will probably heartily and violently
+                condemn.</p>
+            <p>Fletcher was here for a week, and most delightful companion he was. He likes the place
+                and I hope he may come back to <placeName key="boston">Boston</placeName> while he is getting his book through the press. He is
+                ever so much improved, a thoroughly nice fellow when you know him well. I have become very
+                fond of him.</p>
+            <p>I enclose a programme of a reading we had here last week. We all gave our services for
+                the Belgians. Hans Ebell is a travelling pianist a pupil of the conservatory of Cracow. The other
+                two participants you know. I read three poems under each heading, five under “Images,” and I
+                ended up with “<title key="bombardment" level="a">The Bombardment</title>.” My composer friend, <persName key="carl_engel">Carl Engel</persName>, did the booms on a big
+                bass drum, concealed from the audience, as my voice wouldn’t carry them with any effect. I was
+                afraid it might seem a little too futuristic, but it didn’t—the audience of about four hundred
+                people took it as seriously as it was meant, and it had an immense success. I have an idea of
+                repeating it in <placeName key="chicago">Chicago</placeName> when I go out there. I wish you had been here. That audience would have
+                given you the most deliciously warm feeling at your heart. They were as enthusiastic as they
+                could be, and a lot of them came round afterwards and told me what they felt about it–people I
+                didn’t know. I do believe there is a great hope in the American public, if we all stick together and
+                whack at it. I am to talk on Saturday before the <orgName key="twentiethCenturyClub">Twentieth Century Club</orgName>, a learned society here,
+                on “The Failure of American Poetry and the Remedy.” I am scared to death, but I think it is an
+                opportunity</p>
+            <p>Well, dear Richard and Hilda, this is an unconscionably long letter, and I will stop it
+                in a moment and write again when I have taken the book in to Ferris Greenslet.</p>
+            <p>Lots of love, and I hope Christmas and the New Year will bring you only happiness, and
+                the end of the war for us all. <persName key="ada_russell">Mrs. Russell</persName> joins me in sending a great deal of love to you both.</p>
+            <closer>Very sincerely yours,</closer>
+        </body>
+        <back>
+            <div type="notes">
+                <note target="#n1" resp="mb">Edward C. Marsh outlines the financial arrangement Lowell made for her books’ publication when she moved from Houghton-Mifflin to Macmillan, where she fronted the cost of publication in return for 85% of the profits. : “We are quite prepared to accept the terms of publication which you suggest, i.e., that you shall bear the expense of publication and receive all the returns less our usual commission of 15%” (Edward Marsh to Amy Lowell, February 18, 1914, MS Lowell 19 [813]). With the three volumes of Some Imagist Poets (Houghton Mifflin, 1915, 1916, 1917) Lowell splits those profits between herself, Aldington, H.D., John Gould Fletcher, F.S. Flint, and D.H. Lawrence.</note>
+                <note target="#n2" resp="mb">Richard Aldington, Images: 1910-1915 (The Poetry Bookshop, 1915). Lowell encourages Ferris Greenslet to publish this book after all, the following month, although she has not changed her mind about her misgivings about the volume, which she outlines in her letter to Greenslet (Amy Lowell to Ferris Greenslet, January 13, 1915). [cross list with GreensletFerris19150113]</note>
+                <note target="#n3" resp="mb">“Two Poets,” The Egoist, November 16, 1914 (No. 22, Vol. 1) includes Aldington’s review of Lowell’s Sword Blades and Poppy Seed (Macmillan, 1914), as well as John Rodker’s Poems (Ovid Press, 1914).</note>
+                <note target="#n4" resp="mb">Idiomatic phrase meaning to think or act independently.</note>
+            </div>
+        </back>
+    </text>
+</TEI>
+
