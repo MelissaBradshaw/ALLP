@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1914-11-25"
+                    >Nov. 25, 1914</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$21i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>The letter consists of 7 sheets of paper with typewriting on each side. There are several smudge
+                            marks from where the typist tried to erase a letter or word. On page 6, there is a big piece of the
+                            left side torn out that cuts off some of the words on the back of that page, page 7. Also on page 7
+                            is two lines that are typed over each other. Page eight has a word at the bottom that is scratched
+                            out with pen or pencil instead of using an eraser. On the top of each sheet of paper (aka every
+                            other page) is a page number.</p> 
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1914-11-25">Nov. 25, 1914.</dateline></date>
+                <salute>My dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>I have at last something definite to say to you, a really, truly fact after all these weeks fo
+                doubt, about <title key="some_imagist_poets" level="m">the anthology</title>. I could not bear to write about it until I Had some good news to tell
+                and at last I have some semi, demi good news, just the best I can report “at this present writing”
+                as they used to say in the eighteenth century.</p>
+            <p>A week or ten days ago I received the manuscript back from <orgName key="macmillan">Macmillans</orgName> with a note
+                saying that they did not think the prospect of sales so very bright and that they did not wish to be
+                connected with “this group” and that even if I agreed to pay for it still they would rather not be
+                identified with the volume. You cannot imagine what an awful blow that was to me. I instantly got 
+                <persName key="ec_marsh">Mr. Marsh</persName> on the telephone and asked him [about Ezra Pound’s] letter, and he replied “I
+                shall not deny that that had a good deal to do with our decision.<anchor xml:id="n1"/> And what made it worse was that
+                at the same time he assured me that they wished to remain my publishers and regretted extremely
+                that they were obliged to refuse the book on that account.</p>
+            <p>Well, I did not despair, but took it to my old publishers, <orgName key="houghton_mifflin">Houghton Mifflin Company</orgName>.
+                They have been very sorry that I left them and I thought that this might dispose them to look
+                favorably upon any book which I might bring to them. I have succeeded in making them accept
+                <persName key="john_fletcher">Fletcher’s</persName> book<anchor xml:id="n2"/> and I felt that I could succeed with this and to a certain extent I have succeeded.
+                They will publish the book at my expense, unfortunately, because they too have not much faith
+                in the sale, but that little difficulty I was fully prepared for as I told you in <placeName key="london">London</placeName> I should not
+                let a thing like that stand in the way of our appearing before the public. But here is the difficulty
+                which I am powerless to alter alone. They will not accept the book unless <persName key="ford_hueffer">Mr. Hueffer’s</persName>
+                “<title key="heaven" level="a">Heaven</title>” is taken out of it.<anchor xml:id="n3"/> <persName key="ferris_greenslet">Mr. Greenslet</persName> says that he does not think his partners will permit him
+                to stand for the book at all if he shows them the manuscript with this in it, that they are sure to
+                think that it is sacrilegious. You know what the puritan temper is. He would like Mr. Hueffer to
+                substitute something else for this poem. He knows him personally and wishes to write to him on
+                the subject. I told him to delay his writing a week until you had a chance to get this letter. Now
+                here is the whole proposition. I have talked a good deal to Ferris Greenslet this autumn about
+                how they were dropping behind in the matter of “les jeunes”, and how Macmillans was getting
+                ahead of them in publishing poetry, and my own departure to the Macmillans has pointed a
+                moral to my tale. Evidently, to my intense surprise, my words went home, and funnily enough
+                just at the time when Macmillans are beginning to realize “at least I imagine they are” that they
+                have rather over done themselves on poetry having brought out I do not know how many
+                volumes a year for the last four or five years, Ferris Greenslet has conceived the idea of doing
+                them out with the younger and better people. He wants to issue a series of small, thin books in
+                paper covers at fifty cents a volume which will of course immediately increase the same to
+                double what it usually is. This series is to be advertised as containing the very best and most
+                clever modern work. They will be handled by <orgName key="constable">Constable’s</orgName> in London, and he is bound to make
+                them pay so that he will take every possible pains to shove them on the public.</p>
+            <p>Fletcher’s book is to be one of the first of this series, and the collection of Lawrence
+                Binyon is to be longer.<anchor xml:id="n4"/> Now whatever you may think of Lawrence Binyon, he has a certain
+                prestige in <placeName key="england">England</placeName> and here also, and his volume will lend weight and dignity to the collection.
+                He proposes to make our anthology another volume, and so anxious is he to get the right things
+                that he has conceived the idea of poking out all the translations from the Japanese that are
+                scattered through Lafcadio Hearn’s<anchor xml:id="n5"/> writings and publishing them together as another volume.
+                This is all between ourselves, and I must ask you not to tell <persName key="ezra_pound">Ezra</persName> 
+                or any one except the people immediately concerned in our anthology, that is 
+                <persName key="hilda_doolittle">Hilda</persName> and <persName key="fs_flint">Flint</persName> and Hueffer, and to ask them to
+                keep it a secret for the present, because of course I have no business to give away the secrets of a
+                publishing house. They will agree to republish our anthology every ear for three or five years as
+                they may see fit. I personally think it would be best to make a contract for three years and extend
+                it to five at the end of that time if the public interest seems to demand it.</p>
+            <p>In regard to Hueffer’s “Heaven” he thinks that although some people will greatly admire
+                it those people are our friends already and will be disposed to like anything we do, but that many
+                people will consider it [last line of page cut off]. Now the long and short of it is this. I shall not 
+                be able to get any first class publishing house to accept the volume with that poem in it. I thought that we 
+                were more advanced here, but we were not, and anything that attacks authorized religion in this manner
+                they regard with fear.</p>
+            <p>Mr. Greenslet says they were immensely enthusiastic over your poems and over Hilda’s,
+                and over Flint’s and Fletcher’s and over my “<title key="bombardment" level="a">Bombardment</title>.” But they are afraid of God being
+                depicted as a man. It seems to me too inconceivably idiotic but I cannot help it. I have told them
+                Hueffer was a good Roman Catholic. I have done everything in my power to remove the
+                prejudice, but they are invulnerable on this subject.</p>
+            <p>If the poem remains in I shall have to go to <orgName key="boni">Boni’s</orgName> again. They will not take this volume
+                at their own expense because times are so bad and they told me when I was in <placeName key="nyc">New York</placeName> before,
+                apropos of your book, that they could not consider publishing any more poetry at present. If I
+                offer to pay them for it it will be the first volume they have ever published at the author’s
+                expense. Everybody will know that I have paid for it, and that no one else will accept it and the
+                book will get a black eye before it is printed. If, on the other hand, I make this concession to
+                Houghton Mifflin I shall have got it published by an excellent firm and it will appear in a new
+                series that it bound to attract a good deal of attention as the publishers will do everything in their
+                power to push it. There is no chance of their failing or going out of business as there is every possibility 
+                with the Boni's. We shall have the added weight of the interest people will take in the whole series combined with 
+                the interest they may take in us. I think they would take a volume of yours whenever you have one ready as they 
+                intend to issue new volumes all the time. I cannot give them your present volume as many of the poems it contains are
+                included in the anthology, but if you should make up another volume with another selection I
+                feel sure they would take it.</p>
+            <p>Now all this is very well to be considered in getting our stuff before the public. Under
+                those circumstances I personally think that it will be wiser to allow Mr. Hueffer to withdraw
+                his poem and substitute others which you can approve and send me. I asked them if they would be
+                willing to consider the possibility of publishing our volume out of the series, but they said they
+                did not wish to publish more poetry just now as they wished to push this series and in publishing
+                other volumes they would take away from its prestige.</p>
+            <p>Believe me Richard, I have worked very hard over this and have done my very best. I do
+                believe that Macmillans would have taken it without restriction if it had not been for Ezra’s
+                letter, but things being as they are I believe this to be the very best possible offer we shall
+                receive. Publishers will not always print what you bring them even if you offer to pay for it when
+                they think it will in any way injure their house, and orthodox religion has a strong hold over here,
+                stronger than I, who live so far away from it, had realized. 
+                “<title key="blast" level="j">Blast</title>” and Ezra’s poems in “<title key="poetry" level="j">Poetry</title>”
+                have severely prejudiced people against him and against the whole movement and one review
+                of my book the reviewer said: “Ezra Pound used to write poetry in very poetical form, and the
+                fact that he now prefers to write Billingsgate<anchor xml:id="n6"/> in broken up and frequently capitalized
+                prose should have no bearing on the question at issue in vers libre,” and the “Little Review” speaks of
+                Ezra’s “Flagrant spiritual and cerebral degeneration.” These things make it harder for us than it
+                was a year ago. Somebody told me the other day they thought <persName key="harriet_monroe">Harriet Monroe</persName> had injured herself
+                very much by t [sic] up to Ezra. I think he can have the satisfaction of feeling that he has done
+                us a lot of harm.</p>
+            <p>I shall not do anything more in the matter until I hear from you as I do not consider
+                myself at liberty to do anything so drastic as taking out Hueffer’s poem unless you and Hilda and
+                Flint agree. But I do think it would be foolish to refuse so good an offer as this for the sake of
+                only one poem in the book no matter if we consider that poem the best. By gaining a permanent
+                publisher we shall be in a position in a few years to force what poems we please into notice.
+                Please let me know as soon as possible what you wish to do about this if you agree with me that
+                some substitution had better be made please and send me whatever poems of Hueffer’s you think
+                well enough of to wish included.</p>
+            <p>I received a letter the other day from <persName key="harriet_weaver">Miss Weaver</persName> asking me to buy the literary half of
+                “<title key="egoist" level="j">The Egoist</title>.”<anchor xml:id="n7"/> It was with great regret that I felt obliged to refuse, but I cannot edit or give tone to
+                a paper when I am so far away, and although I could depute most of the work to you still I feel
+                that the rest of the paper is so antipathetic to me and so antipathetic to many people as to make it
+                unwise on my part to take the venture. That was very disagreeable to me as I felt that by
+                refusing I was cutting roots under your feet. I wrote Miss Weaver that to my mind your articles
+                were the only interesting thing in the paper and it was therefore with great regret that I felt
+                unable to do so as she requested. I think, however, that if you decide to come over here at the
+                expiration of the war something may be arranged by which we can have some effect on some
+                paper. I am now looking out for someone to go halves with me in starting a paper or getting hold of one
+                already started, and I feel that your presence here is really essential to my scheme. As soon as
+                you let me know that you would consider coming to America I will take the thing up seriously
+                but of course there is nothing to be done as far as you are concerned until I know you would be
+                willing to come. I know some of the editors of the "New Republic" no doubt I could make an
+                arrangement for you to write for them.</p>
+            <p>I had a letter from <persName key="john_rodker">Mr. Rodker</persName> the other day asking me if there were any chances for him
+                on a magazine in America. I wrote him that as far as I could see there was none. It is of course
+                difficult to get any position here and Rodker’s attitude toward literature and life would entirely
+                preclude him from having any chance with the “<title key="newRepublic" level="j">New Republic</title>” or any of the better class
+                magazines. I did not put it in exactly that light to him and I had rather you would not repeat this,
+                but it is true. As far as you are concerned I think there will be no difficulty. I regard you as a very
+                brilliant writer with a great future, both in prose and poetry. You understand how to get on with
+                people and I think that if you and Hilda decide to come here the outlook will widen in front of
+                you with every step you take.</p>
+            <p>I am a good deal worried over Fletcher arriving as I can see no future for him with his
+                inability to put himself into harness and his untactful manner with people. Still I have got his
+                book accepted and that is something. I am going on to New York for
+                a couple of days and shall see him then.</p>
+            <p>Did I tell you that <persName key="margaret_anderson">Miss Anderson</persName> of the “<title key="littleReview" level ="j">Little Review</title>” said she would be very glad to
+                publish any translations from the French you might make for her?</p>
+            <p>I am awfully sorry not to be able to put through our scheme exactly as we wanted but the
+                war has knocked conditions into a cocked hat, and this is really the best I can do and the doing it
+                has nearly broken my heart with disappointment.</p>
+            <p>Please let me know as soon as possible what I am to do with Houghton Mifflin. My love
+                to you and Hilda.</p>
+            <closer>Always affectionately,</closer>
+        </body>
+        <back>
+            <div type="notes">
+                <note target="#n1" resp="mb">Edward C. Marsh, Lowell’s editor at Macmillan forwarded a copy of an October 23, 1914 letter from Ezra Pound calling their advertisement for Sword Blades and Poppy Seed “a bare-faced lie,” and accusing the press of “displaying the tradesman’s usual crass ignorance and carelessness when meddling with matters of art.” He suggested that the inclusion his name in the advertisement for Lowell’s book might be libel: “You have trespassed on the canons of taste (a matter of which you probably know little) and, . . . something within your range of understanding, you have come very near the legal statuses.” (Ellipses in the original.) See MarshEdward19141022 and MarshEdward19141117.</note>
+                <note target="#n2" resp="mb">John Gould Fletcher, Irradiations: Sand and Spray, 1915.</note>
+                <note target="#n3" resp="mb">Lowell might refer to Ford Madox Hueffer’s poem “On Heaven,” published in Poetry Vol. 4, No. 3, June 1914.</note>
+                <note target="#n4" resp="mb">Houghton Mifflin published John Gould Fletcher’s Irradiations: Sand and Spray and Laurence Binyon’s The Winnowing Fan: Poems on the Great War in 1915. Art historian, poet, critic, and dramatist Binyon is credited with influencing Imagist poets’ interest in East Asian art and literature, in his role as Keeper of the Sub-Department of Oriental Prints and Drawings at the British Museum, where he curated the 1910-1912 Exhibition of Chinese and Japanese Paintings, as well as through monographs such as Paintings in the Far East (1908).</note>
+                <note target="#n5" resp="mb">Lafcadio Hearn (1850-1904), also known as Koizumi Yakumo, author, editor, journalist and translator. While on assignment as a newspaper correspondent in Japan he expatriated permanently, working as a literature professor, a journalist, and the author of many books on Japanese folklore and culture for Western audiences. Ferris Greenslet published and wrote the introduction to Leaves from the Diary of an Impressionist, a collection of Hearn’s early writings on New Orleans’ Creole culture, in 1911, but this proposed anthology of Hearn’s Japanese translations never materialized. Lowell included some of Hearn’s translations of Japanese poetry in her lectures on modern poetry.</note>
+                <note target="#n6" resp="mb">Idiom meaning crude and abusive language, comes from a London fishmarket with notoriously foulmouthed fishermen and merchants.</note>
+                <note target="#n7" resp="mb">Harriet Weaver wrote to Lowell with this proposal on November 4, 1914. Lowell rejected the offer in a November 23, 1914 letter, because of distance and disagreement with the “philosophy” of the paper, with the exception of Aldington’s literary articles.</note>
+            </div>
+        </back>
+    </text>
+</TEI>
