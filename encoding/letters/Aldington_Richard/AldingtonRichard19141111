@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1914-11-11"
+                    >Nov. 111, 914</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$7i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter is seven sheets of paper with typewriting on the front and back. At the top,
+                        “Aldington” is written in pencil. There are several places where the typist has erased a letter and
+                        left a black smudge. The date is printed in the upper right corner. The right side of the page often
+                        cuts off some letters of several words.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1914-11-11">Nov. 11, 1914.</dateline></date>
+                <salute>My dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>I have got an offer for <persName key="remy_gourmont">Remy de Gourmont</persName>. I do not think it a very brilliant one, but it
+                seems probably the best that can be done. It is from a new weekly, "<title key="newRepublic" level="j">The New Republic</title>" <!--This is the first mention of "The New Republic" in this letter, so I encoded this instance instead of the instance in paragraph 3 that Missy noted in the AALP TEI Header Metadata spreadsheet. Let me know if I should change that though!--> 
+                which <persName key="ezra_pound">Ezra</persName> pitched into so under a pseudonym in the last “<title key="egoist" level="j">Egoist</title>” I received.<anchor xml:id="n1"/> They are going to have
+                quite a big circulation I think and be very popular although I doubt whether their methods would
+                commend themselves to Ezra as they are largely political and announce that their criticism is on
+                no account to be peevish. <persName key="rebecca_west">Rebecca West</persName> has a good article in their first number and also 
+                <persName key="hugh_walpole">Hugh Walpole</persName> so you see they are not entirely old fogy in their methods.</p>
+            <p>They would like Monsieur de Gourmont to write them six articles on present conditions
+                in <placeName key="france">France</placeName> of fifteen hundred words each at two cents a word. That only makes thirty dollars an
+                article which he may very probably scorn, but that is the offer. They also think that they may want
+                more than six articles but they only guarantee him six to start with.</p>
+            <p>I think I told you in my last letter that “<title key="atlantic" level="j">The Atlantic</title>” did not want them. The illustrated
+                magazines are of course quite out of the question and that leaves “<title key="forum" level="j">The Forum</title>,” “<title key="nation" level="j">The Nation</title>,”
+                “<title key="reviewOfReviews" level="j">The Review of Reviews</title>,” “<title key="northAmericanReview" level="j">The North American Review</title>,” which might be induced to order
+                [unreadable] articles. I was afraid to offer it to “The Forum” as <persName key="mitchell_kennerley">Mitchell Kennerly</persName> <!--There are two listings for Mitchell Kennerly under Personography on the Master List spreadsheet. Should there only be one or are there two people named Mitchell Kennerly?--> is admittedly
+                very poor at paying, and as I knew de Gourmont wanted the money that seemed an important
+                point. I had an awful time getting the money out of him for <persName key="dh_lawrence">Lawrence</persName>.<anchor xml:id="n2"/> I am not sure that I have
+                got it yet although he promised to send it the next day. The other magazines I have mentioned I
+                do not know the editors of, but I might be able to get hold of them through <persName key="robert_grant">Robert Grant</persName>,
+                but I think the chances are that they are entirely filled up with war correspondence and the
+                ordinary reader here in America is so ignorant of who is who in French literature that I doubt
+                whether they would consider Monsieur de Gourmont's name of sufficient value to change their
+                prearranged plans. I think we have much more chance with the “jeunes” of “The New
+                Republic.” I will, however make every inquiry I can about the other magazines and cable you
+                if I can get a better offer than this one. If you do not hear by cable before this letter reaches you 
+                it will mean that this was the best I could do.</p>
+            <p>Now take hold of a table or grasp the arms of your chair firmly or something, for I
+                know what I am going to tell you will make you boil with rage. “The New Republic” is not “The
+                Egoist” and I think their “no taboos” refers to political articles for they have their way to make in
+                the world and they stipulate that these articles shall contain nothing too French for their
+                American readers. I do not think that they mean this in the very narrow sense of the word but
+                rather that somebody has told the editor that Monsieur de Gourmont’s books are “very French”
+                and he has got cold feet a little on the subject. I have told him that on the subject upon which
+                Monsieur de Gourmont was to write for them I doubted they would consider unadvisable to
+                publish but have also agreed that if any such thing does appear it should be deleted in the
+                translation. This may strike you as backsliding on my part. It is my earnest desire to get
+                Monsieur de Gourmont the money for the articles and what you and I both feel is that art should
+                be unshackled, but in a matter of such small importance I doubt whether it is wise to consider it
+                an artistic God. Rather let us consider that Monsieur de Gourmont will gain a wider audience and
+                a few more dollars by submitting to their terms and also I do not think that the terms need be
+                considered to exclude anything except the most extreme Gallicisms.</p>
+            <p>I have also promised them that the articles shall reach them translated without extra
+                charge to them. In other words they are to have nothing to do with the original French which of
+                course they could not read. Now if you are too busy to make these translations for nothing I shall
+                be very glad to do it myself. The reason I could not get any more money out of them was that
+                they have a flat rate for all articles of two cents a word and are making no differentiation in their
+                authors. If you prefer to take part of this sum and pay yourself for the translation that would
+                certainly be quite legitimate and I will leave the matter in your hands. My offer to make the
+                translation myself is merely a suggestion in case you are too overworked to think of it. I do not in
+                the least want to do it as I am up to my eyes in work now. These French lectures are almost
+                killing me and I have got another long poem on the stocks, but I should be delighted to do that or
+                anything else to help Monsieur de Gourmont in any way possible.</p>
+            <p>What you say about Herrick is more or less true.<anchor xml:id="n3"/> I never said it was great art. I said it was
+                sophisticated and interesting and that he certainly had a touch which is not often found in Anglo-Saxon writing.
+                I do not think he is quite as meretricious as you do. His ideals are not the same as yours and mind. He
+                is not trying for a top notch place on Olympus. He is a sort of 
+                Offenbach of literature, if I can use the expression, but he amuses me and holds my interest and
+                we need this light touch with a tang of sarcasm today in both our national writings and if he leads
+                the way perhaps some sincerer and better man will put a dash of this into his writings some time
+                in the future. I have never read any of O. Henry. Stevenson I do not see in him. Murger of course
+                he derives from with a soupcon of Maupassant for flavouring. “Ma Fille Bernadette” is
+                sentimental of course, but there are one or two chapters, notably the dedication, which I think are
+                written very well.</p>
+            <p>Now before I say anything about your article on my book I want to say that you English 
+                are an awfully touchy lot and I think I rather love you for it. I had no intention of assaulting the
+                “honour of England” in my “<title key="letterFromLondon" level="a">London Letter</title>.”<anchor xml:id="n4"/> At the time I wrote the recruiting was slack. All
+                your papers were full of it. “The Little Review” wanted facts. Was I to suppress this “fact” and
+                tell a lie merely because I love the people? You would not do that yourself; would you have
+                respected me the better for doing it? And did you not notice that I put in a footnote and corrected
+                that impression as soon as I found out that it deserved to be corrected? Even at the time of the
+                footnote the recruiting had not achieved the magnificent proportions which it now has. And you
+                do not mention the nice things I said about you and <persName key="fs_flint">Flint</persName>.<!-- I noticed Flint was mentioned twice in the letter, so I went ahead and encoded this first instance. He wasn't listed in the AALP TEI Header Metadata spreadsheet, so let me know if I should remove this!--> 
+                Do nice things never please and disagreeable things always hurt severely – in England, particularly when written by the “cheeky
+                kid brother?” Sometimes, dear Richard, I am in despair. I bless you and thank you for your
+                loyalty to me and indeed I did not mean to hurt you through pointing out a fly in the amber (and
+                only a temporary fly) of England’s greatness. How shall I walk freely and happily in the garden
+                of our friendship if I must always keep off the grass.</p>
+            <p>The life of the poet is as you say “just dejection” and if he is forever hurting 
+                unintentionally the few people he really loves how much harder is his lot than that of anybody
+                else on this old earth!</p>
+            <p>I liked your “<title key="warYawp" level="a">War Yawp</title>” in <persName key="harriet_monroe">Harriet's</persName> <title key="poetry" level="j">War Number</title>.<anchor xml:id="n5"/> If I had my way it would have had
+                the prize. I wonder who it was that decided upon the poems. I suspect [cut off]
+                Henderson. Anyhow I knew her too well to suppose she would ever contemplate giving me a
+                prize so I told her she could only print my poem on the condition of appending a note saying it
+                was not in the competition.</p>
+            <p>I have three poems of yours to mention. I like “<title key="nostalgia" level="a">Nostalgia</title>” particularly. It is very 
+               beautiful. Perhaps “<title key="ghosts" level="a">Ghosts</title>” is not quite so successful, although I like the “pennons of the stars,”
+               but I do not think it quite so as your poems usually are. The new one written, I smile to see, in
+               the <persName key ="paul_fort">Paul Fort</persName> manner which I think we might call in English “rhymed and rhythmed prose” is
+               beautiful in its truth.</p>
+            <p>Alas, Richard, it would be easier to break stones, but I wish you would change the note of
+                it. I do not consider that we are going to occupy a tenth rate star in the inconspicuous part of the
+                poetic heavens. On the contrary I have never believed so firmly in our future as I do now. I
+                believe that we are going to have a good place and not only a good place for what we are doing
+                but a good place prepared in the minds of the people we have plowed and furrowed for the
+                seed of those happier poets who come after us and who, thanks to our efforts, will have an audience
+                ready for them and not have to make it as we are doing. As a matter of psychology it is a pity to
+                tell a far too hostile world that you consider yourself inconspicuous. The ignorant world takes
+                one at one’s own valuation. We must believe in our ideals even if not in our achievements
+                and make people see how excellent the things for which we are striving are, how much better
+                than the things they like of themselves. Somehow there is something rather exhilarating about
+                being in the van of a new movement particularly over here where there is so little comprehension
+                and where people are so pathetically anxious to like good things and there is nobody to tell them
+                what things are good. A young man who wrote two books of essays which are really pretty good
+                as essays go but in which he shows his complete ignorance of the proper things to admire, came
+                to me the other day and in spite of knowing that I had slated a poem he [cut off]
+                I wrote for the “<title key="littleReview" level="j">Little Review</title>” he asked me to help him, to teach him, to tell him something about technique, to show
+                him why the things that he could not understand were good and why the things that he admired
+                were not worthy. I never saw anyone more anxious to learn nor more generous. He writes three
+                editorials a week in the “<title key="newYorkTribune" level="j">New York Tribune</title>” that is his contract begins in January, and it is not
+                bad to have a man in that position anxious to improve.</p>
+            <p>I think he is merely one of a great many young ignorant, and eager people whom one can
+                affect slowly but surely, whom one can infect and sow the germ of a better poetical appreciation.
+                I find myself over here as a prophet of you all and I feel that all of us working together will in
+                twenty years reconstructed the taste of this country. How long it will take the conservative of the
+                English to move, I do not know, but the Americans are quick to learn if anyone will take the
+                trouble to teach them, and I begin to see already that all of us in poems and articles, through
+                “Poetry” through the <title key="anthologyDesImagistes" level="m">Imagiste anthology</title> and through my new book are having an effect. It is a
+                glorious [cut off] Richard, and although it is hard that all the conventional editors are against us, by God,
+                we shall win in the end! If only we stick together and all shove at the cart and do not let petty
+                jealousy divide us.</p>
+            <p>If you ever want to come to America I rather think that “The New Republic” could be
+                induced to give you a berth. That is in the air of course, but I think it possible, but anyway you
+                can write for these papers from where you are.</p>
+            <p>Now as to your article on my book, thank you a thousand times. I very much want your
+                criticism and I hardly hope for your praise because I want it and want it so terribly. I am glad that
+                you are going to slate Rodker. I think that he is a dreadfully artificial, insincere little chap. I have
+                not seen his book only quotations from it and I am sick to death of the realistic school which
+                chops prose into lengths and calls it poetry when it has neither poetic value nor true cadence.</p>
+            <p>I am alone just now and horribly lonely. <persName key="ada_russell">Mrs. Russell</persName> received a telegram yesterday
+                morning telling her that her father was not expected to [recover from an illness].<anchor xml:id="n6"/> Of course in a
+                case of that sort I have no idea when she will be back again, but I find standing with my back to
+                a tree all day long and every day awfully tiresome and wearing. It is kind of hard to keep one’s
+                courage up, but that is nonsense really. Just give me that tuft of grass, Richard and I will wipe off
+                my sword and get it clean and slicked up for the next bout.</p>
+            <p>A thing that has pleased me [unreadable] letter from <persName key="charles_loeffler">Loeffler</persName> who is the best composer
+                we have in America. He reads as much French as Flint and has excellent taste. He compared me
+                to <persName key="stephane_mallarme">Mallarme</persName> and yet I have not heard of his going into an insane asylum yet awhile.
+                Seriously his letter was a very great encouragement.</p>
+            <p>I wish you were here. I think I want you and <persName key="hilda_doolittle">Hilda</persName> more than any people in the world and
+                I miss you every day. I am awfully sorry if my “London Letter” hurt you. I never want to hurt
+                you. You know that I believe in you both and in your talents and that I have the greatest
+                admiration for your work and for the attitude which you take toward it. Heigho I am sorry, but
+                you know Richard that they were not recruiting at that time.</p>
+            <p><persName key="john_fletcher">Fletcher</persName> writes me that he is coming to America. Poor boy, I do not know what there is
+                for him over here for his Pegasus will not harness at all and his poems are over the heads of
+                almost everyone here and as mostly making proposition they are nil, I guess. Of course I shall
+                see him but I cannot conceive what I can do for him. He is truly not fit for newspaper work, he
+                can't write prose at all and prose is the only thing that pays.</p>
+            <p>Well, I must stop. My love to you both.</p>
+            <p>P.S. I have just seen the “Egoist” of November second. Is this <placeName key="londonCollegeOfTheArts">College of Comparative Arts</placeName><anchor xml:id="n7"/>
+                intended as a joke or do they really expect to rope in some poor unfortunate on this side of the
+                ocean? If the latter, words to describe such a thing are too serious to employ lightly. That
+                Wyndham Lewis is a rank adventurer I know quite well, is Ezra no better? And how have they so
+                imposed this upon people like little Mr. [left blank] a genuine artist and a sincere man 
+                and apparently quite guileless in the ways of the world. I am thankful to see that you have 
+                kept out of this horridthing! Joke or serious Ezra makes one ashamed to be associated with him.</p>
+        </body>
+        <back>
+            <div type="notes">
+                <note target="#n1" resp="mb">An article in The Egoist, October 15, 1914. “Those American Publications,” by Baptiste von Helmholtz, a pseudonym used by Pound in a series of 1914 essays, mocked the prospectus of a forthcoming weekly review that promised to “respect no taboos,” a mission von Helmholtz accuses the magazine of having borrowed without attribution from The Egoist and which he predicts the new magazine will fail in.</note>
+                <note target="#n2" resp="mb">In August of 1914 Lowell acted as intermediary for D.H. Lawrence when Kennerley, his American publisher, failed to pay him a promised advance for the manuscript of his novel The Rainbow, even going so far as to visit Kennerley’s offices to demand the payment be sent.</note>
+                <note target="#n3" resp="mb">Lowell most likely references contemporary novelist Robert Welch Herrick (1868-1938) here. Herrick’s novels use literary realism to explore inequities and disparities in American culture, but unlike his contemporary Upton Sinclair, he was praised for a moderate approach to social issues which avoided muckraking.  Lowell compares him to French composer Jacques Offenbach (1819-1880), American short story writer O. Henry (pen name of William Sydney Porter (1862-1910), French authors Henri Murger (1822-1861), Guy de Maupassant (1850-1893) and Francis Jammes (1868-1938), author of the 1910 novel Ma Fille Bernadette Lowell references and one of the poets featured in Lowell’s Six French Poets: Studies in Contemporary Literature (1916). Stevenson presumably refers to Scottish author Robert Louis Stevenson (1850-1893).</note>
+                <note target="#n4" resp="mb">Lowell’s piece “A Letter from London” in The Little Review Vol. 1, No. 7 (October 1914) described being in London during the summer of 1914, during the first few months of World War I. Lowell criticized the English response to the outbreak of fighting on the Continent, arguing that they did not appreciate the seriousness of the situation and their own vulnerability to invasion. A footnote revises her accusation that English men are not enlisting and that the Government is not pressuring them to do so by noting that “this condition has somewhat improved since above was written” (p. 9). Lowell’s apology to Harold Monro for this article is in her November 2, 1914 letter to him (MonroHarold19141102).</note>
+                <note target="#n5" resp="mb">Aldington’s poem “War Yawp” was included in the special November, 1914 “War Poems” issue of Poetry, Vol. 5, No. 2. The issue also announced awards for poems published in the magazine in 1913-1914, with Carl Sandburg winning the largest monetary prize of $200 for best poem by a United States citizen for his “Chicago Poems,” published in March, 1914. Lowell’s poem, “The Coal Pickers,” published in August, 1914, Vol. 4, No. 5 received an honorable mention. Louise Driscoll’s poem ”Metal Checks” won a contest for “best war or peace poem ‘based on the present European situation.’”</note>
+                <note target="#n6" resp="mb">Ada Dwyer Russell’s father, James Dwyer, died in January, 1915. Russell spent November and December of 1914 with him at her family’s home in Salt Lake City, Utah.</note>
+                <note target="#n7" resp="mb">The Egoist, Vol. 1, No. 21 (November, 2, 1914) included a “Preliminary Announcement of the College of the Arts,” a proposed London-based art college with courses in sculpture, painting, music, and letters. Prospective faculty included sculptor Henri Gaudier-Brzeska, painter Wyndham Lewis, musicians Arnold Dolmetsch and Felix Salmond, and Ezra Pound. The prospectus outlined the need for such an institution, noting that “at present many American students who would have sought Vienna or Prague or some continental city are disturbed by war. To these The college of Arts offers a temporary refuge and a permanent centre.”</note>
+            </div>
+        </back>
+    </text>
+</TEI>
