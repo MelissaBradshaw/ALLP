@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1916-01-31"
+                    >Jan. 31, 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$177i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of two sheets of paper with typewriting on both sides of each. At the
+                        bottom of the first page there is some handwriting, intended to be inserted into the letter. On the
+                        top of the second page in the left corner is “R.A.–2” to mark the page number, and in the right
+                        corner is the date. There are a few places where words are scratched out and exchanged with
+                        written words in pencil.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1916-01-31">Jan. 31, 1916</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>This is the Preface. I believe <persName key="john_fletcher">Fletcher</persName> has written to you about it already. It consists of the
+                very best that Fletcher and I can do. It has been written, and written, and rewritten, and we have
+                thought it out very carefully and verified all our illustrations. I think that it explains our position
+                a little better than anything we have had so far, for the great difficulty now, I think, is
+                misunderstanding. People are beginning to accept us, but they are still a little bit at sea as to what
+                it all means, and I think the best thing we can do now is to explain ourselves, our position, and
+                the rules by which we do our work. We have tried to make this as clear as possible. I took it in
+                and read it to <persName key="ferris_greenslet">Ferris Greenslet</persName> the other day, and he thinks it the best thing that has been written
+                on the subject. He was so much taken with it that he wants to issue it as a separate circular, as he
+                thinks it will do everything to help the sale of the book.</p>
+            <p>Of course, you are at liberty to change it if you see fit, but I rather hope you won’t change
+                it, as I think a thing gone over too many times loses its unity, and I am sure there is nothing here
+                that we cannot all subscribe to, and as you people did not offer a preface this year, we thought
+                we had better offer you one. I would suggest that, if you can, you leave it exactly as it is,
+                and then you on your side can write next year’s preface if you want to.</p>
+            <p>If you like it as it is, I wish you would cable “Yes.” My cable address is “<placeName key="sevenels">Sevenels, Boston</placeName>.” 
+                There is no need of putting any name on, and if you will just cable: “Sevenels, Boston,
+                Yes” I shall understand. <add place="margin">I don’t know whether you are allowed to use [unreadable] addresses now[.]</add> 
+                And then if you will tell me the price of the cable, I will send it over to you at once. The time is
+                so short that Ferris Greenslet feels we must start to print as quickly as possible. As it is now, we
+                shall come out later than any of the rest of the series.</p>
+            <p>I received this morning your letter of January 16th. You see how long it takes letters to
+                come. You will by this time have got my letter saying I received all your poems safely. Your
+                contribution is entirely decided upon, including “<title key="whitechapel" level="a">Whitechapel</title>,” but I am still waiting to hear
+                what <persName key="hilda_doolittle">Hilda</persName> is going to do after she receives my letter, what <persName key="fs_flint">Flint</persName> is going to do in regard to
+                substituting something for “<title key="evil" level="a">Evil</title>,” and what you wish to do in regard to our poems. You say in
+                this letter to do exactly what I like about my poems, which looks to me as if you did not like any
+                of them very much. I wish you would write a little more fully, as I want to please you, and so
+                does Fletcher, but of course we must have some definite word to go on. If I only knew these
+                things, we could start printing the poems and print the Preface later, but as it is we are
+                completely hung up until we hear from you more fully, so I hope you will answer right straight
+                away. I hope, in fact, that you will have answered long before you got this letter. It takes so long
+                for letters to come and go now. You seem to be constantly surprised that you have not had
+                answers from me, when I have written immediately on receiving your letters. It is awfully
+                discouraging about the length of time it takes, and makes doing business between <placeName key="england">England</placeName> and
+                America fearfully hard. I dread your next letters, I am afraid that you will be hurt at something I
+                may have said. In explaining things flat-footedly and just as they are, one is apt to make them
+                sound more severe than they are intended; but surely, we have worked so long together now; and
+                have got along so well that even in cases where we may disagree or where we may have some
+                reason to <del rend="strikethrough">want proof of</del> <add place="above">reprove</add> the other fellow’s actions, we can at least realize that the same
+                remarks made in conversation would have quite a different sound; and I am sure that you must
+                realize by this time that I am so loyal as though I were English by immediate birth and not
+                merely a couple of hundred years ago, and that under those circumstances you will take anything
+                I may say, as I shall always take anything you may say, as friendship in disagreement, if we do
+                disagree, but always in friendship. I feel very strongly about this, for there are no people to
+                whom I cling more closely than I do to you and Hilda, and although you did hurt me about
+                Flint’s <title key="frenchPoetsReview" level="a">review</title>, and I did feel it necessary to write as I did, still none of those things interfere
+                with the main current, and that you must always believe.</p>
+            <p>I had a very nice letter from <persName key="dh_lawrence">Lawrence</persName> some days ago. If he was sore at one time, he is
+                entirely over it now, and everything is all right in that quarter. I am having rather a bad time here,
+                as I am the subject of a couple of nasty attacks: one in “<title key="reedysMirror" level="j">Reedy’s Mirror</title>,” and one in the 
+                “<title key="newYorkTimes" level="j">New York Times</title>.” But Fletcher has answered the “Mirror,” and <persName key="louis_untermeyer">Louis Untermeyer</persName> writes me that he
+                intends to defend me in the “<title key="chicagoEveningPost" level="j">Chicago Evening Post</title>.” There is no doubt about it, that poetry is a
+                vital issue over here now, and people get as excited about it as they do over politics.</p>
+            <p>I think I wrote you that Fletcher and I had taken our poems away from the <title key="othersAnthology" level="m">“Others”
+                Anthology,</title> which I am sure is a good move. I suppose we shall all appear in <persName key="harriet_monroe">Harriet’s</persName>
+                <title key="newPoetryAnthology" level="m"></title>Anthology, and I do not think that the “Others” Anthology has a chance. Fletcher saw a letter
+                from <persName key="ts_eliot">Eliot</persName> yesterday, written from <placeName key="london">London</placeName>, 
+                in which he says that <persName key="ezra_pound">Ezra’s</persName> <title key="catholicAnthology" level="m">Catholic Anthology</title> is
+                not selling well at all. They tell me it is out here, but there have been no advertisements and no
+                reviews that I have seen, so if it came out, it must have come out singularly quietly. On the other
+                hand, none of us can do anything without creating a stir which shows interest, and I think
+                everything is going really very well, and I think this new <title key="some_imagist_poets" level="m">Anthology</title> will clinch it. I think on the
+                whole it is better than last year’s. But I do hope you can see your way to leaving the Preface as it
+                is, as I am quite convinced that the public over here, with whom we have our largest sale, need
+                just this Preface and will appreciate it.</p>
+            <p>If you have not already written definitely about Fletcher’s and my poems, please do so,
+                and do not forget to cable, as soon as you get this, about the Preface, because we ought to
+                start on the printing at once. Also please tell Hilda to answer about her poems, because I cannot do
+                anything until I get all these things settled.</p>
+            <p>I am sending this off in a hurry to catch the steamer, the censor business does take so
+                long with letters.</p>
+            <closer>Love to both of you.</closer>
+        </body>
+    </text>
+</TEI>

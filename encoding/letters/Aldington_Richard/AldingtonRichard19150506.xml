@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1915-05-06"
+                    >May 6, 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$79i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of two sheets of paper with typewriting on both sides. The top of each sheet
+                        (every other page) has a page number in the center. There is some crossing out and writing in
+                        edits with a pencil.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1915-05-06">May 6, 1915.</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>In the first place, about this letter and cheque from “<title key="newRepublic" level="j">The New Republic</title>” people. I see no
+                reason why they should not pay you for the articles they ordered, as long as they ordered them,
+                whether they printed them or not. And I see no earthly reason either, when they are returned to
+                you, why you should not dispose of them as you see fit. If anybody else will pay you for them,
+                that is certainly not “The New Republic’s” affair; and, as a matter of fact, “<title key="bostonTranscript" level="j">The Transcript</title>” is
+                paying you <add place="margin">as</add> you know, so I have taken upon myself merely to forward your cheque to “The
+                New Republic” people, and <add place="above">have</add> asked them to send you a draft.</p>
+            <p>It is all right about “The Transcript.” I warned <persName key="ferris_greenslet">Ferris</persName> as soon as he told me he had
+                brought the articles over, and he warned the editor of “The Transcript” that “The New Republic”
+                had accepted one. But it was just as well you wrote, for, when I telephoned to “The Transcript”
+                office, I found they were a little hazy as to the one copyrighted by “The New Republic,” and that
+                it was already in type but luckily not published. So I had it stopped and everything was all right.
+                If you do not hear from “The New Republic” with a draft pretty soon, let me know.</p>
+            <p>I am awfully sorry there was a delay about the review of the <title key="some_imagist_poets" level="m">anthology</title> for <persName key="harold_monro">Monro</persName>. Ferris
+                has been dreadfully slow getting them out. I had to give <persName key="ws_braithwaite">Braithwaite</persName> my proof sheets to write his
+                review in “The Transcript,” as advance copies were so late in coming. And in a talk I gave before
+                a club here about the new movement in modern poetry, only three days before publication, Ferris
+                could only give me loose sheets. I don’t know what hung them up so. It was not proof correcting,
+                as that was all done a long time before.</p>
+            <p><persName key="harriet_monroe">Harriet</persName> has got McClurg to take a dozen copies of that number of “<title key="egoist" level="j">The Egoist</title>.”<anchor xml:id="n1"/> Of
+                course, a dozen copies is a ridiculous amount when they return them if unsold, and I shall send 
+                them twenty-five. But I had to trust to Harriet to do that, and Harriet isn’t very good at
+                persuading people to do things.</p>
+            <p>I hope you will like the look of the book, and I think I made <persName key="hilda_doolittle">Hilda’s</persName> corrections just as
+                she asked me to do. I will send you all the reviews when they come out. Nothing has come in yet
+                except “The Transcript” article. <orgName key="houghton_mifflin">Houghton Mifflin Company</orgName> are not a bit good in managing
+                reviewers, I don’t quite know why. But they ought to begin to come before long.</p>
+            <p>Now, Richard, I must tell you that you made a mistake to doctor <persName key="john_fletcher">Fletcher’s</persName> article on me.<anchor xml:id="n2"/>
+                He was awfully annoyed, and I cannot say that I was exactly pleased, myself. Of course, I know
+                that you do not agree with all of it. But don’t you think it is carrying your artistic ideals a little
+                far to impose them on another man’s review of a third person’s work? I do not really think an
+                editor should change an article without the author’s permission, and I do not believe that you, as
+                an author, think so either. And when it comes to an appreciation of somebody’s work, I think the
+                man who signs the article ought to be allowed to say what he thinks. Of course, it doesn’t make
+                me feel very pleasantly to think that it seemed to you worth while to tone down praise of me as
+                being too fulsome. What if it is exaggerated? It is hardly graceful to tinker it. And, as the article
+                was signed, its opinions could not possibly be imputed to you. I have been banged enough in the
+                English papers as it is, and a few kind words in “The Egoist” would hardly seem worth deleting.
+                You say you understand that I have been reviewed long and well in England. I admit the “long”
+                but the “well” is another matter. It is quite evident you have not seen them, as you say.</p>
+            <p>It is all right about June or July, as far as my poems are concerned, although I think those
+                two will look rather funny by themselves.<anchor xml:id="n3"/> I send you a little fellow which may go nicely with
+                them and make a buffer between them, as it were, if you have room for it; otherwise, send it
+                back.</p>
+            <closer>Affectionately yours,</closer>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">Harriet Monroe. A.C. McClurg was a Chicago publishing house and book wholesaler.</note> 
+                <note target="#n2" resp="mb">Aldington's May 6 response to Lowell explains his alterations to John Gould Fletcher’s article on her in the “Imagist Number” of The Egoist (Vol. 2, No. 4): “Fletcher seems to have misunderstood the nature of my alterations of the article, which were done with the best intentions and after consultation with Flint, Hilda, Monro and several others.” His changes included changing language which described Lowell as “the foremost Imagist,” compared her to Shakespeare, and claimed she was “the only Imagist who had practiced all the forms,” a claim he described as “a weapon in the hands of enemies,” because it implied the other Imagist were unpracticed in poetical forms. “Believe me, dear Amy, I am as enthusiastic over your work as anybody, as I think I have proved, but temperate and carefully weighed interpretation does far more good than inconsiderate and rather cliched praise.” See RA to AL, May 6, 1915.</note> 
+                <note target="#n3" resp="mb">Lowell’s poems “Maladie de l’Aprês Midi,” “Middle Age,” “A Rainy Night,” and “Haunted” appeared in the July 1, 1915 Egoist (Vol. 2, No. 7).</note> 
+            </div> 
+        </back>
+    </text>
+</TEI>

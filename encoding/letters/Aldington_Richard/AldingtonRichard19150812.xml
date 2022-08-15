@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1915-08-12"
+                    >Aug. 12, 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$126i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of two sheets of paper with typewriting on both sides of the first and one side
+                        of the second. At the top of the second sheet (page 3) there is a page number in the center, the
+                        letters “R.A.” on the top left, and the date on the top right.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1915-08-12">Aug. 12, 1915.</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>I feel very badly to think that I have not yet thanked you for your bully article in the July
+                “<title key="egoist" level="j">Egoist</title>.”<anchor xml:id="n1"/> The reason has been owing to a chapter of misfortunes. 
+                In the first place, <persName key="ada_russell">Mrs. Russell</persName>
+                was taken quite ill and threatened with typhoid fever, and went to bed, with two doctors and a
+                nurse. It was three weeks before she was able to go out to <placeName key="saltLakeCity">Salt Lake City</placeName>, where she is going to
+                spend the summer with her family. During that time, I was of course very anxious and very much
+                occupied. I tried to be with her all day, and translate those French poems for the appendix of my
+                book all night.<anchor xml:id="n2"/> The result is that Nemesis has pounced upon me in the shape of violent
+                indigestion and I have been feeling perfectly rotten and utterly incapable of writing anything.</p>
+            <p>I got up <placeName key="bromleyLacey">here</placeName>,<anchor xml:id="n3"/> where I have not been for three years, to find the roof leaking like a sieve,
+                and the avenue almost impassible from the terrible rains we have been having this year. I am
+                feeling a little better now, although I am only up to about half my usual working capacity. And
+                the first thing I do, I am going to thank you awfully for that article. I think it excellent. My only
+                criticism would be that I hate to have attention called to the affluent side of my existence, a side
+                of which I take so little cognizance myself. I am particularly glad that you liked “<title key="bath" level="a">The Bath</title>,” and
+                what you said about it was just the right thing. Personally, I think your critical articles are quite
+                perfect. They never seem overloaded and they are always interesting.</p>
+            <p>I have just finished one on you for the September “<title key="littleReview" level="j">Little Review</title>.”<anchor xml:id="n4"/> It is not as good as I
+                wish it were. That is where my health came in; but it is the best I could do under the agitating
+                circumstances in which I have been living.</p>
+            <p>A <persName key="randolph_bourne">man</persName> dined with me last night,<anchor xml:id="n5"/> a poor, little hunchback, who is supposed to be very
+                clever. He is one of the contributors to “<title key="newRepublic" level="j">The New Republic</title>.” He told me he particularly liked
+                your “<title key="" level="a">Childhood</title>,” that it was the best thing you had done. But I shall let my criticism of it stand,
+                because I do think that technically perhaps it is not quite as irreproachable as your other things. I
+                hope you will like the article and will not mind the few little criticisms I have made. You see, I
+                do not think an unmitigated puff ever goes down with the public, and it seemed better to say
+                exactly what I thought than have it read like a puff. As this is your own method, I do not think
+                you will mind my using it.</p>
+            <p>I forwarded a letter from you yesterday to <persName key="john_fletcher">Fletcher</persName>. He wrote me a little while ago that he
+                expected to go still farther West, but that his plans were still uncertain.</p>
+            <p>This is a lovely place. I wish you and <persName key="hilda_doolittle">Hilda</persName> were <placeName key="dublinNewHampshire">here</placeName>. For two summers I have been
+                away, as you know, and its beauty strikes me all over newly. It looks like <placeName key="scotland">Scotland</placeName> with its lakes
+                and mountains. In fact, I believe that geographically it and Scotland are first cousins.</p>
+            <p>I keep sending you clippings from time to time. I trust you get them all right. I cannot tell
+                you how I miss my summer with you people and how homesick I am to see you all. I think one
+                reason for my collapse this Spring is that just about that time I am used to taking the sea voyage
+                and having a lot of new and pleasant stimulation; and this year, I have just kept steadily to the
+                grind-stone right along.</p>
+            <p>By the way, <title key="" level="m">our book</title> is going very well. We have sold <measure quantity="575" unit="copies">575 copies</measure> since the first of April,
+                and our royalties are magnificent, <measure type="currency" num="28.62">$28.62</measure>. I am enclosing a money-order which represents yours
+                and Hilda’s share. I am also sending <persName key="dh_lawrence">Lawrence</persName> and <persName key="fs_flint">Flint</persName> theirs. Fletcher, of course, I am paying
+                by cheque. <persName key="ferris_greenslet">Mr. Greenslet</persName> tells me what we lead the <title key="newPoetrySeries" level="s">New Poetry Series</title> so far. I think the notice
+                in the “<title key="londonTimes" level="j">London Times</title>” singularly disagreeable; but then, the “London Times” is always nasty to
+                me, so I do not mind.</p>
+            <p>Tell me how you like that <title key="patterns" level="a">poem</title> of mine in the August “Little Review.”<anchor xml:id="n6"/> Fletcher and I
+                rather like it. No more for the present; I have to go back to my proof reading.</p>
+            <p>By the way, I have spoken to <persName key="edmund_brown">Brown</persName> about an exchange advertisement with you for the
+                “<title key="poetryJournal" level="j">Poetry Journal</title>” and he is delighted with the idea. But there is not the faintest use for your
+                applying to “The New Republic.” They are highly endowed and are not looking for bargains, and
+                they are altogether too stodgy to make any such arrangement. It is very good of you to want an
+                advance copy of my book. I will send you the proofs when I get a complete set, and you can read
+                it at your leisure.</p>
+            <closer>
+                <p>With lots of love to you and Hilda,</p>
+                <p>Affectionately yours,</p>
+            </closer>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">Richard Aldington, "The Poetry of Amy Lowell," The Egoist, July, 1915 (Vol. 2, No. 7), 109-110.</note> 
+                <note target="#n2" resp="mb">Six French Poets</note> 
+                <note target="#n3" resp="mb">Bromley Lacey, Lowell's country home in Dublin, NH.</note> 
+                <note target="#n4" resp="mb">Amy Lowell, "Richard Aldington's Poetry," The Little Review, September, 1915 (Vol. 2, No. 6), 11-16.</note> 
+                <note target="#n5" resp="mb">Randolph Bourne</note> 
+                <note target="#n6" resp="mb">Amy Lowell, "Patterns," The Little Review, August, 1915 (Vol. 2, No. 5), 6-8.</note> 
+            </div> 
+        </back>
+    </text>
+</TEI>

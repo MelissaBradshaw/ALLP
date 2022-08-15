@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1915-06-04"
+                    >June 4, 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$109i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of four sheets of paper with typewriting on both sides. Each page has a hole
+                        punched in the bottom, roughly in the middle. At the top of each sheet of paper (every other
+                        page) there is a page number, with the exception of the first page. There are some places where,
+                        at the bottom of the page, there is typing that runs over the line above it with some underlining in
+                        pencil.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1915-06-04">June 4, 1915.</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>I am terribly sorry to hear about <persName key="hilda_doolittle">Hilda</persName>.<anchor xml:id="n1"/> It is an awful disappointment to go through all
+                those nine months of trouble and worry and then have the baby die. I wish there were anything I
+                could do to show you my love and sympathy, and to tell you how well I understand what it must
+                mean to you both. One never rebels so much at distance as when grief comes, and one longs to
+                go to one’s friends and do the things which prove one’s love, and not try to say them. If there is
+                any mortal thing I can do, I wish you would let me know. If this extra expense is entailing any
+                hardship on you both, please remember that I am here, and tell me what I can do as freely as I
+                will do it.</p>
+            <p>I cannot sufficiently thank you for your loyalty and stanch friendship in sitting down,
+                under these circumstances, to defend <persName key="john_fletcher">Fletcher</persName> and me. I know how difficult it is to write when
+                one does not feel like it. I have just been through the experience in death of a very dear friend of
+                mine a couple of weeks ago. Thank you, Richard, for doing this, and be sure that neither Fletcher
+                nor I would have suggested it had we known how you were situated.</p>
+            <p>More than ever do I regret the disappointment which our not disturbing the May “<title key="egoist" level="j">Egoist</title>”
+                must have brought to you.<anchor xml:id="n2"/> I look at the pile of them in my room, and wish they could have been
+                distributed. I still hope that, when the June number comes, <persName key="ferris_greenslet">Greenslet</persName> and <persName key="roger_scaife">Scaife</persName> may feel that we
+                can send them out together. The June number I imagine we can distribute anyway, and the
+                lateness won’t make any difference, as everything from England is so delayed now.</p>
+            <p>Do you think it would be a good idea if you and Hilda came over in the summer to give
+                her a change? If the passage money is a difficulty, that can be easily arranged; and, as I told you
+                before, I think I can get you work translating songs while you are here. I imagine there is not
+                much danger of boats being torpedoed leaving England. Of course, you might have some
+                difficulty in getting back.</p>
+            <p>I am sending you some clippings. I am a good deal worried about the one from the New
+                York “<title key="nyCall" level="j">Call</title>.”<anchor xml:id="n3"/> It seems as if every worst Jew poet in the country is calling himself an Imagist. I
+                am now about to consult my lawyer <persName key="william_putnam">brother-in-law</persName><anchor xml:id="n4"/> as to whether it would be possible to
+                copyright the name, for if effusions like this man Brown’s get labelled with it, we shall get a
+                black eye every where, and justly so; but apparently all the questionable and pornographic poets
+                are trying to sail under the name just now. I think perhaps I made a mistake to send any
+                contributions to <persName key="alfred_kreymborg">Kreymborg</persName>. However, it is done now; and if the <title key="others" level="j">magazine</title> turns out very awful,
+                I shall not send any more. You can probably get some idea of <persName key="guido_bruno">Bruno</persName> from this article. It is all I
+                know about him, and I should say he had better be avoided. This long article on me is by the only
+                real disciple in the writing line that we have made, <persName key="ws_braithwaite">Mr. Braithwaite</persName>. He is fairly important to us,
+                as he holds a good place among American newspaper critics. He is half English and half Negro, 
+                and the trouble with the man is lack of education; but I cannot sufficiently commend his loyalty
+                and disinterestedness. A friend of his went to him the other day and asked him if he realized that
+                he was endangering his position as a critic by championing us. He replied that he thought he was
+                making no mistake but it really is immensely spunky of him, as he is very poor, is paid almost
+                nothing for his articles in “<title key="bostonTranscript" level="j">The Transcript</title>,” and has a wife and four children to support.
+                Nevertheless, he is doing everything he can to help us alone. He has just written a fairly good
+                article upon us in answer to <persName key="conrad_aiken">Aiken’s</persName> diatribe in “<title key="newRepublic" level="j">The New Republic</title>,” which I hope they will
+                have the decency to print.<anchor xml:id="n5"/></p>
+            <p>I did not mention any of our names in my interview, because we have been so accused of
+                interpuffing. I merely mentioned the school as a whole and its tenets. Of course, the words are
+                not exactly as I said them. You know what newspapers are. But I think the thing as a whole is
+                dignified, and can only do us good. Mentioning only Hilda and Fletcher, of course, Braithwaite
+                was referring simply to the Americans, as that is the surest way to make us attended to over here.
+                I wish I could find more people who could write about us; but that will have to be done in time.</p>
+            <p>I am sorry that <persName key="harriet_monroe">Harriet’s</persName> review of us in the June “<title key="poetry" level="j">Poetry</title>” shows such a strong <persName key="ezra_pound">Ezra</persName>
+                influence.<anchor xml:id="n6"/> Ezra has certainly got her hypnotized. I do not know why, as he has no standing
+                whatever anywhere else in this country, and her sticking to him so closely has done her paper a
+                great deal of harm. But we must do the best we can; and if it is a long fight, I think it is a winning
+                one.</p>
+            <p>I will certainly write an <title key="poetryReviewRA">article</title> on you for “<title key="littleReview" level="j">The Little Review</title>,” which should come out in
+                July or August.<anchor xml:id="n7"/></p>
+            <p>Do not forget to be really my friend, and let me help you if I can. <persName key="ada_russell">Mrs. Russell</persName> joins me
+                in a great deal of love to you both.</p>
+            <postscript>
+                <label>P.S.</label>
+                <p><placeName key="mclurg">McClurg</placeName> has sent to me for the ten copies of the May “Egoist” they ordered. They are the
+                    only one of the booksellers I spoke to who have been interested enough to ask me, and I am
+                    sending them their ten, as I think, above all things, it would look foolish to let them think we
+                    were suppressing it. I got <persName key="ferris_greenslet">Ferris</persName> again, and wrestled with him, and he said he thought the best
+                    thing to do was to send to those shops which inquired where their copies were, and to pay no
+                    attention whatever to the ones who did not ask. I think in time, however, I shall get them
+                    distributed as agreed.</p>
+                <p>I applied to my brother-in-law, who is a lawyer here, and who has had a great deal to do
+                    with copyrights and patents, to find if there is not some way to protect ourselves from having all
+                    the abominable poetry on the East Side of New York labelled “Imagist.” He says he thinks we
+                    can form ourselves into a business association, which will mean that no one has a right to publish
+                    anything under the name “Imagist” except ourselves. We could take in as many people as we
+                    thought fit, and keep taking them in, but nobody whom we did not sanction could use the term.
+                    Our stumbling-block in this would be Ezra, because I feel that, as he is so strongly identified
+                    with the name – I do not say invented it, since <persName key="fs_flint">Flint’s</persName> article – it would be fearfully sharp
+                    practice to leave him out. And yet, he not having thought of this thing himself, would probably
+                    be very much annoyed and might go into print against us. I can hear you exclaim with horror as
+                    to the American commercial spirit shown in this proposition, but I think you will be wrong; after
+                    all, it is very little different from copyrighting our books. And if you have the slightest idea what
+                    that set is like in New York and what pornographic imbeciles they are turning out, you will feel
+                    that we must protect ourselves from being considered to sanction that kind of thing. I will let
+                    you know further what Will says. He is to work up something in a day or two. I am inclined to
+                    think that to do such a thing would be one of the very best advertisements imaginable, apart from
+                    any other reason.</p>
+            </postscript>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">H.D. gave birth to a still-born daughter on May 21, 1915.</note> 
+                <note target="#n2" resp="mb">Lowell paid for and kept all copies of the May, 1915 “Special Imagist Number” of The Egoist (Vol. 2, No. 4) sent for distribution in America.</note> 
+                <note target="#n3" resp="mb">The New York Call (1908-1923) was a Socialist daily newspaper. In calling poets appearing in this paper, as well as Guido Bruno’s tabloid newspaper, Bruno’s Weekly, “Jew poets,” Lowell uses a reductive anti-Semitic stereotype to conflate the East Side of New York and Socialism into a faction of imitators who threaten the authenticity of the term Imagism.</note> 
+                <note target="#n4" resp="mb">William Lowell Putnam, Sr. (1861-1923), American lawyer and banker, partner in the law firm of Putnam, Putnam, and Bell, and Lowell’s first cousin. He was hired by Lowell’s father to be the family’s personal lawyer early in his career. He married her sister, Elizabeth Lowell Putnam in 1888.</note> 
+                <note target="#n5" resp="mb">The long article Lowell encloses by William Stanley Braithwaite is not traceable. Conrad Aiken’s negative review of the first volume of Some Imagist Poets, “The Place of Imagism,” appeared in The New Republic, May 22, 1915; Braithwaite’s response, “Imagism: Another View” appeared in The New Republic, June 12, 1915.</note> 
+                <note target="#n6" resp="mb">Harriet Monroe’s review of Some Imagist Poets—An Anthology begins by noting that several of its poems have been reprinted from Poetry and that the tenants of Imagism have been described and discussed in the magazine repeatedly since it first published “A Few Don’t by an Imagiste” in 1913. She concludes by praising one of the selections by H.D. as “rank[ing] almost with Pound in his most magical moments.” Poetry, June 1, 1915 (Vol. 6, No. 3),150-153.</note> 
+                <note target="#n7" resp="mb">Lowell’s article, “Richard Aldington’s Poetry” was published in The Little Review, September, 1915 (Vol. 2, No. 6), pp. 11-16.</note> 
+            </div> 
+        </back>
+    </text>
+</TEI>

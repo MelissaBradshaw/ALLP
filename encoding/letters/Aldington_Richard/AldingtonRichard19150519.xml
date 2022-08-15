@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1915-05-19"
+                    >May 19, 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$83i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of 6 sheets of paper with typewriting on both sides of each. At the top of each
+                        new sheet (every other page) there is a page number in the center. In some places there are lines
+                        crossed out and replaced with pencil marks.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1915-05-19">May 19, 1915.</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>I am afraid you are going to be awfully disappointed but, after careful consideration,
+                <persName key="ferris_greenslet">Ferris Greenslet</persName>, <persName key="john_fletcher">Fletcher</persName>, and 
+                I thought it would be a mistake for us to distribute this number of
+                “<title key="egoist" level="j">The Egoist</title>” over here.<anchor xml:id="n1"/> There are three reasons for this.</p>
+            <p>In the first place, <persName key="dora_marsden">Dora Marsden’s</persName> being on the front page makes it extremely doubtful
+                whether anyone seeing the paper would care to buy it.<anchor xml:id="n2"/> To advertise it and attempt to sell it as an
+                Imagist number when the most prominent thing in the paper is Dora Marsden’s is almost certain
+                to wreck it in the American market.</p>
+            <p>The next reason is that <persName key="harold_monro">Harold Monro’s</persName> article is distinctly unfavorable, and pitches into
+                us all and the movement in general with the most delightful impartiality.<anchor xml:id="n3"/> I think much that he
+                says is good; but clearly for anyone who does not know our work to read it will go far towards
+                prejudicing them against the book at the start. Now for us to take pains to distribute a hostile
+                criticism is excessively poor business. We shall get hostile enough criticism as it is – hostile,
+                futile, and silly – as you must have seen by the clippings I am sending you. We need someone to
+                tell the world what we are trying to do, even if they cannot say we have already done it. And for
+                us to take special pains to distribute an article to tell the world of what little value we are would
+                certainly be a silly thing. Ferris Greenslet who knows the book buying condition over here from
+                A to Z, is firm that it would be a mistake to distribute this number. I think, Richard, that
+                sometimes in your anxiety to be quite fair, you stand up so straight that you fall over backwards.
+                One may not do anything to force pleasant criticism nor to prevent hostile; but in our own paper,
+                our own organ, if I may call it so, to publish a distinctly hostile article in a number which was
+                presumably got up to make our work better known, is hardly necessary, and you can see yourself
+                that it is a distinctly bad business proposition.</p>
+            <p>The third reason, and to my mind the most cogent of the lot, is <persName key="dh_lawrence">Lawrence’s</persName> poem, which I
+                think for pure, farfetched indecency beats anything I have ever seen.<anchor xml:id="n4"/> Unfortunately these things
+                are very quickly remarked on over here. Two years ago “<title key="international" level="j">The International</title>” had a cover which I
+                considered perfectly harmless, but they were sued for sending indecent matter through the mails.
+                Now I do not believe there will be prominence enough given to this poem of Lawrence’s for us
+                to be sued, although there might be: the Watch and Ward Society is very active; but it would do
+                us immeasurable, incalculable harm to be associated with such an outpouring. I know you did
+                not like the poem, because you said so, but I wish you had told him frankly that it simply could
+                not be printed in our number, and that he must either substitute something else or go
+                unrepresented. You know how careful we were what we printed in the <title key="some_imagist_poets" level="m">Anthology</title> of his. He 
+                loses his eye about things; sometimes I think his condition is almost pathological, and that he has
+                a sort of erotic mania.</p>
+            <p>Now I knew how hard you worked over this Imagist number, and I know that you will go round cussing the 
+                stupidity of Americans at not being able to see the value of our book through a
+                hostile criticism, or make allowances for Lawrence’s poem, or brush away Dora Marsden as if
+                she were an intruding fly. But you must not forget, Richard, that in working with people we have
+                to take them as they are, not as they should be. It is not fair to publishers to injure the sale of the
+                book because, although I have paid for the printing, they have a part interest in the
+                recipients as they are handling it. The publication of “<title key="spoonRiver" level="m">Spoon River</title>” and <persName key="robert_frost">Frost’s</persName> books at the
+                same time as our Anthology has rather injured our sale, and we must not be party to anything
+                that will injure it more.</p>
+            <p>They told me at <orgName key="houghton_mifflin">Houghton Mifflin’s</orgName> that we have sold in all 415 copies up to date. That is
+                very peculiar as a little while ago they told me that the advance sale amounted to 481 copies.<anchor xml:id="n5"/>
+                They are now verifying the two reports, and I hope they will find that the first figure they gave
+                me was correct. You will see that the sale is neither very bad nor very good. But there is an
+                immense amount of hostility and flippancy which we have to contend against. <persName key="ezra_pound">Ezra’s</persName>
+                lucubrations have done us an immense amount of harm; I do not mean now, but all his writings
+                in the past, so that not only Imagism, but free verse in general is having a hard time, unless it is
+                so done as to be quite popular. They take “Spoon River” because they can understand it; and they
+                are quite right to take “Spoon River,” it is one of the greatest novels ever written and is worthy to
+                rank with Dovstoysky[sic]. <persName key="el_masters">Masters’s</persName> free verse <del rend="strikethrough">I say</del> they will take for the sake of the subject
+                matter; but ours is a very different thing. It would have been better for the sale, had I taken the
+                liberty to advertise myself and “<title key="bombardment" level="a">The Bombardment</title>” in it, because I am fairly well known over
+                here now and my own book has sold remarkably well; but it seemed to me that would be pushing
+                myself up above the crowd, so I have carefully refrained from mentioning my name. I think the
+                book will do fairly well, though I very much doubt whether its sale will be brilliant. But it is so
+                much touch and go, that you can easily see yourself that we must do nothing to weigh down the
+                balance on the wrong side.</p>
+            <p>This is plain business, Richard, and you must not object if it clashes with your principles
+                of fairness. The man who repeats all the disagreeable things people say about him to every new-comer, 
+                for the sake of being fair, I think you will admit is but a fool. To distribute this Imagist
+                number would be to be like such a man. I think perhaps you put the importance of criticism
+                higher than I do. I have personally never received the slightest hint which was of any value to me
+                in a printed article. Reviews seem to me much more in the nature of advertisements than
+                anything else. Of course, some people’s opinions are of value – yours are, I think mine are, and
+                Greenslet’s and possibly <persName key="ford_hueffer">Hueffer’s</persName> – but the great mass of reviews are only important to the
+                author or publisher because they make people talk about, and buy, the book reviewed.</p>
+            <p>I do not want to do anything that is the least unfair to anyone and, although I regret the
+                loss of all those single reviews of our work, and regret the suppression of the poems, except
+                Lawrence’s, particularly as I gave you what I considered my very best, Fletcher, Greenslet and I
+                do not think we can, in fairness to ourselves or to you, be a party to any distribution of it. I don’t
+                want you to get a mess with <persName key="harriet_weaver">Miss Weaver</persName> or to have Miss Weaver think that I am impuning your
+                judgment, and in my letter to her I am merely stating that the presence of Dora Marsden in the
+                front pages has diminished the value of the number so greatly that we do not feel it would be
+                wise for us to distribute it; and in order that there may be no hard feeling of any kind, I am
+                sending her a cheque of fifteen dollars, the price she said she should charge the publishers as
+                commission. I have not told her anything at all about my objections to Monro’s article or
+                Lawrence’s poem, merely basing my objection upon Dora Marsden’s prominence.
+                This method should, I think, prevent her having any feeling against you.</p>
+            <p>If you understood conditions in America better, you would see that we are only doing the
+                sensible thing, and our disappointment is no more keen than mine. I could not sleep
+                all night the night after “The Egoist arrived, I felt so terribly about it.</p>
+            <p>I have ordered <persName key="michael_sadler">Sadler</persName><anchor xml:id="n6"/> to send you ten copies at once to distribute to your various
+                reviewers. I got Houghton Mifflin to cable with their private code, and copies should have
+                reached you by now.</p>
+            <p>I have been able to give us quite a little sendoff through various talks I have been giving
+                here: one before the <orgName key="poetsClub">Poetry Society</orgName>, which I think I wrote you about, one before the 
+                <orgName key="roundTableClub">Round Table Club</orgName>, and the other before the graduating class 
+                of the English Department of <placeName key="wellesley_college">Wellesley College</placeName>,
+                one of the largest women’s colleges here. I think time and our own efforts will land us where we
+                wish to be. But we must be awfully careful to persuade the public that we are serious, high
+                minded, and hard-working people, and not cranks. The most important thing for us is to have a
+                strong “esprit de corps,” and to think the success of one member is an honour to all. In a letter I
+                received from <persName key="fs_flint">Flint</persName> yesterday, I perceived that he was not very delighted with Fletcher’s article 
+                on me in “Poetry,” and I have written to him saying to him exactly what I am now saying to you,
+                that “esprit de corps” is necessary for any people who are working together for the good of all.</p>
+            <p>Thank <persName key="hilda_doolittle">Hilda</persName> for her nice letter, and try not to be too disappointed. After all, nobody will
+                know, because these papers have never been on sale <add place="above">before</add> in the shops to which I recommended
+                them, <del rend="strikethrough">before</del> and the shops won’t know, because they have already forgotten about my
+                suggestion. Your paper will go out through the usual channels among the people who will
+                understand it. It is only that we will not try to stimulate an artificial sale among a different kind
+                of public.</p>
+            <closer>Very affectionately,</closer>
+            <postscript>
+                <label>P.S.</label>
+                <p>Your letter and postal of the 6th and 7th of May have just come. I am delighted that <persName key="remy_gourmont">Remy de Gourmont</persName> 
+                    has written about us in “<title key="laFrance" level="j">La France</title>,” and I am very glad that somebody is defending us
+                    from Monro’s article.</p>
+            </postscript>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">Lowell paid for and kept all copies of the May, 1915 “Special Imagist Number” of The Egoist (Vol. 2, No. 4) sent for distribution in America.</note> 
+                <note target="#n2" resp="mb">Dora Marsden’s five page editorial “Truth and Reality,” about subjective and objective reality, begins the issue (65-70).</note> 
+                <note target="#n3" resp="mb">Harold Monro, “The Imagists Discussed,” The Egoist, Vol. 2, No. 4 (May, 1915), 77-80.</note> 
+                <note target="#n4" resp="mb">Lawrence’s war poem, “Eloi, Eloi, Lama Sabachthani.” Lowell might object to his comparison of the moment when a soldier kills an enemy combatant to sexual intercourse: “And I knew he wanted it. / Like a bride he took my bayonet, wanting it, . . . I have sown him with the seed / And planted and fertilized him” (75).</note> 
+                <note target="#n5" resp="mb">See AL to RA, April 24, 1915.</note> 
+                <note target="#n6" resp="mb">Michael Sadler (née Sadlier) (1888-1957), British writer, translator and publisher. Lowell references him in his role at Constable & Co. publishing firm.</note> 
+            </div> 
+        </back>
+    </text>
+</TEI>

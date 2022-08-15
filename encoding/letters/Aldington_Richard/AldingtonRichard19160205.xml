@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1916-02-05"
+                    >Feb. 5, 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$181i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of two sheets of paper with typewriting on both sides of each. There
+                        are some areas where words are scratched out with pencil and pencil is added for corrections.
+                        There appears to be a watermark on the paper, but it is unreadable under the text.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1916-02-05">Feb. 5, 1916</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>Your letter of January 18th is here, and your generosity in regard to the matter of my
+                poems gave me great pleasure. Neither <persName key="john_fletcher">Fletcher</persName> nor I have any desire to put in things which you
+                people do not like and do not want. As I have written you several times, “<title key="turnpike" level="a">Off the Turnpike</title>” is
+                definitely out of consideration. My contribution will now run: “<title key="patterns" level="a">Patterns</title>,” 
+                “<title key="springDay" level="a">A Spring Day</title>,” and “<title key="stravinsky" level="a">Stravinsky</title>."</p>
+            <p>Your feeling about the onomatopoeic lines in the “<title key="stravinsky" level="a">Quartet</title>” is unfortunate, as I am afraid
+                I cannot change them and leave the poem the kind of thing it was meant to be. I was
+                endeavouring to reproduce not only the movement, but as much as possible the sound, of the
+                music; and the wheeze and bumps to which you so strongly object were to give the effect of the
+                squealing pipes and the dissonance and jolt of the drums on another key. Read aloud, it does
+                have this affect. I suppose it is veristic, if you like, but I am afraid it is quite impossible for me to
+                confine myself within the strict Imagist tenets originally set down by <persName key="ezra_pound">Ezra</persName>. You remember that
+                last year, when we severed our connection with Ezra, we decided to become broader, and we
+                have certainly done so. In the main, I think Fletcher and I both agree with your interpretation of
+                Imagism, but we are both intensely dramatic in our work, and I think both of us are willing to
+                sacrifice some of the more astringent Imagistic rules for the sake of vividness and life. I think we
+                should, within reason, allow such variations of type, as I am sure it tends to make the movement
+                more interesting, not only to the public, but in itself as art, and I feel sure that there is in Imagism
+                something very vital and real, which can withstand differences and yet remain itself. But I think
+                that your contention that the <title key="some_imagist_poets" level="m">Anthology</title> should be kept to the more perfectly Imagistic type, as
+                much as we can do so without restraining ourselves too much, is right, and I trust that you will
+                forgive me, therefore, if I leave in the onomatopoeic lines, realizing of course that in general
+                your contention is just.</p>
+            <p><title key="images" level="m">Your book</title> has just come, and I am perfectly delighted with it. I think those coloured wood-cuts 
+                that <persName key="harold_monro">Monro</persName> puts on his books are most attractive, and I only wish that I could have a
+                book come out in that way. I am afraid I am going to have a very bad time with the “<title key="sixFrenchPoets" level="m">French Poets</title>” 
+                in <placeName key="england">England</placeName>, judging from the snippy notice in the “<title key="times" level="j">Times</title>.” This is not the moment for
+                American authors to publish in England. It is too bad that our shilly-shallying Democratic
+                government has lost us all our friends in Europe. For those of us who are heart and soul in favour
+                of the Allied cause, the situation is not only annoying in the extreme but ludicrous. However, my
+                remarks about toleration in one of my letters referred to the necessity of social intercourse, and
+                not to my opinion, as I supposed you realized. I only hope you did realize it. I should so much
+                regret any misunderstanding on that subject. The country is becoming extremely warlike, and the
+                future, I think, will depend entirely on the results of the presidential election.</p>
+            <p>I am rather sorry I pitched into you so hard about cutting <persName key="fs_flint">Flint’s</persName> <title key="frenchPoetsReview" level="a">review</title>. I was very
+                grateful to you for leaving that out about the champagne, etc., but what did annoy me was your
+                feeling obliged to put in a “so far” where Flint said: “These are the best translations of the
+                Symbolist poets;” and also, I was sorry that you left out the sentence about the reading of the
+                book being El Dorado to anyone who did not know the poets in question. It seemed to me that
+                “so far” would be naturally understood in the sentence. Everything one writes must necessarily
+                be “so far;” there can never be a final judgment, and to insist upon it I thought was unfortunate.
+                Of course, I know that both you and Flint are engaged in French translations. He is doing
+                Varhaeren, I think, and I suppose you will have many in your <persName key="remy_gourmont">Remy de Gourmont</persName> book. Then if
+                you beat me in translating, well and good. So be it. We can only all do our best, and who beats
+                the other does not really matter at all, as we are a group and all working together for the same
+                ends.</p>
+            <p>To go back to your book, I don’t wonder it sold so many copies. It is appetizing to look
+                at, and it is excellent reading. You know what I think of these poems, and in reading the proofs
+                of your American edition, I have got to like them even better. I particularly like “<title key="nightPiece" level="a">Night Piece</title>,” as
+                I think I wrote you, and I greatly approve of your leaving out the last line; I was not crazy about
+                that “posthorn of the coach of romance.” “<title key="evening" level="a">Evening</title>” is awfully good, and your referring to
+                Samain in “<title key="atTheBM" level="a">At the British Museum</title>” amused me and pleased me, showing that we were thinking
+                of the same things. But what in the name of Patience did you mean by leaving out “<title key="poplar" level="a">The Poplar</title>?”
+                Man alive, it is one of your best poems! Monro has been doing a little editing, hasn’t he? I think
+                that the American edition, although it won’t be half so attractive, will represent you better than
+                this does. I miss your “morsel left half cold on Caesar’s plate,” and I could weep over “The
+                Poplar” not being there. However, it is a pleasure to know that the books will not be exactly the
+                same, although I think this one is a triumph of book making as well as a very attractive
+                collection, only the whole of you is none to much for me.</p>
+            <p>I do hope to hear from <persName key="hilda_doolittle">Hilda</persName> soon about her poems, in answer to my last letter on the
+                subject, and then we can go right to press. We are fearfully late now, and do not forget to cable
+                about the Preface.</p>
+            <p>There is considerable discussion here about <hi rend="underline"><foreign xml:lang="fr">vers libre</foreign></hi> in all the papers. It is understood
+                very little, and I think our preface is most important to explain it to the lay reader.</p>
+            <p>By way of making things peculiarly awkward, I have just received the poems from
+                <persName key="dh_lawrence">Lawrence</persName> which he says have been returned to him from Italy. I have not had time to go through
+                them yet, but I do not see how we can take them anyway, as there is certainly not time to send
+                them over to you, and get your opinion about them. It is a shame we did not get them before, for
+                I have no doubt that there are some here that we should like better than “<title key="resurrection" level="a">Resurrection</title>.” But it
+                cannot be helped now, I really think; we shall not be out until Autumn if this goes on. He has
+                asked me to find a publisher for his poems, and I am to take them in to <persName key="">Ferris Greenslet</persName> on
+                Monday. I want him to take them for the Autumn set of the <title key="newPoetrySeries" level="s">New Poetry Series</title>, if possible.</p>
+            <p>It is hard arranging all these things at a distance, and letters are particularly difficult,
+                because you write in one mood, and I answer it in that mood, and the chance of its being the
+                mood you receive it in are slight. The result is that sometimes you sound cross and depress me,
+                and sometimes I undoubtedly sound the same way. We must just forget those things, and put it
+                down to the difficulties of distance. I think the new Anthology will be a better book than the last,
+                which is something.</p>
+            <closer>Lots of love to Hilda.</closer>
+            <postscript>
+                <label>P.S.</label>
+                <p>Here is a little clipping from the “<title key="chicagoTribune" level="j">Chicago Tribune</title>.” I suppose H.D. means
+                a skit upon Hilda. I thought you might like to see it. Parodies are one side of success, you know.</p>
+            </postscript>
+        </body>
+    </text>
+</TEI>

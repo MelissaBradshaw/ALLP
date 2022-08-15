@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1916-03-02"
+                    >March 2, 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$185i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of one sheet of paper with typewriting on both sides. At the top of the
+                        back side is “R.A.” in the left corner and the date in the right. There appears to be a watermark
+                        on the paper, but it is unreadable under the text.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1916-03-02">March 2, 1916</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>I have received your letter telling me that <persName key="fs_flint">Flint</persName> made the changes, in the <title key="frenchPoetsReview" level="a">article</title> on me,
+                himself, and I hereby apologize most sincerely for scolding you or having done it. Of course, you
+                were quite right to make Flint take out the personal remarks. I did not like them at all, and
+                regretted that I had no authority to take them out before the article was printed in 
+                “<title key="littleReview" level="j">The Little Review</title>.” I do, however, feel that Flint has shown rather poor taste, and a very slight lack of
+                psychology, by taking out praise of my book which he had originally put in, and which he knew I
+                had already seen in his first draft of the article. But I should not have assumed that it was you
+                who did it, and I am very sorry.</p>
+            <p>I am beginning to think that perhaps I made a mistake about <persName key="edmund_brown">Brown</persName>. I thought he was
+                honest, but I don’t at all like the way he is holding up <title key="imagesOldAndNew" level="m">your book</title>. And <persName key="ws_braithwaite">Mr. Braithwaite</persName> told me
+                last night he manages his affairs so badly that he practically does not get his books sold in the
+                bookshops at all, and I think I shall be obliged to take your book away. I don’t know how to
+                make it up to you. I shall do my best and see what can be done; but I really think it must be taken
+                out of <orgName key="fourSeasCo">Brown’s hands</orgName>. I am awfully sorry, and I feel very badly about it; but, of course, I
+                supposed it would be all right – though I knew he wasn’t very well off.<anchor xml:id="n1"/></p>
+            <p><title key="some_imagist_poets" level="m">Our book</title> is in the press, and they expect to bring it out the first or second week in April.
+                I think it should be very good. Please forget the things I said about your blue-penciling of the
+                article, and remember how differently things sound, coming across the Atlantic.</p>
+            <p>I am sending you a <title key="andOtherPoets" level="m">little book of parodies</title> by <persName key="louis_untermeyer">Louis Untermeyer</persName>, which I think is most
+                amusing. And I am writing <persName key="hilda_doolittle">Hilda</persName> about the royalties.</p>
+            <p>Hilda says to address you at “<title key="egoist" level="j">The Egoist</title>”, so I suppose you are leaving Hampton. Please
+                send me your new address as soon as possible.</p>
+            <closer>Affectionately,</closer>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">Aldington ultimately publishes his book, Images, Old and New (1916), with Edmund R. Brown's press, Four Seas.</note> 
+            </div> 
+        </back>
+    </text>
+</TEI>

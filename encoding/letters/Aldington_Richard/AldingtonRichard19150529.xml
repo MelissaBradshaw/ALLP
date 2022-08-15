@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1915-05-29"
+                    >May 29, 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$102i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of four sheets of paper with typing on each side of the first three and on one
+                        side of the last. On the top of each sheet (every other page), excluding the first, there is a page
+                        number in the center. There are a few areas where things are crossed out and typewriting or
+                        handwriting is added to make changes.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1915-05-29">May 29, 1915.</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>I think I have at last discovered the mystery of the books not having been received by
+                <orgName key="constable">Constable</orgName>. The sheets were shipped on the “Anglian” on the 16th of April. <persName key="roger_scaife">Mr. Scaife</persName>, who is
+                business manager of <orgName key="houghton_mifflin">Houghton Mifflin’s</orgName>, has ascertained from the Company that the “<placeName key="anglian">Anglian</placeName>”
+                reached <placeName key="liverpool">Liverpool</placeName> safely, in fact that she was due back here yesterday. But Mr. Scaife tells me
+                that he fears the delay occurred on the docks in Liverpool, as he understands that merchandise is
+                piled up all over the docks there, and delivery is dreadfully delayed.</p>
+            <p>He sent a weekend cable last Friday to Constable, requesting <persName key="michael_sadleir">Sadler</persName> to look the matter up
+                and, if necessary, to send someone to Liverpool to ferret out the sheets. He says that, if we send
+                any more, they will probably be delayed in the same way, and will certainly not reach Constable
+                so quickly as the original sheets would do. Houghton Mifflin are just as annoyed as you are
+                about it. They realize perfectly the fact that the copyright is lost, and that the delay will occasion
+                a lull in the interest about the book. It is most unfortunate, but I do not believe we can blame the
+                publishers here. It would seem to be a case of conditions in the freight service occasioned by the
+                war. But the bad thing is that Constable, with the exception of Sadler, do not seem to know
+                anything about this business. I think myself that they are the worst firm for selling things in the
+                world.</p>
+            <p>I am writing a letter to Sadler now, requesting him to do everything in his power to get
+                our book properly on the market. I do not suppose it will be as well put on as it is here, for here I
+                am paying for a lot of separate advertising myself; and that, of course, I cannot do in England as
+                Constable bought their copies of the book outright, and I no longer own them. The venture,
+                therefore, is entirely theirs as far as the English edition is concerned.</p>
+            <p>The interest here is enormous, as you will see by the clippings I am sending you. The
+                reviews are uniformly bad; but as they are written by people entirely unfitted for the task, both
+                from education and predilection, (the ordinary cheap, hack reviewer in fact,) that does not make
+                much difference. Everybody seems to be talking about it a good deal; but our sale is not any too
+                brilliant, ten copies more however since I last wrote, making 470 in all. Mr. Scaife thinks that the
+                way <persName key="ferris_greenslet">Ferris Greenslet</persName> made a mistake in the first figures was that somehow he counted the figures
+                for the rest of the series. The edition was 750. I think we stand a chance of selling the edition out
+                before the year is over.</p>
+            <p>I am sending you a beastly slam that we had in “<title key="newRepublic" level="j">The New Republic</title>,” by a man named
+                <persName key="conrad_aiken">Conrad Aiken</persName>. He was in <placeName key="london">London</placeName> last summer, 
+                I believe, and fraternized with <persName key="ezra_pound">Ezra</persName>. He writes
+                very poor poetry: old-fashioned and fearfully inverted. I cannot help wondering how much his
+                acquaintance with Ezra has influenced him in jumping on us. It is not a review – merely an
+                article out of a blue sky, and I do not believe will do us much harm. <persName key="ws_braithwaite">Braithwaite</persName> is answering for
+                it for “The New Republic.” The excuse they gave for publishing an article of that kind, when
+                they purport to be my friends, is that they wanted to open a discussion. As Aiken accuses us of
+                interpuffing I did not think that any of us could write the answer. Ferris’s tongue is tied, because
+                he publishes the book, so Braithwaite seemed the only thing, and as he is heart and soul with us
+                and was most anxious to do it, I had to take him <hi rend="underline"><foreign xml:lang="fr">faute de mieux</foreign></hi><anchor xml:id="n1"/><!-- Is this the right order of operations to show that this French phrase is underlined?? -->.</p>
+            <p>I took “<title key="egoist" level="j">The Egoist</title>” in to Roger Scaife the other day, rather hoping that he might think
+                well of distributing it; but he was just as much against the plan as Ferris was, although he thinks
+                that, if <persName key="may_sinclair">May Sinclair</persName> has really written a good article on us in the next “Egoist,” it might be well
+                to distribute that; so you had better send me <measure quantity="50" unit="copies">50 copies</measure> anyway, possibly more. I had a scheme
+                that the two numbers might be distributed together, and if I can persuade the publishers that that
+                is a wise thing to do, I will send out this May number at the same time with the June.</p>
+            <p><persName key="remy_gourmont">Remy de Gourmont’s</persName> little notice will do us a lot of good here, slight though it is. I have
+                already translated it, and portions of it are going into an advertisement; and Braithwaite will
+                quote it in his defenses for “The New Republic.” The real difficulty here is that there are no
+                prose writers who are interested enough to defend us.</p>
+            <p>Where is <persName key="ford_hueffer">Hueffer</persName>? Has he lost interest in us, or have you and he fought, or has he given
+                up writing in the “<title key="outlook" level="j">Outlook</title>?” It is an awful hard row to hoe, Richard, but I think we are getting
+                on. Certainly, we do not lack publicity now. I only long for people to get away from the freak
+                attitude toward us, and take us for the serious and earnest poets that we are.</p>
+            <p>A man named <persName key="alfred_kreymborg">Kreymborg</persName>, who used to edit “<title key="glebe" level="j">The Glebe</title>,” is getting up a little magazine
+                called “<title key="others" level="j">Others</title>.” He has written to ask both <persName key="john_fletcher">Fletcher</persName> and me for contributions. He tells me that
+                “Pound, <persName key="john_rodker">Rodker</persName>, <persName key="skipwith_cannell">Cannell</persName>, <persName key="horace_holley">Holley</persName>, 
+                <persName key="wc_williams">Williams</persName>, and <persName key="orrick_johns">Johns</persName>” have responded to his request. Ezra
+                undoubtedly is going to try to run this paper in his own way; so Fletcher and I thought it was just
+                as well to send him contributions at once, so as to <del rend="strikethrough">give</del> <add place="above">show</add> 
+                Ezra <del rend="strikethrough">a notion</del> that he could not keep
+                us out of it, so we have sent things to him. I do not know whether he has written to you yet, but if
+                I were you, I should send him some of yours and <persName key="hilda_doolittle">Hilda’s</persName> things. His address is: Alfred
+                Kreymborg, Grantwood, New Jersey.</p>
+            <p>You wrote and asked me about <persName key="guido_bruno">Bruno</persName>. They tell me that he is a little Jew, who is frankly
+                out for the money. The <persName key="albert_boni" key="charles_boni">Bonis</persName> <!-- Can I have two keys? "Bonis" refers to Albert and Charles Boni -->
+                in New York told me that his <title key="brunosWeekly" level="j">paper</title> was very poor; and I saw some
+                quotations the other day from it, which were beneath contempt; but I have never seen it myself,
+                and I do not know anything about the man. He seems to be just a fellow who thinks the other
+                young men are making some money out of the new movements, and he wants to try. If I can find
+                out anything more about him, I will let you know.</p>
+            <p>Do not forget to send me any clippings that come out about us, although I suppose we
+                cannot expect any until the book is issued in England.</p>
+            <p><persName key="margaret_anderson">Margaret Anderson</persName> is still going on, she writes me, though on what I cannot imagine. I
+                have an article on <placeName key="poetryBookshop">The Poetry Bookshop</placeName> in the current number,<anchor xml:id="n2"/> which was written to make up
+                for <add place="margin">my</add> having unwittingly hurt <persName key="harold_monro">Monro’s</persName> feelings 
+                in my “<title key="letterFromLondon" level="a">London Letter</title>.” I tried very hard not to
+                appear to praise him unduly; but I really think he deserves credit for having tried to do something
+                for poetry. His limitations are congenital, and in no way due to a commercial or narrow-minded
+                spirit, I am convinced. I am glad it did not come out until after his review, or people might have
+                thought I was trying to curry favor with him.</p>
+            <p>I quite agree with you that quiet, unsurperlative speech is the proper way to criticise; but
+                you know what Fletcher is: always extreme, one way or the other, and I cannot get him to write
+                judicially, because it is not his nature.</p>
+            <p>I am delighted to think that you will defend me in the next number of “The Egoist”
+                because, as I have repeatedly told you, I think your criticism is excellent, honest, and just. Your
+                article on Ezra was a little masterpiece of discrimination.</p>
+            <closer>Lots of love to Hilda,</closer>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">French, meaning for want of a better alternative.</note> 
+                <note target="#n2" resp="mb">Amy Lowell, "The Poetry Bookshop," The Little Review Vol. 2, No. 3 (May, 1915).</note> 
+            </div> 
+        </back>
+    </text>
+</TEI>

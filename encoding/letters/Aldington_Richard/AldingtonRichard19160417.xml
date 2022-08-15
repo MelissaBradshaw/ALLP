@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1916-04-17"
+                    >April 17, 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$199i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of three sheets of paper with typewriting on both sides of the first two
+                        and one side of the last. At the top of each page except the first is a page number in the left
+                        corner and the date on the right side underneath the margin. Every other page has “R.A.” typed
+                        in the upper right corner. There is a watermark on the paper that reads “Berkshire Linen U.S.A.” There is also
+                        a Certificate of Issue dated April 20, 1916 that comes from the State Street Trust Co. in
+                        Boston, MA. It is issued for cheque number 1359 and says “on London for F 2-1-6”. The
+                        amount is for ten dollars. The certificate appears to have an orange wave pattern on the paper
+                        and has two perforated edges, the left and bottom sides. On the back side of this certificate is
+                        a hand-written note reading, “To Richard Aldington, Esq. First $10 on acct. royalties from
+                        E.R. Brown.”</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1916-04-17">April 17, 1916</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>I received your nice long letter this morning, and very glad indeed I was to get it. It is
+                ages since I had heard from you or <persName key="hilda_doolittle">Hilda</persName>, and I began to think you had both died!</p>
+            <p>I am having a hard time to get that money out of <persName key="edmund_brown">Brown</persName>, as you thought I should
+                have. As I told you in my last letter, I finally had to resort to my lawyer, who in this case was
+                my <persName key="william_putnam">brother-in-law</persName>. As he failed to produce anything, on my return from <placeName key="Chicago">Chicago</placeName> I took the
+                matter again into my own hands, with the result that Brown expressed his willingness to pay
+                as soon as he could, and sent me <measure type="currency" num="10">ten dollars</measure>, which I have turned into an English draft and
+                am sending you enclosed. I shall get the other twenty out of him in time, I have no doubt; but
+                it takes a little time, for the boy is not only unbusinesslike, but very poor.<anchor xml:id="n1"/></p>
+            <p>It was awfully sweet of you to mind <persName key="johnMiddletonMurry">Middleton Murray’s</persName> article in the <title key="dailyNews" level="j">Daily News</title>
+                and the <title key="times" level="j">Times</title>, against “<title key="sixFrenchPoets" level="m">Six French Poets</title>”. I had already gathered that they were the same
+                man, from the similarity of the remarks and style. Some of the English criticisms have been
+                good, like the “<title key="observer" level="j">Observer</title>” and the “<title key="newWitness" level="j">New Witness</title>”; others have been bad. But one and all
+                have accorded me really a great deal of space, and the English consignment of <measure quantity="250" commodity="copies">250 copies</measure>
+                was sold out almost immediately and another consignment sent for. The entire first edition
+                has gone, the book has been out of print for a month, and we are rushing ahead a second edition as
+                fast as possible. But the numerous printers’ errors in the first edition has made the
+                revising of this second one extremely arduous, and I do not think it will be on the market yet
+                for a couple of weeks, at any rate. I will send you one as soon as it comes out, because I
+                would rather have you have a correct copy than the singularly incorrect one you have now.</p>
+            <p><persName key="theodore_stanton">Theodore Stanton</persName>, who writes the American Rubric in the “<title key="mercureDeFrance" level="j">Mercure</title>”, has come to
+                America on account of the war, and I spent an hour and a half with him the other day in 
+                <placeName key="nyc">New York</placeName>. He is an amiable old gentleman, rather weak, and I believe he means to keep up with
+                the movements of the day. I told him our sorrows in regard to <persName key="remy_gourmont">Remy de Gourmont</persName>, and how I
+                feared it might affect the article in the “Mercure” which he had promised you to get in. I do
+                not think Mr. Stanton has any authority to get things in or take things out, but he was very
+                much interested, and asked me to send him copies of all three of the “<title key="some_imagist_poets" level="s">Imagist Anthologies</title>”,
+                as he wanted to put a notice about them in the “Mercure”. He is only allowed such a small
+                space that he cannot say much in his notices except a mere statement – but I thought a
+                statement was better than nothing.</p>
+            <p>The new “<title key="some_imagist_poets" level="m">Anthology</title>” is coming along very well. They expect to have it out on the 29th
+                of April. I have already corrected the proofs, and if they do not delay fearfully, it should
+                be on the market by that time.</p>
+            <p><persName key="john_fletcher">Fletcher</persName> was in New York the other day when I was, and saw quite a little of
+                <persName key="alfred_kreymborg">Kreymborg</persName>. He feels exactly as I do about it – we think there is very little future for that
+                crowd, and we are very glad that we withdrew ourselves from “<title key="othersAnthology" level="m">Others</title>.”</p>
+            <p>I am through my lectures for this year, and am about to settle down and write steadily,
+                as <title key="menWomenGhosts" level="m">my new book</title> is coming out next Autumn.</p>
+            <p>You sound very cozy in your cottage, but I should think it might be a bit lonely. But
+                then, I confess to being a city dweller myself – or a suburban dweller, as I am. I do not like
+                the real country for any length of time.</p>
+            <p>Fletcher has decided that <placeName key="boston">Boston</placeName> is far the best city in America to live in, and seems
+                to have taken up his abode here very pleasantly. His new book will be out the same day as
+                the “Anthology”.</p>
+            <p>Why isn’t <persName key="ferris_greenslet">Ferris Greenslet</persName> publishing your “Solugob” translation? I thought he
+                seemed inclined to take it when I spoke to him about it, but he said he was in correspondence
+                with you, so I did nothing farther. Now somebody tells me that it is to be issued by <orgName key="knopf">Knopf</orgName>.
+                How stupid <orgName key="houghton_mifflin">Houghton-Mifflin</orgName> is, and what a number of opportunities they let go! Greenslet
+                has absolutely spoiled his <title key="newPoetrySeries" level="s">new poetry series</title> by putting in everything – whether good or 
+                otherwise – for which the authors were willing to pay; with the result that the thing has no
+                prestige as a series whatever.</p>
+            <p>I have seen the manuscript of <persName key="harriet_monroe">Harriet’s</persName> “<title key="newPoetryAnthology" level="m">Anthology of New Poetry</title>”, and I think she is
+                going to have a very good volume there. Though it is not in all respects what I would have
+                chosen, still it is excellent.</p>
+            <p>I get so homesick for you and Hilda sometimes that I really don’t know what to do. It
+                seems a thousand years since I have been in <placeName key="london">London</placeName>, and Fletcher and I have often said what
+                we would not give to see you both. If it were not for Fletcher I should go crazy. He is the
+                only person here with whose work I am in sympathy. With the others it is always making
+                allowance in speech, trying to put oneself into their point of view for a moment. But Fletcher
+                and I keep each other going. We have had some rather nice experiences lately; among others,
+                one of the <placeName key="harvard">Harvard</placeName> boys has written a long thesis on “Imagism” as his candidate’s essay for
+                the Bowdoin English Literature Prize – and that’s something. Fletcher has seen a copy of it,
+                which <persName key="conrad_aiken">Aiken</persName> had, and says it was excellent. We do not know who the boy is, as these are
+                submitted anonymously, but I am going to find out through my brother. He quoted a lot of
+                my ideas, which I gave in my address to the boys out there this Winter, so I suppose he was
+                in the audience. But it all proves we are getting ahead. Sometimes I get awfully discouraged,
+                but I don’t suppose that is really necessary.</p>
+            <p>Who is <persName key="georges_turpin">Georges Turpin</persName>? He says he is a paroxyate, and sent me a book of his the
+                other day. It is valuable to me chiefly because I did not know that my name was known at all
+                in <placeName key="paris">Paris</placeName>; although Mr. Stanton’s little notice of the 
+                “Six French Poets” perhaps helped a little.</p>
+            <p>Please tell Hilda that rather an unfortunate thing has occurred because she sent
+                Harriet a poem of hers – “<title key="shrine" level="a">The Shrine</title>” – to print, and Harriet was accepting it, but in her
+                usual dilatory fashion, she had not accepted it when I was in Chicago, and I informed her,
+                with much regret, that the poem was in the forthcoming “Anthology”. She says she never
+                received it until March, so I suppose Hilda must have got mixed as to what she had sent to us
+                and what she was sending Harriet. I was awfully sorry to rob Hilda of the chance of selling it
+                to Harriet, but it was too late for Harriet to print it before the “Anthology” came out, and we
+                were already in the press. I tried to make Harriet take “<title key="pearTree" level="a">The Pear Tree</title>”, which was the only
+                one of Hilda’s poems which had not been published which I had the manuscript of; but she
+                thought she would rather ask Hilda to send her something else along the lines of “The
+                Shrine”. It is too bad it occurred this way!</p>
+            <p>Let me know how you get on, and don’t leave me so long in silence – it will make me
+                feel as though a planet had come along and chipped you off from the earth; don’t you
+                remember Jules Verne’s story?</p>
+            <closer>
+                <p>Lots of love to you both.</p>
+                <p>Affectionately,</p>
+            </closer>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">Aldington ultimately publishes his book, Images, Old and New (1916), with Edmund R. Brown's press, Four Seas.</note> 
+            </div> 
+        </back>
+    </text>
+</TEI>

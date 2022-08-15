@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1915-06-23"
+                    >June 23, 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$117i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of six sheets of paper with typing on both sides. At the top of each sheet
+                        (every other page) is a page number. There are some places where edits have been added in
+                        pencil.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1915-06-23">June 23, 1915.</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>Your letter came yesterday and was a perfect delight to get. It makes me very happy to
+                feel the staunch friendship which you and <persName key="hilda_doolittle">Hilda</persName> have for me; and you must realize by this time
+                how absolutely it is returned. I almost wept at the idea of your doing a portrait of me for the July
+                number. I shall appreciate it very much. I am awfully glad that you have taken Hilda down to the
+                country. Don’t let her do too much. So many women go to pieces because they get up too soon. I
+                wish to Goodness I could see you. A year ago to-day I sailed, and now that the time comes
+                around, I cannot bear to think that I am going to lose my summer with you. I am only hoping this
+                terrible war will be over, and I can surely go another year; and I am still hoping that you
+                and Hilda will take a trip over to America and see things with your own eyes.</p>
+            <p>You do not answer a thing about whether there is any possibility of your coming and
+                trying the translating job. <persName key="carl_engel">Mr. Engel</persName>, who is the one that suggested it and who is in the 
+                <orgName key="bostonMusicCompany">Boston Music Company</orgName>, asked me the other day whether I had heard anything definite from you. I think,
+                if you chose to come and take it, you could hold it as long as you pleased and make a good
+                income out of it. But, then, as you may, you are making a little hold in <placeName key="london">London</placeName> with 
+                “<title key="egoist" level="j">The Egoist</title>,” and I do not know what to advise. Only tell me something to reply to them.</p>
+            <p>I have the best news to give you with regard to the <title key="some_imagist_poets" level="m">Anthology</title>. It seems to be attracting a
+                lot of notice. <persName key="ferris_greenslet">Ferris Greenslet</persName> told me to-day that “<title key="townAndCountry" level="j">Town and Country</title>,” in a review of another
+                book, had said that three important things had happened this year: the European war, 
+                “<title key="newRepublic" level="j">The New Republic</title>,” and Imagist Poetry. And he says the sale is going on steadily at the rate of about five
+                copies a day. That is very good for this kind of a book, I think, and I am delighted to think that 
+                in clinging to me so splendidly as you have done, you have not lost in the selling line anyway.</p>
+            <p><persName key="harriet_monroe">Harriet</persName> has written Greenslet a letter, complaining that we did not mention “<title key="poetry" level="j">Poetry</title>” in
+                our preface,<anchor xml:id="n1"/> and I have sent her the enclosed letter in answer. I do believe we shall have to
+                mention “Poetry” in the preface of the next number.</p>
+            <p>And by the way, we ought to be getting that next number together, or rather thinking
+                about it. We ought to have the thing all made up by December or January. I advised waiting as
+                long as possible before collecting our things, so that we can all have more to choose from, and I
+                think the best way would be for you to gather in the English things and send them to me, and I
+                will gather <persName key="john_fletcher">Fletcher’s</persName> and mine and send them to you; and then if you object to any of mine, or I
+                object to any of yours, we can try again on the disputed poems. Of course, all that will take some
+                little time so I think it would be well for us to begin, and try to get our first batches over to each
+                other by the first of December. Of course, if you decide to come over here, it will be much easier
+                for us, and we can do it all by word of mouth as we did last year.</p>
+            <p>I am not at all surprised at what you tell me about <persName key="ford_hueffer">Hueffer</persName>.<anchor xml:id="n2"/> He has disliked me from the
+                first. I believe him to be a perfectly unreliable person and, of course, I knew his feeling toward
+                me when he did not review me for the “<title key="outlook" level="j">Outlook</title>.” In fact, I have really always known it. It won’t
+                make any difference; we have got beyond needing his help. But the way you stuck to our
+                agreement through thick and thin is magnificent, and I am awfully grateful to you.</p>
+            <p>I wish <persName key="michael_sadleir">Sadler</persName> would send me a copy of his novel.<anchor xml:id="n3"/> Greenslet says it is no good, and
+                that they refused to publish it over here; but, of course, this is in confidence.</p>
+            <p>It is fine about the <title key="british_weekly">British Weekly</title>, and good about Kournos. There is a little poetry
+                magazine here called “<title key="poetryJournal" level="j">The Poetry Journal</title>.” It has been very poor, but they have just got
+                themselves re-endowed and have started again. What makes me doubt about it is that 
+                <persName key="blanche_wagstaff">Miss Blanch Shumaker Wagestaffs</persName> [sic] (you remember you had a book of hers to review last year) is one
+                of the editors and the chief backer, I believe. But they have asked Fletcher and me to send them
+                some things, and we have each done it; and if you care to send them any, I think they would be
+                delighted to receive them. The address is: <placeName key="studioBookshop">Studio Book Shop</placeName>, 68 Pemberton Sq., <placeName key="boston">Boston</placeName>. Or you
+                can do it through me, if you had rather. <persName key="edmund_brown">Brown</persName>, who has the Studio Book Shop and is the man
+                who wrote <persName key="harriet_weaver">Miss Weaver</persName> subscribing for several copies of “The Egoist” to carry in stock, is
+                interested in “The Poetry Journal.” He is also making a collection of autograph copies of the
+                books of all the poets he can get hold of, and he has written to ask me for your address and that
+                of various other people, and I have given it to him.</p>
+            <p>As for the <title key="academy" level="j">Academy</title>,<anchor xml:id="n4"/> thank you for taking such a lot of trouble to find out if it was any
+                good. I do not believe in taking hold of a broken-down magazine and trying to bring it up,
+                anyway. A new thing, even a little thing, would be better than that. If you were over here, and
+                could be the editor, it might be worth while to see what money we could raise to get up a small
+                paper, but I made a lot of inquiries here, and everybody tells me that, unless you include politics
+                and sociology, there is no chance of any paper living. I thought that <persName key="may_sinclair">May Sinclair’s</persName> article was
+                excellent, and I shall certainly send round those copies as soon as I get them. They have not
+                come yet.</p>
+            <p>I telephoned in to Ferris as soon as I got your letter about the <persName key="henri_deRegnier">de Régnier</persName> stories. He tells
+                me he has written you direct, so I won’t mix up with that.</p>
+            <p>I think your idea of printing poetry of the younger Frenchmen is most excellent. Harriet
+                ought to want some, but you know what she is like. If you want to send me some and have me
+                send them on to her, I will; but I should think you could communicate with her as well as I. I
+                certainly have no more pull with her than you have.</p>
+            <p>There is not the slightest doubt that we are getting on and getting on excellently. The
+                head of the English Department asked me to come out to <placeName key="wellesley_college">Wellesley</placeName>,<anchor xml:id="n5"/> one of our largest women’s
+                colleges, and give them a talk on “The New Manner in Modern Poetry.” I tried to be very
+                eclectic and took all the poets who were any good, and brought Imagism in at the end. I read a
+                couple of poems each of yours and Hilda’s, and they were immensely li`ked. I hear the very
+                nicest accounts from Yale. Apparently some members of the English department are interested. I
+                have a poem in the “<title key="yaleReview" level="j">Yale Review</title>” this month. It is a quarterly, and is supposed to be the best
+                magazine in the country. And they have written and asked me to send another, and <persName key="sophie_hart">Miss Hart</persName> has
+                asked me to give another talk at Wellesley next year. Also I am to talk before the <orgName key="nyPoetrySociety">New York Poetry Society</orgName> 
+                upon Imagism and <hi rend="underline"><foreign xml:lang="fr">vers libre</foreign></hi> in November. They are getting up a little <orgName key="poetsClub">poetry club</orgName>
+                here, consisting of nothing but poets, to meet once a month, and chat and rub up against each
+                other. Several people came and asked me to be president, so as to jolt it out of the academic hole
+                in which these things usually flounder. I hate that kind of thing, but it seemed to me that it might
+                be a means of inoculating people, so I took the job.<anchor xml:id="n6"/> Fletcher is a member because, although he
+                has gone out to his family now, he expects to be back next Autumn. So you see, things are really
+                walking along.</p>
+            <p>My book on “<title key="sixFrenchPoets" level="m">Six French Poets</title>,” being my lectures done over, is being brought out by
+                <orgName key="macmillan">Macmillan</orgName> this Autumn. They are doing it very nicely, with portraits of each author and
+                complete bibliographies. The only trouble is that they insist upon my translating all the poems I
+                quote in an appendix. Of course, I am making prose translations; but as there are about 150 of
+                them, it is a chore. Still, I think about the book ought to do us all good, because it will show that
+                we are serious and sensible people, and not mere freaks. I am going to mention <persName key="fs_flint">Flint</persName> and his
+                admirable work for French poetry in the preface, he was so kind to me last year in helping me to
+                books, etc. His letter was a little patronizing, but I forgive him.</p>
+            <p>I am sending you <persName key="ws_braithwaite">Braithwaite’s</persName> answer to <persName key="conrad_aiken">Conrad Aiken’s</persName> 
+                article in “The New Republic.” I do not think it is half bad. Braithwaite brings out an <title key="magazineVerse" level="m">Anthology</title> of magazine verse every
+                Autumn. It has been pretty rotten up to date, but it has an immense circulation, and now
+                that he has jumped heart and soul into our cause, he says he is going to make a feature of Imagist poetry
+                and write a lot out it in his preface.</p>
+            <p>Don’t worry a bit about our quarrelling. We have been through a lot and have stuck like
+                glue, and if we continue to stand shoulder to shoulder, I believe we shall get ahead splendidly.</p>
+            <closer>Ever so much love to you both,</closer>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">Some Imagist Poets, 1915.</note> 
+                <note target="#n2" resp="mb">Aldington's November 25, 1914 letter to Lowell described his own falling out with Ford Madox Hueffer and warned that "his sentiments for you are not quite as noble as he professes."</note> 
+                <note target="#n3" resp="mb">Michael Sadleir's novel Hyssop: A Novel was published by Constable, 1915, and contrary to Ferris Greenslet's comment to Lowell, an American edition came out the following year through Brentano.</note> 
+                <note target="#n4" resp="mb">The Academy and Literature, formerly The Academy (1869-1902) was a British cultural magazine. It changed hands and titles many times during its run, and had three editors in 1915 alone, before closing.The publication was kept alive as a dummy magazine so that it could maintain rights to the name and was eventually absorbed into Lord Alfred Douglas's magazine Plain English in 1920 (Douglas had been editor between 1907-1910.</note> 
+                <note target="#n5" resp="mb">Sophie Chantal Hart (1868-1948) was an American educator. A professor of composition at Wellesley College, she served as Head of the English Department from 1906-1936.</note> 
+                <note target="#n6" resp="mb">Lowell was the first president of the New England Poetry Club, which started in May, 1915.</note> 
+            </div> 
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1916-03-25"
+                    >March 25, 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$190i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of three sheets of paper with typewriting on both sides of each. At the
+                        top of each page except the first there is “R.A.” and the page number in the left corner and the
+                        date in the right corner. There is a watermark on the paper that reads “Berkshire Linen U.S.A.”
+                        Following the document of the letter are three delivery receipts. Each is the size of 1/3 sheet of
+                        paper. The first is perforated at the top and bottom, the second is torn at the top with a jagged
+                        edge, and the third has a jagged edge on both the top and bottom. The first receipt is for Letter
+                        Parcel number 14833. “Fenway Station” is stamped on the P.O. (post office) line. The writing on
+                        the receipt, in pencil, is difficult to read, but it appears to say that it was received for registration
+                        by “Lowell, Heath St.” The “addressed to” says Richard Aldington, Paracombe [illegible]
+                        Devon, Engl. The signature over “To addressee or order” is illegible. The second receipt is for
+                        Letter Parcel 15688, also from Fenway Station. The recipient is, again, Lowell, Heath St., with a
+                        word after “St.” that starts with B. The addressee is Richard Aldington, Esq, North Devonshire,
+                        Eng, Garcombe. The third receipt does not have a legible number, though it ends with “203.”
+                        The date appears to be April 20th (4-20). The recipient is “A. Lowell, Heath St.”
+                        The addressee is R. Aldington, Paracombe Engl.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1916-03-25">March 25, 1916</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>I am sorry to say that <persName key="edmund_brown">Brown</persName> did not pay up on the 15th, as he agreed to do. As I told
+                him that I should put the matter into the hands of a lawyer if he did not pay on that day, I put
+                it into the hands of my <persName key="william_putnam">brother-in-law</persName>, with the very unsatisfactory result that he reports, after
+                investigation, that Brown’s business is mortgaged, so that it is almost impossible to get
+                anything out of him, and the property cannot be attached on this account, apparently. We
+                have forced him to engage a lawyer to defend himself, which is something; but, of course,
+                there is no use carrying it into court, as it would merely run him into bankruptcy – which
+                would be only a name, as he has nothing to lose by going bankrupt – and he could start
+                business again under another name. Will does not at all advise suing him, therefore, but
+                thinks that we shall get the thirty dollars that he owes you before very long, as Brown’s
+                lawyer says he has some assets which will come in shortly.</p>
+            <p>I am enclosing a power of attorney which Will has given me, because whatever I do
+                or say, Brown replies that he has had other instructions from you; and, of course, for two
+                people to do business with any results at this distance is impossible. If I am to consider
+                myself your agent in regard to your American affairs, I must be able to make myself obeyed
+                by the publishers, and I cannot do that legally without a power of attorney. If, on the other
+                hand, you do not wish to sign this power of attorney (which, it seems to me,
+                you very possibly may not), I think it would be best for you to do all your business yourself by letter.
+                But I appreciate the almost impossibility of doing this at such a distance, and with the mail in
+                such a condition as it is between here and <placeName key="England">England</placeName>; and I shall be perfectly delighted to act as
+                your agent in every instance that you desire, but I must have this power of attorney.</p>
+            <p>Here is another instance: when you wrote to <persName key="john_fletcher">Fletcher</persName> that if we had withdrawn our
+                poems from <persName key="alfred_kreymborg">Kreymborg’s</persName> <title key="othersAnthology">Anthology</title> you would like to have yours withdrawn also, Fletcher
+                and I talked it over together and decided that it would be better for me to write to
+                Kreymborg, rather than for him to do so. I therefore wrote to Kreymborg, saying that you had
+                sent instructions that if we had withdrawn our poems you wished to have yours withdrawn
+                also. I have just seen a review of Kreymborg’s Anthology in which they speak of a poem of
+                yours. I feel sure that Mr. Kreymborg would have obeyed my orders had he not received a
+                later letter from you giving him different ones, - a letter which you presumably wrote without
+                knowing what we had done about the matter. If I knew whether you had written or not, I
+                could take some steps in the matter. If I had this power of attorney I could prevent the
+                publication of that Anthology until a new edition could be got out without your poems. As it
+                is, I can do nothing without knowing how you have acted in the matter. It is a fearful
+                business running anybody else’s affairs! I try to do the best possible thing I can, and
+                what I think you would like to have me do; and, of course, I very often don’t succeed.</p>
+            <p>Brown has certainly been an awful mess; but <title key="imagesOldAndNew" level="m">the book</title> is out.<anchor xml:id="n1"/> I have a copy here, and I
+                suppose he sent you one. I will try and find out whether he has or not, and if not, get you one
+                and send it. It is not as attractive as the English edition, but it is not at all bad, and I am
+                delighted to have it on the market, as long as we can not stop its publication. And I don’t
+                really know that if we stopped the publication it would be of any advantage. You may sell a
+                few copies here, even through Brown, although I believe his financial affairs are such that his
+                publications are not handled generally by booksellers.</p>
+            <p>I am most sincerely sorry that I got you in for all this, but nobody spoke of Brown as
+                dishonest at the time I suggested his writing to you about our book, and now everybody
+                speaks of him as dishonest; and there you are!</p>
+            <p>I think in working for your interests here (if you decide to entrust them to me), it
+                would be better to leave them entirely in my hands, and not write some of your instructions
+                to Fletcher. It is quite impossible to say how long Fletcher will remain in this part of the
+                country, although I am delighted to say I think he is quite settled down here and seems to
+                enjoy himself. But even as it is, he acts on his part, and I act on mine, and you act on yours,
+                and the situation is quite impossible, from a business point of view. Fletcher is not very
+                practical, although full of enthusiasm and energy, and I often have to act as a go-between
+                between him and editors here – or, rather, I have to straighten out unfortunate situations
+                which his impetuosities create for him.</p>
+            <p>Now, as I said before, if you prefer to run all your own affairs, do not hesitate to tell
+                me. I cannot say that I think I have made a brilliant success of your affairs so far, but you can
+                be quite sure that that is not from want of trying. Only, I should like some definite
+                instructions from you as to whether I am to consider myself your legal agent, with power of
+                attorney, or not. If the former, I should, of course, have the power to sign contracts and
+                manage your affairs as I should my own, - collect your royalties and transmit the money to
+                you as I do on the “<title key="some_imagist_poets" level="s">Imagist Anthology</title>”. If I am not to be your agent, I think it would be
+                better to have all this work sent direct to England, with the exception, of course, of the
+                “Imagist Anthology”, as I am the holder of the contract for that work, and it is in my name. I
+                think the method that has hitherto pertained should be adhered to under all circumstances.</p>
+            <p>Fletcher tells me that he wrote you in regard to the little notice of courtesy which we
+                have been obliged to put in the “<title key="some_imagist_poets" level="m">Anthology</title>” for <persName key="harriet_monroe">Harriet Monroe</persName>. Miss Monroe was very
+                much upset last year at not being specially referred to in our Preface. She considers that she
+                gave the movement its first start – and I think we must admit that she did. I have just been in
+                <placeName key="chicago">Chicago</placeName>, lecturing, and I saw Miss Monroe and told her that we were, none of us, 
+                overpleased with the way she was treating us now; that we did not consider that she
+                published us enough, nor did we consider that she mentioned us enough in her editorials. I
+                think I made some little impression, but not as much as I could wish. Talking to Harriet is a
+                good deal like trying to dent a Scotch mist.</p>
+            <p>Last year, when she wrote to us, she was in an especially annoyed frame of mind; and
+                in order to appease her wrath, which <persName key="ferris_greenslet">Ferris Greenslet</persName> seemed to think was extremely worth
+                appeasing, he strongly advised me to promise to put some notice of her into the Preface of
+                this “Anthology”. I should have told you at the time, but I am afraid it slipped my mind. This
+                Preface being all written, Fletcher and I decided that it would be impossible to put the notice
+                in the Preface. We therefore have incorporated a short paragraph among the
+                acknowledgements. As I told you, the book had to go to press, and there was not time to
+                consult you when I remembered it, and the matter was so trifling, I did not think that you
+                would mind very much. But I certainly will try to be more business-like in future, and not
+                commit my fellow-Imagists to anything without their consent.</p>
+            <p>My lecture in Chicago was called “The New Poetry, With a Special Reference to
+                Imagism”, and was given in <persName key="maurice_browne">Maurice Brown’s</persName> [sic] <orgName key="littleTheatre">Little Theatre</orgName>. 
+                He is <persName key="harold_monro">Harold Munro’s</persName> [sic] brother-in-law. The auditorium is small, but it was crammed to overflowing, with people in
+                the aisles, in defiance of the police regulations; and, as it was, they had to turn a hundred
+                away from the door, as there were no seats for them. The interest aroused was really quite
+                extraordinary. I read selections from all of us, and I think it should distinctly help the sale of
+                the new “Anthology” and of your book.</p>
+            <p>I am sending you a rather amusing <title key="andOtherPoets" level="m">book</title> of <persName key="louis_untermeyer">Louis Untermeyer’s</persName>, in which appear a
+                number of parodies. They come out in the <title key="newYorkTribune" level="j">New York Tribune</title>, and, I think, will amuse you. I
+                am sorry that none of you appear in the parodies, but at the time he wrote them I did not
+                know him, and so was not able to read you and read you to him and impress upon him that
+                we should be represented in any book of the sort. I think he only took me because of my
+                Polyphonic Prose, which it amused him to do. In fact, we made acquaintance originally over
+                this parody, which he sent to me with an apology. It is an extremely clever book, and, I am
+                sure, will amuse you and <persName key="hilda_doolittle">Hilda</persName>.</p>
+            <p>Please give a great deal of love to Hilda, and please write soon. I miss your letters
+                very much, and I have not heard from either you or Hilda for a long time.</p>
+            <p>I returned from Chicago this morning, and Fletcher tells me he understands our
+                “Anthology” is not to be out until the 13th of April. They have certainly sent me no proofs
+                yet, which is most annoying.</p>
+            <closer>With a great deal of love to you both,</closer>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">Aldington ultimately publishes his book, Images, Old and New (1916), with Edmund R. Brown's press, Four Seas.</note> 
+            </div> 
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1915-12-30"
+                    >Dec. 30, 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$152i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of five sheets of paper with typewriting on both sides of each. At the
+                        top of each new sheet is a heading, with “R.A.” and a page number on the left and the date on the
+                        right. There are a few places where words have been scratched out or inserted, and there appears
+                        to be a faint, illegible watermark on the paper.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1915-12-30">Dec. 30, 1915.</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>Thank you very much for your copy of the <title key="poetsTranslationSeries" level="s">Renaissance poems</title>,<anchor xml:id="n1"/> and please thank <persName key="hilda_doolittle">Hilda</persName>
+                for her “<title key="iphigeneia">Choruses from Iphegeneia</title>.” I am delighted to have them, only I wish you had written in
+                them, and not merely signed them. You must write in your book for me, will you?</p>
+            <p>I went through your proof on Sunday, and it is just as well I did, for there were several
+                quite bad mistakes: one whole line was left out, one word was wrong, and one title was left out
+                in the table of contents, besides various minor mistakes. I have sent them to Brown with a note,
+                requesting that I <del rend="strikethrough">may</del> be allowed to see the proofs again after they are corrected, for I wish to do
+                everything in my power to get your book quite right. It looked very well, I thought, in print,
+                especially the one (whose names I have forgotten) with a little golden cock pecking at the blue
+                wheat-fields of the sky. It is rather funny, in the Christmas number of the “<title key="century" level="j">Century</title>” I spoke of a
+                golden cock with his mouth open.<anchor xml:id="n2"/> I did not put it as prettily as you did. I said a little piece of the
+                sky was wedged in his beak; but it shows that we both have been impressed by that gesture of
+                weathercocks. My poem was written last Spring, long before I saw yours, and you have never
+                seen mine, which makes the unconscious plagiarism amusing.</p>
+            <p>I have sent three of Hilda’s poems to “The Century:” “<title key="pearTree" level="a">Pear-tree</title>,” “<title key="contest" level="a">The Contest</title>,” and
+                “<title key="seaGods" level="a">Sea Gods</title>.” I Had a note from <persName key="william_benet">Benét</persName> yesterday, saying that they should have his <add place="above">immediate</add>
+                attention. I hope they will take them, for “The Century” pays very well, but I am a little bit
+                doubtful, they are so queer about the things they take and the things they don’t.</p>
+            <p>I had a letter from <persName key="margaret_anderson">Margaret Anderson</persName> the other day, and she asked me to send her some
+                poems of yours and Hilda’s, saying that you had authorized her to ask for them. I sent her your
+                “<title key="bloomsburySquare" level="a">Bloomsbury Square</title>” and “<title key="epigram" level="a">Epigram</title>,” and 
+                Hilda’s “<title key="lateSpring" level="a">Late Spring</title>” and “<title key="night" level="a">Night</title>.” I hope that this
+                will meet with your approval.</p>
+            <p><persName key="ferris_greenslet">Ferris Greenslet</persName> is making me very miserable by requesting the manuscript of the
+                <title key="some_imagist_poets" level="m">Anthology</title> as soon as possible. He now says he wants it by the end of January. I told him I did
+                not see how we could have it as soon as that, and we were still to hear from England about some
+                of the things. I have received two poems from <persName key="dh_lawrence">Lawrence</persName> this morning. I suppose you have seen
+                them; but as you did not mention them, and as he says he is leaving Hampstead at once, I am
+                enclosing copies. Of course, they are neither of them Imagist poems, that is the truth of the
+                matter. He writes a very nice letter, and says he knows he is not an Imagist, and he will not mind
+                in the least if we turn them down, but I do not think, with this row about Lawrence in England,
+                that we can turn them down. They have none of the objections that his work sometimes has, as
+                you know, and I think “<title key="erinees" level="a">Erinees</title>” is really a very fine thing, although I think the end is a little
+                weak. The other is just a bit too vague and cosmic for me, as I suppose it is for you too. Of
+                course, there are only two, but he says they are the only ones he has which we can possibly want.
+                If you know any differently, I wish you would make him add others; but these are fairly long,
+                and will certainly take up as much space as he is entitled to. Send me a line, telling me that the
+                rest of you approve, and I will put them in.</p>
+            <p>I am enclosing some poems of <persName key="jean_untermeyer">Mrs. Untermeyer’s</persName>, which I am very anxious for you to
+                see. She is very new at the business, as I wrote to you in my last letter, but I think these poems
+                show good possibilities, and there is a feeling, a personality, in her verses which is perhaps more
+                visible to a woman than to a man but which I personally think unusual and very beautiful; and I
+                think Hilda will agree with me. Most of these poems have been accepted by magazines over
+                here. On account of her husband, who is very well known, she has the inside track with a number
+                of papers. But the last one, “<title key="clothes" level="a">Clothes</title>,” has not been printed, and I have asked for it for 
+                “<title key="egoist" level="j">The Egoist</title>.” Of course, I told her that I had no right to accept poems for “The Egoist,” but I feel sure
+                that you will want to print it. I also asked her whether she would be willing to go into the
+                Anthology, if we did put in any extra people another year; in other words, whether she was
+                willing to subscribe herself an Imagist, and she is very willing, I think delighted. As I
+                told you before, it is not only a good thing to have her on our side on account of her own work, in which I
+                personally recognize a high quality, but because her husband is one of the most enthusiastic and
+                hard-working critics we have, and he himself is improving daily.</p>
+            <p>I cannot remember whether I sent you <persName key="ws_braithwaite">Braithwaite’s</persName> <title key="magazineVerse" level="m">Anthology</title> or not, so I am sending you another copy in
+                case I did not. I think you will think <persName key="louis_untermeyer">Untermeyer’s</persName> “<title key="laughters" level="a">Laughters</title>” a fine thing. He writes for 
+                the “<title key="chicagoEveningPost" level="j">Chicago Evening Post</title>.” He has a regular position there, as poetry
+                critic; and to have his wife so obviously one with us at heart is certainly affecting his opinion of
+                us in every way. I would not, of course, suggest your printing of one of her poems merely to get
+                her husband’s good will; but both Fletcher and I think this poem, “Clothes,” excellent. But you
+                understand that, if you do not like it, you are under no obligation to accept it.</p>
+            <p>It is awfully nice of you to want me to send you an article and some of my poems for
+                your February number. I have not been able to have the photograph taken yet, and I am
+                dreadfully afraid I cannot have it taken in time for that number. The pressure of work here is
+                something terrific. I am doing all I can, but I have not been able to do that, so I am afraid you 
+                will have to go to press without my picture. Perhaps it is just as well, for I cannot think that my
+                picture will be any gain to me.</p>
+            <p>I was immensely interested in the letters from the man in the German war prison in your
+                last number.<anchor xml:id="n3"/> It makes me feel more than ever that “The Egoist” is having an effect.</p>
+            <p>I will send over some poems for your February number. “<title key="dinnerParty" level="a">The Dinner Party</title>” is, of course,
+                one poem; and if you accept that, you will not need the shorter ones. But I am sending four short
+                ones, in case you do not like “The Dinner Party,” and you can print the little ones as a group. IF
+                you want to take “The Dinner Party” for this February and put the others in later, you are
+                welcome to do so. If you do not want them, either all or sundry, send me back whatever you
+                discard.</p>
+            <p>Fletcher has written a preface for the Anthology. I am afraid it is too long and too erudite.
+                He is going to bring it out on Sunday, and we will work over it together, and get it off to you
+                next week. You are then to make any changes or alterations you want, and send it back again.
+                The time is getting awfully short, so do hurry, as Greenslet says the latest he can possibly have it
+                is the first of February.</p>
+            <p>You say nothing about my poem, “<title key="turnpike" level="a">Off the Turnpike</title>,” which I sent to you sometime ago.
+                Do you approve, or don’t you? The poem is under consideration at “The Century,” and if you
+                like it, and if they accept it, I must make arrangements with them to publish it before the
+                Anthology comes out. It occurs to me with a feeling of horror that you may be going to print
+                “Off the Turnpike” in your February number. It would have been perfectly all right for you
+                to do so, only I never thought of it, like a fool, and went and sent it to “The Century.” I do not believe
+                they will accept it, but Benét asked me to send it. He is the first reader of “The Century,” but has
+                not the final say, and the man who has, knows nothing about poetry. I know Benét is trying to
+                force it on them, but I do not think he can. If you have taken it for “The Egoist,” and it is 
+                too late to substitute one of these others, please cable me; and then if you will tell me how much I owe
+                you for the cable, I will gladly pay it, as “The Century” makes you sign a paper stating that the
+                things you sent them have never been published before; and I shall get into no end of a mess, if
+                they take it for “The Century” and it appears in “The Egoist.” I am awfully sorry to put you to
+                this trouble, but I had not sent it to “The Century” when I sent it to you, and it was long before
+                your suggestion that I submit something to “The Egoist” came, and so I never regarded it as
+                going into “The Egoist” at all. I am awfully sorry.</p>
+            <p>Ferris Greenslet was very anxious to have us change the title of this year’s Anthology;
+                but I told him that it was impossible, and that I did not think it advisable, and so we are
+                calling it “Some Imagist Poets 1916,” with the “1916” very large and underlined. I trust that will do the
+                trick.</p>
+            <p><persName key="fs_flint">Flint</persName> wrote me a perfectly beautiful review of my “<title key="sixFrenchPoets" level="m">French Poets</title>,” so beautiful that it
+                almost reduced me to tears. I have not heard from you or Hilda. I hope that does not mean that
+                you do not like the book. It is doing very well here, and has nearly sold out its whole edition
+                already, <measure quantity="750" commodity="copies">750 copies</measure> <add place="above">gone out</add> I heard by 
+                last accounts, and <persName key="ec_marsh">Mr. Marsh</persName> says we shall have to
+                reprint before long. Two professors of the English Departments of <placeName key="harvard">Harvard</placeName> 
+                and <placeName key="yale">Yale</placeName> have come
+                out strongly in favour. <persName key="william_phelps">Professor William Lyon Phelps</persName>, who is supposed to be one of the best
+                things we have over here in literature, has written to the Macmillans to say that he considers it
+                the most valuable work on French literature he has seen for a long time. Personally, I care very
+                little for professorial opinion as much, but these things help with the public. I have very little
+                hope for the sale in England. It is not a good time, and I do not think Americans are in very good
+                favour over there just now. But still I hope. Do all you can to push it, won’t you?</p>
+            <closer>
+                <p>Lots of love to Hilda</p>
+                <p>Affectionately,</p>
+            </closer>
+            <postscript>
+                <label>P.S.</label>
+                <p>Fletcher has just telephoned to tell me that a letter from you, which I forwarded him
+                    to-day, contains the painful news that you have voted against both “<title key="clipperShips" level="a">Clipper Ships</title>” and “Off the
+                    Turnpike.” I was afraid you might not like “Off the Turnpike” because, not knowing the Yankees
+                    and their customs, you cannot realize how true to their speech it is. I suggested it for the
+                    Anthology as a foil for the rest of the things in the book, for I have a theory that the more variety
+                    one can have, the better it is, and another one of this same New England series, which was
+                    published in “<title key="newRepublic" level="j">The New Republic</title>,” made such an excellent impression here that I thought it
+                    would be good for the sale of the book to have this one in. But I daresay you are right in thinking
+                    it does not go, and I am quite willing to substitute something else, but what, it is a little difficult
+                    to decide.</p>
+                <p>I am sending you a choice. “<title key="stravinsky" level="a">Stravinsky</title>” is the most remarkable poem of the lot, but I do
+                    not approve of it for the Anthology. In the first place, one should have heard the music to
+                    understand it. In the second place, its peculiar diction is sure to be taken as a huge joke by people
+                    who do not know Stravinsky and have not a chance, by a number of my poems together, to see
+                    what I am driving at. Therefore I do not approve of it for the Anthology, unless still a third poem
+                    is added to go with it.</p>
+                <p>I assume that you accept “<title key="springDay" level="a">The Spring Day</title>” as one of my contributions, since you have
+                    not said anything about that to Fletcher.</p>
+                <p>Now “<title key="leadSoldiers" level="a">Lead Soldiers</title>,” which I am also enclosing, is I think one of the best things I have
+                    done. You may not agree, on account of the little childish rhyme which keeps coming into it; but
+                    that is an effect I wanted to give, a sort of nursey rhyme, and to me it adds to the rest of the
+                    poem; but I do not think this poem so good here, as in that case my contributions will both be in
+                    “polyphonic prose,” and that I was trying to avoid. Too much of one metre.</p>
+                <p>“<title key="timeOfDearth" level="a">In a Time of Dearth</title>” is very good, but too short to make the second contribution all by itself.
+                    In that case I should advise including with it the “<title key="impressionistPicture" level="a">Impressionist Picture of a Garden</title>” or
+                    possibly “The Dinner Party,” if you like it enough. And then there is always “<title key="patterns" level="a">Patterns</title>,” which
+                    you can have if you want to. And here is one called “<title key="paperWindmill" level="a">The Paper Windmill</title>,” which could be used
+                    with “The Spring Day” and one of the other <hi rend="underline"><foreign xml:lang="fr">vers libre</foreign></hi> things, but not as the second contribution
+                    by itself, it too being “polyphonic prose.</p>
+                <p>Now please send me your answer by return mail, and send back the poems at the same
+                    time. Ferris Greenslet is in such a hurry that we cannot delay three days.</p>
+                <p>Of these poems I am sorry that I can only submit those I mentioned in the letter and
+                    which I marked “unpublished” on the manuscript, for you to print in the February “Egoist.”
+                    “Lead Soldiers” has already appeared in “<title key="poetry" level="j">Poetry</title>,” and “The Paper Windmill” in “The Century.”
+                    “In a Time of Dearth” has been accepted by “The Century,” “Stravinsky” is under consideration
+                    by “<title key="masses" level="j">The Masses</title>,” and “The Impressionist Picture of a Garden” is the same with the “<title key="smartSet" level="j">Smart Set</title>.”</p>
+                <p>I do think you are thoroughly mistaken in regard to Fletcher’s “Clipper Ships.” It is to my
+                    mind one of the best things he has done. It was published in “The New Republic” and had a good
+                    success. I do think that we should be careful and not let our theories of poetry interfere with our
+                    taking in really excellent poems. Fletcher’s “polyphonic prose” with bits of old sea “chanties”
+                    coming in, gives an extraordinarily vivid picture of the period; and even if you are not
+                    particularly interested in the period or particularly interested in the form, it seems to me the value
+                    of this Anthology is in allowing us all to develop on our own lines and letting the public see how
+                    each one has developed from year to year and how he differs from the others. If you cut out a
+                    poem of so great an originality as Fletcher’s, you will have, to my mind, set a dagger at the heart
+                    of the Anthology. Fletcher has a great and remarkable originality, and originality is the important
+                    thing in poetry.</p>
+                <p>Do not let your translations usurp too large a place in your work. Translations, no matter
+                    how good, are of minor importance compared to original work. Nobody knows that better than I,
+                    for have I not spent my entire Summer in making translations? For minor men, like 
+                    <persName key="edward_fitzgerald">Edward Fitzgerald</persName>, translating is important, but for poets of ambition and vigour, translating is only of
+                    value for two reasons: for boiling the pot, or for doing a little something when you have nothing
+                    else to do. Diving into other men’s minds is a delight and a temptation, but it must be kept in its
+                    proper place like any other vice. Vice for an original worker, that is.</p>
+                <p>Fletcher is not a bit sore about “Clipper Ships,” but I am rather, because I have the fate of
+                    the book extremely at heart, and I know it would be a good thing for the book to have “Clipper
+                    Ships” in it. Please believe my acumen when I tell you that, if we publish the present Anthology
+                    and do not have it more interesting, and arresting, and unusual, than the first, more full of
+                    different kinds of things, we shall come a cropper, for the first interest in our work will have
+                    subsided, and mere repetition of the same kind of thing will interest nobody. Our first Anthology
+                    was better than <persName key="ezra_pound">Ezra’s</persName> Anthology because it was not so monotonous. I think you must remember,
+                    in judging poems for this Anthology, that monotony is the great thing to be avoided. My only
+                    objection to including my own “Patterns” from our Anthology was that I thought the public had a
+                    right to demand something new, and “Patterns” Has already been published in Braithwaite’s
+                    Anthology and copied in many papers over the country. But if you want it, all right.</p>
+                <p>Of course, you shall have “<title key="whitechapel" level="a">Whitechapel</title>” if your heart is set on it. Neither Fletcher nor I
+                    intended to take any arbitrary stand, we merely pointed out that we did not think it up to your
+                    standard. In judging poems to admit or exclude, we follow an entirely different line from the one
+                    that you follow. You take an abstract standard and insist that all poems shall conform to that. We
+                    have no hard and fast standard, we take your work on its own merits, and see whether it comes to
+                    measure favourably in effect with other work you have done. It would not make any difference if
+                    we were together and could pick them out, but with the mails taking so long to go and come, this
+                    choosing is a little bit difficult.</p>
+                <p>Now please write me back exactly what you want me to do about my own things.
+                    Fletcher and I will look over his things on Sunday and send you some more to choose from. Only
+                    whatever you say this time must be definite, as we have no time for the mail to come across
+                    again. Personally, I believe from the point of view of the public you are wrong not to let me have
+                    my “Off the Turnpike.” I am sure it would help sell the book. But, of course, if you feel strongly
+                    about it, that is all right, I don’t mind a bit.</p>
+                <p>On reading this over, I think I sound huffed. I am not, the least little bit in the world. I can
+                    perfectly understand that you don’t like dialect poems. Lots of people don’t. I would have
+                    written it in ordinary spelling, the same way <persName key="john_synge">Synge</persName> wrote Irish, but Yankee dialect is more a
+                    question of pronunciation and elision than of twisted syntax, and the effect would have been lost.</p>
+            </postscript>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">Aldington has sent Lowell a copy of a volume of the Poets' Translation Series, a series of twelve pamphlets of Greek, Latin, and Italian translations by Aldington and H.D. published by the Egoist Press.</note> 
+                <note target="#n2" resp="mb">"Paper Windmill," The Century, December 1915 (Vol. 91, No. 2), 232-235.</note> 
+                <note target="#n3" resp="mb">"Extracts from the Letters of a Prisoner of War,' The Egoist, December 1, 1915 (Vol. 2, No. 12) 185-186.</note> 
+            </div> 
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1915-10-13"
+                    >Oct. 13, 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$129i</idno>
+                    </msIdentifier>
+                    <physDesc><p>[The letter consists of five sheets of paper with typewriting on both sides of the first four
+                        and on one side of the fifth. The first sheet has a hole punched at the bottom near the center, but
+                        the last four have the same size hole punched on the top instead. On the first page, a small
+                        amount of text is cut off on the left side but it does not interrupt the comprehension of the letter.
+                        At the top of each sheet (every other page) except the first, there is a hand-written page number
+                        in the center top.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1915-10-13">Oct. 13, 1915.</dateline></date>
+                <salute>My dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>I received two very nice letters from you and the first pamphlet of the translations, just
+                before I left <placeName key="dublinNewHampshire">Dublin</placeName>. This one is in no sense to be an answer to those letters. That must wait. It is
+                just a little business letter, written off in a hurry, because I am so frightfully busy. I am on the
+                final proof of the “<title key="sixFrenchPoets" level="m">Six French Poets</title>.” and the publishers put “Rush” on every set of proofs they
+                send me. I am so sick of tracking mistakes down long pages of print that I do not know what to
+                do, but the 132 translations are done, thank goodness, and it is only a case of rushing to get
+                everything off my hands. To my intense astonishment <persName key="harold_macmillan">Mr. Macmillan</persName> in <placeName key="london">London</placeName> has bought one
+                hundred copies. Why, I cannot imagine, as I did not suppose his experience with “<title key="swordBlades" level="m">Sword Blades</title>”
+                had endeared me to him. But such is the fact, and I only hope the poor man will be justified.</p>
+            <p>I have not heard a word from you as to whether or not you liked my article on you in the
+                September <hi rend="underline"><title key="littleReview" level="j">Little Review</title></hi>.<anchor xml:id="n1"/> I do hope you did, because I only said what I believed to be the
+                absolute truth, but still there are such a lot of knocks on this business, and so little comfort, 
+                that I should like a lot to feel that I had given you a momentary pleasure.</p>
+            <p>I have just taken upon myself to give <persName key="ws_braithwaite">Braithwaite</persName> permission to include a couple of
+                <persName key="hilda_doolittle">Hilda’s</persName> poems which appeared in our <title key="some_imagist_poets" level="m">Anthology</title> 
+                in his “<title key="magazineVerse" level="m">Anthology of American Magazine Verse</title>.” 
+                I suspect you won’t like the book, because Braithwaite is no great shakes as to
+                judgement, and to my mind his past Anthologies (it is an annual affair) have been beneath
+                contempt. But he is anxious to learn, and very enthusiastic, and I think I have had considerable
+                influence on him during this last year, though not nearly as much as I wish I had. One has to go
+                slowly and tactfully in trying to affect a person’s ideas, and he had not the education to be
+                affected very far. All of this is for your private consumption – yours and Hilda’s – and please do
+                not pass it on, even to <persName key="fs_flint">Flint</persName>, for the man has been as white as snow to me, and has helped us a
+                good deal. There is one advantage about his Anthology – it sells enormously. All the schools buy
+                it, and the sale runs up into 5000 or 6000 somewhere. I will send you a copy of this one as soon
+                as it comes out. I knew he could not have you, as you are an English-man, so I thought it would
+                be all right to give him permission for Hilda’s things. Nobody ever refuses permission to
+                anything, because it is a wonderful way to get before the public. Now here is the difficulty as far
+                as I am concerned. You say you would like to have “<title key="patterns" level="a">Patterns</title>” in our new <title key="some_imagist_poets" level="m">Anthology</title>, but to my
+                intense astonishment Braithwaite has informed me that he has taken “Patterns” for his
+                Anthology. Of course, it being in his Anthology does not in the least preclude it from being in
+                ours, but the only thing is, the public may get tired of seeing the same poem repeated too many
+                times. I should have much preferred to have had it in our Anthology, but Braithwaite had it all in
+                print before he asked my permission, saying with a sweet smile that he knew I would not refuse
+                him.</p>
+            <p><persName key="john_fletcher">Fletcher</persName> is at the moment in <placeName key="chicago">Chicago</placeName>, and he expects to be <placeName key="boston">here</placeName> by about the middle of
+                November. As soon as he comes, he and I will go over our poems together, and send you over
+                some things to choose from, and then you can turn down what you don’t like, and so we can
+                gradually get to a position where we are all pleased. Fletcher and I will mark those we send,
+                naming them first, second and third choice, and then if you turn down the first and pitch on the
+                second, we will take the second, and so on, or you can mix them round differently. I suggest that
+                you do this with yours in England. You collect Hilda’s, Flint’s and <persName key="dh_lawrence">Lawrence’s</persName> and your own,
+                and arrange them in what you think is the best way. Arrange them in the order of your choice,
+                and then send them over to us to agree upon. For above all things, we must keep, on both sides,
+                the democratic freedom of our Anthology. We must all be pleased with the arrangement as we
+                were last year. I will be spokesman for the American group, Fletcher and myself, and you be
+                spokesman for the English group, and then you and I will only have to deal with each other.</p>
+            <p>It is very generous of you, dear Richard, to offer to have the Anthology turned round and
+                go backward, for the sake of giving me first and you last, but I think that would be a mistake,
+                grateful as I am for the suggestion. I am sure that the best way is to keep our alphabetical order.
+                It gives you a little advantage, I admit, but I think that is the only fair way to do. Whatever
+                advantage you get comes from the accident of having a name beginning with “A”, whereas if we
+                went turn and turn about, the people in the middle might complain that they never had a chance
+                to be first, and they would certainly complain with reason, and to have a different order each
+                time seems unnecessarily laborious.</p>
+            <p>I have been trying to get hold of <persName key="edmund_brown">Brown</persName>, and get at the two poems for our Anthology, but
+                he has taken out his telephone and I have not been able to get in town yet, but I hope to round
+                him up this week.</p>
+            <p>Now as to your suggestion that we print one poem each of a few of the younger people, I
+                am very much averse to any such suggestion, and I think I am quoting Fletcher correctly when I
+                say that he is too. Unless there is someone whom it is evident would add greatly to our value if
+                included in the Anthology, I see no advantage in adding anyone to our little group. If we are any
+                good as a group our influence is sure to widen, and to include every young aspirant who has been
+                at all affected by our point of view would make our Anthology unnecessarily jejune. You say
+                yourself that none of the people you know, <persName key="clara_shanafelt">Clara Shanafelt</persName>, <persName key="marianne_moore">Marianne Moore</persName>, etc., have seven
+                poems good enough to put in the Anthology. Now a poet who has not seven good poems is still
+                only a tyro. I think as our contract was only for three years, it would be much better for us to stay
+                just as we are for 1916 and 1917. We shall confuse the public less that way, and we are more
+                certain to stay as a group and not be confused with the <persName key="guido_bruno">Brunos</persName> 
+                and <persName key="alfred_kreymborg">Kreymborgs</persName>, who, 
+                hard-working and energetic young men as they are, hardly seem exactly of our way of thinking.</p>
+            <p>By the way, I see that you are to have some poems in November “<title key="others" level="j">Others</title>.” I think the
+                best think Kreymborg has published in that paper is <persName key="wallace_stevens">Stevens’s</persName> “<title key="peterQuince" level="a"></title>Peter Quince,” but Fletcher
+                writes that he has seen other things of Stevens’s, and they are not any good. This does not at all
+                mean I think Stevens belongs in our group, but merely as a remark. All of which means that if
+                you have no great objection, it would be better for the next two years, while our present contract
+                lasts, for us to keep simply the six of us together who were in the Anthology last year.</p>
+            <p>By the way, if you see Lawrence, tell him that I am sending him his money order. He
+                changed his address, and I was afraid to send it in the dark, and just as I was on the eve of
+                sending it to you I got a letter from him, and it should reach him very soon, but if you mention
+                having received royalties and he has not got any, he may think I am trying to keep him without
+                any.</p>
+            <p>If you are really very anxious to include some of the younger people in the Anthology,
+                why, we might talk it over some more, but I think it would [be] a little better not to.</p>
+            <p>I have just heard of the death of <persName key="remy_gourmont">Remy de Gourmont</persName>, which must be a dreadful blow to
+                you. I am extremely sorry, and I am afraid he must have suffered terribly before his death. He
+                was so kind to me in sending me his picture for the book, with such pleasant words of
+                encouragement, and one of the things I was looking forward to was sending it to him. I feel we
+                have all lost our best friend, and find myself feeling a very personal loss, although I never saw
+                him.</p>
+            <p>I enclose money order to pay for my <title key="poetsTranslationSeries" level="m">ten sets of the translations</title>. I like them so much, and
+                am giving them round to various people. I am going to <placeName key="nyc">New York</placeName> as soon as I have finished my
+                book, and am going to see if I can get <persName key="laurence_gomme">Gomme</persName> to take them on and sell them for you.</p>
+            <p>Love to Hilda.</p>
+            <closer>Affectionately yours,</closer>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">Amy Lowell, "Richard Aldington's Poetry," The Little Review, September, 1915 (Vol. 2, No. 6), 11-16.</note> 
+            </div> 
+        </back>
+    </text>
+</TEI>
+

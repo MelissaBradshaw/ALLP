@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1916-03-08"
+                    >March 8, 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$187i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of two sheets of paper with typewriting on both sides of the first and
+                        one side of the second. At the top of the back side is “R.A.” in the left corner and the date in the
+                        right. There appears to be a watermark on the paper that reads “Berkshire Linen,” visible upside
+                        down on the top of the first page.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1916-03-08">March 8, 1916</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>I hope you will approve of what I have done with <persName key="edmund_brown">Brown</persName>. It consists chiefly in having
+                given him a delightful jolt.</p>
+            <p>As <title key="imagesOldAndNew" level="m">your book</title> is not yet out, and as I have waited some two months since you asked me to
+                take the sheets away from him, I decided that I had better take the sheets away from him at once.
+                So I telephoned him to that effect. He was extremely angry, and told me he would not relinquish
+                them; whereupon I waxed wroth in my turn and told him that if they were not forthcoming the
+                next day, I should send a lawyer to get them. If he refused to give them to the lawyer, I should go
+                to court. We had a long and heated discussion, in which I made him realize pretty firmly that my
+                reputation for honesty was unassailable, whereas his was not; and that if he went to law with me
+                on the subject, it would ruin his professional reputation completely. I also told him that I should
+                conduct the lawsuit myself, so that he need not think that his only adversary was some one living
+                in <placeName key="england">England</placeName>.</p>
+            <p>I then hung up the receiver and awaited developments. They came a few hours later, in
+                the shape of another telephone message from Mr. Brown, containing the following amazing
+                proposition: namely, that he would pay you royalties for <measure quantity="500" commodity="copies">500 copies</measure> in advance of publication!</p>
+            <p>Your contract calls for 10% of royalties of the gross receipts, up to the first thousand
+                copies sold. He is going to retail the book at <measure type="currency">60¢</measure> a copy, which would make <measure type="currency">$30.00</measure> your
+                royalties for 500 copies. This he agrees to pay on or before the 15th of the
+                present month.</p>
+            <p>This proposition was made to me to induce me to allow <orgName key="fourSeasCo">him</orgName> to continue the publication
+                of the book.<anchor xml:id="n1"/> I accepted it, which I hope you will consider was the right thing to do; for it seemed
+                to me that the chances of your selling 500 copies of this book anywhere else within a reasonable
+                length of time – particularly as we have no other publisher over here (and it is doubtful if you
+                can get one) – are extremely slim. Also, you will easily perceive that Brown would want to
+                reimburse himself as quick as possible for the $30.00 paid you. It will, therefore, be very clearly
+                to his advantage to push the sale of your book.</p>
+            <p>I do not in the least fear his not paying the money, as I and <persName key="william_putnam">my lawyer</persName> and my lawsuit are
+                still ready to jump upon him if he does not come up to time. And if that suggestion has
+                frightened him so much once as to have him make you this offer, I imagine that its potency will
+                not evaporate in two weeks.</p>
+            <p>I think then I should leave him <del rend="strikethrough">about</del> a little over six months to sell his 500 copies in, and
+                then I think we can properly ask him for a statement of sales up to date, in case he owes you
+                farther[sic] royalties. I trust you will think I have done well. Personally, this is far beyond my
+                wildest hopes. Of course, it is true that you have lost the copyright on a certain number of the
+                poems in this volume. But Mr. Brown intends to copyright the book just the same, as he says no
+                human being will ever <del rend="strikethrough">go through</del> <add place="above">search</add> the English edition to see which poems are really
+                copyrighted and which are not, so that, for all practical purposes, your claims are protected.</p>
+            <p>I have no faith, nor any improvement to hope for, in Brown. I think he has proved himself
+                not only unbusinesslike, but untrustworthy, and I certainly should not recommend his publishing
+                any other books to anybody. <del rend="strikethrough">And</del> <add place="above">But</add> if at any future time you want to, I imagine you can buy
+                the copyright from him without much difficulty. And I think, further, <del rend="strikethrough">than</del> that he will be out of
+                business before long. At the rate he is going, and in that case would be quite willing to part with
+                the copyright.</p>
+            <p><persName key="hilda_doolittle">Hilda</persName> writes me that you have gone to <placeName key="devonshire">Devonshire</placeName>. Lovely country! I once passed a
+                whole summer there.</p>
+            <p>We expect to get the “<title key="some_imagist_poets" key="m">Imagist Anthology <hi rend="underline">1916</hi></title>” out in the <del rend="strikethrough">month</del> 
+                <add place="above">middle</add> of April. I will, of course, send you copies as soon as they come.</p>
+            <closer>Great deal of love.</closer>
+            <postscript>
+                <label>P.S.</label>
+                <p>Here is your contract, signed. Brown says he has already sent you one, but I doubted it so
+                    much that I made him give me another.</p>
+            </postscript>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">Aldington ultimately publishes his book, Images, Old and New (1916), with Edmund R. Brown's press, Four Seas.</note> 
+            </div> 
+        </back>
+    </text>
+</TEI>

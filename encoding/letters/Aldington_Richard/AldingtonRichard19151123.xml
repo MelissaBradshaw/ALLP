@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1915-11-23"
+                    >Nov. 23, 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$138i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of two sheets of paper with typewriting on both sides of the first and one side of the
+                        second. At the top of the second page there is the heading “R.A.-2” in the upper left, a page number in the center,
+                        and the date in the upper right. The paper appears to have a thin, nearly-unreadable watermark reading “Berkshire
+                        Linen U.S.A.”</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1915-11-23">Nov. 23, 1915.</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p><persName key="john_fletcher">Fletcher</persName> was out here Sunday night, and we went over your poems with great care. We
+                both feel that “<title key="" level="a">Whitechapel</title>” and “<title key="europe1915" level="a">Europe 1915</title>” are not up to your usual standard. I hope you
+                won’t mind our saying this; but as I think our whole fate as a school depends upon the contents
+                of this next Anthology and it is absolutely necessary for the work to be not only as good as
+                heretofore but better, could you substitute something else for these two poems? I have “<title key="julySunday" level="a">July Sunday</title>” 
+                here, which I got out of your book at your request, and which we could substitute for
+                one of them, if you could send something for the other. If possible, I think it would be well to
+                have something a little longer and more considerable. “<title key="erosPsyche" level="a">Eros and Psyche</title>” is good in that way but
+                it is only one, and we have nothing which equals your “little boy” poem for this Anthology.<anchor xml:id="n1"/> We
+                do not have to go to press until February, so you might be able to write something in the interval,
+                if you have not anything already written. I have written all the reasons why, and all about it,
+                in <persName key="hilda_doolittle">Hilda’s</persName> letter, so I will not repeat them here</p>
+            <p>As I wrote Hilda, for my contribution I think the “<title key="springDay" level="a">Spring Day</title>” 
+                which appeared in “<title key="egoist" level="j">The Egoist</title>” 
+                and this poem I enclose would be the best. If we need some room poems, I can substitute
+                add “<title key="patterns" level="a">Patterns</title>.” Or if you do not like the enclosed, I can put “Patterns” in in its stead or send you
+                still others to choose from.</p>
+            <p>And by the way, I never replied to your objections to some of the things in “Patterns.”
+                One objection I remember very well was that you did not get the meaning of “the thrift of the
+                borders.” I imagine you did not know that “thrift” is the name of a little flower, a pink flower
+                sometimes called “sea pink,” of which borders are often made. In fact, the borders of my garden
+                are made with them it. “Thrift” therefore does not apply to a moral virtue but to a flower. I hope
+                that this will make the line quite clear.</p>
+            <p>I am asking Fletcher to send you his poems at once. And of course you must realize that
+                we are quite willing to have ours turned down if they do not meet with your approval over there.</p>
+            <p>Hurrah! I have just telephoned to <title key="ferris_greenslet">Ferris Greenslet</title>, and he says there is not the faintest
+                objection to having <persName key="dh_lawrence">Lawrence</persName>,<anchor xml:id="n2"/> in spite of the public executioner. For which I am perfectly
+                delighted, because I do not care a button myself and Ferris knows the business better than I. So
+                we will consider that the things I wrote you about him from <placeName key="nyc">New York</placeName> are null and void, and
+                will you go ahead and collect his contribution and send it along? That makes life much easier
+                and in every way better for us all, and I am perfectly delighted.</p>
+            <p>About my photograph, I have none at the moment that I can send, for I have not had any
+                taken for twenty years. But I will have some taken next week and send you over some. I think
+                that the one of Fletcher is very good on the whole; your man is certainly exceedingly clever.</p>
+            <p>And by the way, let me compliment you on what you are doing for “The Egoist.” It is
+                really becoming an interest paper, and I am delighted that you have been able to squeeze <persName key="dora_marsden">Dora</persName>
+                into so small a space. I wish you had written a longer article on <persName key="remy_gourmont">Remy</persName>, but I suppose you did not
+                wish to duplicate what <persName key="muriel_ciolkowska">Mme. Ciolkowska</persName> said.</p>
+            <p>Thanks for the pleasant article in the American reviews. I will send this right off, so
+                Good-by for the present.</p>
+            <closer>Affectionately,</closer>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">Lowell perhaps references Aldington's poem "Childhood," from Some Imagist Poets, 1915.</note> 
+                <note target="#n2" resp="mb">Lowell had been concerned that keeping D.H. Lawrence among the contributors to Some Imagist Poets, 1916, would hurt sales because his novel The Rainbow (Methuen, 1915) was banned as obscene in the U.K. on November 13, 1915, just two months after its publication. Half of the 1250 copies in the print run were destroyed. See Lowell's letter written on this same date to H.D. where she apologizes for having "gone off half-cocked" about Lawrence's book. (DoolittleHilda19151123). The letter where Lowell expresses this concern may have been written by hand while in New York, as there is not a draft of this letter in her papers.</note> 
+            </div> 
+        </back>
+    </text>
+</TEI>

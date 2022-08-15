@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1916-05-10"
+                    >May 10, 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$206i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of 2 sheets of paper with typewriting on both sides of each. On the
+                        top of the first page is “Aldington” written in pencil. On the top right of each page is the date,
+                        and on the top left of each one (excluding the first) is R.A. and a page number.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1916-05-10">May 10, 1916</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>I sent you and <persName key="hilda_doolittle">Hilda</persName> each two copies of 
+                “<title key="some_imagist_poets" level="m">Some Imagist Poets <hi rend="underline">1916</hi></title>” by mail
+                yesterday. I hope that you will like them. I know just how you will feel about the tribute to
+                <persName key="harriet_monroe">Harriet</persName>, and I feel so too. But we have gone over all that before, and
+                there is no use weeping over spilt milk.</p>
+            <p>What I feel even worse about is that I forgot to put in <persName key="fs_flint">Flint’s</persName> dedication to you in
+                front of his poem “<title key="easter" level="a">Easter</title>”. He sent it as an after-thought on a postal card, and, somehow, the
+                postal card got mislaid and I never found it until yesterday. I have written to him telling him
+                how sorry I was for this stupidity on my part, and saying that I would correct it if the book
+                went into a second edition. But I hardly hope for this luck this year, for the reasons that I
+                have already told you.</p>
+            <p>I enclose the only review we have, which came out on the day of publication last
+                Saturday – nominal publication, that is, for, as a matter of fact, the books were not on the
+                market until Monday, which is the reason I could not ship any copies to you until yesterday. I
+                think it is, on the whole, a very good review, and I think it a very good idea to have put in
+                your woodcuts. I did it on purpose, because, as you see from the enclosed advertisement, the
+                publishers undertook to feature <persName key="john_fletcher">Fletcher</persName> and me in this first announcement. That was quite a
+                national and commercial venture on their part, for our poems are well-known here and these
+                particular poems of ours have been much discussed in the papers. But it seemed to me that
+                the English side was being rather badly represented. I suppose it is natural that American
+                reviewers should pay more attention to American contributors, as the English reviewers do
+                the English contributors. But these woodcuts of you and Flint seemed to make the balance
+                square – square from the advertising view, that is. I am afraid it is impossible to make the
+                American reviewers speak as much about the English side of our book as about the
+                American. But that is more than evened up, because the American reviewers do speak
+                constantly of the English side, whereas the English reviewers pay almost no attention to the
+                American side.</p>
+            <p>The advance sales have been about normal. I saw <persName key="ferris_greenslet">Greenslet</persName> yesterday, and he thought
+                about <measure quantity="250" commodity="copies">250 copies</measure> had been ordered before publication. 
+                He had not heard from <orgName key="constable">Constable</orgName> yet, but he thought they would take about <measure quantity="100" commodity="copies">100 copies</measure>. 
+                You say you know somebody at Constable’s, and as they are printing <title key="seaGarden" level="m">Hilda’s book</title> in the Autumn, perhaps you could get your
+                friend to take a real interest and push this a bit. Ferris tells me that they are particularly
+                interested in <persName key="conrad_aiken">Aiken’s</persName> <title key="turnsAndMovies" level="m">book</title>; which is amusing, as Aiken’s book is doing nothing on this side
+                of the ocean. I am sending you a copy, so that you may see what it is like. Aiken is one of our
+                bitterest enemies, and personally I think his book an insincere copy of “<title key="spoonRiver" level="">Spoon River</title>”,
+                although I admit that it is clever. But it is such a false picture of life on the vaudeville stage
+                that it does not take at all over here.</p>
+            <p>I am reviewing <title key="imagesOldAndNew" level="m">yours</title> and <title key="cadences" level="m">Flint’s</title> books for <persName key="ws_braithwaite">Braithwaite’s</persName> new “<title key="poetryReviewAmerica" level="j">Poetry Review</title>”. He
+                has a backer who is quite well off, and although they are paying very little at present, they
+                have a distinct commercial sense. The man is a lawyer and knows the world, and Braithwaite
+                has been in journalism too long not to know the ropes of that business. If it falls down it will
+                be because of his incurable enthusiasm for everything, and his lack of judgment. But he is the
+                only person here who has been steadily and consistently loyal to us, as I have written to you
+                several times. The paper is got up entirely without any bias. He intends to print all schools
+                and have all poetry review represented in his criticism. This will, of course, frequently irritate
+                us, but on the other hand he is most welcoming to our work and will print us with great
+                frequency, I think. They printed <measure quantity="4,000" commodity="copies">4,000 copies </measure>of the first number, and it is the only one of the
+                poetry magazines which has been taken hold of by the American News Company. This
+                company owns all the railroad and subway news stands throughout the entire country, and it
+                is a great help to be constantly on sale in that way. I have subscribed to the paper to be sent
+                you regularly, and although I think it may often annoy you to tears, I am sure in the end it
+                will be a good thing for us to have it succeed.</p>
+            <p>Braithwaite’s “<title key="magazineVerse" level="m">Anthology</title>” is already in its fifth thousand, and all these things help us
+                all. The more people read poetry, the sooner we shall have discerning people reading it. I
+                have just contracted to give a series of four lectures in <placeName key="chicago">Chicago</placeName> next Winter on
+                “Contemporary Poetry”; and, of course, one of the lectures will be devoted to our group. I
+                think I shall repeat these lectures in <placeName key="boston">Boston</placeName> and possibly in 
+                <placeName key="nyc">New York</placeName>. <persName key="ec_marsh">Mr. Marsh</persName>, of the
+                <orgName key="macmillan">Macmillan Company</orgName>, tells me that he can trace increasing sales in the 
+                towns in which I have been speaking.</p>
+            <p>I think this volume is a great advance on the last, but I should not wonder if
+                Braithwaite were right when he says that reviewers will find it more difficult of
+                comprehension. I will send you the reviews, as I did last year.</p>
+            <p>I have not heard from you for ages, it seems to me, and I cannot tell you how much I
+                miss it when I do not get any letters from you or Hilda.</p>
+            <p>Flint has never acknowledged the letter containing the money order for royalties,
+                which I sent him in February, and I have written to ask him if he ever received it. Do find out
+                and let me know.</p>
+            <closer>Affectionately yours,</closer>
+        </body>
+    </text>
+</TEI>

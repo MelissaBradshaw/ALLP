@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1916-01-13"
+                    >Jan. 13, 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$162i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of three sheets of paper with typewriting on both sides of each. The
+                        final page has only a little bit of writing at the top and is mostly empty. The edges of the pages
+                        have some bent areas, and there are a few areas where someone has handwritten edits or
+                        scratched out words.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1916-01-13">Jan. 13, 1916</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>I feel very badly indeed to have raised your hopes to the pitch evidenced by your letter of
+                December 28th. I sent you a cable yesterday to disabuse your mind of their being any immediate
+                prospect of our having a paper here. In my letter of December 15th, I wrote you saying that I
+                would try to raise the money, if you cared to consider the job of editorship, and I told you that I
+                had only got one subscriber then. I do not know what <persName key="john_fletcher">Fletcher</persName> may have written you, but you
+                should know by this time that he is very enthusiastic and utopian, and not to be taken
+                <hi rend="underline"><foreign xml:lang="fr">au pied de la lettre</foreign></hi>. 
+                I fear he must have given you the idea that there was more immediate chance 
+                of our being able to raise the money for the paper than there was.</p>
+            <p>Since I wrote to you, I have been feeling round a little; and since receiving your letter I
+                have asked for some subscriptions, always <del rend="strikethrough">somehow</del> <add place="above">however</add>
+                with the same disheartening result. Nobody feels like giving anything just now, and I do not know 
+                whether they will after the War, but I am bound to confess that the prospects are not bright.</p>
+            <p>There has been a multiplication of little papers devoted to poetry since <persName key="harriet_monroe">Harriet</persName> started
+                here. Another one, called “<title key="contemporaryVerse" level="j">Contemporary Verse</title>,” has issued its first number since I wrote to you.
+                It is very poor, but all these things have tended to make people skeptical <del rend="strikethrough">on</del> 
+                <add place="above">with</add> the advisability of helping small magazines. And the big ones, 
+                which have much greater expenses, are failing right and left. You seem somehow to have got an 
+                inflated idea of my intentions in regard to this paper. To run such a paper as you suggest, on 
+                such lines as you suggest, would take an amount of money which I could never hope to command. 
+                “<title key="newRepublic" level="j">The New Republic</title>” is endowed with 
+                <measure type="currency" num="50,000">$50,000</measure> a year, and then I understand it does not pay, although 
+                they have <measure quantity="10,000" commodity="subscribers">10,000 subscribers</measure>. Everything is on a larger scale here than in <placeName key="england">England</placeName>. The country
+                not having any one particular centre, magazines printed in one part of it are frequently not to be 
+                found on the news-stands of another.It is impossible to get “<title key="reedysMirror" level="j">Reedy’s Mirror</title>” of <placeName key="stLouis">St. Louis</placeName> on any 
+                news-stand in the East, or the <placeName key="sanFrancisco">San Francisco</placeName> “<title key="argonaut" level="j">Argonaut</title>” or the 
+                “<title key="bellman" level="j">Bellman</title>.” All this makes the proposition 
+                a much more difficult one. I have been looking into it a little more since I wrote you, and I am very sorry 
+                indeed that I did not look into it more carefully before I even hinted to you that such an idea had entered my
+                head. It seems quite impossible for us to attempt such a thing, even if we could raise the money.
+                It never occurred to me that you would have an idea of branching out into an office, and a
+                stenographer, and an office boy. Of course, I knew those things to be out of the question. No
+                stenographer could be got for less than <measure type="currency" num="65.00">$65.00</measure> a month, which you will easily see would be
+                utterly beyond our capacity to pay. I supposed that you would be willing to do the clerical work
+                and send out the magazine once a month, as you do the <title key="poetsTranslationSeries" level="s">Poet’s Translation Series</title>, and it seemed
+                to me that your salary should be determined with a view to that. In this, it seems, I was
+                mistaken. I can perfectly understand our point of view, but I can equally see the impossibility of
+                anything of the sort.</p>
+            <p>Another thing is your desire to be the editor-in-chief, the court of final appeal. That, of
+                course, you can see would not be possible. If we succeeded in raising any money, the people who
+                gave it to us would give it on the guarantee of my character and my point of view. They do not
+                know you, and your name would carry no weight over here at first. I should therefore be
+                responsible to the people who gave us the money; and under those circumstances, it would be
+                absolutely imperative that I should have the final say, and assume, in fact, the full responsibility.
+                I should not expect to interfere with you any more than was absolutely necessary; but I should
+                certainly direct the policy of the paper, and I am afraid I should not direct it upon strictly
+                Imagistic lines. We could not have any paper if we did, because there are not enough Imagists to
+                write for it. I suppose, really, it would be only exchanging <persName key="harriet_weaver">Miss Weaver</persName> for me, and although I
+                imagine that you would not have such difficulty with me as you have with Miss Weaver, still it
+                would be working in a subordinate position, although I do not think that you would feel that very
+                much.</p>
+            <p>Another point you mention is the running of propaganda for the Allies in the paper. That
+                would be quite out of the question. In the first place, I do not think there ought to be any political
+                articles of any kind in the paper. A great many papers and magazines are already devoted to
+                matters of international and national import. We are in no way fitted to write upon political
+                subjects. We should do it amateurishly and badly and make ourselves ridiculous. And there
+                is another difficulty, and that is that although a great many people here are, as you know, in
+                favour of the Allies, there are also a vast quantity in America who are pro-German. Just here in
+                Boston, most of the people one knows are pro-Ally, and you know how pro-Ally I am myself.
+                But what Europeans very rarely realize is that, in spite of individual opinions, the country as a
+                whole is neutral, really neutral, in the sense that each side neutralizes the other. I do not myself
+                believe it is possible for us to go to war on either side, because I think there are enough
+                sympathizers on the other side in Congress to prevent our declaring war. Under these
+                circumstances, we are obliged to maintain a certain elasticity and courtesy in our daily life. I
+                personally have given up sending any poems of mine to “<title key="international" level="">The International</title>,” because 
+                <persName key="george_viereck">Mr. Viereck</persName> is so violently pro-German, and his other paper, 
+                “<title key="fatherland" level="">The Fatherland</title>,” is the official paper
+                for hyphenated Americans. He has been peculiarly blatant and offensive. But there are many
+                other papers which are distinctly Germanistic in leaning, although they wisely refrain from
+                polemics in which my poems appear and those of other people. If you come to this country, you
+                will find yourself constantly thrown with Germans and German sympathizers, and it will be
+                necessary to treat them as calmly and as pleasantly as if there were no war. We could not
+                possibly antagonize all the German sympathizers by running any propaganda whatever. I think
+                we should remain completely out of the field of politics. This is not difficult here. We have had
+                much practice. One of my most intimate friends is German, and he sympathizes with the German
+                cause; he dines with me frequently, and although we avoid speaking of the War as much as
+                possible, when we do, we do it quite naturally and without heat. <orgName key="americanPoetrySociety">The Poetry Society of America</orgName>,
+                at whose meetings the poems are read aloud, have pro-Ally and pro-German poems follow each
+                other, and the poems are discussed on their merits and not at all upon their political bearings. So
+                you see how really neutral the country at large is. The war is also comparatively far from here,
+                and it is really quite easy to avoid it. But the idea of <del rend="strikethrough">writing</del>
+                <add place="above">running</add> any political propaganda in a literary and artistic paper is one 
+                I should not consent to for a moment.</p>
+            <p>Another objection is that you could not possibly put on your passport that you were
+                coming over here to edit such a paper. I do not think you would be allowed to land. I do not think
+                that the Government would allow such an obviously partisan movement. In the second place,
+                there is a law in this country, called the Contract Labour Law or some such name, by which
+                people are not allowed to be engaged for a job before they leave their country. It is of course
+                aimed at day labourers and factory hands, but I think I am right in saying that it holds good for
+                everybody. The way it is got round is that people do not announce their engagements upon
+                stepping ashore. But if you had it in your passort, I think that it would dish you completely.
+                Also the idea of having anything so grave attached to so simple a little sheet as ours, would
+                <del rend="strikethrough">be would</del> cause a burst of amusement from all the newspapers in the country, and we should be
+                black-eyed before we started.</p>
+            <p>I have now answered your remarks at length, and I am afraid I have given you the
+                impression that it is very little use for us to try to run a paper, even if we had the money. As a
+                matter of fact, we have not the money, and I do not believe we can get it, so it is really
+                unnecessary to discuss these minor details until we have. I only put them in, in order that you
+                might realize exactly what the situation was, and what it would be, before you took a jump in the
+                dark. It would be the greatest pleasure to have you and <persName key="hilda_doolittle">Hilda</persName> here, and I think we should have a
+                heavenly time with all of us in <placeName key="boston">Boston</placeName> together, but the rebuffs I have received at the suggestion
+                that anybody should give any money for such a paper, have considerably dampened my ardour.
+                People are always very anxious to pat you on the back and tell you how sympathetic they are
+                until you suggest touching their pocket-books, and then it is extraordinary what a number of
+                reasons they have against their being subscribers. I am afraid we shall all just have to put it out
+                of our minds for the moment, which is quite as much of a disappointment to Fletcher and me as it
+                is to you. I am awfully sorry if what either Fletcher or I said led you to think the scheme was
+                more than a vague outline based entirely upon hope. If I am ever able to raise the money, at some
+                future date, I trust that the scheme as I have outlined it more fully will appeal to you, because I
+                think the thing should be put down in legal black and white <add place="above">before we start</add>, so there should be no
+                misunderstandings at any rate. I did not go into all these details before, as the whole thing
+                seemed so up in the air; but since you have raised the questions, I thought I had better answer
+                them at length. I am just as sorry as I can be that people are so close-fisted. But what can we do?</p>
+            <closer>Affectionately yours,</closer>
+        </body>
+    </text>
+</TEI>

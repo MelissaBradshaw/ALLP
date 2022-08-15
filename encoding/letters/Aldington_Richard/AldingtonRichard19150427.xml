@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1915-04-27"
+                    >April 27, 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$75i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of two sheets of paper with typewriting on both sides. The top of each new
+                        sheet (every other page) has a page number typed in the center. There are two holes punched at
+                        the top of each page, though only one is in the center of the sheet and the other is cut off by the
+                        side of the paper, only leaving a half circle cut out. There are a few places where words are
+                        crossed out and replaced with penciled-in words.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1915-04-27">April 27, 1915.</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>This is the post-script of the letter I sent you yesterday. The advertisement did not get in,
+                and I am enclosing it.</p>
+            <p>Your letter, containing the <persName key="james_stephens">Stevens</persName> [sic] slam<anchor xml:id="n1"/> in “<title key="newAge" level="j">The New Age</title>” on <persName key="ezra_pound">Ezra</persName>, came in this
+                morning. I do not know what to say. Ezra undoubtedly deserved the feeling, but I do not think
+                anything deserves that expression. Our whole literary manners over here are so different. No
+                paper would print such a diatribe. I do not think anybody would think of writing it. Anyone who
+                did would dish himself for ever. But I am awfully glad you sent it, as it shows the way the wind
+                is blowing. It also opens my eyes to many things: in the first place to Ezra’s methods, which
+                have done him such an incalculable amount of harm this side of the ocean and which, living in
+                an atmosphere of recriminations, seemed quite the thing to him to do; in the second place, to
+                your letter to <persName key="herbert_croly">Croly</persName><anchor xml:id="n2"/> which however right in substance, was couched in terms which we do not use
+                in business over here. I say all this, not by way of criticism, but merely to give you an idea of
+                how different the customs of the two countries are. They are clearly different places, when you
+                come to think of it.</p>
+            <p>I have a review of <persName key="john_fletcher">Fletcher’s</persName> <title key="irradiations" level="m">book</title> 
+                in “<title key="newRepublic" level="j">The New Republic</title>,” and they very kindly asked a
+                man to review the <title key="some_imagist_poets" level="m">Anthology</title><!-- Missy didn't note this instance in the TEI Header Metadata spreadsheet, but she did note it in previous letters so I thought this would be important to link! !--> 
+                whom <persName key="">Greenslet</persName> suggested. I have very little hopes of getting any
+                intelligent reviews, however, over here. Nobody seems to know such about the business. A man
+                named <persName key="floyd_dell">Floyd Dell</persName>, who sometimes writes for “<title key="littleReview" level="j">The Little Review</title>,” came out in “The New Republic” 
+                to-day in a review of <del rend="strikethrough">Fletcher’s</del> <add place="above"><persName key="arthur_ficke">Ficke’s</persName></add> book and incidentally spoke of the parlour
+                fire-works of the Imagists.<anchor xml:id="n3"/> I am answering this  in a letter to “The New Republic,” showing that
+                we who have split off are broad and vital and not all the “precieux” folk they take us for. My
+                hands are positively sore with the wires I have pulled to get us noticed intelligently. But I think
+                we shall do pretty well.</p>
+            <p>“<title key="spoonRiver" level="m">Spoon River</title>” is the whole shooting match over here at the moment, but it is a good book
+                of its kind, its kind being character drawing and the picture of a place, but hardly poetry to
+                my mind. I am sending you a copy, in case you have not got one. But patience, patience! We
+                shall win over them all in the end, I am sure. Rome was not built in a day, and artistic reputations
+                that amount to anything do not spring up over night.</p>
+            <p>I have sent three copies of the book each to <persName key="dh_lawrence">Lawrence</persName> and <persName key="fs_flint">Flint</persName>. <persName key="hilda_doolittle">Hilda</persName>, I suppose, will go
+                in with yours. If <persName key="michael_sadler">Sadler</persName> won’t give you as many as you must over there, just write to me and I
+                will send you any amount. You see, it is my edition over here, and I can do what I please with it.
+                The account won’t come in until July. Whatever is paid I shall divide into <measure  quantity="six"></measure>six equal parts,
+                keeping one myself and sending the rest round. One-sixth of the sale of a book like this won’t be
+                very brilliant, so do not expect much. It will probably be only postage stamps.</p>
+            <p>Fletcher is still here. I have sent him in your letter. I do wish I could see you and Hilda
+                and have a long, good talk. Writing does not take the place.</p>
+            <closer>With lots of love,</closer>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb"><p>James Stephens (1880-1950), Irish novelist and poet. His letter to the editor in March 18, 1915 issue of The New Age, Vol. 16, No. (March 18, 1915) responds to a column by Ezra Pound in the February 25, 1915 issue (Vol. 16, No. 17) titled “The Non-Existence of Ireland” (451-453), about his impatience with sentimentality in contemporary writing about Ireland, arguing that only in the prose of James Joyce does he find an aesthetically satisfying and believable version of Ireland. Stephens is mentioned in passing as “a mild enough writer [who] has chosen a life in Paris.” Stephen’s letter expounds at length on his complaints against Pound:</p>
+                    <p>There are so many things I wish he would do: I wish he would not mention my name; I wish he would not write quite so mistakenly about Synge; I wish he would not write quite so mistakenly about Mr. Lawrence; I wish he would not write quite so mistakenly about Mr. Joyce; I wish he could believe that we knew all about Mr. Joyce’s work long before he did, and that we still prefer Mr. Joyce’s verse to his prose . . . I wish he would not say that I ran away from Ireland; I wish he would run back to America; I wish he had never run away from that great country; I wish he would bury himself and stay buried. . . I have written Mr. Pound’s name. I am going to fumigate my pen. (551).</p>
+                    <p>Stephens concludes with a short poem in doggerel that ends “And God who made all things has made the world and made it round, / And He made policemen’s feet to beat in the verse of Ezra Pound” (551).</p></note> 
+                <note target="#n2" resp="mb">See letter [# December 24, 1914].</note> 
+                <note target="#n3" resp="mb">Floyd Dell, "On Behalf of a Book of Poems," The New Republic, April 24, 1915, pp. 309-310. In this review of Arthur Davison Ficke's The Man on the Hilltop and Other Poems (New York: Mitchell Kennerly, 1915) Dell describe's Ficke's book of sonnets as "modern in content," if not in form, arguing that "the endeavour to acheive in verse some of the effects which have recently been left to the prose novel . . . seems to me more daring, more difficult, more exciting than the parlor fireworks of the Imagists" (310). </note> 
+            </div> 
+        </back>
+    </text>
+</TEI>

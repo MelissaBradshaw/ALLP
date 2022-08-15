@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1915-12-15"
+                    >Dec. 15, 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$141i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of six sheets of paper with typewriting on both sides of each, but on
+                        one side of the sixth. On the top of each page in the upper left (excluding the first) is “R.A.” and
+                        then a page number, and on each new sheet (every other page) there is a date in the upper right
+                        corner. There seems to be a watermark on the paper but it is not clear enough to read.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1915-12-15">Dec. 15, 1915.</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>Your letter of November 29th came last night, written in <persName key="hilda_doolittle">Hilda’s</persName> hand. I hope that does
+                not mean that you have got writer’s cramp from the amount of writing you have been doing.
+                Your last letter said it was an agony to put pen to paper, and this dictated letter makes me think
+                there is something the matter with you. I do hope it is not so. But in a way perhaps it is a good
+                thing, you cannot be conscripted if there is anything the matter with your right arm.<anchor xml:id="n1"/></p>
+            <p><persName key="dh_lawrence">Lawrence</persName> has every right to be sore with me for not having send him his share of the
+                royalties. I cannot blame him, I can only be ashamed of myself. I had not embezzled the money,
+                as you might suppose. The money-order, dated last August, has been sitting behind my ink-well.
+                I am a wretched and procrastinating correspondent, and I simply put off writing, meaning to do it
+                “next day,” and so the months slipped by and I hardly realized how late it had become. Now I
+                have punished myself by cabling it, also sending him a long, friendly cable to go with it; but the
+                painful expense of doing this I have taken as a punishment. I have now made a mighty vow:
+                namely, that in the future I will send these royalties the instant they appear, without waiting to
+                write a letter with them. “Money talks,” as we say in America, and probably the accompanying
+                letter is unnecessary. By the way, we ought to have some more royalties in February, as
+                <orgName key="houghton_mifflin">Houghton Mifflin</orgName> pay twice a year.</p>
+            <p>Thank you for telling me in detail about the Lawrence case.<anchor xml:id="n2"/> Of course, I entirely agree
+                with you about it in every particular. It never occurred to me that the thing had been managed in
+                that way, and I was a little sore and frightened when I wrote the first time from <placeName key="nyc">New York</placeName>.
+                Contact with that <persName key="alfred_kreymborg">Kreymborg</persName> crowd had made the Puritan in me come out with a rush. What you
+                say about his eroticism being no more than that of <persName key="remy_gourmont">Remy de Gourmont</persName> and other French writers
+                is, of course, perfectly true. But the Frenchmen have a delicacy, one might almost call it in a
+                sentiment, when they deal with erotic subjects which produce the feeling of voluptuousness and
+                beauty combined, quite different from Lawrence and other Anglo-Saxons, whose work in this
+                field is usually rather beefily disgusting. I do not think that is inherent in the language. Nothing
+                could be more beautiful than Hilda’s nudes. But I think perhaps the peasant type of mind is not at
+                its happiest in speaking of erotic subjects.</p>
+            <p><persName key="john_fletcher">Fletcher</persName> tells me that he wrote and told you he thought I was too conventional. That
+                amuses me a lot, as I am always getting jumped on, by friends and critics alike, for the opposite.
+                My remarks about Lawrence in the letter I wrote you from New York were written from the
+                standpoint of its effect on the book, not of its effect upon me. And my wrestling with you on the
+                subject of the translations, which I should love to read (of the untranslatable portions of your
+                decadent Latins), was also merely a commercial opinion. But I am perfectly willing to take the
+                other stand, which is my natural one. In my own work, I write what I please, regardless of the
+                way it is going to be received.</p>
+            <p>Sometimes I wish I had never undertaken the <title key="some_imagist_poets" level="m">Anthology</title>, not because I do not approve of
+                it, nor because I do not think it has done us an immense amount of good, but simply because I
+                feel the weight of responsibility as the go-between – between the poets on one side, and the
+                publishers and the public on the other – so much. If you knew the American public, I would
+                leave everything to your judgment, but the American public is very different from the English
+                public, and I want to do everything possible for your interests here. Fletcher is excellent but not
+                practical, and I cannot trust his judgment as completely as I could yours. However, we really
+                have no cause to complain, for even the public is slowly coming round. <persName key="burton_stevenson">Richard Burton</persName> told me
+                sadly last Summer that he could not sell his poems any more, because editors only wanted “the
+                new stuff,” and in a reading I gave in <placeName key="boston">Boston</placeName> yesterday it was quite evident that the things which
+                interested my audience were the things in <hi rend="underline"><foreign xml:lang="fr">vers libre</foreign></hi> and “polyphonic prose.”</p>
+            <p>I read some of yours and Hilda’s poems at the <orgName key="americanPoetrySociety">Poetry Society of America</orgName> the other day to
+                a huge audience of between three and four hundred people. My subject was, “New Metres and
+                the poets who Write Them,” and we had a most lively time. The Society is extremely reactionary
+                and the evening turned into a sort of gladiator fight and wild beast show with thumbs
+                down and I impersonating the part of the early Christians. <persName key="louis_untermeyer">Untermeyer</persName> was the only person who dared to
+                defend us, and he defended us so splendidly that some of the members of the Society would not
+                speak to him afterwards.</p>
+            <p><persName key="jean_untermeyer">Mrs. Untermeyer</persName> has done some really very nice 
+                <hi rend="underline"><foreign xml:lang="fr">vers libre</foreign></hi> poems. She is very new at the
+                job and has much to learn, but I think she shows a promising start, and I am enclosing two or
+                three of her things in case you want to print them in “<title key="egoist" level="j">The Egoist</title>.” One of the most amusing
+                things that has happened is that <persName key="jessie_rittenhouse">Jessie Rittenhouse</persName>, whose wretched 
+                “<title key="littleBookOfModernVerse" level="m">Little Book of Modern Verse</title>” you reviewed two years ago, and who is Secretary of the Society, has been giving a series
+                of lectures at <placeName key="columbiaU">Columbia University</placeName> and elsewhere on modern poetry. Last year she was all
+                against us. There was nothing good in us at all. This year she is gradually turning round, and she
+                writes me that in one of her lectures she talked of the Imagists and among other poems she
+                quoted Hilda’s “<title key="oread" level="a">Oread</title>,” Fletcher’s “<title key="blueSymphony" level="a">Blue Symphony</title>,” 
+                <del rend="strikethrough">and</del> <add place="above">my</add> “<title key="venus" level="a">Venus</title>” and some of my other things.
+                The enclosed clipping is also hers and, although you will instantly see how far away she is from
+                where we would wish her to be, nevertheless the fact that she can say anything nice about any of
+                us is an advance.</p>
+            <p>I am awfully afraid that Fletcher and I hurt your feelings by returning “<title key="europe1915" level="a">Europe 1915</title>” and
+                “<title key="whitechapel" level="a">Whitechapel</title>.” Of course, if you insist upon their going in, we shall not oppress it, but they
+                seemed to us much less good than you can do, much less good than the “<title key="nightPiece" level="a">Night Piece</title>” and
+                “<title key="dawn" level="a">Dawn</title>” which appear in this month’s “<title key="poetryJournal" level="j">Poetry Journal</title>.” 
+                “<title key="afterTwoYears" level="a">After Two Years</title>,” as I wrote you, we
+                will take gladly. I think it is a very charming poem. And my interpretation of Imagism is much
+                wider than yours, much wider, and I suppose you will say, than the term was ever meant to be; I
+                believe it applies to our work in general rather than to any particular poem, and I believe it
+                should do this. No one can narrow their output within hard and fast rules, but the clarity of the
+                poem within its medium seems to me is what makes us Imagists, and that I think can apply to all
+                poems, in whatever medium they are written. “After Two Years” is perfectly Elizabethan, but it
+                is not overloaded with conceits, the thing which smashed the pure Elizabethan poetry, and I
+                quite agree with <persName key="harold_monro">Monro</persName> that it will make friends among the waverers. Fletcher thinks as I do. The
+                reason we objected to “Europe 1915” was not because it was not what you thought an Imagistic
+                poem, but because we thought it did not quite get over as what it was; and our agreement was
+                that we should say quite frankly what we thought of each other’s poems; we said it, but we
+                neither of us have the slightest objection to your putting it in if you feel you want it to go in.
+                There is no objection to the poem itself, only that we did not think it quite measured up to your
+                usual standard.</p>
+            <p>Now in regard to the poem of <persName key="fs_flint">Flint’s</persName> which we sent back, I for one feel quite differently.<anchor xml:id="n3"/>
+                I think it not only does not measure up to his standard, but it does not seem to me a very taking
+                poem in itself. He has missed the allure of the lady in the window. The reader should feel the
+                enticing quality, even if he also feels with the poet the necessity for flight. The lady is not
+                enticing, you do not get the poet’s feeling in the poem, therefore I consider the poem a failure. It
+                is not, as yours is, merely not quite strong enough, it seems to fail from a more fundamental
+                reason. But of course this is just <del rend="strikethrough">my</del> <add place="above">our</add> private opinion and, if you do not feel that way, why talk
+                it over with Flint and see what can be done. It is immensely difficult getting all these things
+                arranged by letter, and a couple of evenings together would straighten the whole thing out. But
+                whatever happens, we must none of us misunderstand each other’s criticisms, or feel a bit sore at
+                what is said. You are quite at liberty to turn down all my poems, if you do not like them, and I
+                will try again until I get something that suits you.</p>
+            <p>I have written a long letter to Lawrence of the most cossety[sic] kind I can think of, and I
+                have asked him to send us some poems. I did not lay much stress on this, as I did not want him to
+                think that the nice things I said were simply with a view to getting him to contribute. That would
+                not be true in the first place, as my admiration for his work is unbounded, even if I do not always
+                agree in detail. But I think if you follow up my letter by telling him that we shall consider that
+                we have lost our greatest asset if he leaves us, that we all understood that he considered himself
+                bound to us for the three years of our existence, and that we would on no account consent to
+                allow him to take away the light of his countenance from us, I hope you can get him.</p>
+            <p>I went to see <persName key="laurence_gomme">Laurence Gomme</persName> when I was in New York, and he says he will be
+                delighted to carry the <title key="poetsTranslationSeries">Poets Translation Series</title>. He told me in fact that he had already subscribed
+                for a certain number to be sent to him but said that, although he <add place="above">had</add> sent the letter some weeks
+                previous, he had had no reply. He also wants to keep “The Egoist” on sale, which I think is very
+                good indeed.</p>
+            <p>By the way, I think you are doing wonders with “The Egoist.” From being the dullest
+                sheet one could imagine, there is now always something in it which one wants to read. Of course,
+                I always read everything in it except <persName key="dora_marsden">Dora</persName>; but I think even the general public will find it good
+                now, which certainly was not the case until you took hold of it.</p>
+            <p>I have been sounding here to see if there was any chance of raising any money to run a
+                small magazine, and I have found one person who will give us <measure type="currency" num="1000">$1,000</measure> a year for five years,<anchor xml:id="n4"/> if we
+                can get it up. I should be willing to pledge myself for a like sum, and I think I could find people
+                to complete the amount. But I will not do it, I will not even attempt to do it, unless I can have
+                you as its editor. If there were any chance of getting you over here, I would set about raising the
+                money at once; but I know no one on this side of the water who would do the business as you
+                could, nor whom I would be willing to trust the matter to. I cannot be the editor myself, or rather
+                I do not want to. My fecundity surprises even myself, and I do not want to do anything to dam
+                the stream, even when it is quite on the cards that it may dry up of itself in the course of a few
+                years. Nobody can count on being fecund for any given length of time. It is rare that anyone can
+                keep the power unimpaired through life, and I am bound to make hay while the sun shines. When
+                it goes down, I shall write essays until the end. But as you are already editing one paper, it would
+                be right in the same line, and an advance, to edit a better paper here. I would on no account have
+                it a paper entirely devoted to <hi rend="underline"><foreign xml:lang="fr">Les Jeunes</foreign></hi>. It should be a serious periodical, brilliant and sincere,
+                and should deal with all the arts, and we should pay our contributors. I believe we could make
+                quite a decent success. But not without you, my Boy, not without you! Whenever you are ready
+                to come to America, I will start out and get the money. I am having no luck at all with <persName key="edmund_brown">Brown</persName>.
+                He is fearfully unbusinesslike. I wrote to him three weeks ago, and requested him to send me
+                your proofs, and they have not come. Since then I have telephoned to him several times, but he is
+                always out. I tried him again to-day, again without success. I shall hold this letter open and try to
+                get some kind of an answer from him in a postscript. It is a shame, for he has lost the Christmas
+                sale of your book. I wish I had been able to lend it with one of the larger firms. I tried them hard,
+                but we had not got along as far as we have now, and they would not take it. I think there will be
+                much better luck with your next book. Houghton Mifflin have just accepted another book of
+                Fletcher’s to appear in their <title key="newPoetrySeries" level="s">New Poetry Series this Spring</title>.<anchor xml:id="n5"/> He is doing quite well over here.</p>
+            <p>As to <persName key="mary_aldis">Mrs. Aldis’</persName> poem, I have not seen it. Fletcher tells me that he does not think it good
+                enough for you to print, so if you do not like it, I would return it. Mrs. Aldis is a clever society
+                woman, who has lately taken up this as a fad. Her plays are better than her poems, and a good
+                many of them have been given by a brilliant amateur theatrical company of which she is a
+                member.<anchor xml:id="n6"/> But there is not any real future for her, I think, because I do not think she
+                will ever work at it seriously.</p>
+            <p>I shall look forward very much to the large paper editions of Hilda’s “<title key="iphigeneia">Iphegeneia</title>” [sic]
+                and your Renaissance Latins. You are awfully good to give me the latter, and I greatly appreciate
+                it. I will read Fletcher the list of your new translations when he comes out on Sunday. I do not
+                know anything about these men except Meleager, so I have no opinion on them, but I think your
+                translations as a whole extremely good, and they are just what I have always wanted.</p>
+            <p>I am a good deal discouraged just now by finding a number of misprints in my book of
+                French poets.<anchor xml:id="n7"/> I can just hear you and Flint pouncing on them with howls of derision. The worst is
+                the quotation of the first line of Verlaine’s sonnet “Langueur,” where two nouns are made
+                masculine that should have been feminine. The Press is similarly to blame, of course, and their
+                proof-readers certainly do a fine lot of overlooking, but I blame myself very much for not having
+                noticed these mistakes in the proof. My only excuse is that I was so dead beat when it came to
+                those last proofs that I mistook what I knew ought to be on the page for what was really there. It
+                is awfully annoying, but the publishers assure me that everybody realizes that these are printer’s
+                errors and that if they notice them, they will think nothing of them, and that they do not militate
+                against the value of the book in the least. I certainly hope it is true, for that book was squeezed
+                out of my heart’s blood. They are printing an errata slip for all of the editions not yet sold, but
+                half of it is already out. I have asked them to send me some copies of the slip, and I will send
+                some to you and Flint when they come, so that you can paste them into your copies.</p>
+            <p>I wish I could give you an advertisement of the book for “The Egoist,” but <orgName key="macmillan">Macmillan</orgName> is
+                handling it in <placeName key="london">London</placeName>, and I suppose they have their own advertising methods. I am going to
+                write to <persName key="george_macmillan">Mr. George Macmillan</persName> and suggest his putting it into “The Egoist,”
+                but if he does not, do not blame me.</p>
+            <p>Do <add place="above">do</add> the review just as soon as you can, for you know intelligent reviews of books of
+                this kind are far to seek.</p>
+            <p>I enclose a clipping of a letter which I have just written to <title key="bostonTranscript" level="j">The Transcript</title> defending
+                Remy de Gourmont’s national honour against a foul attack by a man named <persName key="alvan_sanborn">Alvan Sanborn</persName>, who
+                is The Transcript’s <placeName key="paris">Paris</placeName> correspondent. I thought his article should not go unanswered.</p>
+            <p>This will reach you about Christmas time, and it takes lots of love to you both. I wish
+                more than I can say that we might be together.</p>
+            <closer>Affectionately yours,</closer>
+            <postscript>
+                <label>P.S.</label>
+                <p>I got Brown on the telephone, and he says that your proof-sheets will be in my hands
+                    next week, that they were delayed by two Greek lines in one of your poems, and that he has no
+                    Greek font and he had to get them set up by another Press. The book has lost the Christmas sale,
+                    of course. I hope it will not make much difference in the long run. Brown is very slow and
+                    procrastinating, but the book is sure to be out before long, I think. I can tell better when, when I
+                    see the proofs.</p>
+                <p>Kreymborg has just written me that he is getting up an anthology of the poems which
+                    have been printed in “<title key="others" level="j">Others</title>,” to be published by <orgName key="knopf">Alfred A. Knopf</orgName>, who is a new publisher just
+                    starting in New York. He intends to be a real publisher and not a half amateur like the <orgName key="a_and_c_boni">Bonis</orgName>, but
+                    I do not at all know how good he will be, yet. My feeling is that it will probably be a mistake for
+                    any of us to allow the poems which he has of ours to appear in this <title key="some_imagist_poets" level="m">Anthology</title>. But t
+                    here are a good many things to be considered. Of course, we shall all be in <persName key="harriet_monroe">Harriet’s</persName> Anthology and our
+                    own, but still <persName key="ezra_pound">Ezra</persName> will be in his, and Harriet’s, and this, too. Fletcher and I are going to talk it
+                    over Sunday, and go over all the copies of “Others” and get an idea of how our poems appear <hi rend="underline"><foreign xml:lang="fr">en masse</foreign></hi>,
+                    before we answer Kreymborg. As soon as we have decided, I will let you know. Of
+                    course, Kreymborg is very anxious to have us, as we are the only people who have appeared in
+                    “Others” who have any sort of reputation except Ezra. Our reputation is quite good, and I believe
+                    it will not hurt us to hold out in this instance. It is but fair to any, however, that another magazine
+                    of verse has been started in <placeName key="philadelphia">Philadelphia</placeName> under the title “<title key="contemporaryVerse" level="j">Contemporary Verse</title>,” which is to
+                    contain the better of the old school, such as <persName key="william_benet">Benét</persName> and Untermeyer. I don’t know who the editor
+                    is. I think that they will probably never have any use for us. Certainly none of us has been asked
+                    to contribute, so far as I know, and various other people have. All this is to be taken into
+                    consideration.</p>
+                <p>I am also very much afraid that <persName key="conrad_aiken">Conrad Aiken</persName>, who has money, is trying to get hold of
+                    the Poetry Journal. It is a rotten little paper, but if he gets it, he will use it to injure us for all it is
+                    worth; but I doubt if he has prestige enough to do us much harm.</p>
+            </postscript>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">The Military Service Act introduced conscription for unmarried British men between the ages of 18-41 unless they were teachers, pastors, certain types of industrial workers, or medically unable to serve. In May of 1916 conscription was extended to married men as well.</note> 
+                <note target="#n2" resp="mb">D.H. Lawrence's novel The Rainbow (Methuen, 1915) was banned as obscene in the U.K. on November 13, 1915, just two months after its publication. Half of the 1250 copies in the print run were destroyed.</note> 
+                <note target="#n3" resp="mb">Lowell most likely refers to the poem "Evil," which she names in FlintFS19151229.</note> 
+                <note target="#n4" resp="mb">Unclear who this person is.</note> 
+                <note target="#n5" resp="mb">John Gould Fletcher, Goblins and Pagodas ((Houghton Mifflin, 1916).</note> 
+                <note target="#n6" resp="mb">Mary Aldis was affiliated with the Chicago Little Theatre (1912-1917).</note> 
+                <note target="#n7" resp="mb">Amy Lowell, Six French Poets: Studies in Contemporary Literature (Macmillan, 1916).</note> 
+            </div> 
+        </back>
+    </text>
+</TEI>

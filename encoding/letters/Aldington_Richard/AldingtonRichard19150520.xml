@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1915-05-20"
+                    >May 20, 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$94i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of 4 sheets of paper with typewriting on both sides. At the top of each sheet
+                        (every other page) there is a page number in the center, with the exception of the first page. In
+                        several places, there is inserted type between lines. The last page has a piece torn from the side
+                        that does not meaningfully interrupt text.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1915-05-20">May 20, 1915.</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>Here’s your draft for payment in full, I believe; at least I think it is as full as the cheque
+                was. <title key="newRepublic" level="j">They</title> have just sent it to me this morning, and I am hastily getting it off to you. Do not say I
+                have not done your business well, for I certainly did slave to get them to pay in the beginning,
+                and then, when I had to return the cheque, I sweated blood for fear they would dock it when they
+                put it into a draft; but here you are, safe and sound, and don’t make any scruples about taking it.
+                It is legally and ethically yours by every possible account.<anchor xml:id="n1"/></p>
+            <p>I feel so dreadfully about that number of “<title key="egoist" level="j">The Egoist</title>” that I lie awake at night.<anchor xml:id="n2"/> It is a
+                shame that all those good articles should be lost, not really lost, of course, for you have your own
+                distribution, but not circulated <add place="above">by us</add>. But I know <persName key="ferris_greenslet">Ferris</persName> is right when he says it would be folly to
+                do it. You must try and believe that we do know our public over here, and that you have not any
+                real intimacy with them as a public, and we know the way it is likely to jump.</p>
+            <p>I haven’t had any answer to my cable sent you yesterday, and when I took the trouble to
+                pre-pay it, I think that is a little queer. I don’t want you to write that refutation of <persName key="harold_monro">Monro’s</persName>
+                remarks on me. I know you can, out of the very things you said in your review of me. You see,
+                as none of the poems in regular metre, which you do not like <add place="above">(at least you don’t like mine)</add>
+                appear in the <title key="some_imagist_poets" level="m">Anthology</title>, and as you seemed to like all these poems when they were shown to
+                you, you ought not to have much difficulty in saying something which shall at once down
+                Monro’s sneer and be true to your own principles.</p>
+            <p>Yours and <persName key="harriet_monroe">Harriet’s</persName> correspondence has caused me a little sigh of despair. I think you are
+                both wrong.<anchor xml:id="n3"/> I think it is foolish to protest against reviews, although I have just written a letter to
+                Monro himself; but I felt at liberty to do so, because he pitched into me about my “<title key="letterFromLondon" level="a">London Letter</title>”
+                last Autumn. On general principles, I am sure reviews should always pass unnoticed,
+                whether they are good or bad, and she would have a much more efficient way of getting back at
+                you by simply never accepting any more of your poems for <title key="poetry" level="j">her magazine</title>. That is what I think
+                the majority of editors would do, and it speaks well for Harriet’s singleminded devotion to poetry
+                that she prefers to squeal on paper and run the risk of a snub, rather than hurt her magazine by
+                refusing your poetry or being unjust to you as a poet. That is pretty fine of her. Of course, I do
+                not like her poetry any more than you do, or rather that is not quite fair, I think there were points
+                about “The Hotel,” as you said yourself, and there was a dirge about a little nephew of hers who
+                died which, if old-fashioned in expression, was extremely sincere in feeling. I am sorry that you
+                and Harriet should get at odds, because she does try so hard to make her magazine good; and I
+                must say, when you take the whole thing straight from the first issue to the last, as I had occasion
+                to do the other day in connection with my talk on modern poets, it is a fact that there is no poet in
+                the English-speaking countries of any note whose work has not been printed in her pages. I bet a
+                hat that is more than any other magazine can boast.</p>
+            <p>I think in everything in this world, even in art, even in business, one should not lose one’s
+                sense of the amenities of life. I remember your counseling me this way when <persName key="ezra_pound">Ezra</persName> wrote that
+                terrible letter to Macmillan in the Autumn. I followed your advice and have never regretted it.
+                Harriet is a poor woman, with hardly enough money to live upon, on the wrong side of middle
+                age. She is lonely and exceedingly unattractive. Her one consolation in life is to believe herself
+                talented. It is frightfully pathetic, and is a subject in which Balzac or Maupassant would have
+                revelled. Would it hurt you, who are young, vigorous, and have a future before you, to have done
+                what we call “letting her down easy”; and would it have done any serious harm to those artistic
+                principles in which you believe? I do not think it would have, and I do believe in always
+                remembering the good English pugilistic rule that in fighting you must take a fellow of your own
+                size. What has struck me so much in my studies of the French poets this winter, is the
+                extraordinary courtesy with which they treat each other. I do not think our literary life is
+                overflowing with courtesy, and it is a jolly bad thing for our poetry that it is not.</p>
+            <p>I think that your contention that Harriet should have written to you, as an editor, through
+                the columns of your paper, is (pardon me) ridiculous. We all write personal letters to editors
+                which are not meant for publication, and they are never ignored, but always answered again
+                privately, as letters between two individuals should be. I see no reason why you should print her
+                poem, I think she is foolish to ask you to, and you certainly cannot recant your criticism in your
+                own paper, and I think the suggestion that she write to you is a very good one. But I think a little
+                air of “<foreign xml:lang="fr">bonhomie</foreign>” strewn over your relations would grease the wheels and do no harm to
+                anybody. It is none of my business to give you advice, of course, but since you sent me the
+                correspondence, I thought I would tell you how I feel about it.</p>
+            <p>I do wish you and <persName key="hilda_doolittle">Hilda</persName> could come over here this summer, as I cannot get over there.
+                Would you consider coming if I could get you a translating job to keep you while you were here?
+                <orgName key="bostonMusicCompany">The Boston Music Company</orgName>, one of the branches of the largest publishing firm in America, and
+                the people who issued yours and <persName key="walter_rummel">Rummel’s</persName> 
+                <title key="tenSongsForChildren" level="m">book</title>,<anchor xml:id="n4"/> have a lot of song translating to do. It is rather
+                fussy, because it has to be done to music already written. I have done an awful lot of it, so I
+                know its difficulties; but it is not uninteresting work, and they pay <measure type="currency" num="5">$5.00</measure> a poem and up. They
+                always have a great lot on hand, and they applied to me for names of people who can do it.
+                <persName key="john_fletcher">Fletcher</persName> has just done six poems for them, and I have no doubt I could get you some work of that
+                kind, if you care to come over. Then you could stay permanently or not, as you choose. I do
+                think a sojourn in America, whether long or short, would be an interesting thing for you, and I
+                think you would learn and awful lot about this country which you never suspected. If the idea
+                appeals to you, let me know, and I will see what can be done.</p>
+            <p>I was sorry about <persName key="michael_sadleir">Sadler’s</persName> books, but please <add place="above">realize that</add> every one of the 150 copies that
+                <orgName key="constable">Constable</orgName> ordered have already been paid for. They own them; we do not. They are marked on
+                our list as already sold. I hope that, if they dispose of them all, they will send for some more; and
+                I should keep in pretty close touch with Sadler, if I were you. They left here in a freight boat on
+                the 16th of April straight to <placeName key="london">London</placeName>, and when they got over, they had to have new title pages put
+                in and be bound, so it is not surprising that they did not come before. I know Sadler is thoroughly
+                interested in the movement and, if you talk over your various schemes with him, I think you will
+                find him willing to cooperate, if you make him think that you are co-partners in a common cause,
+                and do not push him.</p>
+            <p>They have sent me the revised list from <orgName key="houghton_mifflin">Houghton Mifflin</orgName> to-day, in which it appears that
+                Ferris Greenslet’s original figures were wrong, and that our sale up to date, including the
+                advance copies, is 460 copies.</p>
+            <closer>Affectionately yours,</closer>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">See AL to RA, May 6, 1915, about payment for articles contracted but not used by The New Republic.</note> 
+                <note target="#n2" resp="mb">See AL to RA, May 1915, explaining her decision to buy up and not distribute copies of the “Imagist Number” of The Egoist, Vol. 2, No. 5 (May, 1915) in America.</note> 
+                <note target="#n3" resp="mb">Aldington negatively reviewed Harriet Monroe’s You and I (Macmillan, 1914) in The Egoist Vol. 1, No. 24 (Decemer 15, 1914) 458-459.</note> 
+                <note target="#n4" resp="mb">Walter Morse Rummel (1887-1953) pianist, composer, and music editor. His Ten Songs for Children (Boston Music Company, 1913) included songs with words by H.D. and Aldington.</note> 
+            </div> 
+        </back>
+    </text>
+</TEI>
