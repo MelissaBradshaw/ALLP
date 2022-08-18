@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1916-08-05"
+                    >Aug. 5, 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$224i</idno>
+                    </msIdentifier>
+                    <physDesc><p>This letter is two pages long. The word Aldington is written in pencil in the top left at a 
+                        forty-five-degree angle slanting upwards from left to right. The date is in the top right of both pages
+                        and the annotation “R.A.--2” is in the top left of the second page.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1916-08-05">Aug. 5, 1916</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>I enclose a draft for £16-3-2, representing yours and <persName key="hilda_doolittle">Hilda’s</persName> share of the
+                August 1st royalties from our two volumes of “<title key="some_imagist_poets" level="m">Imagist Poets</title>.” The sales were as follows:
+                249 Imagist Poets, 1915. .36 1/4 $90.26
+                389 Imagist Poets, 1916. .36 1/4 <hi rend="underline">[$]141.01</hi>
+                                                 [$]231.27 <!--I wasn't sure how to format this block of text where AL calculates the sales of the SIP 1915 and 1916-->
+                <add place="below">There are 3 undivided cents, + as I cannot divide them amongst six people, I am keeping
+                    them as my commission!!</add></p>
+            <p>We are within <measure quantity="35" commodity="volumes">35 volumes</measure> of as many sold of the 1916 volume as of the 1915 at this date,
+                with the exception of the English sale. <orgName key="houghton_mifflin">Houghton Mifflin</orgName> are extremely careless, and <orgName key="constable">Constable</orgName>
+                was either careless or unwilling. <persName key="ferris_greenslet">Ferris Greenslet</persName> says he was away on his vacation; at any rate, I
+                left it to them to arrange with the English house how many copies they would take, and somehow
+                it slipped up and the English house has not ordered any copies yet. I had a talk with Greenslet
+                about it just before I came up here, and he said that their contract with Constable was such that
+                C. must take the book, and that he would see that they did it at once. But of course no sales from
+                them appear on this statement. Houghton Mifflin were very careless about this, and it is awfully
+                annoying, but we are doing the best we can about it now. The book is making a nice little
+                property, as you see, and the fact that the first one is still selling is a very hopeful sign.</p>
+            <p>I had a nice letter from Hilda the other day. She tells me she is leaving Devonshire to be
+                near you, and that she will let me know her address later. I have not yet received it, so I cannot
+                write to her. She sent me a number of <persName key="john_cournos">Cournos’</persName> poems, which I sent on to <persName key="ws_braithwaite">Braithwaite</persName>. Whether
+                he will take them or not I do not know. Between you and me and the gate-post, I am not much
+                struck with them, and I think there is very little chance of my being able to place them, but I will
+                do my best.</p>
+            <p>There is nothing new. This is a peaceful place and very little happens here. I am engaged
+                on the proof-sheets of “<title key="menWomenGhosts" level="m">Men, Women and Ghosts</title>” which will come out in October, and also my
+                lectures on modern poets. My “<title key="craftsman" level="j">Craftsman</title>” article<anchor xml:id="n1"/> has met with quite a little success. I am
+                sending a copy of it to you.</p>
+            <p>Will write again soon, and with love to Hilda when you see her, believe me,</p>
+            <closer>Affectionately yours,</closer>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">Amy Lowell, "Is There a National Spirit in 'The New Poetry' of America?" The Craftsman, Vol. 30, No. 4 (July, 1916), pp. 39-49.</note> 
+            </div> 
+        </back>
+    </text>
+</TEI>

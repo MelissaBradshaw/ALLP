@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1916-07-27"
+                    >July 27, 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$219i</idno>
+                    </msIdentifier>
+                    <physDesc><p>This letter is five pages long. The word “Aldington” is written in pencil in the top left corner of
+                        the first page, slanting up from left to right at a 45 degree angle. There’s a faint embossing at the
+                        top of the paper that looks like “Berkshire Linen USA.” The date is listed on each page in the top
+                        right, and at the top left of each page after the first page is the annotation “R.A.–Page [#].”</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1916-07-27">July 27, 1916</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>Your letter of the 13th of June came a few days ago, and I was delighted to get it, and to
+                know that you were really in camp. However awful it is to break up one’s life in this way, if it
+                has to be done, I do think it is better to have it over, and not in anticipation.</p>
+            <p>I have ordered “<title key="poetryReviewAmerica" level="j">The Poetry Review</title>” went to you via <persName key="hilda_doolittle">Hilda</persName>. In it you will find a short and
+                pleasant account of our <title key="some_imagist_poets" level="m">Anthology</title> by <persName key="william_phelps">Professor Phelps</persName> 
+                of <placeName key="yale">Yale</placeName>. I am also sending you the May
+                and June-July numbers of “<title key="littleReview" level="j">The Little Review</title>”. The latter contains an excellent criticism by 
+                <persName key="mary_aldis">Mrs. Aldis</persName>,<anchor xml:id="n1"/> and both of them contain an interesting paper on you and Hilda and <persName key="fs_flint">Flint</persName>,<anchor xml:id="n2"/> 
+                by <persName key="john_fletcher">Fletcher</persName>. In the latter also is a <title key="malmaison" level="a">poem of mine</title>,<anchor xml:id="n3"/> which I like and which I hope you will like too, 
+                in spite of its being in polyphonic prose.</p>
+            <p>Don’t worry, I shall write to you constantly and tell you everything that is going on here.
+                You certainly shall not drop out from anything that I can keep you up in.</p>
+            <p>I can certainly get your photograph into the “<title key="bostonTranscript" level="j">Transcript</title>”, if you will send it on, and they
+                will let me put a few lines under it, I am sure, in which I can give you a send-off. I wish you
+                would send two – one for my own pleasure and one for the paper.</p>
+            <p>There is a new magazine being got up here. <persName key="james_oppenheim">James Oppenheim</persName> is the editor and 
+                <persName key="louis_untermeyer">Louis Untermeyer</persName> and <persName key="robert_frost">Robert Frost</persName> are two of the 
+                associate editors. It is to be called “<title key="sevenArts" level="j">The Seven Arts</title>”,
+                and is endowed at <measure type="currency" num="25000">$25,000.00</measure> a year for one year. <persName key="annette_rankine">The donor</persName>, whose name I do not know, is to
+                let them run it as they please for a year, and if at the end of the time he is not satisfied with the
+                result, he can withdraw his support; in which case they will try to raise the money on their year’s
+                work. If, however, he is satisfied, as they hope he will be, the endowment will continue. They
+                wish to print things relating to all the arts, and they pay on acceptance. They have no propaganda
+                whatever, and are to be the spokesmen of no school. It sounds well; and although I do not
+                suppose they will follow entirely the lines which we should like, nevertheless it seems to me
+                hopeful. And I hope that whatever you may send me I shall now be able to place more
+                advantageously than hitherto – with “The Poetry Review” and this new magazine as places
+                to put things into.</p>
+            <p><persName key="ws_braithwaite">Braithwaite</persName> is considering your poems, and he will certainly take some of them, if not all.
+                What he does not take I shall send to <persName key="harriet_monroe">Harriet Monroe</persName>. Braithwaite does not pay as well as
+                Harriet, as you know. In fact, he pays painfully little, as <persName key="blanche_wagstaff">his backer</persName> has only <measure type="currency" num="2000">$2,000.00</measure> a year to
+                put into the magazine. But the advantage is that he prints his things at once, and he already has a
+                much larger circulation than <title key="poetry" level="j">Harriet</title>. Their news stand sale last month was <measure quantity="3000" commodity="copies">three thousand copies</measure>.
+                This is exclusive of subscriptions. I have also sent him your essays, and I think he will certainly
+                take one of them. What he does not take I shall try to get printed elsewhere.</p>
+            <p>Our half-yearly account for the Anthology comes in on the first of August, and I sincerely
+                trust that I shall have some money to send you then. I sent Hilda a draft for <measure type="currency" num="10">ten dollars</measure>, which I
+                got out of <persName key="edmund_brown">Brown</persName> as the second payment on his agreement with me. He still owes you <measure type="currency" num="10">ten dollars</measure>
+                on that agreement. But as I have succeeded in getting two payments, I have no doubt that I shall
+                get the third in time, but probably not before Autumn. The poor devil is awfully stuck himself,
+                and has just married, into the bargain. But I shall try for the last payment as soon as I return to
+                town in the Autumn.</p>
+            <p>If you ever see “<title key="others" level="j">Others</title>”, you will be surprised to find a poem in the current number by
+                me. I say you will be surprised, because I told you that Fletcher and I had agreed not to go into it.
+                This particular number is edited by <persName key="wc_williams">William Carlos Williams</persName>, and he wrote and begged me to
+                send something for his sake. I like Williams, but I told him that Fletcher and I had agreed to send
+                nothing without consulting each other, and that, therefore, I could not send him anything. He
+                replied that Fletcher had sent him a poem from <placeName key="england">England</placeName> for this number. I don’t know why
+                Fletcher did not let me know before he went back on our agreement, but in the letter I had from
+                him, written two days before yours, he made no mention of this transaction. However, partly
+                because Fletcher had sent a poem, partly because I like Williams, partly because I think the
+                magazine has not been so objectionable lately, I did send him a poem; which fact I now greatly
+                regret as I do not think this number at all good.<anchor xml:id="n4"/> It contains contributions from my particular
+                detestations – <persName key="jeanne_dorge">Jeanne D’Orge</persName> and <persName key="mina_loy">Mina Loy</persName>. <persName key="ezra_pound">Ezra</persName> has some more Chinese translations in it, and I
+                think they are wretched. Fletcher’s poem, too, is not good.</p>
+            <p>Fletcher does not seem to have seen any of you since he has been in England. I think he is
+                much taken up in being married at present. He sent me two poems the other day and asked me to
+                sell them to “<title key="century" level="j">The Century</title>” for him. I do not think them good, but he is so sensitive, I do not like 
+                to tell him that across the water. So I immediately sent them along. I do not know whether they
+                will take them or not.</p>
+            <p>What you say about Hilda’s people hearing of our work in the West is very gratifying.
+                There is a woman named <persName key="katherine_howard">Katherine Howard</persName> who is acting the part of John the Baptist for us,
+                going from city to city in the <placeName key="pacificCoast">Pacific Coast</placeName> lecturing on our work for love, as she charges nothing
+                for her lectures. She writes me that she has prepared the ground for me and that I must soon
+                come. I think I shall take the advice and go out next Spring.</p>
+            <p>My lectures are extremely successful and, I think, have done considerable for the cause of
+                our work. I am speaking on “The New Poetry, With Special Reference to Imagism” in <placeName key="stLouis">St. Louis</placeName>
+                on November 7th, and I am giving four lectures on “Modern American Poets” at the
+                Brooklyn Institute of Arts and Sciences in January. These four lectures will also be repeated in
+                <placeName key="boston">Boston</placeName> and <placeName key="chicago">Chicago</placeName>, and possibly in 
+                <placeName key="nyc">New York</placeName> and <placeName key="phildelphia">Philadelphia</placeName>. I am to talk before an elocution
+                school up here on “Poetry as a Spoken Art” next month. My four lectures on American
+                poets have one drawback for me, in that they do not permit me to include you and Flint, for
+                which I am extremely sorry; but it was unavoidable. I am, however, giving one lecture to the
+                American Imagists, in which I deal exclusively with Hilda and Fletcher, and I shall run in
+                remarks about you and Flint along with them.</p>
+            <p><persName key="dh_lawrence">Lawrence</persName> wrote me: “We are gaily ringing our last shilling.” Whether this means his or
+                England’s, I was unable to discover. I begged Fletcher to find out if he was in want, but he has
+                not done so yet. If you know, I wish you would let me know, as I should not like him to suffer,
+                and possibly the funds for such purposes which I left in Hilda’s hands are already exhausted. I
+                hope to have some money to send him when I hear from <orgName key="houghton_mifflin">Houghton Mifflin</orgName> next month.</p>
+            <p>My own book, “<title key="menWomenGhosts" level="m">Men, Women and Ghosts</title>”, has gone to press and will be out in October.
+                I hear from <persName key="ferris_greenslet">Ferris Greenslet</persName> that Hilda<anchor xml:id="n5"/> is to be issued in this country as one of the Autumn set of
+                the <title key="newPoetrySeries" level="s">New Poetry series</title>. That is good news, and I shall review the book for either Braithwaite or
+                “The Seven Arts”. I forget whether I sent you my review of you and Flint in “The Poetry Review”;
+                but at any rate, it will come with the back numbers on the subscription I have just given for you.</p>
+            <p>It is amusing to see, in this number of “Others”, that <persName key="conrad_aiken">Conrad Aiken</persName>, that arch-plagiarist, is
+                now trying to write a la (sic) Imagists, having gone through the stages of <persName key="john_masefield">Masefield</persName> and <persName key="el_masters">Masters</persName>!</p>
+            <p>I am afraid you will not like my new book much, as it is all stories, and some are in the
+                despised stanza form that you objected to so much in my last book. I am afraid I was born
+                eclectic and must write in every way to satisfy my soul. Some of these, however,
+                I think you will like; in fact, I know you will, because you have already liked them.</p>
+            <p>My “<title key="swordBladesAndPoppySeed" level="m">Sword Blades</title>” has just gone into a second edition. It has taken it a devil of a time to
+                do it, but they printed a huge edition the first time. However, the sales are
+                increasing, and that is something.</p>
+            <p>Write me as often as you can. I miss your letters awfully when I do not get them. I wrote
+                to Hilda a week or so ago, and I shall write again very soon, as she must be dreadfully lonely,
+                and I think writing is the best way to help her just now. It does look as if the war would soon be
+                over, and you can be quite sure that as soon as it is I shall cross the ocean to see you all.</p>
+            <closer>With much love,</closer>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">Mary Aldis, "Some Imagist Poets, 1916," The Little Review, Vol. 3, No. 4 (June-July, 1916), pp. 26-32.</note>
+                <note target="#n2" resp="mb">Flint, "Three Imagist Poets," The Little Review, Vol. 3, No. 4 (June-July, 1916), pp. 32-41.</note>
+                <note target="#n3" resp="mb">Amy Lowell, "Malmaison," The Little Review, Vol. 3, No. 4 (June-July, 1916), pp. 1-6.</note>
+                <note target="#n4" resp="mb">Others, Vol. 3, No. 1 (July, 1916).</note>
+                <note target="#n5" resp="mb">H.D., Sea Garden (Houghton Mifflin, 1916).</note>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1916-09-05"
+                    >Sept. 5, 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$226i</idno>
+                    </msIdentifier>
+                    <physDesc><p>This letter is five pages long. The word Aldington is written in pencil in the top left at a 
+                        forty-five- degree angle slanting upwards from left to right. The date is in the top right of all pages and
+                        the annotation “R.A.--[Page #]” is in the top left of all pages after the first.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1916-09-05">Sept. 5, 1916</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>This will be a very short letter, as I have not much to report. I enclose a money-order for
+                the <measure type="currency" num="5">five dollars</measure> which was paid you by 
+                “<title key="" level="dial">The Dial</title>” for the <persName key="henri_deRegnier">Henri de Régnier</persName> article. As I wrote to
+                <persName key="hilda_doolittle">Hilda</persName> the other day, I shall have to be a little 
+                patient about collecting from “<title key="poetryReviewAmerica" level="j">The Poetry Review</title>”
+                for your two poems that appeared in that, as they are always slow about paying, but I think I
+                shall have it in a week or two, as they always do pay in the end.</p>
+            <p><persName key="harriet_monroe">Harriet</persName> writes me that she will take I and IV of your 
+                “<title key="springMoods" level="a"></title>Spring Moods,” “<title key="beautyUnpraised" level="a">Beauty Unpraised</title>” and
+                “<title key="ave" level="a">Ave</title>.” She tells me that she is writing this to you direct. She has not returned the
+                other manuscripts to me, which makes me rather angry, as I was going to try “<title key="sevenArts" level="j">The Seven Arts</title>”
+                with them. I am afraid she has sent them to you.</p>
+            <p>I think we are looking up, as I have been rather lucky in placing these things of yours,
+                and I sold a poem of <persName key="john_fletcher">Fletcher’s</persName> to “<title key="century" level="j">The Century</title>” the other day. 
+                Of the things you sent me I have sold “<title key="imagesPoem" level="a">Images</title>” and 
+                “<title key="inarticulateGrief" level="a">Inarticulate Grief</title>” as well as your “<title key="mallarme" level="a">Mallarme</title>” to “The Poetry Review.” I
+                have sold your “Henri de Régnier” to “The Dial,” as you see. And I have sold these other two to
+                “<title key="" level="j">Poetry</title>.” I do not believe that I can get rid of the <persName key="pierre_louys">Louys</persName> article anywhere, as on account of his
+                erotic quality people over here do not want to read about him. I will make a stab at “The Seven
+                Arts” with it, but I do not think there is much hope.</p>
+            <p>They paid very little for the Henri de Régnier article, as you see. “The Dial” has just
+                changed hands, as I wrote you the other day, and they are not paying very high rates; but it has a
+                very large circulation, and this is the first time that any of our group has been represented in it in
+                any way – they have been our bitterest enemies hitherto – and I thought it better to accept a small
+                price for the sake of the publicity; and I trust you will think I did right.</p>
+            <p>Things are going very well here. I am sending you a copy of a paper called “<title key="national" level="j">The National</title>,” 
+                which contains an article about all of us, and especially about me, simply because I
+                happen to be here; also a copy of “<title key="independent" level="j">The Independent</title>,” which featured me this week; and as I say,
+                the fact that I have had so little difficulty in selling these things that you and Fletcher sent, makes
+                me feel that we are all coming on very well. I think whatever you can send me that refers to the
+                war, I shall have no difficulty in placing. If you happen to write a poem, or anything you have
+                experienced while in camp, send it right along. I think I can put it somewhere with the greatest
+                ease.</p>
+            <p>I had a letter from Hilda the other day telling me of <persName key="dh_lawrence">Lawrence’s</persName> distressed condition. It
+                came too late for me to take her advice about augmenting the amount of his royalties. As a
+                matter of fact, I should not have done that anyway, for I do not like deception, and it would have
+                angered me to have it practiced up on me. But I will send him some money, with a note, which I
+                trust will enable him to accept it without scruple. Tell Hilda I will write to her very soon.</p>
+            <p>Where is your photograph in uniform? As I wrote you, I am sure I can get it into “<title key="bostonTranscript" level="">The Transcript</title>,” 
+                and I wish you would send it along. Also ask Hilda to send me another one of her, as
+                I do not want to do anything to injure this one I have, and I will have it put in a review of <title key="seaGarden" level="m">her book</title>, 
+                which <orgName key="houghton_mifflin">Houghton Mifflin</orgName> are bringing out in the Autumn. I think I can get <persName key="ws_braithwaite">Braithwaite</persName> to
+                write a special article reviewing that book, and using the picture, without much difficulty. All
+                these things help not only the person of whom they especially treat, but they help us all, and we
+                want to keep the ball rolling – rolling right through the war and out the other side – so that we
+                shall be in a splendid position to realize the new interest in things other than military, when the
+                war is over.</p>
+            <p>I think that, as you are all on the other side except me, now, you had better all arrange
+                between you the things you think best for the <title key="some_imagist_poets" level="m">Anthology</title>, and then send them over to me. They
+                ought to reach me not later than the first of December, if possible. Then I will use my prerogative
+                of objecting or accepting, as we all do, if it seems to be necessary to have any separate opinion
+                over these, which I doubt; but as there is only me over here to decide, it will be much easier for
+                you to get together there, so that I do not have to ask the various factions of you whether you
+                approve before putting them into the book. It takes such an everlasting time for mail to go back
+                and forth across the ocean nowadays, that I would rather deal directly with Hilda, and let her do
+                all the collecting of the material, and not have to write specifically to each individual member.
+                The book has to go to press, as you know, in February.</p>
+            <p>I am doubtful about putting a preface at all in this number. It seems to me to we have
+                prefaced enough, and it would perhaps seem more dignified, and look as if we were more certain
+                of our position in this last one of our Anthologies (for you remember our contract was only for
+                three years), if we appear without any apology or explanation of any sort. I think the Anthology
+                has done its work: we have made a good position for ourselves, we are taken seriously, and I
+                think we have done that almost impossible thing – come very near to changing the whole taste
+                for poetry, certainly in this country. There are a number of conservative poets still writing, and a
+                few people who like them, but they have nothing like the vogue they had, and the interest is all
+                turning our way, I think simply because we are so absolutely sincere and have believed so
+                absolutely in the things we have tried to embody in our work; and to my mind it is one of the
+                most hopeful things about the whole movement that the sincerity which is in us has sprung an
+                answering echo in the interest which we have been accorded. I had the following instance in the
+                mail the other day. Evidently someone had compared <persName key="carl_sandburg">Sandburg’s</persName> and <persName key="george_sterling">George Sterling’s</persName> poems,
+                unfavourably to the former. Sandburg writes me as follows:</p>
+            <!-- The two letters that follow are formatted as letters within a letter, I wasn't sure how best to format them? I stuck with just paragraph breaks for now. I went down a bit of a rabbit hole on the TEI site, but I couldn't find what I was looking for :/ -->
+            <p>“Dear Miss Lowell:</p>
+            <p>I am sending copies of this to my publishers, <persName key="louis_untermeyer">Louis Untermeyer</persName> and yourself so you may
+                know our supposed enemy critics do not always have the backing of our supposed enemy poets.</p>
+            <p>Carl Sandburg”</p>
+            <p>The copy was as follows:</p>
+            <address>
+                <addrLine>“Bohemian Club, <placeName key="sanFrancisco">San Francisco</placeName></addrLine>
+                <addrLine>July 31, 1916</addrLine>
+                <addrLine>Mr. Carl Sandburg,</addrLine>
+                <addrLine>C/O “Poetry,”</addrLine>
+                <addrLine>534 Cass St.,</addrLine>
+                <addrLine><placeName key="chicago">Chicago</placeName>, Ill.</addrLine>
+            </address>
+            <p>Dear Mr. Sandburg:</p>
+            <p>I have just seen the unfortunate reference to our poems in “<title key="currentOpinion" level="j">Current Opinion</title>,” and lest
+                you imagine that I like that sort of thing, I write to say how deeply I deplore it, and how sincerely
+                I am the admirer of the splendid vitality and imagination of your work.</p>
+            <p>In the light of the new movement in poetry, I feel something of a Rip Van Winkle, which
+                feeling, I fear, detracts a good deal from the compliment when I assure you that I would gladly
+                change places with you in the literary (if I may call it that) world. I am not your imitator merely
+                because this old dog <hi rend="underline">can</hi> be taught new tricks, but somehow has no heart for them.</p>
+            <p>Long life to you and the success that you deserve!</p>
+            <p>George Sterling”</p>
+            <p>Of course, Sandburg is not one of our group, but he is doing a species of poetry which is
+                quite unlike the old-fashioned kind, and I for one am an admirer of his effort and often of his
+                achievement, though not always. I think he is one of the best things we have over here, and that a
+                man like Sterling, whose stuff is so fearfully old-fashioned and who has an enormous clientèle
+                on the <placeName key="pacificCoast">Pacific Coast</placeName>, should write so generous a letter is, I think, an excellent sign.</p>
+            <p>Never forget when you are sitting in the trenches or doing anything else in regard to your
+                present job, that you have done an immense amount to change the whole attitude of poetry, and
+                that nothing can ever take that away from you, no matter what you may be doing at the moment.</p>
+            <p>Send me that photograph! And with lots of love, Dear Boy, to you and Hilda, from both
+                <persName key="ada_russell">Mrs. Russell</persName> and me,</p>
+            <closer>Affectionately yours,</closer>
+        </body>
+    </text>
+</TEI>

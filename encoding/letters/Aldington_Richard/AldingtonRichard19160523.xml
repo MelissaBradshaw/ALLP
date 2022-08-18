@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1916-05-23"
+                    >May 23, 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sl">Sam Lepak</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$210i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter consists of three sheets of paper with typewriting on both sides of each. In the upper
+                        left of the first page, “Aldington” is written in pencil. In the upper right of every page there is a
+                        date, and in the upper left of all pages except the first is the page number.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1916-05-23">May 23, 1916</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>I have not recovered yet from your letter which came yesterday. I cannot bear to have
+                you go to the war! But, of course, it must be, and I can only hope from the bottom of my heart
+                that you, and <persName key="fs_flint">Flint</persName>, and <persName key="dh_lawrence">Lawrence</persName> all come back unscathed, and feeling that you have gained
+                something by what is, after all, a great experience.</p>
+            <p>How can they take Lawrence? I thought he was very ill with consumption. What will they
+                do with him when they get him? I should not think he could last long in the trenches!
+                <persName key="john_fletcher">Fletcher</persName> sent me out <persName key="hilda_doolittle">Hilda’s</persName> 
+                letter to him to read, and I must say I think she is awfully plucky.
+                Perhaps she is right to stay in <placeName key="england">England</placeName>. I am sure I would do the same if I were in her place. But,
+                of course, I wish she were here.</p> 
+            <p>Fletcher has probably told you that he is sailing for England very soon. I do not think he
+                has decided how long he will be gone. But it leaves me terribly alone, and I feel very blue about
+                it. And this, added to your letter, is a hard thing to stand up under.</p>
+            <p>I am sorry he told you about my plan for your being English correspondent of
+                <persName key="ws_braithwaite">Braithwaite’s</persName> paper. I had spoken to Braithwaite about it long ago, and he told me that he wanted
+                very much to have you and would write to you himself. I preferred to have him write to you
+                himself, as then the thing would be official. If he has not already done so, it is presumably
+                because he does not feel able to pay for the articles yet. My suggestion was that he take you on
+                as English correspondent at a yearly salary, so much a month. I have spoken to him about it
+                several times, and he has always professed his interest and said that he was going to write at
+                once. I will speak to him again tonight and try and get something more definite. But I had such
+                an experience in suggesting a tentative scheme when we thought of getting up a paper ourselves,
+                that I was not going to say anything to you about it until it was decided, so as not to raise any
+                hopes which I had no power to fulfill. As Fletcher has told you, however, I may say that I think I
+                can work the arrangement in the end. I shall certainly try to, very hard. And I think Hilda’s
+                suggestion for managing it while you are away is all right.</p>
+            <p>You must not forget, dear Richard, that even in the trenches one is not dead. Plenty of
+                books are being published from the trenches all the time. They have a kind of vicarious and
+                romantic interest through being written by men on active duty. <orgName key="houghton_mifflin">Houghton &amp; Mifflin</orgName> have just
+                published some awful things by a man named Frankau<anchor xml:id="n1"/> in their <title key="newPoetrySeries" level="s">Poetry Series</title>, called 
+                “<title key="songsOfTheGuns" level="m">Songs of the Guns</title>”. Their interest lies purely in the fact that the man is in the artillery and writing about
+                what he knows. It is bad Kiplingesque stuff, but I imagine it sells well in England. It is not doing
+                anything here.</p>
+            <p>I want you to feel that although the ocean separates us, nothing else ever does or can, and
+                that Hilda can always turn to me for anything at any time. I wish I could come over and see you
+                before you start for the front. It hurts me very much to feel that this cannot be. But I am not in
+                Fletcher’s position. If I go abroad I am obliged to take other people with me, and I do not think it
+                right to endanger other lives on the high seas at present unless absolutely necessary; and of
+                course it is not.</p>
+            <p>I suppose it will take you some months to be trained before you can leave England. So I
+                am sure that the <title key="some_imagist_poets" level="m">Anthology</title> will reach you some time as I sent it two weeks ago. I do hope you
+                will like it.</p>
+            <p>If you want to send some poems to me, I have no doubt that I can get Braithwaite to take
+                them.</p>
+            <p>Do write to me often and keep me posted as to all that goes on with you, and how Flint
+                and Lawrence are. If you go into an officer’s corps I do not suppose that you will see much of
+                them; but I hope you will know something about them. I shall write to Hilda constantly about
+                anything and everything, and try to make her feel a little bit as though I were dropping in. And if
+                she ever decides to come to America, please let her consider that she can come directly to me
+                while she is deciding what to do. I wish she would come from the bott
+                om of my heart.</p>
+            <p>Good luck, dear Richard. I cannot help feeling that the war is nearing its conclusion, and
+                I only pray that it will be over before you get there. I shall write constantly, if you will give me
+                an address. With a great deal of love,</p>
+            <closer>Sincerely yours,</closer>
+            <postscript>
+                <label>P.S.</label>
+                <p>Mr. Braithwaite has told me that I might write to you officially, as he is so busy, and ask
+                    you if you will supply him with a monthly letter about poetical affairs in England, and, if
+                    possible, in <placeName key="Paris">Paris</placeName>. This would be about <measure quantity="1200" unit="words">1200 words</measure>, for
+                    which he is willing to pay <measure type="currency" num="5">$5.00</measure> a month.</p>
+                <p>He wants it partly literary and partly commercial, by which I mean he wants to know
+                    what books of poetry are being published, as well as what are being written, and of poetical
+                    events of importance. This is to be written entirely without bias of school or point of view;
+                    merely with a view to mentioning these things that are good enough to be mentioned, no matter
+                    under what banner the author has enlisted himself. Mr. Braithwaite is trying to make his paper
+                    quite eclectic–to run it, as he expresses it, as an open forum. Of course, you and I do not
+                    approve of this, but I think that his paper is worth writing for, as it apparently has a certain sale.
+                    They printed <measure quantity="4000" commodity="copies">4,000 copies</measure> of the first number, as I think I wrote you.</p>
+                <p>Should you feel like undertaking this job, please write to him direct –
+                    <address>
+                        <addrLine>Mr. William Stanley Braithwaite</addrLine>
+                        <addrLine>27 Ellsworth Avenue</addrLine>
+                        <addrLine><placeName key="cambridge">Cambridge, Mass</placeName>. U.S.A.</addrLine>
+                    </address>
+                    I have told him that I would collect the money and send it to you, because I think if you
+                    wait for him to pay, you may wait quite a long time, as he is very unbusinesslike; and Lebowich,
+                    the other editor,<anchor xml:id="n2"/> is very much of a Jew. However, they paid me promptly for my poem last
+                    month, and I really do not anticipate any trouble, for Braithwaite is a thoroughly good fellow.</p>
+                <p>In Hilda’s letter to Fletcher, which he let me read, she says that in case you cannot do the
+                    letter yourself she thinks that she can work it up for you; and I think she could. Only bear in
+                    mind that they must have an all-around acquaintance with what is going on, and that your
+                    communication will be more along the lines of a bulletin than an article, although they want you
+                    to connect your news with remarks and criticisms – you know the style in which all foreign
+                    correspondents do. He wants to give his readers a little of the feeling as if they were in <placeName key="london">London</placeName>
+                    or Paris and he could keep up with things. He would write you himself, as I have just said, only
+                    he has an immense amount of writing to do; and although he means to get round to it, sometimes
+                    he gets fearfully delayed. This is really true, for the man is not only editor of the 
+                    “<title key="poetryReviewAmerica" level="j">Poetry Review</title>”, but poetical editor of the “<title key="bostonTranscript" level="j">Transcript</title>”, editor and compiler of the 
+                    “<title key="magazineVerse" level="m">Magazine Anthology</title>”; and the correspondence and people asking him questions about poetry is enormous,
+                    and he cannot afford a secretary. So that I think you can take this authorization from me as being
+                    as good as a letter from him, particularly as I am getting from him a signed acknowledgement of
+                    it.</p>
+            </postscript>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">Frankau, Gilbert. A Song of the Guns (Houghton Mifflin, 1916)</note> 
+                <note target="#n1" resp="mb">Joseph Lebowich</note>
+            </div> 
+        </back>
+    </text>
+</TEI>

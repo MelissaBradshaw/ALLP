@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1916-06-28"
+                    >June 28, 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$215i</idno>
+                    </msIdentifier>
+                    <physDesc><p>This letter is four pages long. The word “Aldington” is written in pencil in the top left corner of
+                        the first page, slanting up from left to right. The second page has “R.A.--2” in the top left and the
+                        date in the top right.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1916-06-28">June 28, 1916</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>Your letter of June 11th has come, and I am awfully glad to know that you like the
+                <title key="some_imagist_poets" level="m">Anthology</title>. I think it is good this year.</p>
+            <p>It is an awful feeling to me to know that you are really in the army. Of course, I cannot
+                bear to have your brains and beautiful imagination knocked here and there in the rough duties of
+                a private soldier’s life. But after all, poetry must be real if it is anything. We who write it must be
+                virile, and capable of translating it into life when necessary and taking the drudgery merely as we
+                take the drudgery of our art. This sounds sententious, but how difficult it is to say the things one
+                means without sounding sententious! But you will see what I mean, and after all, it is a splendid
+                experience, which will enlarge not only your outlook on life but your suggestions for poetry.</p>
+            <p>The new poems you sent I think are perfectly beautiful, particularly “<title key="springMoods" level="a">Spring Moods</title>,”
+                “<title key="imagesPoem" level="a">Images</title>,” and the one to <persName key="hilda_doolittle">Hilda’s</persName> work. 
+                I instantly rang <persName key="ws_braithwaite">Braithwaite</persName> up on the telephone and
+                offered them to him, as <title key="poetryReviewAmerica" level="j">his magazine</title> already has a much larger circulation than <persName key="harriet_monroe">Harriet’s</persName>. They
+                sold <measure quantity="2600" commodity="copies">2600 copies</measure> on the newsstands alone of their second number. His judgement as an editor is
+                very bad, but through his genuine interest in the subject and his desire to help poets, he manages
+                to get in some good things, by a fluke as it were. He was perfectly delighted with these poems of
+                yours and asked me to send them over to him at once, and he will certainly take some of them, if
+                not all. I do not think I shall let him take all; I think it would be better to let Harriet have some;
+                but she is very difficult to manage these days, now that <persName key="ac_henderson">Alice Henderson</persName> has left. I am beginning
+                to think that Alice Henderson was the balance-wheel of <title key="poetry" level="j">that magazine</title>, and that all the good
+                things were owning to her influence. She got little or no credit, poor girl, but now that she has
+                had to go to <placeName key="newMexico">New Mexico</placeName> with consumption and give up her work, I can see the difference in the
+                way the magazine is run – more prejudice, more reactionaryism, more admiration of youthful
+                immigrants with very little talent who have imposed upon Harriet, like Michaelson.<anchor xml:id="n1"/> Also, as we
+                know, Harriet keeps poems so long, whereas Braithwaite publishes his very soon, so I hope you
+                will think I did right to give Braithwaite his choice.</p>
+            <p>The Anthology seems to be doing fairly well. <measure quantity="1000" commodity="copies">A thousand copies</measure> were printed of the first
+                edition, of which 750 were bound. Of these 750, only 225 were still in the publisher’s hands
+                about two weeks ago. I rang them up to-day over the telephone to get the latest news for you, but
+                the partners were all out at a meeting, so this is my latest bulletin.</p>
+            <p>I sent you some reviews a day or two ago. They are not any great shakes, as you see, but
+                we have a slight one, and not at all a bad one, appearing in the July “<title key="poetryReview" level="j">Poetry Review</title>,”<!--I wasn't entirely sure if this was still Braithwaite's "Poetry Review of America" magazine or if this is Monro's "Poetry Review"--> 
+                written by <persName key="william_phelps">Professor William Lyon Phelps</persName> of <placeName key="yale">Yale</placeName>. Professor Phelps is more sympathetic than profound in
+                some ways; his great subject is Browning, but in erudite circles, he is considered a bit sketchy.
+                He is immensely popular, however, and the lectures which he gave at the Lowell Institute for 
+                <persName key="lawrence_lowell">my brother</persName> last Winter had to be repeated, they were so jammed. 
+                Therefore, to have him review us is distinctly a good thing for us.</p>
+            <p>I have just received a letter from <persName key="wc_williams">William Carlos Williams</persName>, asking me to send something
+                for the August number of “<title key="others" level="j">Others</title>.” But as I wrote you in the Winter, <persName key="john_fletcher">Fletcher</persName> and I decided not
+                to contribute to that periodical, so I was obliged to refuse; but I am sorry, for I like Williams.</p>
+            <p>Imagism is fast ceasing to be a freak subject over here and is beginning to be treated with
+                respect; people are fast getting inoculated, and I think a few years more we can feel that we have
+                really succeeded. It amuses me very much when I think how <persName key="ezra_pound">Ezra</persName> sneered that, without him, we
+                should go under.</p>
+            <p><persName key="edmund_brown">Brown</persName> promised to give me a new instalment on his debt to you today, but it has not yet
+                appeared. I shall hold this letter over until to-morrow and see if I cannot collect it. Certainly to
+                get money out of that man is like wringing wine from a stone.</p>
+            <p>I had a couple of letters from Fletcher by the same mail which brought yours. He is at his
+                old quarters in Sydenham (37 Crystal Palace Park Road). Perhaps by this time you will have seen
+                him. Can he not come and see you at the camp, even if you are no longer a civilian? And,
+                Richard, why don’t you apply for work as an interpreter? With your knowledge of French, and
+                German, and Italian, you would be invaluable to them; and to waste that knowledge as a private
+                is plain silly. Do see if you cannot do something about it, for I know that interpreters are wanted,
+                as I hear so constantly.</p>
+            <p>I have sent both our Anthologies to <persName key="alvan_sanborn">Mr. Sanborn</persName>, who does the American chronicle in the
+                “<title key="mercureDeFrance" level="j">Mercure de France</title>,” you remember, and who asked to see them; and he says he shall mention
+                them again in his Autumn “chronique.”</p>
+            <p>Do not worry about <persName key="jean_untermeyer">Mrs. Untermeyer’s</persName> poem! I understand perfectly how it is. I dished
+                myself with <persName key="harriet_weaver">Miss Weaver</persName> last year when I told her frankly what I thought of <persName key="dora_marsden">Miss Marsden’s</persName>
+                articles, and you can hardly expect either of those ladies to look upon me with favour. I have no
+                doubt at all that it is Ezra’s influence that has caused the coolness toward you; but I think it will
+                not be long before you do not need “<title key="egoist" level="j">The Egoist</title>.” My very good friend Braithwaite stepped in
+                and saved me by instantly accepting that poem for the “Poetry Review,” so that in writing to
+                Jean Untermeyer I merely substitute one paper for the other; and she is, on the whole, the gainer, as
+                the “Poetry Review” pays.</p>
+            <p>Braithwaite has asked me to tell you that he hopes you will accept the position of foreign
+                correspondent when you are mustered out; and I am sure that if you want to send him anything,
+                either poetry or an article, at any time from the front, he will receive it gladly and will remit to
+                Hilda. You can either send them to me, and I will send them on to him, or you can write to him
+                direct; William Stanley Braithwaite, 27 Ellsworth Avenue, <placeName key="cambridge">Cambridge, Mass.</placeName></p>
+            <p>I gave both our anthologies to a friend of mine the other day, a lady who has never read
+                poetry in her life before to any extent, because she never cared for it and preferred to read novels.
+                You will perceive by this that she is not a literary person and only read for the human interest.
+                She has now abandoned novels completely and is absolutely drowned in poetry. She wrote me 
+                to-day and said: “The Imagists have caught me.” To be sure, she is a little mixed, and considers
+                all modern poets of any vitality Imagists – a sort of generic title in her mind for all that is good
+                and vital in verse. She was so overcome and upset by your “<title key="childhood" level="a">Childhood</title>” that she said: “Is there
+                nothing I can do for that man? I can’t bear to think of the loneliness of that childhood, and it
+                makes me feel that I should like to meet him.” I said I thought what she could do would be to
+                talk about you early and late; and possible sometime, if we are all in <placeName key="london">London</placeName>, I will arrange a
+                meeting between her and you and Hilda.</p>
+            <p>I think Hilda’s things in the new Anthology are perfectly beautiful. I read them again and
+                again and never tire of them, and I quite agree with you that “<title key="midday" level="a">Midday</title>” following the sea things is
+                a magnificent contrast. I will try to write very often while you are gone both to you and to Hilda,
+                whether I get any answers or not. Neither war nor trenches shall interfere with the great strong
+                Imagist band which stretches between us. It has been a real brotherhood, hasn’t it? And we can
+                all feel, I think, that it has given us something of the same quality towards each other that
+                comrades in arms used to have in the old days.</p>
+            <closer>Good luck to you, Dear Boy, and write when you can.</closer>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">Most likely Max Michelson (1880-1953), a Lithuanian immigrant who published poetry and reviews for Poetry.</note> 
+            </div> 
+        </back>
+    </text>
+</TEI>
