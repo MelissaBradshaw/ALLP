@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1917-12-07"
+                    >Dec. 7, 1917</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$238i</idno>
+                    </msIdentifier>
+                    <physDesc><p>This letter is five pages long. The word Aldington is written in pencil in the top left at a 
+                        forty-five-degree angle slanting upwards from left to right. The date is in the top right along with the
+                        page annotation from the second page on (R.A.–[Page #]).</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1917-12-07">Dec. 7, 1917</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>It was perfectly delightful to have a letter from you again. It is so long since I have heard
+                from you direct, but <persName key="hilda_doolittle">Hilda</persName> is a brick and writes often and keeps me up with things. This war has
+                meant to me an exile from some of the people I care for most and from the only people whose
+                work I sincerely and unequivocally admire, but that is very little a sacrifice to make considering
+                how many more terrible ones other people have to undergo.</p>
+            <p>What you say about keeping alive the tradition <hi rend="underline"><foreign xml:lang="fr">des libres esprits</foreign></hi> interests me very much. I
+                have worried considerably about my part in this war. I have such rotten health that there has
+                been no use in thinking of going to <placeName key="france">France</placeName> or doing anything active. I had a very unpleasant
+                illness last year, as you know, that pretty nearly wiped me off the face of the earth, and although
+                I am very much better, I have almost no endurance physically, and to make things more amusing
+                my eyes have given out, and it is with the greatest difficulty that I can get through the work I
+                have to do. You would laugh to see me; I am be-spectacled like a German.  All this does not
+                matter, of course, except that it seemed almost impossible to do my bit, but I have at last come to
+                the comforting conclusion that there is a bit to be done in merely keeping alive the spirit of
+                civilization through the only medium I know – that of poetry.</p>
+            <p>For us women who cannot fight, and who are handicapped in other ways from taking any
+                active part, I feel that the truest thing we can possibly do is just this, and I must say I have been
+                happier since I have come to the conclusion. We must keep a world going for the rest of you
+                when you come back. We must keep alive the spirit of beauty, of gentleness, and of idealism. It
+                may be that the war will go on so long that these things will perish perforce for a time, but the
+                whole strength of my mind is now turned towards poetry – not that it always was not so, but the
+                thing has taken on a higher meaning and a greater reality, if that were possible, and I think that
+                when you come back from the army, the world you will have to work in will be more inclined to
+                listen than it ever was before. At least that seems to be coming to be true of <placeName key="usa">America</placeName>, and I have
+                the gratifying sense of realizing that my efforts on behalf of poetry in this country are beginning
+                to bear fruit at last. I do not at all share with the “<title key="littleReview" level="j">Little Review’s</title>” attitude of “Rough Men.” I
+                have never dwelt in an ivory tower, nor found it possible to divorce myself from the facts of life.
+                I think there is a great deal more poetry in these sort of people than one realizes, although, of
+                course, it is largely an untrained taste. Here we have had a most curious experience. Each of the
+                training camps has a library, and they tell me that the demand for poetry in these libraries is
+                phenomenal. Of course the kind of poetry is not always what you and I would choose, for they
+                like Kipling and Robert Service as well as a lot of other things, but that a lot of private soldiers
+                that come from every walk in life should loudly demand poetry is such an extraordinary thing
+                that I cannot explain it except by thinking that this country is at last seeking for beauty and an
+                expression of the other side of life. I do not think there has ever been a time when common
+                soldiers have requested poetry, and the thing seems to me highly significant of the whole attitude
+                which this country has towards the war.</p>
+            <p>Nobody can hate war worse than I do, but I believe in this war with my whole heart and
+                soul, in the absolute necessity of it – melancholy though that is.</p>
+            <p>The Brookline Public Library has asked for donations of books to send to the various
+                camps, and at their request I am sending six libraries of poetry, chosen by myself, and if these
+                are successful and they want more, I stand ready to supply them. Of course there has been much
+                poetry already given to the soldiers, but they still want more, and by choosing the libraries
+                myself, I can give them what I think they ought to have, peptonizing it with a judicious mixture
+                of what they probably want. Of course I am including “<title key="imagesOldAndNew" level="m">Images</title>” and “<title key="seaGarden" level="m">Sea Garden</title>” in all these
+                libraries.</p>
+            <p>Do not let your spirits go down, and do not think that because you are not writing at the
+                moment it means anything for the future. I am quite certain that when the war is over and you get
+                back to civil life, you will find that the experience has done you good, and the contact with
+                rough, real life and simple, elementary men has been an advantage rather than a disadvantage. Of
+                course you may say it is all very well for me to talk this way who am not in it, and perhaps that is
+                true, but still I think if I had the health, I could stand the rest of it. However, that is only
+                conjecture, and perhaps I could not. Never mind.</p>
+            <p>Your account of your life is exactly what I wanted, only I should like a little account of
+                your entering the army, and your rise from private to officer. I know this is immaterial to you,
+                but I think it shows your character, and, as you can see from “<title key="tendencies" level="m">Tendencies</title>,” I like every little
+                thing that tends to illustrate the character of my poets.</p>
+            <p>I do not wonder you feel grateful to <persName key="ezra_pound">Ezra Pound</persName>. In spite of his having treated me very
+                badly, I feel grateful to him too, and he is now writing me conciliatory letters. I wish I did not
+                know that he thinks I have made a success and does not want to be on bad terms with me.
+                However, that is Ezra all over, and I have answered him shortly and pleasantly. I will not publish
+                in “The Little Review,” which is given over to him and his satellites, but I bear him no ill will,
+                and I think he has written fine poetry – very fine poetry. My objection to his work is that it is
+                simply derivative. I do not think the man has an original thought or an original characteristic, but
+                he is extraordinarily skillful in adopting the characteristics of a remote past, and when people do
+                not know the past very well, this passes for originality. He has played his cards so badly that he
+                is little better than a failure, which is unjust to him. But if only plays poetry like politics, one
+                must expect to be treated like a politician. I do not believe people succeed, in the long run, who
+                do not take poetry as religion.</p>
+            <p>There is a great deal of interest in your work over here, and it is considered very highly. I
+                shall undoubtedly take these lectures and make certain chapters of a new book later on.</p>
+            <p>“Tendencies” is doing very well, and seems to be having quite an influence. You will see
+                with amusement how much afraid of this influence <persName key="harriet_monroe">Harriet Monroe</persName> is, and how she fears that her
+                own judgments will go to the wall in face of mine. I have seldom read anything more shivering
+                with fear than her review of the book in December “<title key="poetry" level="j">Poetry</title>.”<anchor xml:id="n1"/></p>
+            <p>I cannot escape the war now; I must write about it. It seems to be all round us, and I must
+                say I think the few poems of yours which I have seen, dealing with the war, are excellent. Do not
+                despise the war as a theme for poetry; do not despise any fact of life in that connection. Poetry
+                should be the great underlying substance of every poet’s life, and none of his experiences can be
+                alien to it when seen through his eyes. I am afraid this sounds a little didactic. That is the worst
+                of the war. It brings one down to one’s bottom, and when one talks about the bottom, one always
+                sounds goody-goody. Anyhow, I mean it.</p>
+            <closer><p>With lots of love and thanks for your good letter,</p>
+                <p>Affectionately yours,</p></closer>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">Harriet Monroe, "Miss Lowell on Tendencies," Poetry, Vol. 11, No. 3 (December, 1917), pp. 151-156.</note> 
+            </div> 
+        </back>
+    </text>
+</TEI>

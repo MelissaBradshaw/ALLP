@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1918-04-11"
+                    >April 11, 1918</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$243i</idno>
+                    </msIdentifier>
+                    <physDesc><p>This letter is seven pages long. The word Aldington is written in pencil in the top left at a 
+                        forty-five-degree angle slanting upwards from left to right. The date is in the top right along with the
+                        page annotation “Mr. Aldington–[Page #]” from the second page on.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1918-04-11">April 11, 1918</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>I am overcome by <title key="reverie" level="m">your book</title>,<anchor xml:id="n1"/> which I think truly magnificent for the most part. I confess,
+                I think the war poems reach a higher mark than the love poems, probably because it is almost
+                impossible to give love adequately in words. To me this is far the strongest work you have done,
+                and I think you have lost none of your beauty and delicacy, as you seemed to fear you had. The
+                poems that I already know I feel about as I did before. But there are some new ones here that I
+                had not seen before, and which I think are as fine as any of your work.</p>
+            <p>“<title key="fatigues" level="a">Fatigues</title>” I like especially. I read it the other day in a programme of war poems which I
+                gave for a war charity. I read that and “<title key="apathy" level="a">Apathy</title>,” and they were both exceedingly well received. I
+                think “Apathy” is perhaps the finest poem in the book, but it is difficult to say the finest when
+                most of the poems are on such a high level. I am also very much interested in “<title key="trenchIdyll" level="a">Trench Idyll</title>.” I
+                like “<title key="trenches" level="a">In the Trenches</title>” too, and 
+                “<title key="earthGoddess" level="a">An Earth Goddess</title>” is exceedingly striking. I sold this last to the
+                “<title key="northAmericanReview" level="j">North American Review</title>,” but unfortunately discovered immediately afterward, what I had
+                forgotten, that it had appeared in <persName key="charles_bubb">Bubb’s</persName> “Reverie.” This is too bad for of course the “North
+                American Review” will not take anything which has already appeared. Personally, I always
+                regret any of these little <orgName key="clerksPress">privately printed books</orgName>, as they interfere so dreadfully with public 
+                printing later on, and the circulation is not large enough to make them worthwhile, but I
+                know you have not thought so.</p>
+            <p>The love part does not seem to me so good as the war part, to be strictly honest. It is just
+                about impossible to do, that is the amount of it. If I had a criticism it would be, not that your
+                poems are too physical in their expression, but that for the first time in your work you have
+                entirely obliterated the other side of love – the spiritual. Of course, they are both true, and they
+                must both exist together in any real love, and possibly, after the trenches, the more physical side
+                seems the most important, but I cannot help feeling that you will be somewhat misunderstood by
+                the expression of this section. A little change here and there, a poem or two inserted to stress the
+                love side in contradistinction to the lust side, would have made the balance truer, I think. Do not
+                misunderstand me. I am not in the least shocked, and personally I like these poems and think
+                them extremely strong, but I think them only the voice of half a feeling, not of a whole feeling,
+                and I think they may create a certain undeserved hostility in some minds, which would of course
+                be unfortunate. That you will escape by being published by <persName key="edmund_brown">Brown</persName>, as his clientèle is small and
+                thoroughly “in the know,” but I dreamed of finding you a larger audience, and, from your letter
+                and <persName key="hilda_doolittle">Hilda’s</persName> I supposed you had not already clinched with Brown, so I took the manuscript to
+                <orgName key="macmillan">Macmillan</orgName> when I was in <placeName key="nyc">New York</placeName>, and urged them to print it. They were most inclined to do
+                so. <persName key="george_brett">Mr. Brett</persName>, the head of the firm, was extremely interested from my description. But after they
+                had read the volume, they returned it to me saying that they thought it was one of the strongest
+                books they had received, but that they literally did not dare to publish the poems of the second
+                part as they stood, and as there seemed very little chance of getting you to alter this section when
+                you were going back to the front, there was nothing for them to do but decline the volume. Had
+                you been here I think everything could have been arranged satisfactorily. Brown does not know
+                this, so don’t tell him.</p>
+            <p>No sooner had I got home from New York than Brown informed me that he had already
+                sent you the contract, and had heard from you saying that you would agree to let him have the
+                book. Therefore there is nothing more to be done about it. Brown is always so out of funds that
+                when he accepts books he does not always print them for ages. He has had a book of <persName key="john_fletcher">Fletcher’s</persName>
+                for a year and a half, and it has not appeared yet. My one aim was to get you into the hands of
+                one of the established publishers, and I am awfully sorry that this could not have been done.</p>
+            <p>I do not believe that it is what one says in a poem that matters, it is the kind of light that
+                plays over it; and I do think you played the physical rather more than most people can appreciate.
+                I have a theory that you have been somewhat influenced in this by <persName key="dh_lawrence">Lawrence</persName>, and do you mind
+                my urging you to be careful not to let his influence go too far? He has ruined his own public by
+                his attitude, and I am dreadfully afraid of its effect on you, particularly as it is not in the
+                least your natural mode of speech. By this time you are sighing and saying, “Oh Lord, Puritan New
+                England!” but you know it is not that. I suppose the real crux of the situation lies in the extreme
+                difficulty of touching anything so sacred as the relation between man and woman without
+                vulgarizing it. A prurient world reads vulgarity into certain expressions which do not in the least
+                connote vulgarity. But, after all, words are a means of communication, and if one communicates
+                something other than what one intended, I think the result might be termed “bad writing.” That is
+                the blunder which Lawrence makes, I think. To you and me and a few people like us, he
+                expresses exactly what he means; but those people are a handful, and it has always been so. To
+                most people, he says something entirely different. Now you may say that you do not write for the
+                ignorant masses, but for the cultivated few, but I do not believe you do. Only the minor poets do
+                that. Great poetry is and must be universal, above the customs or cliques or the delight of the
+                initiated.</p>
+            <p>You said something in one of your letters to me which gave me infinite pleasure and
+                much food for thought. It was that the war had made you realize “the supreme importance of
+                literature and the supreme unimportance of literary life.” The trouble with most of us, and the
+                reason we do not develop into great poets is that the literary life catches and clips us,
+                and we cannot see beyond it.</p>
+            <p>This is hardly a criticism, merely a suggestion. If you were here and we were going over
+                these poems, I should suggest very few changes, merely the addition of a few more poems on a
+                different basis. Certain changes I would suggest, and since you ask for my criticism, I am going
+                to be bold enough to make them.</p>
+            <p>For instance, in “<title key="oldSong" level="a">An Old Song</title>” your last two lines read:
+                <q rend="centered"><l>“Into uttermost hell shall I go</l>
+                    <l>For sweet sin with this lady.”</l></q>
+                Now by “sweet sin” I take it that you mean that you are worshipping a human being more than
+                the virgin, but everybody else will read it as meaning a regular debauch. I think “<title key="sleep" level="a">Sleep</title>” 
+                out-Lawrences Lawrence. In fact, I cannot remember any modern poem that goes quite so far as this.
+                Was that necessary, do you think. On the other hand, I think “<title key="beforeParting" level="a">Before Parting</title>” is fine with the
+                exception of “love-plaint” which I do not like. In “<title key="nightsOfLove" level="a">Nights of Love</title>” I should leave out the dates.
+                This I think really very important, and I hope you will write to Brown to leave them out. They
+                seem to me a rending open of the veil of privacy which is almost painful to the reader, and in a
+                published book creates a sort of disgust.</p>
+            <p>I hope, dear Richard, you will not mind my telling you these things. You asked me for
+                criticism, and therefore I am taking the liberty of making these suggestions.</p>
+            <p>Your work seems to me improving steadily. The war is making all of us more real I think.
+                I confess that I find the ivory tower much less congenial than I did. Things are too big for us to
+                be content with the merely precious. I hate to tell people what I think of their things. I hate to tell
+                you most of all when by any possible chance I do not like anything, for I admire your work so
+                entirely and admire you and your attitude toward life so much that any criticism seems
+                impertinent. Still, I know you will forgive me and if you do not like these suggestions you
+                will not take them.</p>
+            <p>Things are absolutely drowned in war here, but there is still a great interest in poetry. I
+                am doing a great deal of reading poetry aloud for war purposes and have found my audiences
+                most interested and eager. If the war lasts too long of course it will kill all the refinements of life,
+                but if it can be ended in a year or two, I think it will have done poetry an immense service. There
+                is already less freakishness and more seriousness, more of the real stuff of poetry coming out to-day. 
+                Of course one discounts all the popular songs of the war. They are sure to exist and do not
+                count either way. But your book is a proof to me that the war has done you good, and that when
+                you come back and take up the business of poet again, you will be a far greater poet than you
+                ever would have been had the war not come. Alas, suffering is the very stuff out of which poetry
+                is wrought! I do not believe that the poet is made of sugar candy and melts at the slightest touch.
+                If he is worth anything he is strong enough to endure, no matter what happens to him; and, after
+                the endurance, he should be tempered to a tool capable of much.</p>
+            <p>By the way, what is the matter with Fletcher? I do not suppose you know, but he writes
+                me the most extraordinary letters. I had a letter from him yesterday in which he informed me that
+                he should feel obliged to break off his friendship with me because <persName key="james_oppenheim">Oppenheim</persName> had written a long
+                didactic poem which <persName key="martyn_johnson">Martyn Johnson</persName> had published in 
+                “<title key="dial" level="j">The Dial</title>.” Fletcher thinks that because
+                neither he nor I have had long poems in “The Dial” for Johnson to have printed Oppenheim’s,
+                which he does not like, is an insult to us, and that if I am not willing publicly to resent this event,
+                I can be no friend to him, Fletcher. Did you ever hear such an insane notion? What business has
+                any one to dictate to Martyn Johnson how to run his paper? Or to James Oppenheim what poetry
+                he shall write? It is doubtless unfortunate that Martyn Johnson prefers James Oppenheim’s
+                poetry to Fletcher’s and mine, but I fail to see that we have any business to go on the war path
+                because he does, and that Martyn Johnson opens his pages at all to poetry is, I think, a happy
+                omen. I am not going to answer Fletcher at all, and I think he will forget all about it, he usually
+                does. But the whole thing seemed to me so unbalanced and peculiar that I cannot help thinking
+                that the strain of the war and the lack of food has upset his health. If you know anything or can
+                find out anything I wish you would let me know.</p>
+            <p>I am sending Hilda a copy of my lecture on you and <persName key="fs_flint">Flint</persName> and Lawrence which I gave at
+                the <placeName key="brooklynInstitute">Brooklyn Institute</placeName> a couple of weeks ago. In it you will see how greatly I admire you. It was
+                in preparing this lecture that I came to realize more completely what a thunderingly fine poet you
+                are. There is nothing like preparing one of those critical lectures to show up a man’s real
+                qualities. I am sorry to say that Flint’s work crumbled to dust as I touched it, and Lawrence’s
+                became almost painful in its lack of variety, but yours stood up strong, refreshing, and clear.
+                All hail to you, my friend, go on! I think there is a lot ahead of you.</p>
+            <p>Write me often: scrawls on postal cards, scraps of paper – anything. By the way, my
+                nephew, <persName key="james_roosevelt">Captain James A. Roosevelt</persName>, is sailing for <placeName key="france">France</placeName> immediately. Of course I cannot tell
+                his regiment, but I have told him about you, and if you should ever run across him, just tell him
+                who you are, and you are sure of a friend.</p>
+            <p>Goodbye for the moment.</p>
+            <closer>Affectionately yours,</closer>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">It is unclear whether Lowell is talking about Aldington's Reverie: a Little Book of Poems for H.D, published by the small, private, Cleveland Ohio-based Clerk's Press in 1917, or a draft manuscript of poems that would be published as Images of War in a small, hand-printed edition by Beaumont Press (London, 1919), and later by Allen and Unwin (London, 1919) and Four Seas Co. (Boston, 1921).</note> 
+            </div> 
+        </back>
+    </text>
+</TEI>

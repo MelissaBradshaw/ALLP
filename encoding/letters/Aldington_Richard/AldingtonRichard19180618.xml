@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1918-06-18"
+                    >June 18, 1918</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$250i</idno>
+                    </msIdentifier>
+                    <physDesc><p>This letter is 4 pages long. On the first page, the Aldington’s address is in the top left corner:
+                        <address>
+                            <addrLine>Richard Aldington, ESQ.</addrLine>
+                            <addrLine>Care of Mrs. R. Aldington</addrLine>
+                            <addrLine>Bosigram, Pendeen,</addrLine>
+                            <addrLine>Cornwall, England</addrLine></address>
+                        The date is in the top right of each page, and on pages 2-4 the page number is listed in the top
+                        right with the annotation “Richard Aldington, Esq.–[Page #].”</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener><dateline><date when="1918-06-18">June 18, 1918</dateline></date>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>Your letter of May 14th came the day before yesterday and I was perfectly delighted to
+                get it. I am glad you have a company, which shows what an excellent soldier you are, and you
+                know I have a kind of belief that a poet should be able to do everything better than other people
+                do it. If a poet is not above other men, he is not good as a poet, and you are not above other men
+                unless you can do their work better than they can do it if you try.</p>
+            <p>And here is the point I want to get at. You say you feel out of touch with us here, with me
+                perhaps also, I suppose, but you need not. Of course I am facing no such ordeal as you are, but,
+                on the other hand, I am not a young man in vigorous health, and the Lord seems to temper the
+                wind to the shorn lamb. But what I do want you to understand is that I have never approved of
+                the “ivory tower” attitude. I believe firmly in living, in acting, and in being just plain brutal
+                rushing life; and I do not believe the best poetry comes out of anything else. Also it seems to me
+                that a civilization which is at the mercy of accidents is a jerry-built thing. It seems to me that if
+                your poetry is sincere, if, in other words, you are the kind of person that writes poetry, you must
+                do it straight through life although you are living in a hole in the ground, as you express it, which
+                may be most distasteful and may not add anything to the “fine fibre of your soul.” Nevertheless,
+                it could hardly affect the fundamental quality of that soul, which I feel surely must be so innate
+                as not to be affected by any exterior circumstances. In other words, one should be able to go to
+                the block the way martyrs of the Middle Ages did – without retracting. In such a case as you
+                mention it would not be an exterior retraction but an absolute organic change of front, and I
+                cannot believe that is possible to you or to anyone like you. In other words, your belief that you
+                are not living a civilized life does not hold water to me. Your civilization must be above that, and
+                you must go through it as you would an illness, and go through it with colours flying because
+                you are a poet, and if a poet cannot be gallant, he is a decadent and has no reason to exist. There
+                is a sermon for you, and all born out of my love for you.</p>
+            <p>How I wish that I could see you and talk the whole thing over. You would find me far
+                less removed from your present life than many of your friends, I think. There is no porcelain
+                figure about me, and, although I am prevented from sitting in the trenches with you, sometimes it
+                seems to me as though I should like to be able to sit there, for I cannot help being tormented (I
+                suppose we all are) with the fact that I might do more. I should like to go abroad the way so
+                many of my friends are doing, and do something on the spot, but, situated as I am with such
+                rotten health, I know that that is merely succumbing to mob instinct and refusing to undertake
+                the task that is mine. What good would it do the Allies to have me cross the water and succumb
+                into a hospital upon my arrival? And as so many of the poets have gone, and as civilization must
+                be kept up just for the very reason that the rest of you are living in holes in the ground and are in
+                danger of getting discouraged, I feel it my business to keep the finer sides of life going, for that
+                is the business of all of us women poets. Beyond everything is the ideal of art – that we agree,
+                both you and I. And perhaps secondarily is the ideal of betterment of the world. But when one is
+                whole-souled and believes in the civilization of one’s own race, and believes in the necessity of
+                forcing it to dominate, then the two ideals merge, and in following the former one inevitably
+                pursues the latter. Anyway, when I get restless and nervous that is how <persName key="ada_russell">Mrs. Russell</persName> speaks to
+                me, and I have found Mrs. Russell the best guide that I have ever met.</p>
+            <p>I am sending you a poem<anchor xml:id="n1"/> which I am afraid that you will not like. It will probably
+                conflict with your notions of art. You may consider it propaganda, which it was not. It just came
+                out because I could not help it – a hateful amateurish sentence, but what can you do when it is
+                true. This is one of a series of “<title key="phantasmsOfWar" level="m">Phantasms of War</title>” that I have been writing from time to time
+                when current events sounded so loudly in my brain that I could not escape them. It has been
+                liked here, and you may like it or not. At any rate it is not any “ivory tower” thing. Although I
+                still often write things that are merely beautiful, I cannot sit in the midst of all this pain without
+                having it affect my work. I realize perfectly that I have developed differently from what I should
+                have done had not the war come. I cannot think that the development has been a mistake.</p>
+            <p>My next book I feel sure you will not like, which is most unfortunate because I owe its
+                title to you. It consists of four historic poems in “polyphonic prose” which I know you hate. I
+                will send it to you when it comes out. Its title is “<title key="canGrandesCastle" level="m">Can Grande’s Castle</title>,” and I have, dear Richard,
+                quite without permission taken your poem, “<title key="atTheBM" level="a">In the British Museum</title>,” for my motto, and have
+                quoted the poem on the motto page, deleting the lines from Samain which do not fit my content,
+                and substituted dots in their place; otherwise the poem is entire. Of course I should have asked
+                your permission before doing this, but there was not time, and I so needed the poem, and it is so
+                beautiful that I just took it as I should a poem by any dead author. Will you forgive me, and if
+                you do not like the book I have put it in, will you realize that I have paid you the compliment of
+                admiration in public?</p>
+            <p>Write to me as often as you can. I do not care how scrappy your notes are; I do not want
+                to lose touch with you. You and <persName key="hilda_doolittle">Hilda</persName> are very precious to me, and as soon as the war is over I
+                shall come back to <placeName key="england">England</placeName>, and we shall all have good times again.</p>
+            <p>I will see that those dates are deleted in the copy as published. When it will be published,
+                I do not know. <persName key="edmund_brown">Brown</persName> has had a book of <persName key="john_fletcher">Fletcher’s</persName> for two years and has not published it yet. I
+                intended to make him, if he took it, give a guarantee of publication before a certain date, but I
+                understand you signed the contract without that guarantee, so I do not suppose we can hold him
+                to anything. As to private publication, of course the copyright is not affected, but then the
+                prestige is, and that is just where the trouble comes in. If you have any poems that you think
+                would do in the place of the one the “<title key="northAmericanReview" level="j">North American</title>” took and could not publish on account of
+                <persName key="charles_bubb">Bubb’s</persName> having published it before, send it to me, and I will see what I can do with it.</p>
+            <closer><p>Mrs. Russell joins me in much love,</p>
+                <p>Always affectionately,</p></closer>
+        </body>
+        <back> 
+            <div type="notes"> 
+                <note target="#n1" resp="mb">Amy Lowell, "The Marching Hessians," The Independent, May 25, 1918, p. 324.</note> 
+            </div> 
+        </back>
+    </text>
+</TEI>
