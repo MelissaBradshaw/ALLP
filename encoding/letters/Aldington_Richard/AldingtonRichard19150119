@@ -159,7 +159,7 @@
                 of literature; and their publishing, though eminently satisfactory, is done more as a business than
                 as an artistic pleasure. I think Greenslet with his new series has definitely taken his stand on our
                 side, and I want you to like him, for I think that through him will come your best chance of your
-                getting a berth in America when you want to come over and try it. He is all prepared to like you
+                getting a berth in <placeName key="usa">America</placeName> when you want to come over and try it. He is all prepared to like you
                 and Hilda and Flint immensely; and if you only won’t let yourself be too jarred by some of his
                 predilections and get through the crust, you will find an honest, loyal, splendid fellow, who will
                 help us in every possible way.</p>
@@ -169,17 +169,17 @@
                 Criticizing is a dreadful business: We must tell the truth, and yet it is a shame to quench the
                 smoking flax. I thought you got out of it rather well, but Harriet saw through it quite clearly; and
                 of course that doesn’t help us very much, as I am afraid Ezra still has her ear by his article on the
-                Spoon River Anthology, which is her latest find. What do you think of the Spoon River Anthology 
+                <title key="spoonRiver" level="m">Spoon River Anthology</title>, which is her latest find. What do you think of the Spoon River Anthology 
                 by the way? Personally I think I have worked out that this sort of poetry, which is not
                 poetry at all, really has to be done in rhyme to get the tang into it; but given as it is, it might
                 just as well be prose. But I won’t go into that now, it would lead me too far. Perhaps I will go into it
                 in a review when the book comes out. Your <persName key="murial_chilkowski">Murial Chilkowski</persName><anchor xml:id="n6"/> is interesting, I think. You should
-                like to send £10 to “<title key="egoist" level="j">The Egoist</title>.” I had another letter from <persName key="harriet_weaver">Miss Weaver</persName> on the subject, but
+                like to send <measure type="currency" num="10">£10</measure> to “<title key="egoist" level="j">The Egoist</title>.” I had another letter from <persName key="harriet_weaver">Miss Weaver</persName> on the subject, but
                 Ezra’s presence bothers me a little under the circumstances. It seems ridiculous to help support a
                 thing when he is in it, continuing to swagger through its pages with his prejudices sticking out all
                 over him like curl-papers. Your articles and those of the unpronounceable lady, whom I won’t
                 attempt to spell again, and the poems, make the paper of value to me. Tell me what you think
-                about the £10?</p>
+                about the <measure type="currency" num="10">£10?</measure></p>
             <p>To-morrow I begin to rehearse six hours a day until my operettas are over.<anchor xml:id="n7"/> I am
                 awfully tired now, and I must say the change of title of the Anthology has given me no end of
                 trouble. It was no easy matter to make them set up their folder all over again when they got it
@@ -196,8 +196,8 @@
                 <note target="#n1" resp="mb">Derogatory adjective meaning cheap.</note>
                 <note target="#n2" resp="mb">In A Midsummer Night’s Dream, Act 1, Scene 2, Bottom promises "I will aggravate my voice so that I will roar you as gently as any sucking dove.”</note>
                 <note target="#n3" resp="mb">Alternate spelling of shillelagh, wooden Irish walking stick or cudgel.</note>
-                <note target="#n4" resp="mb">American poet (nd) who had three poems in The Egoist, Vol. 2, No. 1 (January 1, 1915).</note>
-                <note target="#n5" resp="mb">Harriet Monroe, You and I (Macmillan, 1914). Aldington’s review, “War Poems and Others,” in The Egoist, Vol. 1, No. 24 (December 15, 1914) notes that out of 236 pages of poetry, he only likes the first poem. “I am frankly out of sympathy with a good deal of the volulme,” he writes (458-459). Spoon River Anthology: Edgar Lee Masters’ Spoon River Anthology was published by Macmillan in April, 1915. The poems ran serially in the magazine Reedy’s Mirror in 1914 under the pseudonym Webster Ford.</note>
+                <note target="#n4" resp="mb">American poet (nd) who had three poems in The Egoist, Vol. 2, No. 1 (<date when="1915-01-01">January 1, 1915</date>).</note>
+                <note target="#n5" resp="mb">Harriet Monroe, You and I (Macmillan, 1914). Aldington’s review, “War Poems and Others,” in The Egoist, Vol. 1, No. 24 (<date when="1915-12-15">December 15, 1914</date>) notes that out of 236 pages of poetry, he only likes the first poem. “I am frankly out of sympathy with a good deal of the volulme,” he writes (458-459). Spoon River Anthology: Edgar Lee Masters’ Spoon River Anthology was published by Macmillan in April, 1915. The poems ran serially in the magazine Reedy’s Mirror in 1914 under the pseudonym Webster Ford.</note>
                 <note target="#n6" resp="mb">Muriel Ciolkowska, frequent contributor to The Egoist, had an installment of her series of "Fighting Paris" essays in No. I, Vol. II (January 1, 1915).</note>
                 <note target="#n7" resp="mb">Lowell translated the libretto for Pierrot Qui Pleure et Pierrot Qui Rit, an 1889 operetta by French playwright Edmond Rostand, best known for his play Cyrano de Bergerac. It was performed February 2-4, 1915, starring soprano Maggie Teyte and tenors John Campbell and George Mitchell, accompanied by the Boston Opera Orchestra, for the benefit of the Women’s Municipal league of Boston. The production, financed and directed by Lowell also included her translation of Jean-Baptiste’s operetta La Latiere de Trianon.</note>
             </div>
