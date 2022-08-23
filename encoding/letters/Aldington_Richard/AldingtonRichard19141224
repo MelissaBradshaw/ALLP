@@ -89,7 +89,7 @@
                 conventional, and stupid man, and I think Mr. Greenslet didn’t wish to have him come down on
                 the whole scheme like a cartload of bricks on account of that poem. I know <persName key="george_mifflin">Mr. Mifflin</persName> myself,
                 and I think it very likely would have caused him to stop the whole arrangement; but after we
-                have made a success with our first volume, a success d’estime, even if not a commercial success,
+                have made a success with our first volume, a <hi rend="underline"><foreign xml:lang="fr">success d’estime</foreign></hi>, even if not a commercial success,
                 I believe he will let us put in pretty much what we like next year and the year after, for the
                 contract is to be made out for three years.</p> <!-- Missy has Ford Madox Hueffer listed in the "people mentioned" for this letter, but his name isn't mentioned and I couldn't find a pronoun that seemed to be specifically referring to Hueffer. I was thinking if there was one, it would be in this paragraph since AL is talking about Hueffer's poem "Heaven." LMK if I'm missing something! I went through with a pretty fine tooth comb. Same goes for "Houghton Mifflin" the publisher versus Mr. Mifflin the person. I couldn't make out a specific pronoun that might be referring to the publisher rather than the person, but Missy also has "Houghton Mifflin" listed as a publisher in this letter. – VOD -->
             <p>Unfortunately, I have to pay for the printing of the book, and for whatever advertising
@@ -111,9 +111,9 @@
                 of the younger poets and is anxious to get back and show himself an up-to-date, go-ahead
                 publisher. Therefore I think we have nothing to fear on that score.</p>
             <p>The contract is not signed yet, because it takes some little time to draw it up; but I have a
-                letter from Greenslet agreeing to publish the volume if “Heaven” was taken out; and as
+                letter from Greenslet agreeing to publish the volume if “<title key="heaven" level="a">Heaven</title>” was taken out; and as
                 “Heaven” has been taken out, his letter would hold him even without any contract.
-                Besides, he isa perfectly honest man, the most honest publisher in America, I firmly believe; 
+                Besides, he isa perfectly honest man, the most honest publisher in <placeName key="usa">America</placeName>, I firmly believe; 
                 and therefore the contract is as good as signed already</p>
             <p>As to your saying to Ezra that we hoped he would come in later—that I have simply got
                 to decline. You can see yourself that, after the way Ezra has treated me, it would be extremely
@@ -211,7 +211,7 @@
                 you like those <persName key="paul_fort">Paul Fort</persName> meters. <persName key="john_fletcher">Fletcher</persName> has christened them “polyphonic” prose, which I think
                 an excellent name; for as you and I know, although Paul Fort gave me the idea, they are written
                 on a somewhat different scheme from Paul Fort’s and based on a different rhythm, the rhythm of
-                vers libre in fact, instead of the Alexandrine. Fletcher has written an article upon them, which
+                <hi rend="underline"><foreign xml:lang="fr">vers libre</foreign></hi> in fact, instead of the Alexandrine. Fletcher has written an article upon them, which
                 <persName key="harriet_monroe">Harriet</persName> has accepted for “<title key="poetry" level="j">Poetry</title>” <!-- Harriet Monroe and "Poetry" weren't listed in the metadata spreadsheet, but I added them in since that seemed appropriate! – VOD -->
                 and he is trying them himself now; so that we stand a very
                 good chance, with yours and his and my attempts, of doing something which Ezra can not claim
@@ -245,7 +245,7 @@
             <div type="notes">
                 <note target="#n1" resp="mb">Edward C. Marsh outlines the financial arrangement Lowell made for her books’ publication when she moved from Houghton-Mifflin to Macmillan, where she fronted the cost of publication in return for 85% of the profits. : “We are quite prepared to accept the terms of publication which you suggest, i.e., that you shall bear the expense of publication and receive all the returns less our usual commission of 15%” (Edward Marsh to Amy Lowell, February 18, 1914, MS Lowell 19 [813]). With the three volumes of Some Imagist Poets (Houghton Mifflin, 1915, 1916, 1917) Lowell splits those profits between herself, Aldington, H.D., John Gould Fletcher, F.S. Flint, and D.H. Lawrence.</note>
                 <note target="#n2" resp="mb">Richard Aldington, Images: 1910-1915 (The Poetry Bookshop, 1915). Lowell encourages Ferris Greenslet to publish this book after all, the following month, although she has not changed her mind about her misgivings about the volume, which she outlines in her letter to Greenslet (Amy Lowell to Ferris Greenslet, January 13, 1915). [cross list with GreensletFerris19150113]</note>
-                <note target="#n3" resp="mb">“Two Poets,” The Egoist, November 16, 1914 (No. 22, Vol. 1) includes Aldington’s review of Lowell’s Sword Blades and Poppy Seed (Macmillan, 1914), as well as John Rodker’s Poems (Ovid Press, 1914).</note>
+                <note target="#n3" resp="mb">“Two Poets,” The Egoist, <date when="1914-11-16">November 16, 1914</date> (No. 22, Vol. 1) includes Aldington’s review of Lowell’s Sword Blades and Poppy Seed (Macmillan, 1914), as well as John Rodker’s Poems (Ovid Press, 1914).</note>
                 <note target="#n4" resp="mb">Idiomatic phrase meaning to think or act independently.</note>
             </div>
         </back>
