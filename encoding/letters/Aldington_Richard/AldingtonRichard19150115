@@ -71,18 +71,18 @@
         </profileDesc>
     </teiHeader>
     <text>
-        <opener><dateline><date when="1915-01-15">Jan. 15, 1915.</dateline></date>
-            <salute>
-                <p>Cable sent Jan. 15/15 to</p>
-                <p><persName key="richard_aldington">Mr. Richard Aldington</persName></p>
-                <p>8 Holland Place Chambers,</p>
-                <p>Kensington West,</p>
-                <p><placeName key="london">London</placeName>, England.</p>
-                <!-- This is my best guess at doing an address for a cable/telegram––but let me know if I should change it! - VOD -->
-                </salute></opener>
         <body>
+            <div type="cablegram">
+                <opener>Cable sent <date when="1915-01-15">Jan. 15/15</date></opener>
+            <address>
+                <addrLine><persName key="richard_aldington">Mr. Richard Aldington</persName></addrLine>
+                <addrLine>8 Holland Place Chambers,</addrLine>
+                <addrLine>Kensington West,</addrLine>
+                <addrLine><placeName key="london">London</placeName>, <placeName key="england">England<placeName>.</addrLine>
+            </address>
             <p>Am trying to change <orgName key="houghton_mifflin">publisher</orgName> about title. Think I shall succeed. Don’t worry. Will cable result.</p>
             <closer>Amy</closer>
+            </div>
         </body>
     </text>
 </TEI>
