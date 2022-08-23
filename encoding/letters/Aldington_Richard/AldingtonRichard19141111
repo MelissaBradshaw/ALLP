@@ -73,6 +73,7 @@
     </teiHeader>
     <text>
         <body>
+            <div type="letter">
             <opener><dateline><date when="1914-11-11">Nov. 11, 1914.</dateline></date>
                 <salute>My dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I have got an offer for <persName key="remy_gourmont">Remy de Gourmont</persName>. I do not think it a very brilliant one, but it
@@ -95,7 +96,7 @@
                 got it yet although he promised to send it the next day. The other magazines I have mentioned I
                 do not know the editors of, but I might be able to get hold of them through <persName key="robert_grant">Robert Grant</persName>,
                 but I think the chances are that they are entirely filled up with war correspondence and the
-                ordinary reader here in America is so ignorant of who is who in French literature that I doubt
+                ordinary reader here in <placeName key="usa">America</placeName> is so ignorant of who is who in French literature that I doubt
                 whether they would consider Monsieur de Gourmont's name of sufficient value to change their
                 prearranged plans. I think we have much more chance with the “jeunes” of “The New
                 Republic.” I will, however make every inquiry I can about the other magazines and cable you
@@ -140,7 +141,7 @@
                 written very well.</p>
             <p>Now before I say anything about your article on my book I want to say that you English 
                 are an awfully touchy lot and I think I rather love you for it. I had no intention of assaulting the
-                “honour of England” in my “<title key="letterFromLondon" level="a">London Letter</title>.”<anchor xml:id="n4"/> At the time I wrote the recruiting was slack. All
+                “honour of <placeName key="england">England</placeName>” in my “<title key="letterFromLondon" level="a">London Letter</title>.”<anchor xml:id="n4"/> At the time I wrote the recruiting was slack. All
                 your papers were full of it. “The Little Review” wanted facts. Was I to suppress this “fact” and
                 tell a lie merely because I love the people? You would not do that yourself; would you have
                 respected me the better for doing it? And did you not notice that I put in a footnote and corrected
@@ -224,14 +225,18 @@
                 almost everyone here and as mostly making proposition they are nil, I guess. Of course I shall
                 see him but I cannot conceive what I can do for him. He is truly not fit for newspaper work, he
                 can't write prose at all and prose is the only thing that pays.</p>
-            <p>Well, I must stop. My love to you both.</p>
-            <p>P.S. I have just seen the “Egoist” of November second. Is this <placeName key="londonCollegeOfTheArts">College of Comparative Arts</placeName><anchor xml:id="n7"/>
+            <closer>Well, I must stop. My love to you both.</closer>
+             <postscript>
+                <label>P.S.</label>
+            <p>I have just seen the “Egoist” of <date when="1914-11-02">November second</date>. Is this <placeName key="londonCollegeOfTheArts">College of Comparative Arts</placeName><anchor xml:id="n7"/>
                 intended as a joke or do they really expect to rope in some poor unfortunate on this side of the
                 ocean? If the latter, words to describe such a thing are too serious to employ lightly. That
                 Wyndham Lewis is a rank adventurer I know quite well, is Ezra no better? And how have they so
                 imposed this upon people like little Mr. [left blank] a genuine artist and a sincere man 
                 and apparently quite guileless in the ways of the world. I am thankful to see that you have 
                 kept out of this horridthing! Joke or serious Ezra makes one ashamed to be associated with him.</p>
+            </postscript>
+            </div>
         </body>
         <back>
             <div type="notes">
