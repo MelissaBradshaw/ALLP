@@ -76,6 +76,7 @@
     </teiHeader>
     <text>
         <body>
+            <div type="letter">
             <opener><dateline><date when="1914-11-25">Nov. 25, 1914.</dateline></date>
                 <salute>My dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I have at last something definite to say to you, a really, truly fact after all these weeks fo
@@ -193,7 +194,7 @@
                 expiration of the war something may be arranged by which we can have some effect on some
                 paper. I am now looking out for someone to go halves with me in starting a paper or getting hold of one
                 already started, and I feel that your presence here is really essential to my scheme. As soon as
-                you let me know that you would consider coming to America I will take the thing up seriously
+                you let me know that you would consider coming to <placeName key="usa">America</placeName> I will take the thing up seriously
                 but of course there is nothing to be done as far as you are concerned until I know you would be
                 willing to come. I know some of the editors of the "New Republic" no doubt I could make an
                 arrangement for you to write for them.</p>
@@ -218,16 +219,17 @@
             <p>Please let me know as soon as possible what I am to do with Houghton Mifflin. My love
                 to you and Hilda.</p>
             <closer>Always affectionately,</closer>
+            </div>
         </body>
         <back>
             <div type="notes">
-                <note target="#n1" resp="mb">Edward C. Marsh, Lowell’s editor at Macmillan forwarded a copy of an October 23, 1914 letter from Ezra Pound calling their advertisement for Sword Blades and Poppy Seed “a bare-faced lie,” and accusing the press of “displaying the tradesman’s usual crass ignorance and carelessness when meddling with matters of art.” He suggested that the inclusion his name in the advertisement for Lowell’s book might be libel: “You have trespassed on the canons of taste (a matter of which you probably know little) and, . . . something within your range of understanding, you have come very near the legal statuses.” (Ellipses in the original.) See MarshEdward19141022 and MarshEdward19141117.</note>
+                <note target="#n1" resp="mb">Edward C. Marsh, Lowell’s editor at Macmillan forwarded a copy of an <date when="1914-10-23">October 23, 1914</date> letter from Ezra Pound calling their advertisement for Sword Blades and Poppy Seed “a bare-faced lie,” and accusing the press of “displaying the tradesman’s usual crass ignorance and carelessness when meddling with matters of art.” He suggested that the inclusion his name in the advertisement for Lowell’s book might be libel: “You have trespassed on the canons of taste (a matter of which you probably know little) and, . . . something within your range of understanding, you have come very near the legal statuses.” (Ellipses in the original.) See MarshEdward19141022 and MarshEdward19141117.</note>
                 <note target="#n2" resp="mb">John Gould Fletcher, Irradiations: Sand and Spray, 1915.</note>
                 <note target="#n3" resp="mb">Lowell might refer to Ford Madox Hueffer’s poem “On Heaven,” published in Poetry Vol. 4, No. 3, June 1914.</note>
                 <note target="#n4" resp="mb">Houghton Mifflin published John Gould Fletcher’s Irradiations: Sand and Spray and Laurence Binyon’s The Winnowing Fan: Poems on the Great War in 1915. Art historian, poet, critic, and dramatist Binyon is credited with influencing Imagist poets’ interest in East Asian art and literature, in his role as Keeper of the Sub-Department of Oriental Prints and Drawings at the British Museum, where he curated the 1910-1912 Exhibition of Chinese and Japanese Paintings, as well as through monographs such as Paintings in the Far East (1908).</note>
                 <note target="#n5" resp="mb">Lafcadio Hearn (1850-1904), also known as Koizumi Yakumo, author, editor, journalist and translator. While on assignment as a newspaper correspondent in Japan he expatriated permanently, working as a literature professor, a journalist, and the author of many books on Japanese folklore and culture for Western audiences. Ferris Greenslet published and wrote the introduction to Leaves from the Diary of an Impressionist, a collection of Hearn’s early writings on New Orleans’ Creole culture, in 1911, but this proposed anthology of Hearn’s Japanese translations never materialized. Lowell included some of Hearn’s translations of Japanese poetry in her lectures on modern poetry.</note>
                 <note target="#n6" resp="mb">Idiom meaning crude and abusive language, comes from a London fishmarket with notoriously foulmouthed fishermen and merchants.</note>
-                <note target="#n7" resp="mb">Harriet Weaver wrote to Lowell with this proposal on November 4, 1914. Lowell rejected the offer in a November 23, 1914 letter, because of distance and disagreement with the “philosophy” of the paper, with the exception of Aldington’s literary articles.</note>
+                <note target="#n7" resp="mb">Harriet Weaver wrote to Lowell with this proposal on <date when="1914-11-04">November 4, 1914</date>. Lowell rejected the offer in a November 23, 1914 letter, because of distance and disagreement with the “philosophy” of the paper, with the exception of Aldington’s literary articles.</note>
             </div>
         </back>
     </text>
