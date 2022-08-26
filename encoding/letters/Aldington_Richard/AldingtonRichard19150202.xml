@@ -79,8 +79,8 @@
                 together. I know that he would like to meet <persName key="hilda_doolittle">Hilda</persName> too, and <persName key="fs_flint">Flint</persName> if you can arrange it. He has
                 been so kind to us and so nice about our work that I am sure you will both enjoy meeting each
                 other.</p>
-            <p>With love to Hilda and you from both <persName key="ada_russell">Mrs. Russell</persName> and myself,</p>
-            <closer>Affectionately yours,</closer>
+            <closer><p>With love to Hilda and you from both <persName key="ada_russell">Mrs. Russell</persName> and myself,</p>
+                <p>Affectionately yours,</p></closer>
         </body>
     </text>
 </TEI>
