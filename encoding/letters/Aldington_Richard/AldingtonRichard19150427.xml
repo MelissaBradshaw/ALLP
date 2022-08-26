@@ -93,7 +93,7 @@
             <p>I have a review of <persName key="john_fletcher">Fletcher’s</persName> <title key="irradiations" level="m">book</title> 
                 in “<title key="newRepublic" level="j">The New Republic</title>,” and they very kindly asked a
                 man to review the <title key="some_imagist_poets" level="m">Anthology</title><!-- Missy didn't note this instance in the TEI Header Metadata spreadsheet, but she did note it in previous letters so I thought this would be important to link! !--> 
-                whom <persName key="">Greenslet</persName> suggested. I have very little hopes of getting any
+                whom <persName key="ferris_greenslet">Greenslet</persName> suggested. I have very little hopes of getting any
                 intelligent reviews, however, over here. Nobody seems to know such about the business. A man
                 named <persName key="floyd_dell">Floyd Dell</persName>, who sometimes writes for “<title key="littleReview" level="j">The Little Review</title>,” came out in “The New Republic” 
                 to-day in a review of <del rend="strikethrough">Fletcher’s</del> <add place="above"><persName key="arthur_ficke">Ficke’s</persName></add> book and incidentally spoke of the parlour
