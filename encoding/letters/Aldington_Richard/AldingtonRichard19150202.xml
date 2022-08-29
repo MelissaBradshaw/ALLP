@@ -72,6 +72,7 @@
     </teiHeader>
     <text>
         <body>
+            <div type=”letter”>
             <opener><dateline><date when="1915-02-02">Feb. 2, 1915.</dateline></date>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>This will introduce you to our publisher, <persName key="ferris_greenslet">Mr. Ferris Greenslet</persName>, who is most anxious to
@@ -81,6 +82,7 @@
                 other.</p>
             <closer><p>With love to Hilda and you from both <persName key="ada_russell">Mrs. Russell</persName> and myself,</p>
                 <p>Affectionately yours,</p></closer>
+            </div>
         </body>
     </text>
 </TEI>
