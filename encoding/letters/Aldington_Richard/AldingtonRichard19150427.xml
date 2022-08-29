@@ -74,6 +74,7 @@
     </teiHeader>
     <text>
         <body>
+            <div type=”letter”>
             <opener><dateline><date when="1915-04-27">April 27, 1915.</dateline></date>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>This is the post-script of the letter I sent you yesterday. The advertisement did not get in,
@@ -115,6 +116,7 @@
             <p>Fletcher is still here. I have sent him in your letter. I do wish I could see you and Hilda
                 and have a long, good talk. Writing does not take the place.</p>
             <closer>With lots of love,</closer>
+            </div>
         </body>
         <back> 
             <div type="notes"> 
