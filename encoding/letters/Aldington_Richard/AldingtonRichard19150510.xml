@@ -72,10 +72,11 @@
     </teiHeader>
     <text>
         <body>
+            <div type=”letter”>
             <opener><dateline><date when="1916-05-10">May 10, 1916</dateline></date>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I sent you and <persName key="hilda_doolittle">Hilda</persName> each two copies of 
-                “<title key="some_imagist_poets" level="m">Some Imagist Poets <hi rend="underline">1916</hi></title>” by mail
+                “<title key="some_imagist_poets" level="m">Some Imagist Poets <u>1916</u></title>” by mail
                 yesterday. I hope that you will like them. I know just how you will feel about the tribute to
                 <persName key="harriet_monroe">Harriet</persName>, and I feel so too. But we have gone over all that before, and
                 there is no use weeping over spilt milk.</p>
@@ -143,6 +144,7 @@
                 which I sent him in February, and I have written to ask him if he ever received it. Do find out
                 and let me know.</p>
             <closer>Affectionately yours,</closer>
+            </div>
         </body>
     </text>
 </TEI>
