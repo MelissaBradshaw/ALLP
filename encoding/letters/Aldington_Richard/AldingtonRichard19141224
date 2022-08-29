@@ -71,6 +71,7 @@
     </teiHeader>
     <text>
         <body>
+            <div type=”letter”>
             <opener><dateline><date when="1914-12-24">Dec. 24, 1914.</dateline></date>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I have a lot of letters to answer and also one of <persName key="hilda_doolittle">Hilda's</persName>. I have been waiting to hear from
@@ -89,7 +90,7 @@
                 conventional, and stupid man, and I think Mr. Greenslet didn’t wish to have him come down on
                 the whole scheme like a cartload of bricks on account of that poem. I know <persName key="george_mifflin">Mr. Mifflin</persName> myself,
                 and I think it very likely would have caused him to stop the whole arrangement; but after we
-                have made a success with our first volume, a <hi rend="underline"><foreign xml:lang="fr">success d’estime</foreign></hi>, even if not a commercial success,
+                have made a success with our first volume, a <u><foreign xml:lang="fr">success d’estime</foreign></u>, even if not a commercial success,
                 I believe he will let us put in pretty much what we like next year and the year after, for the
                 contract is to be made out for three years.</p> <!-- Missy has Ford Madox Hueffer listed in the "people mentioned" for this letter, but his name isn't mentioned and I couldn't find a pronoun that seemed to be specifically referring to Hueffer. I was thinking if there was one, it would be in this paragraph since AL is talking about Hueffer's poem "Heaven." LMK if I'm missing something! I went through with a pretty fine tooth comb. Same goes for "Houghton Mifflin" the publisher versus Mr. Mifflin the person. I couldn't make out a specific pronoun that might be referring to the publisher rather than the person, but Missy also has "Houghton Mifflin" listed as a publisher in this letter. – VOD -->
             <p>Unfortunately, I have to pay for the printing of the book, and for whatever advertising
@@ -211,7 +212,7 @@
                 you like those <persName key="paul_fort">Paul Fort</persName> meters. <persName key="john_fletcher">Fletcher</persName> has christened them “polyphonic” prose, which I think
                 an excellent name; for as you and I know, although Paul Fort gave me the idea, they are written
                 on a somewhat different scheme from Paul Fort’s and based on a different rhythm, the rhythm of
-                <hi rend="underline"><foreign xml:lang="fr">vers libre</foreign></hi> in fact, instead of the Alexandrine. Fletcher has written an article upon them, which
+                <u><foreign xml:lang="fr">vers libre</foreign></u> in fact, instead of the Alexandrine. Fletcher has written an article upon them, which
                 <persName key="harriet_monroe">Harriet</persName> has accepted for “<title key="poetry" level="j">Poetry</title>” <!-- Harriet Monroe and "Poetry" weren't listed in the metadata spreadsheet, but I added them in since that seemed appropriate! – VOD -->
                 and he is trying them himself now; so that we stand a very
                 good chance, with yours and his and my attempts, of doing something which Ezra can not claim
@@ -240,6 +241,7 @@
             <p>Lots of love, and I hope Christmas and the New Year will bring you only happiness, and
                 the end of the war for us all. <persName key="ada_russell">Mrs. Russell</persName> joins me in sending a great deal of love to you both.</p>
             <closer>Very sincerely yours,</closer>
+            </div>
         </body>
         <back>
             <div type="notes">
