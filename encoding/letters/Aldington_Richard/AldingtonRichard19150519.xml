@@ -72,6 +72,7 @@
     </teiHeader>
     <text>
         <body>
+            <div type=”letter”>
             <opener><dateline><date when="1915-05-19">May 19, 1915.</dateline></date>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I am afraid you are going to be awfully disappointed but, after careful consideration,
@@ -159,7 +160,7 @@
             <p>If you understood conditions in America better, you would see that we are only doing the
                 sensible thing, and our disappointment is no more keen than mine. I could not sleep
                 all night the night after “The Egoist arrived, I felt so terribly about it.</p>
-            <p>I have ordered <persName key="michael_sadler">Sadler</persName><anchor xml:id="n6"/> to send you ten copies at once to distribute to your various
+            <p>I have ordered <persName key="michael_sadleir">Sadler</persName><anchor xml:id="n6"/> to send you ten copies at once to distribute to your various
                 reviewers. I got Houghton Mifflin to cable with their private code, and copies should have
                 reached you by now.</p>
             <p>I have been able to give us quite a little sendoff through various talks I have been giving
@@ -186,15 +187,16 @@
                     has written about us in “<title key="laFrance" level="j">La France</title>,” and I am very glad that somebody is defending us
                     from Monro’s article.</p>
             </postscript>
+            </div>
         </body>
         <back> 
             <div type="notes"> 
-                <note target="#n1" resp="mb">Lowell paid for and kept all copies of the May, 1915 “Special Imagist Number” of The Egoist (Vol. 2, No. 4) sent for distribution in America.</note> 
-                <note target="#n2" resp="mb">Dora Marsden’s five page editorial “Truth and Reality,” about subjective and objective reality, begins the issue (65-70).</note> 
-                <note target="#n3" resp="mb">Harold Monro, “The Imagists Discussed,” The Egoist, Vol. 2, No. 4 (May, 1915), 77-80.</note> 
-                <note target="#n4" resp="mb">Lawrence’s war poem, “Eloi, Eloi, Lama Sabachthani.” Lowell might object to his comparison of the moment when a soldier kills an enemy combatant to sexual intercourse: “And I knew he wanted it. / Like a bride he took my bayonet, wanting it, . . . I have sown him with the seed / And planted and fertilized him” (75).</note> 
-                <note target="#n5" resp="mb">See AL to RA, April 24, 1915.</note> 
-                <note target="#n6" resp="mb">Michael Sadler (née Sadlier) (1888-1957), British writer, translator and publisher. Lowell references him in his role at Constable & Co. publishing firm.</note> 
+                <note target="#n1" resp="mb"><persName key="amy_lowell">Lowell</persName> paid for and kept all copies of the May, 1915 “Special Imagist Number” of <title key="egoist" level="j">The Egoist</title> (Vol. 2, No. 4) sent for distribution in <placeName key="usa">America</placeName>.</note> 
+                <note target="#n2" resp="mb"><persName key="dora_marsden">Dora Marsden’s</persName> five page editorial “Truth and Reality,” about subjective and objective reality, begins the issue (65-70).</note> 
+                <note target="#n3" resp="mb"><persName key="harold_monro">Harold Monro</persName>, “The Imagists Discussed,” <title key="egoist" level="j">The Egoist</title>, Vol. 2, No. 4 (May, 1915), 77-80.</note> 
+                <note target="#n4" resp="mb"><persName key="dh_lawrence">Lawrence’s</persName> war poem, “Eloi, Eloi, Lama Sabachthani.” <persName key="amy_lowell">Lowell</persName> might object to his comparison of the moment when a soldier kills an enemy combatant to sexual intercourse: “And I knew he wanted it. / Like a bride he took my bayonet, wanting it, . . . I have sown him with the seed / And planted and fertilized him” (75).</note> 
+                <note target="#n5" resp="mb">See <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1915-04-24">April 24, 1915</date>.</note> 
+                <note target="#n6" resp="mb"><persName key="michael_sadleir">Michael Sadler</persName> (née Sadlier) (1888-1957), British writer, translator and publisher. <persName key="amy_lowell">Lowell references him in his role at <orgName key="constable">Constable & Co.</orgName> publishing firm.</note> 
             </div> 
         </back>
     </text>
