@@ -72,6 +72,7 @@
     </teiHeader>
     <text>
         <body>
+            <div type=”letter”>
             <opener><dateline><date when="1915-03-15">March 15, 1915.</dateline></date>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>Your letter came yesterday morning and reduced me to a state of perfect inanity with
@@ -149,6 +150,7 @@
                     English at this time. Fletcher has been so urgent and enthusiastic that I have decided to substitute
                     “Spring Day” for it and I think he is right in feeling that it is one of the best things I have done.</p>
             </postscript>
+            </div>
         </body>
         <back> 
             <div type="notes"> 
