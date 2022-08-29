@@ -74,6 +74,7 @@
     </teiHeader>
     <text>
         <body>
+            <div type=”letter”>
             <opener><dateline><date when="1915-04-24">April 24, 1915.</dateline></date>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>Your two letters are here, and I am very glad you are going to get <persName key="john_fletcher">Fletcher’s</persName> and my long
@@ -171,6 +172,7 @@
                 that is one sure thing. Now I suppose they will have a fine time rapping the Anthology.</p>
             <p><persName key="ada_russell">Mrs. Russell</persName> is in <placeName key="chicago">Chicago</placeName> with her daughter or she would join me in sending lots of love
                 to you and Hilda.</p>
+            </div>
         </body>
         <back> 
             <div type="notes"> 
