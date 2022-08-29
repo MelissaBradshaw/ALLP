@@ -73,6 +73,7 @@
     </teiHeader>
     <text>
         <body>
+            <div type=”letter”>
             <opener><dateline><date when="1915-05-29">May 29, 1915.</dateline></date>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I think I have at last discovered the mystery of the books not having been received by
@@ -114,7 +115,7 @@
                 they purport to be my friends, is that they wanted to open a discussion. As Aiken accuses us of
                 interpuffing I did not think that any of us could write the answer. Ferris’s tongue is tied, because
                 he publishes the book, so Braithwaite seemed the only thing, and as he is heart and soul with us
-                and was most anxious to do it, I had to take him <hi rend="underline"><foreign xml:lang="fr">faute de mieux</foreign></hi><anchor xml:id="n1"/><!-- Is this the right order of operations to show that this French phrase is underlined?? -->.</p>
+                and was most anxious to do it, I had to take him <u><foreign xml:lang="fr">faute de mieux</foreign></u><anchor xml:id="n1"/><!-- Is this the right order of operations to show that this French phrase is underlined?? -->.</p>
             <p>I took “<title key="egoist" level="j">The Egoist</title>” in to Roger Scaife the other day, rather hoping that he might think
                 well of distributing it; but he was just as much against the plan as Ferris was, although he thinks
                 that, if <persName key="may_sinclair">May Sinclair</persName> has really written a good article on us in the next “Egoist,” it might be well
@@ -163,11 +164,12 @@
                 because, as I have repeatedly told you, I think your criticism is excellent, honest, and just. Your
                 article on Ezra was a little masterpiece of discrimination.</p>
             <closer>Lots of love to Hilda,</closer>
+            </div>
         </body>
         <back> 
             <div type="notes"> 
                 <note target="#n1" resp="mb">French, meaning for want of a better alternative.</note> 
-                <note target="#n2" resp="mb">Amy Lowell, "The Poetry Bookshop," The Little Review Vol. 2, No. 3 (May, 1915).</note> 
+                <note target="#n2" resp="mb"><persName key="amy_lowell">Amy Lowell</persName>, "The Poetry Bookshop," <title key="littleReview" level="j">The Little Review</title> Vol. 2, No. 3 (May, 1915).</note> 
             </div> 
         </back>
     </text>
