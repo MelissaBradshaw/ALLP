@@ -72,6 +72,7 @@
     </teiHeader>
     <text>
         <body>
+            <div type=”letter”>
             <opener><dateline><date when="1915-05-06">May 6, 1915.</dateline></date>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>In the first place, about this letter and cheque from “<title key="newRepublic" level="j">The New Republic</title>” people. I see no
@@ -119,12 +120,13 @@
                 them and make a buffer between them, as it were, if you have room for it; otherwise, send it
                 back.</p>
             <closer>Affectionately yours,</closer>
+            </div>
         </body>
         <back> 
             <div type="notes"> 
-                <note target="#n1" resp="mb">Harriet Monroe. A.C. McClurg was a Chicago publishing house and book wholesaler.</note> 
-                <note target="#n2" resp="mb">Aldington's May 6 response to Lowell explains his alterations to John Gould Fletcher’s article on her in the “Imagist Number” of The Egoist (Vol. 2, No. 4): “Fletcher seems to have misunderstood the nature of my alterations of the article, which were done with the best intentions and after consultation with Flint, Hilda, Monro and several others.” His changes included changing language which described Lowell as “the foremost Imagist,” compared her to Shakespeare, and claimed she was “the only Imagist who had practiced all the forms,” a claim he described as “a weapon in the hands of enemies,” because it implied the other Imagist were unpracticed in poetical forms. “Believe me, dear Amy, I am as enthusiastic over your work as anybody, as I think I have proved, but temperate and carefully weighed interpretation does far more good than inconsiderate and rather cliched praise.” See RA to AL, May 6, 1915.</note> 
-                <note target="#n3" resp="mb">Lowell’s poems “Maladie de l’Aprês Midi,” “Middle Age,” “A Rainy Night,” and “Haunted” appeared in the July 1, 1915 Egoist (Vol. 2, No. 7).</note> 
+                <note target="#n1" resp="mb"><persName key="harriet_monroe">Harriet Monroe</persName>. A.C. McClurg was a <placeName key="chicago">Chicago</placeName> publishing house and book wholesaler.</note> 
+                <note target="#n2" resp="mb"><persName key="richard_aldington">Aldington's</persName> May 6 response to <persName key="amy_lowell">Lowell</persName> explains his alterations to <persName key="john_fletcher">John Gould Fletcher’s</persName> article on her in the “Imagist Number” of <title key="egoist" level="j">The Egoist</title> (Vol. 2, No. 4): “Fletcher seems to have misunderstood the nature of my alterations of the article, which were done with the best intentions and after consultation with <persName key="fs_flint">Flint</persName>, <persName key="hilda_doolittle">Hilda</persName>, <persName key="harold_monro">Monro</persName> and several others.” His changes included changing language which described Lowell as “the foremost Imagist,” compared her to Shakespeare, and claimed she was “the only Imagist who had practiced all the forms,” a claim he described as “a weapon in the hands of enemies,” because it implied the other Imagist were unpracticed in poetical forms. “Believe me, dear Amy, I am as enthusiastic over your work as anybody, as I think I have proved, but temperate and carefully weighed interpretation does far more good than inconsiderate and rather cliched praise.” See RA to AL, <date when="1915-05-06">May 6, 1915</date>.</note> 
+                <note target="#n3" resp="mb"><persName key="amy_lowell">Lowell’s</persName> poems “Maladie de l’Aprês Midi,” “Middle Age,” “A Rainy Night,” and “Haunted” appeared in the <date when="1915-07-01">July 1, 1915</date> <title key="egoist" level="j">Egoist</title> (Vol. 2, No. 7).</note> 
             </div> 
         </back>
     </text>
