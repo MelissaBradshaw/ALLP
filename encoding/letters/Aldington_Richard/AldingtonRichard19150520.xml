@@ -73,6 +73,7 @@
     </teiHeader>
     <text>
         <body>
+            <div type=”letter”>
             <opener><dateline><date when="1915-05-20">May 20, 1915.</dateline></date>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>Here’s your draft for payment in full, I believe; at least I think it is as full as the cheque
@@ -158,13 +159,14 @@
                 Ferris Greenslet’s original figures were wrong, and that our sale up to date, including the
                 advance copies, is 460 copies.</p>
             <closer>Affectionately yours,</closer>
+            </div>
         </body>
         <back> 
             <div type="notes"> 
-                <note target="#n1" resp="mb">See AL to RA, May 6, 1915, about payment for articles contracted but not used by The New Republic.</note> 
-                <note target="#n2" resp="mb">See AL to RA, May 1915, explaining her decision to buy up and not distribute copies of the “Imagist Number” of The Egoist, Vol. 2, No. 5 (May, 1915) in America.</note> 
-                <note target="#n3" resp="mb">Aldington negatively reviewed Harriet Monroe’s You and I (Macmillan, 1914) in The Egoist Vol. 1, No. 24 (Decemer 15, 1914) 458-459.</note> 
-                <note target="#n4" resp="mb">Walter Morse Rummel (1887-1953) pianist, composer, and music editor. His Ten Songs for Children (Boston Music Company, 1913) included songs with words by H.D. and Aldington.</note> 
+                <note target="#n1" resp="mb">See <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1915-05-06">May 6, 1915</date>, about payment for articles contracted but not used by <title key="newRepublic" level="j">The New Republic</title>.</note> 
+                <note target="#n2" resp="mb">See <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, May 1915, explaining her decision to buy up and not distribute copies of the “Imagist Number” of <title key="egoist" level="j">The Egoist</title>, Vol. 2, No. 5 (May, 1915) in <placeName key="usa">America</placeName>.</note> 
+                <note target="#n3" resp="mb"><persName key="richard_aldington">Aldington</persName> negatively reviewed <persName key="harriet_monroe">Harriet Monroe’s</persName> You and I (Macmillan, 1914) in <title key="egoist" level="j">The Egoist</title> Vol. 1, No. 24 (<date when="1914-12-15">Decemer 15, 1914</date>) 458-459.</note> 
+                <note target="#n4" resp="mb"><persName key="walter_rummel">Walter Morse Rummel</persName> (1887-1953) pianist, composer, and music editor. His Ten Songs for Children (Boston Music Company, 1913) included songs with words by <persName key="hilda_doolittle">H.D.</persName> and <persName key="richard_aldington">Aldington</persName>.</note> 
             </div> 
         </back>
     </text>
