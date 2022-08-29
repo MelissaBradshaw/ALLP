@@ -73,6 +73,7 @@
     </teiHeader>
     <text>
         <body>
+            <div type=”letter”>
             <opener><dateline><date when="1915-02-27">Feb. 27, 1915.</dateline></date>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>What you must think of me for not having written for so long I cannot imagine; but the
@@ -172,6 +173,7 @@
             <p>Now I must stop and go back to my lecture on Remy de Gourmont for next week. I am
                 kind of nervous about it.</p>
             <closer>Love to you and Hilda from <persName key="ada_russell">Mrs. Russell</persName> and me.</closer>
+            </div>
         </body>
         <back>
             <div type="notes">
