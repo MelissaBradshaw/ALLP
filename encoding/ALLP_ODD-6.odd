@@ -1,649 +1,76 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" n="testms">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>ALLP TEI Customization</title>
-        <author>Danielle Richards</author>
+        <title>ALLP 2022</title>
+        <author>Danielle Richards and Felix Oke</author>
       </titleStmt>
       <publicationStmt>
         <publisher>TEI Consortium</publisher>
         <availability status="free">
-          <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a
-            Creative Commons Attribution-ShareAlike 3.0 Unported License </licence>
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+          Distributed under a Creative Commons Attribution-ShareAlike
+          3.0 Unported License</licence>
           <licence target="http://www.opensource.org/licenses/BSD-2-Clause">
             <p>Copyright 2013 TEI Consortium.</p>
             <p>All rights reserved.</p>
-            <p>Redistribution and use in source and binary forms, with or without modification, are
-              permitted provided that the following conditions are met:</p>
+            <p>Redistribution and use in source and binary forms, with
+            or without modification, are permitted provided that the
+            following conditions are met:</p>
             <list>
-              <item>Redistributions of source code must retain the above copyright notice, this list
-                of conditions and the following disclaimer.</item>
-              <item>Redistributions in binary form must reproduce the above copyright notice, this
-                list of conditions and the following disclaimer in the documentation and/or other
-                materials provided with the distribution.</item>
+              <item>Redistributions of source code must retain the
+              above copyright notice, this list of conditions and the
+              following disclaimer.</item>
+              <item>Redistributions in binary form must reproduce the
+              above copyright notice, this list of conditions and the
+              following disclaimer in the documentation and/or other
+              materials provided with the distribution.</item>
             </list>
-            <p>This software is provided by the copyright holders and contributors "as is" and any
-              express or implied warranties, including, but not limited to, the implied warranties
-              of merchantability and fitness for a particular purpose are disclaimed. In no event
-              shall the copyright holder or contributors be liable for any direct, indirect,
-              incidental, special, exemplary, or consequential damages (including, but not limited
-              to, procurement of substitute goods or services; loss of use, data, or profits; or
-              business interruption) however caused and on any theory of liability, whether in
-              contract, strict liability, or tort (including negligence or otherwise) arising in any
-              way out of the use of this software, even if advised of the possibility of such
-              damage.</p>
+            <p>This software is provided by the copyright holders and
+            contributors "as is" and any express or implied
+            warranties, including, but not limited to, the implied
+            warranties of merchantability and fitness for a particular
+            purpose are disclaimed. In no event shall the copyright
+            holder or contributors be liable for any direct, indirect,
+            incidental, special, exemplary, or consequential damages
+            (including, but not limited to, procurement of substitute
+            goods or services; loss of use, data, or profits; or
+            business interruption) however caused and on any theory of
+            liability, whether in contract, strict liability, or tort
+            (including negligence or otherwise) arising in any way out
+            of the use of this software, even if advised of the
+            possibility of such damage.</p>
           </licence>
-          <p>TEI material can be licensed differently depending on the use you intend to make of it.
-            Hence it is made available under both the CC+BY and BSD-2 licences. The CC+BY licence is
-            generally appropriate for usages which treat TEI content as data or documentation. The
-            BSD-2 licence is generally appropriate for usage of TEI content in a software
-            environment. For further information or clarification, please contact the <ref
-              target="mailto:info@tei-c.org">TEI Consortium</ref>. </p>
+          <p>TEI material can be licensed differently depending on the
+          use you intend to make of it. Hence it is made available
+          under both the CC+BY and BSD-2 licences. The CC+BY licence
+          is generally appropriate for usages which treat TEI content
+          as data or documentation. The BSD-2 licence is generally
+          appropriate for usage of TEI content in a software
+          environment. For further information or clarification,
+          please contact the <ref target="mailto:info@tei-c.org">TEI
+          Consortium</ref>.</p>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <p>Created from scratch by James Cummings, but looking at previous tei_minimal and tei_bare
-          exemplars by SPQR and LR.</p>
+        <p>Written from scratch.</p>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-      <head>A Minimal TEI Customization</head>
-
-      <p>This TEI ODD defines a TEI customization that is as minimal as possible and the schema
-        generated from it will validate a document that is minimally valid against the TEI scheme.
-        It includes only the ten required elements: <list rend="numbered">
-          <item><gi>teiHeader</gi> from the header module to store required metadata</item>
-          <item><gi>fileDesc</gi> from the header module to record information about this
-            file</item>
-          <item><gi>titleStmt</gi> from the header module to record information about the
-            title</item>
-          <item><gi>publicationStmt</gi> from the header module to detail how it is published</item>
-          <item><gi>sourceDesc</gi> from the header module to record where it is from</item>
-          <item><gi>p</gi> from the core module for use in the header and the body</item>
-          <item><gi>title</gi> from the core module for use in the titleStmt</item>
-          <item><gi>TEI</gi> from the textstructure module because what is a TEI file without
-            that?</item>
-          <item><gi>text</gi> from the textstructure module to hold some text</item>
-          <item><gi>body</gi> from the textstructure module as a place to put that text</item>
-        </list>
-      </p>
-      <schemaSpec ident="ALLP_ODD" start="TEI" prefix="tei_" targetLang="en" docLang="en">
-
-        <!-- required minimal header elements -->
-        <moduleRef key="header"
-          include="teiHeader fileDesc titleStmt publicationStmt sourceDesc sponsor principal authority availability licence idno encodingDesc editorialDecl profileDesc textClass"/>
-
-        <!-- required core elements (p and title for use in titleStmt) -->
-        <moduleRef key="core"
-          include="p title address add bibl author editor respStmt resp pubPlace date l lb choice foreign gap del note pb head orig corr sic"/>
-
-        <!-- required textstructure elements (TEI, text, and body) -->
-        <moduleRef key="textstructure"
-          include="TEI text body postscript dateline opener salute closer"/>
-
-        <!-- required module tei instantiates lots of classes used for further expansion of this odd -->
+      <p>TEI for manuscript description</p>
+      <schemaSpec ident="tei_allp" start="TEI teiCorpus" prefix="tei_allp" targetLang="en" docLang="en">
+        <moduleRef key="header"/>
+        <moduleRef key="linking"/>
+        <moduleRef key="core"/>
         <moduleRef key="tei"/>
-
-
-        <moduleRef key="msdescription"
-          include="accMat physDesc msDesc msIdentifier institution repository"/>
-        <moduleRef key="namesdates" include="persName placeName orgName"/>
-        <moduleRef key="corpus" include="particDesc"/>
-        <moduleRef key="certainty" include="certainty"/>
-        <moduleRef key="linking" include="anchor"/>
-        <elementSpec ident="persName" mode="change">
-          <attList>
-            <attDef ident="n" mode="delete"/>
-            <attDef ident="xml:lang" mode="delete"/>
-            <attDef ident="xml:base" mode="delete"/>
-            <attDef ident="xml:space" mode="delete"/>
-            <attDef ident="ana" mode="delete"/>
-            <attDef ident="change" mode="delete"/>
-            <attDef ident="corresp" mode="delete"/>
-            <attDef ident="synch" mode="delete"/>
-            <attDef ident="sameAs" mode="delete"/>
-            <attDef ident="copyOf" mode="delete"/>
-            <attDef ident="next" mode="delete"/>
-            <attDef ident="prev" mode="delete"/>
-            <attDef ident="exclude" mode="delete"/>
-            <attDef ident="select" mode="delete"/>
-            <attDef ident="rend" mode="delete"/>
-            <attDef ident="style" mode="delete"/>
-            <attDef ident="rendition" mode="delete"/>
-            <attDef ident="cert" mode="delete"/>
-            <attDef ident="resp" mode="delete"/>
-            <attDef ident="source" mode="delete"/>
-            <attDef ident="role" mode="delete"/>
-            <attDef ident="nymRef" mode="delete"/>
-            <attDef ident="full" mode="delete"/>
-            <attDef ident="sort" mode="delete"/>
-            <attDef ident="subtype" mode="delete"/>
-            <attDef ident="when-custom" mode="delete"/>
-            <attDef ident="notBefore-custom" mode="delete"/>
-            <attDef ident="notAfter-custom" mode="delete"/>
-            <attDef ident="from-custom" mode="delete"/>
-            <attDef ident="to-custom" mode="delete"/>
-            <attDef ident="datingPoint" mode="delete"/>
-            <attDef ident="datingMethod" mode="delete"/>
-            <attDef ident="calendar" mode="delete"/>
-            <attDef ident="period" mode="delete"/>
-            <attDef ident="instant" mode="delete"/>
-            <attDef ident="evidence" mode="delete"/>
-            <attDef ident="when" mode="delete"/>
-            <attDef ident="notBefore" mode="delete"/>
-            <attDef ident="notAfter" mode="delete"/>
-            <attDef ident="from" mode="delete"/>
-            <attDef ident="to" mode="delete"/>
-            <attDef ident="facs" mode="delete"/>
-            <attDef ident="type" mode="change">
-              <valList type="semi" mode="change">
-                <valItem mode="add" ident="poet"/>
-                <valItem mode="add" ident="editor"/>
-                <valItem mode="add" ident="publisher"/>
-                <valItem mode="add" ident="anthologist"/>
-                <valItem mode="add" ident="founder"/>
-                <valItem mode="add" ident="professor"/>
-                <valItem mode="add" ident="student"/>
-                <valItem mode="add" ident="sinologist"/>
-                <valItem mode="add" ident="novelist"/>
-                <valItem mode="add" ident="art-dealer"/>
-                <valItem mode="add" ident="bookseller"/>
-                <valItem mode="add" ident="critic"/>
-              </valList>
-            </attDef>
-            <attDef ident="key" mode="change">
-              <valList type="semi" mode="change">
-                <valItem mode="add" ident="conrad_aiken"/>
-                <valItem mode="add" ident="zoe_akins"/>
-                <valItem mode="add" ident="perdita_aldington"/>
-                <valItem mode="add" ident="richard_aldington"/>
-                <valItem mode="add" ident="mary_aldis"/>
-                <valItem mode="add" ident="margaret_anderson"/>
-                <valItem mode="add" ident="walter_arensberg"/>
-                <valItem mode="add" ident="florence_ayscough"/>
-                <valItem mode="add" ident="william_benet"/>
-                <valItem mode="add" ident="millicent_bingham"/>
-                <valItem mode="add" ident="lawrence_binyon"/>
-                <valItem mode="add" ident="basil_blackwell"/>
-                <valItem mode="add" ident="maxwell_bodenhelm"/>
-                <valItem mode="add" ident="fw_bourdillon"/>
-                <valItem mode="add" ident="ws_braithwaite"/>
-                <valItem mode="add" ident="george_brett"/>
-                <valItem mode="add" ident="edmund_brown"/>
-                <valItem mode="add" ident="winifred_bryher"/>
-                <valItem mode="add" ident="charles_bubb"/>
-                <valItem mode="add" ident="witter_bynner"/>
-                <valItem mode="add" ident="jonathan_cape"/>
-                <valItem mode="add" ident="lewis_chase"/>
-                <valItem mode="add" ident="donald_clark"/>
-                <valItem mode="add" ident="padraic_colum"/>
-                <valItem mode="add" ident="grace_conkling"/>
-                <valItem mode="add" ident="john_cournos"/>
-                <valItem mode="add" ident="malcolm_cowley"/>
-                <valItem mode="add" ident="herbert_croly"/>
-                <valItem mode="add" ident="elisabeth_cutting"/>
-                <valItem mode="add" ident="sf_damon"/>
-                <valItem mode="add" ident="edgard_de_bergen"/>
-                <valItem mode="add" ident="salamonDeLaSelva"/>
-                <valItem mode="add" ident="henri_deRegnier"/>
-                <valItem mode="add" ident="claude_debussy"/>
-                <valItem mode="add" ident="gilbert_doolittle"/>
-                <valItem mode="add" ident="helen_doolittle"/>
-                <valItem mode="add" ident="hilda_doolittle"/>
-                <valItem mode="add" ident="james_douglas"/>
-                <valItem mode="add" ident="ernest_fernoliosa"/>
-                <valItem mode="add" ident="arthur_ficke"/>
-                <valItem mode="add" ident="charles_fiske"/>
-                <valItem mode="add" ident="john_fletcher"/>
-                <valItem mode="add" ident="fs_flint"/>
-                <valItem mode="add" ident="paul_fort"/>
-                <valItem mode="add" ident="robert_frost"/>
-                <valItem mode="add" ident="roger_fry"/>
-                <valItem mode="add" ident="hamlin_garland"/>
-                <valItem mode="add" ident="henri_gaudier_brzesk"/>
-                <valItem mode="add" ident="remy_gourmont"/>
-                <valItem mode="add" ident="ferris_greenslet"/>
-                <valItem mode="add" ident="francis_hackett"/>
-                <valItem mode="add" ident="nina_hamnett"/>
-                <valItem mode="add" ident="alfred_harcourt"/>
-                <valItem mode="add" ident="thomas_hardy"/>
-                <valItem mode="add" ident="ac_henderson"/>
-                <valItem mode="add" ident="homer"/>
-                <valItem mode="add" ident="helen_hoyt"/>
-                <valItem mode="add" ident="ford_hueffer"/>
-                <valItem mode="add" ident="te_hulme"/>
-                <valItem mode="add" ident="richard_hunt"/>
-                <valItem mode="add" ident="martyn_johnson"/>
-                <valItem mode="add" ident="viola_jordan"/>
-                <valItem mode="add" ident="virgil_jordan"/>
-                <valItem mode="add" ident="james_joyce"/>
-                <valItem mode="add" ident="john_keats"/>
-                <valItem mode="add" ident="mitchell_kennerley"/>
-                <valItem mode="add" ident="m_kennerly"/>
-                <valItem mode="add" ident="a_knopf"/>
-                <valItem mode="add" ident="alfred_kreymborg"/>
-                <valItem mode="add" ident="aleksey_kuropatkin"/>
-                <valItem mode="add" ident="dh_lawrence"/>
-                <valItem mode="add" ident="frieda_lawrence"/>
-                <valItem mode="add" ident="vachel_lindsay"/>
-                <valItem mode="add" ident="philip_littell"/>
-                <valItem mode="add" ident="pierre_louys"/>
-                <valItem mode="add" ident="amy_lowell"/>
-                <valItem mode="add" ident="lawrence_lowell"/>
-                <valItem mode="add" ident="robert_lowell"/>
-                <valItem mode="add" ident="percy_mackaye"/>
-                <valItem mode="add" ident="george_macmilan"/>
-                <valItem mode="add" ident="stephane_mallarme"/>
-                <valItem mode="add" ident="dora_marsden"/>
-                <valItem mode="add" ident="ec_marsh"/>
-                <valItem mode="add" ident="cj_masseck"/>
-                <valItem mode="add" ident="el_masters"/>
-                <valItem mode="add" ident="robert_mcalmon"/>
-                <valItem mode="add" ident="michaud"/>
-                <valItem mode="add" ident="scudder_middleton"/>
-                <valItem mode="add" ident="harold_monro"/>
-                <valItem mode="add" ident="harriet_monroe"/>
-                <valItem mode="add" ident="marianne_moore"/>
-                <valItem mode="add" ident="thomas_mosher"/>
-                <valItem mode="add" ident="edward_obrien"/>
-                <valItem mode="add" ident="james_oppenheim"/>
-                <valItem mode="add" ident="josephine_peabody"/>
-                <valItem mode="add" ident="william_phelps"/>
-                <valItem mode="add" ident="ezra_pound"/>
-                <valItem mode="add" ident="john_powys"/>
-                <valItem mode="add" ident="re_prothero"/>
-                <valItem mode="add" ident="elizabeth_putnam"/>
-                <valItem mode="add" ident="william_putnam"/>
-                <valItem mode="add" ident="ea_robinson"/>
-                <valItem mode="add" ident="james_roosevelt"/>
-                <valItem mode="add" ident="ada_russell"/>
-                <valItem mode="add" ident="michael_sadler"/>
-                <valItem mode="add" ident="carl_sandburg"/>
-                <valItem mode="add" ident="roger_scaife"/>
-                <valItem mode="add" ident="ellery_sedgwick"/>
-                <valItem mode="add" ident="dorothy_shakespear"/>
-                <valItem mode="add" ident="clement_shorter"/>
-                <valItem mode="add" ident="may_sinclair"/>
-                <valItem mode="add" ident="edith_sitwell"/>
-                <valItem mode="add" ident="wallace_stevens"/>
-                <valItem mode="add" ident="edward_storer"/>
-                <valItem mode="add" ident="igor_stravinsky"/>
-                <valItem mode="add" ident="sara_teasdale"/>
-                <valItem mode="add" ident="schofield_thayer"/>
-                <valItem mode="add" ident="eunice_tietjens"/>
-                <valItem mode="add" ident="jean_untermeyer"/>
-                <valItem mode="add" ident="louis_untermeyer"/>
-                <valItem mode="add" ident="lindsay_vachel"/>
-                <valItem mode="add" ident="alfred_valette"/>
-                <valItem mode="add" ident="felix_vallotton"/>
-                <valItem mode="add" ident="emile_verhaeren"/>
-                <valItem mode="add" ident="arthur_waley"/>
-                <valItem mode="add" ident="he_warner"/>
-                <valItem mode="add" ident="harriet_weaver"/>
-                <valItem mode="add" ident="wc_williams"/>
-                <valItem mode="add" ident="clement_wood"/>
-                <valItem mode="add" ident="willard_wright"/>
-                <valItem mode="add" ident="elinor_wylie"/>
-                <valItem mode="add" ident="yakura_sanjin"/>
-                <valItem mode="add" ident="wb_yeats"/>
-                <valItem mode="add" ident="thomasSeltzer"/>
-                <valItem mode="add" ident="robert_holliday"/>
-                <valItem mode="add" ident="brownStudio"/>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="orgName" mode="change">
-          <attList>
-            <attDef ident="ref" mode="delete"/>
-            <attDef ident="calendar" mode="delete"/>
-            <attDef ident="period" mode="delete"/>
-            <attDef ident="when-custom" mode="delete"/>
-            <attDef ident="notBefore-custom" mode="delete"/>
-            <attDef ident="notAfter-custom" mode="delete"/>
-            <attDef ident="from-custom" mode="delete"/>
-            <attDef ident="to-custom" mode="delete"/>
-            <attDef ident="datingPoint" mode="delete"/>
-            <attDef ident="datingMethod" mode="delete"/>
-            <attDef ident="when-iso" mode="delete"/>
-            <attDef ident="notBefore-iso" mode="delete"/>
-            <attDef ident="notAfter-iso" mode="delete"/>
-            <attDef ident="from-iso" mode="delete"/>
-            <attDef ident="to-iso" mode="delete"/>
-            <attDef ident="when" mode="delete"/>
-            <attDef ident="notBefore" mode="delete"/>
-            <attDef ident="notAfter" mode="delete"/>
-            <attDef ident="from" mode="delete"/>
-            <attDef ident="to" mode="delete"/>
-            <attDef ident="evidence" mode="delete"/>
-            <attDef ident="instant" mode="delete"/>
-            <attDef ident="n" mode="delete"/>
-            <attDef ident="xml:lang" mode="delete"/>
-            <attDef ident="xml:base" mode="delete"/>
-            <attDef ident="xml:space" mode="delete"/>
-            <attDef ident="ana" mode="delete"/>
-            <attDef ident="change" mode="delete"/>
-            <attDef ident="facs" mode="delete"/>
-            <attDef ident="corresp" mode="delete"/>
-            <attDef ident="sameAs" mode="delete"/>
-            <attDef ident="synch" mode="delete"/>
-            <attDef ident="copyOf" mode="delete"/>
-            <attDef ident="next" mode="delete"/>
-            <attDef ident="prev" mode="delete"/>
-            <attDef ident="exclude" mode="delete"/>
-            <attDef ident="select" mode="delete"/>
-            <attDef ident="rend" mode="delete"/>
-            <attDef ident="style" mode="delete"/>
-            <attDef ident="rendition" mode="delete"/>
-            <attDef ident="cert" mode="delete"/>
-            <attDef ident="resp" mode="delete"/>
-            <attDef ident="source" mode="delete"/>
-            <attDef ident="role" mode="delete"/>
-            <attDef ident="nymRef" mode="delete"/>
-            <attDef ident="full" mode="delete"/>
-            <attDef ident="sort" mode="delete"/>
-            <attDef ident="subtype" mode="delete"/>
-            <attDef ident="key" mode="change">
-              <valList type="semi" mode="change">
-                <valItem mode="add" ident="a_and_c_boni"/>
-                <valItem mode="add" ident="allianceFrancaise"/>
-                <valItem mode="add" ident="americanExpress"/>
-                <valItem mode="add" ident="americanPoetrySociety"/>
-                <valItem mode="add" ident="birminghamU"/>
-                <valItem mode="add" ident="boniLiveright"/>
-                <valItem mode="add" ident="brooklynInstitute"/>
-                <valItem mode="add" ident="brownU"/>
-                <valItem mode="add" ident="brownShipley"/>
-                <valItem mode="add" ident="brynMawr"/>
-                <valItem mode="add" ident="constable"/>
-                <valItem mode="add" ident="contemporaryClub"/>
-                <valItem mode="add" ident="cosmopolitanClub"/>
-                <valItem mode="add" ident="dartmouth"/>
-                <valItem mode="add" ident="deadLetterOffice"/>
-                <valItem mode="add" ident="doubledayPage"/>
-                <valItem mode="add" ident="elizabethanClub"/>
-                <valItem mode="add" ident="eyreSpottiswoode"/>
-                <valItem mode="add" ident="flonzaleyQuartet"/>
-                <valItem mode="add" ident="fortnightly"/>
-                <valItem mode="add" ident="francisBergenFoundation"/>
-                <valItem mode="add" ident="harcourtBraceHowe"/>
-                <valItem mode="add" ident="harper"/>
-                <valItem mode="add" ident="harvard"/>
-                <valItem mode="add" ident="holt"/>
-                <valItem mode="add" ident="houghton_mifflin"/>
-                <valItem mode="add" ident="imagists"/>
-                <valItem mode="add" ident="knopf"/>
-                <valItem mode="add" ident="littleTheatre"/>
-                <valItem mode="add" ident="macdowellColony"/>
-                <valItem mode="add" ident="macmillan"/>
-                <valItem mode="add" ident="mercureDeFrance"/>
-                <valItem mode="add" ident="poetryDrama"/>
-                <valItem mode="add" ident="poetryBookshop"/>
-                <valItem mode="add" ident="scribner"/>
-                <valItem mode="add" ident="smithCollege"/>
-                <valItem mode="add" ident="studioBookshop"/>
-                <valItem mode="add" ident="symbolists"/>
-                <valItem mode="add" ident="the_aldingtons"/>
-                <valItem mode="add" ident="poetsClub"/>
-                <valItem mode="add" ident="universityExtensionSociety"/>
-                <valItem mode="add" ident="yale"/>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="placeName" mode="change">
-          <attList>
-            <attDef ident="calendar" mode="delete"/>
-            <attDef ident="period" mode="delete"/>
-            <attDef ident="when-custom" mode="delete"/>
-            <attDef ident="notBefore-custom" mode="delete"/>
-            <attDef ident="notAfter-custom" mode="delete"/>
-            <attDef ident="from-custom" mode="delete"/>
-            <attDef ident="to-custom" mode="delete"/>
-            <attDef ident="datingPoint" mode="delete"/>
-            <attDef ident="datingMethod" mode="delete"/>
-            <attDef ident="when-iso" mode="delete"/>
-            <attDef ident="notAfter-iso" mode="delete"/>
-            <attDef ident="notBefore-iso" mode="delete"/>
-            <attDef ident="from-iso" mode="delete"/>
-            <attDef ident="to-iso" mode="delete"/>
-            <attDef ident="when" mode="delete"/>
-            <attDef ident="notBefore" mode="delete"/>
-            <attDef ident="notAfter" mode="delete"/>
-            <attDef ident="from" mode="delete"/>
-            <attDef ident="to" mode="delete"/>
-            <attDef ident="evidence" mode="delete"/>
-            <attDef ident="instant" mode="delete"/>
-            <attDef ident="n" mode="delete"/>
-            <attDef ident="xml:lang" mode="delete"/>
-            <attDef ident="xml:base" mode="delete"/>
-            <attDef ident="xml:space" mode="delete"/>
-            <attDef ident="ana" mode="delete"/>
-            <attDef ident="change" mode="delete"/>
-            <attDef ident="facs" mode="delete"/>
-            <attDef ident="corresp" mode="delete"/>
-            <attDef ident="synch" mode="delete"/>
-            <attDef ident="sameAs" mode="delete"/>
-            <attDef ident="next" mode="delete"/>
-            <attDef ident="prev" mode="delete"/>
-            <attDef ident="copyOf" mode="delete"/>
-            <attDef ident="exclude" mode="delete"/>
-            <attDef ident="select" mode="delete"/>
-            <attDef ident="rend" mode="delete"/>
-            <attDef ident="style" mode="delete"/>
-            <attDef ident="rendition" mode="delete"/>
-            <attDef ident="cert" mode="delete"/>
-            <attDef ident="resp" mode="delete"/>
-            <attDef ident="source" mode="delete"/>
-            <attDef ident="role" mode="delete"/>
-            <attDef ident="nymRef" mode="delete"/>
-            <attDef ident="full" mode="delete"/>
-            <attDef ident="sort" mode="delete"/>
-            <attDef ident="subtype" mode="delete"/>
-            <attDef ident="key" mode="change">
-              <valList type="semi" mode="change">
-                <valItem mode="add" ident="audleyStreet"/>
-                <valItem mode="add" ident="abyssinia"/>
-                <valItem mode="add" ident="usa"/>
-                <valItem mode="add" ident="arizona"/>
-                <valItem mode="add" ident="asia"/>
-                <valItem mode="add" ident="atlanticOcean"/>
-                <valItem mode="add" ident="bayView"/>
-                <valItem mode="add" ident="BaylorU"/>
-                <valItem mode="add" ident="berkleyHotel"/>
-                <valItem mode="add" ident="boston"/>
-                <valItem mode="add" ident="brookline"/>
-                <valItem mode="add" ident="brooklyn"/>
-                <valItem mode="add" ident="california"/>
-                <valItem mode="add" ident="camdenTown"/>
-                <valItem mode="add" ident="capeCod"/>
-                <valItem mode="add" ident="charleston"/>
-                <valItem mode="add" ident="chicago"/>
-                <valItem mode="add" ident="china"/>
-                <valItem mode="add" ident="cleveland"/>
-                <valItem mode="add" ident="columbiaU"/>
-                <valItem mode="add" ident="commonwealthAvenue"/>
-                <valItem mode="add" ident="cornwall"/>
-                <valItem mode="add" ident="england"/>
-                <valItem mode="add" ident="europe"/>
-                <valItem mode="add" ident="fifthAvenue"/>
-                <valItem mode="add" ident="france"/>
-                <valItem mode="add" ident="germany"/>
-                <valItem mode="add" ident="greece"/>
-                <valItem mode="add" ident="greenwichVillage"/>
-                <valItem mode="add" ident="hotelStRegis"/>
-                <valItem mode="add" ident="italy"/>
-                <valItem mode="add" ident="litchfield"/>
-                <valItem mode="add" ident="littleRock"/>
-                <valItem mode="add" ident="london"/>
-                <valItem mode="add" ident="longIsland"/>
-                <valItem mode="add" ident="losAngeles"/>
-                <valItem mode="add" ident="maine"/>
-                <valItem mode="add" ident="mechlenburghSquare"/>
-                <valItem mode="add" ident="mexico"/>
-                <valItem mode="add" ident="mississippiRiver"/>
-                <valItem mode="add" ident="monterey"/>
-                <valItem mode="add" ident="newEngland"/>
-                <valItem mode="add" ident="newHampshire"/>
-                <valItem mode="add" ident="newHaven"/>
-                <valItem mode="add" ident="newOrleans"/>
-                <valItem mode="add" ident="nyc"/>
-                <valItem mode="add" ident="northPole"/>
-                <valItem mode="add" ident="pacificCoast"/>
-                <valItem mode="add" ident="paris"/>
-                <valItem mode="add" ident="peterborough"/>
-                <valItem mode="add" ident="philadelphia"/>
-                <valItem mode="add" ident="rueNotreDamDesChamps"/>
-                <valItem mode="add" ident="saltLakeCity"/>
-                <valItem mode="add" ident="sanDiego"/>
-                <valItem mode="add" ident="shanghai"/>
-                <valItem mode="add" ident="southSeaIslands"/>
-                <valItem mode="add" ident="southampton"/>
-                <valItem mode="add" ident="spain"/>
-                <valItem mode="add" ident="stLouis"/>
-                <valItem mode="add" ident="stMarksBouwerie"/>
-                <valItem mode="add" ident="switzerland"/>
-                <valItem mode="add" ident="the_poetry_bookshop"/>
-                <valItem mode="add" ident="washington_dc"/>
-                <valItem mode="add" ident="wellesley_college"/>
-                <valItem mode="add" ident="zermatt"/>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="title" mode="change">
-          <attList>
-            <attDef ident="type" mode="change">
-              <valList type="semi" mode="change">
-                <valItem mode="add" ident="poem"/>
-                <valItem mode="add" ident="periodical"/>
-                <valItem mode="add" ident="anthology"/>
-                <valItem mode="add" ident="monograph"/>
-                <valItem mode="add" ident="newspaper"/>
-              </valList>
-            </attDef>
-            <attDef ident="ref" mode="delete"/>
-            <attDef ident="calendar" mode="delete"/>
-            <attDef ident="period" mode="delete"/>
-            <attDef ident="when-custom" mode="delete"/>
-            <attDef ident="notBefore-custom" mode="delete"/>
-            <attDef ident="notAfter-custom" mode="delete"/>
-            <attDef ident="from-custom" mode="delete"/>
-            <attDef ident="to-custom" mode="delete"/>
-            <attDef ident="datingPoint" mode="delete"/>
-            <attDef ident="datingMethod" mode="delete"/>
-            <attDef ident="when-iso" mode="delete"/>
-            <attDef ident="notBefore-iso" mode="delete"/>
-            <attDef ident="notAfter-iso" mode="delete"/>
-            <attDef ident="from-iso" mode="delete"/>
-            <attDef ident="to-iso" mode="delete"/>
-            <attDef ident="when" mode="delete"/>
-            <attDef ident="notBefore" mode="delete"/>
-            <attDef ident="notAfter" mode="delete"/>
-            <attDef ident="from" mode="delete"/>
-            <attDef ident="to" mode="delete"/>
-            <attDef ident="xml:id" mode="delete"/>
-            <attDef ident="n" mode="delete"/>
-            <attDef ident="xml:lang" mode="delete"/>
-            <attDef ident="xml:base" mode="delete"/>
-            <attDef ident="xml:space" mode="delete"/>
-            <attDef ident="ana" mode="delete"/>
-            <attDef ident="change" mode="delete"/>
-            <attDef ident="facs" mode="delete"/>
-            <attDef ident="corresp" mode="delete"/>
-            <attDef ident="synch" mode="delete"/>
-            <attDef ident="sameAs" mode="delete"/>
-            <attDef ident="copyOf" mode="delete"/>
-            <attDef ident="next" mode="delete"/>
-            <attDef ident="prev" mode="delete"/>
-            <attDef ident="exclude" mode="delete"/>
-            <attDef ident="select" mode="delete"/>
-            <attDef ident="rend" mode="delete"/>
-            <attDef ident="style" mode="delete"/>
-            <attDef ident="rendition" mode="delete"/>
-            <attDef ident="cert" mode="delete"/>
-            <attDef ident="resp" mode="delete"/>
-            <attDef ident="source" mode="delete"/>
-            <attDef ident="key" mode="change">
-              <valList type="semi" mode="change">
-                <valItem mode="add" ident="allies"/>
-                <valItem mode="add" ident="americanPoetry"/>
-                <valItem mode="add" ident="anthologyDesImagistes"/>
-                <valItem mode="add" ident="magazineVerse"/>
-                <valItem mode="add" ident="arrowMusic"/>
-                <valItem mode="add" ident="bibelot"/>
-                <valItem mode="add" ident="bostonTranscript"/>
-                <valItem mode="add" ident="britishReview"/>
-                <valItem mode="add" ident="canGrandesCastle"/>
-                <valItem mode="add" ident="japanesePrints"/>
-                <valItem mode="add" ident="chicagoEveningPost"/>
-                <valItem mode="add" ident="development"/>
-                <valItem mode="add" ident="firFlowerTablets"/>
-                <valItem mode="add" ident="georgianPoetry"/>
-                <valItem mode="add" ident="graphic"/>
-                <valItem mode="add" ident="heliodora"/>
-                <valItem mode="add" ident="hymen"/>
-                <valItem mode="add" ident="images"/>
-                <valItem mode="add" ident="irradiations"/>
-                <valItem mode="add" ident="johnKeats"/>
-                <valItem mode="add" ident="legends"/>
-                <valItem mode="add" ident="londonSpectator"/>
-                <valItem mode="add" ident="menWomenGhosts"/>
-                <valItem mode="add" ident="mecureDeFrance"/>
-                <valItem mode="add" ident="miscellany"/>
-                <valItem mode="add" ident="newPaths"/>
-                <valItem mode="add" ident="newPoems"/>
-                <valItem mode="add" ident="newPoetrySeries"/>
-                <valItem mode="add" ident="nyEveningPost"/>
-                <valItem mode="add" ident="newYorkTimes"/>
-                <valItem mode="add" ident="northAmericanReview"/>
-                <valItem mode="add" ident="others"/>
-                <valItem mode="add" ident="poetry"/>
-                <valItem mode="add" ident="poetryDrama"/>
-                <valItem mode="add" ident="poetryJournal"/>
-                <valItem mode="add" ident="reedysMirror"/>
-                <valItem mode="add" ident="revueDeParis"/>
-                <valItem mode="add" ident="saintsParadise"/>
-                <valItem mode="add" ident="seaGarden"/>
-                <valItem mode="add" ident="sixFrenchPoets"/>
-                <valItem mode="add" ident="some_imagist_poets"/>
-                <valItem mode="add" ident="swordBladesAndPoppySeed"/>
-                <valItem mode="add" ident="tendencies"/>
-                <valItem mode="add" ident="atlantic"/>
-                <valItem mode="add" ident="bookman"/>
-                <valItem mode="add" ident="bostonGlobe"/>
-                <valItem mode="add" ident="century"/>
-                <valItem mode="add" ident="contest"/>
-                <valItem mode="add" ident="dial"/>
-                <valItem mode="add" ident="drama"/>
-                <valItem mode="add" ident="egoist"/>
-                <valItem mode="add" ident="forum"/>
-                <valItem mode="add" ident="independent"/>
-                <valItem mode="add" ident="littleReview"/>
-                <valItem mode="add" ident="newRepublic"/>
-                <valItem mode="add" ident="outlook"/>
-                <valItem mode="add" ident="poetryReview"/>
-                <valItem mode="add" ident="saturdayReview"/>
-                <valItem mode="add" ident="sevenArts"/>
-                <valItem mode="add" ident="smartSet"/>
-                <valItem mode="add" ident="sphere"/>
-                <valItem mode="add" ident="star"/>
-                <valItem mode="add" ident="tatler"/>
-                <valItem mode="add" ident="transcript"/>
-                <valItem mode="add" ident="yaleReview"/>
-                <valItem mode="add" ident="townAndCountry"/>
-                <valItem mode="add" ident="tribute"/>
-                <valItem mode="add" ident="vogue"/>
-                <valItem mode="add" ident="zionsHerald"/>
-                <valItem mode="add" ident="times"/>
-                <valItem mode="add" ident="floatingWorld"/>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
-      </schemaSpec>
+        <moduleRef key="textstructure"/>
+        <moduleRef key="namesdates" except="age"/>
+        <moduleRef key="transcr"/>
+        <moduleRef key="figures"/>
+        <moduleRef key="msdescription"/>
+      <moduleRef key="dictionaries" include="lang"/><moduleRef key="tagdocs" include="schemaSpec"/><elementSpec ident="persName" mode="change"><attList><attDef ident="xml:id" mode="change"><datatype><dataRef name="ID" restriction=""/></datatype><valList mode="change" type="semi"><valItem mode="add" ident="conrad_aiken"/><valItem mode="add" ident="richard_aldington"/><valItem mode="add" ident="perdita_aldington"/><valItem mode="add" ident="zoe_atkins"/></valList></attDef></attList></elementSpec></schemaSpec>
     </body>
   </text>
 </TEI>
