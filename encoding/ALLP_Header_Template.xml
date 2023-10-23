@@ -55,10 +55,7 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <editorialDecl>
-            <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
-         </editorialDecl>
-      </encodingDesc>
+     </encodingDesc>
       <profileDesc>
          <particDesc>
             &personography;
@@ -66,6 +63,16 @@
          <textClass>
             <!-- document-level keywords applied here -->
          </textClass>
+         <correspDesc>
+  <correspAction type=”sent”>
+   <persName>Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>DATE OF LETTER WRITING</date>
+</correspAction>
+   <correspAction type=”received”>
+  <persName>RECEIVERS NAME</persName>
+</correspAction>
+</correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
