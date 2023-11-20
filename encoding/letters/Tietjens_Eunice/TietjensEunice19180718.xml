@@ -44,9 +44,9 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <institution>Harvard College Library</institution>
-                        <repository>Houghton Library Repository</repository>
-                        <collection>Amy Lowell Correspondence</collection>
+                        <institution>Newberry Library</institution>
+                        <repository> <!-- pending --> </repository>
+                        <collection>Eunice Tietjens Papers</collection>
                         <idno type="URI"> <!-- this is a PDF --> </idno>
                     </msIdentifier>
                     <physDesc> 
