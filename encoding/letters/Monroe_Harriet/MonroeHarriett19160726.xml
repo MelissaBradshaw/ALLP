@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1916-07-26"
+                    >26 July 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="jp">Julia Paella</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="crh">Caroline Houser</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="crh">Caroline Houser</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI"> https://iiif.lib.harvard.edu/manifests/view/drs:427331885$152i </idno>
+                    </msIdentifier>
+                    <physDesc><p>This letter is two pages long. The words “Poetry (Monroe) are written in pencil in the top center of the first page. “Page 2” is typewritten in the top left corner of the second page.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement></settlement>
+                    <!-- looks like this is not Brookline based on the context of the letter-->
+                    <date when="1916-07-26">Jul. 26, 1917</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type=”letter”>
+                <opener><dateline><date when="1916-07-26">Jul. 26, 1916.</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+                <p>I have just this minute received your letter, forwarded from <placeName key="brookline">Brookline</placeName>.</p>
+                <p>As to your suggestions for my contributions to the Anthology, I am quite satisfied with <title key="1777” level="a”>&quot;1777&quot;</title> for my second contribution (I certainly want <title key="patterns” level="a”>&quot;Patterns&quot;</title> for my first). If you do not care for &quot;1777&quot;, I would suggest that you quote <title key="malmaison” level="a”>&quot;Malmaison&quot;</title>, which appears in the current number of <title key="littleReview" level="j">&quot;The Little Review&quot;</title>. Personally I think it one of the very best things I have ever done, and <persName key="ec_marsh">Mr. Marsh</persName> thinks it the very best. It is in polyphonic prose, which I know you do not care for, and it is seven pages, which is exactly what &quot;1777&quot; is in my typewritten sheets. If, however, you prefer &quot;1777&quot; to &quot;Malmaison&quot;, I would keep it. I certainly do not want to get rid of &quot;1777&quot; for any of the other poems you suggest in its place.</p>
+<p><title key="apology" level="a">&quot;Apology&quot;</title> is a little out of key, I think, but it is a good poem of its kind, and people like it. And I think if you put it at the very end of the group it will not clash, as it does in the middle.</p>
+<p>The poem here which I care least about it <title key="painterOnSilk" level="a">&quot;The Painter on Silk&quot;</title>. If you care to substitute for that either <title key="theCapturedGoddess" level="a">&quot;The Captured Goddess&quot;</title> or <title key="chinoiseries" level="a">&quot;Chinoiseries&quot;</title> — which is in the current number of <title key="others">“Others”</title>, I should prefer it. I do not suggest <title key="clearWithLightVariableWinds" level="a">&quot;Clear, With Light Variable Winds&quot;</title> in that place, as I think it has a certain resemblance to <title key="paterns" level="a">&quot;Patterns&quot;</title>; and I think either &quot;The Captured Goddess&quot; or &quot;Chinoiseries&quot; would be better. My group in that case will stand:</p>
+                        <list>Patterns
+                        1777 or Malmaison
+                        <title key= "venusTransiens" level="a">Venus Transiens</title>
+                        <pb n="2">
+                        <title key="aLady” level="a”>A Lady</title>
+                        The Painter On Silk — or The Captured Goddess, or Chinoiseries
+                        <title key="solitaire” level="a”>Solitaire</title>
+                        <title key="aGift” level="a”>A Gift</title>
+                        <title key="redSlippers” level="a">Red Slippers</title>
+                        Apology</list>
+<p>&quot;Apology&quot; by all means last.</p>
+<p>This suits me perfectly, and I leave you to choose which of the alternatives you will take, always provided you take these and no others.</p>
+                            <p>I enclose my article on <persName key="mary_aldis">Mrs. Aldis&apos;s</persName> <title key="flashlights" level="m">&quot;Flashlights&quot;</title>, which I trust is short enough for you. If not, send it back, and I will shorten it. But as you always put quotations in smaller prints, I think it will come in the space you want.</p>
+<p>When is the Anthology coming out — <date when="1916">this Autumn</date>?</p>
+                <closer>Affectionately yours,</closer>
+                </div>
+            </body>
+            </text>
+</TEI>
+
