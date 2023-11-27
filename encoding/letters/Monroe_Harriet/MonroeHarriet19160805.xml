@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1916-08-05"
+                    >August 5, 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="js">Jordan Smith</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="crh">Caroline Houser</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="crh">Caroline Houser</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$155i</idno>
+                    </msIdentifier>
+                    <physDesc>This letter is two pages long. The words “Poetry (Monroe)” are written in pencil in the top center of the first page.
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date>August 5, 1916</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter”>
+                <opener><dateline><date when="1916-08-05">Aug. 5, 1916.</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener><p>Of course I will let you wait a little while before paying me for <title key="1777" level="a">&quot;1777,&quot;</title> but your sum of <measure type="currency" num="45">$45.00</measure> is a little surprise to me, as I thought it was <measure type="currency" num="60">$60.00</measure>, although I see that <measure type="currency" num="60">$60.00</measure> would be more than the pages come to. I have not my files up here, but I thought that when you were to print &quot;The Turnpike,&quot; you were to give me <measure type="currency" num="75">$75.00</measure>, and that when I changed from <title key="turnpike" level="a">&quot;the Turnpike&quot;</title> to <title key="1777" level="a">&quot;1777&quot;</title> at your desire, I objected to the fact that I was to lose money; but you said you could not give me more than <measure type="currency" num="60">$60.00</measure>. At your regular rates, <title key="1777" level="a">&quot;1777&quot;</title> would come to <measure type="currency" num="56">$56.00</measure>. If, however, you are quite sure that <measure type="currency" num="45">$45.00</measure> is what you agreed to pay, we will let it go at that. I think the poem looks very well.</p>
+<p>Who is <persName key="victor_starbuck">Mr. Victor Starbuck</persName>? For I especially like his lyric, and I think I shall write him a 
+letter, in care of you, and tell him so.</p>
+                <p>I am glad you like the <persName key="mary_aldis" ><title key="flashlights">&quot;Flashlights&quot;</title></persName> review. Of course, put my name at the end. I sort of assumed that you would, which is the reason it was not on the manuscript.</p
+                <p>I am glad you are going to leave out <title key="painterOnSilk" level="a">&quot;The Painter on Silk&quot;</title> for the<title key="newPoetryAnthology" level="m">Anthology</title>, and substitute either <title key="chinoiseries" level="a">&quot;Chinoiseries&quot;</title> or <title key="theCapturedGoddess" level="a">&quot;The Captured Goddess.&quot;</title> As between these two, I think perhaps <title key="theCapturedGoddess" level="a">&quot;The Captured Goddess&quot;</title> would be the better understood  and the more popular, although I am especially fond of <title key="chinoiseries" level="a">&quot;Chinoiseries&quot;</title> myself. So you see, I have no preference and will leave to you. I understand that my group now stands:</p>
+                <title key="patterns" level="a">&quot;Patterns&quot;</title>
+                <title key="1777" level="a">&quot;1777&quot;</title>
+                <title key="venusTransiens" level="a">&quot;Venus Transiens&quot;</title>
+                <pb n="2">
+                    <title key="aLady" level="a">&quot;A Lady&quot;</title>
+                    <title key="chinoiseries" level="a">&quot;Chinoiseries&quot;</title> or <title key="theCapturedGoddess">&quot;The Captured Goddess&quot;</title>
+                    <title key="solitaire" level="a">&quot;Solitaire&quot;</title>
+                    <title key="aGift" level="a">&quot;A Gift&quot;</title>
+                    <title key="redSlippers" level="a">&quot;Red Slippers&quot;</title>
+                    <title key="apology" level="a">&quot;Apology&quot;</title>
+                    <p>I still maintain that <title key="malmaison" level="a">&quot;Malmaison&quot;</title> in the August <!--which august?--> <title key="littleReview" level="j">&quot;Little Review&quot;</title> is the best poem I have written, although possibly it is too long for you, although I believe <persName key="ws_braithwaite">Braithwaite</persName> is to use it in his <title key="magazineVerse">Magazine Anthology</title>. However, I am quite pleased with the group as it stands.</p>
+                <closer>Affectionately yours,</closer> 
+            </div>
+        </body>
+    </text>
+</TEI>
