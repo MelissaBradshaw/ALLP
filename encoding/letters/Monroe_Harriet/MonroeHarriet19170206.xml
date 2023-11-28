@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1917-02-06"
+               > Feb. 06, 1917</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="jp">Julia Paella</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref=""> <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="rd">Ria De</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$169i</idno>
+               </msIdentifier>
+               <physDesc><p>This letter is one page long. On the first page, the word “Poetry” is written in the top left corner and <persName key="harriet_monroe">"(Monroe)"</persName> is written in pencil at the top center.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+            <correspAction type=”sent”>
+               <persName>Amy Lowell</persName>
+               <settlement><placeName key="brookline">Brookline</placeName></settlement>
+               <date>1917-02-06</date>
+            </correspAction>
+            <correspAction type=”received”>
+               <persName>Harriet Monroe</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener><dateline><date when="1917-02-06">Feb. 06,1917</dateline></date>
+               <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>  
+         <p>Thank you very much for this proof which I am returning. There are very few corrections, as you will see.</p>
+            <p>I am awfully glad to know that you will take <title key="laquer_prints" level="a">these poems.</title> I trust you won’t feel like leaving out any of them when it comes to the point, as I find they only make eight pages and your first gentleman in the <title key="poetry" level="j">February number</title> had ten. I understand, by the way, that these are to lead off the <title key="poetry" level="j">March number.</title></p>
+            <p>I expect to arrive in <placeName key="chicago">Chicago</placeName> either <date when="1917-02-24">Saturday, the 24th,</date> or <date when="1917-02-25">Sunday morning the 25th,</date> depending a little upon what I am doing in <placeName key="stLouis">St. Louis.</placeName> I shall go to the <placeName key="congress_hotel">Congress Hotel</placeName> as usual, and if you will telephone me or drop me a line there and give me instructions for my talk on Sunday — that is, where I am to be and at what hour — I will duly show up.</p>
+            <p>I am awfully glad to know that you are getting on so well with your guarantee fund.</p>
+            <closer>Affectinately yours,</closer>
+         </div>
+      </body>
+   </text>
+</TEI>
+
+

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1917-06-30"
+               >June 30,1917</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="jp">Julia Paella</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref=""> <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="rd">Ria De</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$185i</idno>
+               </msIdentifier>
+               <physDesc><p>This letter is two pages long. On the first page, the word “Poetry” is written in the top left corner and “(Monroe)” is written in pencil at the top center. The subsequent page has, typed, “H.M.-2” to indicate page number. It also has the date.</p> 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+            <correspAction type=”sent”>
+               <persName>Amy Lowell</persName>
+               <settlement><placeName key="brookline">Brookline</placeName></settlement>
+               <date>1917-06-30</date>
+            </correspAction>
+            <correspAction type=”received”>
+               <persName>Harriet Monroe</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener><dateline><date when="1917-06-30">June 30,1917</dateline></date>
+               <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener> 
+            <p>Thank you very much for your nice letter of <date when="1917-06-27">June 27th.</date> I will tell <persName key="richard_hunt">Mr. Hunt,</persName> and he will be delighted, I know, and I will let you know as soon as I hear from <persName key="james_oppenheim">Mr. Oppenheim,</persName> and, if he refuses the poem, I will send it on to you at once.</p>
+            <p>I do not think that I am competent to criticize <persName key="louis_untermeyer">Louis Untermeyer's</persName> <title key="heine" level="m">“Heine”.</title> I cannot read German, so I have no way of comparing his translations with the original, or of knowing how good they are. I should like to do it, for the book has been very interesting to me, and the translations seem excellent — so excellent that I got a distinct flavour from them. But I feel that the person who criticizes that book ought to know German.</p>
+            <p>I will send you a cheque for <measure type="currency" num="25">twenty-five dollars</measure> next month if I can. Just at the moment I am strapped, and it depends a little what comes in next month. I have given away all my available cash to war charities, but if I have enough to send you this <measure type="currency" num="25">twenty-five dollars</measure> in August, I will, and I will send you my <measure type="currency" num="100">hundred dollars</measure> on the first of September. I suppose the second <measure type="currency" num="100">hundred dollars</measure> is due on the first of March, and so on for the next five years; if I should forget, please remind me.</p>
+            <p>I think it is about time that you and I arranged about my second yearly contribution — the one with which you always allow me to begin a number. How will this poem which I am enclosing do? I know it is long, but it is one of the Yankee ones which you like, and which many people seem to like very much, and I should be eternally obliged if you <pb n="02"> could start your <title key="poetry" level="j">October,</title> or <title key="poetry" level="j">November,</title>or <title key="poetry" level="j">December number</title> with it. You won’t want it before that I know.</p>
+            <p>You will be sorry to hear that my eyes have entirely gone back on me. I am in glasses and am having great pain, and it is the devil’s own business to get my book off. I promised to send it next Tuesday. After that, your reviews will be done immediately, as fast as sight will permit. I never had trouble with my eyes before, and it certainly is awful.</p>
+            <closer>Affectinately yours,</closer>
+            <postscript>
+               <label>P.S.</label>
+               <p>Enclosure.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

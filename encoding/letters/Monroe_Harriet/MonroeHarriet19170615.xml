@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1917-06-15"
+               >June 15,1917</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="jp">Julia Paella</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref=""> <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="rd">Ria De</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$184i</idno>
+               </msIdentifier>
+               <physDesc><p>This letter is one page long. The words “Poetry (Monroe)” are written at the top, along with the date.</p> 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+            <correspAction type=”sent”>
+               <persName>Amy Lowell</persName>
+               <settlement><placeName key="brookline">Brookline</placeName></settlement>
+               <date>1917-06-15</date>
+            </correspAction>
+            <correspAction type=”received”>
+               <persName>Harriet Monroe</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener><dateline><date when="1917-06-15">June 15,1917</dateline></date>
+               <salute>Dear <persName key="harriet_monroe">Harriet</persName>:-</salute></opener> 
+            <p>I will do <persName key="eunice_tietjens">Eunice Tietjens</persName>’ <title key="profilesFromChina" level="m">book</title> for you as soon as I can. I probably shall not be able to get at it for a couple of weeks, as I am now in the last finishing touches of my own book, which must go to press about the first of July.</p>
+            <p>I am awfully disappointed that you refused <persName key="richard_hunt">Richard Hunt's</persName> <title key="gas_lamp_ghost" level="a">“Gas-Lamp Ghost.”</title> You remember that I spoke to you about it when I was in <placeName key="chicago">Chicago</placeName> and told you how very good I thought it was. You asked me to have him send it on to you, and of course, I told him, and he says that you returned it to him recently alleging as a reason, that gas lamps were out of date. Dear <persName key="harriet_monroe">Harriet,</persName> we live in an out-of-date part of the world, and there are gas lamps all up and down our parkways and through most of the streets of this town in which I live. Of course, they are not the old flame gas jets, but incandescent mantle lights. <persName key="richard_hunt">Mr. Hunt's</persName> poem is, therefore, not only beautiful but absolutely up-to-date. I confess that your refusing it has hurt my feelings not a little. When <persName key="ezra_pound">Ezra</persName> sends you poems, I think you usually accept them, but apparently when I take the trouble to send you poems you feel no confidence in my judgment and turn them down. I think you have made a great mistake, for to my mind, that is one of the most beautiful poems of its type which I have seen at all. I heartily wish (sic) that I had written it.</p>
+            <closer>Affectinately yours,</closer>
+            <postscript>
+               <label>P.S.</label>
+               <p>Please send me three June number of <title key="poetry" level="j">"Poetry"</title></p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>
+

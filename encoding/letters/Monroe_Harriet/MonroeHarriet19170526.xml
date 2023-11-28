@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1917-05-26"
+               >May 26,1917</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="mb">Melissa Bradshaw</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref=""> <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="rd">Ria De</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$180i</idno>
+               </msIdentifier>
+               <physDesc> <p>This letter is two pages long. The words “Poetry (monroe)” are written at the top, along with the date. The subsequent page has, typed, “H.M.-” followed by the page number. They also have the date.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+            <correspAction type=”sent”>
+               <persName>Amy Lowell</persName>
+               <settlement><placeName key="brookline">Brookline</placeName></settlement>
+               <date>1917-05-26</date>
+            </correspAction>
+            <correspAction type=”received”>
+               <persName>Harriet Monroe</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener><dateline><date when="1917-05-26">May 26,1917</dateline></date>
+               <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener> 
+            <p>Your letter is a surprise and a pain to me, for I did not suppose that you used your editorials as a means of boosting anybody.<anchor xml:id="n1"/> I thought, of course, that they were intended to be serious critical judgments, and that when you opposed English and American poets, one to the other, you were doing so in good faith, giving what you considered the best work in each country. Now you say that the article was <quote type="english">“casual”,</quote> and that those <quote type="english">“less conspicuous”</quote> than I need it more. If your editorials are propaganda, not criticism, they are mere newspaper work and unworthy of the position you wish to occupy as a serious critic and judge of poetry. This I am sure you will see yourself, and will agree with me that no editor has a right to take refuge behind <quote type="english">“casual”</quote> work. It is like being casual in measuring out medicine; the results which follow are too serious. What would be forgivable, if hardly justifiable, in an ordinary writer, becomes of monumental importance in an editor of such prominence as yourself.</p>
+            <p>I am very glad that you are printing <persName key="john_fletcher">Fletcher's</persName> article on me in the <title key="poetry" level="j">June number,</title> and, as you say, that stresses my work enough to satisfy any poet, but that was hardly my contention in my letter.<anchor xml:id="n2"/> I was not contending for recognition by other people, but by you. It was your words which I thought I had a right to receive and your pronouncements which I regretted your withholding from me.</p>
+            <p>If you look back over your editorials during the five years of <title key="poetry" level="j">“Poetry”,</title> I think that you will notice that except where you have directly reviewed one of my books, you have carefully omitted mentioning me —<pb n="02">you yourself, I mean—and I think you will realize that in your position this is hard to bear. In one sense of course I do not <quote type="english">“need”</quote> it, but what is a little newspaper talk and discussion. That is not what I am out for. I want the serious recognition of thinking people, and I want you to accord me the place which I have won for myself as well as to have others accord it to me. But we will not discuss that any more. Perhaps in the next editorial you write dealing with American literature as a whole you will find a niche for me. I hope so, at any rate, for it would grieve me more to think that you did not consider me worthy of such a place than that you merely did not express such an opinion.</p>
+            <p>Now I have two requests to make of you. May I review <persName key="eunice_tietjens">Eunice Tietjens's</persName> <title key="profilesFromChina" level="m">new book</title> for you and also <persName key="louis_untermeyer">Louis Untermeyer's</persName> <title key="theseTimes" level="m">“These Times”?</title><anchor xml:id="n3"/> I consider <persName key="eunice_tietjens">Eunice's</persName> <title key="theseTimes" level="m">book</title> one of the finest things I have read for ages, and, feeling so strongly as I do about it, I should like to express my admiration publicly. As to <persName key="louis_untermeyer">Louis's</persName> book, I find many things in it of very high grade, and I should very much like to write a review on it. These reviews can, of course, go in whenever you wish. In fact, I cannot promise to do the two of them under six weeks or so. I will do whichever one first that you prefer. Of course our original arrangement of my not being paid for prose holds good. Please let me do these reviews.</p>
+         <closer>Affectinately,</closer>
+         </div>
+      </body>
+      <back>
+         <div type="notes">
+            <note target="#n1" resp="mb"><persName key="amy_lowell">Lowell</persName> objects to being left out of <persName key="harriet_monroe">Monroe’s</persName> editorial, <title key="colonialism_again" level="a">“Colonialism Again,"</title> in <title key="poetry" level="j"><i>Poetry</i> Vol. 10, No. 2</title> <date when="1917-05">(May 1917)</date>: 92-97. The editorial criticizes <placeName key="yale">Yale University</placeName> for awarding a poetry prize to the late British poet <persName key="rupert_brooke">Rupert Brooke,</persName> pointing to it as an example of the American academy’s “timorous” attitude in recognizing the strength of American poets. <persName key="harriet_monroe">Monroe</persName> lists <persName key="el_masters">Edgar Lee Masters,</persName> <persName key="lindsay_vachel">Vachel Lindsay,</persName>  <persName key="ezra_pound">Ezra Pound,</persName> <persName key="carl_sandburg">Carl Sandburg </persName> and <persName key="hilda_doolittle">H.D.</persName> as exemplary American poets. <persName key="harriet_monroe">Monroe</persName> wrote to <persName key="amy_lowell">Lowell</persName> on <date when="1917-05-21">May 21, 1917</date> that <quote type="english">“it doesn’t seem necessary to mention you in a casual article—those less conspicuous need it more.”</quote> <date when="1917-05-21">(May 21, 1917).</date></note>
+            <note target="#n2" resp="mb"><title key="living_history" level="a">“Living History,”</title> <persName key="john_fletcher">John Gould Fletcher’s</persName> review of <persName key="amy_lowell">Lowell's</persName> <title key="men_women_and_ghosts" level="m"><i>Men, Women, and Ghosts</i></title> appeared in <title key="poetry" level="j">Poetry Vol. 10, No. 3</title> <date when="1917-06">(June 1917)</date>: 149-153.</note>
+            <note target="#n3" resp="mb"><persName key="eunice_tietjens">Eunice Tietjens,</persName> <title key="profile_from_china" level="a"><i>Profiles from China: Sketches in Verse of People and Things Seen in the Interior</i></title> (Chicago: Ralph Fletcher Seymour, 1917); <persName key="louis_untermeyer">Louis Untermeyer,</persName> <title key="theseTimes" level="m"><i>These Times</i></title> (New York: Henry Holt & Co., 1917).</note>
+         </div>
+      </back>
+   </text>
+</TEI>

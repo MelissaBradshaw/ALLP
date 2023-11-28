@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1917-03-30"
+               >Mar. 30, 1917</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="jp">Julia Paella</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref=""> <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="rd">Ria De</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$175i</idno>
+               </msIdentifier>
+               <physDesc><p>This letter is four pages long. The words “Poetry Harriet Monroe” are written in the top left corner, along with the date. The subsequent pages all have, typed, “H.M.-” followed by the page number. They also have the date.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+            <correspAction type=”sent”>
+               <persName>Amy Lowell</persName>
+               <settlement><placeName key="brookline">Brookline</placeName></settlement>
+               <date>1917-03-30</date>
+            </correspAction>
+            <correspAction type=”received”>
+               <persName>Harriet Monroe</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+         <opener><dateline><date when="1917-03-30">Mar. 30,1917</dateline></date>
+             <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>  
+            <p>I was very glad to get your letter of <date when="1917-03-27">March 27th,</date> but awfully sorry for the heading. It is too bad that you have been so ill. I thought when I saw you that last day in <placeName key="chicago">Chicago</placeName> that you would soon be round again, and I had no idea from your other letter that you were so ill. It is a shame, and I am dreadfully sorry. You speak of going South — where? — to <placeName kry="newOrleans">New Orleans,</placeName> if so, I envy you.</p>
+            <p>I have quite recovered since I returned home. I think it was almost entirely a case of lack of nourishment. The hotel food at <placeName key="congress_hotel">the Congress</placeName> was so bad. In less than a week I was myself again. I have just been to <placeName key="buffalo">Buffalo,</placeName> where I had a reading, and back, passing two nights in the train, and only a few hours there, and have survived to tell the tale; partly, I suppose, because my audience was so enthusiastic that it would have prevented any one from feeling tired.</p>
+            <p><title key="newPoetryAnthology" level="s">"The New Poetry"</title> is excellent, I think. I congratulate you on having turned out so very good an anthology. It is the only comprehensive thing of its kind that there is; it ought to sell well. <persName key="george_macmillan">Macmillan</persName> sent me a complimentary copy a day or two ago, but I did not know whether they were going to do that to the authors included, so I took the liberty of sending a copy to each of my Imagist confreres in <placeName key="england">England.</placeName> I have also given it to various other people, and expect to go on sending it for some time to come. You are to be immensely congratulated on achieving it, and, when you write to <persName key="ac_henderson">Alice Henderson,</persName> please tell her the same thing.</p>
+            <p>Now I am terribly sorry, dear <persName key="harriet_monroe">Harriet,</persName> to have to disappoint you about <persName key="mary_maclane">Mary MacLane's</persName>  <title key="mary_maclane_i_mary_maclane" level="m">book.</title> I had a letter some days ago from <pb n="02"></pb><persName>Mr. Morrow</persName> of the <orgName key="frederick_a_stokes_company">Frederick A. Stokes Company,</orgName> saying he was sending me an advance copy. That copy arrived this morning, and I have been glancing through it. You and I have been in the habit of being strictly honest with each other always, so I feel I must tell you just what I think, but I would rather not have you pass it on to <persName key="mary_maclane">Miss MacLane,</persName> because I do not want to hurt her feelings needlessly. It is possible I may change my mind after a further reading, but I hardly think it likely, for the passages I have already read are singularly distasteful to me. The impression made upon me so far is cheap triviality mistaking itself for analytical thought. I think the book singularly badly written and with quite an unpleasant flavour, not because of its so-called “daring” passages, but because of the type of character which is reflected all through it.</p>
+            <p>You who know <persName key="mary_maclane">Miss MacLane</persName> will probably think me totally wrong, and of course I may be mistaken. I did not read her first book, but this is the way her present book has affected me on first consideration. I cannot think well of a style, which coins such words as <quote type="english">“substantialer”</quote> and invents other unnecessary and youthful words of the kind. What do you think of the following:  <quote type="english">“My midriff is full of cream-and-chocolate casualness.”</quote> And here is a passage, which speaks for itself:</p>
+            <p><quote type="english">“— My bureau-drawers I keep neatly in order — …with the exception of the upper-left-hand drawer which is a bit of terrific scarled chaos. In it is an inky handkerchief of an old vintage: in it are several un-mated crumpled gloves: in it are some olive-pits: in it is an empty <pb n="03">sticky liquid cold-cream bottle with tufts of eider-down powder-puff stuck to it: in it is a tangle of smudged ribbons: in it are two pieces of pink rock-candy: in it is a spent yellow-silk garter: in it is a broken scissors: in it are three twisted ragged black-net veils: in it is a brass curtain ring: in it is a broken scattered string of coral beads: in it is a lump of wax: in it is a piece of knotted twine: in it are little bunches of cotton-wool: in it is a spilled box of powder whitening everything: in it is a spilled box of matches: in it is a jet bracelet broken into small pieces: in it is a broken hand-mirror: in it are some crushed cigarettes: in it is a ruined blue plume: in it is a warped leather purse: in it is a damaged lump of red finger-nail paste: in it is a stick of gum arabic: in it is a bisque kewpie defiled by wax, ink, paste, powder and rock-candy: in it are some partly melted vestas: in it are other bits of rubbish: all in the wildest disorder.”</quote> — not only for the complete unimportance of having such a passage in any book, but because of the list of things <add place= "above">which seem</add> more indigeneous to a chorus girl than to a woman who would write and who considers herself a <quote type="english">“poet-artist”.</quote> There is no harm in all this; it is only completely flat and vulgar. Therefore you must forgive me if I cannot accede to your request.</p>
+            <p>I wrote to <persName>Mr. Morrow</persName> before I received the book, telling him that if I thought as highly of it as he did, I should be very glad to write something about it. Thinking as I do, however, I shall simply not write to him again, and I think the kindest thing for <persName key="mary_maclane">Miss MacLane</persName> will <pb n="04">be for you to not mention that you wrote to me, or that I replied. Possibly you may not care for this book, when you see it, as much as you did for the first one; or possibly, knowing <persName key="mary_maclane">the author,</persName> it will not make the same impression on you that it does on me. But I cannot help it, Harriet; it is the way I feel.</p>
+            <p><persName key="elizabeth_cutting">Miss Cutting</persName> tells me that my <title key="sea_blue_and_blood_red" level="j">“Sea Blue and Blood Red”</title> is coming out in the April <title key="northAmericanReview" level="j">“North American”.</title> I shall send you a copy, because I do think it is the best thing I have ever done, and Heaven knows when it will appear in book form.</p>
+            <p>I trust that you will get better very soon. Please let me know how you get on.</p>
+         <closer>Affectinately yours,</closer>
+            <postscript>
+               <label>P.S.</label>
+               <p>Your letter of <date when="1917-03-28">March 28th</date>has just arrived, speaking of the award of a prize to <persName key="rupert_brooke">Rupert Brooke</persName> of his heirs. I  have heard of no such award being given at <placeName key="harvard">Harvard.</placeName> There was one at <placeName key="yale">Yale.</placeName> Are you thinking of the <placeName key="yale">Yale</placeName> one, or do you know whether there has been another at <placeName key="harvard">Harvard.</placeName> I will ask my <persName key="abbott_lawrence_lowell">brother</persName>if he knows anything about any <placeName key="harvard">Harvard</placeName> prize of the sort and let you know, but I am sure it is <placeName key="yale">Yale</placeName> you mean, in which case, of course, I know nothing about it.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>
+
+

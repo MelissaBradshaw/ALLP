@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1917-05-04"
+               >May 04,1917</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="jp">Julia Paella</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref=""> <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="rd">Ria De</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$177i</idno>
+               </msIdentifier>
+               <physDesc><p>This letter is three pages long. The words “Poetry (Monroe)” are written at the top, along with the date. The subsequent pages all have, typed, “H.M.-” followed by the page number. They also have the date.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+            <correspAction type=”sent”>
+               <persName>Amy Lowell</persName>
+               <settlement><placeName key="brookline">Brookline</placeName></settlement>
+               <date>1917-05-04</date>
+            </correspAction>
+            <correspAction type=”received”>
+               <persName>Harriet Monroe</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener><dateline><date when="1917-05-04">May 04,1917</dateline></date>
+             <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>  
+            <p>When I was in <placeName key="chicago">Chicago</placeName> I told you that I thought I had been very badly treated in your editorial pages, considering the position I have gained for myself in the world of American poetry. I said that you, who should have been my friend and to whom I had remained unswervingly loyal, had again and again discriminated against me by leaving me out when you were pushing other people by bringing their names into your articles on diverse subjects and apparently never willingly bringing in mine. You scouted the idea of any favoritism influencing your judgment, and declared that I had been as well treated as any of your other poets of equal position. But in your <title key="poetry" level="j">May number</title> you have written an editorial in which I am grossly neglected that I can no longer consider the matter as merely an oversight on your part.</p>
+            <p>In your paper <title key="colonialism_again" level="a">“Colonialism Again",</title> you mentioned the names of all the American poets who seem to you of especial value in juxtaposition to those Englishmen who are writing best today. You do not mention one or two Americans, but a number. Here I find the names of Masters, <persName key="robert_frost">Frost,</persName> <persName key="">Lindsey,</persName> <persName key="ezra_pound">Pound,</persName> <persName key="carl_sandburg">Sandburg,</persName> <persName key="john_fletcher">Fletcher,</persName> and <persName key="hilda_doolittle">H.D.,</persName> but not the faintest reference to myself.</p>
+            <p>I know quite well that you neither like nor appreciate my poetry <foreign xml:lang="it">con amore,</foreign> but whatever may be your personal opinion on the subject, surely in any consideration of present day American poetry mine should not in fairness be left out. You know as well as I how I am considered by the world at large, whether liked or disliked, I am certainly not ignored, and I think I may say that you are the only <pb n="02">editor who would have so insulted me. In a letter I received from <persName key="ec_marsh">Mr. Marsh</persName> this morning was the following paragraph:</p>
+            <p><quote type="english">“I am writing to <persName key="george_macmillan">Mr. Macmillan</persName> to tell him something about the success of <title key="men_women_and_ghosts" level="m">“Men, WOmen, and Ghosts”</title> in this country. Whether you stand at the very head among American poets as to sales (and I fear that has not yet quite come to pass), you are at least among the leaders and I venture to say that your book and your work generally have been more talked about this year than that of any other American poet.”</quote></p> 
+            <p>This is a perfectly dispassionate statement, and, as such, I think it a most discriminating unfairness to leave me so pointedly out of this article. Not only this, but you make all sorts of frivolous excuses for repressing other people’s writing about me. You told me yourself that you had refused at least one article about my work, and I know that you have had <persName key="john_fletcher">Fletcher's</persName> article on me for months, which, for one reason or another, you never found it convenient to print.</p>
+            <p>You can hardly expect me to feel other than deeply hurt. It seems as if one’s friends, people who recognize one early, before one has made any success, should not be the ones to turn against one. I remember one of our earliest interviews in which I told you that I thought you would make no mistake in championing me and helping me by publication, and at that time you agreed. You cannot consider that I have not fulfilled your hopes. I hope to do better work some day that I am doing now, but even now, in spite of your personal prejudice, I occupy a position of importance and to leave me out of an article in which you mention so many contemporary poets with approbation, and in <pb n="03">which you juxtapose the output of one country with that of another, is certainly unpardonably cruel and misleading.</p>
+            <p>I am sorry, but I am sincerely hurt, and I should be glad to hear from you on the subject as soon as possible.</p>
+            <closer>Sincerely yours,</closer>
+         </div>
+      </body>
+   </text>
+</TEI>
