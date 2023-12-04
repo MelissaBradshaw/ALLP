@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1917-01-01"
+                    >Jan. 01, 1917</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="jp">Julia Paella</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="crh">Caroline Houser</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="crh">Caroline Houser</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$165i</idno>
+                    </msIdentifier>
+                    <physDesc>This letter is two pages long. On the first page, the words “Poetry (Monroe)” are written in pencil at the top, along with the date. The second page has “January 3, 1917” written where the “January 1” date is. It also has, typed, H.M. Page 2 in the top left corner.
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date>January 1, 1917</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <body>
+        <div type=”letter”>
+            <opener><dateline><date when="1916-01-01">Jan. 01, 1917.</dateline></date>
+                <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+            <p>Your letter is, I admit, a disappointment to me. When I send you my really best things, you are apt to refuse them. Then somebody else gets them, and that is too bad. However, I see your point about the length of the poem, although I see no reason why my work should not appear, any more than anyone else’s, in a single number; and I do think your theory of introducing new poets can be carried too far. It is just as important to help along those poets who are already on the road to permanent success as to introduce new ones. I think the thing should go hand in hand. However, as I have said before, it is your magazine.</p>
+            <p>I am enclosing a set of poems called <title key="lacquer_prints" level="a">&quot;Lacquer Prints&quot;</title>, because they are in the Hokku manner, and of which I think very highly. This is another side of my work from <title key="sea_blue_and_blood_red" level="a">&quot;Sea-Blue and Blood-Red</title>, but I really think quite as important. The one I have scratched out I think has already appeared in <title key="egoist" level="j">&quot;The Egoist&quot;</title>. I have sent none of the others anywhere. I shall be awfully glad if you will take them and print them in a series, just as they are. They are in the order I should like. If there are too many for you, you can leave out some, but, of course, I should prefer to have you print them all.</p>
+            <p>I have not had any poems in <title key="poetry" level="j">&quot;Poetry&quot;</title> since <date when="1916-08">August</date>, and, naturally, I wish to appear again. As I said before, if you could let me have them in the <date when="1917-03">March</date> number, when I shall be in <placeName key="chicago">Chicago</placeName>, it would be very nice. Also, these will probably 
+                <pb n="2">
+                    be my contribution to the <title key="some_imagist_poets" level="m">Imagist Anthology</title>, which will appear in <date when="1917-04">April</date>, so they must be out before. There should be a note attached to the first one, saying that this poem was first translated into English from the German by <persName key="arthur_ficke">Mr. Arthur Davison Ficke</persName>. The others are all original, with the exception of one other, an adaptation from Hokusai <!--is she referrencing the artist?-->.</p>
+            <p>I am awfully glad you have taken <persName key="john_fletcher">Fletcher&apos;s</persName> article, and I know it will be a pleasure to him. Of course, you understand that you will have to pay him, at your usual rate, for it, as that was the understanding on which he sent it to me. I think you had better send the money to him direct.</p>
+            <p><persName key="robert_frost">Frost</persName> tells me that he refused to speak for you for your honorarium of <measure type="currency" num="10">ten dollars</measure>. That is too bad, both on your account and on his, but, of course, he needs the money. May I suggest that, of course, ten dollars is very little; and I confess when I agreed to do it, I thought that you would take “Sea-Blue and Blood-Red, and that would make a difference to me. However, these will do just as well, if you will take them.</p>
+            <closer>Affectionately yours,</closer>
+        </div>
+    </body>
+    </text>
+</TEI>
