@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1916-06-28"
+                    >June 28, 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="js">Jordan Smith</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="sv">Shwetha Vaidyanathan</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="sv">Shwetha Vaidyanathan</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref="sv">Shwetha Vaidyanathan</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$145i</idno>
+                    </msIdentifier>
+                    <physDesc><p>This letter is one page long. The words “Poetry (Monroe)” are written in pencil in the top center of the page.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date>"1916-06-28"June 28, 1916</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1916-06-28">June 28, 1916</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet:</persName>:</salute></opener> <!--is different--->
+                <p>I believe that I am to have my <title key="1777" level="a">“1777”</title> in your <title key="poetry" level="j">August number</title>. Do not forget to send me a proof. I think it will be a little easier if you can send it soon, because I expect to leave here about the <date when ="1916-17-07">17th of July</date>; but it really does not make any great difference if you have not got a proof by that time, only I am trying to clear up everything I can before I go to the country.</p>
+                    <p>It is ages since I heard from you, and I have never thanked you for the changes you made in that little note about my lectures. It was very good of you to make them, and I am awfully obliged.</p>
+                <p>I had a nice note from <persName key="ac_henderson">Alice Henderson</persName> the other day, which I should like to answer. Would it bother you to send me her address?</p>
+                <p>My plays at <persName key ="mary_aldis">Mrs. Aldis’s</persName> have been put off until <date when="september">September</date>, owing to <persName key="bryan_lathrop">Mr. Lathrop’s</persName> death. But I believe that they are to take place sometime toward the end of that month.</p>
+                <p>Are you going away this Summer? Of course, you know that <persName key="richard_aldington">Richard</persName> has been called to the colours, and is now R. Aldington, 61, 6th <placeName key ="devonshire">Devonshire</placeName> Regiment. <persName key="hilda_doolittle">Hilda</persName> is doing <title key="egoist" level= "j">"The Egoist"</title> in his absence, but it is fearfully sad, they were so happy. And I supposed an infantry private has the worst chance of all of returning.</p>
+                <p>You will be glad to hear that <title key="swordBladesAndPoppySeed" level="m">“Sword Blades”</title> has just gone into a new edition.</p>
+                
+                <closer>Affectionately yours,</closer>
+        </body>
+    </text>
+</TEI>
+
+
