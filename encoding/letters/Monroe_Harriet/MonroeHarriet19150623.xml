@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1915-06-23">23 June 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="erb">Elizabeth Boarini</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref=""> <!-- insert name --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="tm">Taylor Mansheim</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$91i</idno>
+                    </msIdentifier>
+                    <physDesc><p>This letter is six pages long. On the first page, the words “Poetry Monroe” are written in pencil at the top.</p></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date>23 June 1915</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type=”letter”>
+                <opener><dateline><date when="1915-06-23">June 23, 1915.</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+                <p><persName key="ferris_greenslet">Mr/ Greenslet</persName> has told me of your letter to him of <date when="1915-06-19">June 19th</date>. I do not know what he
+                answered himself, but I think I can straighten out the matter by writing to you.</p>
+               <p>Let me hastily say that Mr. Greenslet had nothing whatever to do with the preface. The
+                book was handed to him for publication with the preface all written, and he accepted it, preface
+                and all. No one of us six were responsible for that preface. It was tinkered by all six of us, and no
+                one of us would be at liberty to change it without the concurrence of all the others.</p>
+               <p>Now I think, my Dear Girl, you are laboring under a misapprehension in the attitude you
+                   take in requesting that <title key="poetry" level = "j">“Poetry”</title> should be mentioned in the bibliography at the end of our book.
+                You are taking the attitude that “Poetry” is a book in itself. Now I never understood that you so
+                understood it. You call it a magazine of verse; it comes out serially like a magazine; and in
+                <pb n="02">treating it as a magazine, rather than as a book, no slight was intended to you. We were merely
+                following the usual method in such cases. If 30 pages out of 77 were first printed in your paper,
+                that still leaves 47 unaccounted for. Of those 47, a good many appeared in <title key="poetryDrama" level="j">“Poetry and Drama”</title>,
+                <title key="egoist" level="j">“The Egoist,”</title> and <title key="smartSet" level="j">“The Smart Set.”</title> In those cases, therefore, the copyrights were held by them.
+                No one of them has made any kick.</p>
+               <p>It is, of course, true that you were the great herald of Imagism in this country, but our
+                preface was not supposed to contain a history of Imagism; and we only made the remark about
+                the first Anthology which we did, to explain why we were publishing under a separate title. I
+                thought it abominable the way <persName key="ezra_pound">Ezra</persName> left out all acknowledgement of “Poetry” in his first
+                Anthology; but in acknowledging out debt to “Poetry” in the usual way, I felt that we had done
+                all that was necessary in that particular place, and I think that, treating your book as a magazine,
+                we did all that was customary.</p>
+               <p>I have never heard of a magazine refusing permission to authors, or a group of authors, to
+               <pb n="03">reprint any of their poems which had appeared in its pages. It is a commonplace of the business.
+                Many magazines merely go so far as to say that in buying and copywriting the poem, they are
+                only buying the magazine rights. This is the attitude which <title key="atlantic" level="j">“The Atlantic”</title> takes, and even the
+                magazines that do not announce that fact always act upon it.</p>
+               <p>You know how greatly I admire the work you have done in “Poetry.” Out of my own
+                head, and with no suggestion from you, I have offered to write an article upon it, and you know I
+                shall keep my word. And if I do not succeed in getting it published in <title key="newRepublic" leve="j">“The New Republic”</title> or
+                elsewhere, it will not be for want of trying. But I feel that you are mistaken in feeling slighted in
+                the preface of the Anthology, or in the bibliography. I feel it would be wiser for “Poetry” to
+                assume merely the position desired by all other magazines, and seek its advertising where it
+                legitimately belongs. To desire special recognition in a place where it would have sounded
+                <pb n="04">dragged in, or in a bibliography which was carefully stated to be of books, in contradiction to
+                magazines, would be amateurish, I think. If <title key="some_imagist_poets" level="m">“Some Imagist Poets”</title> should reach a second edition,
+                I trust you will not feel offended if I, who although not the editor, am responsible for the printing
+                of the book, begged you not to desire us to change the preface, as to do so, when six people must
+                agree to it, is almost an impossibility.</p>
+               <p>I beg you, dear Harriet, to believe in our sincere appreciation of “Poetry” and our
+                admiration of you as its editor, and leave me to do you all possible justice in the article which I
+                write this <date when="1915">Autumn</date>. If you still feel strongly upon the subject, rather than give you a wrong
+                impression as to our gratitude, will you allow me to insert a paragraph to that effect in the new
+                Anthology, which will appear next <date when="1916">Spring</date>, rather than to laboriously change the plates of this
+                one? The latter I will certainly do. In fact, I think I should have done it anyway, but I shall be
+                very much obliged to you, if you will not insist upon any change in this one, simply because of
+                mechanical difficulties, of distance from the other authors and electrotype plates, to mak<pb n="05">ing a
+                change.</p>
+               <p>Now it is my turn to kick. It seems to me that in your review you were a little unkind to
+                us. You laid a great deal of stress upon the fact that we did not acknowledge our debt to you.
+                You referred constantly to the people who are not in the Anthology. Would it have been disloyal
+                to Ezra, and would not it have been graceful to me, had you confined your remarks to the things
+                which were in the book and ont referred to so many of the things which were not? It seems to me
+                that my constant loyalty to you, my sincere interest in this magazine, and my desire to always
+                identify myself with it as much as possible, might have led you to assume the dignified attitude
+                of silence, which we have taken in regard to our schism with Ezra. If I chose to come out with
+                the whole story, Ezra would not be left in a very pleasant position. I am willing to be absolutely
+                silent and not accuse him in any way; but I do not like being covertly accused, particularly by
+                those whom I consider (sic) my friends, and who I think <pb n="06">owe me the same loyalty which I always
+                show to them. How loyal I am to you, Harriet, you will never know. I wrote and remonstrated
+                with <persName key="richard_aldington">Richard</persName> for his method of reviewing your book and, although I am not my brother’s keeper,
+                I have done my best. Don’t you want to cease referring to the break between Ezra and the rest of
+                us? If I am willing to be silent, you, as Ezra’s friend, should be thankful.</p>
+               <closer>Affectionately yours,</closer>
+                <postscript><label>P.S.</label> Ferris Greenslet tells me that a magazine editor only buys the magazine copyright to to
+                poems he publishes, not the book copyright, unless it is specifically so stated in the contract. He
+                says that it has been tried in court over and over again, and this is always the decision.</postscript>
+                    
+            </div>
+        </body>
+    </text>
+</TEI>

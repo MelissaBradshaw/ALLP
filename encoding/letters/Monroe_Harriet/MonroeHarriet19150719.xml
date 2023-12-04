@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1915-07-19">19 July 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="erb">Elizabeth Boarini</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref=""> <!-- insert name --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="tm">Taylor Mansheim</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$101i</idno>
+                    </msIdentifier>
+                    <physDesc><p>This letter is two pages long. On the first page, the words “Poetry Monroe” are written in pencil
+                        at the top.</p></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date>19 July 1915</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type=”letter”>
+                <opener><dateline><date when="1915-07-19">July 19, 1915.</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+                <p>I am sending you 10 copies of the June number of <title key="egoist" level="j">“The Egoist,”</title> in hopes that you may
+                persuade <orgName key="mclurg">McClurg</orgName> to take them, since he had ten copies of the May number.</p>
+                <p>I wish the spirit would move you to answer in <title key="poetry" level="j">“Poetry”</title> <persName key="conrad_aiken">Conrad Aiken’s</persName> violent diatribe
+                    against us in the July <title key="poetryJournal" level="j">“Poetry Journal.”</title> The poor, little “Poetry Journal” is trying to bring itself
+                up to date very hard. It asked me for contributions, as you see by their announcing a poem of
+                mine for <date when="1915-08">August;</date> and it has also asked me to write a short article explaining our views for the
+                nine hundredth time.</p>
+                <p>I suppose I could answer Aiken myself, but I do not want to let him draw me like that;
+                    and if you could see your way to putting in a short comment over your own or <persName key="ac_henderson">Alice Henderson’s</persName>
+                signature, on the general pigheadedness and reactionary quality of this article, I should be
+                eternally <pb n="02">grateful. I am having them send you a copy so you can see it. We do have a hard time.
+                It is all up-hill work for all of us, which is the chief reason it is ridiculous to quarrel among
+                ourselves. Nobody objects to it so much as I, and I wish <persName key="ezra_pound">Ezra</persName> had not such a passion for it. If you
+                do not want to do this, of course don’t but it would be fine if you would.</p>
+                <p>Have you found out whether McClurg sold any of those ten numbers he took, for he has
+                not sent me any money?</p>
+                <closer>Affectionately yours,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

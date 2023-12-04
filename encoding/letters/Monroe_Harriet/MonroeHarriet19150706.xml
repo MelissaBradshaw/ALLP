@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1915-07-06">6 July 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="erb">Elizabeth Boarini</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref=""> <!-- insert name --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="tm">Taylor Mansheim</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$97i</idno>
+                    </msIdentifier>
+                    <physDesc><p>This letter is two pages long. On the first page, the words “Poetry Monroe” are written in pencil
+                        at the top.</p></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date>6 July 1915</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type=”letter”>
+                <opener><dateline><date when="1915-07-06">July 6, 1915.</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+                <p>We will, as I said before, make a little bow to you in the preface of the <title key="some_imagist_poets" level="m">next Anthology</title>.
+                    But do not go on blaming <orgName key="hougton_mifflin">Houghton Mifflin</orgName> for what was none of their business. Publishers can
+                not control authors’ prefaces; all publishers can do is to take or leave a book. So you must throw
+                whatever blame you have on us, and remember that in mentioning <title key="poetry" level="j">“Poetry”</title> in the preface of the
+                new volume, we shall do so spontaneously and <foreign xml:lang="it">con amore</foreign> and not in the least because you ask it,
+                for I think your deserts great and your contention wrong.</p>
+                <p>As to your review of us and bringing in <persName key="ezra_pound">Ezra</persName>, you say in this letter that you still consider
+                him a member of the Imagist group and, therefore, that it was natural you should mention him;
+                but you seem to forget that our title was “Some Imagist Poets,” meaning that we only
+                represented a portion of the group. We never laid claim to being the whole group, but I do wish
+                that in the eyes of so many of you Ezra’s shadow did not lie with <pb n="02">such sharp edges over us all.
+                Greatly as I admire Ezra’s work, I think other members of the group are as deserving as he and
+                as important. The slenderness of Ezra’s output alone, and it is getting slenderer and slenderer of
+                late years, is sure to affect his central position. I know his theory about overproduction very well,
+                and of course, in the main, he is right; but so very slight a production as his cannot fail to be
+                remarked upon as showing a lack of vigour, or inspiration, or large fecundity. Praise him as
+                much as you like in reviewing his own things, but do, for Heaven’s sake, let our things stand on
+                their own merits without reference to Ezra.</p>
+                <p>You never mentioned to me in your letter what was to me the most important thing in my
+                    letter: namely, whether it is in <date when="1915-08">August</date> or <date when="1915-09">September</date> that you are going to give me my group, and
+                    open the ball with them. I think it is probably <date when="1915-09">September</date>, and September will suit me perfectly
+                well. May I count on that?</p>
+                <p>I hope you have not been drowned out as we have. I have never seen such rain as we have
+                been having here.</p>
+                <closer>Affectionately yours,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
