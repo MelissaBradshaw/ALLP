@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe </persName>, <date when="1916-05-08"
+                    > </date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="js">Jordan Smith</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="sv">Shwetha Vaidyanathan</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="sv">Shwetha Vaidyanathan</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""><!-- insert name --></persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$139i</idno>
+                    </msIdentifier>
+                    <physDesc> 
+                        <p>This letter is two pages long. The words “Poetry (Monroe)” are written in pencil in the top center of the first page. "Page 2" is typewritten in the top left corner of the second page.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date>"1916-05-08">May 8, 1916</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1916-05-08">May 08,1916</dateline></date>
+                    <salute>Dear<persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+            <p>I suppose there is very little use in ever finding fault, or in expecting a person to do differently whose inclination does not lead them to that attitude themselves. Still, I think your article entitled <title key="downEast" level="a">"Down East"</title>, in the current number of <title key="poetry" level= "j">"Poetry"</title>, was hardly friendly, and was not couched in the tone which I should expect from you.</p>
+                <p>I have told you several times that I was deeply injured by your neglect of me in your editorial articles. Hitherto I had supposed that your neglect was mostly an oversight. Of course, I could not disguise myself from the fact that one does not overlook things in which one is interested, but I did not supposed that there was any studied desire to neglect me in the eyes of your readers. Now, however, I am forced to a different point of view, for in your article, <title key="downEast" level="a">"Down East"</title>, you do not so much as mention my name, and yet, the very meeting of the <orgName key="poetryClubNewEngland">Poetry Club</orgName> which you praise was thought of, planned, and engineered by me, as I told you several times. Also, I am the president of that club, and it seems to me it would have been well to have mentioned me in that connection. As your hostess at the Club that evening (although I was prevented from being actually present by ill health), it seems to me some acknowledgement was due me. You always wish "Poetry" to be recognized and complimented on its achievements, and proper due given to you as its editor — I do not see why proper due should not be given to me as the president of The Poetry Club, even if it was <pb n ="02"> impossible for you to say anything about my work, or my position among the poets of this section of the country; in fact, in the country at large. You do not hesitate to mention the names of the people you met in <placeName key="nyc">New York</placeName>who struck you as important — you mentioned <persName key = "edward_wheeler">Mr. Wheeler</persName> as president of <orgName key="poetrySocietyAmerica">The Poetry Society of America</orgName>, in New York, — and yet you studiously avoid mentioning me at all. I might not have been here.</p>
+           <p>I can only take this as a studied insult, which I hope you can explain and devise some method to do me a little more justice in the future. I cannot deny that I am exceedingly hurt. I had not thought it of you. I had supposed we were real friends, and I still sign myself</p>
+            <closer>Affectionately yours,</closer>
+                <div type="notes">
+                    <note target="#n1" resp="mb"> The article which Lowell mentions was published in Poetry on May 1916. The link  <idno type="URI">https://www.poetryfoundation.org/poetrymagazine/browse?contentId=59015</idno></note>
+                </div> 
+            <back>
+        </body>
+    </text>
+</TEI>

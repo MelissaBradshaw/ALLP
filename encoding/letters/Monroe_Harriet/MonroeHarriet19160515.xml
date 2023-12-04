@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe </persName>,<date when="1916-05-15"> May 15, 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="js">Jordan Smith</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="sv">Shwetha Vaidyanathan</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="sv">Shwetha Vaidyanathan</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""><!-- insert name --></persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI"> https://iiif.lib.harvard.edu/manifests/view/drs:427331885$141i</idno>
+                    </msIdentifier>
+                    <physDesc> <p>This letter is two pages long. The words “Poetry (Monroe)” are written in pencil in the top center of the first page. The words “H.M. – Page 2” are typewritten in the top left corner of the second page. The bottom left corner of the first page is folded inward, and the bottom right corner of the second page is folded inward.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date>May 15, 1916</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1916-05-15">May 15, 1916</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+                <p>I was very glad to get your letter this morning and to know that you are mentioning my lectures in your <title key= "poetry" level ="j">June number</title>. After all, a laborer is worthy of his meed (sic) of recognition, and that is all I desire. </p>
+            <p>I am sending you the new<title key ="some_imagist_poets" level="m"> “Imagist Anthology”</title>. I suppose you will get an official copy from the publishers, but this is a personal copy. Do review it yourself. I would much rather hear what you have to say about it than what anybody else, whom you might ask to do it, would say. You will see that we have given you a handsome little tribute in the <quote type="english”> “Acknowledgements” </quote>, which I had printed in large print on purpose, to make it more noticeable. You see, it is tit for tat, my dear. But tutting without tatting is no fun. </p>
+            <p>Here is the <measure type="currency" num="25">$25.00</measure>for <persName key ="ac_henderson">Alice Henderson</persName>. I did not send it before, and I am most delighted to send it now. I thought her article on <title key="schoolOf" level="a">“The School of I-am-it”</title>in the last number was excellent.</p>
+            <p><persName key ="william_benet">Benét</persName> wrote me that he thought <title key ="pyrotechnics" level ="a">“Pyrotechnics”</title> was the best poem in that number, which is pleasant to hear.</p>
+                <p>How is the <title key="newPoetryAnthology" level ="m">“Anthology”</title> coming along?</p>
+            <p>I was awfully sorry not to see your <persName key ="william_monroe">brother</persName> and sister when they passed through <placeName key ="boston">Boston</placeName>. Mrs. Monroe did not let me know that they were here until the morning of the day they left, and unfortunately we could not fit our engagements so as to meet. It was a great disappointment to me, as I should have liked to have entertained them. You must tell them in future they must let me know before, so that I can give them a splendid welcome.</p>
+            
+        </body>
+    </text>
+</TEI>
