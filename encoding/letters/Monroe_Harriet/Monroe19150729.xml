@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1915-07-29">29 July 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="erb">Elizabeth Boarini</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref=""> <!-- insert name --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="tm">Taylor Mansheim</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$103i</idno>
+                    </msIdentifier>
+                    <physDesc><p>This letter is three pages long. On the first page, the words “Poetry Monroe” are written in pencil
+                        at the top.</p></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date>29 July 1915</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type=”letter”>
+                <opener><dateline><date when="1915-07-29">July 29, 1915.</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+                I am going to ask you a great favour. I have succeeded in selling <title key="imagesOldAndNew">a book</title> of <persName key="richard_aldington">Richard’s</persName> to a
+                <orgName key="fourSeas">little firm</orgName> here in <placeName key="boston">Boston</placeName>, <persName key="edmund_brown">Brown</persName>, to wit, who wishes to bring it out as one of a series they are
+                publishing. They expect to issue the volume in <date when="1915-11">November</date>, but the book contains a poem —
+                which I believe you have accepted, but have not yet published — called <title key="imagesPoem">“Images.”</title> Will you be
+                an angel and print it between now and November, so that I can conclude the sale of the volume
+                with Brown?
+                Richard is awfully poor, as you know, and I would be a great thing for him to have a
+                volume printed, and he naturally will not wish a poem of his which he thinks highly, not to be
+                printed in it. He simply sent me the manuscript of the book, telling me who owned what poems
+                and asking me if I could get it accepted by an American publisher. That is why I am doing the
+                business for him. I shall be awfully obliged to you if you will do this for me, and of course I can
+                promise <pb n="02">you that the usual acknowledgement will appear.
+                Richard writes me that he has asked you to write a series of articles on American poetry
+                for <title key="egoist" level="j">“The Egoist.”</title> I do hope you will do it, as far too little is known about American work on the
+                other side of the ocean.
+                To my mind, <title key="newRepublic" level="j">“The New Republic”</title> gets duller and duller. Perhaps that might be
+                paraphrased into more and more political and less and less anything else. They have just
+                accepted <persName key="john_fletcher">Fletcher’s</persName> <title key="clipperShips">“Clipper Ships;”</title> but if they keep it as long as they have two poems of mine
+                which have not yet appeared, it won’t do him much good, poor boy!
+                By the way, <title key="theCentury">“The Century”</title> has just accepted a polyphonic poem of mine. It amuses me
+                to think of anything so radical in so conservative a stronghold. Yes, Harriet, there is no doubt
+                about it: you have had an immense effect upon the other magazines in this country, let alone the
+                effect you have had upon the writers themselves. I am laying all this up to hurl at the head of the
+                public in my article on you.
+                I hope you are not as hot as I am. Thank Goodness, I am going to the country this week. <pb n="03">I
+                have been kept here by <persName key="ada_russell">Mrs. Russell</persName> not being very well. But now she is going West, and I am
+                going to <placeName key="dublinNewHampshire">Dublin</placeName>. My address there is simply: Dublin, New Hampshire.
+                <closer>Affectionately yours,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
