@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1915-04-27">27 April 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="jp">Julia Paella</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref=""> <!-- insert name --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="tm">Taylor Mansheim</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$81i</idno>
+                    </msIdentifier>
+                    <physDesc><p>This letter is two pages long. On the first page, the words “Poetry Monroe” are written in pencil
+                        at the top left</p></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date>27 April 1915</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type=”letter”>
+                <opener><dateline><date when="1915-04-27">Apr. 27, 1915.</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+                <p>I am enclosing <title key="leadSoldiers">“Lead Soldiers.”</title> Of course you want it. You have got to want it. I
+                    consider it the best thing I have done. You must want it. You shall want it. Now be good and
+                    want it! I don’t agree with you a bit about its not going with the others. I think it would make the
+                    head of a group very well. I would not put it at the end.</p>
+                <p> As you know, you have had some of my things since <date when="1914-05">last May,</date> and I should like them to
+                    appear during the <date when="1915">summer</date>. You have printed me a lot, and I am very grateful; but I do want to
+                    head the number again soon.</p>
+                <p> I am glad you like the looks of the <title key="some_imagist_poets" level="m">Anthology</title> and I hope you will like the inside as well.
+                    I guess you did not read the preface carefully, or you would have seen why we mentioned the
+                    other Anthology: merely to explain our schism and how much we held with it and how much we
+                    didn’t.</p>
+                <p> &#182; Please look at my poem that is coming out <!--The portion of the paragraph before this comment is pencilled in, may need more annotation - TM --><pb n="02">in the Imagist number of
+                    <title key="egoist" level="j">“The Egoist.”</title> I think you will like it.</p>
+                <closer>Always with a great deal of love,</closer>
+                <p>  (Break for signature)</p>
+                <postscript><p><label>P.S.</label> I enclose cheque to pay for the extra copies of <title key="poetry" level="j">“Poetry.”</title></p>
+                <p>Do you want to ask <orgName key="mclurg">McClurg</orgName> if they won’t take 25 or 30 copies of the Imagist number of
+                    “The Egoist” for sale on commission? I have <orgName key="gommesBookshop">Gomme’s bookshop</orgName> in <placeName key="nyc">New York</placeName> to take 50
+                    copies, and the <orgName key="oldCornerBookstore">Old Corner Bookstore</orgName> here the same. They, of course, are not paying anything for
+                    them, and they will gain by their own commission if they sell any. If you could make the same
+                    arrangement with McClurg, I think it would be fine. I can send them copies as soon as they send
+                    them to me. As you were mentioned in that, <persName key="john_fletcher">Fletcher</persName> having designated you <quote type="english">“the discoverer of
+                    Imagism”</quote> it ought to be a good thing for you as well as for us. <persName key="harriet_weaver">Miss Weaver</persName> will let us have them
+                    for <measure type="currency" num="1.35">$1.35.</measure></p>
+                 <p>(Indecipherable) they tell me at the Old Corner Bookstore here that they can retail them
+                     at <measure type="currency" num=".25">25¢.</measure></p></postscript> <!--This paragraph is pencilled in, may need more annotation - TM -->
+                <closer>A great deal of love.</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

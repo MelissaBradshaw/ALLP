@@ -1,0 +1,109 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1915-06-11">11 June 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="erb">Elizabeth Boarini</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref=""> <!-- insert name --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="tm">Taylor Mansheim</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$89i</idno>
+                    </msIdentifier>
+                    <physDesc><p>This letter is two pages long. On the first page, the words “Poetry Monroe” are written in pencil at the top.</p></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date>11 June 1915</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type=”letter”>
+                <opener><dateline><date when="1915-05-29">May 29, 1915.</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+                    <p>Of course, I take your letter exactly as you mean it, but I happen to be so husky just at
+                        this moment that I cannot feel that the disposition of my will are of any immediate importance.</p>
+                    <p>The subject is not a new one to me. I have thought it over several times. Up to date, however,
+                        I have not been able to satisfy myself that it is a wise thing to endow the arts. It seems
+                        as if the recipients of these endowments were always the wrong people; and how one could 
+                        arrange to get the right people in the line of prizes, I do not know. However, to paraphrase 
+                        <orgName key="gilbertAndSullivan">Gilbert and Sullivan:</orgName></p>
+                    <quote type="english"><p>To the matter that you mention</p>
+                        <p>I will give my best attention.</p></quote>
+                    <p>I have the cause of poetry as much at heart as you have, and I have thought of this for a 
+                        long time; but whether the difficulties will be insurmountable in the end, I cannot now say. </p>
+                    <p>I was very glad to hear what <persName key="mary_colum">Mrs. Colum</persName> said <pb n="02"><!-- penciled in -->and I (indecipherable) myself.<!-- end pencil --> The attitude of 
+                        New York is utterly inconceivable to me. I am bound to confess, I think perhaps <persName key="ezra_pound">Ezra’s</persName> articles,
+                        pitching into everything American, from the beginning of the magazine up to date, have had something 
+                        to do with it. This is not a criticism upon your having him in; I am not <persName key="john_fletcher">Fletcher;</persName> he told me he had 
+                        written to you, and then he showed me your letter in return, and I must say you are uncommonly 
+                        generous to take criticisms as you do.</p>
+                <pb n="02"><p>By the way, Ezra’s new book <title key="cathay" level="m">“Cathay”</title> is full of the most beautiful things. I have 
+                        seldom read anything finer. What a pity the boy does not confine himself to working and leave
+                        strictures on other people’s work alone. I would rather like to review it, but I am a little
+                            afraid that, if I do, he will think I am trying to curry favour with him. What do you think?</p>
+                    <closer>Affectionately yours,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+

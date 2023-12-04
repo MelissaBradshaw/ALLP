@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1915-05-03">5 May 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="jp">Julia Paella</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref=""> <!-- insert name --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="tm">Taylor Mansheim</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$83i</idno>
+                    </msIdentifier>
+                    <physDesc><p>This letter is two pages long. On the first page, the words “Poetry Monroe” are written in pencil
+                        at the top.</p></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date>5 May 1915</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type=”letter”>
+                <opener><dateline><date when="1915-05-03">May 3, 1915.</dateline></date>
+                    <salute>My dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+                <p>Your letter has come and, although I think <measure type="currency" num="70">seventy dollars</measure> rather little for the number of
+                    poems you have, I suppose I must accede to it. But I should like to make a protest, not only on
+                    my own account but on account of your other contributors, which is that you should pay your
+                    regular rate per page, whatever that may be, no matter how many pages a person is given. What
+                    is the advantage for any poet to have a number of poems, if he loses money by it? Most of these
+                    young poets need every penny they can get, and they get very little. You accept their poems and
+                    hold them up sometimes for over a year, making it impossible for them to send them anywhere
+                    else; and yet you do not pay them until the poems are published. I do think that is a great
+                    mistake. As far as I am concerned, you get it back in the advertising, for I always insist upon the
+                    publishers advertising everything in your pages. We have got our <title key="newPoetrySeries" level="s">New Poetry Series</title> in your
+                    magazine <pb n="02">now, and I shall make <orgName key="macmillan">Macmillan</orgName> put in <title key="sixFrenchPoets" level="m">“Six French Poets”</title> <date when="1915">this Autumn</date>. I do think it
+                    is a mistake, Harriet, and I wish you would consider it, that is all. I repeat I think your pro rata
+                    page should be pro rata, no matter how many pages one person has.</p>
+                 <p>Couldn’t you make it <date when="1915-08">August</date>, instead of <date when="1915-09">September</date>? September seems awfully far away,
+                     but if you cannot make it August, I will accept September, and be thankful.</p>
+                 <p>By the way, I have read <title key="spoonRiver">“Spoon River”</title> from cover to cover. I quite agree with you, it is
+                    one of the most remarkable books ever published in this country. As a novel, it is, as far as I
+                    know, unsurpassed. I shall be very interested to see what <persName key="el_masters">Mr. Masters</persName> will attempt next. His
+                    knowledge of humanity is extraordinarily wide and clear, and these little, headed-up poems give
+                    an impression of reality which I do not remember ever having felt so vividly before.</p>
+                 <p>I am sorry <placeName key="mclurg">McClurg</placeName> would only take twelve copies. I don’t see why he cares how many
+                    he takes, so long as he only pays for what he sells. Do stir people up to buy some copies, if you
+                    can.</p>
+                <closer>Affectionately yours,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
