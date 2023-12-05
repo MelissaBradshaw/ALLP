@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1914-02-10"
+                    >February 10 1914</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="mb">Melissa Bradshaw</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI"> <!-- this is a PDF --> </idno>
+                    </msIdentifier>
+                    <physDesc> <!-- Insert physical description here, including description of letterhead, header addresses, etc. --> 
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="nyc">New York</placeName></settlement>
+                    <date>10 February 1914</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+            <opener><dateline><date when="1914-02-10">February 10, 1914</dateline></date>
+                <salute>My dear <persName key="harriet_monroe">Ms. Monroe</persName>,</salute></opener>
+            <p>This is just a little line to thank you for your very great kindness to me during my brief stay in
+               <placeName key="chicago">Chicago</placeName> I wish I could have stayed longer. It is the one city in America where one does not feel
+               “cabbaged, cribbed, confined.” <placeNece key="nyc">New York</placeNece> is just as old fogey as <placeName key="boston">Bost</placeName> on, as far as poetry is concerned.
+               Among the poets, I mean, I had two to dinner tonight. They admired old <persName key="george_woodbury">Mr. Woodbury</persName>, and thought
+               <persName key="ws_braithwaite">William Stanley Braithwaite’s</persName> opinion had great weight, and that his "<title key="poetryJournal">Poetry Journal</title>" had printed some
+               excellent things. I longed for you, and <persName key="ac_henderson">Mrs. Henderson</persName>, and <persName key="ezra_pound">Ezra</persName> and <persName key="john_fletcher">Fletcher</persName>, to make a party with. We
+               are all in the van, and these people! How hardly the generation dies! The editors are a little better, I
+               think. I have not seen any magazine editors yet, but the book publishers seem to live more in the
+               present. I am very glad you took those things for "<title key="poetry" level="j">Poetry</title>." It pleases me to have them there. We are
+               such a handful, against the others. I hear a rumor that Ezra has come over with <persName key="wb_yeats">Yeats</persName>. He did not speak
+               as though he were coming, to me. And I got his last letter just before I left home. I will send you my
+               things, just as soon as I get home to a typewriter. In the meantime, thank you again, most cordially—
+               And please remember me to Mrs. Henderson. I liked her so much.</p>
+            <p>Don’t suspend the magazine, if we lose it, we are shoved back another 10 years! And please
+               send me your play to read<!-- do we know what play she is talking about? -->, as you promised.</p> 
+            <closer>Sincerely yours,    
+                <signed><persName key="Amy Lowell">Amy Lowell</persName></signed></closer>   
+            <postscript>  
+            <p>I wish you would send me books for review, I like doing it and they shall be whatever length you
+                choose</p>
+            </postscript>   
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1914-02-16"
+                    >Feb. 16, 1914</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="xeh">Xiamara Hohman</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$1i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>The letter consists of two pages of typewriter text with a leter head consisting of "Amy Lowell, 
+                           Heath Street, Brookline Mass." written on the top right corner in pencil is the word "poetry."</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date>16 February 1914</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body> 
+            <div type="letter">
+            <opener><dateline><date when="1914-02-16">February 16, 1914</dateline></date>
+                <salute>My dear <persName key="harriet_monroe">Miss Monroe</persName>:</salute></opener>
+            <p>I am enclosing all the poems which you chose, and also the little list of them which you
+               made with your own handwriting, to prove their correctness.</p>
+            <p>I also send back "<title key="coalPicker" level="a">The Coal Picker</title>," which I found among my things, just as you said, and
+               "<title key="taleOfStarvation" level="a">A Tale of Starvation</title>," the latter being, as it were, on perpetual approval, and not, I understand,
+               accepted, and you will take it or not, as you see fit.</p>
+            <p>I had extremely good luck in <placeName key="nyc">New York</placeName>, you will be glad to know. My "<title key="hearingAWaltz" level="a">Waltz</title>" was
+               taken by "<title key="international" key="j">The International</title>," and the "<title key="century">Century</title>" and "<orgName key="scribner">Scribner</orgName>" both have taken a number to
+               consider, and <persName key="yard_robert">Mr. Yard</persName> of the Century, and <persName key="george_viereck">Mr. Varick</persName> <!-- spelled incorrectly --> of the International were both so
+               complimentary that my h[sic] head is completely whirled round, and I feel that the only natural
+               way for me to walk would be backward.
+               I do hope that you can put my poems into the 
+            <pb n="02"><title key="poetry" level="j"><date when="1914-04">April number</title></date>, as I am most anxious to have them appear.</p>
+            <p>I have got two new subscribers for you. At least they promised me that they would
+               subscribe, <persName key="carlotta_Lowell">Miss Carlotta Lowell</persName> of <placeName key="nyc">New York</placeName>, and <persName key="elizabeth_putnam">Miss Elizabeth Putnam</persName> of <placeName key="boston">Boston</placeName>, and I wish
+               you could have heard me boom your magazine to all the people I met in New York. Don’t forget
+               that I really mean what I say about reviewing books, and writing any other little articles you may
+               happen to want. I should be perfectly happy to do anything I can. It is all grist to me, and you
+               cannot think how much I have the welfare of your magazine at heart. The more I see of them in
+               New York, editors and their pa[sic] papers, the more I realize that "<title key="poetry" level="j">Poetry</title>" has a field all to
+               itself, and one which I believe to be of immense importance.</p>
+        </body>
+    </text>
+</TEI>

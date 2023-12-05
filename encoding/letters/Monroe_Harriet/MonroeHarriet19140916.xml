@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1914-09-16"
+                    >September 16, 1914</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="xeh">Xiamara Hohman</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$24i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p> Letter consists of 3 pages of typerwriter text. Includes the words "Monroe" and "Poerty" 
+                            in handwiring at top of the front page above the opener. Text at the top at of page three is crooked
+                            showing a typewriter aligmnment malfunction. Misalignment is corrected by the line beginning with "permit the 
+                            news stands"</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brooline</placeName></settlement>
+                    <date>16 September, 1914</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <div type="letter">
+            <body>
+                <opener><dateline><date when="1914-09-16">Sept. 16, 1914</dateline></date>
+                    <salute>My dear<persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+                <p>I send you the teaspoonful of "<title key="nationalismInArt" level="a">Nationalism in Art</title>" which you vouchsafed me. Your 
+                   printer is fast becoming the incarnation of the devil, to my mind, and only the fact that you once 
+                   told me that he was a friend of yours prevents me from lifting my voice and making the welkin 
+                   ring with my curses. I have corrected this proof which I now return.</p>
+                <p>May I suggest that “polyethnic” is the correct spelling, not “polyethuic?” A note at the 
+                   bottom of this proof says that you have already looked it over. Will it be very mean to say that 
+                   your not having observed that up-side-down letter is one of the reasons why I have a predilection 
+                   for doing my own proofs? That is why I wired you to send me the remaining tablespoonful.</p>
+                <p>You do not mind my poking fun at you, do you? I know how beastly proof reading is, 
+                   and you ought to know by this time how greatly I admire the work you are doing on this <titile key="poetry" level="j">magazine</titile>, 
+                   and I send you another at 
+                <pb n="02">you might like me to give you <<gap><desc>unknown text</desc></gap>.</p>
+                <p>Thanks for your remarks about "<title key="littleReview" levle="j">The Little Review</title>." I am supporting it for all I am worth 
+                   by contributions of poems and prose, and I agree with you that it is better than the dull 
+                   professionalism, but I wish she had your power of making her magazine a first class one.</p>
+                <p>I hope you have got the advertisement from <title key="macmillan">Macmillans</title> for my book. I put that in on 
+                   purpose. I wish there were anything I could do to help you, for whatever happens "<title key="poetry" level="j">poetry</title>” must 
+                   not stop. If I were on the editorial staff I should have a poster printed every month and put in the 
+                   book shop windows and on all the news stands. I should also try to organize an artificial demand 
+                   in all the cities, at the book shops, every month, for the magazine. Sometime on the plan by 
+                   which you “paper” a theatre. If you like, I will undertake to get various people to ask at the <orgName key="oldCornerBookstore">Old 
+                   Corner Book Store</orgName> for six copies every month of your magazine. I will try to get it done by 
+                   different people so as to have it appear that each person is anxious for a number. This shall not
+                   be subscriptions, but purchases.</p> 
+                <p><persName key="ellery_sedgwick">Ellery Sӗdgwick</persName> tells me that he does not per
+                <pb n="03">mit the news stands booksellers to return 
+                   any unsold copies of the "<title key="atlantic" level="j">Atlantic Monthly</title>" to him. By that basis he knows every month just
+                   what he has really sold. I am not sure that it would work with so special a magazine as “Poetry.” 
+                   I doubt whether the demand, yet, would be big enough to justify the booksellers or news men in 
+                   purchasing any numbers out right, but you will know your sales about that better than I do.</p>
+                <p>I really feel awfully about "<title key="Allies" level="a">The Allies</title>," I wish you could have seen your way to 
+                   publishing it on my responsibility, even against your own judgment I know it would rouse people
+                   into liking it and disliking it, which is, after all, what you want in a magazine, and its originality 
+                   is undoubted. But if you still think you do not want it, at least I trust you will take this "<title key="balladOfFootmen" level="a">Ballad of
+                   Footmen</title>.”</p>
+                <p>My book will be out next week I think. Don’t you want to review it fairly quickly, as that 
+                   will help me considerably? You do not answer about <persName key="robert_frost">Frost’s</persName> <titel key="northOfBoston" level="m">book</titel>.</p>
+                <p><persName key="ada_russell">Mrs. Russell</persName> said she had a delightful time with you.</p>
+    </text>
+</TEI>
+

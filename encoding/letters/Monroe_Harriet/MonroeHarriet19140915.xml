@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1914-09-15"
+                    > September 15, 1914</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="mb">Melissa Bradshaw</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$10i</idno>
+                    </msIdentifier>
+                    <physDesc> 
+                        <p> Letter consisits of 12 pages of typer writer text (6 pages front and back). Includes the words "Monroe" and "Poerty" 
+                            in handwiring at top right of the front page above the date. Each page has various ink sumudges.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date>15 September, 1914</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <div type="letter">
+        <body>
+            <opener><dateline><date when="1914-09-15">September 15, 1914</dateline></date>
+                <salute>My dear<persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+            <p>I am so glad that "<titme key="nationalismInArt">Nationalism in Art</titme>," is going into the <date when="1914-10"<title key="poetry" level="j">October number</title></date> I am perfectly
+               willing to have you leave out the last paragraph of my review of <persName key= "gf_norton">Miss Norton</persName> book if you <!-- is this correct?-->
+               want to. I did want to get a slap at those silly dedications, but if you think better to leave it out, 
+               do as you wish. Please sign it with my initials, and please sign “Nationalism in Art” with my full 
+               name.</p>
+            <p>I am awfully sorry you do not get "<title key="allies" level="a">The Allies</title>.” <persName key="richard_aldington">Richard</persName> says it grows on you with 
+               every reading, so I hope it will on you. I meant to typify the citizen army of the <rs key="ww1" type="theme">Allies</rs>, how it 
+               was made up of all the men who follow the various arts of peace, and how they were all fighting, 
+               each for different reasons, and how the sum total of every man’s desire was peace. It was written 
+               at a time when the Allies were known to be marching toward the Germans in <placeName key="belgium">Belgium</placeName>, but we 
+               did not know where they were, and I thought of them as a long, 
+            <pb n="02">slow, crawling worm, winding 
+               along the Belgian <gap><desc>word missing</desc></gap> and made up of the units I have described. I think if you will 
+               read it aloud to yourself, and listen to the beat of it, you will agree with me that it has something 
+               of the ruggedness and savagery of war, and that it portrays in a modern manner why we want 
+               peace. I tried to avoid the usual “Lord God of Battles,” style of thing. I know it is very new, and 
+               very original, but I do not think I have ever written anything which has been so much liked. All 
+               our poet friends in <placeName key="london">London</placeName> were most enthusiastic about it, and a man, a great lover of poetry, to 
+               whom I read it on the steamer, burst into tears hearing it. He told me that even if I had never 
+               written anything but that poem, my reputation would be made. As he is a man who fights rather 
+               shy of modern technique, it seemed to me that my sentiment must have “got over.” Of course, if 
+               you do not like it, do not print it, but I hope you will feel better about it on a second reading, 
+               because I am willing to stake a good deal on its being a good thing.</p>
+            <p>(I am sitting here in sunlight, and in order to shield my eyes from the glare I have held up 
+                your letter between me and the sun, with the 
+            <pb n="03">result that I beg you to take two sheets of your good
+               note paper, and hold them up against the bright sunshine. Such glorious colour is really a 
+               delight.)</p>
+            <p>I wish I could have come out to <placeName key="chicago">Chicago </placeName>with my friend, <persName key="ada_russell">Mrs. Russell</persName>, who has been 
+                abroad with me all summer, and who has just gone to Chicago to see her <persName key="lorna_amussen">daughter</persName>. I asked her to 
+               telephone you and inquire about “Nationalism in Art,” as I had not heard from you when she left.</p>
+            <p>I want to ask you what you think of "<title key="littleReview">The Little Review</title>." I am afraid it strikes me as 
+               rather amateurish and effervescent, but the Editor <!--who is this? -->, is so fearfully enthusiastic about me, that I 
+               have given her some things of mine. However, I am afraid her magazine does not stand much 
+               chance of making any real place for itself.</p>
+            <p>You ask me about the quarrel between <persName key="ezra_pound">Ezra</persName> and the rest of us. It is not a quarrel no, it is a 
+               scism [sic]. It is a very long story, and I do not know quite how to tell you all of it be letter.</p>
+            <p>Do you remember Ezra was very anxious to run 
+            <pb n="04"> the "<title key="mercureDeFrance">Mercure de France</title>?" He came to 
+                me at once as soon as I got to <plaeName key="london">London</plaeName>, and it then transpired that he expected to become editor of 
+               said “Review” with a salary. I was to guarantee all the money, and put in what I pleased, and he 
+               was to run the magazine his way. We talked over the cost of expenses, and we both thought that 
+               <measure type="currency" num="5,000">$5,000</measure>. A year was the least that such a magazine could be run on. As I have not $5,000. a year 
+               that I can afford to put into it, I based my refusal upon that fact, and it was most unfortunate that 
+               Ezra apparently did not believe it. Like many people of no incomes, Ezra does not know the 
+               difference between thousands and millions, and think that any one who knows where to look for 
+               next week’s dinners is a millionaire, and therefore lost his temper with me completely, although 
+               he never told me why, and he accused me of being unwilling to give any money toward art. </p>
+            <p>In thinking over what I could do to help the poets less fortunate than myself, and also to 
+               help myself in somewhat the same manner that a Review would do, it seemed to me that to re-
+               publish the "<title key="some_imagist_poets">Imagiste Anthology</title>" with the same group  
+            <pb n="05">of people, year after year, for a period of 
+               five years, would enable us, by constant iteration, to make some impression upon the reading 
+               public. And I thought it would be interesting for people to see the work of the same group of 
+               poets brought out year after year, and it is a method which the editors of "<title key="georgianPoetry">Georgian Poetry</title>" have 
+               found most satisfactory. I mentioned this first to the <persName key="hilda_doolittle" key="richard_aldington">Aldingtons</persName> because I saw them first after I 
+               conceived the idea. I suggested that the last little book was too monotonous and too 
+               undemocratic, in that certain poets were allowed much more space than others, and I suggested
+               that in the “New Anthology” we should allow approximately the same space to each poet, and 
+               that we should get a publisher of reputable standing, and I offered, in case we could not get any 
+               publisher to take the risk of the volume itself, to pay for its publication.</p>
+            <p>The Aldingtons were exceedingly enthusiastic with the idea, as have been the other poets 
+               we have asked to join us. Only Ezra was annoyed. He accused me of trying to make myself 
+               editor instead of him, 
+            <pb n="06">and finally tried a little blackmail by telling me that he would only join us 
+               on one condition that I would obligate myself to give <measure type="currency" num="200">$200.</measure> a year to some indigent poet. I told 
+               him that the $200. a year might be managed should anyone in stress of circumstances need such
+               a sum, but that I absolutely refused to be intimidated into buying anything, or to buy his poems at
+               the expense of my self-respect. I also told him that I would not have suggested “The Anthology” 
+               had I know that he would not like the idea, and that it was intended to benefit him, quite as 
+               much as the rest of us.</p>
+            <p>He was perfectly furious for some time, and sent for the Aldingtons, and told them they 
+               must choose between him and me, which was awful for them, as he is a very old friend, and has
+               done much for them, and I was only a new friend. They behaved with the utmost honour in the 
+               matter. They told Ezra it was not a question of me at all, but a question of the principle, that they 
+               felt it only fair to let the poets choose their own contributions and to give each poet an equal 
+               space. He then tried to bribe them, by asking them to get up an Anthology with him, and leave 
+               me out. This they absolutely refused to do.</p>
+            <p>We had many communications on the subject in 
+            <pb n="07"> which <persName key="fs_flint">Flint</persName>, <persName key="dh_lawrence">Lawrence</persName>, and <perName key="ford_hueffer">Ford Maddox Heuffer</perName> 
+               joined us, and we all agreed that Ezra could not expect to run us all his own 
+               way forever, and that is [sic] he chose to separate himself from us, we would be obliged,
+               although most regretfully, to let him.<persName key="john_fletcher">Fletcher</persName> is coming in, and a few of the poets in the last
+               volume who have not been producing much in the interval, have been struck out.</p>
+            <p>“The New Anthology” will consist of seven of us, viz: The Aldingtons, Flint, Fletcher, 
+               Ford Maddox Heuffer, D.H. Lawrence, and myself, and the harmony and kindly feeling which 
+               we have all displayed toward each other, has been very marked. In order to save Ezra’s feelings 
+               as much as possible, we have written a preface, in which we have explained that Ezra has left us 
+               from artistic reasons, owing to a slight difference in the interpretation of the word “Imagistes”. 
+               We have changed the name of the anthology, in order to let him bring out another of his own 
+               under that tile, should he so desire. Our Anthology is to be “Some Imagiste Poets.”</p>
+            <p>I think Ezra is regretting his action a little, for he became very nice about it toward the 
+                end, and offered not to bring out his volume if it  
+            <pb n="08">would interfere with ours, but we told him that
+               we had no idea that it would. As a matter of fact, he has no one for his volume except himself
+               and a man named <persName key="john_rodker">Rodker</persName>, unless he rakes up somebody in the interval.</p>
+            <p>The truth is, Ezra has ducked and draked his reputation with his last work. His poetry is 
+               too indecent to be poetical, and even when it is not indecent, it is too often merely vituperative. 
+               Please do not tell anyone that I said to, but I think he is in a very bad way as far as his work is 
+               concerned. <persName key="re_prothero">Mr. Prothero</persName>, the editor of "<title key="quarterly_review" levle="j">The Quarterly</title>," who has just accepted from him some of 
+               the <persName key="ernest_fenollosa">Fenellosa</persName> <title keu="chineseWrittenCharacter">manuscript</title>, told me that the trouble with Ezra was that he had nothing to say, and I
+               am afraid that is really true." <orgName key="blast" level="j">Blast</orgName>" will give you a good idea of what Ezra has been obliged to 
+               descend to in order to keep his name before the public, and he admitted in a speech at an 
+               Imagiste dinner, that it was nothing but advertising.</p>
+            <p>He looks very ill, and has a bad cough, and I am afraid that he is tuberculous. It has even 
+               been hinted that this may have attacked his brain. 
+            <pb n="09">No one knows anything about it, and this is 
+               merely surmise. The fact remains that where his work is concerned he is failing every day, and 
+               except for "<title key="poetry">Poetry</title>" and "<title key="egoist">The Egoist</title>" there are no magazines that will take his poetry, if I except 
+                an occasional contribution to "<title key="poetryDrama">Poetry and Drama,</title> and he has only sold two prose articles this 
+               year. One, which was mostly Fenellosa, appeared in the “Quarterly,’ and an article on 
+               "<rs key="vorticism" type="theme"> Vorticism </rs>" in the current "<orgName key="fortnightly">Fortnightly</orgName>." He had a chance in his articles on French authors in 
+               "<title key="newAge"The New Age</title>," a year ago, but the work was so superficial and slapdash that it did him harm 
+               rather than good.</p>
+            <p>Ezra always thought of life as a grand game of bluff. He never has learned the wisdom of 
+                <persName key="abraham_lincoln">Lincoln’s</persName> famous adage about “Not being able to fool all the people all the time.” Advertising is 
+               all very well, but one must have some goods to deliver, and the goods must be up to the 
+               advertising of them. Now that Ezra has ceased to be a youthful phenomenon he must take his 
+               place in the steady march by which young men of talent gain to a real reputation, and he finds 
+               himself falling back at every step,   
+            <pb n="10">and this naturally makes him exceedingly bitter. He is very 
+               brilliant, he does not work though, and his work lacks the quality of soul, which, I am more and 
+               more fain to believe, no great work can ever be without. At any rate, that is the situation about 
+               the Imagistes. It is not a quarrel, in one sense it never was. I have spared no efforts to keep them
+               all on good terms with each other, even offering to leave “The Anthology” myself, if it would 
+               heal the breach. Ezra and his wife dined with me a few days before I left, and we had a very 
+               pleasant and perfectly amicable evening, and it would not surprise me if he came into one of our 
+               Anthologies later on, but of course, I have not suggested this possibility to him.</p>
+            <p>The great thing which my summer has done for me is bringing me the intimacy of the 
+               Aldingtons. They are a perfectly charming young couple, and I think <persName key="hilda_doolittle">Hilda’s</persName> last work an 
+               advance on her other, don’t you? I am very glad indeed that you accepted the poems she sent. 
+               You, with the exception of "<title key="seaIris" level="a:">Sea Iris</title>" in returning which I cannot help thinking you made a 
+                mistake. I enclose a subscription blank for my old governess in <placeName key="england">England</placeName>, who is </pb>  
+            <pb n="11"> very much interested in seeing your book<!-- ? -->.</p>
+            <p>Don’t be discouraged that the subscriptions are not increasing. A magazine devoted to 
+               poetry can hardly expect to increase its subscription list hand over fist. Poetry is looking up, but I 
+               do not suppose it will ever be really popular, and I think you are doing a great deal to change 
+               public opinion and raise the standard in this country.</p>
+            <p>I wish you could get a larger book stall. It is quite impossible to buy “Poetry” at any book 
+               shop or stall, either here or in England. If they have any copies, they are sure to be left overs of 
+               other months, and the only place where you can be sure of buying a current number is the <orgName key="poetryBookshop">Poetry 
+               Bookshop </orgName> in London. Cannot you make some arrangement with the International News 
+               Company<!-- should this be tagged? --> to carry it on their railway book stalls, and would it not be a good method to have 
+               some prose articles merely as a selling device?</p>
+            <p>I shall be in <placeName key="chicago">Chicago</placeName> before many months are over, I hope, and shall try to bring you 
+                some poems to add to the four you took in <date when="1914-05">May</date>, and make a
+            <pb n="12">group of my poems somewhere near spring.</p>
+            <p>By the way, have you seen that "<title key="coalPicker"level="a">The Coal Picker</title>" has been copied in various 
+               newspapers, both East and West? I am afraid you will be awfully lonely when your little home is 
+               broken up, but you will be so busy, and that must be some satisfaction. Is there any truth in the 
+               fact which Ezra told me, that you are no longer Art Editor of "<orgName key="chicagoTribue">The Tribune</orgName>?" Do you want me to 
+               review <persName key="robert_frost">Frost’s </persName>book, the author of <titel key="northOfBoston">Boston</titel>, for you?</p>
+            <closer>Very sincerely yours,</closer>
+        </body>
+    </text>
+</TEI>

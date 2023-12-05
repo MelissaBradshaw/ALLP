@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="hariet_monroe">Harriet Monroe</persName>, <date when="1914-07-20"
+                    >July 20, 1914</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="mb">Melissa Bradshaw</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI"> <!-- this is a PDF --> </idno>
+                    </msIdentifier>
+                    <physDesc> <!-- Insert physical description here, including description of letterhead, header addresses, etc. --> 
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="london">London</placeName></settlement>
+                    <date>20 July, 1914</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+            <opener><dateline><date when="1914-07-20">July 20, 1914</dateline></date>
+                <salute>Dear<persName key="harriet_monroe">Harriet</persName>,</salute></opener>
+            <p>I wonder whether you ever got my article on "<title key="nationalismInArt" level="a">Nationalism in Art,</title>" which I sent you just 
+               before I sailed, on the <date when= "1914-06-23">23rd of June</date>. I also wired you from home, before I started, to know if you
+               had got it, but you never answered, and a letter from <persName key="ac_henderson">Mrs. Henderson</persName>, which I got about a week
+               ago, doesn’t mention it. A change in secretaries may have made a leakage somewhere, for my
+               old one ended by forgetting everything.</p>
+            <p>If you have not go it I wish you would wire <persName key="alice_watts">Miss Alice Watts</persName>, 166 Coolidge Street,
+               <placeName key="brookline">brookline, Mass</placeName>. To send it to you at once. She is my present secretary and seems really
+               sensible.</p>
+            <p>I got the <date when= "1914-06">July</date> "<title key="poetry" level="j">Poetry</title>" today, (how interesting <persName key="vachel_lindsay">Lindsay’s</persName> things are!) and was sorry to see
+               that "<title key="coalPicker" level="a">The Coal Picker</title>" was not in it, for I thought you said you would put it in immediately to
+               unshock all those people who did not like "<title key="forsaken" level="a">The Forsaken</title>." And, as Lindsay appeared in the 
+               <date when="1914-04">April number</date> with me, and again this one, it does not seem to be too soon. Perhaps, however, you
+               will be so good as to put it into <date when="1914-08">August</date>. I also enclose the review of <persName key="gf_norton"></persName>"<title key="sisterWind" level="a">The Sister of the Wind</title>"
+               which I promised you.</p>
+            <p>I have a lot to say to you about the situation here, but it is a little difficult to write it. I
+               don’t want to tell tales out of school, but it does seem as though you ought to know how things
+               stand. I find our little group more of less disintegrated and broken up. Violent jealousy has
+               broken out, whether because of the “<title key="anthologyDesImagistes" level="m">Imagiste Anthology</title>” and its reviews, I cannot say. Poor old
+               <persName key="ezra_pound">Ezra</persName> has got himself into a most silly movement of which "<title key="blast" level="a">Blast</title>" is the organ. I will send you a
+               copy tomorrow. He is annoyed with me because I will not finance a review for him to run. My
+               feeling is that his slanging of the public, and his indecent poems poems, have flattened out his
+               reputation, even <persName key="ford_hueffer">Hueffer</persName> tells me that Ezra is very unhappy because he is so unsuccessful. The
+               opinion of everyone is that he has nothing more to say. This would tally with your remarks to
+               me about the last batch of his poems. Poor old Ezra, I am awfully sorry for him, but he is like a
+               prickly pear to touch. My impression is that Hueffer is also in a gloomy way. I went to a lecture
+               which he gave at which there were just nine people present, counting out his wife, the man who
+               introduced him, and myself (who had to go because I dined with them.) He is on the verge of
+               nervous prostration, poor fellow. <persName key="fs_flint">Flint</persName>, they tell me, is writig very badly now, and that
+               corroborates what you told me about the last batch of things he sent you. The <persName key="richard_aldington""hilda_doolittle">Aldingtons</persName> seem
+               to be the sanest and best working of the set. Except <persName key="john_fletcher">Fletcher</persName>, who is doing some good work. The
+               craze for advertisement has swept Ezra off his feet. His Imagiste movment is petering out
+               because of the lack of vigor in his poets, and the complete indifference of the publick. Onely
+               one hundreds copies of the “Imagiste“ anthology have been sold in <placeName key="england">England</placeName>! Much less than in
+               <placeName key="usa">America</placeName>. It seems now as though it were simply a flair of young men with nothing more in
+               them. Barring Fletcher who still promises, and possibly the Aldingtons, she in her beautiful,
+               delicate tenuousness, and he rather as a good, adequate prose writer, I think there does not
+               seem to much to [sic]. The jealousy and the mercenary point of view, disgust me, rather. And I am
+               thankful that I live in America where the poets seem to be generous and large minded, even if
+               not up to this group technically. With Ezra it is the poisonof non-success brought about largely
+               by his own foolish methods, which have done it. Another funny thing is that the reviews here
+               are in such a bad way. That is the two which pretend to publish modern poetry, "<title key="egoist" level="j">The Egoist</title>"
+               and "<title key="poetryDrama" level="j">Poetry and Drama</title>." “The Egoist” is not sold at the newsstands of the largest news agency
+               on account of its articles on sex, and “Poetry and Drama” is trying to get more funds, as it is 
+               practically bankrupt. I must say the outlook of the poor poets is not bright and there is no such
+               large and interested a public for poetry here as there is in America. Within a decade, I feel sure
+               that America will have all the best poets writing in English.</p>
+            <p>I have had good luck, for “Poetry and Drama” have taken four of my poems and “The
+               Egoist” eight.</p>
+            <p>I am writing to my cousin, <persname key="fred_lowell">Fred Lowell</persname>, to send you that other hundred on the first of
+               August. And please, dear lady, put that paper on “Nationalism” and “The Coal Picker” in as soon
+               as possible.</p>
+                <closer>Very sincerely,</closer>     
+                    <signed><persName key="Amy Lowell">Amy Lowell</persName></signed>
+           <postscript>
+                <p>Of course this letter is private. I have met <persName key="allen_upward">Allen Upward</persName> and his is quite unlike what one would
+                    suppose. I think he has a screw loose about his island</p></postscript>   
+        </body>
+    </text>
+</TEI>
+

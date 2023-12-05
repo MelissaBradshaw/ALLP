@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1914-09-10"
+                    >September 10, 1914 </date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="xeh">Xiamara Hohman</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$5i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p> Letter consists of four paages of typewriter text. Second page is blank, but cuould be the back of the first page.
+                            Fist page has no typed letter head, but includes the words "Monroe" and "Poerty" in handwiring at top right of the page
+                            above the date. The final page includes the letterhead "Amy Lowell, Heath Street, Brookline Mass.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date>10 September 1914</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1914-09-10">September 10, 1914</dateline></date>
+                    <salute>Dear<persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+            <p>I enclose a check for <measure type="currency" num="60">$60</measure>. to pay for my advertisement in your <title key="poetry" level="j">magazine</title>. It brought me
+               one answer which did not materialize, so that it hardly seems worth while to pursue advertising.
+               I wish you would tell me if you ever received that paper on " <title key="nationalismInArt" level="a">Internationalism in Art</title>"
+               which I sent you the last week in <date when="1914-06">June</date>. I not only sent it, but telegraphed, and wrote to you from
+               <placeName key="england">England</placeName>, asking you if it had ever been received. I therefore ought at least to know whether you
+               received the manuscript, or whether it was lost in the mails. Truly, Harriet, this is a bit
+               unbusinesslike, for whether you received the manuscript or not, it seems very possible that you
+               received either my telegram from <placeName key="brookline">Brookline</placeName> before I sailed, or my letter from <placeName key="london">London</placeName> in regard
+               to it, and I do think you should have answered. </p>
+            <p>It is a little discouraging to wait so long before you publish my prose things. You ask me to <gap><desc>Unknown number of lines missing</desc></gap>
+                    <!-- <pb n="02"> [blank second page (possibly just the back of the first page). Missing line[s?] at the top of 
+               the third page] --> </p>
+            <pb n="03"><p>of eight months before they get into print. The point of the article was to that it come out
+               fairly near to <persnName key="louis_untermeyer">Untermeyer’s</persnName> and <persName key="james_alvord">Alvord’s</persName> articles on the same subject in "<title key="poetryDrama">Poetry and Drama</title>,”
+               and so furnish an answer and refutation to their premises. But you wait, and publish it when the
+               people have forgotten all about the other things, and circumstances have entirely changed.
+               I do not mean to find fault, but of course after waiting two months for a reply about the
+               article, I am naturally a little upset. Also, do you not think in your advertisement in the
+               <date when="1914-09">Septmber</date> number of "<title key="littelReview" level="j">The Little Review</title>" you might have included my "<title key="forsaken">Forsaken</title>" in the
+               number of poems in the caption, “have you read?” It seems to me that it was worthy of being in
+               included, considering that you included poems by <persName key="carl_sandburg">Sandburg</persName> and <persName key="orrick_johns">Johns</persName>. However that may be, a
+               child may gird at its mother, and it does not make any difference in long run, and "<title key="poaetry" level="j"> Poetry</title>" is to a
+               certain extent my mother, and I feel great loyalty and affection for it, and, it is needless to say, to
+               you. I </p>
+            <pb n="04"><p>I enclose a poem I wrote on the war, while I was in London. I do not include it in the
+               war contest poems, because I know that it has no chance whatever of getting a prize, as no one 
+               else is writing in this metre in English, I am quite certain that you would know instantly who
+               wrote it, and I feel certain that your vaunted Democracy is not so democratic as to give me a
+               prize if you thought I did not need it, when other more deserving people would lose thereby. This
+               is not democracy, but it is what most people call democracy, and I fearit is your kind. Therefore
+               I spare you the horrid necessity of a choice.</p>
+            <p>This poem has been received enthusiastically by everyone to whom I heard read it, both
+               in England and since I came home. I know it to be a good thing. I wish you would publish it in
+               your November number with the other war poems, appending a note that the poem was not
+               offered as one of the competing poems for the war prize.</p>
+            <p>I did not pay the sums you asked me to, to <persName key="ezra_pound">Ezra Pound</persName>, and to <persName key="james_stephens">James Stephens</persName>. James
+               Stephens 
+            <pb n="05"> was in <placeName key="paris">Paris</placeName>, and it was quite impossible to reach him, as difficult as it would be for
+               you, and everybody advised me against the attempt of trying to get money over to <placeName key="france">France</placeName> from
+               England. I told Ezra of your letter, and wished to give him the money at once, but he said he had
+               already written to you to send it to him by Postal Order, and he was afraid there might be some
+               mistake and he might be paid twice, so he preferred to wait until your remittance reached him. I
+               am sorry not to have been of more use to you in this matter.</p>
+            <p>I am afraid the war will do a great deal of harm to poetry on the other side of the Ocean.
+               A great many of the men there are planning to emigrate to <placeName key="america">America</placeName> when the war is over.
+               Several of the periodicals there have stopped. Now, if ever, is emphatically your chance.</p>
+            <p>Please let me hear from you as soon as possible. about the article. By the way, have you
+                heard from Richard Aldington about the new "<title key="some_imagist_poets" level="m">Imagistes Anthology</title>" which we are bringing out,
+               and which we are to bring out every year for five years? Ezra has left us, or we have left him for
+               the moment. All the rest of us are in it, and it is only Ezra’s intense desire to always run
+               everything entirely</p>
+        </body>
+    </text>
+</TEI>
+

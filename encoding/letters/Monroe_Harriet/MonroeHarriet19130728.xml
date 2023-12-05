@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1913-07-28"
+                    >July 28, 1913</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="mb">Melissa Bradshaw</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI"> <!-- this is a PDF --> </idno>
+                    </msIdentifier>
+                    <physDesc> <!-- Insert physical description here, including description of letterhead, header addresses, etc. --> 
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="london">London</placeName></settlement>
+                    <date>28 July 1913</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+            <opener><dateline><date when="1913-07-28">July 28, 1913</dateline></date>
+                <salute>My dear <persName key="harriet_monroe">Miss Monroe</persName>-</salute></opener>
+            <p>Thank you very much for the copy of "<title key="poetry" level="j">Poetry</title>" which came last week. I was much pleased at the
+               appearance of those two things of mine <!--do we know what these are?-->. How interesting the <persName key="fs_flint">Flint</persName> things were<!-- do we know what things? -->, don’t you think so?
+            <p>I also have to thank you for [the] letter of introduction to <persName key="ezra_pound">Ezra Pound</persName>. I don’t know whether you
+               have heard from him, yet; or, if you have, whether he has told you of all of his efforts [on] my behalf. I
+               sent him your note, and after some correspondence, he came here to dinner. We had a most delightful
+               evening, and it ended in his taking one of my poems to print in a group of "<orgName key="imagists">Imagistes</orgName>" in the <date when="1913-09">mid-August</date>mid-August
+               number of "<title key="egoist" level="j">The New Free Woman</title>,” and in his advising me to send another to "<title key="englishReview" level="j">The English Review </title>,”
+               saying that if they would not print it, he would. He has also arranged for me to meet <persName key="wb_yeats">Yeats</persName> this week,
+               and is also to take me to tea at the <title key="ford_hueffer">Ford Maddox Hueffer’s</title>. That he has done more than justice to your
+               letter of introduction, you see, and what especially pleases me is his evident interest in my work. Mr.
+               Pound is no flatterer, but his reticent praise is good to hear, and his occasional criticisms very much to
+               the point. He is reading me the ms. of his new book some day this week. He tells me that he and you
+               have never met. That is a pity, for he would have added to your gallery of personalities. Figure to
+               yourself a young man, arrayed as “poet,” and yet making the costume agreeable by his personal charm.
+               Figure again a sweep of conversation and youthful enthusiasm, which keeps him talking, and talking
+               delightfully, as many hours as you choose. The violence of his writings giving way to show a very thin-
+               skinned and sensitive personality. Opening out like a flower in a sympathetic circle, and I should imagine
+               shutting up like a clam in an alien atmosphere. A most delightful companion, and in personal
+               conversation, not in the least didactic, rather dreading the attitude, in fact. That he will outgrow some of
+               his theories, I feel sure. His taste is too fine to confine itself within the walls of any school, even his own.
+               He is so young that all sorts of developments may be expected, I think the chip-on-the-shoulder attitude
+               will disappear in time, it ought to.</p>
+            <p>Altogether you see [what] a pleasant road your letter has opened to me.</p>
+            <p>Of course this letter is confidential and not for publication. I have got, and looked over, all the
+               new books on poetry, and they are nothing. I told Mr. Pound about my review on <persName key="dh_lawrence">Lawrence’s</persName> Poems,
+               and that it was diametrically opposed to his. He laughed and said he would print it in his paper. But I
+               have not got it with me. I also went to see <orgName key="poetryBookshop">The Poetry Bookshop</orgName>, and a little, four or five line, description
+               of it might go well in your magazine, what do you think?</p> 
+            <p>I hope your summer is not so hot as it was when I left home, and that you are well. I leave for
+               <placeName key="paris">Paris</placeName> next week, where Mr. Pound is, I believe, to give me one or two more introductions.</p>
+            <p>Thanks to you, therefore, I am meeting just the people I wanted to see, and Believe me, with renewed gratitude,</p>
+            <closer>Very sincerely yours.    
+            <signed><persName key="Amy Lowell">Amy Lowell</persName></signed></closer>
+        </body>
+    </text>
+</TEI>
+

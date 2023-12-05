@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harrie Monroe</persName>, <date when="1912-09-07"
+                    >07 September 1912</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="mb">Melissa Bradshaw </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref="vod">Tori O'Dea</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI"> <!-- this is a PDF --> </idno>
+                    </msIdentifier>
+                    <physDesc> <!-- Insert physical description here, including description of letterhead, header addresses, etc. --> 
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="dublinNewHampshire">Dublin New Hanmpshire</placeName></settlement>
+                    <date>07 September 1912</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+            <opener><dateline><date when="1912-09-07">Sep. 7, 1912</dateline></date>
+                <salute>My dear <persName key="harriet_monroe">Miss Monroe</persName>-</salute></opener>
+            <p>I was very much interested in the announcement of "<title key="poetry" level="j">Poetry</title>" which you sent me the other
+               day, care of "<title key="atlantic" level="j">The Atlantic.</title>"</p>
+            <p>It is a most excellent undertaking, and ought to do much to foster poetry, which has a hard time
+                to get itself published, now. I enclose a check <gap><desc>[for]</desc></gap> <measure type="currency" num="25">$25.00</measure> which will do as a subscription to the
+                <title key="poetry" level="j">magazine</title>, and as a little more. Small though it is, I know that every little helps.</p>
+            <p>I shall be very glad to send you some of my work a little later, and shall hope that it will meet
+               with your approval. A volume of <title key="domeManyColouredGlass" level="m">my collected things</title> comes out <date when="1912-10">next month</date>,so I have very little on hand
+               just now.</p>
+            <closer>With best wishes for your success</closer> 
+        </body>
+    </text>
+</TEI>

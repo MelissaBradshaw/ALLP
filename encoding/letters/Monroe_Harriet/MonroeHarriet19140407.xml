@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1914-04-07"
+                    >April, 07 1914</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="mb">Melissa Bradshaw</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$3i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>This letter is two pages long. It is typed on Amy Lowell’s stationary, with the heading
+                           “Miss A. Lowell, Heath Street, Brookline, Mass.” The words “Poetry (Harriet)” are written in
+                           pencil at the top of the page</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date>07 April 1914</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+            <opener><dateline><date when="1914-04-07">April 07, 1914</dateline></date>
+                <salute>My dear <persName key="harriet_monroe">Miss Monroe</persName>:</salute></opener>    
+            <p>Let me thank you very much for this cheque of <measure type="currency" num="100">$100.00</measure>, and for your two notes, all of which
+               came this morning. I am afraid you will think me a great pig not to return this cheque as you
+               suggest, but the truth is that I like to keep my earnings and my donations separate, and also I am
+               a little stuck this month, myself, and have unfortunately arranged to spend your cheque, knowing
+               it was coming, before I received it.</p>
+            <p>I am truly sorry if this embarrasses you in any way, and I shall be very glad to send you
+                $100.00, half of what I promised, on the first of <date when="1914-05">May</date>, the balance to be paid, as agreed, on the
+               first of August.</p>
+            <p>I am sending <persName key="ezra_pound">Ezra</persName> a small sum as a wedding present, so that will help along, if you want to
+               send him anything before receiving my cheque on the first of May. I will send it to you on the
+               very first day, so that that won’t, 
+            <pb n="02">I hope,put you out very much.</p>
+            <p>I see from this cheque that you have paid me for "<title key="taleOfStarvation" level="a">A Tale of Starvation</title>," as well as the other
+               poems, for which I am most delighted and grateful, and I hope that this means that you will truly
+               publish it.</p>
+            <p>Of course you remember that in sending these poems, I stipulated that they should come out
+               before <date when="1914-10">October</date>, as I wish to incorporate them in <title key="swordBladesAndPoppySeed" level="m">my book</title> which is to be published on the first of
+               October. The October number will be all right, if you cannot get them in before.</p>
+            <p>As far as the copyright notices are concerned, we are to have the copyright notices, including
+               yours, on the reverse of the title, and the acknowledgments under the table of contents. I hope
+               that this will satisfy you.</p>
+            <p>Do you want me to review <persName key="gf_norton">Grace Fallow Norton’s</persName> new book<!-- do we know what book this is? --> for you? Don’t bother to send it,
+               if you do. I have it, and can send you a review quite easily for the <title key="poetry" level="j">May number</title>.</p>
+            <p>I hope that my delaying three weeks in sending you the money will not make a great
+               difference to you, as it does really make considerable difference to me at the moment.</p>
+        </body>
+    </text>
+</TEI>

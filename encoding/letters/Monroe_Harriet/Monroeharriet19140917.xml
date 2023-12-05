@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1914-09-17"
+                    >September 17, 1914 </date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="xeh">Xiamara Hohman</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$27i</idno>
+                    </msIdentifier>
+                    <physDesc> 
+                        <p>Letter consists of 3 pages of typerwriter text. Includes the words "Monroe" and "Poerty" 
+                           in handwiring at top of the front page above the opener. Date line appears twice at the top at of the first
+                           page as a likely result of a typewriter malfunction.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date>17 September, 1914</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1914-09-17">September 17, 1914</dateline></date>
+                    <salute>My Dear<persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+            <p>I am afraid you think me perfectly horrid not to take <persName kwy="henry_fuller">Mr. Fuller’s</persName> suggestions, but you tell 
+               me I am conceited enough to think I am as good an authority on English Grammar as any one in 
+               the world. One writer cannot know what flavour the other writers [sic] words ought to have. To 
+               use “one another” and “thus far” would immediately turn the sentences into an academic and 
+               preceiux form of language, the stilted kind which we are all trying very hard to get away from. 
+               Mr. Fuller would never make an error of taste in his own writings, which are most dignified and 
+               beautiful and in excellent proportion, but I do not admit that he, or any one else, is a good critic 
+               of other people’s prose.</p>
+            <p>You could have far more justly pounced upon the word “apter” which I think does not 
+               exist. I, myself, think the secret of good writing is to be willing to do things of that kind when the 
+               flavour requires it. At any rate, it is a liberty which I shall always take, even if I am, although, I 
+               trust, sparingly, condemned for it.</p>
+            <p><persName key="ada_russell">Mrs. Russell</persName> writes me that she had a very pleasant talk with you over the telephone, and 
+               that you asked her to come and see you. I hope that that will come off, for I know you would like 
+               each other very much.</p> 
+            <p>Please forgive my obstinacy, but after one has passed the nursery stage, one has a certain 
+               self reliance, and I am not of the kind that cares a button for authority.</p>
+            <p>I may be annoying as a contributor, but you must admit I am splendid at getting you 
+               subscriptions.</p>
+                <closer>Always very sincerely,</closer>     
+            <postscript>  
+                <p><lable>P.S.</lable> For your greater comfort let me say that I did not mean “one another,” but “each the other,” 
+               namely that <gap><desc>[illegible text]</desc></gap> inhibits the one with which it has to do, which would of course be the 
+               chemical action from which the simile is taken, not that each characteristic eliminates all the rest.</p> 
+               <p><lable>P.P.S.</lable> I do wish you had not been afraid to print that review of mine on <persName key="charles_Towne">Charles Hanson Towne’s</persName> 
+                book<!-- do we know what book this is? -->. One of <persName key="ws_braithwaite">Braithwaite’s</persName> minions has just given him a great send-off in the <title key="transcript" level="j">Transcript</title>, and it 
+               does seem a shame that no dissenting voice should be heard.</p>    
+            </postscript>             
+        </body>
+    </text>
+</TEI>
+
