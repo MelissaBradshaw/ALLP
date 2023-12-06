@@ -28,7 +28,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>Encoding assistance provided by</resp>
-                    <persName ref="sv">Shwetha Vaidyanathan</persName>
+                    <persName ref=""><!-- Insert Name --></persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -79,11 +79,11 @@
         <body>
             <div type="letter">
                 <opener><dateline><date when="1916-06-28">June 28, 1916</dateline></date>
-                    <salute>Dear <persName key="harriet_monroe">Harriet:</persName>:</salute></opener> <!--is different--->
+                    <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener> 
                 <p>I believe that I am to have my <title key="1777" level="a">“1777”</title> in your <title key="poetry" level="j">August number</title>. Do not forget to send me a proof. I think it will be a little easier if you can send it soon, because I expect to leave here about the <date when ="1916-17-07">17th of July</date>; but it really does not make any great difference if you have not got a proof by that time, only I am trying to clear up everything I can before I go to the country.</p>
                     <p>It is ages since I heard from you, and I have never thanked you for the changes you made in that little note about my lectures. It was very good of you to make them, and I am awfully obliged.</p>
                 <p>I had a nice note from <persName key="ac_henderson">Alice Henderson</persName> the other day, which I should like to answer. Would it bother you to send me her address?</p>
-                <p>My plays at <persName key ="mary_aldis">Mrs. Aldis’s</persName> have been put off until <date when="september">September</date>, owing to <persName key="bryan_lathrop">Mr. Lathrop’s</persName> death. But I believe that they are to take place sometime toward the end of that month.</p>
+                <p>My plays at <persName key ="mary_aldis">Mrs. Aldis’s</persName> have been put off until <date when="1916-09">September</date>, owing to <persName key="bryan_lathrop">Mr. Lathrop’s</persName> death. But I believe that they are to take place sometime toward the end of that month.</p>
                 <p>Are you going away this Summer? Of course, you know that <persName key="richard_aldington">Richard</persName> has been called to the colours, and is now R. Aldington, 61, 6th <placeName key ="devonshire">Devonshire</placeName> Regiment. <persName key="hilda_doolittle">Hilda</persName> is doing <title key="egoist" level= "j">"The Egoist"</title> in his absence, but it is fearfully sad, they were so happy. And I supposed an infantry private has the worst chance of all of returning.</p>
                 <p>You will be glad to hear that <title key="swordBladesAndPoppySeed" level="m">“Sword Blades”</title> has just gone into a new edition.</p>
                 
