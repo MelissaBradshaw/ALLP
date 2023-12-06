@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe </persName>, <date when="1916-04-10" 
+                    >10 April 1916 </date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="js">Jordan Smith</persName> 
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="sv">Shwetha Vaidyanathan</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="sv">Shwetha Vaidyanathan </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""><!-- Insert Name --></persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$151i</idno>
+                    </msIdentifier>
+                    <physDesc> <p>This letter is one page long. The words “Poetry (monroe)” are written in pencil in the top center of the page.</p> 
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date>"1916-07-17">17 July 1916 </date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1916-07-17">17 July 1916</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+                <p>After minute researches, the amount of the thing seems to be as follows: that <foreign xml:lang="it">“Cavaliers Servente”</foreign> is the correct form. <foreign xml:lang="it">“Cavaliere Servante”</foreign> is the colloquial form. It is so used in <persName key="lord_byron">Byron's</persName> <title key="donJuan" level ="a">“Don Juan,”</title> <date when="1823”>1823;</date>but this is merely a contraction in conversation in which for purposes of speed the final <quote type="italian">“e”</quote> of <foreign xml:lang="it">“Cavaliere”</foreign> was left out. Now, as I am dealing with the eighteenth century, it seems much more likely that the <quote type="italian">“e”</quote> remained in then. At any rate, this is the most correct form, as you can tell anyone who blames you for using it. I am much obliged to you, however, for bringing the matter to my attention, and I shall submit the case to an Italian philologist before my book is published. As I wired you, I prefer to have it stand as it is in the text.</p>
+                <p>Also, how soon do you want my review of <persName key="mary_aldis">Mrs. Aldis’s</persName> book? Will the middle of <date when="1916-08">August</date> do?</p>
+               <p>I am sorry to have given you such a lot of trouble, but if you would only leave my manuscripts as you find them, it would save you and me a great deal of bother.</p>
+                <closer>Affectionately yours,</closer>
+                </p>
+        </body>
+        <back>
+        </back>
+    </text>
+</TEI>
+
+
+
