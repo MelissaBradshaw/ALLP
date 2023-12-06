@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe </persName>, <date when="1916-07-14" 
+                    >14 July 1916 </date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="js">Jordan Smith</persName> 
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="sv">Shwetha Vaidyanathan</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="sv">Shwetha Vaidyanathan </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""><!-- Insert Name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI"> https://iiif.lib.harvard.edu/manifests/view/drs:427331885$149i</idno>
+                    </msIdentifier>
+                    <physDesc> <p>This letter is two pages long. The words “Poetry (Monroe)” are written in pencil in the top center of the first page. “H.M. - page 2” is typewritten in the top left corner of the second page. The top left corner of the first page is slightly folded inward, and the top right corner of the second page is slightly folded inward.</p> 
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --> </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date>"1916-07-14">14 July 1916</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1916-07-14">14 July 1916</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+                <p>Your suggestive letter came this morning, and I hastened to reply at once by telegram, stating that I wished the corrections made as I had indicated on <title key="1777" level="a">the proof</title>.</p>
+                <p>My dear Girl, why will you persist in believing me to be an uneducated and careless person? Do you suppose that I should ever send out a manuscript every detail of which I had not verified and arranged beforehand? The erudite <persName key="henry_fuller">Mr. Fuller</persName> and your highly-imaginative Italian sculptor are, I am sorry to say, in error in regard to <foreign xml:lang="it">“Cavaliers Servente”</foreign>. The Italian form always ends with an <quote type="english">“e”</quote> in cases of that sort: witness, <foreign xml:lang="it">“il signore”</foreign>. If you will look in the Oxford Dictionary you will find that the French is written <foreignxml:lang="fr">“Cavalier Servant”</foreign>, and the Italian <foreign xml:lang="it">“Cavaliere Servente”.</foreign></p>
+                <p><quote type="english">"Yankee Doodle"</quote> does not quite refer to the title. In one place it clearly refers to the singing; in the other it is intended to give the same feeling.</p>
+                <p>As to the details of punctuation — they do not amount to much, of course. But remember modern poets use punctuation as a part of musical notation, as a direction as to how the poem is to be read, how long the pauses should be, and in what way the voice is to be inflected. Under these circumstances you will perceive that punctuation takes on an altogether different aspect from the mechanical kind employed in printing houses. There is no manner of reason why a poet should not punctuate his things the way he wants, any more than that he should not write them as he wants. Surely you consider yourself more enlightened than the commercial editor of the illustrated magazines! But even in that case I have <pb n ="02">had <title key="century" level ="j">“The Century”</title> apologize for altering my manuscript and promptly alter it back.</p>
+                <p>Under these circumstances it does seem to me that I have a right to ask you to retain my corrections. If, however, you prefer not to print the poem as I wish it to go in, pray return it, as key <persName="ws_braithwaite">Braithwaite</persName>is quite willing to print it in his August number. And as they are already printing 3,000 copies of his paper every month, it is not such a bad place to put things. I understand perfectly the temptation of the editorial blue pencil, particularly dealing, as you so constantly do, with youthful attempts in the work of talented youths but lately come to our shores. Still it would seem that some differentiation might be made when dealing with a seasoned old lady like myself.</p>
+                <p>I am extremely sorry to hear of <persName key="william_calhoun">Mr. Calhoun’s</persName> illness. I remember him so pleasantly when I went to tea with your sister a year ago. I beg you to give her my sympathy, and I trust that by the time you receive this note he may be out of danger.</p>  
+                <closer>Affectionately yours,</closer>
+                </p>
+        </body>
+        <div type="notes">
+            <note target="#n1" resp="mb"> Lowell is referring to proofs of her poem <title key="1777" level="a">"1777,"</title> which appeared in <title key="poetry" level="j">Poetry</title>, Vol. 8, No. 5 <date when="1916-08">(August, 1916)</date>. </note>
+        </div> 
+        <back>
+        </back>
+    </text>
+</TEI>
+
