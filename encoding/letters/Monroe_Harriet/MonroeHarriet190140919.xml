@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="hariet_monroe">Hariet Monroe</persName>, <date when="1914-09-19"
+                    >September 20, 1914</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="xeh">Xiamara Hohman</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="rb">Rayne Broach</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$30i</idno>
+                    </msIdentifier>
+                    <physDesc> 
+                        <p>Letter consists of two paages of typewriter text. Letter includes the words "Monroe" and "Poerty" 
+                           in handwiring at top of the front page above the opener. Additional lines written in blue ink in Lowell's handwriting
+                           between typewriter text on the first page. A post script is written in blue ink in Lowell's handwiring at the bottom
+                           of the second page.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date> 19 September, 1914</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1914-09-19">September 19, 1914</dateline></date>
+                    <salute>Dear<persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+            <p>I enclose the new proof of "<title key="nationalismInArt" level="a">Nationalism in Art</title>" which I am sending off within the hour 
+               of having received it, down by messenger, and with a Special Delivery stamp on it.</p>
+            <p>I cannot quite remember where the last proof ended, but I fear it was with the words 
+               “artist untouched,” and in that case the beginning of the following sentence has been dropped 
+               out, as you will see by examining the proof. In case I am wrong it should read straight on from 
+               the last proof, so will you please look this up and see that it is all right? <add place="above" type="insertion" rend="blueInk">You that this 
+               proof was correct.</add> As a matter of fact, one whole word has been left out, and the punctuation has 
+               been changed in a number of places. Very often I prefer your punctuation to my original one. 
+               The semicolons which you have put in are a great addition, but in the case of the comma which I 
+               have put back into the proof, it is absolutely necessary. The sentence is “Clearly he has none of 
+               the national traits of these or any
+           <pb n="02"> other foreign, countries,” and the meaning is slightly changed 
+               unless you make it read “these countries or any other foreign countries”.
+                <closer>Always yours</closer>   
+               <p><add place="bottom" type="insertion" rend="blueInk">This accents the foreign, &amp; not make it <gap><desc>[illegible text]</desc></gap> the unaccented 
+                   composite <gap><desc>[illegible text]</desc></gap> noun which ‘foreign country’ has become.</add></p>
+            </p>
+        </body>
+    </text>
+</TEI>
+
+
