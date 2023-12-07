@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1914-11-09"
+                    >09 November 1914</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="lma">Liam Anderson</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="blw">Brianna Wright</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="blw">Brianna Wright</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date> <!-- Date of publication unknown at time of encoding -blw-->
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$50i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>This letter is one page long. It is not typed on Amy Lowell's stationery. The word "Poetry" is penciled in at the top of the first page.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This letter contains references to the following: The  <rs key="poundFeud" type="theme">Pound Feud</rs> <!-- Insert tagged subject keywords here; will link to theme-ography --></p>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline, MA</placeName></settlement>
+                    <date when="1914-11-09">09 November 1914</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName key="harriet_monroe">Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1914-11-09">Nov. 9, 1914</date></dateline><salute>My dear <persName key="harriet_monroe">Harriet <add place="above">Monroe</add><!--The addition was not in the original transcription - blw--></persName>:</salute></opener>
+                <p>Two notes from you came <date when="1914-11-09">this morning</date>. It is awfully nice of you to review <title key="swordBladesAndPoppySeeds" level="m">by(sic)<!--The sic was not in the original transcription - blw--> book</title> so soon. <title key="youAndI" level="m">Yours</title> has not come yet nor the numbers of <title key="poetry" level="j">&quot;Poetry&quot;</title> which you say were mailed on <date when="1914-10-31">October 31st</date>. and <orgName key="oldCornerBookstore">the Old Corner Book Store</orgName> reports that they have not got their numbers yet. I wish we could all make a stand against the uncertainty and slowness of Uncle Sam&apos;s mail. It is perfectly abominable. I have had so many mistakes with the complimentary copies of my book that were sent round that I know them well.</p>
+                <p>What you say about <persName key="ezra_pound">Ezra</persName> cheers me up considerably. I suppose he will get over it and I am glad he wrote you the letter he did but you are quite right about my being too sensitive and I greatly admire the way your(sic)<!--The sic was not in the original transcription - blw--> go on regardless of what they write to you. Although I am going to say such nice things in that review.</p>
+                <closer>Affectionately yours,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
