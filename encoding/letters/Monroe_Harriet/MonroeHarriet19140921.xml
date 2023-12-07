@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1914-09-21"
+                    >21 September 1914</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="xeh">Xiamara Hohman</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="blw">Brianna Wright</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="blw">Brianna Wright</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date> <!-- date of online publication unknown at time of encoding - blw -->
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$32i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>This letter is two pages long. The letter was originally written in type, with a several strikeouts and additions on the first page, and a single strikeout and addition on the second page, all in blue pen. The letter was written on Amy Lowell's stationery.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline, MA</placeName></settlement>
+                    <date when="1914-09-21">21 September 1914</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="harriet_monroe">Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1914-09-21">Sep. 21, 1914</date></dateline><salute>My dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+                <p>I apologise, but it was not because I did not read what you wrote, <del rend="strikethrough">because</del><add place="above">but</add> I read it wrong. I thought that the slip said &quot;<persName key="harriet_monroe">Harriet</persName> read this,&quot; reading <persName key="harriet_monroe">&quot;Harriet&quot;</persName> for &quot;hadn&apos;t&quot;. Indeed I always read everything you write; most carefully, <del rend="strikethrough">because</del><add>but</add> I admit I am rotten about reading hand-writing.</p>
+                <p>I did not ask you to send me back the manuscript of <title level="a">my review</title> on <persName key="gf_norton">Miss Norton&apos;s</persName> <title key="sisterWind" level="m">book</title>,<anchor xml:id="n1"/> merely the proof, so I return it exactly as it was with only two changes which you may take out if you want to<del>,</del><add>.</add> <del rend="overstrike">f</del><add>F</add>irst<del>y,</del><add>,</add> the quotation about the &quot;teak forest<del rend="strikethrough">.</del>&quot; I do think <del rend="strikethrough">it</del>is  too funny<del>.</del> <add place="above">to leave on T - | . Second,</add><!--The transcriber was unsure about this, and I am also unsure. Transcriber did not include the | character in their transcription, I have added it here. - blw--> I <del rend="strikethrough">also</del> prefer  the repetition of <persName key="gf_norton">&quot;Miss Norton&quot;</persName> in the second paragraph as a little more formal where it is used, so I have put that back. If it makes you very unhappy, why take it out. I regret your insistence upon my leaving out the last paragraph, but bow to your desire and let you leave it. <add place="right">out.</add></p>
+                <p>They have been copying my <title key="coalPicker" level="a">&quot;Coal Picker&quot;</title> in a great many papers, I see. The last one I received is the <title key="bostonAmerican" level="j">&quot;Boston American,&quot;</title> and to my great regret they never mentioned the fact that it appeared in <title key="poetry" level="j">&quot;Poetry.&quot;</title> I have written them a letter and blown them up about it.</p>
+                <p>Did I tell you that I met a <persName>man</persName> in <placeName key="london">London</placeName> who was perfectly delighted with my <title>&quot;Vers Libre and Metrical Prose&quot; article</title>? He said it told him what he had always wanted to know and had never been able to find in English.</p>
+                <p>Do read my <title key="letterFromLondon" level="a">&quot;London Letter&quot;</title> in the <date when="1914-10">October</date> <title key="littleReview" level="j">&quot;Little Review.&quot;</title> It has nothing to do with poetry, but I think it may interest you. You do not answer me about reviewing <persName key="robert_frost">Mr. Frost&apos;s</persName> <title key="northOfBoston">book</title>.</p>
+                <p>That name is <persName key="lorna_amussen">Mrs. T<del rend="strikethrough">C.</del><add place="above">heodore</add> Amussen.</persName></p>
+                <p>Please don&apos;t think I am a horrid disagreeable thing. I do take a great many of your suggestions, you know. Have you forgiven me?</p>
+                <closer>Always yours,</closer>
+            </div>
+        </body>
+        <back><note target="#n1" resp="mb">Lowell&apos;s review of Grace Fallow Norton&apos;s The Sister of the Wind was published in <a href="https://modjourn.org/issue/bdr458500/#">Poetry, Vol. 5, No. 2 (November, 1914)</a> 87-88.</note></back>
+    </text>
+</TEI>
