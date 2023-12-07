@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1914-11-21">21 November 1914</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="mcb">Mary Becker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="blw">Brianna Wright</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="blw">Brianna Wright</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date> <!-- date of publication unknown at time of encoding - blw -->
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$53i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>This letter is two pages long. The word “Poetry” is handwritten in pencil on the top of the page, with the name “Monroe” handwritten above the start of the typed text. The number 21 is written in pencil on the top right corner and circled. There is also the number 17 written and circled in the bottom left corner of the page. For the date of the letter, there is what looks like a 7 penciled in over erased text. It is unclear whether this letter was written on the 21 of November or the 27, but the date may have been changed due to the addition of the P.S. at the end of the letter.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline, MA</placeName></settlement>
+                    <date>21 November 1914</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1914-11-21">Nov. 21, 1914</date></dateline><salute>Dear <persName key="harriet_monroe">Harriet <add place="above">Monroe</add><!--The addition was not in the original transcription - blw--></persName>:</salute></opener>
+                <p>I have received <persName key="dh_lawrence">Lawrence&apos;s</persName> <title key="balladOfAnotherOphelia" level="a">&quot;Ophelia.&quot;</title> I disagree with you. I think it is one of the very best things he has done, and I agree with him that the first part could not possibly be separated from the second. I think you made a mistake not to take it. I think it is full of imagination and feeling and absolutely original.</p>
+                <p>The <persName>editor</persName><!-- not sure who the editor is - blw--> of the <title level="j">&quot;Herald&quot;</title> <!-- not sure which herald - blw --> tells me that he must shorten my review of <title key="youAndI" level="m">your book</title> which is very annoying to me because I thought I had got it within the length he allowed. I begged him to send it back to me and let me shorten it myself, but he said no, it was quite easy to do it. In case he curtails it very much I will send you a copy of what I originally wrote at the same time I send you the clipping. I rather imagine it will come out <date>next Saturday</date>, namely <date>tomorrow</date>.<!--Dates are currently unclear, the letter has "27" written over the "21" in the dateline - blw--> I will hold over this letter and see whether I can enclose it.</p>
+                <closer>Affectionately yours,</closer>
+                <postscript><label>P.S.</label>Here is the clipping which came out in the <title level="j">&quot;Herald&quot;</title> <date>this morning</date><!--Dates are currently unclear, the letter has "27" written over the "21" in the dateline - blw-->, and I enclose you a copy of the manuscript which I sent in to them. <persName>Mr. Williams</persName><!--Mr. Williams is referenced as the editor of the Boston American in Lowell's letter to Monroe on November 5th, 1914 - blw--> possesses a blue pencil which unerringly cuts out the best things [indecipherable]<!--There appears to be a smudge on the letter rendering the text prior to the word "anything" indecipherable, could potentially be the word "this" - blw--> anything one may write and the particular things one wishes left in. I am awfully sorry it did not appear as it was originally written, but I did my darndest, but you can easily see how far his version is from the one I wrote.</postscript>
+            </div>
+        </body>
+    </text>
+</TEI>
