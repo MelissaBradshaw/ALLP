@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1916-05-21"
+                    >May 21, 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="js">Jordan Smith</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="sv">Shwetha Vaidyanathan</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="sv">Shwetha Vaidyanathan</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""><!-- Insert Name --></persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI"> <!--is pdf in the dropbox--> </idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter is of two pages and is typed. In the first page, a part of the first line is cut off.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date>"1916-05-21"Sunday, May 21, 1916</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1916-05-21">Sunday,May 21,1916</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet</persName>.</salute></opener> 
+                <p>You were a trump to let me to let me correct a few slight errors in that paragraph. It seemed to me that you made me say that Imagism derived from <persName key="edgar_poe">Poe</persName> and <persName key="walt_whitman">Whitman</persName>, and, by my bankrupting telegram, you will now see <del rend="overstrike">how</del> where it did and <del rend="overstrike"> how</del> when it didn't. Your contention about the Greek Anthology is well taken, I will include it in future.</p>
+                <p>As your paragraph read, it made me consider the start- ing of <title key="poetry" level="j">"Poetry"</title> to be directly responsible for the New Movement. Of course I did not mean that, for the poets were already writing or "Poetry" would have had nothing to make its hit with- Therefor to suggest that <persName key="ezra_pound">Ezra</persName> and Co. were experimenting as early as <date when="1910">1910</date>, is beside the point; for we were all experimenting. You make me say tacitly that "Poetry" introduced all the important poets of the New Movement, whereas, as you will see from my telegram, it didn't. And I do not think it would be fair to those other editors &amp; publishers who gave us an opening, to have the paragraph as it stands. At least, as it stands, it mis-quotes me, I am rather sorry you say that I confine my discussion of Imagism <quote type="english">"Chiefly to the group represented in the Houghton-</p>
+                <pb n ="02"><p>Mifflin Anthologies”</quote> After all, who else is there? Ezra calls himself a Vorticist, &amp; he carefully did not call his Anthology Imagist. As he withdrew himself voluntarily, I don't see why you are so desirous of pushing him back. Of course, there are a great many other people writing Imagist verse. Because Imagism is a real aesthestic movement, like Impressionism. I hope there will always be Imagistic verse &amp; to a certain extent there always has been - but the little group to which I belong has banded itself together under this appellation (wrongly spelt, I know) and with the with- drawal of Ezra, has the right to be considered as the principal exponents today of these tenets, it seems to me. One thing I do beg, dear Harriet, do criticize our work when you review the new Anthology, not our differences with Ezra, which, as I have told you a hundred times, were not of our making.</p>
+                    <p><persName key="witter_bynner">Witter Bynner</persName> seems to have had a beautiful time slang- ing us in <placeName key="chicago">Chicago</placeName>. I had an interview with him in the "Tribune" Lord, how sick I am of being slanged! Nobody regrets the scizm (how do you spell it?) between the two kinds of poetry more than I do, &amp; at least I am proud to say that I have never descended to personal invection of the other camp.</p> 
+                
+                    <p>It is lovely here now, with the tulips out, &amp; the lilacs just comings I wish you could see it. <persName>Mrs Aldis</persName> is to be in these parts next week, she tells me, so I shall hear all the Chicago news-</p>
+                               
+                <closer>Affectionately Yours.</closer>
+        </body>
+    </text>
+</TEI>
+
+
