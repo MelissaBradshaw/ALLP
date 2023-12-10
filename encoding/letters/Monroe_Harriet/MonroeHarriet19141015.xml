@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1914-10-15"
+                    >15 October 1914</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="lma">Liam Anderson</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="blw">Brianna Wright</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="blw">Brianna Wright</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date> <!--date of publication unknown at time of encoding - blw-->
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$38i</idno>
+                    </msIdentifier>
+                    <physDesc> 
+                        <p>This letter is three pages long. It is typed on Amy Lowell’s stationary, with the engraved heading “Miss A. Lowell, Heath Street, Brookline, Mass.”</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <rs key="wwi" type="theme">WWI</rs><!-- Insert tagged subject keywords here; will link to theme-ography --></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline, MA</placeName></settlement>
+                    <date when="1914-10-15">15 October 1914</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="harriet_monroe">Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1914-10-15">Oct. 15, 1914</date></dateline><salute>My dear <persName key="harriet_monroe">Harriet <add place="above" type="insertion" rend="pencil">Monroe</add><!--The addition was not in the original transcription - blw--></persName>:</salute></opener>
+                <p>You surprise and distress me very much by refusing to take the <title key="bombardment">&quot;Bombardment.&quot;</title> <add place="above" type="insertion" rend="pencil">Particularly at this time when the fall of <placeName key="antwerp">Antwerp</placeName> <!-- Currently unclear on what Lowell is referring to here, will need additional annotation in the future -blw --> makes it so very [appropriate].</add><!--The addition was not in the original transcription - blw--> Naturally I supposed when you wrote and telegraphed for it in such a hurry that you fully intended to take it. <title key="bombardment">&quot;The Bombardment&quot;</title> was written after I sent you <title key="allies">The Allies”</title> the first time, and as soon as I had done it I realized that the two should never be separated. I was on the point of sending <del rend="strikethrough">it</del><add place="above" type="insertion" rend="pencil">them</add><!--The deletion was not in the original transcription - blw--> to <persName key="margaret_anderson">Margaret Anderson</persName>, who has so <del rend="strikethrough">keen</del><add place="above" type="insertion" rend="pencil">kind</add><!--The deletion was not in the original transcription - blw--> an idea of my merits as never to refuse what I send her, when your letter and telegram came, and my loyalty to <title key="poetry">&quot;Poetry&quot;</title> made me decide to give you the preference.</p>
+                    <p>A disagreeable thought has come into my mind, and I think it always better to say things right out when you feel them<add place="inline" type="insertion" rend="pencil">,</add><!--The addition was not in the original transcription - blw--> so you will pardon me if I tell you that I fear it is because of the number of pages which the two poems would take<add place="inline" type="insertion" rend="pencil">,</add><!--The addition was not in the original transcription - blw--> and the consequent size of the check which you would have to pay me<add place="inline" type="insertion" rend="pencil">,</add><!--The addition was not in the original transcription - blw--> which has determined your decision. I <pb n="2"> need not point out to you how manifestly unfair such a course would be, <del rend="strikethrough">only</del><add place="above" type="insertion" rend="pencil">as</add><!--The deletion was not in the original transcription - blw-->, it seems to me, <del rend="strikethrough">I</del>should <add place="inline" type="insertion" rend="pencil">I</add><!--The deletion was not in the original transcription - blw--> be obliged to suggest that I have already paid to <title key="poetry">your magazine</title> in gifts and advertisements more than I have ever earned from it.</p>
+                    <p><del rend="strikethrough">It seems to me that the</del><add place="above" type="insertion" rend="pencil">Surely a</add><!--The deletion was not in the original transcription - blw--> labourer is worthy of his hire. It may be a sad fact that I have so much<add place="inline" type="insertion" rend="pencil">,</add><!--The addition was not in the original transcription - blw--> and others whom you think as worthy<add place="inline" type="insertion" rend="pencil">,</add><!--The addition was not in the original transcription - blw--> so little. Life is not fair, and neither are editors. Your<add place="above" type="insertion" rend="pencil">s</add><!--The addition was not in the original transcription - blw--> will not be the first <title key="poetry">magazine</title> which has tried to dock my pay. I only ask what everyone asks, to be taken on my own merits regardless of my surroundings. It is a position you would not deny the beggar. I wish I could see so honest a democratic spirit in the world that they would not deny it to the man with enough means to live <add place="above" type="insertion" rend="pencil">up</add>on.<!--The addition was not in the original transcription - blw--></p>
+                <p>I know <title key="bombardment">&quot;The Bombardment&quot;</title> to be the best poem of the two and therefore I can conceive no reason why you should refuse to take it in except lack of space. In your original advertisement you agreed sometimes to give one poet the whole number. This, so far as I know, you have only done once<add place="inline" type="insertion" rend="pencil">.</add><!--The addition was not in the original transcription - blw--> <del rend="strikethrough">and</del><add place="above" type="insertion" rend="pencil">+</add><!--The additions/deletions here were not in the original transcription - blw--> I can assure you that <del rend="strikethrough">these two poems</del><add place="bottom" type="insertion" rend="pencil">these poems will [not sure] half of a [not sure].</add> <pb n="3"><add place="above" type="insertion" rend="pencil">They</add><!--The additions/deletions were not in the original transcription - blw--> will make a great impression on the public, particularly if they are put together, and it seems hard therefore that they should not have that opportunity.</p>
+                <p>If I am wrong in my suspicions I beg you to forgive me, but indeed you have no idea how difficult it is to be treated fairly when people know that you are not living on what you earn.</p>
+                <closer>Affectionately yours,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+
