@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1916-05-21"
+                    >May 21, 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="js">Jordan Smith</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="sv">Shwetha Vaidyanathan</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="sv">Shwetha Vaidyanathan</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""><!--Insert Name--></persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$143i</idno>
+                    </msIdentifier>
+                    <physDesc><p>This letter is two pages long. “H.M. Page 2” is typed in the top left corner of the second page.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline</placeName></settlement>
+                    <date>"1916-05-21"Sunday, May 21, 1916</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1916-05-21">Sunday,May 21,1916</dateline></date>
+                    <address>
+                        Editor,  <title key="poetry" level="j">“Poetry”</title>
+                        543 Cass Street
+                        <placeName key="chicago">Chicago</placeName>                      
+                    </address>
+                    <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener> <!--is different--->
+                <p>1912 carefully stated to be convenient official date for beginning of New Poetry because leading exponents began to publish at or about that time. <title key ="spoonRiver" level ="m">Spoon River</title> <persName key ="el_masters">(Edgar Lee Masters)</persName> <date when ="1914">1914</date>, <persName key="robert_frost">Frost’s </persName><title key="northOfBoston" level = 'a'>book</title> <placeName key ="england">England</placeName>, <date when ="1913">1913</date>. <persName key="ezra_pound">Pound</persName> from <date when="1909">1909</date> England.<persName key ="john_fletcher">Fletcher</persName> books <placeName key ="london">London</placeName> <date when ="1913">1913</date>. <persName key ="dh_lawrence">Lawrence</persName> <title key ="georgianPoetry" level ="a">Anthology Georgian poetry</title> <date when ="1912">1912</date>, first book <placeName>London</placeName> 1913. <persName>Untermeyer</persName> book <date>1913</date>. <title key ="domeManyColouredGlass" level ="m">My first book</title> <date when="1912-10">October 1912</date>, same date as <title key ="poetry" level ="j">Poetry</title>. Only poets directly introduced by Poetry in this list <persName key ="vachel_lindsay">Lindsay</persName>, <persName key="richard_aldington">Aldington</persName>, <persName key="hilda_doolittle">H.D</persName>. and <persName key="carl_sandburg">Sandburg</persName>. Your reference to <persName key ="stephen_crane">Crane</persName> and <persName key ="emily_dickinson">Dickinson</persName> therefore not pertinent. Never denied the existence of special poets prior to <date when="1912">1912</date>, but movement can be rightly considered to have become a distinct concerted move in 1912. Your starting Poetry another manifestation of this urge. Date 1912 refers to when publication started, not to individual experiment. Reference to <persName key="ezra_pound">Pound’s</persName> experiments therefore not in order, for we were all experimenting. First poem in my 1912 volume in vers libre. Your definition of new movement as defined separation from Victorian tradition excellent, but account of derivation faulty. Three main current in English literature early Nineteenth century: Romantic,<persName>Byron</persName>; ethical,<persName key="william_wordsworth">Wordsworth</persName>; modern, <persNamekey="coleridge_st">Coleridge</persName>. English literature practically divided between followers of Wordsworth and <persName>Byron</persName>.Wordsworth’s influence most marked in <placeName>America</placeName> of 19th Century, particularly in poets of <placeName>New England</placeName> group. <persName key="edgar_poe">Poe</persName> is Coleridge’s most important follow.Coleridge and Poe greatly influenced French literature. From them French symbolism sprang. Whitman almost without prototype. Might be considered admixture of Coleridge and Wordsworth influences. American poetry of new style divides into two streams, those sprung from <persName key="walt_whitman">Whitman</persName> and those sprung from French symbolistes. Imagists derive from latter. Please make this last point clear. Your paragraph does not make this quite clear. Article most interesting. Many Thanks. </p>
+                
+                <closer>Amy Lowell</closer>
+        </body>
+    </text>
+</TEI>
+
