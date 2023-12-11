@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1914-10-17">17 October 1914</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="lma">Liam Anderson</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="blw">Brianna Wright</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="blw">Brianna Wright</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date><!--Date unknown at time of encoding - blw-->
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$41i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>This letter is two pages long. It is not typed on Amy Lowell’s stationary.  The word “Poetry” is penciled in at the top of the first page. The letter is riddled with ink smudges.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: <!-- Insert tagged subject keywords here; will link to theme-ography --></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline, MA</placeName></settlement>
+                    <date when="1914-10-17">17 October 1914</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName key="harriet_monroe">Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1914-10-17">Oct. 17, 1914</date></dateline><salute>My dear <persName key="harriet_monroe">Harriet <add place="above" type="insertion" rend="pencil">Monroe</add><!--The addition was not in the original transcription - blw--></persName>:</salute></opener>
+                <p>No proof has yet arrived. I hope it will <date when="1914-10-17">this afternoon</date>. By this time, you have got my letter and will see that I was pretty sore when I wrote it. I do not think it was surprising. Your letter read “<persName key="lucy_monroe_calhoun">Lucy</persName> says we ought to have <title key="bombardment" level="a">“The Bombardment”</title> why don’t you send it on? If it must go with the other, send that too and we’ll take another squint at it.” It certainly was tantamount to saying you would take <title key="bombardment" level="a">“The Bombardment”</title> any way and would reconsider <title key="allies" level="a">“The Allies.”</title>  Certainly that was the way I construed it.</p>
+                <p>Perhaps I am a little sensitive about my position in regard to editors and my brother poets. In old days it used to be a stigma to be indigent now it is a stigma to have any money and I run up against it at every turn. I believe a real, unbiased opinion is one of the rarest things to be found in our so-called democracy.</p>
+                <p>Now I am [sentence cut off] <pb n="2"> a favor. Don’t you want to review <title key="swordBladesAndPoppySeeds" level="m">my book</title>  some time within the next two or three months? You are welcome to pitch into it as much as you want to, of course, but it will be a help to me to have it reviewed, and don’t you want me to review <title key="youAndI" level="m">yours</title>? You have to have it done “out of the family” as it were and I should like very much to say some nice things about it.</p>
+                <closer>Very sincerely yours,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
