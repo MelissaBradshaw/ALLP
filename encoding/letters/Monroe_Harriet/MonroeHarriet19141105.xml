@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1914-11-05"> 05 November 1914 </date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="lma">Liam Anderson</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="blw">Brianna Wright</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="blw">Brianna Wright</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date> <!-- date of publication unclear at time of encoding -blw -->
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$47i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>This letter is three pages long. It is not typed on Amy Lowell’s stationery.  The word “Poetry” is penciled in at the top of the first page.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: The <rs key="poundFeud" type="theme">Pound feud</rs> <!-- Insert tagged subject keywords here; will link to theme-ography --></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline, MA</placeName></settlement>
+                    <date when="1914-11-05">05 November 1914</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="harriet_monroe">Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1914-10-17">Oct. 17, 1914</date></dateline><salute>My dear <persName key="harriet_monroe">Harriet <add place="above" type="insertion" rend="pencil">Monroe</add><!--The addition was not in the original transcription - blw--></persName>:</salute></opener>
+                <p>The Literary Editor of <title key="bostonAmerican" level="j">&quot;The Boston American&quot;</title> has occasionally permitted me to write reviews. They are anonymous which is the one drawback from my point of view as when one wishes to praise a friend one wishes to have all the world know how highly one thinks of her. But <persName>Mr. Williams</persName><!-- Currently unsure of who Mr. Williams is, tagged without a key for the time being -blw --> has only one signed article in his paper and that is his own. Now it occurs to me that he may permit me to write a review of <title key="youAndI" level="m">your book</title> for him. Ever since I got your letter yesterday morning I have been trying to get hold of him by telephone and he has always been out. But I think I shall be able to round him up before very long and I trust that he will not turn down my suggestion.</p>
+                <p>The paper has a large circulation and I think it ought to be a good place. At any rate it is the only paper except <persName key="margaret_anderson">Margaret Anderson&apos;s</persName> <title key="littleReview" level="j">&quot;Little Review&quot;</title> which I write for and I think it will be better for me not to do it in a <placeName key="chicago">Chicago</placeName> paper owing <pb n="2">to being in the family, as it were, and so this seems distinctly the best arrangement. </pb>
+                <p>I am very much afraid that <persName key="ezra_pound">Ezra</persName> may try his best to injure me owing to his fury at that unfortunate advertisement. It would therefore be a great kindness to me if you could review <title key="swordBladesAndPoppySeeds" level="m">my book</title> somewhat at length as all his friends in <placeName key="england">England</placeName> see <title key="poetry" level="j">&quot;Poetry&quot;</title> and a few nice words will do a great deal toward allaying the impression which he is trying to give. Not only do his letters to me show his state of mind but <persName key="richard_aldington">Richard Aldington</persName> writes me that he is being very nasty.</p>
+                <p>Funnily enough I do not feel angry with him, merely very sad and rather disillusioned. I thought him a different man. But I do not want to obviate as much as possible the effects of his venomous pen and his still more venomous tongue on my poor little book. I am unpopular enough and misunderstood enough by the poets of other schools without having this one turn and rend me.</p>
+                <p>In contradistinction the fine loyalty and generosity of <orgName key="the_aldingtons">the Aldingtons</orgName> stands out like a shining torch.</p>
+                <p>It is ridiculous for I certainly never in[sentence cut off] his feelings and I wish I had <pb n="3">never suggested <title key="some_imagiste_poets" level="m">the anthology</title> as I certainly never would have done so had I supposed he would not come into it. However that cannot be helped now, only I beg you to give me a helping hand through this exceedingly hard moment.</p>
+                <p>The <date when="1914-11">November</date> number has not come, I am most anxious to see it.</p>
+                <closer>Affectionately yours,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
