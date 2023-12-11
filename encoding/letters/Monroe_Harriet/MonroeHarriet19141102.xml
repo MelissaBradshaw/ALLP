@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1914-11-02">02 November 1914</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="lma">Liam Anderson</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="blw">Brianna Wright</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="blw">Brianna Wright</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date> <!-- date of publication unclear at time of encoding -blw -->
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$43i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>This letter is one and a half pages long. It is not typed on Amy Lowell’s stationery.  The word “Poetry” is penciled in at the top of the first page. </p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This letter contains references to the following: The <rs key="poundFeud">Pound feud</rs>, <rs key="imagism">Imagism</rs> <!-- Insert tagged subject keywords here; will link to theme-ography --></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline, MA</placeName></settlement>
+                    <date when="1914-11-02">02 November 1914</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName key="harriet_monroe">Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1914-11-02">Nov. 02, 1914</date></dateline><salute>My dear <persName key="harriet_monroe">Harriet <add place="above" type="insertion" rend="pencil">Monroe</add><!--The addition was not in the original transcription - blw--></persName>:</salute></opener>
+                <p>Thank you very much for the check. I think it is a little hard that I have to pay for the setting up of <title key="allies" level="a">&quot;The Allies&quot;</title> when I told you all along that I wanted <title key="bombardment" level="a">&quot;The Bombardment&quot;</title> but if you feel it that way I can only bow to your decision.</p>
+                <p>I have been having an awful time with <persName key="ezra_pound">Ezra</persName> on account of a serious blunder of <orgName key="macmillan">Macmillan&apos;s</orgName> in the advertisement of <title key="swordBladesAndPoppySeeds" level="m">my book</title>. As soon as I say it I knew what trouble it would cause and cabled my regrets, but Ezra has taken it as a personal insult and has written a most abominable letter to Macmillan and a most disagreeable one to me. I wish to Heaven my publishers had not seen fit to advertise me as an imagiste, particularly as I have said in my preface that I did not belong to any school.</p>
+                <p>It is most annoying and added to an attack of ptomaine poisoning it makes me very blue. That <pb n="2">is why I telegraphed you to know if you could change the advertisement in the <date when="1914-11">November</date> number.  As you have not telegraphed the answer I suppose it is too late. </p>
+                <p>I told Macmillan to put that advertisement of my book in <title key="poetry" level="j">&quot;Poetry&quot;</title> to give you another advertisement and if I had not been so kindly affectioned Ezra would never have seen it and all would have been well.</p>
+                <closer>Affectionately yours,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
