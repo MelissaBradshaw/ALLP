@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                 <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1918-09-18"
+                    >September 18, 1918</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="sh">Sara Houska</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="jl">Jeremiah Lateef</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="jl">Jeremiah Lateef</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$219i</idno>
+                    </msIdentifier>
+                    <physDesc>This letter is one page long. The heading is “Miss Harriet Monroe, Editor “Poetry” 543 Cass Street Chicago, Illinois”. The year has a handwritten “1” before the 8, indicating it was 1918. The letter is typed on plain white paper; it is not creased.
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                      <settlement><placeName key="brookline">Brookline, MA</placeName></settlement>
+                    <date>September 18, 1918</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName key="harriet_monroe">Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+        <div type="letter">
+        <opener><dateline><date when="1918-09-18">September 18, 1918<dateline></date><salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute>
+        </opener>
+        
+<p>Thank you ever so much for your nice letter. The operation <!--Operation refers to her a surgery performed on her.--> was done last Thursday, and I am, as you see, once more able to dictate letters  but I am not able to do anything else, and I am beginning to feel as if I were nailed into bed and were never going to be able to get out of it. However, I shall certainly take your advice, for I know it is good, and sit here until all danger of overdoing is past. In fact, my doctor is a perfect old curmudgeon and refuses to let me up for at least a week more and not downstairs for an indefinite time after that. He says that he is going to have no lingering effects from this operation.</p>
+<p>I am awfully glad that you like <persName key="florence_ayscough">Florence Ayscough</persName>’s and my Chinese poems. I should have told you that of course I will correct the proof, and you can send the money to me, and all those little details, and I will divvy up with her, according to arrangements.</p>
+<p>I am getting more and more thrilled about the <title key="firFlowerTablets" level="a">book</title> that we are going to publish after the war, mostly Florence, of course, but with me to help on these renderings. I think it will be interesting.</p>
+<p>With many thanks for your solicitude,</p>
+<closer>Affectionately yours,</closer>
+</p>
+        </div>
+        </body>
+    </text>
+</TEI>
