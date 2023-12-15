@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe"> Harriet Monroe </persName>, <date when="1915-09-11"
+                    >September 11 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="jp"> Julia Paella </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$108i</idno>
+                    </msIdentifier>
+                    <physDesc> <p>This letter is one page long. The words “Poetry Monroe” are written in pencil at the top.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p></p>  
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="dublinNewHampshire">Dublin, NH</placeName></settlement>
+                    <date>September 11 1915</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type=”letter”>
+                <opener><dateline><date when="1915-09-11">September 11, 1915.</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet:&ndash;</persName></salute></opener>
+               
+                <p> I received your check for <measure type="currency" num="70"> $70</measure>. today, for which many thanks. 
+                    But I think, my dear, that it is not right. You wrote me a letter some time in the spring telling me that you had cut down 
+                    your rates, and that you could only pay me <measure type="currency" num="77">$77 </measure>for this group. At last, I think 
+                    you said <measure type="currency" num="77">$77</measure>., but my files are in <placeName key="brookline">Brookline</placeName>, and I cannot get hold of 
+                    your letter until I move down in about two weeks. I may be wrong, but my impression is that is what you offered and what I agreed to take.
+                    I wish you would look it up, and if I am wrong drop me a line to tell me so, and if I am right, just send me 
+                    a check for the extra <measure type="currency" num="7">$7</measure>. </p>
+                <p> We had a little symposium here <date when="1915-09-10"> last night</date>. <persName key="ea_robinson"> Edward [sic] Arlington Robinson,</persName>
+                    <persName key="randolph_bourne">Randolph Bourne</persName>, who writes for the <title key="newRepublic" level="j">&quote;New Republic,&quote;</title>
+                    <persName key="frothingham_eugenia">Eugenia Frothingham</persName>, and I. Bourne said that he 
+                    thought <title key="leadSoldiers" level="a">&quote;Lead Soldiers&quote;</title> and Robinson&apos;s
+                    poem stood cut above every other poem in your last number, and we each read our own to the others. It was quite a little love feast.</p>
+                <p> This is simply a supplement to <date when="1915-09-10"> yesterday&apos;s </date> letter, as I only got your letter this <date when="1915-09-11">morning.</date></p>
+                <p> Am glad you had such a nice time on your trip.</p>
+                <closer></closer>
+            </div>
+        </body>
+    </text>
+</TEI>
