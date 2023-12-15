@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe"> Harriet Monroe </persName>, <date when="1915-12-23"
+                    >December 23 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="jp"> Julia Paella </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$118i</idno>
+                    </msIdentifier>
+                    <physDesc> <p>This letter is two pages long. On the first page, the words “Poetry Monroe” are written
+                        in pencil at the top. The second page also has, typed, H.M. in the top left corner, and the date (12/23/15) 
+                        in the top right corner.</p> 
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <!--theme medical ("the nose")-->
+                </p>  
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><!-- Doesn't said a place --></settlement>
+                    <date>Dicember 23 1915</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type=”letter”>
+                <opener><dateline><date when="1915-12-23">December 23, 1915.</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet:</persName></salute></opener>
+                <p> Thank you very much for your nice letter. I am very glad indeed that <persName key="agnes_lee">Mrs. Freer</persName> is doing my book. 
+                    I know very well what an excellent person she is for the task.</p>
+                <p> I had a letter from <persName key="fs_flint">Flint</persName>  <date when="1915-12-22">yesterday</date>, in which he told me that he had sent you 
+                    another copy of the review of <title key="sixFrenchPoets" level="m">&quote;Six French Poets&quote;</title> which he had enclosed to me, and had asked you, 
+                    if you could not use it, to send it on to some other paper. It was a funny coincidence that <persName key="margaret_anderson">Margaret Anderson</persName> 
+                    had written to me that <date when="1915-12-22">very morning</date>, saying that she was at a loss to get anybody who could review it to her satisfaction, 
+                    and could I suggest anyone to her. As I knew you had already arranged for Mrs. Freer, and that the review was doubtless written, if not printed, 
+                    I wired you this morning, and enclosed Flint&apos;s review to Margaret Anderson this afternoon. I trust that my actions will meet with your approval.</p>
+                <p>I do want to get on to that Poetry supper. I don&apos;t know when I wanted to do anything so much. I have never ceased to regret that I was not at the 
+                    last one, and your suggestion that I can make a speech is almost irresistible. But I do not think there is the slightest prospect that I shall 
+                    be well enough to travel out to you by the 23rd. I am going to see the doctor again next week, and if there is any chance that he thinks the nose 
+                    can wait a while, I will let you know; but I have been having a very bad time with it for some years, and now it seems to have culminated in a condition 
+                <pb="n2">
+                    closely akin to asphyxiation, and I guess the sooner it is attended to the better. It is awfully good of you to want me, and I did hope 
+                    to get to <placeName key="chicago">Chicago</placeName> in <date when="1916-01">January,</date> but now it looks to me as 
+                    if <date when="1916-03">March</date> were a more likely time. However, if I can leave it open, that would at least give me the feeling that 
+                    there was hope.</p>
+                <p> I have written a defence of you in answer to <persName key="conrad_aiken">Aiken&apos;s</persName> article in 
+                    the <title key="poetryJournal" level="j">&quote;Poetry Journal&quote;</title> in the same paper. As Aiken published his abuse there, it 
+                    seems the proper place to reply to him. I trust you will like it. It is supposed to appear in the next number, but as the numbers are generally
+                    three months late, there seems no reason to suppose you will see it before Spring, or the public either for that matter, when they will have 
+                    forgotten all about Aiken. But it cannot be helped.</p>
+                <p>A very Merry Christmas to you, Harriet, and the best of New Years!</p>
+                <closer>Affectionately yours,</closer>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+            </div>
+        </back>
+    </text>
+</TEI>

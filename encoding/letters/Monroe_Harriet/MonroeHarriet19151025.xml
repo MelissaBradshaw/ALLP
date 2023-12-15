@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe"> Harriet Monroe </persName>, <date when="1915-10-25"
+                    >October-25-1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="jp"> Julia Paella </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="ccdvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$115i </idno>
+                    </msIdentifier>
+                    <physDesc> 
+                        <p>This letter is three pages long. On the first page, the words “Poetry Monroe” are written in pencil at the top. 
+                            The third page also has, typed, H.M. in the top left corner, and the date (10/25/15) in the top right corner, as 
+                            well as a -2- in the middle. There is also a black dot on each page near the bottom that looks like it could be 
+                            from a hole punch.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>  <!--theme poetry prizes; Helen Haire Levenson Prize; AL and RA both translating same Remy de Gourmont poems at the same time--></p>  
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><!-- Doesn't said a place --></settlement>
+                    <date>October 25 1915</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type=”letter”>
+                <opener><dateline><date when="1915-10-25">October 25, 1915.</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet:</persName></salute></opener>
+                <p> I did not for a moment wish to force myself upon your notice for an honorable mention. It never occurred to me that 
+                    I could influence your judgment; in fact, I know perfectly well that I could not, and so do you. I merely thought it would 
+                    be an agreeable way of getting out of the difficulty for me, and spoke of it accordingly. One of the things I have always 
+                    so greatly admired about you is that you &quote;gang your ane gait&quote; quite regardless of suggestions. So if you do not feel like 
+                    giving me an honorable mention, why do not do it, my Dear, that is all. </p>
+                <p> <persName key="ac_henderson">Alice Henderson</persName> writes me that she will be here <date when="1915-10-25">to-day</date> or 
+                    <date when="1915-10-26">to-morrow,</date>  and I shall be very glad indeed to see her. I am anxiously awaiting a telephone from her 
+                    to say that she has reached the town.</p>
+                <p> <persName key="john_fletcher">Fletcher</persName> has got here, as you know. He came out to see me last <!-- Last is cut out by a punch hole-->night, and among other things told 
+                    me that <persName key="richard_aldington">Richard</persName> had [sentence cut off] [given you a copy] 
+                <pb="n2">
+                    of <persName key="remy_gourmont">Remy de Courmont &aphos;s</persName> <title key="saintsParadise" level="m">&quote;aints of Paradise,&quote;</title> 
+                    telling you it was an authorized translation. I have not the slightest doubt that De Gourmont authorized <persName key="richard_aldington">Richard</persName> to translate it, 
+                    but here is an awkward position. <persName key="alfred_valette">Alfred Vallette,</persName> 
+                    who is as you know editor and manager of the <title key="mercureDeFrance" level="j"><u>Mercure de France</u></title>, 
+                    gave <orgName key="macmillan">Macmillan</orgName> permission <date when="1915">last Sprint</date> for me to use anything I pleased from any 
+                    of their publications in my forthcoming  book <title key="sixFrechPoets">&quote;Six French Poets.&quote;</title> Now I have quoted the Dedication 
+                    of the &quote;Saints of Paradise&quote; and the poems of four of the saints: Agatha, Colette, Jeanne d&aphos;Arc, and Ursula, in my text in French and 
+                    translated them with all the other translations in an appendix. I think you should know this. It may not in the least interfere  with your accepting <persName key="richard_aldington">Richard&aphos;s</persName> 
+                    translation; and I do not in the least want it to; 
+                    only as my book will be out within two weeks or so, it will prevent <title key="poetry" level="j">&quote;Poetry&quote;</title> from having the first 
+                    translation.</p>
+                <p> I have had a long struggle in my own mind between my loyalty to Richard in keeping still and letting his translation go through, 
+                    and 
+               <pb="n3">
+                    you were not getting exactly what you thought. Richard does not, of course, know what poems I am translating, so this idea of 
+                    our clashing naturally never entered his head. And please remember, if you do accept Richard&aphos;s translations, that 
+                    I do not mind at all.</p>
+                <p> I doubt very much whether Remy de Gourmont possessed the right to authorize translations. He was, I think, 
+                    a member of the <u>Mercure de France Company; but I know 
+                    that Macmillian wrote to <persName key="alfred_valette">Vallette</persName> rather than to him, although I was in communication with De Gourmont 
+                    during the time and he himself sent him his portrait for reproduction. Of course, the &quote;Saints of Paradise&quote; is not a very new book, 
+                    as it was originally published in 1898, and reprinted in <title key="divertissements" level="j"><u>Divertissement [s]</u></title> in 1914.</p> 
+                   <closer>Affectionately yours,</closer>
+            </div>
+        </body> 
+    </text>
+</TEI>
+
+

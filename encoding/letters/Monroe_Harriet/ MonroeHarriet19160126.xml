@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe"> Harriet Monroe </persName>, <date when="1916-01-26"
+                    >January 26 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="jp"> Julia Paella </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$118i</idno>
+                    </msIdentifier>
+                    <physDesc> 
+                        <p>This letter is three pages long. On the first page, the words “Poetry (Monroe)” are written
+                            in pencil at the top. The second and third pages also have, typed, H.M. with the corresponding 
+                            page number in the top left corner, and the date (1/26/16) in the top right corner. On the last page, 
+                            there is faint text on the page near the bottom. The text is large and mirrored on the opposite 
+                            side of the page, perhaps written on the other side? It reads, “BERKSHIRE LINEN U.S.A.”</p> 
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <!--theme Poetry dinner, Other's anthology boycott-->
+                </p>  
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement>></settlement>
+                    <date> January 26 1916</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type=”letter”>
+                <opener><dateline><date when="1916-01-26">January 26, 1916</date>.</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet:</persName></salute></opener>
+                <p> I cannot tell you how miserable I was, not being able to go out to <placeName key="chicago">Chicago.</placeName> 
+                    <persName key="helen_lathrop">Mrs. Lathrop&aphos;s</persName> very kind invitation came too late for me to avail myself of it. I am enclosing 
+                    a letter, which I should be very much obliged to you if you would give her.</p>
+                <p> <persName key="ada_russell">Mrs. Russell</persName> writes that you asked her to the dinner, and I am in hopes that she 
+                    will tell me all about it.I am enclosing my cheque for <measure type="currency" num="2.50">$2.50</measure> for her plate, 
+                    and only regret that it was not more and that I did not have a plate, too. I wrote Mrs. Russell a long screed of questions 
+                    to ask you, because you have been so busy lately, you Bad Thing, you have not answered anything I have been asking, and I 
+                    naturally am extremely anxious to know how you are going to represent me in your Anthology. I count a good deal on that 
+                    Anthology. I think it is going to be a good thing. <persName key="john_fletcher">Fletcher</persName> and I have removed 
+                    ourselves from the <title key="othersAnthology" level="m">&quote;Others&quote; Anthology,</title> as we did not like their 
+                    methods, and we did not want people to think they were Imagists. I think <persName key="richard_aldington">Richard Aldington</persName>
+                    has also taken himself out of it. I do not believe it stands any show to speak of, except as a freak. But that makes your 
+                    Anthology all the more important to the poets and the public, for this will show the  sincere work that is being done, 
+                    rather than the more shoddy kind.</p>
+                <p>I imagine you are only going to put into it those poems which have appeared in <title key="poetry" level="j">“Poetry.”</title>
+                    I really do  want very much to know which of mine you have chosen. </p>
+                <pb="n2">
+                <p> I also asked Mrs. Russell to see you and <persName key="mary_aldis">Mrs. Aldis</persName>, and find out if there was 
+                    any chance of my giving any talk or talks in Chicago later in <date when="1916">the year</date>, 
+                    say in <date when="1916-03">March</date> or <date when="1916-04">April.</date> I have been giving a great many lectures 
+                    here and several in <placeName key="nyc">New York,</placeName> and they have been very successful, and I am extremely 
+                    anxious to widen  my scope and include Chicago. Chicago has always been so nice to me that I do not see why they should 
+                    not greet my talks as well as New York and <placeName key="boston">Boston</placeName> have.  I suppose Mrs. Russell will 
+                    have seen you by this time, and will have told you in what the lectures consist. Some of them are talks 
+                    about the &quot;new poetry&quote; with illustrations. In others cases, I have simply been asked to read my own poems. But I 
+                    won&apos;t go into detail now, until I see what Mrs. Russell has said to you. </p>   
+                <p> Meanwhile, here is the poem that I intended to read at your dinner. It is another one of that same series of 
+                    which <title key="reaping" level="a">&quote;Reaping,&quote;</title> which you and 
+                    <persName key="el_masters">Mr. Masters</persName> like so much, was the first. I want you to publish it. Personally, 
+                    I think it is the best of that Yankee lot. It is fairly long, I know, but no longer than 
+                    <persName key="ford_hueffer">Hueffer&apos;s</persName> <title key="heaven" level="a">&quote;Heaven,&quote;</title> and 
+                    I think you ought to have it. You always print me two or three times a year, and this, it seems to me, would make a nice 
+                    Spring contribution. It will appear in my next volume, which is coming out <date when="1916">next Autumn</date>, so you 
+                    have quite a little leeway before you need publish it; but of course, as I have not bee in  your magazine since <date when="1915-09">last September,</date> 
+                    I would kind of like to be in about <date when="1916-04">April</date>, if you can manage it.</p>
+                    <p>My defense of you appears in next month&apos;s <title key="poetryJournal" level="j">&quote;Poetry Journal,&quote;</title> and 
+                <pb="n3">   
+                   I will send you a copy.</p>
+                <p> You have not answered me about <persName key="fs_flint">Flint&apos;s</persName> poems, but I suppose you are printing them 
+                    that we can use them in the Anthology to be published in April. Do be a Good Girl, and answer this sometime:</p>
+                <p>I trust your dinner was a great success, and if you will only give another next year, I will take up my abode in Chicago 
+                    weeks previously, in order to be there. </p>
+                    
+                
+                <closer>Affectionately,</closer>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+            </div>
+        </back>
+    </text>
+</TEI>
+

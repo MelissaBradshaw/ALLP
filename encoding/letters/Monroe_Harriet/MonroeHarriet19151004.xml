@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe"> Harriet Monroe </persName>, <date when="1915-10-04"
+                    >October 04 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="jp"> Julia Paella </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$112i</idno>
+                    </msIdentifier>
+                    <physDesc> 
+                        <p>This letter is three pages long. On the first page, the words “Poetry Monroe” are written in pencil at the top. 
+                        The pages are rough on the edges as if torn out of a notebook. The third page also has, typed, H.M. in the top left corner, 
+                        and the date (10/4/15) in the top right corner, as well as a -2- in the middle. There are also two black dots on each page that 
+                        look like they could be from a hole punch.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>    <!--theme poetry prizes; Helen Haire Levenson Prize--></p>  
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><!-- Doesn't said a place --></settlement>
+                    <date>October 04 1915</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type=”letter”>
+                <opener><dateline><date when="1915-10-04">October 04, 1915.</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet:</persName></salute></opener>
+                <p>Your letter of <date when="1915-10-01">October 1st</date> must have crossed with mine saying that I was withdrawing from the Levenson Prize. 
+                    I do not want to withdraw a bit, but I know there is no hope of your giving me the prize; and I think it would be very foolish for me to get it, 
+                    only I confess I should like the prestige sometime. I do not see quite how that can become got if I keep withdrawing. However, I do withdraw, of 
+                    course; and, as I said in my last letter, I should be very glad if you would give me an honorable mention for something if you feel like doing so.</p>
+                <p>As to your suggestion that I review the book on <persName key="maurice_maeterlinck">Maurice Maeterlinck</persName>, 
+                    I am afraid I must refuse since you want it for the December number. I have had to work so fearfully hard over 
+                    this <title key="sixFrenchPoets">&quote;Six French Poets&quote;</title> of mine, and the translations of the poems cited in the text have kept me at it
+                    so continuously all <date when="1915">summer</date>, that I have not been able to do as much creative work as I should like. I have a lot of 
+                    ideas all piled up in my head which only lack 
+                <pb="n2">
+                    the time for me to give expression to, and I think I must give them a chance. I have still another two or three weeks&apos; work 
+                    on the &quote;French Poets,&quote; finishing up the proof reading; and after that I mean to take a month’s complete 
+                    vacation and go off somewhere for a little rest. I have been almost steadily on the job since I returned from <placeName key="europe">Europe</placeName> 
+                    a <date when="1914">year ago</date>, so I am afraid I could not promise to do your book before <date when="1915-12">December;</date> 
+                    and as you want it at once, I rather think I had better refuse outright. I am awfully sorry that I should  fail you at this juncture and, if you care to put 
+                    it off and punish it in one of the early Spring numbers, I could probably do it for you; but I doubt  whether you would find it that convenient. </p>
+                <p>You have been awfully good to <persName key="john_fletcher">Fletcher</persName>. He has written me of all you  have done for him. Do not reproach 
+                    yourself for anything left undone, for I am sure there has been nothing. His lack of <foreign xml:lang="fr"><u>savoir faire</u></foreign> often leads 
+                    him into <foreign xml:lang="fr"><u>brusqueries</u></foreign> which make him seem less contented that he really is; and I know that he is 
+                    really very grateful for your kindness.</p>
+                <p> <add place="bottom">My work on &quote;ix French Poets&quote; has delayed </add>
+                <pb="n3"> 
+                    my article on <title key="poetry" level= "j">your magazine;</title> but you may be sure that I shall write it as soon as
+                    I can after my vacation and try to force it on <title key="newRepublic" level="j">“The New Republic.”</title></p>
+                
+            
+                <closer>Very sincerely yours,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

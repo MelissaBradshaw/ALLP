@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe"> Harriet Monroe </persName>, <date when="1916-01-29"
+                    >January 29 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="jp"> Julia Paella </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$123i</idno>
+                    </msIdentifier>
+                    <physDesc> 
+                        <p>This letter is seven pages long. On the first page, the words “Poetry (Monroe)” are written
+                            in pencil at the top. Every other page also has, typed, H.M. with the corresponding page number 
+                            in the top left corner, and the date (1/29/16) in the top right corner.
+                            On page five and six, there is faint text on the page near the top. The text is large and mirrored on the opposite 
+                            side of the page, It reads, “BERKSHIRE LINEN”, the same happens on page seven, but the text at the bottom of the page</p> 
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    
+                </p>  
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><!-- Doesn't said a place --></settlement>
+                    <date> January 29 1916</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type=”letter”>
+                <opener><dateline><date when="1916-01-29">January 29, 1916</date>.</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet:</persName></salute></opener>
+               
+                <p> <persName key="ada_russell">Mrs. Russell</persName> came home <date when="1916-01-28">yesterday</date>, with the list of my poems which you think of using in 
+                    the Anthology. I cannot say that I am fearfully pleased with them. Some of them are all right, but it seems to me that to represent me by a series of short, 
+                    fugitive pieces is hardly to represent me adequately. Mrs. Russell reports that you have a great objection to &quot;polyphonic prose,&quot;; and do not wish any 
+                    of it included in your Anthology. That you have never liked it — in fact, that you have never understood it — I am quite aware. You would like it, however, if you 
+                    heard it read aloud, or if you paid much attention to its rules. But whether you like it or not, I do not suppose that you wish the Anthology to be purely your 
+                    personal likings and dislikings. I supposed that the Anthology was to be representative of the work of <title key="poetry" level="j">&quot;Poetry&quot;</title> 
+                    during the four years that the magazine has been in existence; and what you have thought well to print in the magazine surely deserves to be printed in the Anthology. 
+                    The public has every right to demand that the Anthology be representative. The poets have a right to demand that their work be representative. Now to represent me 
+                    by a number of short poems is hardly to represent me adequately.</p>
+                <p> The two most important poems of mine which you have published are the <title key="bombardment" level="a">&quot;Bombardment&quot;</title> 
+                    and <title key="leadSoldiers" level="a">&quot;Lead Soldiers.&quot;</title> The &quot;Bombardment,&quot; as I told you before, was copied in an English paper, 
+                    with a notice to the effect that it was the best poem so far written about the war. In the English art magazine, 
+                    <title key="colour" lever="j">&quot;Colour,&quot;</title> one of the best illustrated 
+               <pb="n2">
+                    papers in England, W. Teignmouth Shore said that the &quot;Bombardment&quot; was worth a mile of the writings of special correspondents. It is a serious poem,
+                    it is a good poem, it has had a great success wherever I have read it in my lectures and readings about the country. Now I am not particularly anxious to have 
+                    you print the &quot;Bombardment.&quot; It has not only been published in &quot;Poetry,&quot; but it has been reprinted in 
+                   <title key="some_imagist_poets" level="m">&quot;Some Imagist Poets&quot;</title> and  in <persName key="ws_braithwaite">Braithwaite&apos;s</persName> Anthology 
+                   for 1915.</p>
+                <p> What I am anxious to have you print is &quot;Lead Soldier.&quot; <persName key="louis_untermeyer">Louis Untermeyer</persName> said to me the other day that he 
+                    could ont conceive of any Anthology of the last five years not containing &quot;Lead Soldiers.&quot; It was one of the criticisms he had to make of 
+                    Mr. Braithwaite and his selection. I personally think that &quot;Lead Soldiers&quot; is one of the best poems I have written, and to have it passed by,
+                    when you put in so inadequate a poem as <title key="aBlockhead" level="a">&quot;A Blockhead,&quot;</title> is a bit annoying. It is not to put me in 
+                    as I should be put in. It is not to give me the place among your contributors which I have earned.</p>
+                <p> Now if you really have a strong objection to &quot;polyphonic prose,&quote; which is certainly most unfortunate (and which, if you will pardon me, is a little 
+                    ludicrous, considering that so conservative a magazine as <title key="theCentury" level="j">&quot;The Century&quote;</title> has already printed a &quot;polyphonic&quot;
+                    poem by me, and is quite willing to print others), I shall be quite satisfied if you include <title key="turnpike" level="a">&quot;Off the Turnpike.&quot;</title> 
+                    That is a long and adequate poem, and makes me out something more than a writer of inconsiderable verse. Of course, I do not mean to give you the impression that 
+                    I think short poems are any less important than long ones, but I personally
+                <pb="n3">
+                    <!--the word personally is cut between the pages, page one end with "per-" and page 3 begin with "sonally"-->  am a dramatic poet, rather than a lyric; perhaps
+                    I might call it dramatic-lyric, and hit the truth that way. But to put in only pure lyrics from  my pen is not to give me to the public as I really am, and is to 
+                    appear to narrow your own sympathy with my work as well.</p>
+                <p> The objection to your using &quot;Off the Turnpike&quot; is that it is very long, and I personally feel that &quot;Lead Soldiers&quot; would be much better; 
+                    and if you take out several of these poems and include &quot;Lead Soldiers,&quot; I shall have the same amount of room as I now have. If, on the other hand, 
+                    you insist upon refusing a place to &quot;polyphonic prose,&quot; and if &quot;Off the Turnpike&quot; is too long for your purposes, I must ask you to take 
+                    out &quot;A Blockhead,&quot; and put in <title key="music" level="a">&quot;Music&quot;</title> instead. &quot;Music&quot; is one of the best little poems I 
+                    have ever done in <foreign xml:lang="fr"><u>vers libre,</u></foreign> and it would be a crying shame to leave it out. I prefer it to every poem on your list, 
+                    with the exception of <title key="venusTransiens" level="a">&quot;Venus Transiens,&quot;</title> <titlekey="aLady" level="a">&quot;A Lady,&quot;</title>
+                    <title key="solitaire" level="a">&quot;Solitaire,&quot;</title> and <titlekey="apology" level="a">&quot;Apology.&quot;</title> But once again I wish most 
+                    emphatically to state that I think it is doing my rank injustice not to include one of my &quot;polyphonic&quot; poems in your collection.</p>
+                <p> Now, my Dear Harriet, there is another bone I have to pick with you. You will remember that I criticized <persName key="agnes_lee">Mrs. Fereer&apos;s</persName> 
+                    article about <title key="sixFrenchPoets" level="m">&quot;Six French Poets,&quot;</title> because it contained so little criticism, so little about my book as a book, 
+                    and concerned itself merely with explanatory paragraphs about the contents. It seems that Mrs. Freer came up to Mrs. Russell at your dinner, and explained to her 
+                    that you had deleted certain paragraphs in which she had praised the book. She said she wished Mrs. Russell to tell me that she was not a fool, as her criticism made 
+                    her out to be. I am very glad she said this for, upon my soul, the review, as you put it in, hardly redounded to the credit of the author. Not that it was not 
+                    nice, but as a piece of criticism, it was so singularly inadequate. Whether it was praise or blame that you deleted, I think I have every right to be extremely 
+                    annoyed. Why did you shorten and curtail an article about a book of mine which has been recognized by such competent authorities as 
+                    Professor <persName key="william_phelps">Phelps</persName> of <orgNamekey ="yale">Yale</orgNamekey> and Professor <persName key="barrett_wendell">Wendell</persName> 
+                    of <orgName key="harvard">Harvard</orgName> to be an extremely valuable contribution to American criticism? Why should you treat me, who am one of your principal 
+                    contributors and who have in every way shown my loyalty and affection for the magazine, with such scant courtesy and interest? It does not make for a desire to 
+                    send one&apos;s best things to the magazine when one is never particularly pushed by the magazine. If you pushed nobody and showed no favouritism, no one could 
+                    complain, but you do show favouritism. You have pushed <persName key="ezra_pound"> Ezra Pound</persName> against all possible odds down the throats of your readers; 
+                    you print not only his poems in large quantities, but his opinions, which is less defensible. You <del rend="strikethrough">[ellegible]</del> <add place="inline"> boom</add>
+                    him in editorial paragraphs, and you give him enormous space to boom himself, although Ezra&apos;s work no longer ranks in importance with that of many other poets, and he has never produced 
+                    a work of criticism to compare with my book on the French poets. You do not seem to be able to feel the public pulse, and realize which poets are making 
+                    successes and which are not.</p>
+                <p> You have also pushed <persName key="lindsay_vachel">Vachel Lindsay.</persName> Your editorial paragraphs
+                <pb="n5">  
+                    in his favour have been many and fulsome. I have never receive a single editorial paragraph from you, outside the reviews of my books. Now I have no objection 
+                    whatever to your pushing either Pound of Lindsay. I like and admire much of Lindsay&apos;s work. I admire much of Pound&apos;s poetry (never his prose), but I do not 
+                    recognize myself as inferior to them in any way, nor do my publishers recognize me so. Nor do other magazines accept my poems less than they do these two men&apos;s.
+                    Why is it that you alone conspire to keep me in the back seat, when neither my own talents nor the public appreciation of them keep me there? Surely, you must 
+                    realize by this time that I am among those contributors of yours who are making good. As a personal friend, as well as as the editor of a magazine of poetry 
+                    which has published me from the beginning, it seems to me that you should help me forward, not try to keep me back. One can understand one&apos;s enemies, those who 
+                    are not in sympathy with one&apos;s work at all, doing such things; but when it comes to one&apos;s friends, then it is a little too strong and a bit hard to bear.
+                    You have never been entirely in sympathy with my work yourself, as I know quite well, but you have been very generous in printing it. I have no fault whatever 
+                    to find with the way I have been represented in your magazine, with th exception of your editorial pages. But I should like to be equally well represented in 
+                    your Anthology, and I should very much like to see a little more enthusiasm on my behalf in your prose section.</p>
+                <p> By this same mail, I am writing to <persName key="mary_aldis">Mrs. Aldis</persName> to ask her if it would be possible for me to give a talk on poetry, or a 
+                    reading, anywhere in <placeName key="chicago">Chicago,</placeName> sometime early in <date when="1916-03">March.</date> I think Mrs. Russell 
+                <pb="n6">
+                    spoke to you about this, and I should be everlastingly grateful if you could get in touch with Mrs. Aldis and between you could arrange something for me.</p>
+                <p> I am talking in <placeName key="nyc">New York</placeName> before the <orgName key="macdowellColony">MacDowell Club</orgName> on <date when="1916-02-22">February 22nd</date>, 
+                    and before the <orgName key="colonyClub">Colony Club</orgName> on <date when="1916-02-24">February 24th.</date> Each of these clubs is paying
+                    me <measure type="currency" num="50">fifty dollars</measure>, and I feel that I ought to get some compensation, as I always do when I talk anywhere in the East. 
+                    But I am perfectly willing to get the compensation myself from the tickets at the box office, if there is anybody who will undertake to get me an audience. 
+                    Here where I gave a reading as one of a series of &quot;Poet’s Readings,&quot; which were given for the benefit of 
+                    the <orgName key="internationalInstituteForGirlsInSpain">International Institute for Girls</orgName> in <placeName key="spain">Spain</placeName>, the readings a month apart, 
+                    consisting of <persName key="florence_wilkinson_evans">Mrs. Florence Wilkinson Evans,</persName> <persName key="robert_frost">Robert Frost,</persName> and myself, 
+                    I had over two hundred people at <measure type="currency" num="2">two dollars</measure> a ticket. Of course in that instance I was
+                    paid <measure type="currency" num="55">fifty dollars</measure> for my services, and the money over and above that wentto the  charity.</p>
+                <p> Now I could either hire a hall or a room in Chicago, sell the tickets, and pocket the proceeds, or I could be engaged by some club, or to help some charity; but 
+                    I am very anxious to talk in Chicago, and if you could arrange this for me in any way, I should be most grateful.</p>
+                <p> I am sorry to appear stiff or disagreeable in regard to the Anthology or the editorials, but I admit, Harriet, that I am hurt, and I am sure you do not 
+                    mean to hurt my feelings.</p> 
+                    
+                   
+                <closer>Affectionately yours,</closer>
+                
+                <p> (over) </p>
+                <pb="n7">
+                <postscript><label>P.S.</label> Mrs. Russell has just come into the room I have read her this letter, and she says it is very hard upon her to have been the 
+                    bearer of ill tidings, but that she could not help it, because Mrs. Freer sent it as a message. She asks me to tell you what a delightful time she had at the 
+                    Poetry Dinner, and how pleased she was at your asking her, in which sentiment I heartily join. Her account of it filled me with envy, hatred, and malice; 
+                    I would have given anything to have been there. Now please be a good girl, and be a little nice to me, because it is awfully discouraging the way you go on. 
+                    Even if you think &quot;Off the Turnpike&quot; too long for the Anthology, I suppose there is no doubt that you can manage it in one of your Spring numbers. 
+                    That will make me feel a little better.</postscript>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+            </div>
+        </back>
+    </text>
+</TEI>
+

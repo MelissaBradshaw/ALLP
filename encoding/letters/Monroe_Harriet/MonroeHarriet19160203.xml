@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe"> Harriet Monroe </persName>, <date when="1916-02-03"
+                    >February 02 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="jp"> Julia Paella </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$130i</idno>
+                    </msIdentifier>
+                    <physDesc> 
+                        <p>This letter is two pages long. On the first page, “Poetry (Monroe)” is written in pencil 
+                            at the top. The second page has, typed, H.M. with the corresponding page number in the top 
+                            left corner, and the date (2/3/16) in the top right corner. On both pages, 
+                            there is faint text on the page at the top. The text is large and mirrored on the opposite 
+                            side of the page, It reads, “BERKSHIRE LINEN”</p> 
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                 
+                </p>  
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><!-- Doesn't said a place --></settlement>
+                    <date> February 03 1916</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type=”letter”>
+                <opener><dateline><date when="1916-02-03">February 03, 1916</date>.</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet:</persName></salute></opener>
+                <p> I feel that I owe you an apology for suspecting you of deleting <persName key="agnes_lee">Mrs. Freer&apos;s</persName> article of 
+                    complimentary remarks about me. Naturally, after Mrs. Freer&apos;s perfectly clear message, I supposed that you had left out a great 
+                    deal that was important. As a matter of fact, on reading through her manuscript, which came this morning, I find that you only left out things 
+                    which could in no way add to the value of the review, and which, had I been editing the manuscript, I should have left out myself. Mrs. 
+                    Freer is evidently unused to criticism, as her review is merely a recapitulation of what could be found in the book; but since she wrote 
+                    it that way, I do not see what else you could do. I was very grateful to you for putting it in so promptly, and I am returning it at once. 
+                    I trust that you will understand that, had it not been for Mrs. Freer&apos;s sending me so clear and strong a message, I should never have 
+                    suspected you of leaving anything important out of the review. I imagine that what happened was that Mrs. Freer did not care very much for 
+                    her own review when she saw it in print, and probably did not quite remember what the original was, but imagined it would have been better 
+                    than what was printed. I am very glad you send it to me.</p>
+                <p> I also want to thank you very much for saying that you will change my list of poems in the Anthology 
+                <pb="n2">
+                    to suit me. I really cannot tell 
+                    you how glad <del rend="strikethrough">I glad</del> I shall be if you change your mind in regard to &quot;polyphonic prose&quot; and 
+                    allow <title key="leadSoldiers" level="a">&quot;Lead Soldiers&quot;</title> to appear in the Anthology. It would a very great kindness to 
+                    me if you could see your way to doing this.</p>
+                <p> You do not mention <title key="turnpike">&quot;Off the Turnpike,&quot;</title> but I trust that, as silence gives consent, it means that you are 
+                    going to accept it. </p>
+                <closer>Affectionately yours,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
+

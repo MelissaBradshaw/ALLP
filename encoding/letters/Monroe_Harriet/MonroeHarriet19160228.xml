@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe"> Harriet Monroe </persName>, <date when="1916-02-28"
+                    >February 28 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="jp"> Julia Paella </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$135i</idno>
+                    </msIdentifier>
+                    <physDesc> 
+                        <p>This letter is two pages long. On the first page, “Poetry (Monroe)” is written in pencil at the top. 
+                            The other page has typed H.M. with the corresponding page number in the top left corner and the date
+                            (2/28/16) in the top right corner. On the second page, there is faint text on the page at the top. 
+                            The text is large and mirrored on the opposite side of the page, It reads, “BERKSHIRE LINEN”.</p> 
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    
+                </p>  
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><!-- Doesn't said a place --></settlement>
+                    <date> February 28 1916</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type=”letter”>
+                <opener><dateline><date when="1916-02-28">February 28, 1916</date>.</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet:</persName></salute></opener>
+                <p> Your letter of <date when="1916-02-25">February 25th</date> came this morning. <measure type="currency" num="60">$60.00</measure> will 
+                    be all right for “&quote;Off the Turnpike.
+                    I see your point about bargain rates, and what you offer will be all right.</p>
+                <p> I saw in <title key="newYorkTimes" level="j">&quote;The Times&quote;</title> yesterday that 
+                    your &quot;Anthology&quote; was coming out next Wednesday, but I imagine from your letter that it 
+                    cannot be coming so soon. I think myself that <title key="patterns" level="a">&quot;Patterns&quot;</title> 
+                    and <title key="redSlippers" level="a">&quot;Red Slippers&quot;</title> would be better for me 
+                    than <title key="coalPicker" level="a">&quot;The Coal Picker&quot;</title> and <title key="aBlockhead" level="a">&quot;The Blockhead&quot;</title>
+                    &ndash; I really don&apos;t want &quot;The Blockhead&quot;, a I wrote you; and although I like &quot;The Coal Picker&quot; well enough, 
+                    still I think the other two would be better. Of course, I understand that you cannot arrange exactly; but I should like to think
+                    these two to go in, as long as you do not want <title key="leadSoldiers">&quot;Lead Soldiers&quot;</title>.</p>
+                <p> We have given you a fine send-off in &quot;<title key="some_imagist_poets" level="m">Some Imagist Poets</title> 1916&quot; &ndash; 
+                    not in the &quot;Preface&quot;, but in the acknowledgements. It did not go well in the &quot;Preface&quot;, as the &quot;Preface&quot;
+                    was entirely taken up with matters of technical discussion. But we have given you a whole sentence, and have said how you were the first 
+                    person to publish imagist poems, how you discovered and have ever since encouraged Imagist poets.</p>
+                <p> I am glad you liked my article in <title key="poetryJournal" level="j">&quot;The Poetry Journal. </title>
+                    See you soon now, and please put those two I have 
+                <pb="n2">    
+                    mentioned in your &quot;Anthology&quot;, no matter what else you leave out.  
+                </p>
+                
+                <closer>Affectionately,</closer>
+                <postscript><label>P.S.</label> <title key="sixFrenchPoets" level="m">&quot;Six French Poets&quot;</title> has gone through its first edition, 
+                    and we are hurrying out another as quickly as possible! Less than three months!!!</postscript> 
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+            </div>
+        </back>
+    </text>
+</TEI>
+

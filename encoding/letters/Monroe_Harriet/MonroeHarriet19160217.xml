@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe"> Harriet Monroe </persName>, <date when="1916-02-17"
+                    >February 17 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="jp"> Julia Paella </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$132i</idno>
+                    </msIdentifier>
+                    <physDesc> 
+                        <p>This letter is three pages long. On the first page, the words “Poetry (Monroe)” are written 
+                            in pencil at the top. The other pages have, typed, H.M. with the corresponding page number 
+                            in the top left corner, and the date (2/17/16) in the top right corner. On the third page, 
+                            there is faint text on the page near the top. The text is large and mirrored on the opposite 
+                            side of the page, perhaps written on the other side? It reads, “BERKSHIRE LINEN U.S.A.”.</p> 
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                   
+                </p>  
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><!-- Doesn't said a place --></settlement>
+                    <date> February 17 1916</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type=”letter”>
+                <opener><dateline><date when="1916-02-17">February 17, 1916</date>.</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet:</persName></salute></opener>
+                <p> Your letter has just come. In regard to the Anthology, I supposed of course that you were only taking poems that had appeared 
+                    in <title key="poetry" level="j">your magazine,</title> and I was therefore only chooding 
+                    from among the things of mine which you have published. As to your taking <title key="patterns" level="a">&quot;Patterns,&quot;</title> 
+                    I am quite willing, and I am sure <persName key="margaret_anderson">Margaret Anderson</persName> will be; but it has already been extensively 
+                    quoted, and we are putting it in our <title key="some_imagist_poets" level=",">Imagist Anthology.</title> I suppose you would not consider 
+                    <title key="bombardment" level="a">the &quot;Bombardment.&quot;</title> That was in last year&apos;s Imagist Anthology, and also 
+                    in <persName key="ws_braithwaite">Braithwaite&apos;s</persName> <title key="<!-- unclear what book this is--> " level="m" >book.</title>  As a matter of fact, I think it is 
+                    rather a good thing from the point of view of the public, to keep dinning one poem at them, for then they get used to it and it gets into 
+                    the current coin of the language. So if you wish to include &quot;Patterns&quot; and at the same time will be so kind as to put
+                    in <title key="redSlippers" level="a">&quote;Red Slippers,&quot;</title> as I should like to show some of my &quot;polyphonic,&quot; I 
+                    shall be quite satisfied.</p>
+                <p> Of course, I do not want you to not like the things you put in of  mine, any more than I want not to like them myself. I realized why 
+                    you put in “Apology” and “A Blockhead,” but it seemed to me that “Apology” alone was enough; but if you particularly 
+                    want <title key="aBlockhead" level="a">&quot;A Blockhead,&quot;</title> I have no objection; so that nos 
+                    my contribution to the Anthology will consist of: &quot;Patterns,&quot; &quot;Red Slippers,&quot;<title key="coalPicker" level="a">&quot;The Coal Picker,&quot;</title>
+                    <title key="apology" level="a">&quot;Apology,&quot;</title> <title key="painterOnSilk" level="a">&quot;The Painter on Silk,&quot;</title> 
+                    <title key="bungler" level="a">&quot;The Bungler,&quot;</title> <title key="aGift" level="a">&quot;A Gift,&quot;</title>
+                    <title key="aliens" level="a">&quot;Aliens,&quot;</title> <title key="" level="a">&quot;The Back Bay Fens&quot;</title> (this in your list appears
+                    as &quot;Fenway Park,&quot; but I find that &quot;Fenway Park&quot; is a base-ball park, so please change it to &quot;The Back Bay Fens&quot;), 
+                    <title key="mayEveningInCentralPark" level="a">&quot;May Evening in Central Park,&quot;</title> <title key="solitaire" level="a">&quot;Solitaire,&quot;</title> 
+                    <title key="aLady" level="a">&quot;A Lady,&quot;</title> and <title key="venusTrasiens" level="a">&quot;Venus Transiens,&quot;</title> &ndash;with or 
+                    without &quot;A Blockhead,&quot; as you see fit. </p>
+                <p> Now about <title key="turnpike" level="a">&quot;Off the Turnpike.&quot;</title> Your suggestion to shorten it does not meet with my approval. 
+                    I am afraid the poem must stand as it is. 
+                <pb="n2">   
+                    <persName key="mary_aldis">Mrs. Aldis</persName> is to give it as a play (together with another poem of the same series 
+                    called <title key="grocery">&quot;The Grocery,&quot;</title> which has just been accepted by <title key="masses" level="j">the &quot;Masses&quot;</title>) 
+                    sometime <date when="1916">this Spring.</date> Now here is the difficult &ndash; I do not see why you should pay me bargain rates. You have 
+                    the same number of pages in the issue, anway. Why, because you have to pay the rate of those pages to one person, should you 
+                    pay any less than if you had to pay ten? It really seems to me that you might pay me the regulation rates. And here is another 
+                    thing: hitherto I have always appeared twice a year in &quot;Poetry,&quot; and that seems to me about right, It certainly does not err on
+                    the side of too frequent an appearance. Now you have not had anything of mine in the magazines since <date when="1915-09">September</date>, and 
+                    if you keep me waiting until <date when="1916">July</date> or <date when="1916">August,</date> it is practically a year. Also I think it would be 
+                    to your advantage to have the poem on Mrs. Aldis&apos;s programmes put down as having appeared in your paper, as &quot;The Grocery&quot; will 
+                    be put down as having appeared in the &quot;Masses.&quot; <persName key="louis_untermeyer">Louis Untermeyer</persName> writes me that the 
+                    editors of the &quot;Masses&quot; like the poem so much that they are keeping other manuscripts waiting, in order to publish it 
+                    immediately, an that it is possible that they may publish it next month; and that is in a paper where I am only just beginning to appear, 
+                    whereas you, who have always published me, want to hold me back six months before putting me in.</p>
+                <p> As I told you, I am going to <placeName key="chicago">Chicago</placeName> on the <date when="1916-03-19">19th of March.</date> I hope I shall see 
+                    you at <orgName key="littleTheatre">the Little Theatre</orgName> that night, but I shall telephone you when I strike the town,
+                    because of course the lecture is incidental &ndash; what I really want to do is to talk over these things with you. We may keep the question of 
+                    &quot;Off the Turnpike&quot; to be discussed  
+               <pb="n3"> 
+                   <!-- the word discussed is cut between pages. Page number 2 has written "dis-" while page number 3 has written "cussed" -->
+                    cussed when I see you. As for the Anthology, I shall be quite satisfied with the arrangement made above, if that suits you, and from your 
+                    letter I think it will. So go ahead and do it on that basis. </p>
+                <p> I never meant to accuse you of underhandedness in regard to <persName key="agnes_lee">Mrs. Freer&apos;s</persName> article. After 
+                    reading my defence of you in the <title key="poetryJournal">&quot;Poetry Journal&quot;</title> (which, by the way, you do not mention, 
+                    and I suppose you do not like it), you will see that I have said that you were scrupulously honest as an editor. I did not consider that in 
+                    using the blue pencil on my article, as I thought you had done, you were dishonest, merely editorial; but I have already apologized for that, 
+                    and you may be quite sure that, however annoyed we get at each other in the course of business (and I think in a mild way that is inevitable), 
+                    I know you to be as truthful and honest as the Rock of Ages, one of the most so of anybody I have ever seen, and I cordially admire all you 
+                    have done, and are doing, for the cause of poetry, even if at the same time I do not think you quite rate me at my true valuation. 
+                    There is honesty for you!</p>
+                <closer>Affectionately,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe"> Harriet Monroe </persName>, <date when="1915-09-30"
+                    >September 30 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="jp"> Julia Paella </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$109i</idno>
+                    </msIdentifier>
+                    <physDesc> <p>This letter is three pages long. On the first page, the words “Poetry Monroe” are written 
+                        in pencil at the top, and in bottom left there is a number 42 sorround by a circle in pencil.
+                        The third page also has, typed, H.M. in the top left corner, and the date (9/30/15) 
+                        in the top right corner, as well as a -2- in the middle. There is also a black dot on each page that looks like it 
+                        could be from a hole punch. </p> 
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <!--theme poetry prizes-->
+                </p>  
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><!-- Doesn't said a place --></settlement>
+                    <date>September 30 1915</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type=”letter”>
+                <opener><dateline><date when="1915-09-30">September 30, 1915.</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet:</persName></salute></opener>
+                <p>I remember that this is about the time when you begin to choose your annual prize poem, and my recollection 
+                    on the subject is farther confirmed by a letter from <persName key="john_fletcher">Fletcher</persName> telling
+                    me that you are already doing so. Do you think it would be asking too much if I suggested that you 
+                    print somewhere in <title key="poetry" level="j">your magazine </title> that my poems are not submitted in 
+                    competition for the prize? You see, no matter whether you like the poems or not, you would 
+                    not consider me a suitable recipient for a cash donation; and in that I think you are quite right. But it 
+                    is a little hard for me to realize that I shall be turned down for this prize indefinitely, year after year, 
+                    not on the merits or demerits of the poems themselves, but for the contents of my bank book. Under these circumstances, 
+                    would it not be fairer to me and put me in a better position with the public if you mention that I am not 
+                    running in this competition? </p>
+                <p>><add place="bottom"> I submit this for your judgment, and don&apos;t </add>
+                <pb="n2">
+                    like the idea. But I think it would be a good idea.</p>
+                <p>Also I should be deeply grateful if you could honorably mention some of my numerous contributions to your magazine, 
+                    as you did <tittle key="coalPicker" level="a">the &quote;Coal Picker&quote;</tittle> last year. Of the shorter 
+                    poems I think <title key="venusTransiens" level="a">&quote;Venus Transiens&quote;</title> is the best you had. But I 
+                    cannot help feeling that <title key="bombardment" level="a">the &qutoe;Bombardment&quote;</title> or <title key="leadSoldiers">&quote;Lead Soldiers&quote;</title> 
+                    are seriously the better poems.</p>
+                <p>By the way, did you see my little bouquet handed to you in my review of <persName key="richard_aldington">Richard&apos;s</persName> poetry 
+                    in <title key="littleReview" level="j">“The Little Review?”</title></p>
+                <p>I expect to have <title key="sixFrenchPoets" level="m">my book</title> out in about three weeks, and I am going to make <orgName key="macmillan">Macmillan</orgName> 
+                    advertise it for two or three months in your paper, full page. I do not know whether you review books about poetry. If you do, I will send you some proof sheets, 
+                    and I should be awfully grateful if you could review it in your November or December issue. </p>
+                <P> Thank you for mentioning me in your <placeName key="sanFrancisco">San Francisco</placeName> interview. Every little helps, and I 
+                <pb="n3">
+                    for one am thoroughly discouraged and disgusted at the general situation; and you cannot think how a kind word helps. You know how it is yourself.</p>
+      
+                <closer> Affectionately yours,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
+
