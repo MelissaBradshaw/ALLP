@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="">Harriet Monroe</persName>, <date when="1917-07-14"
+                    >July 14, 1917</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="">Julia Paella</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="jl">Jeremiah Lateef</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="jl">Jeremiah Lateef</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$189i</idno>
+                    </msIdentifier>
+                    <physDesc>This letter is one page long. The words “Poetry (Monroe)” are written at the top, along with the date.
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <!-- No confirmation yet of the settlement -->
+                    <settlement><placeName key="brookline">Brookline, MA</placeName></settlement>
+                    <date>July 14, 1917</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName key="harriet_monroe">Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+        <div type="letter">
+         <opener><dateline><date when="1917-07-14">July 14, 1917.<dateline></date><salute>Dear <persName key="harriet-monroe">Harriet</persName>:</salute>
+        </opener>
+            <p>I am awfully glad that you are going to take <title key="theLandladyOfWhintonInn" level="a">“The Whinton Inn”</title>. <measure type="currency" num="75">Seventy-five dollars</measure> will do very well, and so will <date when="1917-11">November</date>. If we wait until <date when="1918-01">January</date> it seems a long way off, as my last group of poems came out in March, and I think you usually figure on having me twice a year, so do make it<date when="1917-11">November</date> if you can. I understand I am to head the number <title key="poetry" level="j">it</title> is in — <foreign xml:lang="fr">n’est-ce pas?</foreign></p>
+            <!-- Hunt's poem was not specified -->
+           <p>I am enclosing <persName key="richard_hunt">Hunt</persName><title>’s poem</title>, which <persName key="james_oppenheim">Oppenheim</persName> has just returned to me. I have read it over again, and I think it one of the most beautiful things I have read for a long time. I congratulate you on having it, and I hope on re-reading it you will commend my judgment.</p>
+            <p>I am awfully glad to hear that you are feeling so well. My eyes are a little better, but I cannot leave off my glasses for five minutes without giving a headache, and as I am not used to them, they handicap me dreadfully.</p>
+            <closer>Affectionately yours,</closer>
+            <!-- This paragraph below is not in the scanned letter but is in the transcripted one -->
+           <p>
+           <!-- (space for signature) -->
+           </p>
+           <postscript><label>P.S.</label> We have decided not to go to Dublin this summer.</postscript>
+            </p>
+            </div>
+        </body>
+    </text>
+</TEI>
