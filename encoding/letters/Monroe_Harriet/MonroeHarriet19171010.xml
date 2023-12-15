@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1917-10-10"
+                    >October 10, 20203</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="jp">Julia Paella</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="jl">Jeremiah Lateef</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="jl">Jeremiah Lateef</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$194i</idno>
+                    </msIdentifier>
+                    <physDesc>This letter is three pages long. On the fist page, the words “Poetry (Monroe)” are written at the top, along with the date. The next two pages also have the date, as well as the words “Harriet Monroe -” in the top right corner, along with the page number.
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline, MA</placeName></settlement>
+                    <date>October 10, 1917</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName key="harriet_monroe">Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+        <div type="letter">
+        <opener><dateline><date when="1917-08-04">October 10, 1917.<dateline></date><salute>Dear <persName key="harriet_monroe">Harriet</persName>:-</salute>
+        </opener>
+        <p>You are a wretched, miserable, low side-stepper. The idea of kicking me out of <title key="poetry">November issue</title> and then putting it up to me that it is for <persName key="carl_sandburg">Sandburg</persName>. Just as if I could ever get in <persName key="carl_sandburg">Sandburg</persName>’s way, the dear boy! Of course, give him November, and of course, give <persName key="ac_henderson">Alice Henderson</persName> the rest of November, and I perfectly understand about December, and give me the lead in January. But do you realize that I have not had the lead since August 1916? That is not treating me very well, do you think? Really <persName key="harriet_monroe">Harriet</persName>, I am becoming mellow, and sweet tempered, and lovely, practicing my forgiveness on you. I am always having to do it. Now do not strain me too far, there’s a good girl, but make up to me by putting this review of <persName key="louis_untermeyer">Louis Untermeyer</persName>’s <persName>book<persName> which I have nearly finished, and which I shall send to you to-morrow or next day, as soon as it is typed, into the <title>November number</title>. It is a bit long, but although I do say it, it is awfully good, and remember, you get it for nothing. If you will be sure and get it in November, (and now do not side-step again please) I will forgive you everything <foreign xml:lang="fr">de tout mon coeur</foreign>. Particularly after your handsome tribute to my <title level="a" key="bombardment">“Bombardment”</title> in your October editorial, but, Oh <persName key="harriet_monroe">Harriet</persName> I seem to remember that you gave the prize in that war number to <persName key="louise_driscoll">Miss Louise Driscoll</persName>, and I also seem to remember that, although I had withdrawn from the prize and that that was the reason I did not receive it, it would have been handsome of you to have mentioned it. This is ancient history, of course, but — another effort to forgive. Positively you strain me, my dear.</p>
+        <p>Of course, the circulation should be increased, but I do not know how, unless you change your policy of printing new posts because they are new and not because they are good. Somehow, I think the quality of your numbers could be improved, but then I do not know what manuscripts you receive. Any how, it is a thing that would have to be worked out, and not stated as a change here or there.
+        I have asked <orgName key="Macmillan">Macmillan</orgName> to advertise my new book in <title key="poetry" key="j">“Poetry,”</title> and here is another thing you can do for me. You can review it in the December number, or, better still, in the November. Will you do this and ease up on the strain? I am awfully glad <persName key="carl_sandburg">Sandburg</persName> has done a splendid thing. I greatly admire that man, and I am willing to admit that you were right about him in the beginning, and I was wrong. There is a famous admission for you.</p>
+        <p>I shall send you a presentation copy of my new book to-morrow, and probably a review copy will follow in due course.</p>
+        <p>There is a young Frenchman over here — a very interesting fellow named <persName key="pierre_deLanux">Pierre de Lanux<persName>. He was for some time secretary of <title level="j" key="nouvelleRevueFrancaise">“La Nouvelle Revue Francaise”</title> and is an intimate friend of <persName key="vildrao">Vildrao<persName>, <persName key="duhamel">Duhamel</persName> and <persName  key="jacques_copeau">Jacques Copeau</persName>, and all that crowd. He represents in <placeName key="France">France</placeName> what our crowd represents in <placeName key="England">England<placeName> namely, the youngest blood. He was sent over here by the government, trying to bring about a closer alliance between French and American authors. He has written a book on this subject, <title level="m" key="theGreatAlliance">“The Great Alliance,”</title> which is to be published this Autumn by <orgName key="Macmillan">Macmillan</orgName>. He is also translating my new book for publication in <placeName key="France">France</placeName>, all with a view to furthering his scheme of making the two countries better known to each other. He has always published one or more volumes of poems in France. One which he sent to me <title key="imaginaires" level="a">“Imaginaires”</title> seem to me quite charming. It is not particularly daring or startlingly new, but it has that lovely, half-faded tone which so much French poetry has, and in a final piece in the volume, dealing with the 
+        <!-- I added this as a theme, just in case it is important -->
+        <theme>Russo-Japanese War</theme>,
+         he shows signs of the approaching interest in history and life which this war is so surely bringing about.</p>
+        <p>A good many of these poems have been translated by an American lady, <persName>Miss Eyre</persName>, and <persName key="pierre_deLanux">M. de Lanux</persName> has written to ask me if I thought you would be interested in them. I have written him that I would speak to you about them and tell you of my interest in them. I have not seen the translations, but I am sure you would want the original poems, which I have seen, and <persName key="pierre_deLanux">M. de Lanux</persName> thins the translations very well done.</p>
+        <p>If I were you I would ask him to write some papers on the conditions of things in <placeName key="France">France</placeName>. To be sure he has done some work of that kind for <title level="j" key="dial">“The Dial,”</title> but he knows the thing so thoroughly from the inside that you could not do better than have his opinion.</p>
+        <p>I need hardly say that I hope you will like some of his poems well enough to take, and if my judgment is worth anything you surely will, but, of course, that is entirely in your hands.</p>
+        <p>I have asked <persName key="pierre_deLanux">M. de Lanux</persName> in writing to you to mention that these are the poems I have spoken to you about.</p>
+                <closure>Affectionately yours,</closure>
+            
+            </div>
+        </body>
+    </text>
+</TEI>
