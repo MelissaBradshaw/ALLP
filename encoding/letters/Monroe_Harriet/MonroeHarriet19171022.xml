@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when=""
+                    > <!-- Insert date --> </date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="jp">Julia Paella</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref=""> <!-- insert name --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="jl">Jeremiah Lateef</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$198i</idno>
+                    </msIdentifier>
+                    <physDesc>This letter is two pages long. The date is printed at the top right. In the header, above the date on the left side, there is an address reading “Miss Harriet Monroe 543 Cass Street Chicago, Ill.” The next page also has the date, as well as the words “Harriet Monroe - 2” in the top right corner to indicate page number.
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName key="brookline">Brookline, MA</placeName></settlement>
+                    <date>October 22, 1917</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName key="harriet_monroe">Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+         <div type="letter">
+        <opener><dateline><date when="1917-10-22">October 22, 1917.<dateline></date><salute>Dear <persName key="harriet_monroe">Harriet</persName>:-</salute>
+        </opener>
+            <p>             
+                Your letter of October 16th crossed with my last one, and is here this morning. Thank you very much for printing my article on <persName key="louis_untermeyer">Louis Untermeyer</persName> in the <title key="poetry">December number</title>. I really think he has points, otherwise I should not have written as I did, and I tried to make it evident that his points are in his attitude of mind rather than in his verse as actually written down. This, I think, is very important, and I could not get it into less space. It is just such distinction which helps poets to improve their work, and which gradually enlightens the public to an understanding  of poetry. That was why I was so keen about it.</p>
+               <p>Of course You must get your guarantors, still I do want a review from your pen. I had rather wait for it than have anyone else do it. You have a pleasant way of hitting the nail on the head, which is at once a comfort and a despair.</p>
+               <p>I will approve to <persName key="pierre_deLanux">M. de Lanux</persName> that he send you some poems in the original French. I have no doubt they are much better that way, but do let me explain that he is a much more important man than you think. He is an intimate friend of <persName key="jacques_copeau">Copeau</persName>’s, <persName>Vildrac</persName>’s <persName>Duhamel</persName>’s, and <persName>Jules Romain</persName>’s. He was secretary to <title title="nouvelleRevueFrancaise" level="j">“La Nouvelle Revus Francaise”</title> for a long time when <persName key="jacques_copeau">Coupeau</persName> was the editor. In other words, he is a close friend of all the Frenchmen whom <persName key="ezra_pound">Ezra Pound</persName> admires and knows slightly. In having his write for your paper you get an authoritative statement on the modern French school. As to his writing on the same subject for two Chicago papers, it is inconceivable to my mind that he cannot write upon the subject of poetry without duplicating his article <pb n="2"/>and why should he not write for two Chicago papers? I write for you and <title key="dial" level="j">“The Dial”</title> myself. I am doing <persName key="wm_patterson">Dr. Patterson</persName>’s book for them very shortly, and also the <title key="news">“News”</title> has asked me to write for them, and although I have told them that I feared I lacked the time they are good enough to leave the offer open. I advise you to cling on to <persName key="pierre_deLanux">Lanux</persName>. I think you will find him a good move.</p>
+               <closure>Affectionately yours,</closure>
+           
+            </div>
+        </body>
+    </text>
+</TEI>
