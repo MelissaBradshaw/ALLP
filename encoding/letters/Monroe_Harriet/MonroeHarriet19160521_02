@@ -46,8 +46,8 @@
                     <msIdentifier>
                         <institution>Harvard College Library</institution>
                         <repository>Houghton Library Repository</repository>
-                        <collection><!-->Amy Lowell Additional Material *2005M-32 (unprocess)<--></collection>
-                        <idno type="URI"> <!--is pdf in the dropbox--> </idno>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="Houghton"> 2005M-32 Box 8</idno>
                     </msIdentifier>
                     <physDesc><p>This letter is two pages long.  It is written in Amy Lowell’s stationery. 
                         It has an engraving on the left upper corner, the sentence is cut, and it is only visible: “Brookline, Mass.”</p>
