@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1915-03-26"
+               > Mar. 26, 1915</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="eb"> Elizabeth Boarini</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref=""> <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="fo"> Felix Oke </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$77i</idno>
+               </msIdentifier>
+               <physDesc> <p>This is a two page, typewritten letter with the words “Poetry” and “Monroe” penciled in at the top left corner of the page. The letter has no rips or tears in throughout the pages.</p> 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+            <correspAction type=”sent”>
+               <persName>Amy Lowell</persName>
+               <settlement><placeName key="brookline">Brookline</placeName></settlement>
+               <date>1915-03-26</date>
+            </correspAction>
+            <correspAction type=”received”>
+               <persName>Harriet Monroe</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type=”letter”>
+            <opener><dateline><date when="1915-01-19">Mar. 26, 1915.</dateline></date>
+               <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+           <p>Your letter has come, and I am much amused to read the program of <persName key="john_carpenter">Mr. Carpenter’s</persName> <title key="symphony">Symphony.</title> I am afraid I have no pull in getting it performed. <persName>Mr. Higginson</persName> and <persName>Dr. Muck</persName> arrange that between them, and I do not think they are either of them very open to suggestion, so I am afraid I cannot help you there, but doubtless Mr. Carpenter’s Symphony will get a performance on its own merits before long.</p>
+<p>It was very nice of you to get my letter into the <title key="poetry" level="j">April number.</title> It was not so much that I wanted to get it in, as that I felt I ought to get it in. You see it gives me a certain amount of pull to be known as the editor of that <title key="some_imagist_poets">“Anthology”,</title> and I felt I ought to disavow it as soon as possible out of fairness to the others.</p>
+<p>I am sorry the advertisement for <title key="egoist" level="j">“The Egoist”</title> got there late. It was not my fault but the fault of the mail. I did not receive it in time, which is too bad. I suppose <persName key="harriet_weaver">Miss Weaver</persName> will be furious with me, but then if she had paid a little more attention to her steamers, she would have seen that it was a very risky thing to send it to me.</p>
+<p>That <title key="some_imagist_poets" level="m">Imagist</title> number of “The Egoist” is going to be very good I think. You ought to take notice of it in your editorials.</p>
+<p>I wanted to ask you to let me review <persName key="john_fletcher">Fletcher’s</persName> book for you, but as he has just given me such a send-off, I was afraid it would look like a trade, so I have asked <persName key="margaret_anderson">Margaret Anderson</persName> to let me review it for her instead.</p>
+<p>In the current number of “The Egoist” there is a remarkable poem by <persName key="paul_fort">Paul Fort</persName> called <title key="">“Le Chant des Anglais”.</title> As you do not ever reprint things in “Poetry” could not you bring it in  an editorial somehow and comment on it. “The Egoist” has such a small circulation that it will never be seen unless you mention it. I read it yesterday in my last lecture, which was on Paul Fort with the result that most of my audience were in tears.</p>
+<p>I wish I could see you. Aren’t you coming east.</p>
+            <closer>Always affectionately,</closer>
+         </div>
+      </body>
+   </text>
+</TEI>
