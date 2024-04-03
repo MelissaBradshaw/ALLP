@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1915-01-15"
+               > Jan. 15, 1915</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="mb"> Mary Becker</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref=""> <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="fo"> Felix Oke </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://www.dropbox.com/sh/srmpbyqvqttliqe/AACtYghtOR7IN4Hedk6J64Nla/Monroe%</idno>
+               </msIdentifier>
+               <physDesc> <p>This letter is one pagelong. It is typed on stationerythat says “Sevenels Brookline.” On the leftupper corner is penciled in two diagonal lines (right bottom going up to the left) “Jan 20 1915 Ans. longhand H.[cut word]”</p> 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+            <correspAction type=”sent”>
+               <persName>Amy Lowell</persName>
+               <settlement><placeName key="brookline">Brookline</placeName></settlement>
+               <date>1915-01-13</date>
+            </correspAction>
+            <correspAction type=”received”>
+               <persName>Harriet Monroe</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type=”letter”>
+            <opener><dateline><date when="1915-01-15">Jan. 15, 1915.</dateline></date>
+               <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+           <p>I think you ought to know that <persName key="ezra_pound">Ezra</persName> has just written a long, libelous article for <title key="egoist" level="j">“The Egoist”</title> on <orgName key="houghton_mifflin">Macmillan’s,</orgName> dragging you &amp me into it. <persName key="richard_aldington">Richard Aldington</persName> had to tell the head editor, <persName key="harriet_weaver">Miss Weaver</persName>, that he would resign his editorship if it appeared. So it was suppressed. Richard says that Ezra [he] gas (sic) now sent it to Macmillan’s, &amp I am warning them about it. That he should have done such a thing to you, who have shown him nothing but kindness is outrageous. You will know best what to do, or nothing, nothing I imagine, since <persName key="ec_marsh">Mr Marsh</persName> tells me over the telephone that he has not yet received the article. Still I felt you ought to know this, as <title key="poetry" level="j">“Poetry”</title> has championed him so much-I do not want in any sense to “get back” at Ezra, but I care very much for “Poetry” &amp you are my friend, so I thought I ought to tell you-</p>
+
+            <closer>Yours affectionately,</closer>
+                <persName key="Amy Lowell">Amy Lowell</persName>
+         </div>
+      </body>
+   </text>
+</TEI>
