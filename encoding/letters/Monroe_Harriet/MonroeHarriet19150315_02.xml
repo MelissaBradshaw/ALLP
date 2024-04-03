@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1915-03-15"
+               > Mar. 15, 1915</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="eb"> Elizabeth Boarini</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref=""> <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="fo"> Felix Oke </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$73i</idno>
+               </msIdentifier>
+               <physDesc> <p>This is a two page letter with no rips or tears throughout the pages. It has the word “Poetry” at the top left corner of the page with “Monroe” written underneath in pencil.</p> 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+            <correspAction type=”sent”>
+               <persName>Amy Lowell</persName>
+               <settlement><placeName key="brookline">Brookline</placeName></settlement>
+               <date>1915-03-15</date>
+            </correspAction>
+            <correspAction type=”received”>
+               <persName>Harriet Monroe</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type=”letter”>
+            <opener><dateline><date when="1915-01-19">Mar. 15, 1915.</dateline></date>
+               <salute>My dear Miss <persName key="harriet_monroe">Monroe</persName>:</salute></opener>
+           <p>I am enclosing the proofs corrected. I am perfectly delighted to find that <title key="redSlippers" level="a">“Red Slippers”</title> is to be inserted. That gratifies me very much and remove  my imbittered feelings. <persName key="john_fletcher">Fletcher’s</persName> articles and my poems are certainly a very handsome tribute to me  in one number.</p>
+<p>You made rather an unfortunate mistake in you <title key="poetry" level="j">March number</title> by mentioning me as the editor of <title key="some_imagist_poets" level="m">“Some Imagist Poets”.</title> I thought I had carefully explained to you that there was no editor. We all chose our own poems. May I ask you to publish the enclosed letter in your <title key="poetry" level="j">April number,</title> as I think it only fair to the rest of the group not to give any one the impression that I sat in judgment on their verses. I am sure you will publish this, as recall your well-meant but unfortunate note is liable to embroil me severely with the other poets in the volume, and they would be quite right to feel this way had the note been inspired by me, as some of them may very well think.</p> 
+<p> As to your remarks about my feelings in regard to <persName key="ezra_pound">Ezra’s</persName> not being in the <title key="some_imagist_poets" level="m">Anthology,</title> they shall pass as far as the public is concerned, but personally I had rather you had left the matter unmentioned, as this will give Ezra the feeling that I am whining for him, which I am very far from doing. However, just publish the letter as it stands, there’s a good girl, and I have done all I can to put myself straight. These Poets are touchy people, and not for a moment would I have them think that I arrogated to  myself a position which was not mine.</p>
+            <closer>Afectionately yours,</closer>
+         </div>
+      </body>
+   </text>
+</TEI>
