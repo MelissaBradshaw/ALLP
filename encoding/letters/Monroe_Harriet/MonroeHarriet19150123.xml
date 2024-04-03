@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1915-01-23"
+               > Jan. 23, 1915</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="mb"> Mary Becker</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref=""> <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="fo"> Felix Oke </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$66i</idno>
+               </msIdentifier>
+               <physDesc> <p>This letter is four pages. On the top of the first page, the word “Poetry” is handwritten at the top of the page, with the word “Monroe” written directly beneath it.</p> 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+            <correspAction type=”sent”>
+               <persName>Amy Lowell</persName>
+               <settlement><placeName key="brookline">Brookline</placeName></settlement>
+               <date>1915-01-23</date>
+            </correspAction>
+            <correspAction type=”received”>
+               <persName>Harriet Monroe</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type=”letter”>
+            <opener><dateline><date when="1915-01-19">Jan. 23, 1915.</dateline></date>
+               <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+           <p>I sent you a telegram yesterday, because I thought it only fair to <persName key="richard_aldington">Richard Aldington</persName> to disabuse your mind of his ever having done anything so underhand as to send <persName key="ezra_pound">Ezra’s</persName> article to <orgName key="houghton_mifflin">Macmillan.</orgName> It was Ezra himself, if it was ever done, for it may have been a huge bluff to frighten Richard Aldington when he prevented the article appearing in <title key="egoist" level="j">“The Egoist.”</title></p>
+<p>It is always a great mistake to warn people that other people are not treating them fairly. I should have known better than to have undertaken [word cut off ] thankless a role. As I felt that you had done a great deal for Ezra, that the circulation of your paper had suffered somewhat through your championing him, although I highly approved of it and should have done exactly what you did in your place, I did think you ought to know that he is not very reliable in his personal relations. </p>
+<p>As to Richard’s <title key="slam" level="a">“slam”</title> in “The Egoist” as you call it – believe me, <persName key="harriet_monroe">Harriet,</persName> you have not been here and you do not know the attitude of these young men to poetry in rhyme &amp meter. I quite  agree with you that their attitude is narrow and idiotic as far as damning out everything in rhyme and metre is concerned. Richard laid me out in far more violent words than he laid you out for <title key="maxBreuck" level="a">“Max Breuck;”</title> and one can hardly blame a person for his predilections. Richard is young and desperately honest; his sympathies run between high, close banks, and it is quite evident that he did not like your book very much; but I hardly felt that you could call it a “slam.” In fact, considering his feelings in regard to the known  tenets of poetry which he vigorously and one-ideadly uphold, I think he said very little. And if you think this courteous and gentle side-stepping of the question is anything like the way that Ezra writes when he is moved to anger, you have certainly read his criticisms with a friendly eye and have never dipped in to the venomous pages of <title key="balst" level="j">“Blast.”</title> Ezra’s criticism barely escapes being open for a legal libel case. In fact, I know one instance in <placeName key="england">England</placeName> where he opened himself to severe punishment at the hands of the law, had the person in question chosen to pursue him with the retribution he certainly deserved. </p>
+<p>I do not wish to champion Richard and run down Ezra. Richard’s attitude in regard to your poetry, and your attitude in regard to his criticism are between you and him; but I know you both so well that I cannot bear to have you go off with a misunderstanding about his character. I have known him for some time and under most trying circumstances. He is honest to a fault, as you see, loyal, sympathetic, and honourable. And it seems to me it is an advantage to know one’s friends from one’s foes in editing as well as in other things.</p>
+<p>Of course I never expected you  to do anything about the article, and it would be the greatest mistake in the world for you to quarrel with Ezra and lose either his contributions, his contributors, or his interest. I merely wanted to warn you to keep your eyes open. You remember he “did” you a year ago about the prize, and got the money himself by what I cannot help thinking was a trick; and just wanted to show you what kind of person  he is and that, while keeping on good terms with him professionally, you should be always on the lookout to be sure that he is not up to something prejudicial to your interests. But, as I said before, I ought not to have done it at all. You naturally put it down to my jealousy, which I assure you it is not. But it is done now, and was done with the best intentions in the world; so forgive me for interfering.</p>
+            <closer>Affectionately,</closer>
+         </div>
+      </body>
+   </text>
+</TEI>
