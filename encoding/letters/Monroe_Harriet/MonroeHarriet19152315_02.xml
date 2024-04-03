@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1915-03-23"
+               > Mar. 23, 1915</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="eb"> Elizabeth Boarini</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref=""> <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="fo"> Felix Oke </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$76i</idno>
+               </msIdentifier>
+               <physDesc> <p>This is a one page, typewritten letter with “Poetry” and “Monroe” penciled in at the top left corner of the page. There is an ink line running through some of the words at the bottom right corner of the letter</p> 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+            <correspAction type=”sent”>
+               <persName>Amy Lowell</persName>
+               <settlement><placeName key="brookline">Brookline</placeName></settlement>
+               <date>1915-03-23</date>
+            </correspAction>
+            <correspAction type=”received”>
+               <persName>Harriet Monroe</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type=”letter”>
+            <opener><dateline><date when="1915-01-19">Mar. 23, 1915.</dateline></date>
+               <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+           <p>I am enclosing the advertisement for <title key="egoist" level="j">“The Egoist:</title> which <persName key="john_fletcher">Miss Weaver</persName> sent to me and asked me to forward you. She said you would understand, and it was all right.</p>
+<p>By the way, I thought two of <persName key="ezra_pound">Ezra’s</persName> poems in your <title key="poetry" level="j">March number</title> particularly <title key="good" level="a">good: the young men riding horses and the chess game.</title></p> 
+<p> As Spring comes around again I remember the pleasant visit I had from you last May. I wish you would come again, for I see no chance of my getting out to <placeName key="chicago">Chicago</placeName> again this Spring.</p>
+            <closer>Afectionately yours,</closer>
+         </div>
+      </body>
+   </text>
+</TEI>
