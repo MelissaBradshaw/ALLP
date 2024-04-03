@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1915-01-13"
+               > Jan. 01, 1915</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="mb"> Mary Becker</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref=""> <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="fo"> Felix Oke </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$56i</idno>
+               </msIdentifier>
+               <physDesc> <p>This letter is five pages. On the top of the first page, the word “Poetry” is handwritten, with the word <persName key="harriet_monroe"> “Monroe” </persName> handwritten just below it.</p> 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+            <correspAction type=”sent”>
+               <persName>Amy Lowell</persName>
+               <settlement><placeName key="brookline">Brookline</placeName></settlement>
+               <date>1915-01-13</date>
+            </correspAction>
+            <correspAction type=”received”>
+               <persName>Harriet Monroe</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type=”letter”>
+            <opener><dateline><date when="1915-01-13">Jan. 13, 1915.</dateline></date>
+               <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+           <p>I want to tell you again what a delightful time you gave me in <placeName key="chicago">Chicago,</placeName> and what a great pleasure it was to see you again. I wish I could get to your poets’ party whenever it meets. As I have said before, <placeName key="chicago">Chicago</placeName>is the only place to live.</p>
+<p>I am afraid I’ve got a blow for you. I have decided to leave in the last part of <title key="mayEveningInCentralPark" level="a">“May Evening in Central Park.”</title> <persName key="ada_russell">Mrs. Russell</persName> and I have read it over several times and, although we see your point perfectly, to stop at the end of the first page makes a different poem of it; and the poem I mean to write only appears when the last part is left in; so please forgive me and print it as it is.</p>
+<p>And here is another sort of a blow for you not for us. I have just signed the contract with <orgName key="houghton_mifflin">Houghton &amp; Mifflin</orgName> for our <title key="anthology" level="m">Anthology</title>, and they have contracted for it for three years, making it an annual and this being the first year. Now my <title key="venusTransiens" level="a">“Venus Transiens”</title> which you bought last spring  is one of the poems in my group. <persName key="ferris_greenslet">Mr. Greenslet</persName> wishes to publish the volume in the middle of March; and if you do not give me my group until the <title key="poetry" level="j">May or June number,</title> I shall be up a tree about this poem. The only other one in the group which you have is <title key="solitaire" level="a">“Solitaire”</title> which you took the other day, and that also we included. Now what can we do about this? Could you let me have my group earlier, or would you rather print these poems separately and take two others for the group, delaying the group perhaps until <title key="poetry" level="j">June or July</title> to suit your convenience? I shall be very much grieved if I cannot include these two poems among the seven I am allowed to have in the Anthology, as I consider them two of the very best I have done. But of course I realize perfectly that you own them, and if you choose to hold them I cannot use them. When we made out the group in <placeName key="london">London</placeName>, I thought you would surely use “Venus Transiens” before March; and when you took “Solitaire” the other day, I entirely forgot that we had included it. It is very difficult to make changes in the group prepared for the Anthology, as I cannot do alone;  everything has to be agreed to by the rest of us in London. Greenslet wants to set up the book at once, so there would be no time to substitute anything else, because I could not get an answer back from London. Therefore, will you be an angel and work out some sort of method by which you could print these two poems in either your <title key="poetry" level="j">February or your March number</title>, for the book certainly will not appear before the middle or the end of <title key="poetry" level="j">March?</title></p>
+<p>Some of the other poets represented have poems in your hands, and I will give you a list of the ones which we are printing of each of them and you can see which poems you own. I know that you will realize how much difference it makes to these young people to have their work in both <title key="poetry" level="j">“Poetry”</title> and the Anthology, and I am sure you will do all in your power to facilitate this, particularly as, as far as <persName key="richard_aldington">Richard</persName> and <persName key="hilda_doolittle">Hilda</persName> are concerned, I told you long ago in November that I hoped you would release their poems by Spring.</p>
+<p>Hilda’s  poems which we have included in the Anthology are:</p>
+<title>The Pool</title>
+<title>The Garden</title>
+<title>Sea Lily</title>
+<title>Sea Iris</title>
+<title>Sea Rose</title>
+<title>Oread</title>
+<title>Orion Dead</title>
+<p>Those of Richard’s (and I am doubtful whether you have any of them) are:</p>
+<title>Childhood</title>
+<title>Poplar</title>
+<title>Round Pond</title>
+<title>Daisy</title>
+<title>Three Epigrams</title>
+<title>The Faun Sees Snow for the First Time</title>
+<title>Lemuree</title>
+<p>I do not know whether you have any of <persName key="fs_flint">Flint’s</persName> or not, but in case you have these are the ones we have:</p>
+<title>Trees</title>
+<title>Lunch</title>
+<title>Malady</title>
+<title>Accident</title>
+<title>Fragment</title>
+<title>Houses</title>
+<title>Eau Forte</title>
+<p>I am assuming your permission to print the poems which we are using which have already appeared in <title key="poetry" level="j">“Poetry,”</title> and you need be under no apprehension that we shall not acknowledge it. I know how badly they behaved in the last <title key="anthologyDesImagistes" level="m">Imagiste Anthology,</title> and there shall be nothing of that sort here.</p>
+<p>I ought to have told you of this in Chicago and got it arranged then, but it went completely out of my head. I trust it will not upset you very much.</p>
+<p>If you prefer to delay mine until April, the book will certainly not be more than just out and I hardly think it would affect you in any way. You might put my whole group in April, which would be just a year from the time you gave me my last group; but of course that I must leave entirely to you.</p>
+<p>Be an angel, dear <persName key="harriet_monroe">Harriet</persName>, and fix this somehow, for it is awfully important to all of us.</p>
+<p>Please give my kind regards to <persName key="lucy_monroe_calhoun">Mrs. Calhoun</persName> and to your sister-in-law, Mrs. Monroe.</p>
+            <closer>Yours affectionately,</closer>
+         </div>
+      </body>
+   </text>
+</TEI>
