@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe">Harriet Monroe</persName>, <date when="1915-03-03"
+               > Mar. 03, 1915</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="eb"> Elizabeth Boarini</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref=""> <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="fo"> Felix Oke </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$70i</idno>
+               </msIdentifier>
+               <physDesc> <p>This is a two page, typewritten letter with the words “Poetry” and “Monroe” penciled in at the top left corner of the page. The letter has no rips or tears in throughout the pages.</p> 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+            <correspAction type=”sent”>
+               <persName>Amy Lowell</persName>
+               <settlement><placeName key="brookline">Brookline</placeName></settlement>
+               <date>1915-03-03</date>
+            </correspAction>
+            <correspAction type=”received”>
+               <persName>Harriet Monroe</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type=”letter”>
+            <opener><dateline><date when="1915-01-19">Mar. 03, 1915.</dateline></date>
+               <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
+           <p>I am very glad that you are putting in <persName key="john_fletcher">Fletcher’s</persName> article in the <title key="poetry" level="j">April number</title> and also the two poems which were in our <title key="anthologyDesImagistes" level="m">Anthology</title>. I Think, however, that it would be more sensible to add to them <title key="redSlippers" level="a">“Red Slippers</title>: because Fletcher’s article is all on my polyphonic prose. It seems ridiculous to have only poems of mine in that particular number all in verse libre. In that case why do not you delay publication of the others of my poems which you have until the middle of the summer, add three or four to them and give me a group then instead of in June as you have planned. Let them come along about August, say, which will be four months after this(sic) lot</p>
+<p>I did not mean to give you the impression that I was dissatisfied with the number of times you had put my poetry into <title key="poetry" level="j">the magazine</title>, but that I thought it was time something was said about me in the prose section. You have talked about <persName key="vachel_lindsay">Lindsay,</persName> <persName key="ford_hueffer">Hueffer,</persName> <persName key="ezra_pound">Pound,</persName> <persName key="r_tagore">Tagore,</persName> <persName key="el_masters">Masters,</persName> et cetera, and it seemed to me that I was deserving of having notice of the same kind.</p>
+<p><title key="yaleReview" level="j">The Yale Review</title> has written to ask me if I will send them contributions, and they tell me that the English Faculty there admires my work and that it is being widely discussed among the undergraduates, so it would seem as if it were deserving of the attention you would give it by publishing Fletcher’s article. </p>
+<p>I cannot send you that paper because I only had one copy, and I cut <title key="bombardment" level="a">“Bombardment”</title> out and pasted it in my scrap book, but it was [in the] <title key="dispatch" level="j">Dispatch</title> which is the Sunday weekly edition of one of the Dailies – I forget which. Anyway it has been more noticed than any war poem published in that number of Poetry, and I do not see why your publishers do not advertise it in trying to sell that number instead of <title key="metalChecks" level="a">“Metal Checks”</title> to whom you gave the prize, which was doubtless deserved, but it does not seem to have attracted much attention. If you advertise the number as containing “Bombardment” - which an English paper has called “a series of sketches that will bring the war home to the reader better than anything, almost, that has yet been written. To those in England whose homes have been shattered by raiding Zeppelins or cruisers the series will come as an old experience set in a new light. To those who have not known personally how war can bring devastation to the fire-side it will carry the shock of realisation.” That means a good deal from an English paper about anything written by an American at this moment. This is only a suggestion of course.</p>
+<p>Anyhow, forgive me if I was unjust and be kind to me because I need it.</p>
+
+            <closer>Affectionately,</closer>
+         </div>
+      </body>
+   </text>
+</TEI>
