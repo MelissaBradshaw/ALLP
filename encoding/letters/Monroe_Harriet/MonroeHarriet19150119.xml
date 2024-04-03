@@ -49,7 +49,7 @@
                   <collection>Amy Lowell Correspondence</collection>
                   <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$62i</idno>
                </msIdentifier>
-               <physDesc> <!-- Insert physical description here, including description of letterhead, header addresses, etc. --> 
+               <physDesc> <p> This letter is one pagelong. It is typed on stationerythat says “Sevenels Brookline.” On the leftupper corner is penciled in two diagonal lines (right bottom going up to the left) “Jan 20 1915 Ans. longhand H.[cut word]</p> 
                </physDesc>
             </msDesc>
          </sourceDesc>
