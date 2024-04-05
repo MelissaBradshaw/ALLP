@@ -1,0 +1,111 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe"> Harriet Monroe </persName>, <date when="1917-11-19"
+                    >November 19 1917</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$202i</idno>
+                    </msIdentifier>
+                    <physDesc> <p>This is a one page letter. On the left upper corner, it is written Harriet's address: “Miss Harriet Monroe, Poetry 543 Cass Street, Chicago, Ill.” 
+                        There is a faint print on the upper part of the paper. 
+                    </p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p></p>  
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName></placeName></settlement>
+                    <date>November 19 1917</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type=”letter”>
+                <opener><dateline><date when="1917-11-19">November 19, 1917.</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet:- </persName></salute></opener>
+                <p>Your postal has come <date when="1917-11-19">to-day.</date> I thank you very much for telling me about 
+                    the guarantors’ copies. I wonder whether you are still sending copies to <perName key="charles_perkins">Mrs. Charles B. Perkins,</perName> 
+                    <place key="Boston">Jamaica Plain, Massachusetts,</place> and to Miss <persName key="annie_chapman">Annie Chapman,</persName> 
+                    <placeName key="London">Poplars,Rickmansworth,Herts, England.</place> If not, I shall be very glad indeed if you would send copies to these people.</p>
+                <p>I enjoyed <persName key="carl_sandburg">Sandburg’s</persName> war poem very much. I think perhaps it was a little uneven in spots, but I was very glad to 
+                    have made way for anything so good.</p>
+                <p>By the way I have had a somewhat unfortunate experience with that <persName key="pierre_deLanux">M. de Lanux</persName> whom I wrote about. He turned our to 
+                    be rather a laze fellow, and I am happy to learn from <persName key="martyn_johnson">Martyn Johnson</persName> 
+                    that <title key="dial" level="j">&quot;The Dial&quot;</title> has had the same difficulty  with him. I have, therefore, severed my connections with him. 
+                    Th (sic) translation of his poems I have seen, and they do not strike me as good, but as I wrote you before the originals which I saw first are quite charming. 
+                    I tell you all this in order that you may know how I stand in regard to him should he send you these poems. I know you would not take  them on my account unless 
+                    you liked them, but still if you thought he were a friend of mine, you might be more inclined to loon upon his work with a favorable eye. I think his original 
+                    verses alone, however, would repay you if you wish to publish them, but I would not touch the translations, if I were you. It is immaterial to me what you do 
+                    as far as he is concerned.</p>
+                
+                <closer>Affectionately yours</closer>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+            </div>
+    </text>
+</TEI>
