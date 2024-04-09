@@ -17,8 +17,8 @@
         <principal ref="mb">Melissa Bradshaw</principal>
         <respStmt>
           <resp>Transcription completed by</resp>
-          <persName ref="">
-            <!-- insert name -->
+          <persName ref="wr">
+            Wren Romero
           </persName>
         </respStmt>
         <respStmt>
