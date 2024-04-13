@@ -1,0 +1,115 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe"> Harriet Monroe </persName>, 
+                    <date when="1918-01-09">January 9 1918</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$206i</idno>
+                    </msIdentifier>
+                    <physDesc> <p>This is a two-page letter. On the left upper corner is Harriet's address: “Miss Harriet Monroe,
+                        Editor “Poetry” 543 Cass Street, Chicago, Ill.” And there is a faint print on the upper part of the paper. On the top 
+                        right of the second page is “Miss Harriet Monroe – 2,” and the date of the letter is repeated: “9, January 8.” Also, by the 
+                        end of the letters, there is an inscription that says “Appuldurcombe Park Misericordia.” </p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p></p>  
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type=”sent”>
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName></placeName></settlement>
+                    <date>January 9 1918</date>
+                </correspAction>
+                <correspAction type=”received”>
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type=”letter”>
+                <opener><dateline><date when="1918-01-09">January 9 1918</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet:–</persName></salute></opener>
+                <p>Thank you very much for the cheque of <measure type="currency" num="75"> seventy&ndash;five dollars,</measure> which came duly to hand. 
+                    I do not think the <title key="<!--> cual es<-->" level="a">“Landlady”</title> looks badly at all. I have another poem for you for some 
+                    time in the future &ndash; one of the best things I have done since <title key="patterns" level="a">“Patterns”</title> I think.
+                    I am enclosing it, which does not mean that I want you to print it now, but merely that I thought you might like to have a shot 
+                    at it before I let it go anywhere else. If you like it, you can print it some time in <date when="1918">the summer.</date> I know it is good. So is this other 
+                    little one which I am enclosing, and which I also think is one of the very best things of its kind I have done. If you want either
+                    of these, or both, they are at your service.</p>
+                <p>I was interested to read what you wrote of <persName key="<!--> esta mal escrito?? <-->">Kreymbourg’s</persName> plays. That man has very interesting style I think.
+                    I have never read any of his plays, but I like some of his poems very much.</p>
+                <p>I am terribly sorry for one thing, and that is the rift in the ranks of the new poets. They all seem to be as much concerned
+                    in the fighting one another as in fighting the Philistines and that I deprecate from the bottom of my heart, but perhaps intolerance 
+                    is a natural ingredient of youth. Not being young, I do not feel it.</p>
+                <p>Don’t you want to let me review <persName key="william_bradley">Bradley&apos;s</persName> <title key="<!--> No agregado<-->" level="<!--> nose el nivel <-->">“Old Christmas”</title> for you? I cannot let you have it before April or May, I am so busy, but
+                    if there is not anybody else whom you want to review it, I should like to. </p>
+                <p>I hear you are buried in snow in <placeName key="chicago">Chicago.</placeName> We have not any snow <placeName key="brookfield">here</placeName> to speak of, but we have
+                    had the most awful cold you can easily imagine, and no coal.</p>
+                <pb="n2">
+                <p>With all good wishes for the New Year, my dear,</p>
+                <closer> Affectionately yours,</closer>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+            </div>
+    </text>
+</TEI>
