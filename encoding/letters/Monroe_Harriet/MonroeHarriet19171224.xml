@@ -1,0 +1,123 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="harriet_monroe"> Harriet Monroe </persName>, 
+                    <date when="1917-12-24">December 24 1917</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="cddvn"> Consuelo Diaz de Valdes Navarrete</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here --> </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427331885$204i</idno>
+                    </msIdentifier>
+                    <physDesc> <p>This is a two-page letter. On the left upper corner is Harriet's address: “Miss Harriet Monroe, 
+                        Poetry 543 Cass Street, Chicago, Ill." And there is a faint print on the upper part of the paper. On the top 
+                        right of the second page it is written “Miss Harriet Monroe – 2" </p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p></p>  
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Amy Lowell</persName>
+                    <settlement><placeName></placeName></settlement>
+                    <date>December 24 1917</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Harriet Monroe</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1917-12-24">December 24, 1917.</dateline></date>
+                    <salute>Dear <persName key="harriet_monroe">Harriet:–</persName></salute></opener>
+                <p> I am sorry that I made you so mad about proof. I know it must have upset you terribly, and had I known I was going to <placeName key="nyc">New York</placeName> 
+                    I would have let you know; but I thought you would send the proof immediately after I sent my telegram, and that I would receive it before I started. There 
+                    is one thing that you always forget, and that is that, as far as the mail is concerned, I live in the wilderness. Letters are delivered here about 
+                    twenty&ndash;four hours after they are delivered in <placeName key="boston">Boston,</placeName> and there is only one mail between here and New York; 
+                    so a letter posted at no matter what hour in Boston does not reach New York until the next morning. Also all the trains on all the roads are late. 
+                    I myself was delayed an hour and a half each way going to and from New York the other day. </p>
+                <p> I did not receive your proof <date when="1917-12-23">until Sunday</date> in New York, and should have probably been able to have sent it back immediately without 
+                    referring to the original, but your stanza-spaces completely upset me, as I knew they were not like that in the original, and I thought there might be 
+                    other mistakes as well.</p> 
+                <p> I have no doubt you found changes in the proof different from those in the manuscript. I cannot tell exactly how a poem looks until I see it in type, 
+                    but the suggestions and additions of other people merely confuse me, and sure that I have got what I want.</p>
+                <p> As to “sir" with a capital, it does not much matter. I think the capital much more dignified and use it in every place of the sort.</p>
+                <p>I realize how very difficult it in for you to get proof here and back again, particularly with the mails in such horrid condition as they are
+                <pb="n2">
+                    now. I find that almost all the other magazines have their proof set up, and a galley sent immediately after accepting the poem or article, so that there 
+                    is none of this awful hurry on anybody’s part. You and <title key="independent" level="j">&quot;The Independent&quot;</title> are the only magazines which won’t proof by 
+                    return mail. But I will try very hard in the future to send your things back at one, as in fact, I always do if possible.</p>
+                <p> Your review of<title key="sixFrenchPoets" level="m"> my book</title> interested me very much. It was not exactly complimentary to my judgment was it? I made my selection 
+                    of the six poets carefully and advisedly. Time may prove me to have been a bad prophet. Whether you or I are right
+                    about <personName key="vachel_lindsay">Vachel Lindsay</personName> remains to be seen, but in leaving him out of the book was not because I did not consider 
+                    him an excellent poet, but because I did not think he presented &quot;the tendency.&quot; I see that you were the one to judges 
+                    for the grand exhibition of poetry at &quot;The Joint Committee of Literary Arts,&quot; and I have no doubt I have you  to thank you for one of the 
+                    thirty&ndash;nine votes I received on that occasion, a goodly number as the votes want, I think. 
+                <p> <persName key="conrad_aiken">Aiken</persName> laid me out in <title key="news">&quot;The News&quote;</title> didn’t he? That is an old feud, and a poet who is left 
+                        out of a volume of poets is hardly an unbiased judge, I imagine. </p>  
+                <p> How are you getting along with your guarantors? Very successfully, I hope. </p>   
+                <p> A very, very Merry Christmas and Happy New Year.</p>
+                    <closer> Affectionately yours,</closer>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+            </div>
+    </text>
+</TEI>
