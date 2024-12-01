@@ -1,3 +1,5 @@
+
+
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!DOCTYPE doc [
@@ -7,8 +9,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="eunice_tietjens">Eunice Tietjens</persName>, <date when="1919-07-18"
-                    >July 18, 1919</date></title>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName 
+                    key="eunice_tietjens">Eunice Tietjens</persName>, <date when="1919-07-18"
+                        >July 18, 1919</date></title>
                 <author key="amy_lowell">Amy Lowell</author>
                 <editor ref="mb">Melissa Bradshaw</editor>
                 <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
@@ -24,11 +27,11 @@
                 </respStmt>
                 <respStmt>
                     <resp>Encoding completed by</resp>
-                    <persName ref="rb">Rayne Braoch</persName>
+                    <persName ref="rb">Rayne Broach </persName>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding assistance provided by</resp>
-                    <persName ref="drr">Danielle Richards</persName>
+                    <persName ref="drr">Danielle Nasenbeny</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -46,12 +49,12 @@
                     <msIdentifier>
                         <institution>Newberry Library</institution>
                         <collection>Eunice Tietjens Papers</collection>
-                        <idno type="URI"> <!-- this is a PDF from Newberry Library --> </idno>
+                        <idno type="URI">  <!-- this is a PDF from Newberry Library --> </idno>
                     </msIdentifier>
-                    <physDesc> 
-                        <p>Single page with main letter written in typewriter text. Lowell's signature
-                           and postscript are written in her handwriting. Some writing is written vertically 
-                           in the lower left margin.</p> 
+                    <physDesc>
+                        <p>Single page with main letter written in typewritten text. Lowell's signature
+                            and postscript are written in her handwriting. The final lines of the postscript are written vertically
+                            in the lower left margin.</p>
                     </physDesc>
                 </msDesc>
             </sourceDesc>
@@ -69,7 +72,7 @@
                 <correspAction type=”sent”>
                     <persName>Amy Lowell</persName>
                     <settlement><placeName key="brookline">Brookline, Mass</placeName></settlement>
-                    <date>18 July, 1919</date>
+                    <date>18 July 1919</date>
                 </correspAction>
                 <correspAction type=”received”>
                     <persName>Eunice Tietjens</persName>
@@ -80,41 +83,37 @@
     <text>
         <div type="letter">
             <body>
-                <opener><dateline><date when="1919-07-18">July 18, 1919</dateline></date>
+                <opener><dateline><date when="1919-07-18">July 18, 1919</date></dateline>                  
                     <salute>My dear<persName key="eunice_tietjens"></persName>Mrs. Tietjens</salute>:</opener>
-                <p>I am horrified to discover that in that <title key="bookshelfOfModernPoets" level="s">list of poetry 
-                   books that I made</title><anchor xml:id="n1"/> out for <title key="doubledayPageCompany">Doubleday, 
-                   Page &amp; Company</title>, <title key="profilesFromChina" level="m">Profiles from China</title>," 
-                   which I especially included, has been omitted. The reason for this is that the book is out of 
-                   print—at least so <persName>Mr. Seymour</persName><anchor xml:id="n2"/> reports—and 
-                   <persName key="a_knopf">Alfred Knopf</persName> says that he is to issue a new edition, but it is 
-                   not yet ready. I have wrestled hard with <persName key="cedric_crowell">Mr. Crowell</persName>, 
-                   who is the head of the <orgName key="lordAndTaylorBookShop">Lord and Taylor Book Shop</orgName>, 
-                   and he has just written regretting very much that “Profiles from China” was left out of the first 
-                   publicity list, but says that it shall be included in subsequent ones. Feeling as I 
-                   do about that book, the idea of having any list come out without it is horrible to me, and 
-                   in case you might see the list, I wish it clearly understood what was the reason of the 
-                   omission.</p>
-                <p>I hope that all is going well with you. I think that I may go through 
-                   <placeName key="chicago">Chicago</placeName> on my way back from <placeName key="grand_rapids">Grand 
-                   Rapids</placeName> where I am lecturing this Autumn, in which case I hope that I may see you.</p>
+                <p>I am horrified to discover that in that <title key="bookshelfOfModernPoets" level="s">list of poetry books</title> that I made out for <title key="doubledayPageCompany">Doubleday,
+                    Page &amp; Company</title>, <title key="profilesFromChina" level="m">Profiles from China</title>," which I 
+                    especially included, has been omitted. The reason for this is that the book is out of print—at least so 
+                    <persName>Mr. Seymour</persName><anchor xml:id="n1"/> reports—and <persName key="a_knopf">Alfred 
+                        Knopf</persName> says that he is to issue a new edition, but it is not yet ready. I have wrestled hard with 
+                    <persName key="cedric_crowell">Mr. Crowell</persName>, who is the head of the <orgName  
+                        key="lordAndTaylorBookShop">Lord and Taylor Book Shop</orgName>, and he has just written regretting very 
+                    much that “Profiles from China” was left out of the first publicity list, but says that it shall be included in 
+                    subsequent ones. Feeling as I do about that book, the idea of having any list come out without it is horrible to me, 
+                    and in case you might see the list, I wish it clearly understood what was the reason of the omission.</p>
+                <p>I hope that all is going well with you. I think that I may go through <placeName 
+                    key="chicago">Chicago</placeName> on my way back from <placeName key="grand_rapids">Grand 
+                        Rapids</placeName> where I am lecturing this Autumn, in which case I hope that I may see you.</p>
                 <closer>Always sincerely yours,</closer>
-                <signed><persName key="Amy Lowell">Amy Lowell</persName></signed> 
+                <signed><persName key="Amy Lowell">Amy Lowell</persName></signed>
                 <postscript>
-                <add place="below" type="insertion" rend="blackInk">
-                <label>P.S.</label> In reading over this letter, it seems to me that I have put it as though Mr. 
-                   Crowell left the book out of his list for any reason but the true one. You understand, he is 
-                   as eager as I to list it, but as we were only printing procurable books, he felt it could not 
-                   go on, until we got a date of republication from Mr. Knopf. He is an energetic and enthusiastic 
-                   publisher, Knopf, I told him my high regard for “Profiles”</add>
-                <add place="left" type="insertion" rend="blackInk"> I saw him at the Bookseller’s dinner. I am awfully 
-                   glad he is to bring it out. </add>
-              </postscript>    
-        </body>
-        <back>    
-            <div type="notes">
-                <note target="#n1" resp="mb">Level for "Bookshelf of Modern Poets" is pending.</note>
-                <note target="#n2" resp="mb">Efforts to trace Mr. Seymour’s identity have not been successful.</note> 
-        </back>    
+                    <add place="below" type="insertion" rend="blackInk">
+                        <label>P.S.</label> In reading over this letter, it seems to me that I have put it as though Mr. Crowell left the
+                        book out of his list for any reason but the true one. You understand, he is as eager as I to list it,
+                        but as we were only printing procurable books, he felt it could not go on, until we got a date of
+                        republication from Mr. Knopf. He is an energetic and enthusiastic publisher, Knopf<choice>.</choice> I told him
+                        my high regard for “Profiles”</add>
+                    <add place="left" type="insertion" rend="blackInk">when I saw him at the Bookseller’s dinner. I am awfully glad he is
+                        to bring it out.</add>
+                </postscript>   
+            </body>
+            <back>   
+                <div type="notes">
+                    <note target="#n1" resp="mb">Efforts to trace Mr. Seymour’s identity have not been successful.</note>
+            </back>   
     </text>
 </TEI>
