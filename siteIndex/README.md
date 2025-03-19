@@ -1,6 +1,6 @@
 # Site Index
 
-Every key ID will link to an entry in our Site Index. Ultimately, the Site Index will consist of the following -ographies:
+Every key ID will link to an entry in our [Site Index](https://docs.google.com/spreadsheets/d/1rEoXpOInaGy10lafFUBpuPteD76ZmhdpADFOtIoyk-M/edit?gid=1217814409#gid=1217814409). Ultimately, the Site Index will consist of the following -ographies:
 1. **[Personography](https://github.com/MelissaBradshaw/ALLP/blob/master/siteIndex/allpPersonography.xml)** (people)
 2. **Placeography** (places)
 3. **Orgography** (organizations, incl. publishers and groups of people ("the Aldingtons"))
