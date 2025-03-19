@@ -1,6 +1,6 @@
 # Encoding Materials
 
-:clipboard: **[Encoding Guidelines + Workflow]([https://docs.google.com/document/d/1Ri5nACf6KXybtMZ2_WnM9lDVziIWZpvFbhiCA0OX6ho/edit?tab=t.0])**
+:clipboard: **[Encoding Guidelines + Workflow](https://docs.google.com/document/d/1Ri5nACf6KXybtMZ2_WnM9lDVziIWZpvFbhiCA0OX6ho/edit?tab=t.0)**
 
 :envelope: **[Encoded Letters](https://github.com/MelissaBradshaw/ALLP/tree/master/encoding/letters)**
 
