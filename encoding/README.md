@@ -2,6 +2,8 @@
 
 :clipboard: **[Encoding Guidelines + Workflow](https://docs.google.com/document/d/1Ri5nACf6KXybtMZ2_WnM9lDVziIWZpvFbhiCA0OX6ho/edit?tab=t.0)**
 
+💌 [Transcribed Letters](https://www.dropbox.com/scl/fo/e497t2yj85jho7oqger5g/ANNM4BVy8lo2tfOEgvzmpLU?rlkey=u0l967w9n005ln00nldajo4h5&e=1&dl=0)
+
 :envelope: **[Encoded Letters](https://github.com/MelissaBradshaw/ALLP/tree/master/encoding/letters)**
 
 :label: **[ALLP TEI Header Template](https://github.com/MelissaBradshaw/ALLP/blob/master/encoding/ALLP_Header_Template.xml)**
