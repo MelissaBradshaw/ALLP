@@ -6,7 +6,7 @@
 
 :label: **[ALLP TEI Header Template](https://github.com/MelissaBradshaw/ALLP/blob/master/encoding/ALLP_Header_Template.xml)**
 
-🖥️ [ALLP TEI Header Metadata Spreadsheet](https://docs.google.com/spreadsheets/d/1BxlJpIpncYI-PHoJ5uh6iqoikZLBW-JG2VWUjKCkFp8/edit#gid=288086418)**
+🖥️ [ALLP TEI Header Metadata Spreadsheet](https://docs.google.com/spreadsheets/d/1BxlJpIpncYI-PHoJ5uh6iqoikZLBW-JG2VWUjKCkFp8/edit#gid=288086418)
 
 🖥️ [ALLP Site Index/-Ographies](https://docs.google.com/spreadsheets/d/1rEoXpOInaGy10lafFUBpuPteD76ZmhdpADFOtIoyk-M/edit?gid=1217814409#gid=1217814409)
 
