@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- standalone statement declares that this document
+will link to other ones i.e. the site index content -->
+<?xml-model href="file:///Users/name/folder/schemafile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+    <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                        key="vachel_lindsay">Vachel Lindsay</persName>, <date when="1916-08-09"
+                    >09 August 1916</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="xeh">Xiamara Hohman</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="ejl">Eden Link</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="ejl">Eden Link</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name -->
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here -->
+                </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:427317782$1i</idno>
+                    </msIdentifier>
+                    <physDesc><p>The letter is two pages, typed on plain cream paper. The recipient's name is handwritten in parentheses on the top of the first page.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Amy Lowell</persName>
+                    <settlement>LOCATION OF LETTER WRITING</settlement>
+                    <date>DATE OF LETTER WRITING</date>
+                </correspAction>
+                <correspAction type= "received">
+                    <persName>Vachel Lindsay</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+            <opener><dateline><date when="1916-08-09">August 9, 1916.</date></dateline>
+            <salute>My dear <persName key="vachel_lindsay">Mr. Lindsay</persName>:</salute></opener>
+                <p>Your letter came last week, and yesterday came your pamphlet forwarded from <placeName>
+                Brookline</placeName>. It is an interesting experiment you are trying. I shall be anxious to see how it pans
+                out. The unfortunate few of us who combine talking and writing need something to explain to
+                people what we are trying to do, and save us from explaining ourselves at the beginning of every
+                lecture. I thank you very much for your kind mention of me. I hope you never heard me read
+                <title>“The Kallyope Yell.”</title> I should hate to attempt anything of the sort with you in the audience. It is
+                the palest possible reflection of what I believe to be your own manner, although I have never
+                heard you recite that particular poem. The Lord gave me no such superb organ as yours with
+                which to do my talking. However, I ha' done my best, such as it is.</p>
+                <p>Your little paragraph about the <orgName key="imagists">Imagists</orgName> is fair and true. There is plenty of room in art for
+                your theories and ours. I do not see why we cannot run along side by side, and go our own ways
+                with much enthusiasm and admiration for each other's.</p>
+                <p>I am immensely taken with your censer swinging over <placeName key="springfield">Springfield</placeName>. Those illustrations are
+                so full of swing and imagination! Cannot you persuade <orgName key="macmillan">Macmillan</orgName> to bring you out with
+                illustrations done by yourself sometime? It would make a splendid book.</p>
+                <p>I shall certainly hope to see you when you are in the East next <date when="1915-02">February</date>. But why isn't it
+                in <date when="1915-01">January</date>, as I have to be in <placeName key="nyc">New York</placeName> most of January talking myself. In February I expect to
+                be back again 
+                <pb n="2"></pb>
+                in <placeName key="boston">Boston</placeName>, and probably you will turn up there, in which case we shall certainly
+                see each other, for you will let me know when you come, won't you?</p>
+                <p>With best of luck,</p>
+                <closer>Sincerely yours,</closer>
+                </div>
+        </body>
+    </text>
+</TEI>
