@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- standalone statement declares that this document
+will link to other ones i.e. the site index content -->
+<?xml-model href="file:///Users/name/folder/schemafile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+    <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                        key="vachel_lindsay">Vachel Lindsay</persName>, <date when="1918-12-20"
+                    >20
+                    December 1918</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="ejl">Eden Link</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="ejl">Eden Link</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="ejl">Eden Link</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name -->
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here -->
+                </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">
+                            https://iiif.lib.harvard.edu/manifests/view/drs:427317782$3i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>This letter is one page, typed on plain paper. Vachel Lindsay's address
+                            is typed in the top left corner.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Amy Lowell</persName>
+                    <settlement>LOCATION OF LETTER WRITING</settlement>
+                    <date>1918-12-20</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Vachel Lindsay</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1918-12-20">December 20, 1918.</date>
+                    </dateline>
+                    <salute>Dear <persName key="vachel_lindsay">Vachel Lindsay</persName>:-</salute>
+                </opener>
+                <p>Of course I like <persName>Franz Rickaby</persName>. Who could help it? I am
+                    exceedingly grateful to you for introducing us, but apart entirely from my
+                    personal liking for him you must understand that any friends of yours will
+                    always be a friend of mine.</p>
+                <p>There are a great many things that I want to talk over with you some-time. I
+                    cannot help feeling in spite of your generosity that you are a bit hurt at my
+                    not including you in <title key="tendencies">“Tendencies.”</title> It was not because of lack of merit, it was
+                    simply that your work did not fit into the scheme of my book, and I never
+                    intended that book to <add place="above" type="insertion" rend="typed">be</add> a complete treatment of modern poetry, merely a
+                    presentation of a few obvious sections. Some time I hope to have a chance of
+                    writing on your work alone, and then you will know my real opinion. In the
+                    meanwhile, at least you know that I am always and most sincerely</p>
+                <closer>Your friend,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
