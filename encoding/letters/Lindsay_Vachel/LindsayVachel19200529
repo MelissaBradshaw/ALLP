@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- standalone statement declares that this document
+will link to other ones i.e. the site index content -->
+<?xml-model href="file:///Users/name/folder/schemafile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+    <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                        key="vachel_lindsay">Vachel Lindsay</persName>, <date when="1920-05-29"
+                    >29
+                        May 1920</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="ejl">Eden Link</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="ejl">Eden Link</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="ejl">Eden Link</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name -->
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here -->
+                </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">
+                            https://iiif.lib.harvard.edu/manifests/view/drs:427317782$5i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>This letter is one page long, typed on plain yellow paper. Vachel
+                            Lindsay's address is typed in the top left corner. There is some
+                            smudging of the typed characters throughout.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Amy Lowell</persName>
+                    <settlement>LOCATION OF LETTER WRITING</settlement>
+                    <date>1920-05-29</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Vachel Lindsay</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1920-05-29">May 29, 1920.</date>
+                    </dateline>
+                    <salute>My dear <persName key="vachel_lindsay">Lindsay</persName>:-</salute>
+                </opener>
+                <p>I am afraid mysteries are not much in my line. It never seems necessary to create
+                a mystery about one's self when all life is so much of a mystery. This sounds
+                didactic and prudish, but nevertheless it is a fact. Are you going to be married?
+                Are you going into the monastery? Are you turning missionary? For to some such
+                simple fact I presume your mystery boils down, but even with a plain statement of
+                the fact in question, believe me it would remain as much of a mystery as ever. You
+                will tell me, I suppose, all in good time, but do not withhold the knowledge from me
+                on the plea that we have had a slight acquaintance, for indeed I feel a much warmer,
+                kinder friendship than that, and I hoped you did. At any rate, the very best of luck
+                to your English trip, and I shall look forward to <title>“The Golden Book of Springfield”</title>
+                with much interest.</p>
+                <closer>Very sincerely yours,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
