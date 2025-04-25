@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- standalone statement declares that this document
+will link to other ones i.e. the site index content -->
+<?xml-model href="file:///Users/name/folder/schemafile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+    <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                        key="vachel_lindsay">Vachel Lindsay</persName>, <date when="1921-01-24"
+                    >24
+                    January 1921</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="xeh">Xiamara Hohman</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="ejl">Eden Link</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="ejl">Eden Link</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name -->
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here -->
+                </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">
+                            https://iiif.lib.harvard.edu/manifests/view/drs:427317782$6i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>This letter is three pages, typed on plain yellow paper. Vachel Lindsay's
+                            address is typed in the top left corner.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Amy Lowell</persName>
+                    <settlement>LOCATION OF LETTER WRITING</settlement>
+                    <date>1921-01-24</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Vachel Lindsay</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1921-01-24">January 24, 1921.</date>
+                    </dateline>
+                    <salute>My dear <persName key="vachel_lindsay">Vachel Lindsay</persName>:-</salute>
+                </opener>
+                <p>Your letter of <date when="1921-01-03">January 3rd</date> has been waiting to be answered while I waited to cope with
+                    the slow movement of convalescence, and much
+                    work which has accumulated. You know, or
+                    perhaps you do not know, that I had another <rs key="medical" type="theme">operation</rs> very recently which makes my second in
+                    eight months, and it takes some time to pull up from things of that sort.</p>
+                <p>I have read your <title>“Golden Book of Springfield”</title> with the greatest interest, and should have
+                liked to review it very much if it were not that I am doing no reviewing just now because of my
+                        <title key="legends">new book</title> which is coming out in <date when="1921-04">April</date>, and because of the operation which made me unable to
+                        do anything for some months. I am awfully sorry, therefore, that I cannot come out in print at the
+                        moment, but I have had to tell my papers, the <title key="times">"Times"</title> and the
+                        <title key="nyEveningPost">“Post,”</title> that I could write nothing for them until the late Spring. I am afraid you have not exactly rung the right bell with me when
+                        you mention <persName>Mrs. Eddy's</persName> <title>“Science and Health.”</title> My feelings about Mrs. Eddy are beyond words,
+                        and I should hate to compare your book with hers.</p>
+                        <p>I care more for your book on the imaginative side than I do on the practical side, as you
+                        must know would be my natural reaction. I thought <persName key="william_benet">Benét's</persName> review of it in the “Post” was
+                            excellent and felt you must be pleased.</p>
+                            <p>I also have to thank you for your book of pictures which came a long time ago, but so
+                                soon before my operation that I could not thank you
+                                then. The things I knew I liked as much as I did before, and I was interested to see the new things.
+                            Personally, I am devoted to your pictures, so I
+                            <pb>n="2"</pb>
+                            hope you will go on and issue another number with new pictures to new poems.</p>
+                            <p>Now as to <persName>Mr. Squire</persName>, the difficulty is that Squire does not like me. I do not know that he
+                                knows much about me, but he has written some rather scathing things in which he speaks of me
+                                as <quote type="english">“a terrible Amazon.”</quote> I admire Squire's energy very much, and like some of his poetry,
+                                although I have never seen a copy of his <title>“New Mercury,”</title> but I should like very much to do
+                                something for him. I do not, however, know just what I can do. <placeName key="boston">Boston</placeName> is not like the West. They
+                                do not care much for lectures here, and I think Squire is not much known. Evidently your
+                                propaganda on his behalf has had some effect, for <persName key="john_lowes">Professor Lowes</persName> told me that he had heard
+                                from <persName key="henry_canby">Mr. Canby</persName> about Squire's coming.</p>
+                                <p>Last year I succeeded in persuading the <orgName key="poetryClubNewEngland">New England Poetry Club</orgName> and the <orgName>Harvard
+                                Poetry Club</orgName> to join and support <persName>Sassoon</persName>, and I have put out a little feeler to the same effect in
+                                regard to Squire. They tell me that Squire will not put himself under any lecture agency so that
+                                his goings and comings are a little uncertain, and as <persName key="conrad_aiken">Conrad Aiken</persName> hates me even worse than
+                                Squire can be presumed to do, I am not in a position to find out anything from him. You will
+                                think that I live surrounded by enemies; that is hardly true, but it is funny that you should have
+                                pitched on me and should have given Conrad Aiken as a sort of general information, under the
+                                circumstances. I do not know what is the matter with Aiken. People tell me that he is very bitter
+                                and acrid about everything. I never met him but once, but evidently that once was enough. He
+                                has jumped on me time and again in his criticisms, and from various things he has said about me
+                                I have felt that it was best to steer clear of him. Therefore, I have never communicated with him 
+                                in any way and cannot now. If you can find out from him when Mr. Squire arrives, I 
+                                <pb>n="3"</pb>
+                                will do what I can, as I feel no hostility whatever on account of his attitude.</p>
+                                <p>I do wish the politics of poetry could be done away with. I hate these vituperations of one
+                                poet against another. Criticism is one thing, personal abuse is a different matter entirely. The
+                                former can exist with perfect friendship, the latter makes all personal intercourse practically
+                                impossible. You will, therefore, see how difficult it is, but if you will let me know when you
+                                think Squire is likely to be in <placeName key="usa">America</placeName>, I will fish round and see what I can do.</p>
+                                <p>I do not think that you and I are in such disagreement as you feel. Much of your work I
+                                greatly admire, and what I do not admire I say frankly and honestly to you personally as well as
+                                of you, and neither you nor I have that deplorable habit of calling personal names. As a man, I
+                                like and admire you, and with much of your poetry I am in perfect accord, and where we
+                                disagree, at least we can do so honestly and without feeling. You have managed to steer clear of
+                                the cliques and quarrels of the business; I have not been so fortunate. Stupid of me perhaps,
+                                perhaps owing to circumstances which I cannot help. However, you can be sure that I shall do
+                                everything in my power for Squire, if he doesn't bite my head off before I begin.</p>
+                                <p>With the best of good wishes,</p>
+                         <closer>Very sincerely yours,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
