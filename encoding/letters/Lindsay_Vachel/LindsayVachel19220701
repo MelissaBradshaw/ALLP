@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- standalone statement declares that this document
+will link to other ones i.e. the site index content -->
+<?xml-model href="file:///Users/name/folder/schemafile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+    <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                        key="vachel_lindsay">Vachel Lindsay</persName>, <date when="1922-07-01"
+                    >01
+                    July 1922</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="ejl">Eden Link</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="ejl">Eden Link</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="ejl">Eden Link</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name -->
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here -->
+                </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">
+                            https://iiif.lib.harvard.edu/manifests/view/drs:427317782$9i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>This letter is one page, typed on plain yellow paper. Vachel Lindsay's address
+                            is typed in the top left corner.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Amy Lowell</persName>
+                    <settlement>LOCATION OF LETTER WRITING</settlement>
+                    <date>1922-07-01</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Vachel Lindsay</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1922-07-01">July 1, 1922.</date>
+                    </dateline>
+                    <salute>Dear <persName key="vachel_lindsay">Vachel Lindsay</persName>:</salute>
+                </opener>
+                <p>Thank you a thousand times for this letter. It will make all the difference to my
+                sojourn in <placeName key="springfield">Springfield</placeName>. I will write to <persName>the lady</persName> when I know the date of my visit.
+                It is not to be decided until the middle of the summer, as I have told everybody who
+                wants me to speak that I cannot make dates until I have got ahead somewhat with
+                <title key="johnKeats">Keats</title>, and I do not want to bother your friend until I know definitely when I shall
+                be in Springfield. It will be a great pleasure to see them and I only hope they will
+                like my reading, for it is a reading which I am going to give there, before some
+                Woman's Club or other, I think. </p>
+                <p>I have enjoyed so much my little glimpses of you
+                this year, and I wish you would come to these parts oftener. Next time you come you
+                must remind me to show you my Egyptian kodaks, which I do think are an interesting
+                collection although I do say so.</p>
+                <p>I remember the mention of your <persName>friends'</persName> daughter in <persName>Mr. Graham's</persName> <title>book</title>. I do not
+                quite know what <persName>Mr. Allen</persName> could put into his column about me, but perhaps he will
+                know better than I. At any rate, there will be time for that when I know when I am
+                going.</p>
+                <p>I am afraid you are having a hot week for your museum feast. I wish we could wander
+                round the museum together. It was fun talking about those pictures the other night.</p>
+                <p>The best of good luck to your Summer, and whatever work you do during it.</p>
+                <closer>Very sincerely yours,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
