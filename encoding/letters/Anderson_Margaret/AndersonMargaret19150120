@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- standalone statement declares that this document
+will link to other ones i.e. the site index content -->
+<?xml-model href="file:///Users/name/folder/schemafile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+    <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                        key="margaret_anderson">Margaret Anderson</persName>, <date
+                        when="1915-01-20"
+                    >20 January 1915</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="ejl">Eden Link</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="ejl">Eden Link</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="ejl">Eden Link</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name -->
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here -->
+                </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">
+                            https://iiif.lib.harvard.edu/manifests/view/drs:425543136$26i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>This letter is one page long, typed on plain paper with rounded edges on
+                            the right side, and three hole punches at the top of the page. “Little
+                            Review” is written in cursive in pencil at the top of the page.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Amy Lowell</persName>
+                    <settlement>LOCATION OF LETTER WRITING</settlement>
+                    <date>1915-01-20</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Margaret Anderson</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1915-01-20">January 20, 1915.</date>
+                    </dateline>
+                    <salute>My dear <persName key="margaret_anderson">Miss Anderson</persName>:</salute>
+                </opener>
+                <p>Your telegram is just received. I am sending you two poems to choose from.
+                <title>“Bright Sunlight”</title> is merely charming, as you see. <title>“Ely Cathedral”</title> is perhaps a
+                little strong even for you; it is dealt at a formal, lip religion, so prevalent
+                not only in <placeName key="england">England</placeName> but all over the world. I do not imagine you will want them
+                both, in which case will you be so kind as to return the one you do not use.</p>
+                <p>I had such a pleasant time on the train with your friend, <persName>Mr. Langner</persName>. And by the same
+                token I enclose a check for <measure type="dollars" quantity="10">ten dollars</measure> as a little donation toward your <title key="littleReview" level="j">Magazine</title>,
+                <measure type="cents" quantity="30">thirty cents</measure> of which I owe you, and please take it out.</p> 
+                <p>In tearing haste,</p>
+                <closer>Very sincerely,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
