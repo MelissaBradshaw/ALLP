@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1925-04-16"
+                  >April 16, 1925</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$369i</idno>
+               </msIdentifier>
+               <physDesc><p>This letter is one page long. Aldington's address is typed in the heading on the top left of the front page:
+                <address><addrLine>Richard Aldington, Esq.,</addrLine>
+                <addrLine>Malthouse Cottage</addrLine>
+                <addrLine>Padworth Near Reading</addrLine>
+                <addrLine>Berks, England.</addrLine></address></p>                
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type="sent">
+   <persName key="amy_lowell">Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>DATE OF LETTER WRITING</date>
+</correspAction>
+   <correspAction type="received">
+  <persName key="richard_aldington">Richard Aldington</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <div type="letter">
+            <opener><dateline><date when="1925-04-16">April 16, 1925</date></dateline><salute>My dear <persName key="richard_aldington">Mr. Aldington</persName>:</salute></opener>
+            <p>You will be sorry to hear that <persName key="amy_lowell">Miss Lowell</persName> is seriously ill and has been obliged to give up the lecture trip to <placeName key="england">England</placeName> which she had intended to take this <date when="1925">Spring</date>. The doctors are keeping her very quiet in the hope of avoiding an operation which she is in no condition to stand.</p>
+            <p>Of course she is bitterly disappointed, for this is the moment of moments for her to be in England.</p> 
+            <closer>Yours very truly,
+            <persName>Secretary</persName>.</closer> 
+        </div>        
+      </body>
+   </text>
+</TEI>

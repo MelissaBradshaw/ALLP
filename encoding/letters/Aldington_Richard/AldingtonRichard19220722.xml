@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1922-07-22"
+                  >July 22, 1922</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="mb">Melissa Bradshaw</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$347i</idno>
+               </msIdentifier>
+               <physDesc> <!--No physical description was included in the transcription--> 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type="sent">
+   <persName key="amy_lowell">Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>DATE OF LETTER WRITING</date>
+</correspAction>
+   <correspAction type="received">
+  <persName key="richard_aldington">Richard Aldington</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+         <opener><dateline><date when="1922-07-22">July 22, 1922</date></dateline><salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+         <p>Your letter of <date when="1922-07-07">July 7th</date> came a <date when="1922-07">couple of days ago</date>. You are generous and reasonable, and I thank you very much for writing me such a nice letter. Persons of our profession are not always either the one or the other, and I assure you that I appreciate your attitude very much.</p>
+         <p>Curiously enough, I had not heard of <persName key="ezra_pound">Ezra</persName>'s scheme, directly, or even indirectly exactly, until I read your <title level="a">letter</title> in the <title key="nyEveningPost" level="j">“Literary Review.”</title> I am rather sorry you printed it there, because the <title key="doubleDealer" level="j">“Double Dealer,”</title> in which <persName key="alfred_kreymborg">Kreymborg</persName>'s <title level="a">letter</title> came out, has almost no circulation. It is a little amateur magazine which I believe does not pay for contributions, and I think very few people would have heard of Ezra's <foreign xml:lang="fr"><hi rend="underline">Bel Esprit</hi></foreign> had you not broadcasted it in your letter to the “Literary Review.” As I wrote you, Ezra wrote to <persName key="harriet_monroe">Harriet</persName> about <persName key="ts_eliot">Eliot</persName>, but Harriet gave me no idea that he had mentioned any such scheme as his <foreign xml:lang="fr"><hi rend="underline">Bel Esprit</hi></foreign>. I had a most extraordinary letter from him in <date when="1922-03">March</date> in which he wrote that I was on the wrong tack, but that there was a chance for me to return to the fold. Did I want to? If I did, he would tell me more, etc., etc., etc. Of course I smelt a desire for money, so I wrote back as nice a letter as I knew how, but took occasion to put in three angles of my point of view. I said; <quote type="english">“Personally, I am friendly; aesthetically, I am obstinate; financially, I am broke.”</quote> And I supposed I should hear no more, and I have not. I have done considerable wondering as to what he really wanted, and now you have cleared up my doubts. He wanted money for his <foreign xml:lang="fr"><hi rend="underline">Bel Esprit</hi></foreign> scheme which, of course, I entirely disapprove of.</p>
+         <p>I do think it is too bad about Mr. Eliot. Of course, he is in a horrid position now, and it is equally true that you never meant to put him in <pb n="02"/>an awkward hole. It is a great pity that he cannot throw up the bank. Richard, is it consumption? That occurred to me after I had written to you. Is it not possible for him to earn enough money to live in <placeName key="switzerland">Switzerland</placeName> or <placeName key="colorado">Colorado</placeName> and write for his living? He could if he were writing for American papers, they pay much better than the English ones do. I am sincerely sorry for him, and if I were not so strapped, I should be inclined to do a little something anyway, but please believe that I am not talking through my hat when I tell you that I have only enough for those calls which are nearer home than Mr. Eliot's can possibly be.</p>
+         <p>I see you everywhere now. The <title key="times" level="j">“Times”</title> <title level="a">article</title> came yesterday, but I have not had time to glance at it yet. I shall, however, read it very soon and write you on the subject. Also, in the <title key="northAmericanReview" level="j">“North American Review”</title> comes your <title level="a">paper on “<persName>Marivaux</persName> and Marivaudage”</title>; that last is a splendid subject. Fascinating character, Marivaux. I should very much like to talk over my <title key="johnKeats" level="m">Keats book</title> with you, for I think we should have just the same point of view. One of the things I want particularly to prove is how un-Greek he was in every particular; in fact, I think my book will mostly consist in going against the attitude of his previous biographers. From the point of view of pure scholarship, I have raked up some extraordinary things on this side of the ocean. In unpublished material, I shall have in my book: five letters of Keats; an account by <persName>Taylor</persName>, taken from the lips of <persName>Mr. Abbey</persName>, of Keats's mother; a good many unknown readings of poems; a number of letters by friends of Keats from which I shall draw extracts; some extracts of an unknown correspondence of <persName>Fanny Brawne</persName>'s; and the annotations of five volumes owned by Keats and marked by him. We used to turn our noses at exact scholarship in those early days, <pb n="03"/>but I have come to the conclusion (along with you and Eliot as a matter of fact, for we seem to agree on this) that exact scholarship is highly essential provided you have imagination and insight over it. I hope the book will be out in the <date when="1923">Autumn of 1923</date>. I understand from <orgName key="houghton_mifflin">Houghton Mifflin</orgName> that <orgName key="constable">Constable</orgName> is to issue it in <placeName key="england">England</placeName>, and then I expect the storm to burst in all the conservative magazines.</p>
+         <p>Well, no more at this present writing, as our ancestors used to say. I will write you again when I have read your papers.</p>
+         <closer>Affectionately yours,</closer>
+        </div>
+      </body>
+   </text>
+</TEI>

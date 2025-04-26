@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1922-03-20"
+                  >March 20, 1922</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="drr">Danielle Nasenbeny</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$342i</idno>
+               </msIdentifier>
+               <physDesc><p>This letter is two pages long. Aldington&#39;s address is typed in the heading on the top left of the front page:
+                    <address><addrLine>Richard Aldington, Esq.</addrLine>
+                            <addrLine>Malthouse Cottage</addrLine>
+                            <addrLine>Padworth</addrLine>
+                            <addrLine>Reading, Berks</addrLine>
+                            <addrLine>England.</addrLine></address>
+                    On the second page, “Mr. Aldington - 2” is typed on the right side of the heading. On both pages, there are some tears on the right side of the paper.</p> 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type="sent">
+   <persName key="amy_lowell">Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>DATE OF LETTER WRITING</date>
+</correspAction>
+   <correspAction type="received">
+  <persName key="richard_aldington">Richard Aldington</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+         <opener><dateline><date when="1922-03-20">March 20, 1922</date></dateline><salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+         <p>Here are the half-yearly royalties on those poor little <title key="someImagistPoets" level= "m">Imagist Anthologies</title>. Every year I think it will be the last, and every year there are a few cents coming from them. The account is as follows:</p>
+         <p>By Sales
+         <lb/>11 Imagist Poets <measure type="currency" quantity="0.675">.67-1/2</measure> <measure type="currency" quantity="7.42">$7.42</measure>
+         <lb/>7 " <date when="1916">1916</date> .67-1/2 <measure type="currency" quantity="4.73">4.73</measure>
+         <lb/>6 " <date when="1917">1917</date> .67-1/2 <measure type="currency" quantity="4.05">4.05</measure>
+         <lb/>1/6th of <measure type="currency" quantity="16.20">16.20</measure> is <measure type="currency" n="2.70">$2.70</measure> or <measure type="currency">12s 5d</measure></p>
+         <p>I read your <title level="a">article</title> on <persName key="james_joyce">James Joyce</persName>, the other day, in the <title key="nyEveningPost" level="j">“Literary Review” of the New York “Evening Post,”</title> but I am willing to wager a good deal that you are wrong in your contentions, at least as far as <placeName key="usa">this country</placeName> is concerned. He is certainly having no effect over here. It is very interesting to me to watch the development of our two countries. For good or bad, they are growing farther apart all the time. The things that have influence in one country do not have influence in the other, and so on. One would have expected a wide discussion of <persName key="james_joyce">Joyce</persName>. It has not come. <persName key="dh_lawrence">Lawrence</persName>, on the other hand, is having quite an influence over here now, doing, in fact, very well indeed.</p> 
+         <p>I had to put off going to <placeName key="england">England</placeName> <date when="1922">this year</date> because the <title key="johnKeats" level="m">Keats book</title>, which I am writing, could not be done in time. I doubt now whether it will be out before the <date when="1923">Autumn of 1923</date>. I have found considerable new material over here, and the hunting up of sources is a slow, fatiguing task. I do not suppose I should ever have started on it if I had not got interested in writing the centenary address which I gave at <orgName key="yale">Yale</orgName> <date when="1921">last year</date>.</p> 
+         <p>This is not much of a letter and does not contain much news, but <pb n="02"/>I am going off on a lecture trip on <date when="1922-03-27">Monday</date>, and there are so many things to be done that I am in despair; particularly I have to finish a lecture on Chinese poetry to be delivered at <orgName key="brynMawr">Bryn Mawr</orgName> <date when="1922-03">next week</date>. This last is rapidly turning my hair grey.</p>
+         <p>I do not know whether you have seen my friend <persName key="florence_ayscough">Mrs. Ayscough</persName>'s and my <title key="firFlowerTablets" level="m">Chinese translations</title>. I did not send you the book because I thought you were rather tired of my things. I will if you would like to look at it, but I hate to bother people. It will shortly be published by <orgName key="constable">Constable's</orgName> in England.</p> 
+         <p>Now I must stop. Forgive this short letter, but I am absolutely drowned in things which must be done before I leave. I wish you would write sometimes. We <choice><orig>seen</orig><reg>seem</reg></choice> to know nothing of each other's doings now. Again I hope to get over next <date when="1923">Summer</date>, but it depends so much on the work.</p> 
+         <closer>Affectionately yours,</closer>
+         <postscript><label>P.S.</label> <p>I do not know <persName key="fs_flint">Flint</persName>'s address, so I am sending you his draft as I did before.</p></postscript>
+    </div>
+   </body>
+   </text>
+</TEI>

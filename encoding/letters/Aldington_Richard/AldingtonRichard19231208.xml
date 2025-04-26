@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1923-12-08"
+                  >December 8, 1923</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="drr">Danielle Nasenbeny</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$363i</idno>
+               </msIdentifier>
+               <physDesc><p>This letter is three pages long. Aldington's address is typed in the heading on the top left of the front page:
+                <address><addrLine>Richard Aldington, Esq.,</addrLine>
+                <addrLine>Malthouse Cottage,</addrLine>
+                <addrLine>Padworth, Reading,</addrLine> 
+                <addrLine>Berks, England.</addrLine></address>
+                On the following pages, “Mr. Aldington – [pg #]” is typed on the right side of the heading. “Ok” is written in pencil in the upper right corner of the first two pages. Included is a certificate of issue for $4.95, dated November 14, 1923. “Richard Aldington” is written in pencil on the back of the receipt. There is a large tear on the left side of the first page and several smaller tears on the right side of the front page.</p>                
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type="sent">
+   <persName key="amy_lowell">Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>DATE OF LETTER WRITING</date>
+</correspAction>
+   <correspAction type="received">
+  <persName key="richard_aldington">Richard Aldington</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <div type="letter">
+            <opener><dateline><date when="1923-12-08">December 8, 1923</date></dateline><salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>Here are our half-yearly <title key="someImagistPoets" level="m">Imagist Anthology</title> royalties:</p>
+            <p>By sales
+            <lb/>19 Imagist Poets <measure type="currency" n="0.675">.67-1/2</measure> <measure type="currency" quantity="13.82">$13.82</measure>
+            <lb/>12 " <date when="1916">1916</date> .67-1/2 <measure type="currency" quantity="8.10">8.10</measure>
+            <lb/>13 " <date when="1917">1917</date> .67-1/2 <measure type="currency" quantity="8.77">8.77</measure>
+            <lb/>1/6 of <measure type="currency" quantity="29.69">29.69</measure> is <measure type="currency" quantity="4.95">$4.95</measure>
+            <lb/>I should have sent them as long ago as <date when="1923-08">August</date>, and I feel very guilty indeed to have kept them so long. That <del rend="overtyped">[illegible] is I feel [illegible] little better</del>, but I have no other excuse whatever except pressure of business on this <title key="johnKeats" level="m">Keats book</title>. Please forgive me.</p>
+            <p>It seems so long since I have heard from you that I feel quite out of touch with you. You must write me and tell me how things are going with you. I have seen poems of yours now and then in various American periodicals; particularly in the <title key="nyEveningPost" level="j">“Literary Review.”</title> That is by far the best literary paper we have, and I am awfully glad to see you in it, both in prose and in poetry, as often as I do. I heard of <persName key="harriet_monroe">Harriet Monroe</persName>'s having had a glimpse of you. I should like to know your impression of that somewhat tightly bound little lady.</p>
+            <p>Once again I have had to postpone my going to <placeName key="england">England</placeName>. My Keats book is not done, but will be shortly. I think, however, that in order to get it through the press I shall have to stay here this <date when="1924">Summer</date>. It really seems as though I should never cross the <placeName key="atlanticOcean">ocean</placeName> again, but, of course, that is nonsense, and I shall soon be free to go wherever I please. I have done nothing for six months but write the Keats book, which I hope will justify my effort upon it. It is very long, and very fully documented, and it will certainly be a contribution to scholarship, if nothing else. I have found <pb n="02"/>such a lot of new things, and in the light of new discoveries have been able to re-date poems and a lot of other things of this kind.</p>
+            <p>Do write and tell me your news. I imagine you know the American situation quite as well as I do. A group younger than ourselves, in fact two groups, have sprung up; the first is extremely expert in the old-fashioned type of verse, and the other, a set of young people who call themselves <orgName key="secessionists">“Secessionists,”</orgName> approach somewhat to the Dada type of thing. The work of both groups is very different from ours, and I cannot think any of it as good. Meanwhile, all the older poets keep on writing just the same, and as none of the younger ones have been able to surpass them on their own ground they still hold the supremacy. I have about two books of poems in manuscript – possibly three – ready to be collected as soon as the Keats book is off my hands. The first is a book of Yankee poems like <title level="a">“The Overgrown Pasture”</title> section in <title key="menWomenGhosts" level="m">“Men, Women and Ghosts.”</title> It is to be called <title key="eastWind" level="m">“East Wind,”</title> but will not appear until <date when="1925">a year from next Autumn</date>, because the Keats book is scheduled for <date when="1924">next Autumn</date>.</p>
+            <p>I saw <persName key="john_fletcher">Fletcher</persName> when he was over here <date when="1923">last Spring</date> for a little while, but I have not heard from him since. We have gone off somewhat at a tangent in our literary practice which makes reasons for writing less frequent. I had some telephones from <persName key="dh_lawrence">Lawrence</persName> when he was here, but he did not succeed in getting over to <placeName key="boston">Boston</placeName> to stay with me. I cannot help thinking that his work is deteriorating; he is writing too much and too often and is rather losing his prestige in consequence. You know he had a big boom over here.</p>
+            <p>I hear that your friend <persName key="ts_eliot">T. S. Eliot</persName> is rather better in health, but that his <persName key="vivienne_eliot">wife</persName> has been very ill, which is a shame.</p><pb n="03"/>
+            <p>As I said before, do write and tell me all your news. I am awfully anxious to hear it. I am sending <persName key="fs_flint">Flint</persName>'s draft with yours, as, of course, I do not know where he is.</p> 
+            <closer>Affectionately yours,</closer>
+        </div>        
+      </body>
+   </text>
+</TEI>

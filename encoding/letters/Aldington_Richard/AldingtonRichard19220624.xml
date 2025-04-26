@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <!-- Change href to your RNG file location locally -->
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1922-06-24"
+                  >June 24, 1922</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$344i</idno>
+               </msIdentifier>
+               <physDesc><p>This letter is three pages long. Aldington's address is typed in the heading on the top left of the front page:
+                        <address><addrLine>Richard Aldington, Esq.</addrLine>
+                        <addrLine>Malthouse Cottage</addrLine>
+                        <addrLine>Padworth</addrLine>
+                        <addrLine>Reading</addrLine>
+                        <addrLine>Berks, England.</addrLine></address>
+                    On the following pages, “Mr. Aldington – [pg #]” is typed on the right side of the heading. On all three pages, there are some tears on the right side of the paper.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type="sent">
+   <persName key="amy_lowell">Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>DATE OF LETTER WRITING</date>
+</correspAction>
+   <correspAction type="received">
+  <persName key="richard_aldington">Richard Aldington</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter"><opener><dateline><date when="1922-06-24">June 24, 1922</date></dateline><salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+         <p>I have been so long in answering your letter because I have found it a very hard letter to answer, and also I wanted to make some enquiries about <persName key="ts_eliot">Mr. Eliot</persName>'s relations in <placeName key="usa">this country</placeName>. It seems that your proposition is not entirely unknown here since <persName key="ezra_pound">Ezra Pound</persName> wrote about it to <persName key="harriet_monroe">Harriet Monroe</persName>, or rather he wrote, not about your scheme, but about the necessity of raising money for Eliot. Now what puzzles me is why Eliot does not ask help of his family. He has a brother in <placeName key="chicago">Chicago</placeName> and a mother and sister here in <placeName key="cambridge">Cambridge</placeName>. They are not rolling in riches, but they are not poverty stricken; and I think one must be poverty stricken to swallow one's pride sufficiently to allow a purse such as you suggest to be made up by strangers. Is it possible that Mr. Eliot knows of your intention? That would seem to me a very odd thing. Now I wonder whether I have sized up the facts correctly, for it seems to me that it may possibly be that his family are willing to help him if he comes home, but not if he stays <placeName key="england">abroad</placeName>, and that he himself does not wish to come home.</p>
+         <p>What I think is a little amazing about your scheme is that you suggest that the sums raised should be continued from year to year. I can hardly imagine any one wishing to pledge himself to give an annuity to another person not immediately connected with him by birth or marriage. Of course I do not know Mr. Eliot's present state of health, and you do not tell me. It sounds like a severe nervous breakdown, but people seldom die of a nervous breakdown; and if he is as ill as you say, I fail to see how he can fulfil any contract to write a series of articles for <title key="times" level="j">the London “Times.”</title></p>
+         <p>At any rate, to come to the point – and I beg you not to misunderstand me – it seems to me there are a great many reasons against your proposition, and only one in favour of it. On general principles, a man who can <pb n="02"/>allow his friends to make up a purse for him under any other circumstances than dire straits is not worth helping; in the second place, I think his family should be first approached; in the third place, I think the annuity basis is wrong. And to come to the only reason in favour of your plan – that, I think, would be if one considered Mr. Eliot so remarkable as an author that the world could not afford to lose him. Of course it is impossible to tell when a man is alive just what position he will eventually come to occupy, and you must put it down as a mere difference of opinion if I say that I have seen nothing yet in Mr. Eliot's work which lends me to suppose that he will ever rank very high among either poets or critics. I do not greatly admire his poetry although I consider it expert and rather captivating. I think he has more cleverness than real poetic feeling, and that is not in the least because his kind of poetry is not the kind I write. His criticisms seem to me a mixture of the pedantic and jejune. This, of course, will amaze and affront you. I can only say I am very sorry, as I should like to do anything you ask; but, apart from all these considerations about Mr. Eliot, I am not myself in a position to accede to your request since various forms of war taxes have reduced my resources very considerably.</p>
+         <p>I wish that you could come over to America. You would learn a great many things of which you are now totally ignorant. You say that I was quite wrong in my remarks about <persName key="james_joyce">James Joyce</persName>, some years ago, but really, Richard, I was not wrong. That <persName key="henry_canby">Mr. Canby</persName> wrote a <title level="a"><choice><orig>leader</orig><reg>letter</reg></choice></title> in <title key="nyEveningPost" level="j">“The Literary Review”</title> on your <title level="a">article</title> means nothing. He is hard put to it to find subjects to write upon, and your article was charmingly written even if I did not agree with its praise of Joyce. As to Joyce's influence, it is confined to a mere handful of young men who are not doing much of anything in the writing line, and who scarcely count at all. <persName key="dh_lawrence">D. H. Lawrence</persName> is the real influence over here at the <pb n="03"/>moment, although he is not known to the general reading public.</p>
+         <p>I do really hope to get to England <date when="1923">next year</date>, and then we must have a long talk over all these things. The lamentable ignorance of England on the subject of America is the greatest barrier to the union of <choice><orig>thd</orig><reg>the</reg></choice> English speaking peoples, I think. You take your opinions from young expatriates like Eliot and Pound, and really these boys left America at a time when they were perfectly incapable of judging it. They have moulded themselves on the European pattern and each has ended by becoming a hybrid of sorts. They know no more about this country than the Irish servant maids who trip back and forth across the <placeName key="atlanticOcean">Atlantic</placeName>; not so much, in fact, for Eliot and Pound are the victims of prejudice. There are good things and bad things here as everywhere, and few young things just out of college are likely to hit the balance square.</p>
+         <p>Sometimes I hope to meet Mr. Eliot in the flesh, and if his prejudice against me will permit, perhaps I may find out what he is really like, and my own prejudice may vanish into the wind, although I scarcely think that my opinion of his literary merit will undergo any alteration. However, it is up to you to bring a meeting about, and under as pleasant auspices as possible, if we should ever find ourselves all three in the same town.</p>
+         <p>In the meantime, dear Richard, please forgive me that I cannot see things as you do, and believe me,</p>
+         <closer>Always affectionately,</closer>
+      </div>
+    </body>
+   </text>
+</TEI>

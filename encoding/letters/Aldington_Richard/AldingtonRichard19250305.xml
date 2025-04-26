@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1925-03-05"
+                  >March 5, 1925</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="drr">Danielle Nasenbeny</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$366i</idno>
+               </msIdentifier>
+               <physDesc><p>This letter is three pages long. Aldington's address is typed in the heading on the top left of the front page:
+                <address><addrLine>Richard Aldington, Esq.,</addrLine>
+                <addrLine>Malthouse Cottage</addrLine>
+                <addrLine>Padworth</addrLine>
+                <addrLine>Reading, Berks</addrLine>
+                <addrLine>England.</addrLine></address>
+                On the following pages, “Mr. Aldington – [pg #]” is typed on the right side of the heading.</p>                 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type="sent">
+   <persName key="amy_lowell">Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>DATE OF LETTER WRITING</date>
+</correspAction>
+   <correspAction type="received">
+  <persName key="richard_aldington">Richard Aldington</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <div type="letter">
+            <opener><dateline><date when="1925-03-05">March 5, 1925</date></dateline><salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>I thought I wrote to you long ago, but my <persName>secretary</persName> assures me that I did not. I am afraid I am a very poor correspondent, but the truth is I have such a lot to do that it is almost impossible for me to get through anything, and I have something like a year's mail waiting for me to answer. It took me so long to do the <title key="johnKeats" level="m">Keats book</title> that I have not been able to attend to much else. You will have received, or will do so shortly, the book itself – I sent you a copy – and if you will put your eye inside it, you will realize what an awful job it was to do. I hope it will be half as successful in <placeName key="england">England</placeName> as it has been here. Here four editions were called for before the book had been out five days, three of the editions preceding publication, and that means ten thousand copies. <persName key="jonathan_cape">Jonathan <choice><orig>Gape</orig><reg>Cape</reg></choice></persName>, who took sheets over from here for England, bought first five hundred copies and then doubled his order. Of course, we are all hoping that he will have to give still more orders in time, but I do not know, your country is a little prejudiced against most American work, I fear, particularly in this field, where <persName key="sidney_colvin">Sir Sidney Colvin</persName> is sacrosanct, but I am hoping for the best.</p> 
+            <p>Meanwhile I am coming to England next <date when="1925">Summer</date>, really and truly coming, if you can believe it – after eleven years! But I am not coming for pleasure only, I am coming to talk. I am lecturing on <persName key="john_keats">Keats</persName>, on modern American poetry, and giving readings from my own poems. I am already engaged at various English universities, and rather expect to talk at all of them before I get through. I am speaking twice at <orgName key="oxford">Oxford</orgName>, going up to <orgName key="edinburghUniversity">Edinburgh University</orgName> in <placeName key="scotland">Scotland</placeName>, talking before the <orgName key="englishAssociation">English Association</orgName> in <placeName key="london">London</placeName>, and reading poems round generally to various groups of people in various towns. I <pb n="2"/>only hope that my health will stand it, because it is going to be a strenuous tour.</p>
+            <p>One of the things I look forward to especially is seeing you again. I have just got your last book of poems, <title key="theFoolITheForest" level="m">“The Fool i' the Forest,”</title> but I have not had time to read it yet. In glancing at it, however, I should say that you have departed far from our old Imagist standards.</p>
+            <p>I am bringing out a new <title level="m">volume of poems</title> next <date when="1925">Autumn</date>, but I find that the older one gets, the less time there is for anything in the world. I do not mean for writing poetry, because one takes time for that, but for everything else. I got your <title level="m">book of essays</title>, too, which I read with great interest. But what I want more than anything else is to talk to you, and if you are not always drowned in the country, I trust I may see you with reasonable frequency while I am in England. <persName key="ada_russell">Mrs. Russell</persName> and I arrive on <date when="1925-04-21">April twenty-first</date> on the “Berengaria” at <placeName key="southampton">Southampton</placeName>, and return in the “Samaria” from <placeName key="liverpool">Liverpool</placeName> on <date when="1925-07-18">July eighteenth</date>. It will be very different from the last time we were there; our whole <orgName key="imagists">group</orgName> seems to have broken up and vanished. There is only <persName key="john_fletcher">Fletcher</persName> left. I do not know where <persName key="fs_flint">Flint</persName> is, and that reminds me, I am enclosing a draft for your share of the royalties of the <title key="someImagistPoets" level="m">Imagist anthologies</title>, and will you please give Flint's to him. The account is as follows:</p> 
+            <p>3 Imagist Poets at <measure type="currency" quantity="0.675">.67-1/2</measure> <measure type="currency" quantity="2.03">2.03</measure>
+            <lb/>10 " " <date when="1916">1916</date> .67-1/2 <measure type="currency" quantity="6.75">6.75</measure>
+            <lb/>11 " " <date when="1917">1917</date> .67-1/2 <measure type="currency" quantity="7.43">7.43</measure>
+            <lb/>1/6th of <measure type="currency" quantity="16.21">16.21</measure> is <measure type="currency" quantity="2.70">$2.70</measure>
+            <lb/>This represents both the <date when="1924-02">February 1924</date> and the <date when="1924-08">August 1924</date> payments, which I am sending together as they are both so small; <del rend="overtyped">my <date when="1925-02">February 1925</date></del> statement showed no sales. The two first anthologies went out of print with the <date when="1924-08">August</date> statement, and there are only six copies of the “1917” left, so we shall soon have done with them altogether.</p>
+            <p>I will not write any more now because the time is short, and I am <pb n="3"/>very busy getting ready to go abroad, but I hope we shall soon talk. I shall be at the <placeName key="berkeleyHotel">Berkeley Hotel</placeName> as usual, but perhaps you had better write to me in care of <orgName key="brownShipley">Messrs. Brown, Shipley &amp; Company</orgName>, 123 Pall Mall, London, S.W., as that will always reach me if I should change quarters.</p>
+            <p>I forgot to tell you that I saw your friend <persName>Mr. Glover</persName>, asked him to dinner, and had a very pleasant evening with him. He told me all about you and what you were doing, and if he enjoyed me as much as I enjoyed him he must have had a pleasant time. His wife I had met before; she was staying with some great friends of mine, the <orgName key="willamJameses">William Jameses</orgName>, giving singing lessons to <persName key="alice_gibbens">Mrs. James</persName>, she was here last year. I hope they will be in London when I am there.</p>
+            <closer>Lots of love, dear Richard,
+            Affectionately yours,</closer>
+            <postscript><p>Don't be frightened at the magnitude of the “Keats.” It reads easily, I think.</p></postscript>
+        </div>        
+      </body>
+   </text>
+</TEI>

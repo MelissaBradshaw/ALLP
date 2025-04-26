@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1922-09-12"
+                  >September 12, 1922</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="drr">Danielle Nasenbeny</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$351i</idno>
+               </msIdentifier>
+               <physDesc> <p>This letter is two pages long. “Aldington” is written in pencil at the top of the first page. On the second page, “Mr. Aldington – 2” is typed in the upper right header. There are slight tears in the paper on the right sides of both pages.</p> 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type="sent">
+   <persName key="amy_lowell">Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>DATE OF LETTER WRITING</date>
+</correspAction>
+   <correspAction type="received">
+  <persName key="richard_aldington">Richard Aldington</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+      <div type="letter">
+         <opener><dateline><date when="1922-09-12">September 12, 1922</date></dateline><salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+         <p>Here is our bi-yearly pittance from the <title key="someImagistPoets" level="m">Imagist Anthologies</title>. It gets smaller and smaller but never seems to stop entirely. However, as they have only a few copies on hand of each year and we have long ago given orders not to reprint, I think any time it may cease altogether.</p>
+         <p>By Sales:
+         <lb/>13 Imagist Poets <measure type="currency" quantity="0.675">.67-1/2</measure> <measure type="currency" quantity="8.78">8.78</measure>
+         <lb/>4 " " <date when="1916">1916</date> .67-1/2 <measure type="currency" quantity="2.70">2.70</measure>
+         <lb/>8 " " <date when="1917">1917</date> .67-1/2 <measure type="currency" quantity="5.40">5.40</measure>
+         <lb/>1/6 of <measure type="currency" quantity="16.88">$16.88</measure> is <measure type="currency" quantity="2.82">$2.82</measure></p>
+         <p>I took the liberty of giving a letter to you to a young friend of mine the other day. His name is <persName key="royall_snow">Royall Snow</persName>, and he is one of the Rhodes scholars. He has just sailed for <placeName key="england">England</placeName>, and was to do a little tripping round the <placeName key="europe">continent</placeName> before he settled at <orgName key="oxford">Oxford</orgName>. He will probably present his letter some time during the <date when="1923">Winter</date>. He writes poetry and prose; his interest is in creation; his faculty is for criticism. I have never been able to see much in his poems, but don't tell him I said so. He is now writing a novel, I believe. His criticism is really good and has appeared in the <title key="newRepublic" level="j">“New Republic”</title> and elsewhere. He was very anxious to meet you because he admires you very much, and I thought you would not object to my giving him a letter. He is a most highly educated young person, having graduated <foreign xml:lang="la"><hi rend="underline">summa cum laude</hi></foreign> from <orgName key="harvard">Harvard</orgName>, and he has been teaching in universities for the two years since he has left college. Last year he was assistant professor of English at <orgName key="dalhousieUniversity">Dalhousie University</orgName>, <placeName key="halifax">Halifax</placeName>.</p>
+         <p>This reminds me of <persName key="ts_eliot">Eliot</persName> and your request. I am awfully sorry, dear Richard, I know just how you must hate me, but I cannot like your new <pb n="02"/>plan even as well as I liked your old. I regard it as a strategic blunder, and I cannot help thinking that you will do Mr. Eliot more harm than good in the eyes of the public; therefore, I still feel that I cannot go in with you. I may be wrong, I may bitterly regret it in the future, I may change my mind, but that is the way I feel about it now.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

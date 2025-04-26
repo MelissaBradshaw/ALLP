@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1923-04-04"
+                  >April 4, 1923</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="mes">Meredith Sauer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="drr">Danielle Nasenbeny</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$357i</idno>
+               </msIdentifier>
+               <physDesc><p>This letter is four pages long. Aldington's address is typed in the heading on the top left of the front page:
+                <address><addrLine>Richard Aldington, Esq.,</addrLine>
+                <addrLine>Malthouse Cottage,</addrLine>
+                <addrLine>Padworth, Reading,</addrLine> 
+                <addrLine>Berks, England.</addrLine></address>
+                On the following pages, “Mr. Aldington – [pg #]” is typed on the right side of the heading. Included is a receipt for an international money order for $5.30. Richard Aldington's name is written on the back of the receipt.</p> 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type="sent">
+   <persName key="amy_lowell">Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>DATE OF LETTER WRITING</date>
+</correspAction>
+   <correspAction type="received">
+  <persName key="richard_aldington">Richard Aldington</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <div type="letter">
+            <opener><dateline><date when="1923-04-04">April 4, 1923</date></dateline><salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+            <p>I am very well aware of the disappointment and disgust you must feel at my never thanking you for the manuscript copies of your poems. You must forgive me, my dear boy. I have been simply rushed to death. I left here in <date when="1923-01">January</date> to take a long lecture trip through the <placeName key="midwest">Middle West</placeName>, and came back with a horrible cold settled firmly upon me. I have only been back a very little while, but my cold is practically gone now and I am able to look through my belated mail.</p> 
+            <p>You cannot imagine how pleased and touched I was to receive these poems. Most of them are familiar to me, of course, but to see them as they were written, with the censor's stamp upon them, gives me rather a choky sensation and the tears come into my eyes. That horrible war! I do not know how you feel about it after having fought through it, but it hurts me even to think of. It has spoilt so many things; spoilt the world, I think, and many a generation will pass before one finds itself in a stable civilization again. I do not agree with you. I think considering <placeName key="germany">Germany</placeName>'s attitude we had to fight, all of us, but the attitude seems unnecessary and the loss painful and ghastly in every aspect. Of course, we were very much less touched, in <placeName key="usa">America</placeName> than you were. Here, the after effects of the war are not nearly so marked as they are with you, but they are marked enough, in all conscience. I try to put it out of my mind and forget it as much as possible – the war, I mean; I feel no elation. I never had any patriotic fervour. I thought it imperative to go out into the back garden and kill that skunk, which was about the only way I did feel. I wrote innumerable war poems, and they are among some of the best poems I have ever done, but I have never re-published them in book <pb n="2"/>form, thinking that the war was not yet ancient history and that, for the moment, it ought to pass from people's consciousness. However silent I may be as a correspondent, however, you must never think that I change in my affection for you, because that never alters.</p>
+            <p>I am sending your half-yearly royalties on the <title key="someImagistPoets" level="m">Imagist anthologies</title>. You will find the account at the end of this letter, also the number of copies we have left, so I suppose these pittances will go on for another two or three years, at the rate at which the books are selling. I should have sent them to you in <date when="1923-02">February</date>, but I was away then and I did not suppose that such a small sum of money would make much difference. I am enclosing <persName key="fs_flint">Flint</persName>'s money because, as usual, I do not know his address. He seems to have disappeared entirely from the realms of literature, but so many do. Many are called, but few are chosen!!!</p>
+            <p>I read <persName key="ts_eliot">Eliot</persName>'s <title key="theWasteLand" level="a">“Waste Land”</title> with great interest, but I am more skeptical than ever. The book is immensely interesting as a record of a state of mind. As such, I think it is quite moving and startling, but I cannot find it poetry and I cannot help thinking that the state of mind itself is a pathological one. I think I should call it war hysteria if I were asked to analyze it; it seems to me the state of mind which a good many of the men of that generation are in. They are getting out of it over here, little by little. For instance, <persName key="john_dos_passos">John Dos Passos</persName>, who wrote <title key="threeSoldiers" level="m">“The Three Soldiers”</title> – I do not know whether you read it, but it was a very powerful book – has written one of the most enchanting travel books, called <title key="rosinanteToTheRoadAgain" level="m">“Rosinante to the Road Again,”</title> being his adventures on a walking trip through <placeName key="spain">Spain</placeName>. I saw him the other day in <placeName key="nyc">New York</placeName> and thought he was coming out of his bitterness well!</p><pb n="3"/>
+            <p>I wonder if <persName key="royall_snow">Royall Snow</persName> ever went to see you. I had a letter from him several months ago, but he had just been to <placeName key="paris">Paris</placeName> for his vacation and had not seen you then. I hope that you have met since.</p> 
+            <p>Quite a number of my friends are going abroad this <date when="1923">Spring</date>: <persName key="louis_untermeyer">Louis Untermeyer</persName>, <persName key="ea_robinson">Edwin Arlington Robinson</persName>, etc. It is frightfully disappointing that the <title key="johnKeats" level="m">Keats book</title> keeps me here, but it is going along pretty well so that I am reconciled to having to stay put and finish it. I imagine that it will call forth a storm of protest from the reviewers on both sides of the <placeName key="atlanticOcean">Atlantic</placeName>, my <persName key="john_keats">Keats</persName> is so very different from <persName key="sidney_colvin">Sir Sidney Colvin</persName>'s.</p>
+            <p>When are you going to have another book out, and will it be poetry or prose? You must have lots of prose essays by now which you could make into a volume. I saw there was an idea of suppressing the <title key="timesLiterarySupplement" level="j">Times Literary Supplement</title> and I thought at once of you, but, as far as I can make out, that is not going to be done.</p> 
+            <p>I do hope that I shall really be able to get over to <placeName key="england">England</placeName> <date when="1924">next year</date>, because it will be ten years since I have seen you, ten years since I have set my foot outside my own country except for a short trip into <placeName key="canada">Canada</placeName> to give a lecture. Canada can hardly be looked upon in the light of a journey, yet it is extraordinary to see the difference between Canada and America, psychologically. Among other things, directly opposite the bridge facing you as you cross the river from America, flaunting in broad daylight its advertisements of ales and wines, is a saloon. Such sights are no longer a part of the landscape in this country – not, of course, that the inhabitants are very much affected, only they do <foreign xml:lang="la">sub rosa</foreign> what the Canadians are still permitted to do above board.</p><pb n="4"/> 
+            <p>There is my news. It is not very much and I am afraid that it is not very interesting, but this letter takes a lot of love.</p>
+            <closer>Affectionately yours,</closer>
+        
+            <postscript><p>Statement of Account.</p> 
+            <p>By sales:
+            <lb/>21 Imagist Poets at <measure type="currency" quantity="0.675">.67-1/2</measure> <measure type="currency" quantity="14.18">$14.18</measure>
+            <lb/>13 " " <date when="1916">1916</date> " .67-1/2 <measure type="currency" quantity="8.77">8.77</measure>
+            <lb/>13 " " <date when="1917">1917</date> " .67-1/2 <measure type="currency" quantity="8.78">8.78</measure>
+            <lb/>1/6 of <measure type="currency" quantity="31.73">31.73</measure> is <measure type="currency" quantity="5.28">$5.28</measure></p>
+            <p>Draft according to exchange.</p> 
+            <p>On hand
+            <lb/><date when="1923-01-31">Jan. 31.</date>
+            <lb/>Imagist Poets 25
+            <lb/>" <date when="1916">1916</date> 23
+            <lb/>" <date when="1917">1917</date> 31</p></postscript>
+        </div>         
+      </body>
+   </text>
+</TEI>
