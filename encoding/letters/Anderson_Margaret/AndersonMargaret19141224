@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- standalone statement declares that this document
+will link to other ones i.e. the site index content -->
+<?xml-model href="file:///Users/name/folder/schemafile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+    <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                        key="margaret_anderson">Margaret Anderson</persName>, <date
+                        when="1914-12-24"
+                    >24 December 1914</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="ah">Alin Haberle</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="ejl">Eden Link</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="ejl">Eden Link</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name -->
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here -->
+                </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">
+                            https://iiif.lib.harvard.edu/manifests/view/drs:425543136$22i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>The letter is 2 pages long. It is typed on blank paper. The words “Little Review (Margaret)” are
+                            written in pencil at the top.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Amy Lowell</persName>
+                    <settlement>LOCATION OF LETTER WRITING</settlement>
+                    <date>1914-12-24</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Margaret Anderson</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1914-12-24">December 24, 1914.</date>
+                    </dateline>
+                    <salute>My dear <persName key="margaret_anderson">Miss Anderson</persName>:</salute>
+                </opener>
+                <p>Will you please send me another copy of your <date when="1914-12">December</date> number of
+                <title key="littleReview" level="j">“The Little Review?”</title> 
+                I enclose <measure type="cents" quantity="15">fifteen cents</measure> in stamps to pay for it.</p>
+                <p>I have had a letter from <persName key="richard_aldington">Richard Aldington</persName>. He wants me to put him in touch with you,
+                    which I do by telling you that his address is: 8 Holland Place Chambers, Kensington, W.,
+                    <placeName key="london">London</placeName>. He is very anxious to become your London correspondent; and as I notice by your last
+                    number that <persName>Mr. Buxton Shanks</persName> in <rs key="ww1" type="event">leaving for the front</rs>, I have no doubt that this would be an
+                    excellent idea. Buxton Shanks is merely a journalist, whereas Richard Aldington is a very
+                    unusual fellow and an excellent writer of prose besides his poetry. He is in touch with all the
+                    younger authors, and I think you could not do better than take his services. He says he will do it
+                    for nothing for the sake of getting his name known to your readers.</p>
+                    <pb n="02"/>
+                    <p><add place="above" type="insertion" rend="blueInk">I strongly advise you to accept this offer.</add>
+                    In fact, I should advise you to do so, even if Mr. Buxton Shanks were not leaving,
+                    as I think Mr. Aldington is a very unusual prize to secure, and I don't think it will be long before he is well known and unobtainable.
+                    Of course, you will do as you please about this; I merely forward his suggestion and his address, so that you can write to
+                    him in person. But if you prefer to have me do it for you, of course I shall be delighted.</p>
+                 <closer>Very sincerely yours,</closer>
+                 <postscript><label>P.S.</label> Mr. Aldington writes a weekly article in the London <title key="egoist" level="j">“Egoist,”</title>
+                     and has a sufficient journalistic training to be in every way proper for the position.</postscript>
+            </div>
+        </body>
+    </text>
+</TEI>
