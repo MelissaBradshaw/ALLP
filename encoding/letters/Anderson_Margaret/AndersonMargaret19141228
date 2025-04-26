@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- standalone statement declares that this document
+will link to other ones i.e. the site index content -->
+<?xml-model href="file:///Users/name/folder/schemafile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+    <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                        key="margaret_anderson">Margaret Anderson</persName>, <date
+                        when="1914-12-28"
+                    >28 December 1914</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="ah">Alin Haberle</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="ejl">Eden Link</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="ejl">Eden Link</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref=""> <!-- insert name -->
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here -->
+                </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">
+                            https://iiif.lib.harvard.edu/manifests/view/drs:425543136$24i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>The letter is 1 page long. It is typed on blank paper. The words “Little Review (Margaret)” are
+                            written in pencil at the top.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Amy Lowell</persName>
+                    <settlement>LOCATION OF LETTER WRITING</settlement>
+                    <date>1914-12-28</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Margaret Anderson</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1914-12-28">December 28, 1914.</date>
+                    </dateline>
+                    <salute>My dear <persName key="margaret_anderson">Miss Anderson</persName>:</salute>
+                </opener>
+                <p>I am returning  the galley-proof of <title key="allies" level="a">“The Allies,”</title> which has just this minute come.
+                    There are the usual mistakes the printers always make with that
+                    <del rend="strikethrough">meter</del><add place="above" type="insertion" rend="pencil">metre</add>, 
+                    which is unpardonable considering the way the typewritten manuscript is written, but never mind! They
+                    have left out all the stanza spaces. This I have indicated, and will you kindly see on the other
+                    proofs that they <del rend="strikethrough">come in</del><add place="above" type="insertion" rend="pencil">are done</add> correctly? 
+                    Read without stanzas, this <rs key="polyProse" type="style">polyphonic prose</rs> becomes almost unintelligible, and the refrain is lost.</p>
+                <p>The other mistakes are: one broken type, <hi rend="quoted">“blinds”</hi> for <hi rend="quoted">“binds”</hi> in the second line, and the
+                    last word, <hi rend="quoted">“Peace,”</hi> should go along towards the middle of the line. But above all, please be
+                    careful about those stanza spaces. I always have the same trouble with <persName key="harriet_monroe">Harriet Monroe</persName>'s printer
+                    whenever he prints this polyphonic prose.</p>
+                <p><gap><desc>There are words cut off here</desc></gap>reat haste,</p>
+                    <closer>Very sincerely yours,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
