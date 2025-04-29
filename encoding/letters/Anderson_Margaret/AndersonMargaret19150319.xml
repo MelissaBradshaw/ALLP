@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="/Users/amadacastillo/margaretandersonletters/ALLP_ODD-6.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <!-- Change href to your RNG file location locally -->
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="">Margaret Anderson</persName>, <date when="1915-03-19"
+                  >March 19, 1915</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="xeh">Xiamara Hoh</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="ama">Amada Castillo</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="ama">Amada Castillo</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425543136$27i</idno>
+               </msIdentifier>
+               <physDesc><p>This letter is 3 pages long. It is typed on blank paper with the words “Little Review” written in pencil at the top.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type=”sent”>
+   <persName>Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>March 19, 1915</date>
+</correspAction>
+   <correspAction type=”received”>
+  <persName>Margaret Anderson</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <div type="letter">
+         <opener><dateline><date when="1915-03-19">March 19, 1915</date></dateline>
+             <salute>Dear <persName key="margaret_anderson">Miss Anderson</persName>:</salute></opener>
+            <p>I should have answered your very nice note sooner. Thank you for what you say about my poems. I quite agree with you that Mille. Carret’s<!--Magdelaine Carret, found in modjourn little review february number--> criticism does not bite. May I refer you to one that does by <persName key="john_fletcher">Mr. Fletcher</persName> to be published in the <date when="1915-04">April</date> <title key="poetry" level="j">“Poetry”</title>.</p>
+            <p>You remember that I was going to write an article on <orgName key="poetryBookshop">“The Poetry Book Shop”</orgName> to soothe <persName key="harold_monro">Harold Munro’s</persName> ruffled feelings. Now in looking through the things he sent me, I find that I have hardly enough data to go on, so I cabled him to send me some more. I also took a wild and unauthorized step by saying in my cable that I was going to put the article into your <title key="littleReview" level="j"><date when="1915-05">May</date> number</title>; so will you be an angel and print it then, as I am beginning to feel a little guilty about not having sent it to you before, but the truth is that I have been so busy getting out our <title key="someImagistPoets" level="m">Anthology</title> and writing and delivering a course of six lectures on French Poetry that I have sometimes had to work fifteen 
+            <pb n="2">
+            hours a day and this Poetry Book Shop article just had to wait. If he does not send me the data, I will just go ahead and do the best I can with a short appreciation, but I should like to have something that would be a sort of history and appreciation in one.</p>
+            <p>Let me tell you how much I enjoy your magazine. I think it gets better and better with every number, and it is the only magazine which I ever really read. I do not have time to read magazines as a rule, but yours is so full of interest, so new and up-to-date, to unprejudiced and full of life that I simply look forward to the coming of each number with the greatest impatience. I thought Mr. Comfort’s<!--I cannot find him :(--> letter in the last number very good and very true. Perhaps you are right to refuse my offer, although in spite of being “businesslike” I am so much in sympathy with everything you are trying to do that I do not think you would have found me quite the fish you imagine. Still, as I say, perhaps you are right, but whatever happens do not let your magazine stop, for we need it and I think the world needs it. All this, of course, is not for publication, merely for private ear and
+            <pb n="3">
+            your heart. And, by the way, I agreed with everything you said about <persName key="ethis_ellis">Mrs. Ellis’s</persName> lecture, not that I have heard her lecture, but on general principles, I mean.</p>
+            <p>By the way, who are you going to have review our “Anthology”? It ought to be somebody with sympathy for our aims and an understanding of new departures. I think it ought to be reviewed soon and reviewed at considerable length, for I cannot help feeling that in fifty years it will be rather an important volume. It may be conceited of me to believe so firmly in our <!--should this be tagged as imagism?-->little group, but I do. All of the poets in it may not pull through to immortality, but I think some of them will. Have you any opinion as to who might review it?</p>
+            <closer>Very sincerely yours,</closer>
+        </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="/Users/amadacastillo/margaretandersonletters/ALLP_ODD-6.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <!-- Change href to your RNG file location locally -->
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="margaret_anderson">Margaret Anderson</persName>, <date when="1914-12-07"
+                  >December 7, 1914</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="ah">Alin Haberle</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="ama">Amada Castillo</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="ama">Amada Castillo</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425543136$16i</idno>
+               </msIdentifier>
+               <physDesc><p>The letter is 1 page long. It is typed on blank paper. The words “Little Review” are written in pencil at the top.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type=”sent”>
+   <persName>Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>December 7, 1914</date>
+</correspAction>
+   <correspAction type=”received”>
+  <persName>Margaret Anderson</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <div type="letter">
+            <opener><dateline><date when="1914-12-07">December 7, 1914</date></dateline>
+                <salute>My dear<persName key="margaret_anderson">Miss Anderson</persName>:</salute></opener>
+            <p>I am very glad indeed you are going to take <title key="allies" level="a">“The Allies,”</title> as it is a poem to which I am attached. But indeed you are wrong about <title level="a">“The Footmen”</title> – I consider it one of the best things I have done at all, although I can quite understand that it may not be popular.</p>
+            <p>You puzzle me a little by telling me that you longed to keep all the short poems, and then send them all back. Does that mean that you would really like them for a later number, or that you would like to use them and cannot?</p>
+            <p>I expect to be in <placeName key="chicago">Chicago</placeName> the end of this week. As soon as I know definitely, I will wire you. I shall bring a number of poems under my arm, like a drummer, and you can choose from among them what you would like for some future issue. I wish I could tell you definitely now about my coming, but I am waiting for a wire from a friend of mine with whom I must connect and who is coming through from the West.</p>
+            <closer>Yours truly,</closer>
+            <!--this is on the bottom of the letter, not sure what to with it ?-->
+            Miss Margaret Anderson,
+            917 Fine Arts Building,
+            Chicago, Illinois.
+          </div>
+      </body>
+   </text>
+</TEI>

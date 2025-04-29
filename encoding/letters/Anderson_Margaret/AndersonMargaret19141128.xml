@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="/Users/amadacastillo/margaretandersonletters/ALLP_ODD-6.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <!-- Change href to your RNG file location locally -->
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="margaret_anderson">Margaret Anderson</persName>, <date when="1914-11-28"
+                  >November 28, 1914</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="xeh">Xiamara Hoh</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="ama">Amada Castillo</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="ama">Amada Castillo</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425543136$13i</idno>
+               </msIdentifier>
+               <physDesc><p>This letter is three pages long, types on plain paper. The words “Little Review (Margaret) are written in pencil at the top.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type=”sent”>
+   <persName>Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>November 28, 1914</date>
+</correspAction>
+   <correspAction type=”received”>
+  <persName>Margaret Anderson</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <div type="letter">
+            <opener><dateline><date when="1914-11-28">Nov. 28, 1914</date></dateline>
+             <salute>My dear <persName key="margaret_anderson">Miss Anderson</persName>:</salute></opener>
+            <p>Your very welcome letter came yesterday morning. I am delighted that <persName key="richard_aldington">Richard Aldington’s</persName> poems are going into the <date when="1914-12">December</date> number and I have written him to that effect. I remember your telling me that you were going to pay your authors after December. Does this still hold true and may we all expect remuneration in future?</p>
+	         <p>I am sending you a batch of poems. Of course I do not expect you to use them all. I think that if you take one of the longer ones <title key="allies" level="a">“The Allies,”</title> or <title level="a">"The Ballad of Footmen,”</</title> you will probably want to return the others. But if you do not like either of these, (in which I think you will be wrong) perhaps you would be so good as to give me a group as the beginning of one of your numbers containing <title level="a">“A Painter on Silk,”</title> <title level="a">“Ely Cathedral,”</title> <title level="a">“Haunted,”</title>></p>
+            <pb n="2">
+            <p>And <title level="a">“Bright Sunlight.”</title> These are so <choice><orig>diff</orig><reg>different</reg></choice> that I think they will go well together. I shall be delighted if you will let me know as soon as possible which of these things you would like to keep because in that case I would know which were released for me to send somewhere else, always an important thing for an author as you know.</p> 
+	         <p>Now here is a proposition I should like to make to you. My friend, <persName key="john_fletcher">John Gould Fletcher</persName>, who has had a great many poems in <title key="poetry" level="j">“Poetry”</title> and whom I consider one of the very best of the new school, has arrived in <placeName key="usa">America</placeName>. I am going to take the liberty of giving him a letter to you as he is shortly to go to <placeName key="chicago">Chicago</placeName> to see <persName key="harriet_monroe">Harriet Munroe</persName>.<!--verbatim, is there anything else that needs to be done here since AL spelled it wrong?--> He wrote me and said that he was going to try to get Harriet Munroe to let him review my <title key="swordBladesAndPoppySeed" level="m">book</title>, but I happen to know that she has already done it herself and it is to appear very soon now. It occurs to me that if you are too busy to review it yourself, which it is needless to say I should infinitely prefer, you might find a place for Mr. Fletcher’s review 
+            <pb n="3">
+            in one of your numbers. In case this does not meet with your approval or you are so kind as to wish to review the book yourself please let me know at once. Just a “yes” or “no” on a post card will be quite sufficient.</p>
+	         <p>I think you will probably like some of Mr. Fletcher’s poems for your <title key="littleReview" level="j">magazine</title>. I am sure that meeting him will be agreeable to you both. I am to see him in <placeName key="nyc">New York</placeName> next week and I will tell him then what to do about the review if you will let me know at once.</p>
+	        <closer>Yours very sincerely,</closer>
+        </div>
+      </body>
+   </text>
+</TEI>

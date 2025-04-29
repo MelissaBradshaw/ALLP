@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="/Users/amadacastillo/margaretandersonletters/ALLP_ODD-6.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <!-- Change href to your RNG file location locally -->
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="margaret_anderson">Margaret Anderson</persName>, <date when="1914-11-02"
+                  >November 2, 1914</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="xeh">Xiamara Hoh</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="ama">Amada Castillo</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="ama">Amada Castillo</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425543136$10i</idno>
+               </msIdentifier>
+               <physDesc><p>This letter is two pages long, typed on plain paper. The words “Little Review (Margaret)” are written in pencil at the top.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type=”sent”>
+   <persName>Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>November 2, 1914</date>
+</correspAction>
+   <correspAction type=”received”>
+  <persName>Margaret Anderson</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <div type="letter">
+            <opener><dateline><date when="1914-11-02">Nov. 2, 1914</date></dateline>
+              <salute>My dear <persName key="margaret_anderson">Miss Anderson</persName>:</salute></opener>
+            <p>I wonder how the editor of the <title key="poetryReview" level="j">“Review”</title> stands opposition when a poor contributor is liable to letters like the enclosed. Who ever would have supposed that my little paragraph poking fun at that ridiculous reading would have been taken so seriously? I have written to <persName key="harold_monro">Mr. Munro</persName><!--AL spells it wrong here, is there anything to do on the encoding side?--> telling him that if you were agreeable I should like to write a serious article on the <orgName key="poetryBookshop">Poetry Book Shop</orgName>, its aims and accomplishments. I am greatly in sympathy with the undertaking which is a magnificent one, and I think such an article would be of great interest to your readers and if it appears over my signature it would act as a kind of plaster upon the irritated sensibilities of those people who may have been offended with my sentences. I should not, of course, refer in any way to the sentences in question in the article and I have told Mr. Munro that I think 
+            <pb n="2">
+            he is hypersensitive to have taken it as he did.
+            <p>I have asked him to send me the history of his undertaking and any simple anecdotes that are worth recording, and if you like the idea I will do the article as soon as I hear from him, which would be in time for the <date when="1914-01">January</date> number, I think.</p>
+            <p>I am seriously thinking of coming on to <placeName key="chicago">Chicago</placeName> either this month or next. I have some things I should like to talk over with you which I think may be to our mutual advantage. I am a good deal amused at <persName key="ezra_pound">Ezra Pound’s</persName> advertisement of <title key="egoist" level="j">“The Egoist”</title> on your book page, leaving me out as a contributor when they have published a number of my poems, all owing to a simple difference of opinion which I had with him this summer and which I tried so hard to avoid. Certainly the jealousy of poets is quite equal to the <choice><orig>proberbial</orig><reg>proverbial</reg></choice> one of Opera singers.</p>
+            <closer>Yours very sincerely,</closer>
+        </div>
+      </body>
+   </text>
+</TEI>
