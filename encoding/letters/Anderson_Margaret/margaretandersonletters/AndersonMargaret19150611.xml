@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="/Users/amadacastillo/margaretandersonletters/ALLP_ODD-6.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="margaret_anderson">Margaret Anderson</persName>, <date when="1915-06-11"
+                  >June 11, 1915</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="xeh">Xiamara Hoh</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="ama">Amada Castillo</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="ama">Amada Castillo</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425543136$33i</idno>
+               </msIdentifier>
+               <physDesc><p>This letter is two pages long, typed on plain paper. The words “Little Review” are written in pencil at the top.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type=”sent”>
+   <persName>Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>June 11, 1915</date>
+</correspAction>
+   <correspAction type=”received”>
+  <persName>Margaret Anderson</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <div type="letter">
+            <opener><dateline><date when="1915-06-11">June 11, 1915</date></dateline>
+             <salute>My dear <persName key="margaret_anderson">Miss Anderson</persName>:</salute></opener>
+            <p>I am awfully sorry about your being so low in funds; but I suppose now it is just like pouring money into a bottomless pit. I send you a <measure type="currency" quantity="10">ten-dollar bill</measure>, to make up for the subscribers I have not the time to hunt for; and you know I will do everything for you that I possibly can.</p>
+            <p>Keep yourself above water, for Heaven sake! I think all of us would feel it as a great loss, if the <title key="littleReview" level="j">magazine</title> were to stop. I have an idea! Why don’t you ask every poet or prose writer who has ever written for you, or with whom you are in any way connected, to send you a copy of their books, autographed with an interesting inscription, and then auction them off somewhere at some fair? They are trying this, collecting autograph copies, at <!--brown university or somewhere in boston?-->Brown’s Bookshop here, and they expect to sell the books afterwards as a collection; but that would be too slow a business for you. You would make some money anyway, and I do not believe there is a writer who would not be glad to help you in this way. If 
+            <pb n="2">
+            you like my suggestion, let me know, and I will send you my <title key="swordBladesAndPoppySeed" level="m">book</title>, done up for sale.
+            Good luck to you anyway, and do not lose courage!
+            <closer>Sincerely yours,</closer>
+        </div>
+      </body>
+   </text>
+</TEI>

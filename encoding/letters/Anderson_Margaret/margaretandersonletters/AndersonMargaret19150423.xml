@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="/Users/amadacastillo/margaretandersonletters/ALLP_ODD-6.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="margaret_anderson">Margaret Anderson</persName>, <date when="1915-04-23"
+                  >April 23, 1915</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="xeh">Xiamara Hoh</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="ama">Amada Castillo</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="ama">Amada Castillo</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425543136$31i</idno>
+               </msIdentifier>
+               <physDesc><p>This letter is two pages long, printed on plain paper. The words “Little Review” are written in pencil at the top</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type=”sent”>
+   <persName>Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>April 23, 1915</date>
+</correspAction>
+   <correspAction type=”received”>
+  <persName>Margaret Anderson</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <div type=:"letter">
+         <opener><dateline><date when="1915-04-23">April 23, 1915</date></dateline>
+             <salute>My dear <persName key="margaret_anderson">Miss Anderson</persName>:</salute></opener>
+            <p>I am delighted to know that the rumours of the cessation of <title key="littleReview" level="j">“The Little Review”</title> were unfounded, for what I should do without it, both as reader and contributor, I do not know.</p>
+            <p>I am enclosing my article on <orgName key="poetryBookshop">“The Poetry Bookshop,”</orgName> which I agreed to write so many months ago. I am positively ashamed to have had it linger so long; but my French lectures took so much of my time that I was unable to get it out before.</p>
+            <p><persName key="john_fletcher">Mr. Fletcher</persName> tells me that he is writing to suggest to you a special <orgName key="imagists">Imagist</orgName> number of “The Little Review.” I told him I did not think you would consider such a thing for a moment, as I did not think you wished your paper to have special numbers. And as a matter of fact, in case you may have got a wrong idea of my attitude from anything which he has said, let me say that I do not think a special Imagist number of “The Little Review” would be at all feasible.</p>
+            <p>In the first place, <title key="egoist" level="j">“The Egoist,”</title> <placeName key="london">London</placeName>, is bringing out a special Imagist number, in which are appearing critical articles and poems of all the members in the group. I have arranged with a bookshop in <placeName key="boston">Boston</placeName> and with another in <placeName key="nyc">New York</placeName>, each to take fifty copies of the paper and have it on sale. Now it would be far from courteous for us American members of the Imagist group to do less for our English brethren than they did for us. They invited us to send both articles and poems for their number, which we did. Now if you do the same thing, it will not only take some time to get the articles back over here which would give the already printed “Egoist” an enormous start over you, making your information second-fiddle and lacking in novelty, but 
+            <pb n="2">
+            I think it would be very difficult to get another series of critical articles upon us written by entirely different people.</p>
+            <p>Again, there is another consideration. I do not think it would be quite cricket for you in <placeName key="chicago">Chicago</placeName> to have a special Imagist number, when the Imagists, as a group, seem to be so closely identified with <title key="poetry" level="j">“Poetry.”</title> And a special Imagist number of “Poetry” would be ridiculous, considering that <persName key="harriet_monroe">Miss Monroe</persName> introduced the group and has boomed it ever since.</p>
+            <p>All these reasons seem to me cogent why a special Imagist number of “The Little Review” would be a mistake. Of course, you will do as you please, but I am sure that anything of the sort gotten up over here, unless it were definitely edited by somebody who understands the aims and objects of the group, would get into terribly hot water, as whatever they may individually be willing to do, as a group the Imagists are very touchy about having their opinions represented exactly.</p>
+            <p>That is a long screed all about nothing, for I am quite certain, as I said before, that such an idea would not appeal to you in the least.</p>
+            <p>Do not forget to sign our <!--is she asking MA for a pseudonym on anthology des imagistes?-->Anthology review “George Lane.” There would be the Devil to pay if we were ever found out.</p>
+            <p>The enclosed “Bookshop” article, please put in over my own name. And proofs, proofs, dear Lady, where are your proofs?</p>
+            <closer>Very sincerely,</closer>
+        </div>
+      </body>
+   </text>
+</TEI>
