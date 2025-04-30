@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- standalone statement declares that this document
+will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+    <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                        key="richard_aldington">Richard Aldington</persName>, <date
+                        when="1920-09-25"
+                    >September 25, 1920</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="kmp">Katrina Partlow</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="kmp">Katrina Partlow</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="kmp">Katrina Partlow</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref="drr">Danielle Nasenbeny
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here -->
+                </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">
+                            https://iiif.lib.harvard.edu/manifests/view/drs:425540184$323i</idno>
+                    </msIdentifier>
+                    <physDesc><p>This letter consists of three typed pages on carbon paper. The upper lefthand corner of the first page consists of an address heading. The righthand consists of a dateline. Above the dateline after the first page is a heading (Mr. Aldington - [Page #]). There are some tears on the right edges of the third page, and folds on the upper right corners of the first and second pages.
+                    </p></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="amy_lowell">Amy Lowell</persName>
+                    <settlement>LOCATION OF LETTER WRITING</settlement>
+                    <date>DATE OF LETTER WRITING</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="richard_aldington">Richard Aldington</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1920-09-25">September 25, 1920</date></dateline>
+                    <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+                    <p>I have not had any luck with your things, except the one I sold to <persName key="elizabeth_cutting">Miss Cutting</persName>
+                    and which I am dreadfully afraid you had already sold to <persName key="harriet_monroe">Miss Monroe</persName>. You sent
+                    it to me before this second batch in which you had a list of the people to whom
+                    you had sold things. I have warned Miss Cutting, as the “<title key="northAmericanReview" level="j">North American</title>” will
+                    publish nothing which has appeared before. In sending me things to place, it is
+                    usually quite useless to send me anything which has appeared anywhere, even in
+                    <placeName key="england">England</placeName>, but nothing which has appeared in <placeName key="usa">America</placeName>, and none of the better
+                    established magazines will take anything which has been printed anywhere.</p>
+                    <p><persName key="stewart_mitchell">Stewart Mitchell</persName> wrote and asked me to send him all your poems which I had, but
+                    I am sorry to say that he has returned them all to me, and also your “<title key="influenceJamesJoyce" level="a">Influence
+                    of Mr. James Joyce</title>.” I may be able to place the poems, I am not sure. The best
+                    ones you have already sold. There is not the slightest use of my thinking I can
+                    place this article on <persName key="james_joyce">Joyce</persName> anywhere. Nobody reads Joyce here. The article could
+                    only hurt you, for most of the people who know anything about him thoroughly
+                    detest him, I am therefore returning this manuscript to you. In many ways
+                    America is less open minded than England. He may have some influence in England
+                    - you seem to think so in your paper - but I hardly think he could have any
+                    here. What he is doing is harm, for where other writers speak plainly and
+                    honestly with a high intent, as <persName key="dh_lawrence">Lawrence</persName> does, Joyce is merely obscene, and the
+                    <orgName key="watchAndWard">Watch and Ward Society</orgName>, etc. are perfectly incapable of telling the difference
+                    between obscenity and truth. The obvious disgustingness of Joyce's work would
+                    simply bring the strong and true work of better men than he into strong
+                    disrepute. Too bad, because yours is a good paper, but there is no place for the
+                    subject over<pb n="02"/> here now. The more I know of our two countries the more I realize
+                    that we are following entirely different literary orbits. There is simply no
+                    audience for Joyce over here, except among certain of the intelligentsia. I am
+                    awfully sorry, but there is no use in my trying to do anything with this paper,
+                    I know. If you will send me another paper asggood (sic) as this, but about some
+                    writer whom the public knows, I make no doubt I can place it most satisfactorily
+                    anywhere.</p>
+                    <p>Meanwhile my own news is none too good. <rs key="medical" type="theme">I am to be cut up again</rs> during the week
+                    of <date when="1920-10-18">October 18th</date>. It is a pesky nuisance, but I have seen the biggest man in the
+                    country on hernias, in <placeName key="nyc">New York</placeName>, and he thinks that the other operations have
+                    not been properly done and that there are nine cases out of ten in favour of
+                    recovery. I have also got the chief surgeon in <placeName key="boston">Boston</placeName> on the job, and the two of
+                    them are going to perform the next operation, and I have some hopes of success.
+                    Unless it is successful, I see my life growing narrower and narrower as I become
+                    more unable to do things, so we will hope for the best, for, except for this
+                    bothersome thing, I have never been better in my life and am eager for work and
+                    in full train, which makes things particularly annoying.</p>
+                    <p>I will send you some poems before long, but the truth of the matter is that I am
+                    so constantly sold up here that I do not get round to keeping things to send to
+                    England, which seems remote as I have no real public there yet. I have already
+                    lost three months this year, and this operation means another three months. Six
+                    months out of a year greatly diminishes my output.</p>
+                    <p>At the moment, I am working on another volume of poems to appear in the Spring,
+                    as I have changed my publisher, <orgName key="macmillan">Macmillan</orgName> not having lived up to his contracts,
+                    and <orgName key="houghton_mifflin">Houghton Mifflin</orgName> having made me a very good offer to return to them, which I
+                    have accepted; and of course they want a new book to<pb n="03"/> make an advertising
+                    campaign on in the Spring. Just now I am working very hard to live up to my
+                    already incurred obligations before the 18th of October.</p>
+                    <p>Write me often, as I shall certainly need letters to keep me up during the long
+                    weeks when I must lie flat on my back. <persName key="harold_monro">Monro</persName> has asked me to send him some
+                    things for the “<title key="chapbook" level="j">Chapbook</title>,” but again I have not got round to it.</p>
+                    <p>No more for the present, as I am in a great hurry trying to finish things up.</p>
+                    <closer>Always affectionately yours,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

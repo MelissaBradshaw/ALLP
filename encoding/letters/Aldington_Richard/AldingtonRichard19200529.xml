@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1920-05-29"
+                  >May 29, 1920</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="kmp">Katrina Partlow</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="kmp">Katrina Partlow</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="kmp">Katrina Partlow</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="drr">Danielle Nasenbeny</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$315i</idno>
+               </msIdentifier>
+               <physDesc><p>This letter consists of four typed pages on carbon paper. In the upper left corner of the first page is the address line of Richard Aldington. The upper right hand consists of the date line. After the first page, there is a header aligned to the right of the center (Mr. Aldington - [Page #]).</p></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type="sent">
+   <persName key="amy_lowell">Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>DATE OF LETTER WRITING</date>
+</correspAction>
+   <correspAction type="received">
+  <persName key="richard_aldington">Richard Aldington</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <div type="letter">
+         <opener><dateline><date when="1920-05-29">May 29, 1920</date></dateline>
+                <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+                <p>Thank you ever so much for your two letters which I have to answer. I have been
+                <rs key="medical" type="theme">pretty ill</rs>, and the worst of it is that my <rs key="medical" type="theme">operation</rs> is not entirely successful. In
+                other words, the Fascia has again stretched and we are afraid it will come again, so
+                I shall probably be a martyr to this thing the rest of my life. It hardly seems
+                worth while to undergo another operation. This is particularly annoying, but it is
+                better than having a cancer, or consumption, or any of those things. Perhaps I
+                should feel better if it were a disease and not a sort of accident. <!--Possibly tag the doctor-->The doctor tells
+                me not to lift anything, and as far as possible to forget it. It makes me a little
+                helpess for I cannot walk far, but I am thankful to say that it leaves my capacity
+                for work unimpaired.</p>
+                <p>What you tell me about <persName key="john_fletcher">Fletcher</persName> is no news to me. That old gossip, <persName key="clement_shorter">Shorter</persName>, had told
+                it to me long ago. I quite agree with you that Fletcher is quite childish and
+                irresponsible and must be taken as such. I do not like most of his present work,
+                with the exception of that one poem in “<title key="coterie" level="j">Coterie</title>” “<title key="londonNightfall" level="a">London Nightfall</title>,” which I think
+                is as fine as anything he has ever done. He has appeared over here and is coming to
+                see me <date when="1920-05-29">this afternoon</date>. I do not anticipate any real pleasure from the visit because
+                whatever he says or does in future I shall know that it is subject to immediate
+                change, for I shall consider him an irresponsible person and under the circumstances
+                of course one can have but little satisfaction in intercourse with him. As to
+                <persName>Cournos</persName> I have always hated that man even when the rest of you liked him, and
+                O'Brien I have known for years for what he is, an ignorant little toad.</p>
+                <p>I am very glad to know that <persName key="ts_eliot">Eliot</persName> is not responsible for Fletcher's<pb n="02"/> attitude,
+                because, although I think Eliot's work is more interesting on the technical side
+                than any other, and although I regard him as only a rehash of the <date when="1880">eighties</date>,
+                particularly <persName key="jules_laforgue">Jules Laforgue</persName>, nevertheless the man has sincerity, application, and
+                energy and a very nice sense of words and feeling for rhythm.</p>
+                <p>I have got into a horrid mess lately with Clement Shorter, as I suppose you have
+                heard. It seems that <persName key="basil_blackwell">Basil Blackwell</persName>, who is to bring out my “<title key="canGrandesCastle" level="m">Can Grande's Castle</title>,”
+                went and asked Shorter to write the preface. Of course I do not know how Shorter is
+                regarded in <placeName key="england">England</placeName>, but he is such a laughing-stock over here that I could not feel
+                he had very much prestige over there. He is an indefatigable gossip and knows
+                nothing at all about what we are doing, and although I know he wishes me well, I
+                feel that an introduction from his pen would be lamentable. I was therefore obliged
+                to request Mr. Blackwell not to have the introduction. By way of making things fifty
+                times worse, Mr. Shorter proceeded to very nearly embroil me with Blackwell by
+                informing Blackwell that he should issue a collected edition of my works, and
+                informing me that I must pay for the same. Considering that <rs key="ww1" type="theme">the war</rs> has left me
+                strapped - decidedly strapped - and that I had just spent all my spare cash on an
+                old book, and considering also that my contract had been made with Blackwell on a
+                royalty basis and I did not want it interfered with, I thought Shorter's action
+                unwarrantable and interfering. I am thankful to say that Basil Blackwell turns out
+                to be a gentlemanly, reasonable, and understanding chap, and Shorter's undoubtedly
+                well meant, but very blundering, interference has not in any way queered our
+                relations.</p>
+                <p>I wrote Mr. Shorter as tactful a letter as I could telling him I did not wish him to
+                write the preface, but I believe him to be distinctly<pb n="03"/> annoyed, all of which is most
+                unfortunate but cannot be helped.</p>
+                <p>Apropos of Fletcher's letter <date when="1919">last year</date> to Mr. Shorter, I told Mr. Shorter that he
+                ought not to have paid any attention to it whatever. He should have torn it up and
+                thrown it in the waste-basket. He ought to have known that nothing was reliable that
+                came from such a source as Fletcher; but Mr. Shorter truly loves gossip in any form.
+                I do not think the old gentleman means any harm, but like many people of his type
+                the harm he does is incalculable. I cannot see how the <persName key="winifred_bryher">Ellerman</persName> family can have
+                anything to do with him, but then I do not know the Ellermans.</p>
+                <p>You tell me that I am to place <title><persName key="hilda_doolittle">Hilda</persName>'s book</title><!--not sure what book this is referencing--> here in <placeName key="usa">America</placeName>, but that is the first I
+                have heard of it. Neither Winifred nor Hilda have asked me to do anything of the
+                kind. I shall be very glad to undertake the job if they want me to, as I have
+                written them, but I have heard nothing, in fact, I have not had time as I have only
+                just sent off the letter.</p>
+                <p>I think you are quite right not to make any arrangements for English publication
+                yourself. I am glad you have gone to <persName key="a_knopf">Knopf</persName>, for I think him to be an honest little
+                Jew who will really publish you, not really pretend to like <persName key="edmund_brown">Brown</persName>. As to the money
+                which Brown owes you, I cannot do anything about it without a power of attorney, as
+                I have told you before. Brown is simply dishonest to a degree and he has not any
+                money.</p>
+                <p>I am going to <placeName key="nyc">New York</placeName> on <date when="1920-05-31">Monday</date> and shall see the “<title key="dial" level="j">Dial</title>” people while I am there
+                and try to get them to pay you what the old “Dial” owes you. Of course I do not know
+                at all on what terms they bought the paper, whether they are responsible for the old
+                debts or not, but they are very decent young fellows and I will see what I can do.</p>
+                <p>I hardly think you can expect American criticism to be just like French criticism. I
+                admit that American criticism at the moment is at<pb n="04"/> very low ebb, but i do not think
+                the French method would suit this country at all. It is too long, too meticulous,
+                and too dull in the way of expressing itself. I think in looking at us, Richard, you
+                must realise that you are dealing with a new people who are evolving their own type
+                of literature, and to expect us to be like anybody else at any time is to injure any
+                particular excellence we may eventually evolve.</p>
+                <p>I am afraid the boys on the “Dial” are not going to be very clever in their
+                management of it, however, which is too bad as they are literally the only paper in
+                the field, but when I see the little English papers like “Coterie” and “<title key="voices" level="j">Voices</title>,” I
+                think we have got a good way beyond those things. They remind me of <date when="1916">six years ago</date>
+                over here, and “<title key="littleReview" level="j">The Little Review</title>” at its brightest and grandest.</p>
+                <p>It seems to me that many of your poets are copying the very things that we were
+                doing some years ago. They are just getting to it. You in England are very good
+                technicians, you know more. There are more who know about the art than with us, but
+                with the few of us who are at the top here we show a really greater originality on
+                the whole, I think.</p>
+                <p>I understand that <persName key="vachel_lindsay">Lindsay</persName> is going to descent upon England this year. I hardly think
+                that he will make a great success of it, but one never can tell. Many English people
+                think we are still in the backwoods stage, and Lindsay appeals to them as being very
+                American in that capacity.</p>
+                <p>Well, I must stop as I have lots of things to do and no time to do them in before I
+                leave. Write soon again.</p>
+                <closer>Affectionately yours,</closer>
+        </div>
+      </body>
+   </text>
+</TEI>

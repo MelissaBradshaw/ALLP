@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1920-06-28"
+                  >June 28, 1920</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="kmp">Katrina Partlow</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="kmp">Katrina Partlow</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="kmp">Katrina Partlow</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="drr">Danielle Nasenbeny</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$319i</idno>
+               </msIdentifier>
+               <physDesc><p>This letter consists of two typed pages on carbon paper. There is an address header in the upper lefthand corner. The right hand corner has the date line. The second page has a header above the dateline (Mr. Aldington - 2). The year 1920 is written in pencil on the first page in the dateline. The first page has some small tears at the bottom right.
+               </p></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type="sent">
+   <persName key="amy_lowell">Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>DATE OF LETTER WRITING</date>
+</correspAction>
+   <correspAction type="received">
+  <persName key="richard_aldington">Richard Aldington</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <div type="letter">
+         <opener><dateline><date when="1920-06-28">June 28, 1920</date></dateline>
+                    <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+                    <p>I went to the “<title key="dial" level="j">Dial</title>” office the other day when I was in <placeName key="nyc">New York</placeName> and saw the
+                    boys. It was rather a curious experience. <persName key="schofield_thayer">Schofield Thayer</persName> is an aesthete; he
+                    goes beyond <persName key="ezra_pound">Ezra</persName> and reverts back to <persName key="oscar_wilde">Oscar Wilde</persName> tradition. His own house is
+                    full of red lacquer and <persName key="aubrey_beardsley">Aubrey Beardsley</persName> drawings, with an impeccable
+                    man-servant to bring in tea, and a liveried chauffeur to take him from his
+                    office to the house. This is all silly, and springs from the fact that the boy
+                    was brought up in <placeName key="worcester">Worcester</placeName> and has no artistic background at all, wherefore,
+                    poor child, he craves for it, and sets out in the wrong way to get it; but I
+                    think he is doing all he can to help things along, and were it not for his
+                    unbounded admiration for a young fellow named <persName key="erstline_cummings">Erstline Cummings</persName> who has, I
+                    believe, no future, I should have more of an opinion of his taste. He means
+                    well, but lacks background, On the other hand, he has associated with him a very
+                    interesting fellow named <persName key="stewart_mitchell">Stewart Donald Mitchell</persName>. Thayer has the money and owns
+                    the magazine, but I have some hopes of Mitchell if Thayer won't interfere too
+                    much. At any rate, they told me they had accepted both of the things you had
+                    sent them lately, and Mitchell said they would look up the accounts and see what
+                    was owing to you, and pay it. If they do not do it, let me know. This is rather
+                    decent of them because it seems that when <persName key="martyn_johnson">Martyn Johnson</persName> sold the paper to them
+                    he left them a sum of money to cover his obligations to contributors, which sum,
+                    of course, did not anywhere nearly cover, and I rather think they are not
+                    legally obliged to pay his debts, but they say they are quite ready to do so,
+                    and I think they will.</p>
+                    <p><persName key="harriet_monroe">Harriet Monroe</persName> has sent me a poem of yours called "<title key="eumenides" level="a">Eumenides</title>," but I doubt if I
+                    can place it as all war literature is at a discount just now. Even the
+                    psychology of the aftermath of the <rs key="ww1" type="theme">war</rs> is no longer wanted. I have, however,
+                    sent it to the “<title key="northAmericanReview" level="j">North American Review</title>”, and I will let you know how things pan
+                    out about it.</p>
+                    <p>I have just got back from <placeName key="tx">Texas</placeName> and have so many things to do that I cannot
+                    write much <date when="1920-06-28">to-day</date>. More anon.</p>
+                   <closer> Affectionately yours,</closer>
+        </div>
+      </body>
+   </text>
+</TEI>

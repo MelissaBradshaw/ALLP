@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- standalone statement declares that this document
+will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+    <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                        key="richard_aldington">Richard Aldington</persName>, <date
+                        when="1921-03-03"
+                    >March 03, 1921</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="kmp">Katrina Partlow</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="kmp">Katrina Partlow</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="kmp">Katrina Partlow</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref="drr">Danielle Nasenbeny
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here -->
+                </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">
+                            https://iiif.lib.harvard.edu/manifests/view/drs:425540184$326i</idno>
+                    </msIdentifier>
+                    <physDesc><p>This letter consists of three typed pages on carbon paper and two certificates of issue inserted between pages two and three. The lower right corner of the first page is missing. On the first page there is an addressing heading in the upper left corner. On the upper right there is a dateline on each page, and after page one there is a header above the dateline (Mr. Aldington - 2).</p></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type= "sent">
+                    <persName key="amy_lowell">Amy Lowell</persName>
+                    <settlement>LOCATION OF LETTER WRITING</settlement>
+                    <date>DATE OF LETTER WRITING</date>
+                </correspAction>
+                <correspAction type= "received">
+                    <persName key="richard_aldington">Richard Aldington</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1921-03-03">March 3, 1921</date></dateline>
+                    <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+                    <p>You did not keep to your plan of writing to me every two weeks during my <rs key="medical" type="theme">illness</rs>
+                    very well, did you? But I forgive you, I know how difficult it is to write when
+                    one gets no answer. What puzzles me a little more however is why you never sent
+                    me any of the clippings of the reviews of “<title key="canGrandesCastle" level="m">Can Grande's Castle</title>,” because,
+                    whatever their faults of comprehension may have been, they certainly gave me a
+                    great deal of space; even your “<title key="timesLiterarySupplement" level="j">Times Literary Supplement</title>” did that. Who wrote
+                    that article - do you know? Curiously enough, the most complimentary one of all
+                    came from the conservative old “<title key="londonSpectator" level="j">Spectator</title>.” I do think it is a little odd that
+                    you never mentioned them to me.</p>
+                    <p>I am much better since my operation and have every hope that the doctors have at
+                    last cured me. I am not of course very strong as yet; although I have resumed my
+                    lectures I find that I have to be a little careful - too careful to make
+                    travelling very great fun at present, and I have decided not to come over this
+                    <date when="1921">Spring</date>. I may possibly turn up in the <date when="1921">Autumn</date>, but I rather think I shall wait
+                    for another year. The doctors seem to prefer it, and I am afraid of the cold in
+                    <placeName key="england">England</placeName> after the <date when="1921">Summer</date> is over, since I feel the cold so much and am used to
+                    heated houses.</p>
+                    <p>I have just given the centenary lecture on <persName key="john_keats">Keats</persName> at <orgName key="yale">Yale</orgName>, where I had such a jam
+                    that after putting chairs in the aisles and on the platform, they were obliged
+                    to hang a sign on the door to say that no more people could be admitted. This
+                    was rather a triumph, for our Universities are satiated with lecturers. I know
+                    that you do not care for Keats, and I do not know that I am as enthusiastic over
+                    his poetry as I used to be, but as a man I think [missing]<pb n="02"/> supremely
+                    interesting, and I have discovered so much unpublished material in my own
+                    collection and those of various other people here that I am embarking on a book
+                    about him, being my lecture expanded, which I hope to get done by the Autumn. I
+                    cannot imagine anything which you will sympathise with less than this, but I
+                    hope I can at least make it interesting to you.</p>
+                    <p>I have got your friend <persName key="ts_eliot">Eliot</persName>'s “<title key="sacredWood" level="m">Enchanted Wood</title>,” which I think is well written
+                    but scarcely so original or epoch-making as you seem to think. I should be
+                    interested to meet Mr. Eliot sometime, though I am quite convinced that he
+                    disliked me. He sent the volume to my great friend, Professor <persName key="john_lowes">John Lowel</persName> (sic), where
+                    I first saw it. It seems to me - let me whisper in your ear - a little
+                    antiquated in treatment, a bit pedantic and sententious, and for him to pick out
+                    dear old Professor <persName key="irving_babbitt">Babbitt</persName> and that ancient fossil <persName key="paul_more">Paul Elmer More</persName> as the only
+                    American critics worthy of mention shows him to have left <placeName key="usa">America</placeName> a good while
+                    ago. Learning is an excellent thing, but it should be thoroughly digested. Well,
+                    I envy the learned however. How often I wish that I had been thoroughly grounded
+                    in something when I was young.</p>
+                    <p>My new book of poems, “<title key="legends" level="m">Legends</title>,” is in the press and I suppose will be out in
+                    about six weeks. I will send you a copy when it comes out. I have no idea at all
+                    how “Can Grande” is going in England, but certainly <persName key="basil_blackwell">Basil Blackwell</persName> succeeded in
+                    getting the papers to notice it. As far as agreeableness is concerned, he is
+                    certainly a most delightful publisher; I have never seen him personally.</p>
+                    <p>I will not write any more now because I am trying very hard indeed to get some
+                    letters off before I return to <placeName key="nyc">New York</placeName> for another lecture bout, <date when="1921-03-04">to-morrow</date>, but
+                    I have owed you a letter for so long that I feel guilty.<pb n="03"/> We must not let our
+                    correspondence lapse and so lose the thread for our next meeting.</p>
+                    <p>I am enclosing a draft for 3.1 for the half-yearly royalties of the <title key="someImagistPoets" level="m">Imagist
+                    Anthologies</title>. The account is as follows:
+                    <lb/>By sales: 27 Imagist Poets, <date when="1915">1915</date> <measure type="currency" quantity=".0675">.67-1/2</measure> <measure type="currency" quantity="18.22">18.22</measure>
+                    <lb/>23 “ “ <date when="1916">1916</date> “ <measure type="currency" quantity="15.52">15.52</measure>
+                    <lb/>22 “ “ <date when="1917">1917</date> “ <measure type="currency" quantity="14.85">14.85</measure>
+                    <lb/>__
+                    <lb/><measure type="currency" quantity="48.59">$48.59</measure>
+                    <lb/>1/6th of <measure type="currency" quantity="48.59">$48.59</measure> is <measure type="currency" quantity="8.09">$8.09</measure></p>
+                    <p>They seem never to be going out of print. They have not been reprinted for a
+                    long time, but <persName key="ferris_greenslet">Ferris Greenslet</persName> writes me that the stock on hand consists of 98
+                    copies of the 1915 anthology, with no sheets; 15 copies of the 1916, with 177
+                    sheets; 80 copies of the 1917, with no sheets, so they ought to be finished up
+                    sometime.</p>
+                    <closer>Affectionately yours,</closer>
+                    <postscript><label>P.S.</label> 
+                    <p>I am enclosing <persName key="fs_flint">Flint</persName>'s draft also, as I have no idea of his present
+                    address. I have not heard from him for ages. I wrote to him about his wife's
+                    death, as you suggested, but had no answer.
+                    2 enclosures.</p></postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

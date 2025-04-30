@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- standalone statement declares that this document
+will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+    <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                        key="richard_aldington">Richard Aldington</persName>, <date
+                        when="1921-09-12"
+                    >September 12, 1921</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="kmp">Katrina Partlow</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="kmp">Katrina Partlow</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="kmp">Katrina Partlow</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref="drr">Danielle Nasenbeny</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here -->
+                </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">
+                            https://iiif.lib.harvard.edu/manifests/view/drs:425540184$340i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>This letter consists of 2 typed pages on carbon paper. The first page has
+                            damage to the entire right edge, in which it is crumbling off. The
+                            second page has some damage to the right edge as well. The second page
+                            has a heading above the dateline (Mr. Aldington - 2). Preceding the
+                            letter is a cheque for “<persName key="fs_flint">Flint</persName>,” in
+                            which the front and back are scanned. </p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="amy_lowell">Amy Lowell</persName>
+                    <settlement>LOCATION OF LETTER WRITING</settlement>
+                    <date>DATE OF LETTER WRITING</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="richard_aldington">Richard Aldington</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1921-09-12">September 12, 1921</date></dateline>
+                    <salute>Dear <persName>Richard</persName>:</salute></opener>
+                    <p>Your letter of <date when="1921-08-26">August 26th</date> was very pleasant to get. My secretary did make a
+                    mistake and forgot to enclose <persName key="fs_flint">Flint</persName>'s cheque, which you will find in this
+                    letter. I am sorry for the blunder. We have all been very bust with <persName key="florence_ayscough">Mrs.
+                    Ayscough</persName>'s and my <title key="firFlowerTablets" level="m">book of Chinese translations</title>, and I suppose that this draft
+                    got left out somehow.</p>
+                    <p>I am sorry about what you tell me of Flint, but perhaps he is only changing his
+                    direction and becoming more interesting in his real work than in the literary
+                    part of his life.</p>
+                    <p>I feel much better after this last <rs key="medical" type="theme">operation</rs>, and have every hope of going to
+                    <placeName key="england">England</placeName> <date when="1922">next Spring</date>.</p>
+                    <p>Your letter is anything but cheerful. What is the matter with <persName key="ts_eliot">Eliot</persName>? I have no
+                    idea he was ill. At least, however, England does give pensions to her own young
+                    writers, and there are no such things of the kind here, except a few personal
+                    prizes which individuals manage, and there are only about two of those.</p>
+                    <p>I hear quite constantly from <persName key="dh_lawrence">Lawrence</persName>. He is getting a large public here in
+                    <placeName key="usa">America</placeName>. How scattered all the contributors to <title key="someImagistPoets" level="m">our anthology</title> are, and how
+                    diversely we are all developing! But that is as it should be, I think. If we
+                    were not bigger than our theories, we should not be of much use.</p>
+                    <p>I do not wonder that you found <persName key="harriet_monroe">Harriet Monroe</persName> difficult to work with. I find her
+                    the same. I do not think you will miss much by not writing for “<title key="poetry" level="j">Poetry</title>.” Its
+                    influence is not great. I suppose you are still working on the “<title key="londonTimes" level="j">Times</title>,” are you
+                    not? You do not mention it in your letter.</p>
+                    <p>This is a short note and, I fear, a dull one, because, after three<pb n="02"/> weeks of hard
+                    work getting our Chinese book into the press, I am trying to do up my belated
+                    mail, so I will not write more at the moment.</p>
+                    <closer>Affectionately yours,</closer>
+                    <postscript><p>Enclosure.</p></postscript>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

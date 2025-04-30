@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- standalone statement declares that this document
+will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rngC:\Users\kpart\OneDrive\Documents\XML\ALLP_ODD-6.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <!-- Change href to your RNG file location locally -->
+<!DOCTYPE doc [
+    <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                        key="richard_aldington">Richard Aldington</persName>, <date
+                        when="1920-02-20"
+                    >February 20, 1920</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="kmp">Katrina Partlow</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="kmp">Katrina Partlow</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="kmp">Katrina Partlow</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref="drr">Danielle Nasenbeny</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here -->
+                </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$304i</idno>
+                    </msIdentifier>
+                    <physDesc><p>This letter is 5 pages long. It is typed on carbon paper. The date is in the top right, and to the left of the date on each page is a backwards slash with 46 above it. There is an annotation at the top of the page starting on the second page (Mr. Aldington - [Page #]). There is a certificate of issue after page 2, before page 3.</p></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="amy_lowell">Amy Lowell</persName>
+                    <settlement>LOCATION OF LETTER WRITING</settlement>
+                    <date>DATE OF LETTER WRITING</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="richard_aldington">Richard Aldington</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter"> 
+                    <opener><dateline><date when="1920-02-20">February 2, 1920</date></dateline>
+                    <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+                    <p>Your letter of <date when="1920-01-05">January 5th</date> came a day or two ago and has given me great
+                    pleasure. I am delighted to know that the “<title key="angloFrenchReview" level="j">Anglo-French Review</title>” has 
+                    “<title key="oneTwoThree" level="a">One, Two, Three</title>” and “<title key="summerNightPiece" level="a">Summer Night Piece</title>.” Of course a <measure type="currency">guinea</measure> is a 
+                    ludicrous price; over
+                    here I get <measure type="currency" quantity="25">$25.00</measure> for short poems and more according to length. Sometimes I get
+                    a great deal more, sometimes as much as <measure type="currency" quantity="100">$100.00</measure>, but here I am somebody while in
+                    <placeName key="england">England</placeName> I am nobody, and I am glad to have a chance to publish there even at the
+                    price of a guinea.</p>
+                    <p>I think your idea of publishing the things in “<title key="coterie" level="j">Coterie</title>” most excellent, but I am
+                    sorry to have <persName key="conrad_aiken">Aiken</persName> in it as Aiken is one of solidest enemies over here. The man
+                    has me on the brain. Evidently I annoy him. I notice in his book, “<title key="skepticisms" level="m"><choice><orig>Scepticisms</orig><reg>Skepticisms</reg></choice></title>,”
+                    that I am mentioned more times than any one else in the book, and almost always
+                    in wrath. I am sort of a complex with him, and really, from the way he takes it,
+                    it is almost a compliment to be so perpetually in his thought even if he does
+                    not like me. However, if “Coterie” will take these things of mine, I quite agree
+                    with you that the publicity is valuable.</p>
+                    <p>You say you have two poems of mine; I think you have three, if I am not
+                    mistaken: “<title key="granadilla" level="a">Granadilla</title>,” “<title key="carrefour" level="a">Carrefour</title>,” and “<title key="paradox" level="a">Paradox</title>.” Kindly tell me which two you
+                    have, since I must keep track of these things as I am constantly having
+                    applications for poems.</p>
+                    <p>“<title key="dial" level="j">The Dial</title>,” as you know, has changed hands, also its format and its whole point
+                    of view. I thought <persName key="martyn_johnson">Martyn Johnson</persName> had paid up all his debts before going to the
+                    <placeName key="southSeaIslands">South Seas</placeName>, whither he has retired to hide his chagrin. The new owner is a man
+                    named <persName key="schofield_thayer">Schofield Thayer</persName>. I do not know him. I meant to see him in <placeName>New York</placeName> a
+                    couple of weeks ago, but I did not have time. However,<pb n="02"/> I shall try to see him
+                    when I am in New York in <date when="1920-06">June</date>, and mention your claim for <measure type="currency" quantity="20">$20.00</measure>.</p>
+                    <p>It amuses me to know that the “<title key="londonTimes" level="j">London Times</title>” only has a circulation of 34,000.
+                    How small the scale in England is compared to that of <placeName key="usa">America</placeName>! I do not know
+                    what the circulation is of the “<title key="newYorkTimes" level="j">New York Times</title>,” for which I write, but I think
+                    a million and a half is nearer the figure.</p>
+                    <p>What you say of the animosity of the <orgName key="poetryBookshop">Poetry Bookshop</orgName> is one of the things that
+                    most annoys me. When <persName key="harold_monro">Harold Monro</persName> wrote me of his resuming “<title key="poetryDrama" level="j">Poetry and Drama</title>”
+                    under a new form, I wrote him and suggested that he should allow me to have one
+                    of the issues to write a simple resumé<!--is this a special character?--> of American poetry, with illustrations.
+                    He waited about five months before answering me, and then said that he thought
+                    the idea was a good one, but that he had already given it into other hands
+                    before my letter reached him. Now I am afraid he has given it into the hands of
+                    <persName key="charles_stork">Charles Wharton Stork</persName>, who runs a very feeble paper over here. Stork's interests
+                    are entirely reactionary, he publishes the poorest poetry written <date when="1920">to-day</date>, and
+                    his little paper, to which people contribute gratuitously, has no standing
+                    whatever. He is always discovering poets whom nobody ever hears of. I really
+                    believe he is the worst poet in the world himself, and anything but a gentleman
+                    to boot. He came to call on me, the other day, and made a pleasant afternoon
+                    call, and went away and told everything I said to a <placeName key="philadelphia">Philadelphia</placeName> paper as if it
+                    had been an interview.</p>
+                    <p>The reason I think he has been entrusted with this issue is because he told me
+                    he had also written to Monro asking for it, but at the time he was here he had
+                    not received an answer. If Monro puts himself in the hands of Stork, he will
+                    have the most ludicrous misrepresentation of American poetry that could possibly
+                    be given. How they do go wrong, Richard, and how anxious they are apparently to
+                    choose the wrong people to inform them.</p><pb n="03"/> <!--There is a certificate between these pages -->
+                    <p>I wonder who is doing the American notes for the “Times.” From what you say, it
+                    is undoubtedly the same thing there.</p>
+                    <p>What you say about my own books gives me great pleasure. I had an idea that you
+                    did not like my books very much, taking them by and large. They have recently
+                    been taken over by <persName key="basil_blackwell">Basil Blackwell</persName> who is very much interested in them, and I
+                    hope the public will back him up a little as he is taking all the risks. He
+                    would not even take the sheets from <orgName key="macmillan">Macmillan</orgName>, as he thought he could print more
+                    cheaply over there. I have no doubt he is right, but of course it makes a
+                    tremendous risk for him. He is to bring out “<title key="canGrandesCastle" level="m">Can Grande</title>” this <date when="1920">Spring</date>, and follow
+                    with the other volumes at six month intervals if the sale of “Can Grande”
+                    warrants his so doing.</p>
+                    <p>Who will review it for the “Times,” you or who? Reviews make or mar a book so
+                    much in England, and there is not a soul I know of who will speak favourably of
+                    it except possibly yourself. <persName key="winifred_bryher">Winifred</persName> writes that she would like to review it if
+                    she were to be in England, but as she is going to <placeName key="greece">Greece</placeName>, I suppose that will go
+                    by the board. My work will probably go slowly at first as it did here, but I
+                    have no real doubt about my future in England.</p>
+                    <p>At last we are waking up to the fact that we have American poets and that they
+                    are some good. You will be amused to learn that I have been offered the degree
+                    of Doctor of Literature by a <placeName key="BaylorU">Western University</placeName>, which high honour I am to be
+                    invested in at Commencement next <date when="1921-06">June</date>. As I Believe I am the first of the modern
+                    poets, man or woman, to receive an academic recognition of this kind, I am a
+                    good deal amused.</p>
+                    <p>I do not know whether you have a <orgName key="phiBetaKappa">Phi Beta Kappa</orgName> society in England. It consists
+                    of the first ten scholars in every graduating class, and is supposed to be,
+                    therefore, the greatest body of intelligent men which can<pb n="04"/> exist. Every year,
+                    each chapter of the Phi Beta Kappa has a meeting at which an orator and a poet
+                    are chosen to speak, at Commencement, and I have been asked to deliver the Phi
+                    Beta Kappa poem at <placeName key="columbiaU">Columbia University</placeName> this <date when="1920-06">June</date>. I gave the Phi Beta Kappa poem
+                    at <orgName key="tufts">Tuft's College</orgName> some years ago, but Columbia is a much larger university. So
+                    you see things are moving. These details, of course, do not matter a button
+                    really. They are usually given to the wrong people, and I am probably one of the
+                    wrong ones, but they do show a desire on the part of the public to help a native
+                    poet.</p>
+                    <p>What you say about not being able to get interested in anything does not
+                    surprise me at all. The soldiers I have seen are all the same. Of course the
+                    shock of <rs key="ww1" type="theme">what you have been through</rs> is terrific, and it will take some time to
+                    get over it, but your interest will come back, my dear boy, it is certain to
+                    come back as you grow stronger.</p>
+                    <p>I am delighted that you are on the “Times,” for that is a permanent something to
+                    cling to and keep you going until the urge for poetry writing comes back, and
+                    even then I do not think it is too arduous for you to do your own work on the
+                    side. I often review for the “Times” here, and although it takes a good deal of
+                    time, you know my theory that one should do these things as the professionals do
+                    them, even though one does not have to work, but can sit on a cushion and create
+                    as one likes.</p>
+                    <p>I do not agree with your opinion of <persName key="john_masefield">Masefield's</persName> “<title key="reynardTheFox" level="m">Reynard the Fox</title>.” I think that
+                    it a fine thing of its kind, but perhaps I am more eclectic than you are. Is
+                    that because I have less critical faculty, or because I am older? Who knows.</p>
+                    <p>By the way, <persName key="michael_sadleir"><choice><orig>Michael Sadler</orig><reg>Michael Sadleir</reg></choice></persName> has asked me to send him some of my poems for a
+                    little paper called “<title key="voices" level="j">Voices</title>,” the editor of which seems to like<pb n="05"/> my work, and on
+                    the theory that it is better to be read even if unpaid, I did so. I wish I could
+                    come over to England, but I am to have an <rs key="medical" type="theme">operation</rs> <date when="1920-02">next week</date>. It is a nuisance
+                    because it cuts off the rest of my <date when="1920">Winter</date>, and it will be some time before I am
+                    able to work again, but it cannot be helped. I have waited too long as it is.</p>
+                    <closer>With much love,
+                    Affectionately yours,</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

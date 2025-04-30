@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- standalone statement declares that this document
+will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+    <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                        key="richard_aldington">Richard Aldington
+                    </persName>, <date when="1921-08-04"
+                    >August 04, 1921
+                    </date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="kmp">Katrina Partlow</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="kmp">Katrina Partlow</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="kmp">Katrina Partlow</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref="drr">Danielle Nasenbeny</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here -->
+                </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">
+                            https://iiif.lib.harvard.edu/manifests/view/drs:425540184$334i</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>This letter consists of four typed pages on carbon paper. The upper left
+                            corner of the first page contains an address line. The upper right of
+                            each page contains a dateline. The third page is damaged along the right
+                            side of the paper as it seems to have been crumbling. The fourth page
+                            has some of the same damage alongside the right edge. Each page after
+                            the first has a heading above the dateline (Mr. Aldington - [Page #]).
+                        </p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="amy_lowell">Amy Lowell</persName>
+                    <settlement>LOCATION OF LETTER WRITING</settlement>
+                    <date>DATE OF LETTER WRITING</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="richard_aldington">Richard Aldington</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1921-08-04">August 4, 1921</date></dateline>
+                    <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+                    <p>You must think me very strange never to have written to you after getting the
+                    letter telling me of <persName key="albert_aldington">your father</persName>'s sudden death; but, as <persName key="ada_russell">Mrs. Russell</persName> has
+                    written you, I had to have another <rs key="medical" type="theme">operation</rs>, which makes three in fifteen
+                    months. It was impossible for me to write anything - even dictate anything. I
+                    have thought of you so often, and only wish that I had been nearer and could do
+                    anything for you in person. The breaking up of old ties, even if one has not
+                    lived with one's parents for years, is a dreadful thing.</p>
+                    <p>I sent you a copy of my new volume, “<title key="legends">Legends</title>,” which I was unable to write in,
+                    as I only received it about two days after my operation. I wonder if you ever
+                    got it. My secretaries think that it was sent to <placeName key="malthouseCottage">Malthouse Cottage</placeName>, Padworth,
+                    Reading, Berks, but they may have sent it to your old address, <placeName key="authorsClub">The Author's
+                    Club</placeName>. If you never received the book, I will send you another. I cannot think
+                    that you will like it particularly. It is perhaps too much in my own particular
+                    idiom to give you much pleasure; by which I mean that I think your taste runs
+                    toward a more peaceful type of verse.</p>
+                    <p><persName key="harriet_monroe">Harriet Monroe</persName> tells me that you have resigned as her foreign correspondent,
+                    telling her that you found yourself getting more conservative as you grew older;
+                    if so, it is interesting. I do not find any such thing in myself. I dislike
+                    freaks as much as I ever did, but I dearly love evolutionary experiments.</p>
+                    <p>I have a volume of Chinese translations - which I am doing with my friend <persName key="florence_ayscough">Mrs.
+                    Francis Ayscough</persName> of <placeName key="shanghai">Shanghai</placeName>, <placeName key="china">China</placeName> - coming out this <date when="1921">Autumn</date>. Of course these
+                    innumerable operations have taken a great deal of my strength,<pb n="02"/> and I have not
+                    been able to do as much work as I should like, in consequence, but I am getting
+                    round again, and it looks as if this one might be successful, but then, it has
+                    looked that way before, one really cannot tell, and nothing but time can give us
+                    any idea as to whether it has been successful or not. The <date when="1921">Summer</date> has been spent
+                    mostly in an arm-chair trying to get up strength. I crawl round the garden a
+                    little; and, by the way, that description of yours of the hill opposite your
+                    house is too lovely, with all its beautiful flowers. I wish you could see my
+                    garden. It is not wild, merely a garden, but I am devotedly fond of it and
+                    manage to keep it in bloom from <date when="1921-04">April</date> to <date when="1921-10">November</date>.</p>
+                    <p>My present plans are to finish my “<title key="johnKeats" level="m">Life of Keats</title>” this <date when="1921">Winter</date>, put it through
+                    the press before I leave, and sail for <placeName key="england">England</placeName> sometime <date when="1922">next Spring or early
+                    Summer</date>; that is, supposing this operation is successful. There is so much
+                    suppose about this that I have not engaged my passages yet, but if all goes well
+                    by <date when="1922-01">January</date> I think I shall. You say that you think I should keep criticism and
+                    biography apart in my “Life of Keats,” but that is not exactly my idea, although
+                    perhaps we may mean nearer the same thing than it sounds as if we did. I want to
+                    give a more comprehending and psychological biography than has ever yet been
+                    done of him. I agree with you entirely that a great deal of his work is very,
+                    very poor. The rest of it is pure genius. That I hope to point out. Of course I
+                    shall pick out the things that I think are genius, and not the things that the
+                    world does necessarily. For instance, I have no use for the “<title key="hyperion" level="a">Hyperion</title>” in either
+                    form, and many people consider it his best work. Again I think “<title key="eveOfMark" level="a">The Eve of St.
+                    Mark</title>” a marvellous (sic) thing, and only a very few critics have given it any
+                    consideration whatever. But there will be a great deal of biography. I am having
+                    an awful time with<pb n="03"/> some curmudgeons over here who have original documents that
+                    they will not allow me to use. I speak as if there were millions of these men;
+                    on the contrary, there are only two. Most of the people who have manuscripts are
+                    only too glad to put them at my disposal. Since writing my centenary address at
+                    <orgName key="yale">Yale</orgName> <date when="1920">last Winter</date>, I have done nothing but collect material for my biography. I
+                    do not intend to do anything about getting the thing together or starting
+                    writing until I get this Chinese book off my hands. Then, in November, my
+                    lectures begin again, and it is no little problem to fit them in in nice tidy
+                    packages and have plenty of time in between the layers of lectures to do the
+                    Keats book, so you see I am busy.</p>
+                    <p>And you, I imagine, are extremely busy too, judging from Harriet Monroe's
+                    account of your letter to her. What has happened to <persName key="fs_flint">Flint</persName>? I never received a
+                    word from him, after I wrote him as you asked me to do after his wife's death. I
+                    have never even received any acknowledgement from him of having received the
+                    money that I sent through you. I am sending you two drafts for the half-year
+                    <title key="someImagistPoets" level="m">anthology</title> royalties, one for him again. I wish those little books would go out
+                    of print. I think the time for them is past, and they will be of more interest
+                    collected with great labour at second hand by enthusiasts; but they seem to have
+                    a great many sheets on hand, and they keep selling, as you see. Of course they
+                    will have to be sold while the printers have them to sell. I have ordered them
+                    not to reprint, as you know.</p>
+                    <p>I see many pleasant things in the papers about your “<title key="medallionsInClay" level="m">Medallions in Clay</title>,” but I
+                    am puzzled to know why you cribbed your title from <persName key="henri_regnier">Henri de Régnier</persName>. Our Chinese
+                    book is called “<title key="firFlowerTablets" type="m">Fir-Flower Tablets</title>,” “fir-flower” being the name of the paper on
+                    which poetry was frequently written. It is an<pb n="04"/> attractive name, I think. I do not
+                    know whether you ever see “<title key="dial" level="j">The Dial</title>.” There are two poems of mine in the <date when="1921-08">August</date>
+                    number that I rather like.</p>
+                    <p>Do write when you get this and tell me all your news, and let me know if you got
+                    “Legends,” because, above all things, don't let us get out of touch just because
+                    the ocean separates us and we have not met for seven years.</p>
+                    <closer>Affectionately yours,</closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

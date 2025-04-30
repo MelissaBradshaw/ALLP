@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="richard_aldington">Richard Aldington</persName>, <date when="1920-03-17"
+                  >March 17, 1920</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="kmp">Katrina Partlow</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="kmp">Katrina Partlow</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="kmp">Katrina Partlow</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref="drr">Danielle Nasenbeny</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$310i</idno>
+               </msIdentifier>
+               <physDesc><p>This letter consists of three pages typed on carbon paper, followed by one Certificate of Issue and one Sales Report. The top left corner of the first page contains an address header for Aldington. The top right corner of the first page is torn off. The top right on each page after the first has a heading (Mr. Aldington - [Page #]), and each page has the date line underneath this. The first page date line is preceded by a "/ 46."
+               </p></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type="sent">
+   <persName key="amy_lowell">Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>DATE OF LETTER WRITING</date>
+</correspAction>
+   <correspAction type="received">
+  <persName key="richard_aldington">Richard Aldington</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+         <opener><dateline><date when="1920-03-17">March 17, 1920</date></dateline>
+         <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+         <p>Your letter of <date when="1920-03-04">March 4th</date> came <date when="1920-03-17">to-day</date>, an uncommonly quick journey. The mails are
+            evidently beginning to be natural again. I was delighted to get it; you are the most
+            satisfactory correspondent I have.</p>
+            <p>In the first place, I cannot understand how my secretary omitted to put in the little
+            slip about the <title key="someImagistPoets" level="m">Imagist</title> royalties that still come in, although we are letting the volumes
+            go out of print. I enclose it in this letter, and you will therefore see what the cheque
+            for 2-7-4 was for. The difference is exchange.</p>
+            <p>I got the <date when="1920-02">February</date> number of the “<title key="angloFrenchReview" level="j">Anglo-French Review</title>” all right the other day, and also
+            <measure type="currency" quantity="1">a guinea</measure> from the editor, so that is very satisfactory. They published a poem called
+            “<title key="oneTwoThree" level="a">One! Two! Three!</title>” The other poem which they have is called “<title key="summerNightPiece" level="a">Summer Night Piece</title>.” In my
+            book where I keep a list of poems and articles accepted, I find three other poems listed
+            as having been sent to you: “<title key="granadilla" level="a">Granadilla</title>,” “<title key="carrefour" level="a">Carrefour</title>,” and “<title key="paradox" level="a">Paradox</title>.” Probably one of
+            these was omitted in the enclosure and you only had two of them. When “<title key="coterie" level="j">Coterie</title>”
+            published the two poems, I shall simply consider the third as never having gone to you,
+            and everything is all right and perfectly satisfactory.</p>
+            <p>I am going to <placeName key="nyc">New York</placeName> in <date when="1920-06">June</date> to give the <orgName key="phiBetaKappa">Phi Beta Kappa</orgName> poem at <placeName key="columbiaU">Columbia University</placeName>
+            Commencement, and I will go to see the “<title key="dial" level="j">Dial</title>” people then and mention your claim. They
+            are perfectly honest and nice young fellows, and I have no doubt they will pay you
+            promptly unless <persName key="martyn_johnson">Johnson</persName> left no record of his debt to you. The “Dial” is a good paper
+            since they took it up, although a little futuristic for my taste, but Johnson is an
+            improvident goose, and he is well out of it, and the “Dial” well out of him.</p><pb n="02"/>
+            <p>I do not know what is the matter with <persName key="john_fletcher">Fletcher</persName>. He is behaving like a perfect cad. He
+            has written me a most abominable letter to-day in which he does not in the least approve
+            of for the very silly reason that he cannot do it himself. As a matter of fact, my
+            illness was a <rs key="medical" type="theme">hernia</rs> got from lifting the hind wheels of a carriage to obviate a runaway
+            some years ago. I obviated the runaway, but have been suffering from it ever since and
+            this is the second operation I have had to undergo in consequence. It is not an illness
+            but an accident, just as if I might have been shot on a <rs key="ww1" type="theme">battlefield</rs>. It has laid me out,
+            naturally, but I hope to be all right before long, barring the shock of the operation
+            which has been very great, and which has not been helped by the death of <persName key="ada_russell">Mrs. Russell</persName>'s
+            youngest grandchild and the <rs key="medical" type="theme">severe illness</rs> of <persName key="lorna_amussen">her daughter</persName> which happened two weeks
+            after my operation. Mrs. Russell had to leave me, and I have been along and under great
+            anxiety. The daughter is now out of danger I am happy to say, and I hope to get Mrs.
+            Russell back shortly.</p>
+            <p>Fletcher evidently has no intention of asking me to contribute to his American number of
+            the “<title key="chapbook" level="j">Chap Book</title>.” I need hardly explain to you how abominable this is, not only from the
+            point of view of my position here in <placeName key="usa">America</placeName>, but from the point of view of Fletcher's
+            own constantly expressed admiration of my work. He is a perfect chameleon and takes the
+            colour of whoever he is with, but I think he has been written to a great deal by <persName key="conrad_aiken">Aiken</persName>,
+            and has probably been seeing <persName key="ts_eliot">T.S. Eliot</persName> and others of the hostile faction.</p>
+            <p>It is pretty discouraging to see how many of the poets are underbred when you know them
+            well. If he had no wanted my work, a nice man would have written and told me so, and not
+            sneaked and pretended he was not doing<pb n="03"/> the thing. It makes one sick how few of the
+            present generation of poets have the instincts of gentlemen. It is not true of <placeName key="france">France</placeName>,
+            so far as I have had anything to do with the poets there, and it is not true of the
+            poets of any other period in the history of English literature. If this is a result of
+            democracy, I am for aristocracy pure and simple. I have helped Fletcher a great deal,
+            and I am broken hearted at his attitude and his abominable behavior.</p>
+            <p>I cannot write much more to-day as I am all in.</p>
+            <closer>Affectionately yours,</closer>
+         </div>
+      </body>
+   </text>
+</TEI>

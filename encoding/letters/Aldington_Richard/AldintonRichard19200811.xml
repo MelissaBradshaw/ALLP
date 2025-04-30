@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- standalone statement declares that this document
+will link to other ones i.e. the site index content -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+    <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName
+                        key="richard_aldington">Richard Aldington</persName>, <date when="1920-08-11"
+                    >August 11, 1920</date></title>
+                <author key="amy_lowell">Amy Lowell</author>
+                <editor ref="mb">Melissa Bradshaw</editor>
+                <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+                    Chicago</sponsor>
+                <principal ref="mb">Melissa Bradshaw</principal>
+                <respStmt>
+                    <resp>Transcription completed by</resp>
+                    <persName ref="kmp">Katrina Partlow</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription proofed by</resp>
+                    <persName ref="kmp">Katrina Partlow</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed by</resp>
+                    <persName ref="kmp">Katrina Partlow</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance provided by</resp>
+                    <persName ref="drr">Danielle Nasenbeny
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Amy Lowell Letters Project</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date when=""> <!-- Add date when published to website here -->
+                </date>
+                <availability>
+                    <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike
+                        4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Harvard College Library</institution>
+                        <repository>Houghton Library Repository</repository>
+                        <collection>Amy Lowell Correspondence</collection>
+                        <idno type="URI">
+                            https://iiif.lib.harvard.edu/manifests/view/drs:425540184$321i</idno>
+                    </msIdentifier>
+                    <physDesc><p>This letter consists of two typed pages on carbon paper. In the upper lefthand corner is the address header. The upper righthand side contains a dateline. On the second page, there is a header above the dateline (Mr. Aldington - 2)</p></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                &personography;
+            </particDesc>
+            <textClass>
+                <!-- document-level keywords applied here -->
+            </textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="amy_lowell">Amy Lowell</persName>
+                    <settlement>LOCATION OF LETTER WRITING</settlement>
+                    <date>DATE OF LETTER WRITING</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="richard_aldington">Richard Aldington</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener><dateline><date when="1920-08-11">August 11, 1920</date></dateline>
+                    <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
+                    <p>As you probably know by this time, <persName key="elizabeth_cutting">Miss Cutting</persName> of the “<title key="northAmericanReview" level="j">North American Review</title>”
+                    has taken your “<title key="eumenides" level="a">Eumenides</title>,” I asked her to write to you about it direct. Your
+                    other poems I have not yet been able to do anything about, as I have not been to
+                    <placeName key="nyc">New York</placeName> since I received them. I will, however, attend to them as soon as
+                    possible. I do not think there is the slightest doubt that I shall be able to
+                    place some of them; I hope not, anyway. Of course the Summer is a slow time, for
+                    these things go better if I see the editors personally, and I do not go to New
+                    York in the Summer.</p>
+                    <p><persName key="hilda_doolittle">Hilda</persName> writes me that she will arrive in New York about the <date when="1920-09-08">8th of September</date>, and
+                    I rather think I shall go on to meet the steamer and see her then. I am writing
+                    to her mother to see if she is going to meet the steamer, and it occurs to me
+                    that they be anxious to get rid of <persName key="winifred_bryher">Winifred Ellerman</persName> for a little while. They
+                    may want to see each other without her, and I have written Hilda that if my
+                    health holds out, as I trust it will, I shall be very glad to have Winifred here
+                    for a little while.</p>
+                    <p>This is hardly a letter to you in answer to your splendid one of the <date when="1920-06-17">17th of
+                    June</date>, because I am just rushing out to <placeName key="chicago">Chicago</placeName> to give a couple of lectures
+                    before the Summer School of the <orgName key="uChicago">University of Chicago</orgName>, and I have no time to do
+                    more than send this line now.</p>
+                    <p>I like your “<title key="nightingale" level="a">Nightingale</title>” immensely, and also your “<title key="nightFancies" level="a">Night Fancies</title>,” the others
+                    perhaps not quite so much. I will write you about them at length, and also do
+                    more jusice to your splendid letter, when I get back from Chicago next week. If
+                    only this <rs key="medical" type="theme">hernia</rs> will let me, and they do not insist on cutting me up just at
+                    that time, I shall certainly come over to<pb n="02"/> <placeName key="england">England</placeName> <date when="1921">next Spring</date>. I feel I must get
+                    there.</p>
+                   <p> <title>Hilda's book</title> has arrived and I am going to try and place it. I am glad the
+                    “<title key="dial" level="j">Dial</title>” has paid you promptly. They are good at paying. Whether they will pay you
+                    the odd <measure type="currency" quantity="30">$30.00</measure> or not of course I do not know; they said they would look it up.
+                    I have a theory that <persName key="edmund_brown">Brown</persName> is in difficulties. He sent out a man to see me
+                    <date when="1920-08-10">yesterday</date>, but he would not state his business to my secretary and I could not
+                    see him. I am glad he has paid you something, anyway.</p>
+                    <p>Let me hastily say that I did not mean that all French criticism was “too long,
+                    too meticulous, and too dull in the way of expressing itself.” I meant merely
+                    that of many of the younger men, not, of course, of the superb older critics.
+                    There is nothing like them. I have been slamming the last <title key="georgianPoetry" level="j">Georgian Anthology</title> in
+                    the “Dial,” which I suppose spoils me for England. Don't, for Heaven's sake,
+                    imagine that American poetry is going the way of the kind they publish in the
+                    “Dial.” <persName key="erstline_cummings">Erstline Cummings</persName> is punk of the punkest, and <persName key="schofield_thayer">Schofield Thayer</persName> (the
+                    “Dial” editor) has fallen for him hard.</p>
+                    <p>I see I am writing a letter after all, but I cannot, I must not. I have a lot of
+                    nasty things to get off before I go, and I am going to stop right now - bang! I
+                    will write you a decent letter when I get home.</p>
+                    <closer>Affectionately yours,</closer>
+                    <postscript><p><persName key="amy_lowell">Miss Lowell</persName> was obliged to leave before this letter could be signed.</p></postscript>
+            </div>
+        </body>
+    </text>
+</TEI>
