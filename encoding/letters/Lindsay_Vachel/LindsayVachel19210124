@@ -103,7 +103,7 @@ will link to other ones i.e. the site index content -->
                         <title key="legends">new book</title> which is coming out in <date when="1921-04">April</date>, and because of the operation which made me unable to
                         do anything for some months. I am awfully sorry, therefore, that I cannot come out in print at the
                         moment, but I have had to tell my papers, the <title key="times">"Times"</title> and the
-                        <title key="nyEveningPost">“Post,”</title> that I could write nothing for them until the late Spring. I am afraid you have not exactly rung the right bell with me when
+                        <title key="nyEveningPost" level="j">“Post,”</title> that I could write nothing for them until the late Spring. I am afraid you have not exactly rung the right bell with me when
                         you mention <persName>Mrs. Eddy's</persName> <title>“Science and Health.”</title> My feelings about Mrs. Eddy are beyond words,
                         and I should hate to compare your book with hers.</p>
                         <p>I care more for your book on the imaginative side than I do on the practical side, as you
@@ -113,7 +113,7 @@ will link to other ones i.e. the site index content -->
                                 soon before my operation that I could not thank you
                                 then. The things I knew I liked as much as I did before, and I was interested to see the new things.
                             Personally, I am devoted to your pictures, so I
-                            <pb>n="2"</pb>
+                            <pb n="2"/>
                             hope you will go on and issue another number with new pictures to new poems.</p>
                             <p>Now as to <persName>Mr. Squire</persName>, the difficulty is that Squire does not like me. I do not know that he
                                 knows much about me, but he has written some rather scathing things in which he speaks of me
@@ -135,7 +135,7 @@ will link to other ones i.e. the site index content -->
                                 has jumped on me time and again in his criticisms, and from various things he has said about me
                                 I have felt that it was best to steer clear of him. Therefore, I have never communicated with him 
                                 in any way and cannot now. If you can find out from him when Mr. Squire arrives, I 
-                                <pb>n="3"</pb>
+                                <pb n="3"/>
                                 will do what I can, as I feel no hostility whatever on account of his attitude.</p>
                                 <p>I do wish the politics of poetry could be done away with. I hate these vituperations of one
                                 poet against another. Criticism is one thing, personal abuse is a different matter entirely. The
