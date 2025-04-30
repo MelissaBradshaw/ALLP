@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="file:///Users/name/folder/schemafile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="mary_aldis">Mary Aldis</persName>, <date when="1916=02-07"
+                  >February 7, 1916</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref=""> <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="her">Haley Ramirez</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540924$9i</idno>
+               </msIdentifier>
+               <physDesc>The letter is one page long on cream colored paper with typewritten text. At the top of the first page there is an indecipherable, paranthetical word written in pencil. 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type=”sent”>
+   <persName>Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>DATE OF LETTER WRITING</date>
+</correspAction>
+   <correspAction type=”received”>
+  <persName>RECEIVERS NAME</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <div type="letter">
+        <opener><dateline><date when="1916-02-07">February 7, 1916</date></dateline>
+<salute>My dear <persName key="mary_aldis">Mrs. Aldis</persName>:</salute></opener>
+<p>What a brick you are! And how kind you have been to take such a lot of trouble on my behalf. I have telegraphed to <persName key="edmund_browne">Mr. Browne</persName> that the <date when="1916-03-19">19th of March</date> would be the best date for me. It is awfully kind of you to want me to wait until <date when="1916-04">April</date>, and go to you at <placeName key="lakeForest">Lake Forest</placeName>, but I am afraid I must get out there as quickly as possible, and I do not really know why I should not go out again later, if you think well enough of <title level="a">“The Grocery”</title> to produce it at your <orgName key="littleTheatre">theatre</orgName>.</p>
+<p>I do hope you are coming to <placeName key="boston">Boston</placeName> the end of this week. Why don’t you come to the <palceName key="sevenels">Hotel Lowell</palceName>? It is quite centrally situated, with automobile accommodation back and forth from the city. Of course, I know you have a sister-in-law living very near here, but sisters-in-law are like the poor, they are always with us; they will keep for an indefinite period. I believe your son is in <placeName key="cambridge">Cambridge</placeName>, and I must admit that we are not right beside Cambridge; but with the automobile accommodation I mentioned, it only takes fifteen minutes longer to get there. I do hope I shall hear from you, to say that you are coming, and coming here.</p>
+<closer>Sincerely yours</closer>,
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="file:///Users/name/folder/schemafile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="mary_aldis">Mary Aldis</persName>, <date when="1916-03-30"
+                  >March 30, 1916</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref=""> <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="her">Haley Ramirez</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540924$14i</idno>
+               </msIdentifier>
+               <physDesc>The letter is one page long on cream colored paper with typewritten text. At the top of the first page there is an indecipherable, paranthetical word written in pencil.
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type=”sent”>
+   <persName>Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>DATE OF LETTER WRITING</date>
+</correspAction>
+   <correspAction type=”received”>
+  <persName>RECEIVERS NAME</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <div type="letter">
+        <opener><dateline><date when="1916-03-30">March 30, 1916</date></dateline>
+<salute>My dear <persName key="mary_aldis">Mrs. Aldis</persName>:</salute></opener>
+<p>Before I go to business, please let me thank you again for all your kindness and hospitality while I was in <placeName key="chicago">Chicago</placeName>. I am quite aware that it was you who made my visit what it was, and I had not only a perfect time, but a complete rest; and I find myself back at work again with renewed vigour.</p>
+<p>Did you see the very nice notice in the <title key="chicagoEveningPost" level="j">“Chicago Evening Post”</title> last <date when="1916-03-25">Saturday</date>, put in by <persName key="llewellyn_jones">Llewellyn Jones</persName>? It did much to soothe my feelings after <title key="chicagoTribune" level="j">“The Tribune”</title> notice.</p>
+<p>I am returning your <title level="a">“Park Bench”</title> with many thanks. As I wrote you, I am perfectly delighted with it, and think it will act splendidly. I am also sending you a copy of <title key="turnpike" level="a">“Off The Turnpike”</title>, as you requested.</p>
+<p>I am as keen as you are about the performance in <date when="1916-06">June</date>, and I am sure our dramatic sketches will take.</p>
+<p>Until <date when="1916-04-08">Sunday, the 8th</date>, then, when I hope to see you at seven o’clock—and please don’t forget to let me know where I am to send the motor for you.</p>
+<closer>Very sincerely yours</closer>,
+        </div>
+      </body>
+   </text>
+</TEI>

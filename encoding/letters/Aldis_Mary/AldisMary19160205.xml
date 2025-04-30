@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="file:///Users/name/folder/schemafile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="mary_aldis">Mary Aldis</persName>, <date when="1916=02=05"
+                  >February 5, 1916</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref=""> <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="her">Haley Ramirez</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540924$8i</idno>
+               </msIdentifier>
+               <physDesc>The letter is one page long on cream colored paper with typewritten text. At the top of the first page there is an indecipherable, paranthetical word written in pencil. 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type=”sent”>
+   <persName>Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>DATE OF LETTER WRITING</date>
+</correspAction>
+   <correspAction type=”received”>
+  <persName>RECEIVERS NAME</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <div type="letter">
+        <opener><dateline><date when="1916-02-05">February 5, 1916</date></dateline>
+<salute>My dear <persName key="mary_aldis">Mrs. Aldis</persName>:</salute></opener>
+<p>I have seen <persName key="louis_untermeyer">Louis Untermeyer</persName>, and he says that whether or not the <title key="masses" level="j">“Masses”</title> accepts <title level="a">“The Grocery,”</title> it is quite all right for me to send it to you for production at your <orgName key="littleTheatre">little theatre</orgName>. He says that there is every reason to suppose that the "Masses” will accept it, but I do not think that need affect your production one way or the other. I am therefore sending it to you.</p>
+<p>Please remember that it was not written intentionally as a play, but when I got it done, it seemed to me eminently actable. Of course, like all these modern things, much will depend upon the actors; but if you will do me the honour of taking the part of the girl, I shall have no fear of the production. And it will give me great pleasure to go out and superintend the rehearsals, for indeed I do not believe you could keep me away from the performance. If, however, you do not like it, or do not think it suitable for your stage, do not hesitate to turn it down.</p>
+<closer>Sincerely yours</closer>,
+        </div>
+      </body>
+   </text>
+</TEI>

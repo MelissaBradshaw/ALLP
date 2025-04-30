@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="file:///Users/name/folder/schemafile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="mary_aldis"> Mary Aldis</persName>, <date when="1916-05-17"
+                  >May 17, 1916</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref=""> <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="her">Haley Ramirez</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540924$16i</idno>
+               </msIdentifier>
+               <physDesc>The letter is two pages long on cream colored paper with typewritten text. At the top of the first page there is an indecipherable, paranthetical word written in pencil.
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type=”sent”>
+   <persName>Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>DATE OF LETTER WRITING</date>
+</correspAction>
+   <correspAction type=”received”>
+  <persName>RECEIVERS NAME</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <div type="letter">
+        <opener><dateline><date when="1916-05-17">May 17, 1916</date></dateline>
+<salute>My dear <persName key="mary_aldis">Mrs. Aldis</persName>:</salute></opener>
+<p>I have just received your letter of <date when="1916-05-14">May 14th</date>. I am very sorry to hear of <persName key="bryan_lathrop">Mr.Lathrop’s</persName> death. I never met him, but <persName key="helen_lathrop">Mrs. Lathrop</persName> was so very kind as to ask me to stay there at the time of <persName key="harriet_monroe">Harriet’s</persName> dinner, and I had a letter from her after my recent visit in <placeName key="chicago">Chicago</placeName> telling me of hers and her husband’s illness, but she spoke so hopefully of their both being better, that of course it never occurred to me that he was seriously ill.</p>
+<p>I quite understand that it will be impossible for you to give our plays at the end of <date when="1916-06">June</date>, as we arranged, but if you can do it in the early Autumn, I think that it would be quite perfect for me. <date when="1916-08">August</date> would not be very good, as I do not move up to the country until the <date when="1916-07">middle of July</date>, and it would be rather difficult to get down again and out to you so soon. Could we not make it <date when="1916-09">middle or end-September</date>? If that suits you?</p>
+<p>I am delighted that you are coming back here <date when="1916-05">next week</date>. Can you not dine with me <date when="1916-05-21">Sunday</date> night? And I will get <persName key="john_fletcher">Fletcher</persName> and one or two other people who are interested in our work. <placeName key="boston">Boston</placeName> is not much in either the poetical or the dramatic line, and I am afraid that I cannot give you as delightful a time as you gave me. However, as I am a selfish person, I shan’t really care very much, because it will be such a pleasure to me to see you.</p>
+<p>On reading over your letter I think it must be this very <date when="1916=05-19">Friday</date> that you are coming, namely, the day after tomorrow, so I shall consider <date when="1916-05-21">Sunday</date> an engagement, and shall telephone you <date when="1916-05-19">Friday</date> <pb n="02"></pb> night in the hope of clinching it.</p>
+<p>I am sending you a copy of our <title key="someImagistsPoets" level="m">Anthology</title>. You should have had it before, only the publication was delayed. I trust, however, that it is on sale in <placeName key="chicago">Chicago</placeName>. But <orgName key="houghton_mifflin">Houghton-Mifflin</orgName> are so careless about the commercial side of their books that it strikes me as quite likely that they have not sent them out to <placeName key="mcclurg">McClurg’s</placeName>.</p>
+<p>I am writing to <persName key="margaret_anderson">Margaret Anderson</persName> by this mail, telling her that I have asked you to review it for us. I know she will be quite delighted to have you do it, because she asked me when I was in Chicago if there was anyone I could suggest.</p>
+<p>Until <date when="1916-05-19">Friday</date>, then. Believe me,</p>
+<closer>Sincerely yours</closer>,
+        </div>
+      </body>
+   </text>
+</TEI>

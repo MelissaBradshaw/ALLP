@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="file:///Users/name/folder/schemafile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="mary_aldis">Mary Aldis</persName>, <date when="1916-02-01"
+                  >February 2, 1916</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref=""> <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="her">Haley Ramirez</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540924$4i</idno>
+               </msIdentifier>
+               <physDesc>The letter is four pages long on cream-colored paper with typewritten text. At the top of the first page there is an indecipherable, paranthetical word written in pencil.
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type=”sent”>
+   <persName>Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>DATE OF LETTER WRITING</date>
+</correspAction>
+   <correspAction type=”received”>
+  <persName>RECEIVERS NAME</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <div type="letter">
+        <opener><dateline><date when="1916-02-01">February 1, 1916</date></dateline>
+<salute>My dear <persName key="mary_aldis">Mrs. Aldis</persName>:</salute></opener>
+<p>By this time you will have received my long letter about the speaking, and it seems to me that perhaps the best thing would be for me to hire some club rooms, and issue announcements. I do not think a merely society function will quite get to the people that I want to talk to. However, I am not going into that now, until I get your answer to my other letter.</p>
+<p>It is very kind of you to be so cordial to my suggestion about <title level="a">“The Grocery,”</title> my acting poem. It is at present submitted to the <title key="masses" level="j">“Masses,”</title> but I have my doubts whether they will publish it. At any rate, I am going to see <persName key="louis_untermeyer">Louis Untermeyer</persName>, who is one of the editors, to-day, and I will ask him if there is any objection to my sending it to you with a view to its production at your <orgName key="littleTheatre">little theatre</orgName>, while it is still under consideration by them. I cannot see that its being produced in your theatre would affect their publishing it one way or the other, but of course I want to do everything quite straightly about it, and it may be that I shall have to wait before sending it to you until they have either accepted or refused it. But whichever they do, there is no reason whatever why you should not have it in the end. But perhaps I had better not send it until I am sure.</p>
+<p>It is very nice of you to suggest offering a prize for the best <orgName key="imagists">Imagist</orgName> poems, but if my opinion has any weight with you, I must beg you most earnestly not to do anything of the kind. I and my fellow-Imagists are utterly averse to the prize system. I do not believe <pb n="02"></pb>that it adds anything to the incentive to poetry, and this sort of inducement we all consider unworthy and unwise. <rs key="imagism" type="movement">Imagism</rs> is not a fad for the moment. Imagism is a sincere belief of a handful of poets who are giving up their lives to it. It is so comparatively little understood by the general public, and very little understood by poets themselves at present. We are slowly making our way, and gaining our public, but we want to do so seriously and in a quiet and dignified manner, without any flags flying, and without any other inducement than the value of the work itself, and the emolument which naturally comes from it.</p>
+<p>Your corps of judges is, with the exception of myself, entirely unfitted to judge what is an Imagist poem and what is not. <persName key="arthur_ficke">Mr. Ficke</persName>, although he has written some excellent poems himself, has no correct understanding of what Imagism is, if I may judge of his prose writings on the subject. And <persName key"john_powys">Mr. Powys</persName> is in the same position as regards his knowledge of the subject. You see, that as we invented Imagism, we are really the only people who are at present capable of judging what is a purely Imagistic poem and what is not; and it is incontestable at the moment that the people who have written the best Imagistic poems are the inventors. Now we have endeavoured to keep ourselves a true democracy. Our official volume, <title key="someImagistPoets" level="m">“Some Imagist Poets,”</title> is arranged alphabetically; the space is, as nearly as possible, equal. For any of us to be elected as judges and award prizes to the others, would be singularly foolish. And to award prizes to outside talent, is at present impossible. We have been trying to find good Imagist poetry outside of our special group, among poets who have been influenced by us. There are some quite promising specimens, but so far the movement is still too <pb n="03"></pb>young to have many disciples. There is far more to Imagism, far more to its theories, than is generally understood; and it is for that reason that I wanted to give a talk on it. Undoubtedly, in time there will be many people writing Imagist poetry. As it is, there are a few following in our footsteps, but the whole thing is too new and too young to range up its disciples and give them the <choice><orig>acolade</orig><reg>accolade</reg></choice> [sic] of welcome.</p>
+<p>Now you have been awfully kind to us, my dear Mrs. Aldis, awfully appreciative. Will you let me guide you in this matter? I know it was extremely nice of you to think of offering prizes for an Imagistic poem. But may I ask you, as a personal favour, to abandon the idea. There will be many other ways for you to help us, the most important being your speech at the <orgName key="fridayClub">Friday Club</orgName>; and if you chose to write a paper about us in <title key="littleReview" level="j">“The Little Review,”</title> it would do us far more good than prizes. And please believe me that I am most grateful for your interest and for all that you have done, and for this last evidence of your kindness in particular; but please let us find some other way to help along a cause to which we Imagists are giving our lives.</p>
+<p>I do hope that something may be arranged so that I can speak. If you think it is too late for any clubs, and if you do not think it is possible for me to manage it myself, that is, the sale of tickets, I will abandon it for the present. I think it is, on the whole, a mistake for me to give up the stand I have taken here of being paid for my lectures, for I have found that it puts me on a more serious plane and gives what I say more weight, melancholy fact that it should be so. I am thinking a little bit of going to <placeName key="stLouis">St. Louis</placeName> as well as to <placeName key="chicago">Chicago</placeName>, on the same errand; but all that is in the air at present.</p>
+<pb n="04"></pb>As soon as I have seen Louis Untermeyer, I will let you know about “The Grocery,” and
+Believe me,
+<closer>Very sincerely yours,</closer>
+         </div>
+      </body>
+      <back>
+         <div type="notes">
+         <note target="#n1" resp="mb">The Friday Club is a Chicago based organization founded in 1880. This club focuses on creating a women centered space where they could present paper and discuss and share their ideas. In March of 1916, Mary Aldis delivered a lecture on Imagism at the Friday Club. This lecture is what Lowell is anticipating here.</note>
+
+   </text>
+</TEI>

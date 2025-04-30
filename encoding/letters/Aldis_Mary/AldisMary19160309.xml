@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="file:///Users/name/folder/schemafile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="mary_aldis">Mary Aldis</persName>, <date when="1916-03-09"
+                  >March 9, 1916</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref=""> <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="her">Haley Ramirez</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540924$12i</idno>
+               </msIdentifier>
+               <physDesc>The letter is two pages long on cream colored paper with typewritten text. At the top of the first page there is an indecipherable, paranthetical word written in pencil. 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type=”sent”>
+   <persName>Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>DATE OF LETTER WRITING</date>
+</correspAction>
+   <correspAction type=”received”>
+  <persName>RECEIVERS NAME</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <div type="letter">
+        <opener><dateline><date when"1916-03-09">March 9, 1916</date></dateline>
+<salute>My dear <persName key="mary_aldis">Mrs. Aldis</persName>:</salute></opener>
+<p>Please do not think that I am very unappreciative if I say that I think I had better refuse all these kind invitations of Mr. Eddy. You see, I shall only arrive in <placeName key="chicago">Chicago</placeName> in time to get ready for your lunch, so that knocks out the morning suggestion. And between your lunch and my lecture in the evening I feel I must get a little rest, after a night on the train, otherwise I shall be no good—these lectures take it out of one horribly. The same remark applies to going out to Mr. Eddy’s after the lecture, as I feel sure I shall then be exhausted and had better go straight home and go to bed. It is very kind of him to suggest this, and I am extremely grateful; but that particular day will be so strenuous and so full of interest and excitement, that I think any more would reduce me to a breaking point. Will you, therefore, make my most grateful excuses?</p>
+<p>I think your poem-play, <title level="a">“The Park Bench”</title>, extremely interesting, and to my mind it “gets over” very well in blank verse. Whether or not it would not get over just as well in <rs key="freeVerse" type="style"><foreign xml:lang="fr"><hi rend="underline">vers libre</hi></add></foreign></rs> is not the point. And whether or not, set on the stage, it would give quite the same impression as regular conversation (which I believe is the question you asked me)—whether people in that walk of life talking apparently naturally in blank verse would seem a little <add place="above" type="insertion">of an</add> anachronism—I don’t know. And, to tell you the truth, I should not care. The thing is most interesting, and extremely well done, and I think that is quite sufficient. And it <pb n="02"></pb> may be that you have completely proved your point that plays in metre can still be given. It would be a most interesting experiment, and I shall feel honored to have my things acted on the same evening as this.</p>
+<p>I shall see you very soon now. I am going to <placeName key="newYork">New York</placeName> next week, for a Civic Forum Farewell Dinner to <persName key="john_masefield">Masefield</persName> at which I am speaking. I am going directly from New York to Chicago, and <date when="1916-03-12">Sunday</date> will find me knocking at your door; at 1.30, I believe?</p>
+<closer>Sincerely yours</closer>,
+        </div>
+      </body>
+      <back>
+         <div type="notes">
+         <note target="#n1" resp="mb">Mr. Eddy could be referring to Arthur Jerome Eddy, a promonent art collector and figure in the Chicago art scene in the early 1900s. At the time of encoding, the encoder could not definently identify who Mr. Eddy refers to.</note>
+
+   </text>
+</TEI>

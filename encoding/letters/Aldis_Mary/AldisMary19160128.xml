@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
+<?xml-model href="file:///Users/name/folder/schemafile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE doc [
+<!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="mary_aldis">Mary Aldis</persName>, <date when="1916-01-29"
+                  >January 29, 1916</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="xeh">Xiamara Hohman</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref=""> <!-- insert name --></persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="her">Haley Ramirez</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name --> </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here --> </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540924$1i</idno>
+               </msIdentifier>
+               <physDesc> <!-- Insert physical description here, including description of letterhead, header addresses, etc. --> 
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+     </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <!-- document-level keywords applied here -->
+         </textClass>
+         <correspDesc>
+  <correspAction type=”sent”>
+   <persName>Amy Lowell</persName>
+   <settlement>LOCATION OF LETTER WRITING</settlement>
+   <date>DATE OF LETTER WRITING</date>
+</correspAction>
+   <correspAction type=”received”>
+  <persName>RECEIVERS NAME</persName>
+</correspAction>
+</correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <div type="letter">
+         <opener><dateline><date when="1916-01-29">January 29, 1916</date></dateline>
+<salute>My dear <persName key="mary_aldis"> Mrs. Aldis</persName>:</salute></opener>
+<p><persName key="ada_russell">Mrs. Russell</persName> has returned home, telling me that she spoke to you about the possibility of my giving a talk or a reading in <placeName key="chicago">Chicago</placeName> sometime about the <date when="1916-03-01">first of March</date>. I have been doing a great deal of that lately. I have already spoken in <placeName key="newYork">New York</placeName> before the <orgName key="poetrySocietyOfAmerica">Poetry Society of America</orgName> and the <orgName key="cosmopolitanClub">Cosmopolitan Club</orgName>; and I have a talk there before the <orgName key="macdowellColony">MacDowell Club</orgName> on <date when="1916-02-22">February 22nd</date>, and another before the <orgName key="colonyClub">Colony Club</orgName> on <date when="1916-02-24">February 24th</date>. I am usually paid <measure type="currency" num="50">fifty dollars</measure> for these occasions, and usually I am engaged by some club or some charity. I have been doing this, as you may very well guess, with a view to getting poetry more generally understood, <orgName key="imagists">Imagist</orgName> poetry especially, although I have not confined myself to that; but I find that the preparation of these lectures takes so much time that I have been obliged to ask compensation.</p> 
+<p>Now supposing that there is no club or society in <placeName key="chicago">Chicago</placeName> which would care to invite me to speak to them, it might be possible for me to hire a hall or a room in some club, taking the risk myself, and simply selling the tickets.</p>
+<p>Here the <orgName key="internationalInstituteForGirlsInSpain">International Institute for Girls in Spain</orgName> gave a series of three “Poet’s Readings.” I was one of the poets. There were over two hundred people present, and they paid <measure type="currency" num="2">two dollars</measure> a ticket. Of course, I was only paid my usual <measure type="currency" num="50">fifty dollars</measure>, the rest of the money going to charity. But if I am obliged to take the risk of hiring the room, it seems to me I might make a good thing out of it, provided there are enough people in <placeName key="chicago">Chicago</placeName> who would care to come to hear me. You know more about <placename key="chicago">Chicago</placename> than I, and it may be that there is no one there to whom I should appeal, in which case I hope you will tell me so quite frankly.</p>
+<p>Also it would be impossible for me here to arrange that sort of thing, to get the room, or to sell the tickets. I do not wish to put myself in the hands of a lecture bureau, like <persName key="lindsay_vachel">Lindsay</persName>, as I do not wish to do enough of this. But knowing you to be a public-spirited and influential person, and also one extremely interested in producing and fostering poetry, it occurs to me that you may not think me “cheeky” if I ask your advice in this matter. I should be very glad to hear from you as to what possibility there is for me to give a talk in your town, and how it could practically best be arranged.</p> 
+<p>I think the best time for me would be early in <date when="1916-03">March</date>, but of course that could be made to suit circumstances. After my <placeName key="newYork">New York</placeName> lectures, I return here for a dinner which is being given for Masefield on the <date when="1916-02-26">26th of February</date>, so I could not go out before that, as the early part of <date when="1916-02">February</date> is engaged. But I could make any <date when="1916-03">March</date> dates to suit yours, I think. Or I could put it off until <date when="1916-04">April</date>, if it seemed advisable. But I am anxious to go to <placeName key="chicago">Chicago</placeName> as soon as possible, as I have various business matters to attend to there.</p>
+<p>I trust, dear <persName key="mary_aldis">Mrs. Aldis</persName>, you will not think this an imposition. If the matter seems to you too much of a chore to concern yourself with, or if you do not think there would be any interesting such a talk, or if for any reason [sic] whatever you do not care for the idea, please tell me so quite frankly, and I shall perfectly understand. I have also written to <persName key="harriet_monroe">Harriet Monroe</persName> on the subject, but I do not want either of you to take any trouble in the matter if you are busy.</p>
+<closer>Very sincerely yours,</closer>
+            </div>
+      </body>
+   </text>
+</TEI>
