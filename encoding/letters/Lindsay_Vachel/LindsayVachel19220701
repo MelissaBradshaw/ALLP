@@ -97,7 +97,7 @@ will link to other ones i.e. the site index content -->
                 sojourn in <placeName key="springfield">Springfield</placeName>. I will write to <persName>the lady</persName> when I know the date of my visit.
                 It is not to be decided until the middle of the summer, as I have told everybody who
                 wants me to speak that I cannot make dates until I have got ahead somewhat with
-                <title key="johnKeats">Keats</title>, and I do not want to bother your friend until I know definitely when I shall
+                <title key="johnKeats" level="m">Keats</title>, and I do not want to bother your friend until I know definitely when I shall
                 be in Springfield. It will be a great pleasure to see them and I only hope they will
                 like my reading, for it is a reading which I am going to give there, before some
                 Woman's Club or other, I think. </p>
