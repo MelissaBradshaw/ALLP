@@ -64,12 +64,12 @@
             <!-- document-level keywords applied here -->
          </textClass>
          <correspDesc>
-  <correspAction type=”sent”>
+  <correspAction type="sent">
    <persName>Amy Lowell</persName>
    <settlement>LOCATION OF LETTER WRITING</settlement>
    <date>DATE OF LETTER WRITING</date>
 </correspAction>
-   <correspAction type=”received”>
+   <correspAction type="received">
   <persName>RECEIVERS NAME</persName>
 </correspAction>
 </correspDesc>
