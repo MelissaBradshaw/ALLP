@@ -55,22 +55,22 @@
       <sourceDesc>
         <p>Written from scratch.</p>
       </sourceDesc>
-    </fileDesc>
+    </fileDesc><encodingDesc><appInfo><application ident="RomaJS" version="1.3.2" when="2026-06-11T16:29:44.133Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
   </teiHeader>
   <text>
     <body>
       <p>TEI for manuscript description</p>
       <schemaSpec ident="tei_allp" start="TEI teiCorpus" prefix="tei_allp" targetLang="en" docLang="en">
         <moduleRef key="header"/>
-        <moduleRef key="linking"/>
+        <moduleRef key="linking" except="alt altGrp annotation join joinGrp link linkGrp listAnnotation standOff timeline when"/>
         <moduleRef key="core"/>
         <moduleRef key="tei"/>
-        <moduleRef key="textstructure"/>
+        <moduleRef key="textstructure" except="div1 div2 div3 div4 div5 div6 div7"/>
         <moduleRef key="namesdates" except="age"/>
-        <moduleRef key="transcr"/>
-        <moduleRef key="figures"/>
-        <moduleRef key="msdescription"/>
-      <moduleRef key="dictionaries" include="lang"/><moduleRef key="tagdocs" include="schemaSpec"/><elementSpec ident="persName" mode="change"><attList><attDef ident="xml:id" mode="change"><datatype><dataRef name="ID" restriction=""/></datatype><valList mode="change" type="semi"><valItem mode="add" ident="conrad_aiken"/><valItem mode="add" ident="richard_aldington"/><valItem mode="add" ident="perdita_aldington"/><valItem mode="add" ident="zoe_atkins"/></valList></attDef></attList></elementSpec></schemaSpec>
+        <moduleRef key="transcr" except="addSpan am damage damageSpan delSpan ex facsimile fw handNotes handShift line listTranspose metamark mod path redo restore retrace secl sourceDoc space substJoin supplied surface surfaceGrp surplus transpose undo zone"/>
+        
+        <moduleRef key="msdescription" except="accMat acquisition additional additions adminInfo altIdentifier binding bindingDesc catchwords collation colophon condition custEvent custodialHist decoDesc decoNote depth dim dimensions explicit filiation finalRubric foliation handDesc height heraldry history incipit layout layoutDesc locus locusGrp material msContents msFrag msItem msItemStruct msName msPart musicNotation objectDesc objectType origDate origPlace origin provenance recordHist rubric scriptDesc seal sealDesc secFol signatures source stamp summary support supportDesc surrogates typeDesc typeNote watermark width"/>
+      <moduleRef key="dictionaries" include="lang"/><moduleRef key="tagdocs" include="schemaSpec"/><elementSpec ident="persName" mode="change"><attList><attDef ident="xml:id" mode="change"><datatype><dataRef name="ID" restriction=""/></datatype><valList mode="change" type="semi"><valItem mode="add" ident="conrad_aiken"/><valItem mode="add" ident="richard_aldington"/><valItem mode="add" ident="perdita_aldington"/><valItem mode="add" ident="zoe_atkins"/></valList></attDef></attList></elementSpec><moduleRef key="corpus" include="particDesc"/></schemaSpec>
     </body>
   </text>
 </TEI>
