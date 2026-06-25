@@ -77,21 +77,21 @@
          <p>I enclose a draft for <measure type="currency" num="200">$200.00</measure> for you to transmit to 
             <persName key="remy_gourmont">Remy de Gourmont</persName>.<anchor xml:id="n1"/>
             I do not want his Anglo Indian Land Bank Shares. I do not suppose they are of any particular value and even if
-            they were I do not want to deprive him of them. This seems a very little sum to pay for
+            they were I do not want to deprive him <choice><orig>on</orig><reg>of</reg></choice> them. This seems a very little sum to pay for
             the inspiration and knowledge I have derived from his writings. Through him I can pay
             a little of my immense debt to his nation. Will you therefore transmit it to him with
             any sort of message which you think will make it easy for him to access it. Money
             goes farther in <placeName key="france">France</placeName> than in <placeName key="usa">America</placeName> so it ought to make some little difference.</p>
          <p>We are all stuck for money over here. Dividends are not being paid and business
             concerns are shutting down. If the war continues I think of course that America will not suffer in
-            the end but for the moment things are in a bad way. I came home to find my home considerably reduced 
+            the end but for the moment things are in a bad way. I came <choice><orig>ome</orig><reg>home</reg></choice> to find my home considerably reduced 
             and I hear the same story on all sides.</p>
          <p>I have been making inquiries about a magazine which would like to have some articles by
             Remy de Gourmont. "<title key="atlantic" level="j">The Atlantic</title>" refused as “The Atlantic” always refuses everything that the
-            <persName key="ellery_sedgwick">editor</persName> did not think of himself first,<anchor xml:id="n2"/> among other things I am sorry to say, the four poems of
+            <persName key="ellery_sedgwick"><choice><orig>edit</orig><reg>editor</reg></choice></persName> did not think of himself first,<anchor xml:id="n2"/> among other things I am sorry to say, the four poems of
             yours and <persName key="hilda_doolittle">Hilda's</persName> which I sent them. I have not heard from <persName key="margaret_anderson">Miss Anderson</persName> yet in regard to those
             of your poems I sent her but I do not think she will refuse them. But as I told you she pays no
-            money yet so that it is of no advantage [smudged word] advantage [sic] of being always in something. I am
+            money yet so that it is of no <choice><orig>advantage [smudged word] advantage</orig><reg>advantage</reg></choice> of being always in something. I am
             awfully sorry about “The Atlantic;” it is maddening. Since <persName key="yard_robert">Mr. Yard</persName> left "<title key="century" level="j">The Century</title>" there are
             no editors of the better known magazines who have a ray of sense or taste. I have just had a
             number of my poems refused by "<title key="scribners" level="j">Scribner’s</title>." I felt sure they would refuse them but I sent them
@@ -100,7 +100,7 @@
          <p>I shall go on trying with the Remy de Gourmont suggestion until I land it somehow or
             until it is quite proven that there is nothing here which is either not already fully stocked with
             European correspondence utterly unable to appreciate this very remarkable opportunity.</p>
-         <p>I have heard nothing from the <orgName key="macmillan">Macmillan Company</orgName> yet about the anthology but there is really
+         <p>I have heard nothing from the <orgName key="macmillan">Macmillan Company</orgName> yet about <title key="some_Imagist_poets" level="m">the anthology</title> but there is really
             nothing to worry about in that because even if they should find themselves overstocked with
             poetry for the moment I think <orgName key="houghton_mifflin">Houghton Mifflin</orgName> will undoubtedly take it. The whole interest of
             everybody is centered in the war and it is difficult to get a hearing for anything else.</p>
@@ -108,8 +108,8 @@
             something for the country for I know how that was worrying you when I left. I cannot tell you,
             dear Richard, how loyal and splendid I think you and Hilda are about this ridiculous row which
             <persName key="ezra_pound">Ezra</persName> is making over my advertisement. I cannot thank you enough and it warms my heart all
-            through to feel that I have some sincere and splendid friends alty [sic].</p>
-         <p>I have not seen the November <title key="poetry" level="j">“Poetry”</title> yet but I am afraid the same advertisement is appearing
+            through to feel that I have some sincere and splendid friends alty<!--It's unclear what this word SHOULD be to replace it with <choice>, not sure whether or not to leave it as is?-->.</p>
+         <p>I have not seen the November "<title key="poetry" level="j">Poetry</title>" yet but I am afraid the same advertisement is appearing
             in it. I saw the proof and corrected it myself but as I did the same thing with the advertisement in
             “The Atlantic” and as they reprinted it wrong again I have no hope. The Macmillan Company
             assures me that it shall never appear after this and that the one I sent you the other day will
@@ -127,7 +127,7 @@
             hard that I am a little afraid I may have to knock off for a day or two as I am getting so tired.
             Those French lectures<anchor xml:id="n3"/> mean a lot of work and so does the play,<anchor xml:id="n4"/> but after all we are just here for
             working and if I can only get through the winter without my health crashing I shall be satisfied.</p>
-         <p>I will let you know just as soon as I know anything about <title key="some_imagist_poets" level="m">the anthology</title> or just as soon as
+         <p>I will let you know just as soon as I know anything about the anthology or just as soon as
             I have landed those articles of Remy de Gourmont’s. Of course they will still have to be
             delivered in English. If you have not time to make the translation I will do it gladly for nothing.</p>
          <p>Do calm <persName key="fs_flint">Flint</persName> down.<anchor xml:id="n5"/> I would not have hurt his feelings for anything. He has been awfully
@@ -144,9 +144,9 @@
                letter to <persName key="amy_lowell">Amy Lowell</persName> describes <persName key="remy_gourmont">Remy de Gourmont</persName> as 
                struggling financially because of the war. He proposes several solutions to aid de Gourmont, 
                including paying him for translations of his poetry Aldington has previously published, persuading 
-               <persName key="harriet_monroe">Harriet Monroe</persName> to publish him in <title key="poetry" level="j">Poetry</title>, and getting him work at a newspaper. Aldington asks Lowell
+               <persName key="harriet_monroe">Harriet Monroe</persName> to publish him in "<title key="poetry" level="j">Poetry</title>", and getting him work at a newspaper. Aldington asks Lowell
                to advance de Gourmont $200 against his shares in the Anglo-Egyptian Land-Bank.</note>
-            <note target="#n2" resp="mb"><persName key="">Ellery Sedgwick</persName>, editor of <title key="atlantic" level="j">The Atlantic</title>, and <persName key="amy_lowell">Lowell</persName> had a long and often
+            <note target="#n2" resp="mb"><persName key="ellery_sedgwick">Ellery Sedgwick</persName>, editor of "<title key="atlantic" level="j">The Atlantic</title>", and <persName key="amy_lowell">Lowell</persName> had a long and often
                contentious friendship, disagreeing on the aesthetic value of free verse and experimental poetry
                more generally.</note>
             <note target="#n3" resp="mb"><persName key="amy_lowell">Lowell</persName> gave a series of lectures in 1914 that became the book 
