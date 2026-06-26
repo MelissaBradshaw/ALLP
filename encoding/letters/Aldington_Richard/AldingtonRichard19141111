@@ -77,15 +77,15 @@
             <opener><dateline><date when="1914-11-11">Nov. 11, 1914.</dateline></date>
                 <salute>My dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I have got an offer for <persName key="remy_gourmont">Remy de Gourmont</persName>. I do not think it a very brilliant one, but it
-                seems probably the best that can be done. It is from a new weekly, "<title key="newRepublic" level="j">The New Republic</title>" <!--This is the first mention of "The New Republic" in this letter, so I encoded this instance instead of the instance in paragraph 3 that Missy noted in the AALP TEI Header Metadata spreadsheet. Let me know if I should change that though!--> 
+                seems probably the best that can be done. It is from a new weekly, "<title key="newRepublic" level="j">The New Republic</title>"  
                 which <persName key="ezra_pound">Ezra</persName> pitched into so under a pseudonym in the last “<title key="egoist" level="j">Egoist</title>” I received.<anchor xml:id="n1"/> They are going to have
                 quite a big circulation I think and be very popular although I doubt whether their methods would
                 commend themselves to Ezra as they are largely political and announce that their criticism is on
                 no account to be peevish. <persName key="rebecca_west">Rebecca West</persName> has a good article in their first number and also 
                 <persName key="hugh_walpole">Hugh Walpole</persName> so you see they are not entirely old fogy in their methods.</p>
             <p>They would like Monsieur de Gourmont to write them six articles on present conditions
-                in <placeName key="france">France</placeName> of fifteen hundred words each at two cents a word. That only makes thirty dollars an
-                article which he may very probably scorn, but that is the offer. They also think that they may want
+                in <placeName key="france">France</placeName> of fifteen hundred words each at two <choice><orig>cen</orig><reg>cents</reg></choice> a word. That only makes thirty dollars an
+                <choice><orig>arti</orig><reg>article</reg></choice> which he may very probably scorn, but that is <choice><orig>t</orig><reg>the</reg></choice> offer. They also think that they may want
                 more than six articles but they only guarantee him six to start with.</p>
             <p>I think I told you in my last letter that “<title key="atlantic" level="j">The Atlantic</title>” did not want them. The illustrated
                 magazines are of course quite out of the question and that leaves “<title key="forum" level="j">The Forum</title>,” “<title key="nation" level="j">The Nation</title>,”
@@ -94,11 +94,11 @@
                 very poor at paying, and as I knew de Gourmont wanted the money that seemed an important
                 point. I had an awful time getting the money out of him for <persName key="dh_lawrence">Lawrence</persName>.<anchor xml:id="n2"/> I am not sure that I have
                 got it yet although he promised to send it the next day. The other magazines I have mentioned I
-                do not know the editors of, but I might be able to get hold of them through <persName key="robert_grant">Robert Grant</persName>,
-                but I think the chances are that they are entirely filled up with war correspondence and the
-                ordinary reader here in <placeName key="usa">America</placeName> is so ignorant of who is who in French literature that I doubt
+                do not know the editors of, but I might be able to get hold of them through <persName key="robert_grant"><choice><orig>Robe</orig><reg>Robert</reg></choice> Grant</persName>,
+                but I think the chances are that they are entirely filled up with war correspondence and <choice><orig>t</orig><reg>the</reg></choice>
+                ordinary reader here in <placeName key="usa">America</placeName> is so ignorant <choice><orig>o</orig><reg>of</reg></choice> who is who in French literature that I doubt
                 whether they would consider Monsieur de Gourmont's name of sufficient value to change their
-                prearranged plans. I think we have much more chance with the “jeunes” of “The New
+                prearranged plans. I think we have much more chance <choice><orig>wit</orig><reg>with</reg></choice> the “jeunes” of “The New
                 Republic.” I will, however make every inquiry I can about the other magazines and cable you
                 if I can get a better offer than this one. If you do not hear by cable before this letter reaches you 
                 it will mean that this was the best I could do.</p>
@@ -111,7 +111,7 @@
                 and he has got cold feet a little on the subject. I have told him that on the subject upon which
                 Monsieur de Gourmont was to write for them I doubted they would consider unadvisable to
                 publish but have also agreed that if any such thing does appear it should be deleted in the
-                translation. This may strike you as backsliding on my part. It is my earnest desire to get
+                translation. <choice><orig>Th</orig><reg>This</reg></choice> may strike you as backsliding on my part. It is my earnest desire to get
                 Monsieur de Gourmont the money for the articles and what you and I both feel is that art should
                 be unshackled, but in a matter of such small importance I doubt whether it is wise to consider it
                 an artistic God. Rather let us consider that Monsieur de Gourmont will gain a wider audience and
@@ -157,7 +157,7 @@
                 unintentionally the few people he really loves how much harder is his lot than that of anybody
                 else on this old earth!</p>
             <p>I liked your “<title key="warYawp" level="a">War Yawp</title>” in <persName key="harriet_monroe">Harriet's</persName> <title key="poetry" level="j">War Number</title>.<anchor xml:id="n5"/> If I had my way it would have had
-                the prize. I wonder who it was that decided upon the poems. I suspect [cut off]
+                the prize. I wonder who it was that decided upon the poems. I suspect <gap><desc>The last words in the line are cut off at a slant at the bottom of the page</desc></gap>
                 Henderson. Anyhow I knew her too well to suppose she would ever contemplate giving me a
                 prize so I told her she could only print my poem on the condition of appending a note saying it
                 was not in the competition.</p>
@@ -181,20 +181,20 @@
                 and where people are so pathetically anxious to like good things and there is nobody to tell them
                 what things are good. A young man who wrote two books of essays which are really pretty good
                 as essays go but in which he shows his complete ignorance of the proper things to admire, came
-                to me the other day and in spite of knowing that I had slated a poem he [cut off]
+                to me the other day and in spite of knowing that I had slated a poem which <gap><desc>The last words in the line are cut off at a slant at the bottom of the page</desc></gap>
                 I wrote for the “<title key="littleReview" level="j">Little Review</title>” he asked me to help him, to teach him, to tell him something about technique, to show
                 him why the things that he could not understand were good and why the things that he admired
                 were not worthy. I never saw anyone more anxious to learn nor more generous. He writes three
                 editorials a week in the “<title key="newYorkTribune" level="j">New York Tribune</title>” that is his contract begins in January, and it is not
                 bad to have a man in that position anxious to improve.</p>
-            <p>I think he is merely one of a great many young ignorant, and eager people whom one can
+            <p>I think he is merely one of a great many <choice><orig>youn</orig><reg>young</reg></choice> ignorant, and eager people whom one can
                 affect slowly but surely, whom one can infect and sow the germ of a better poetical appreciation.
-                I find myself over here as a prophet of you all and I feel that all of us working together will in
+                I find myself over here as a prophet of you all and I <choice><orig>fee</orig><reg>feel</reg></choice> that all of us working together will in
                 twenty years reconstructed the taste of this country. How long it will take the conservative of the
                 English to move, I do not know, but the Americans are quick to learn if anyone will take the
                 trouble to teach them, and I begin to see already that all of us in poems and articles, through
                 “Poetry” through the <title key="anthologyDesImagistes" level="m">Imagiste anthology</title> and through my new book are having an effect. It is a
-                glorious [cut off] Richard, and although it is hard that all the conventional editors are against us, by God,
+                glorious <gap><desc>Line cut off at the end of the page, first word illegible</desc></gap> Richard, and although it is hard that all the conventional editors are against us, by God,
                 we shall win in the end! If only we stick together and all shove at the cart and do not let petty
                 jealousy divide us.</p>
             <p>If you ever want to come to America I rather think that “The New Republic” could be
@@ -206,7 +206,7 @@
                 not seen his book only quotations from it and I am sick to death of the realistic school which
                 chops prose into lengths and calls it poetry when it has neither poetic value nor true cadence.</p>
             <p>I am alone just now and horribly lonely. <persName key="ada_russell">Mrs. Russell</persName> received a telegram yesterday
-                morning telling her that her father was not expected to [recover from an illness].<anchor xml:id="n6"/> Of course in a
+                morning telling her that her father was not expected to <gap><desc>Final line of the page cut off</desc></gap>.<anchor xml:id="n6"/> Of course in a
                 case of that sort I have no idea when she will be back again, but I find standing with my back to
                 a tree all day long and every day awfully tiresome and wearing. It is kind of hard to keep one’s
                 courage up, but that is nonsense really. Just give me that tuft of grass, Richard and I will wipe off
