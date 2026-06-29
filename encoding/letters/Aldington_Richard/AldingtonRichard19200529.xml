@@ -98,8 +98,8 @@
                 whatever he says or does in future I shall know that it is subject to immediate
                 change, for I shall consider him an irresponsible person and under the circumstances
                 of course one can have but little satisfaction in intercourse with him. As to
-                <persName>Cournos</persName> I have always hated that man even when the rest of you liked him, and
-                O'Brien I have known for years for what he is, an ignorant little toad.</p>
+                <persName key="john_cournos">Cournos</persName> I have always hated that man even when the rest of you liked him, and
+                <persName key="edward_obrien">O'Brien</persName> <!--is this the right O'Brien?-->I have known for years for what he is, an ignorant little toad.</p>
                 <p>I am very glad to know that <persName key="ts_eliot">Eliot</persName> is not responsible for Fletcher's<pb n="02"/> attitude,
                 because, although I think Eliot's work is more interesting on the technical side
                 than any other, and although I regard him as only a rehash of the <date when="1880">eighties</date>,
@@ -131,10 +131,10 @@
                 thrown it in the waste-basket. He ought to have known that nothing was reliable that
                 came from such a source as Fletcher; but Mr. Shorter truly loves gossip in any form.
                 I do not think the old gentleman means any harm, but like many people of his type
-                the harm he does is incalculable. I cannot see how the <persName key="winifred_bryher">Ellerman</persName> family can have
+                the harm he does is incalculable. I cannot see how the <orgName key="the_ellermans">Ellerman family</orgName> can have
                 anything to do with him, but then I do not know the Ellermans.</p>
                 <p>You tell me that I am to place <title><persName key="hilda_doolittle">Hilda</persName>'s book</title><!--not sure what book this is referencing--> here in <placeName key="usa">America</placeName>, but that is the first I
-                have heard of it. Neither Winifred nor Hilda have asked me to do anything of the
+                have heard of it. Neither <persName key=winifred_bryher>Winifred</persName> nor Hilda have asked me to do anything of the
                 kind. I shall be very glad to undertake the job if they want me to, as I have
                 written them, but I have heard nothing, in fact, I have not had time as I have only
                 just sent off the letter.</p>
@@ -158,7 +158,7 @@
                 <p>I am afraid the boys on the “Dial” are not going to be very clever in their
                 management of it, however, which is too bad as they are literally the only paper in
                 the field, but when I see the little English papers like “Coterie” and “<title key="voices" level="j">Voices</title>,” I
-                think we have got a good way beyond those things. They remind me of <date when="1916">six years ago</date>
+                think we have got a good way beyond those things. They remind me of <date when="1914">six years ago</date>
                 over here, and “<title key="littleReview" level="j">The Little Review</title>” at its brightest and grandest.</p>
                 <p>It seems to me that many of your poets are copying the very things that we were
                 doing some years ago. They are just getting to it. You in England are very good
