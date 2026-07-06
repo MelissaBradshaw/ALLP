@@ -49,7 +49,7 @@
                         <collection>Amy Lowell Correspondence</collection>
                         <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425540184$51i</idno>
                     </msIdentifier>
-                    <physDesc><p>The letter is four sheets of paper with typewriting on both sides of each page. The first is
+                    <physDesc><p>The letter is three sheets of paper with typewriting on both sides of each page. The first is
                         ordinary and with no holes, but the rest have two holes punched into the top as if they were kept
                         in a binder together that way. The lines of type are very close
                         together on the hole-punched sheets. There are page numbers at the top of each new sheet.</p>
@@ -93,21 +93,21 @@
                 of the advertising, and they naturally do not wish to lose any more than they can help. They
                 accepted the book on the understanding that it would go out as Imagiste poetry, with the weight
                 behind it which Imagiste poetry has got. Hence it was quite natural that Mr. Greenslet should be
-                considerably disturbed at having this weight suddenly removed from the book. “The Six” meant
-                nothing from the buyer’s point of view; “Some Twentieth Century Poets” was also indefinite, 
+                considerably disturbed at having this weight suddenly removed from the book. <hi rend="quote">“The Six”</hi> meant
+                nothing from the buyer’s point of view; <hi rend="quote">“Some Twentieth Century <pb n=”02”/>Poets”</hi> was also indefinite, 
                 as everybody is a twentieth century poet if you come to that, and it gave no suggestion as to what
                 sort of poetry the book continued; it was neither a taking or an explaining title, and Mr. Greenslet
-                just would not have it. “Some New Poets” seemed to him just as vague and rather less attractive.
+                just would not have it. <hi rend="quote">“Some New Poets”</hi> seemed to him just as vague and rather less attractive.
                 And there we stuck, he begging me not to change the title, and I assuring him that, although I
                 personally never would have changed it, I was bound to do as you wished. If he had not been a
                 very patient man and also devoted to our interests–quite crazy about us, in fact–I think that he
                 would have thrown us over; but as it was, he worked just as hard as I did to try and find a title
                 which would induce people to read the book and to which we should all agree. Suddenly he
-                suggested “Quintessentialist.” He swears that that is what we really are, because we try to give
+                suggested <hi rend="quote">“Quintessentialist.”</hi> He swears that that is what we really are, because we try to give
                 the quintessence of a picture or an emotion without any obscuring ornamentation. So convinced
                 of this was he that, in a review of my book which he is writing for “<title key="newRepublic" level="j">The New Republic</title>” and in
                 which he discusses Imagism at some length, he says that he thinks a better title for us would be 
-                “Quintessentialists,” as that would take in poems like your “Little Boy” which with Ezra’s
+                <hi rend="quote">“Quintessentialists,”</hi> as that would take in poems like your “<title key="littleBoy" level="a">Little Boy</title>” which with Ezra’s
                 narrow rules would hardly be called Imagist. I think it is not a bad name.</p>
             <p>In altering the preface, you will see that I have arranged it in such a manner as to show
                 that we were simply taking another name because we are forced to; and we shall not force it
@@ -117,13 +117,13 @@
                 shortening of all those tenets for which we stand.</p>
             <p>Mr. Greenslet is immensely enthusiastic over the name and says that, if we need any
                 defense or writing up in the papers over here, he will do it for us. And as a great many of the
-                reviews I have had have spoken slightly of Ezra and said how much better work I was doing and
+                <choice><orig>review</orig><reg>reviews</reg></choice> I have had have spoken slightingly of Ezra and said how <pb n=”03”/>much better work I was doing and
                 what a pity it was that such theories should be made ridiculous by him, I think people are ripe for
                 a schism, and I think we shall be criticized most favorably and known as the members of the
                 original movement who had anything real in them; while to make them understand that we are
                 distinct from Ezra’s stuff and the people whom he will doubtless exploit from now on, we must
                 have a convenient handle for them to call us by. That handle is supplied by Quintessentialist in
-                good sound English, mind you, without this final “e” and if we are dignified and quiet and
+                good sound English, mind you, without this final <hi rend="quote">“e”</hi> and if we are dignified and quiet and
                 simple about the matter, I think it will not take long before the Quintessentialist movement is
                 considered the most interesting and promising of the present day.</p>
             <p>I know your objections to isms and schools and fads, and we must not be an ism or a fad;
@@ -137,7 +137,7 @@
                 I wanted all along was to rush myself into the position of leader. Search your hearts, you two,
                 and I think you will see quite plainly that that has not been my object all along. I have striven for
                 a perfect democracy. I have worked for the group ideal. This new <title key="swordBladesAndPoppySeed" level="m">book</title> of mine has placed me in
-                a position where I can neither be hurt nor helped by any coadjutors, where my future is entirely
+                a position where I can neither be hurt nor <pb n=”04”/>helped by any coadjutors, where my future is entirely
                 up to me, and I can make it or mar it by my own efforts. But I do not want to make a success
                 alone. I want us all to go together. As a group, I believe that we are invincible; and if Ezra tries
                 to insinuate any such things as I have suggested, repudiate them in your own minds for they are
@@ -147,7 +147,7 @@
                 the poems in it very much, because he told me so; but whether he will print it or not I cannot say,
                 although I am bound to tell you that I think he feels that too much of it is contained in other
                 books to make it worth while to bring it out at this moment. I am giving him a letter to you
-                Please be gentle with him and ‘roar him as gently as any sucking dove.’<anchor xml:id="n2"/> His opinions and yours
+                Please be gentle with him and <hi rend="quote">‘roar him as gently as any sucking dove.’</hi><anchor xml:id="n2"/> His opinions and yours
                 will frequently not coincide. He likes many things that you repudiate. But he is earnest,
                 teachable, and enthusiastic, and painfully shy, which he covers up by a dried-up, unsympathetic
                 manner which was very difficult for me to get over at first. He will fight for us, work for us, push
@@ -160,17 +160,17 @@
                 of literature; and their publishing, though eminently satisfactory, is done more as a business than
                 as an artistic pleasure. I think Greenslet with his new series has definitely taken his stand on our
                 side, and I want you to like him, for I think that through him will come your best chance of your
-                getting a berth in <placeName key="usa">America</placeName> when you want to come over and try it. He is all prepared to like you
+                <pb n="5"/>getting a berth in <placeName key="usa">America</placeName> when you want to come over and try it. He is all prepared to like you
                 and Hilda and Flint immensely; and if you only won’t let yourself be too jarred by some of his
                 predilections and get through the crust, you will find an honest, loyal, splendid fellow, who will
                 help us in every possible way.</p>
-            <p>I like your <persName key="clara_shanafelt">Clara Shanafelt</persName><anchor xml:id="n4"/> very much indeed, particularly the first and last. I will write
+            <p>I like your <persName key="clara_shanafelt"><choice><orig>Clara Shanafeld</orig><reg>Clara Shanafelt</reg></choice></persName><anchor xml:id="n4"/> very much indeed, particularly the first and last. I will write
                 her a letter when I have a little more time. I am rather sorry you could not cook up a little
                 something nicer to say about <persName key="harriet_monroe">Harriet’s</persName> book.<anchor xml:id="n5"/> She called it a slam and felt it rather badly.
                 Criticizing is a dreadful business: We must tell the truth, and yet it is a shame to quench the
                 smoking flax. I thought you got out of it rather well, but Harriet saw through it quite clearly; and
                 of course that doesn’t help us very much, as I am afraid Ezra still has her ear by his article on the
-                <title key="spoonRiver" level="m">Spoon River Anthology</title>, which is her latest find. What do you think of the Spoon River Anthology 
+                <title key="spoonRiver" level="m"><choice><orig>Spoonriver Anthology</orig><reg>Spoon River Anthology</reg></choice></title>, which is her latest find. What do you think of the Spoon River Anthology 
                 by the way? Personally I think I have worked out that this sort of poetry, which is not
                 poetry at all, really has to be done in rhyme to get the tang into it; but given as it is, it might
                 just as well be prose. But I won’t go into that now, it would lead me too far. Perhaps I will go into it
@@ -181,7 +181,7 @@
                 over him like curl-papers. Your articles and those of the unpronounceable lady, whom I won’t
                 attempt to spell again, and the poems, make the paper of value to me. Tell me what you think
                 about the <measure type="currency" num="10">£10?</measure></p>
-            <p>To-morrow I begin to rehearse six hours a day until my operettas are over.<anchor xml:id="n7"/> I am
+            <p><pb n=”06”/>To-morrow I begin to rehearse six hours a day until my operettas are over.<anchor xml:id="n7"/> I am
                 awfully tired now, and I must say the change of title of the Anthology has given me no end of
                 trouble. It was no easy matter to make them set up their folder all over again when they got it
                 into print. I am tired, Richard, so tired that I wonder some times whether I am to get through the
