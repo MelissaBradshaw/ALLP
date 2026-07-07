@@ -80,7 +80,7 @@
             <p>Your two letters are here, and I am very glad you are going to get <persName key="john_fletcher">Fletcher’s</persName> and my long
                 poem into “<title key="egoist" level="j">The Egoist</title>,” for I am sure they are better than the short ones. You do not tell me
                 whether you like mine or not, but I live in hopes.</p>
-            <p>Things are maching[sic]<anchor xml:id="n1"/> splendidly here. I enclose the first criticism which, as
+            <p>Things are maching<anchor xml:id="n1"/> splendidly here. I enclose the first criticism which, as
                 you perceive, is rotten. Not uncomplimentary, far from it, but ununderstanding. Some people think
                 the man who wrote it an excellent critic. He is a regular <title key="bostonTranscript" level="j">Transcript</title> poetical critic,<anchor xml:id="n2"/> and was so
                 interested in the coming out of this number that he begged advance sheets; and as there were
@@ -94,33 +94,33 @@
                 quite pleased with us. He told me to tell you to get your six other copies at <orgName key="constable">Constables</orgName>, because
                 he does not think there ought to be too many with the American title-page floating round. He
                 thinks Constable will get after him, if there are.</p>
-            <p>The bookshops I have arranged to carry the May number of “<title key="egoist" level="j">The Egoist</title>” are the <orgName key="oldCornerBookstore">Old Corner Bookstore</orgName><anchor xml:id="n3"/>
-                in <placeName key="boston">Boston</placeName> and <persName key="laurence_gomme">Lawrence[sic] Gomme’s</persName> Bookshop in <placeName key="nyc">New York</placeName>. The Old
+            <p>The bookshops I have arranged to carry the <date when="1915-05">May</date> number of “<title key="egoist" level="j">The Egoist</title>” are the <orgName key="oldCornerBookstore">Old Corner Bookstore</orgName><anchor xml:id="n3"/>
+                in <placeName key="boston">Boston</placeName> and <persName key="laurence_gomme"><choice><orig>Lawrence</orig><reg>Laurence</reg></choice> Gomme’s</persName> Bookshop in <placeName key="nyc">New York</placeName>. The Old
                 Corner is one of the oldest and the best patronized in the town. Gomme’s is
-                new, young, energetic and up-to-date. They are thinking of publishing some broadsides à
+                <pb n=”02”/>new, young, energetic and up-to-date. They are thinking of publishing some broadsides à
                 la Monro later, and it is a very good place indeed for us to have the paper.</p>
             <p><persName key="harriet_weaver">Miss Weaver</persName> writes me that the <orgName key="studioBookshop">Studio Bookshop</orgName> here has asked for five numbers, and
                 she writes to ask me if that is the bookshop I have been speaking about; but it is not. The Studio
                 Bookshop is a little, one-horse concern, up a flight of stairs in a narrow strict, with a stock of
                 something like ten books, and I cannot imagine what sort of a clientele. It is run by a man named
-                <persName key="edmund_brown">Brown</persName>, whose chief drawback <del rend="strikethrough">to</del> <add place="top">for</add> the place is his complete ignorance and his
+                <persName key="edmund_brown">Brown</persName>, whose chief drawback <del rend="strikethrough">to</del> <add place="top" type="insertion" rend="pencil">for</add> the place is his complete ignorance and his
                 lack of artistic standards.<anchor xml:id="n4"/> I was only in there once, and I tried to get a copy of “<title key="poetryReview" level="j">The Poetry Review</title>” 
                 which so gloriously slammed me. Brown himself was out, but his father and the office
                 boy kept offering me every other conceivable review and asking me if that was the one. Even the
                 files of the magazines they took were not up to date, so I am afraid much can not be expected
                 from them.</p>
-            <p>Greenslet tells me that you have written to ask him if he could not get something <del rend="strikethrough">from</del> <add place="above">for</add>
+            <p>Greenslet tells me that you have written to ask him if he could not get something <del rend="strikethrough">from</del> <add place="above" type="insertion" rend="pencil">for</add>
                 <persName key="dh_lawrence">Lawrence</persName> and your little Belgian chap.<anchor xml:id="n5"/> I do not understand about Lawrence, for I got Greenslet
-                to any that he would like to see his last book, the short stories,<anchor xml:id="n6"/> with a view to publishing it here,
+                to say that he would like to see his last book, the short stories,<anchor xml:id="n6"/> with a view to publishing it here,
                 as long ago as last November, I think. I wrote Lawrence asking him to send Greenslet a copy
                 of either the book or the manuscript, and nothing ever arrived.</p>
-            <p>I am awfully glad that Greenslet succeeded in getting <persName key="remy_gourmont">de Gourmont’s</persName> articles into The Transcript. 
+            <p>I am awfully glad that Greenslet succeeded in getting <persName key="remy_gourmont">de Gourmont’s</persName> articles into <title key="transcript" level="j">The Transcript</title>. 
                 I never thought of The Transcript as a possible place for them; and anyway, I have
                 not the pull that Ferris has, of course, as his firm has a large advertising contract with The
                 Transcript. I think Ferris is behaving extremely white with us. He has been awfully sick with me
                 because he wanted to publish my French lectures that are coming out in the Autumn, and
                 <orgName key="macmillan">Macmillan</orgName> got in first. But in spite of that, and I do not know why he was so anxious for them,
-                for I can hardly suppose they <del rend="strikethrough">would</del> <add place="above">will</add> sell to any vast extent, he goes right on being especially nice to
+                for I can hardly <pb n=”03”/>suppose they <del rend="strikethrough">would</del> <add place="above" type="insertion" rend="pencil">will</add> sell to any vast extent, he goes right on being especially nice to
                 us all.</p>
             <p>Fletcher seems to have settled down here for the present. He has lodgings in town, and he
                 is working very hard. He has written a splendid poem called “<title key="clipperShips" level="a">Clipper Ships</title>,” one of the best
@@ -128,7 +128,7 @@
             <p>If you should care to come to <placeName key="usa">America</placeName>, I have a little job for you, which you could begin
                 with and which might lead to others. I know I could get it for you. It is translating French songs
                 for a music publishing house here. One of the men in the firm is an intimate friend of mine,<anchor xml:id="n7"/> and
-                he has tells me that it is extremely difficult to get good translators. Of course, you know
+                he tells me that it is extremely difficult to get good translators. Of course, you know
                 translating to music in a very different thing from translating without it. I have done considerable
                 for him at one time and another, but I am so busy now with my own work that I have had to
                 refuse to do any more of that. But as they are hunting all the time for translators, should you ever
@@ -140,17 +140,17 @@
                 I could not do any more, because I have to re-write my entire volume of French lectures for the
                 press and translate about 125 poems quoted in them for the appendix–that the publishers insist
                 upon.</p>
-            <p>I am awfully sorry you do not find the interest you are looking for for the new review. It
-                is just as bad over here, and in some ways worse for of course printing is so much higher. <persName key="harold_monro">Harold Monro</persName> 
+            <p>I am awfully sorry you do not find the interest you are looking <choice><orig>forfor</orig><reg>for</reg></choice> the new review. It
+                is just as bad over here, and in some ways worse <pb n=”04”/>for of course printing is so much higher. <persName key="harold_monro">Harold Monro</persName> 
                 sent me his new book.<anchor xml:id="n8"/> I think some of the things in it are not so bad as I expected; but
                 what struck me particularly was the way it was issued and the low price at which it sells, when
-                you think that Ferris could not make our volume pay at less than seventy-five cents.</p>
+                you think that Ferris could not make our volume pay at less than <measure type="currency" quantity=".75">seventy-five cents</measure>.</p>
             <p>I am awfully amused at <persName key="ezra_pound">Ezra’s</persName> Anthology, and his asking Monro to contribute. It shows
                 he has had a hard time to find anybody to take our places and act as cluster-stones about his
                 center-piece. Will you send me a copy of his “<title key="cathay" level="m">Cathay</title>?” I should like to see it. I have no idea of
                 the price of it, so I am enclosing a money-order for <measure type="currency" num="5">five shillings</measure> to pay for it. If it is more, I will
                 send the balance. If it is less, send me <persName key="ford_hueffer">Hueffer’s</persName> “<title key="antwerp" level="a">Antwerp</title>” with the rest. In fact, I guess I will
-                make the five shillings <measure type="currency" num="10">ten</measure>, and let you send me the “Antwerp” anyway, and also <persName key="ralph_hodgson">Ralph Hodgson’s</persName> 
+                make the <measure type="currency" quantity="5">five shillings</measure> <measure type="currency" quantity="10">ten</measure>, and let you send me the “Antwerp” anyway, and also <persName key="ralph_hodgson">Ralph Hodgson’s</persName> 
                 “<title key="eve" level="a">Eve</title>,” which is nicely rhymed, as I remember, and any other of Monro’s recent chap 
                 books which you think worth my looking at.</p>
             <p>I gave a talk at the <orgName key="roundTableClub">Round Table Club</orgName> here about ten days ago on “The New Manner in
@@ -158,15 +158,15 @@
             <p>I am sorry you do not like Fletcher’s article on me. He read the first draft to me, and it
                 seemed to me too unqualified praise, as I told him, but I confess I am too unused to praise not to
                 be pleased that he wanted to write it and felt that way.</p>
-            <p>I have written to “<title key="newRepublic" level="j">The New Republic</title>” to send me back your <del rend="strikethrough">last volume of</del> <add place="above">essay</add> on de Gourmont; but
+            <p>I have written to “<title key="newRepublic" level="j">The New Republic</title>” to send me back your <del rend="strikethrough">last volume of</del> <add place="above" type="insertion" rend="pencil">essay on</add> de Gourmont; but
                 so far I have had no answer.</p>
             <p>By the way, what do you want me to do about your book. You told me that a Boston
                 publisher was nibbling at it, but you never told me his name. Am I to send it to you or send it to
                 him, because I do not like to have the responsibility of it, I am so afraid something will happen to
                 it.</p>
-            <p>I do hope you and <persName key="hilda_doolittle">Hilda</persName> will like the anthology we have worked so hard to get. I think
+            <p>I do hope you and <persName key="hilda_doolittle">Hilda</persName> will like the Anthology <pb n=”05”/>we have worked so hard to get. I think
                 myself it is an extremely good book now that it is out. I will send you all the clippings as they
-                come in, good, bad, and indifferent, and I wish you would do the same by me, in England. I
+                come in, good, bad, and indifferent, and I wish you would do the same by me, in <placeName key="england">England</placeName>. I
                 subscribe to a clipping agency there, but I do not think they send me half the things that come out
                 from what I hear from <persName key="harold_macmillan">Mr. Macmillan</persName>. I have been gloriously slammed in the English papers,
                 that is one sure thing. Now I suppose they will have a fine time rapping the Anthology.</p>
@@ -174,17 +174,17 @@
                 to you and Hilda.</p>
             </div>
         </body>
-        <back> 
-            <div type="notes"> 
-                <note target="#n1" resp="mb">Perhaps a typo for “marching,” or suggests early use of contemporary verb maching, meaning to move along swiftly, derived from the name of Austrian physicist Ernest Mach (1838-1916) who theorized shock waves. Mach numbers, a unit of measure used to describe quantum force beyond the speed of sound, were named for him in 1929, postdating this letter and <persName key="amy_lowell">Lowell’s</persName> life, but she most likely would have been aware of him and his scientific philosophies.</note> 
-                <note target="#n2" resp="mb"><persName key="amy_lowell">Lowell</persName> identifies this reviewer for the <title key="bostonTranscript" level="j">Boston Evening Transcript</title> in a later letter to <persName key="richard_aldington">Aldington</persName> as <persName key="ws_braithwaite">William Stanley Braithwaite</persName>, literary editor of the paper from 1906-1931. See AL to RA <date when="1915-05-06">May 6, 1915</date>.</note> 
-                <note target="#n3" resp="mb"><orgName key="oldCornerBookstore">The Old Corner Bookstore</orgName>, on the corner of School and Washington Streets in downtown <placeName key="boston">Boston</placeName> was built in 1718; it operated as a bookstore from 1828-1950; <persName key="laurence_gomme">Laurence J. Gomme</persName> took  ownership of The Little Bookshop Around the Corner in <placeName key="nyc">New York City</placeName> in 1912, from <persName key="m_kennerly">Mitchell Kennerly</persName>, who had founded it in 1907.  Gomme published imprints with his business partner, Donald Vaughn, from 1913-1914 and from 1914-1915 under his own imprint.</note> 
-                <note target="#n4" resp="mb"><persName key="edmund_brown">Edmund R. Brown’s</persName> <orgName key="studioBookshop">Studio Book Shop</orgName>, located at 68 Pemberton Sq in <placeName key="boston">Boston</placeName> published the annual <title key="poetryJournal" level="j">Poetry Journal</title> under its imprint from 1912-1918. Brown served as an assistant, associate, and managing editor during its run.</note> 
-                <note target="#n5" resp="mb">Belgian painter and writer Jean de Bosschère (1878-1953), who translated articles by <persName key="richard_aldington">Aldington for <title key="mercureDeFrance" level="j">Mercure de France</title> and whose articles on the destruction of Belgium during the war Aldington suggests <persName key="amy_lowell">Lowell</persName> find an American publisher for in his <date when="1915-04-05">April 5, 1915</date> letter.</note> 
-                <note target="#n6" resp="mb"><persName key="dh_lawrence">D.H. Lawrence</persName>, The Prussian Officer and Other Stories, London: Duckworth, 1914.</note> 
-                <note target="#n7" resp="mb">Most likely composer <persName key="carl_engel">Carl Engel</persName>, who worked as an editor for the <orgName key="bostonMusicCompany">Boston Music Company</orgName> from his arrival in <placeName key="boston">Boston</placeName> in 1909 to 1922.</note> 
-                <note target="#n8" resp="mb"><persName key="harold_monro">Harold Monro</persName>, Trees, <placeName key="london">London</placeName>: Poetry Bookshop, 1915.</note> 
-            </div> 
+        <back>
+            <div type="notes">
+                <note target="#n1" resp="mb">Perhaps a typo for “marching,” or suggests early use of contemporary verb maching, meaning to move along swiftly, derived from the name of Austrian physicist Ernest Mach (1838-1916) who theorized shock waves. Mach numbers, a unit of measure used to describe quantum force beyond the speed of sound, were named for him in 1929, postdating this letter and <persName key="amy_lowell">Lowell’s</persName> life, but she most likely would have been aware of him and his scientific philosophies.</note>
+                <note target="#n2" resp="mb"><persName key="amy_lowell">Lowell</persName> identifies this reviewer for the <title key="bostonTranscript" level="j">Boston Evening Transcript</title> in a later letter to <persName key="richard_aldington">Aldington</persName> as <persName key="ws_braithwaite">William Stanley Braithwaite</persName>, literary editor of the paper from 1906-1931. See AL to RA <date when="1915-05-06">May 6, 1915</date>.</note>
+                <note target="#n3" resp="mb"><orgName key="oldCornerBookstore">The Old Corner Bookstore</orgName>, on the corner of School and Washington Streets in downtown <placeName key="boston">Boston</placeName> was built in 1718; it operated as a bookstore from 1828-1950; <persName key="laurence_gomme">Laurence J. Gomme</persName> took  ownership of The Little Bookshop Around the Corner in <placeName key="nyc">New York City</placeName> in 1912, from <persName key="m_kennerly">Mitchell Kennerly</persName>, who had founded it in 1907.  Gomme published imprints with his business partner, Donald Vaughn, from 1913-1914 and from 1914-1915 under his own imprint.</note>
+                <note target="#n4" resp="mb"><persName key="edmund_brown">Edmund R. Brown’s</persName> <orgName key="studioBookshop">Studio Book Shop</orgName>, located at 68 Pemberton Sq in <placeName key="boston">Boston</placeName> published the annual <title key="poetryJournal" level="j">Poetry Journal</title> under its imprint from 1912-1918. Brown served as an assistant, associate, and managing editor during its run.</note>
+                <note target="#n5" resp="mb">Belgian painter and writer Jean de Bosschère (1878-1953), who translated articles by <persName key="richard_aldington">Aldington for <title key="mercureDeFrance" level="j">Mercure de France</title> and whose articles on the destruction of Belgium during the war Aldington suggests <persName key="amy_lowell">Lowell</persName> find an American publisher for in his <date when="1915-04-05">April 5, 1915</date> letter.</note>
+                <note target="#n6" resp="mb"><persName key="dh_lawrence">D.H. Lawrence</persName>, The Prussian Officer and Other Stories, London: Duckworth, 1914.</note>
+                <note target="#n7" resp="mb">Most likely composer <persName key="carl_engel">Carl Engel</persName>, who worked as an editor for the <orgName key="bostonMusicCompany">Boston Music Company</orgName> from his arrival in <placeName key="boston">Boston</placeName> in 1909 to 1922.</note>
+                <note target="#n8" resp="mb"><persName key="harold_monro">Harold Monro</persName>, Trees, <placeName key="london">London</placeName>: Poetry Bookshop, 1915.</note>
+            </div>
         </back>
     </text>
 </TEI>
