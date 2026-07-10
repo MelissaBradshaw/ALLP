@@ -80,7 +80,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1916-07-28">Jul. 28, 1916.</dateline></date>
+                <opener><dateline><date when="1916-07-28">Jul. 28, 1916.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener><p><persName key="richard_aldington">Richard</persName> has sent me these poems and asked me to send them on to you. He has joined his regiment, as you know, and he says he can use every penny he can raise; so that I hope not only for their own sake, but for his sake, you can accept any or all of these. I have no copy of them, so please be very careful of them, and return them to me if you do not want them. They are terribly sad to me — as sad as <persName key="rupert_brooke">Rupert Brookes&apos;s</persName> &quot;Sonnet&quot;, and far more beautiful, to my mind.</p>
                 <p>I am also sending you two prose articles which he has asked me to send. The one on <persName key="henri_deRegnier">De Regnier</persName> I think is very fine. And if you could find room for either of them in the back of <title key="poetry" level="j">&quot;Poetry&quot;</title> I know he would be most grateful. Why he did not send them to you himself I do not know, except that he has very little time to write, and as he was writing to me anyway, enclosed these. Again, I have no copies.</p>
                 <p>I am eager to see the <date when="1916-08">August</date> <title key="poetry" level="j">number</title> , <!--not sure how to tag this--> and to see how <title key="1777" level="a">&quot;1777&quot;</title> looks in it.</p>

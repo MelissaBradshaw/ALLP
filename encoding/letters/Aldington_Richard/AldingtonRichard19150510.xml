@@ -73,7 +73,7 @@
     <text>
         <body>
             <div type=”letter”>
-            <opener><dateline><date when="1916-05-10">May 10, 1916</dateline></date>
+            <opener><dateline><date when="1916-05-10">May 10, 1916</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I sent you and <persName key="hilda_doolittle">Hilda</persName> each two copies of 
                 “<title key="some_imagist_poets" level="m">Some Imagist Poets <u>1916</u></title>” by mail

@@ -78,7 +78,7 @@
     <text>
         <body>
             <div type="letter">
-                <opener><dateline><date when="1916-07-07">July 7, 1916</dateline></date>
+                <opener><dateline><date when="1916-07-07">July 7, 1916</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener> 
                 <p>Here is the copy of <title key="1777" level="a">“1777”</title> for the <title key="newPoetryAnthology" level ="m">>Anthology</title>. Good luck to you and it!</p>
                 <p>Still not word from <persName key="margaret_anderson">Margaret Anderson</persName>, and I am anxiously awaiting your answer in regard to that.</p>
@@ -87,7 +87,3 @@
         </body>
     </text>
 </TEI>
-
-
-
-

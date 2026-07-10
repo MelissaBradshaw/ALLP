@@ -88,7 +88,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1916-01-29">January 29, 1916</date>.</dateline></date>
+                <opener><dateline><date when="1916-01-29">January 29, 1916</date>.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet:</persName></salute></opener>
                
                 <p> <persName key="ada_russell">Mrs. Russell</persName> came home <date when="1916-01-28">yesterday</date>, with the list of my poems which you think of using in 
@@ -197,4 +197,3 @@
         </back>
     </text>
 </TEI>
-

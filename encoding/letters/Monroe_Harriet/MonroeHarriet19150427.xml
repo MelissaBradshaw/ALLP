@@ -78,7 +78,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1915-04-27">Apr. 27, 1915.</dateline></date>
+                <opener><dateline><date when="1915-04-27">Apr. 27, 1915.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
                 <p>I am enclosing <title key="leadSoldiers">“Lead Soldiers.”</title> Of course you want it. You have got to want it. I
                     consider it the best thing I have done. You must want it. You shall want it. Now be good and

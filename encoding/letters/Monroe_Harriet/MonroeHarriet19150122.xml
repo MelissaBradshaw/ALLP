@@ -78,7 +78,7 @@
    <text>
       <body>
          <div type=”letter”>
-            <opener><dateline><date when="1915-01-22">Jan. 22, 1915.</dateline></date>
+            <opener><dateline><date when="1915-01-22">Jan. 22, 1915.</date></dateline>
                <salute>To <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
            <p>You do not half read my letters, and it is a little discouraging. Of course <persName key="richard_aldington">Richard Aldington</persName> did not send that article to <orgName key="macmillan">Macmillan</orgName>. It was sent by <persName key="ezra_pound">Ezra</persName> himself in the hope of prejudicing Macmillan against me, as he was unable to make a stir in print owing to Richard’s consideration and thoughtfulness for us both. Of course, there is nothing to do about it since, so far as I know, Macmillan has not yet received it. It may only have been a threat on Ezra’s part.</p>
             <closer>A.L.</closer>

@@ -73,7 +73,7 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1916-01-13">Jan. 13, 1916</dateline></date>
+            <opener><dateline><date when="1916-01-13">Jan. 13, 1916</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I feel very badly indeed to have raised your hopes to the pitch evidenced by your letter of
                 December 28th. I sent you a cable yesterday to disabuse your mind of their being any immediate

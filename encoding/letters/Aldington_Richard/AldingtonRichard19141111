@@ -74,7 +74,7 @@
     <text>
         <body>
             <div type="letter">
-            <opener><dateline><date when="1914-11-11">Nov. 11, 1914.</dateline></date>
+            <opener><dateline><date when="1914-11-11">Nov. 11, 1914.</date></dateline>
                 <salute>My dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I have got an offer for <persName key="remy_gourmont">Remy de Gourmont</persName>. I do not think it a very brilliant one, but it
                 seems probably the best that can be done. It is from a new weekly, "<title key="newRepublic" level="j">The New Republic</title>"  

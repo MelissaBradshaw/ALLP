@@ -78,7 +78,7 @@
    <text>
       <body>
          <div type="letter">
-            <opener><dateline><date when="1917-06-23">June 23,1917</dateline></date>
+            <opener><dateline><date when="1917-06-23">June 23,1917</date></dateline>
                <salute>Dear <persName key="harriet_monroe">Harriet</persName>:-</salute></opener> 
             <p>That was an awfully nice letter and I thank you for it from the bottom of my heart. Little <persName key="richard_hunt">Hunt</persName> is a good post, but a rotten business man. He told me last night over the telephone that he had send you <title key="gas_lamp_ghost" level="a">“Gas-Light Ghost”</title> on receipt of your letter; that showed energy on his part, but hardly judgment, as the poem in question is at the moment benign considered by <persName key="james_oppenheim">James Oppenheim.</persName> However, if <persName key="james_oppenheim">Mr. Oppenheim</persName> should not care for it, I will let you know. I think they are rather full up just now at <title key="sevenArts" level="j">“Seven Arts”,</title> so it may be they will not feel like taking it. It never seemed to occur to <persName key="richard_hunt">Hunt</persName> that there was any objection to sending the poem to two places at once. He was horrified and most contrite when I told him that was not cricket.</p>
             <p>I shall send you <persName key="eunice_tietjens">Eunice Tietjens's</persName> review in about two weeks. When you do want that <measure type="currency" num="200">$200.00</measure> I promised you — when it is due. Let me know.</p>
@@ -87,4 +87,3 @@
       </body>
    </text>
 </TEI>
-

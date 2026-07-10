@@ -78,7 +78,7 @@
    <text>
       <body>
          <div type="letter">
-            <opener><dateline><date when="1917-06-15">June 15,1917</dateline></date>
+            <opener><dateline><date when="1917-06-15">June 15,1917</date></dateline>
                <salute>Dear <persName key="harriet_monroe">Harriet</persName>:-</salute></opener> 
             <p>I will do <persName key="eunice_tietjens">Eunice Tietjens</persName>’ <title key="profilesFromChina" level="m">book</title> for you as soon as I can. I probably shall not be able to get at it for a couple of weeks, as I am now in the last finishing touches of my own book, which must go to press about the first of July.</p>
             <p>I am awfully disappointed that you refused <persName key="richard_hunt">Richard Hunt's</persName> <title key="gas_lamp_ghost" level="a">“Gas-Lamp Ghost.”</title> You remember that I spoke to you about it when I was in <placeName key="chicago">Chicago</placeName> and told you how very good I thought it was. You asked me to have him send it on to you, and of course, I told him, and he says that you returned it to him recently alleging as a reason, that gas lamps were out of date. Dear <persName key="harriet_monroe">Harriet,</persName> we live in an out-of-date part of the world, and there are gas lamps all up and down our parkways and through most of the streets of this town in which I live. Of course, they are not the old flame gas jets, but incandescent mantle lights. <persName key="richard_hunt">Mr. Hunt's</persName> poem is, therefore, not only beautiful but absolutely up-to-date. I confess that your refusing it has hurt my feelings not a little. When <persName key="ezra_pound">Ezra</persName> sends you poems, I think you usually accept them, but apparently when I take the trouble to send you poems you feel no confidence in my judgment and turn them down. I think you have made a great mistake, for to my mind, that is one of the most beautiful poems of its type which I have seen at all. I heartily wish (sic) that I had written it.</p>
@@ -91,4 +91,3 @@
       </body>
    </text>
 </TEI>
-

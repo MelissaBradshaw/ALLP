@@ -72,7 +72,7 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1916-08-05">Aug. 5, 1916</dateline></date>
+            <opener><dateline><date when="1916-08-05">Aug. 5, 1916</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I enclose a draft for £16-3-2, representing yours and <persName key="hilda_doolittle">Hilda’s</persName> share of the
                 August 1st royalties from our two volumes of “<title key="some_imagist_poets" level="m">Imagist Poets</title>.” The sales were as follows:

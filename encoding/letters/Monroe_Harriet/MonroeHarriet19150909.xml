@@ -81,7 +81,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1915-09-09">September 9, 1915.</dateline></date>
+                <opener><dateline><date when="1915-09-09">September 9, 1915.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet:&ndash;</persName></salute></opener> <!-- to be decided if that dash is a choice or a formant-->
                 <p> Here is a check for <measure type="currency" num="50">$50</measure> I promised you on the <date when= 1915 08 01> first of August </date> 
                     and entirely forgot to send. I am sorry I cannot make it <measure type="currency" num="100">$100</measure>, but things are not so 

@@ -78,7 +78,7 @@
    <text>
       <body>
          <div type="letter">
-            <opener><dateline><date when="1917-06-02">June 02,1917</dateline></date>
+            <opener><dateline><date when="1917-06-02">June 02,1917</date></dateline>
                <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener> 
             <p>I am returning <title key="fatigues" level="a">“Fatigues”</title> re-copied. The reason <persName key="hilda_doolittle">Hilda</persName> asked to have these poems returned to me and then returned to her, with others of <persName key="richard_aldington">Richard</persName>’s that I have, is because I believe she is compiling a new book of all his poems, and she has not copies of all of them with her. She will be delighted to know that you have taken <title key="fatigues" level="a">“Fatigues.”</title></p>
          <closer>Affectinately yours,</closer>
@@ -86,4 +86,3 @@
       </body>
    </text>
 </TEI>
-

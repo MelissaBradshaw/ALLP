@@ -78,7 +78,7 @@
    <text>
       <body>
          <div type="letter">
-            <opener><dateline><date when="1917-05-31">May 31,1917</dateline></date>
+            <opener><dateline><date when="1917-05-31">May 31,1917</date></dateline>
                <salute>Dear <persName key="harriet_monroe">Harriet</persName>:-</salute></opener> 
             <p>Your explanations do not explain, and your excuses do not excuse, but we will agree to differ, and I will do the <persName key="louis_untermeyer">Untermeyer</persName> <title key="theseTimes" level="m">book</title> as soon as I can.</p>
             <p>I do not think I can review, <title key="newPoetryAnthology" level="s">"The New Poetry",</title> because everything I can say about <title key="newPoetryAnthology" level="s">"New Poetry"</title> in general will appear in my <title key="tendencies" level="m">new book,</title> and I think the review of this important volume of yours should be more than a mere discussion of the poems it contains.</p>
@@ -87,5 +87,3 @@
       </body>
    </text>
 </TEI>
-
-

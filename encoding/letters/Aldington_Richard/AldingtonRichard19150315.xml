@@ -73,7 +73,7 @@
     <text>
         <body>
             <div type=”letter”>
-            <opener><dateline><date when="1915-03-15">March 15, 1915.</dateline></date>
+            <opener><dateline><date when="1915-03-15">March 15, 1915.</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>Your letter came yesterday morning and reduced me to a state of perfect inanity with
                 excitement and joy.<anchor xml:id="n1"/> I was utterly unable to do anything during the day, and that was very

@@ -78,7 +78,7 @@
    <text>
       <body>
          <div type=”letter”>
-            <opener><dateline><date when="1915-01-19">Mar. 23, 1915.</dateline></date>
+            <opener><dateline><date when="1915-01-19">Mar. 23, 1915.</date></dateline>
                <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
            <p>I am enclosing the advertisement for <title key="egoist" level="j">“The Egoist:</title> which <persName key="john_fletcher">Miss Weaver</persName> sent to me and asked me to forward you. She said you would understand, and it was all right.</p>
 <p>By the way, I thought two of <persName key="ezra_pound">Ezra’s</persName> poems in your <title key="poetry" level="j">March number</title> particularly <title key="good" level="a">good: the young men riding horses and the chess game.</title></p> 

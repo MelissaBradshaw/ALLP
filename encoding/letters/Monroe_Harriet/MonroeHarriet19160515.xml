@@ -77,7 +77,7 @@
     <text>
         <body>
             <div type="letter">
-                <opener><dateline><date when="1916-05-15">May 15, 1916</dateline></date>
+                <opener><dateline><date when="1916-05-15">May 15, 1916</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
                 <p>I was very glad to get your letter this morning and to know that you are mentioning my lectures in your <title key= "poetry" level ="j">June number</title>. After all, a laborer is worthy of his meed (sic) of recognition, and that is all I desire. </p>
             <p>I am sending you the new<title key ="some_imagist_poets" level="m"> “Imagist Anthology”</title>. I suppose you will get an official copy from the publishers, but this is a personal copy. Do review it yourself. I would much rather hear what you have to say about it than what anybody else, whom you might ask to do it, would say. You will see that we have given you a handsome little tribute in the <quote type="english”> “Acknowledgements” </quote>, which I had printed in large print on purpose, to make it more noticeable. You see, it is tit for tat, my dear. But tutting without tatting is no fun. </p>

@@ -78,7 +78,7 @@
     <text>
         <body>
             <div type="letter">
-                <opener><dateline><date when="1916-06-28">June 28, 1916</dateline></date>
+                <opener><dateline><date when="1916-06-28">June 28, 1916</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener> 
                 <p>I believe that I am to have my <title key="1777" level="a">“1777”</title> in your <title key="poetry" level="j">August number</title>. Do not forget to send me a proof. I think it will be a little easier if you can send it soon, because I expect to leave here about the <date when ="1916-17-07">17th of July</date>; but it really does not make any great difference if you have not got a proof by that time, only I am trying to clear up everything I can before I go to the country.</p>
                     <p>It is ages since I heard from you, and I have never thanked you for the changes you made in that little note about my lectures. It was very good of you to make them, and I am awfully obliged.</p>
@@ -91,5 +91,3 @@
         </body>
     </text>
 </TEI>
-
-

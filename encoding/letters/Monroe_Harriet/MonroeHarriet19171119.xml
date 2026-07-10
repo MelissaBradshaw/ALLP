@@ -84,7 +84,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1917-11-19">November 19, 1917.</dateline></date>
+                <opener><dateline><date when="1917-11-19">November 19, 1917.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet:- </persName></salute></opener>
                 <p>Your postal has come <date when="1917-11-19">to-day.</date> I thank you very much for telling me about 
                     the guarantors’ copies. I wonder whether you are still sending copies to <perName key="charles_perkins">Mrs. Charles B. Perkins,</perName> 

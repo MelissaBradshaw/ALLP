@@ -77,7 +77,7 @@
     </teiHeader>
     <body>
         <div type=”letter”>
-            <opener><dateline><date when="1916-12-15">Dec. 15, 1916.</dateline></date>
+            <opener><dateline><date when="1916-12-15">Dec. 15, 1916.</date></dateline>
                 <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener> <p>I am sending you the best poem I have ever written. But whether you will think so or not is, of course, problematical. It is a kind of companion piece to <title key="malmaison” level="a”>&quot;Malmaison&quot;</title>, which, I am thankful to say, has met with considerable success. It is, of course, in polyphonic, and it is very long. But as you have already printed one play taking up a whole <title key="poetry" level="j">number</title>, perhaps you will not object to taking part of a number with this. I intended to wait until I came out to <placeName key="chicago">Chicago</placeName>, and read it to you, but now that I am not coming until the end of <date when="1917-02">February</date>, I think I will send this now.</p>
 <p>In <date when="1917-03">March</date> it will be six months since you have published anything of mine, and as I am going to be in Chicago lecturing the end of February and the first of March, it would be a convenience to me and timely for you if you print this in your March number.</p>
 <p>I hope you are succeeding in getting your <measure type="currency">money</measure> all right for next year. I have not promised anything yet, because I wanted to see how you were going. We will talk it over when I get to Chicago.</p>

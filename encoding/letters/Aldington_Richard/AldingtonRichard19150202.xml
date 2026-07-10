@@ -73,7 +73,7 @@
     <text>
         <body>
             <div type=”letter”>
-            <opener><dateline><date when="1915-02-02">Feb. 2, 1915.</dateline></date>
+            <opener><dateline><date when="1915-02-02">Feb. 2, 1915.</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>This will introduce you to our publisher, <persName key="ferris_greenslet">Mr. Ferris Greenslet</persName>, who is most anxious to
                 meet you. I only wish I were in his place and we were going to have one of our good times

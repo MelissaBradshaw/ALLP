@@ -79,7 +79,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1916-07-26">Jul. 26, 1916.</dateline></date>
+                <opener><dateline><date when="1916-07-26">Jul. 26, 1916.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
                 <p>I have just this minute received your letter, forwarded from <placeName key="brookline">Brookline</placeName>.</p>
                 <p>As to your suggestions for my contributions to the Anthology, I am quite satisfied with <title key="1777” level="a”>&quot;1777&quot;</title> for my second contribution (I certainly want <title key="patterns” level="a”>&quot;Patterns&quot;</title> for my first). If you do not care for &quot;1777&quot;, I would suggest that you quote <title key="malmaison” level="a”>&quot;Malmaison&quot;</title>, which appears in the current number of <title key="littleReview" level="j">&quot;The Little Review&quot;</title>. Personally I think it one of the very best things I have ever done, and <persName key="ec_marsh">Mr. Marsh</persName> thinks it the very best. It is in polyphonic prose, which I know you do not care for, and it is seven pages, which is exactly what &quot;1777&quot; is in my typewritten sheets. If, however, you prefer &quot;1777&quot; to &quot;Malmaison&quot;, I would keep it. I certainly do not want to get rid of &quot;1777&quot; for any of the other poems you suggest in its place.</p>
@@ -104,4 +104,3 @@
             </body>
             </text>
 </TEI>
-

@@ -83,7 +83,7 @@
     <text>
         <body>
             <div type="letter">
-                <opener><dateline><date when="1917-11-14">November 14, 1917.</dateline></date>
+                <opener><dateline><date when="1917-11-14">November 14, 1917.</date></dateline>
                     <salute>Miss <persName key="harriet_monroe">Harriet Monroe</persName></salute></opener>
                 <p><placeName key="chicago">543 Cass street Chicago, Ill.</placeName>  </p>
                 <p>Proof O.K. Many Thanks.</p>

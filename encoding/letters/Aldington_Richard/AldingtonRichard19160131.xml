@@ -74,7 +74,7 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1916-01-31">Jan. 31, 1916</dateline></date>
+            <opener><dateline><date when="1916-01-31">Jan. 31, 1916</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>This is the Preface. I believe <persName key="john_fletcher">Fletcher</persName> has written to you about it already. It consists of the
                 very best that Fletcher and I can do. It has been written, and written, and rewritten, and we have

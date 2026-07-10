@@ -72,7 +72,7 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1917-12-07">Dec. 7, 1917</dateline></date>
+            <opener><dateline><date when="1917-12-07">Dec. 7, 1917</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>It was perfectly delightful to have a letter from you again. It is so long since I have heard
                 from you direct, but <persName key="hilda_doolittle">Hilda</persName> is a brick and writes often and keeps me up with things. This war has

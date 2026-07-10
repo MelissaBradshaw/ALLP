@@ -88,7 +88,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1916-01-26">January 26, 1916</date>.</dateline></date>
+                <opener><dateline><date when="1916-01-26">January 26, 1916</date>.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet:</persName></salute></opener>
                 <p> I cannot tell you how miserable I was, not being able to go out to <placeName key="chicago">Chicago.</placeName> 
                     <persName key="helen_lathrop">Mrs. Lathrop&aphos;s</persName> very kind invitation came too late for me to avail myself of it. I am enclosing 
@@ -143,4 +143,3 @@
         </back>
     </text>
 </TEI>
-

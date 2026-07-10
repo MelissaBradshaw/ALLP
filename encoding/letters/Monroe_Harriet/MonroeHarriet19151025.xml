@@ -85,7 +85,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1915-10-25">October 25, 1915.</dateline></date>
+                <opener><dateline><date when="1915-10-25">October 25, 1915.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet:</persName></salute></opener>
                 <p> I did not for a moment wish to force myself upon your notice for an honorable mention. It never occurred to me that 
                     I could influence your judgment; in fact, I know perfectly well that I could not, and so do you. I merely thought it would 
@@ -125,5 +125,3 @@
         </body> 
     </text>
 </TEI>
-
-

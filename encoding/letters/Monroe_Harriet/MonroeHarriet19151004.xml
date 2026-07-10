@@ -85,7 +85,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1915-10-04">October 04, 1915.</dateline></date>
+                <opener><dateline><date when="1915-10-04">October 04, 1915.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet:</persName></salute></opener>
                 <p>Your letter of <date when="1915-10-01">October 1st</date> must have crossed with mine saying that I was withdrawing from the Levenson Prize. 
                     I do not want to withdraw a bit, but I know there is no hope of your giving me the prize; and I think it would be very foolish for me to get it, 

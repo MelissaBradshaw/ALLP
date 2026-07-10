@@ -74,7 +74,7 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1915-06-04">June 4, 1915.</dateline></date>
+            <opener><dateline><date when="1915-06-04">June 4, 1915.</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I am terribly sorry to hear about <persName key="hilda_doolittle">Hilda</persName>.<anchor xml:id="n1"/> It is an awful disappointment to go through all
                 those nine months of trouble and worry and then have the baby die. I wish there were anything I

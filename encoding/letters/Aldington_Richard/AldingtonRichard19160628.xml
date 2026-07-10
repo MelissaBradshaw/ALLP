@@ -72,7 +72,7 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1916-06-28">June 28, 1916</dateline></date>
+            <opener><dateline><date when="1916-06-28">June 28, 1916</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>Your letter of June 11th has come, and I am awfully glad to know that you like the
                 <title key="some_imagist_poets" level="m">Anthology</title>. I think it is good this year.</p>

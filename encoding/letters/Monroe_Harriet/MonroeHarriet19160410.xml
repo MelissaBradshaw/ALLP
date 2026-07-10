@@ -81,7 +81,7 @@
     <text>
         <body>
             <div type="letter">
-                <opener><dateline><date when="1916-04-10">10 April 1916.</dateline></date>
+                <opener><dateline><date when="1916-04-10">10 April 1916.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
                 <p> I am sending you <title key="1777" level="a">"1777"</title>— which is the correct title, the others being sub-titles. </p>
                 <p>Our understanding, I believe, now is that you are to print this poem as the leading poem in your <title key= "poetry" level ="j">August number</title>,and that my contributions to the <title key= "newPoetryAnthology" level ="m">"Anthology"</title> will be approximately like the list given you when you left here, and that, if you find that you have too much space reserved for my things,you will consult me before making any material changes. Is that all right?</p>
@@ -92,5 +92,3 @@
         </body>
     </text>
 </TEI>
-
-

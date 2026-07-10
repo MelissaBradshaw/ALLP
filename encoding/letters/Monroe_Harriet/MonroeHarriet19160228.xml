@@ -87,7 +87,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1916-02-28">February 28, 1916</date>.</dateline></date>
+                <opener><dateline><date when="1916-02-28">February 28, 1916</date>.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet:</persName></salute></opener>
                 <p> Your letter of <date when="1916-02-25">February 25th</date> came this morning. <measure type="currency" num="60">$60.00</measure> will 
                     be all right for “&quote;Off the Turnpike.
@@ -121,4 +121,3 @@
         </back>
     </text>
 </TEI>
-

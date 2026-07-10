@@ -82,7 +82,7 @@
     <text>
         <div type="letter">
             <body>
-                <opener><dateline><date when="1914-09-16">Sept. 16, 1914</dateline></date>
+                <opener><dateline><date when="1914-09-16">Sept. 16, 1914</date></dateline>
                     <salute>My dear<persName key="harriet_monroe">Harriet</persName>:</salute></opener>
                 <p>I send you the teaspoonful of "<title key="nationalismInArt" level="a">Nationalism in Art</title>" which you vouchsafed me. Your 
                    printer is fast becoming the incarnation of the devil, to my mind, and only the fact that you once 
@@ -124,4 +124,3 @@
                 <p><persName key="ada_russell">Mrs. Russell</persName> said she had a delightful time with you.</p>
     </text>
 </TEI>
-

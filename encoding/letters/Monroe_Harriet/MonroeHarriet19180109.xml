@@ -85,7 +85,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1918-01-09">January 9 1918</dateline></date>
+                <opener><dateline><date when="1918-01-09">January 9 1918</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet:–</persName></salute></opener>
                 <p>Thank you very much for the cheque of <measure type="currency" num="75"> seventy&ndash;five dollars,</measure> which came duly to hand. 
                     I do not think the <title key="<!--> cual es<-->" level="a">“Landlady”</title> looks badly at all. I have another poem for you for some 

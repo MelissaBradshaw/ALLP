@@ -78,7 +78,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1916-09-05">Sep. 5, 1916.</dateline></date>
+                <opener><dateline><date when="1916-09-05">Sep. 5, 1916.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
                 <p> I am delighted to know that you are taking/<persName key="richard_aldington">Aldington&apos;s<add place="above"></add></persName> <!--not sure this is nested properly --> <title key="beautyUnpraised" level="a">&quot;Beauty Unpraised&quot;</title> and <title key="ave" level="a">&quot;Ave.&quot;</title> Will you be so kind as to send me back the other two manuscripts which you do not want, as I want to try to sell them elsewhere.</p>
                 <persName key="dh_lawrence">Lawrence&apos;s</persName> address is;

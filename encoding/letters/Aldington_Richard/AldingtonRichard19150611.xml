@@ -73,7 +73,7 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1915-06-11">June 11, 1915.</dateline></date>
+            <opener><dateline><date when="1915-06-11">June 11, 1915.</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>This is not a letter, but merely a note to explain the enclosed, which is <persName key="guido_bruno">Bruno’s</persName>
                 <title key="brunosWeekly" level="j">publication</title>. It will give you the quality of the man and his work better than I can tell you. I think,

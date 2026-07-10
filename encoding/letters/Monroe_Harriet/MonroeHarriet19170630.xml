@@ -78,7 +78,7 @@
    <text>
       <body>
          <div type="letter">
-            <opener><dateline><date when="1917-06-30">June 30,1917</dateline></date>
+            <opener><dateline><date when="1917-06-30">June 30,1917</date></dateline>
                <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener> 
             <p>Thank you very much for your nice letter of <date when="1917-06-27">June 27th.</date> I will tell <persName key="richard_hunt">Mr. Hunt,</persName> and he will be delighted, I know, and I will let you know as soon as I hear from <persName key="james_oppenheim">Mr. Oppenheim,</persName> and, if he refuses the poem, I will send it on to you at once.</p>
             <p>I do not think that I am competent to criticize <persName key="louis_untermeyer">Louis Untermeyer's</persName> <title key="heine" level="m">“Heine”.</title> I cannot read German, so I have no way of comparing his translations with the original, or of knowing how good they are. I should like to do it, for the book has been very interesting to me, and the translations seem excellent — so excellent that I got a distinct flavour from them. But I feel that the person who criticizes that book ought to know German.</p>

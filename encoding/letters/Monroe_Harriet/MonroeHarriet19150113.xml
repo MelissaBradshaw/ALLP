@@ -78,7 +78,7 @@
    <text>
       <body>
          <div type=”letter”>
-            <opener><dateline><date when="1915-01-13">Jan. 13, 1915.</dateline></date>
+            <opener><dateline><date when="1915-01-13">Jan. 13, 1915.</date></dateline>
                <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
            <p>I want to tell you again what a delightful time you gave me in <placeName key="chicago">Chicago,</placeName> and what a great pleasure it was to see you again. I wish I could get to your poets’ party whenever it meets. As I have said before, <placeName key="chicago">Chicago</placeName>is the only place to live.</p>
 <p>I am afraid I’ve got a blow for you. I have decided to leave in the last part of <title key="mayEveningInCentralPark" level="a">“May Evening in Central Park.”</title> <persName key="ada_russell">Mrs. Russell</persName> and I have read it over several times and, although we see your point perfectly, to stop at the end of the first page makes a different poem of it; and the poem I mean to write only appears when the last part is left in; so please forgive me and print it as it is.</p>

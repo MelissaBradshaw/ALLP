@@ -79,7 +79,7 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1916-04-17">April 17, 1916</dateline></date>
+            <opener><dateline><date when="1916-04-17">April 17, 1916</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I received your nice long letter this morning, and very glad indeed I was to get it. It is
                 ages since I had heard from you or <persName key="hilda_doolittle">Hilda</persName>, and I began to think you had both died!</p>

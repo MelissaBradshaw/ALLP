@@ -81,7 +81,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1915-09-11">September 11, 1915.</dateline></date>
+                <opener><dateline><date when="1915-09-11">September 11, 1915.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet:&ndash;</persName></salute></opener>
                
                 <p> I received your check for <measure type="currency" num="70"> $70</measure>. today, for which many thanks. 

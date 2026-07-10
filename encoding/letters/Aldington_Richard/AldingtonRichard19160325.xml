@@ -84,7 +84,7 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1916-03-25">March 25, 1916</dateline></date>
+            <opener><dateline><date when="1916-03-25">March 25, 1916</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I am sorry to say that <persName key="edmund_brown">Brown</persName> did not pay up on the 15th, as he agreed to do. As I told
                 him that I should put the matter into the hands of a lawyer if he did not pay on that day, I put

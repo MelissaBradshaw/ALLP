@@ -75,7 +75,7 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1917-07-20">July 20, 1917</dateline></date>
+            <opener><dateline><date when="1917-07-20">July 20, 1917</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I have just received “<title key="">The Love Poems of Myrrhine and Konallis</title>,” printed by <persName key="">Mr. Charles C. Bubb</persName> in 
                 <placeName key="">Cleveland</placeName> with a letter from him in which he tells me you asked him to send me the

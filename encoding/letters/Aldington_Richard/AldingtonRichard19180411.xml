@@ -72,7 +72,7 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1918-04-11">April 11, 1918</dateline></date>
+            <opener><dateline><date when="1918-04-11">April 11, 1918</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I am overcome by <title key="reverie" level="m">your book</title>,<anchor xml:id="n1"/> which I think truly magnificent for the most part. I confess,
                 I think the war poems reach a higher mark than the love poems, probably because it is almost

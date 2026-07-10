@@ -73,7 +73,7 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1915-11-23">Nov. 23, 1915.</dateline></date>
+            <opener><dateline><date when="1915-11-23">Nov. 23, 1915.</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p><persName key="john_fletcher">Fletcher</persName> was out here Sunday night, and we went over your poems with great care. We
                 both feel that “<title key="" level="a">Whitechapel</title>” and “<title key="europe1915" level="a">Europe 1915</title>” are not up to your usual standard. I hope you

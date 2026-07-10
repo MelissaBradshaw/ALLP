@@ -78,7 +78,7 @@
     <text>
         <body>
             <div type="letter">
-            <opener><dateline><date when="1912-09-07">Sep. 7, 1912</dateline></date>
+            <opener><dateline><date when="1912-09-07">Sep. 7, 1912</date></dateline>
                 <salute>My dear <persName key="harriet_monroe">Miss Monroe</persName>-</salute></opener>
             <p>I was very much interested in the announcement of "<title key="poetry" level="j">Poetry</title>" which you sent me the other
                day, care of "<title key="atlantic" level="j">The Atlantic.</title>"</p>

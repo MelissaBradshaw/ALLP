@@ -74,7 +74,7 @@
     <text>
         <body>
             <div type=”letter”>
-            <opener><dateline><date when="1915-01-19">Jan. 19, 1915.</dateline></date>
+            <opener><dateline><date when="1915-01-19">Jan. 19, 1915.</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>This last week has been hectic, with the <orgName key="houghton_mifflin">publishers</orgName> on one side and my knowledge of
                 what you and <persName key="hilda_doolittle">Hilda</persName> and <persName key="fs_flint">Flint</persName> were feeling on the other. I have bankrupted myself on cables to

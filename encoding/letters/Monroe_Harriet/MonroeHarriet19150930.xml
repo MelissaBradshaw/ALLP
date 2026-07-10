@@ -87,7 +87,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1915-09-30">September 30, 1915.</dateline></date>
+                <opener><dateline><date when="1915-09-30">September 30, 1915.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet:</persName></salute></opener>
                 <p>I remember that this is about the time when you begin to choose your annual prize poem, and my recollection 
                     on the subject is farther confirmed by a letter from <persName key="john_fletcher">Fletcher</persName> telling
@@ -121,4 +121,3 @@
         </body>
     </text>
 </TEI>
-

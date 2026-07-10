@@ -80,7 +80,7 @@
     <text>
         <div type="letter">
         <body>
-            <opener><dateline><date when="1914-09-15">September 15, 1914</dateline></date>
+            <opener><dateline><date when="1914-09-15">September 15, 1914</date></dateline>
                 <salute>My dear<persName key="harriet_monroe">Harriet</persName>:</salute></opener>
             <p>I am so glad that "<titme key="nationalismInArt">Nationalism in Art</titme>," is going into the <date when="1914-10"<title key="poetry" level="j">October number</title></date> I am perfectly
                willing to have you leave out the last paragraph of my review of <persName key= "gf_norton">Miss Norton</persName> book if you <!-- is this correct?-->

@@ -78,7 +78,7 @@
     <text>
         <body>
             <div type="letter">
-                <opener><dateline><date when="1916-07-05">July 5, 1916</dateline></date>
+                <opener><dateline><date when="1916-07-05">July 5, 1916</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet:</persName>:</salute></opener> 
                 <p>Your letter came this morning. I have not a copy of <title key="1777" level= "a">“1777,”</title> but I will have one made for you at once and send it within a day or two.</p>
                 <p>Would you like me to review <persName key="mary_aldis">Mrs. Aldis’s</persName> <title key="flashlights" level= "m">“Flashlights”</title> for your <title key= "poetry" level ="j">September number</title>? If you would, say so. I should like to show her this courtesy, as she has been so very nice to me.</p>
@@ -88,6 +88,3 @@
         </body>
     </text>
 </TEI>
-
-
-

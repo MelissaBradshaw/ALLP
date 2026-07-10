@@ -84,7 +84,7 @@
     <text>
         <body>
             <div type="letter">
-                <opener><dateline><date when="1917-12-24">December 24, 1917.</dateline></date>
+                <opener><dateline><date when="1917-12-24">December 24, 1917.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet:–</persName></salute></opener>
                 <p> I am sorry that I made you so mad about proof. I know it must have upset you terribly, and had I known I was going to <placeName key="nyc">New York</placeName> 
                     I would have let you know; but I thought you would send the proof immediately after I sent my telegram, and that I would receive it before I started. There 

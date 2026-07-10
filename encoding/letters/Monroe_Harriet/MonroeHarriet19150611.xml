@@ -78,7 +78,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1915-05-29">May 29, 1915.</dateline></date>
+                <opener><dateline><date when="1915-05-29">May 29, 1915.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
                     <p>Of course, I take your letter exactly as you mean it, but I happen to be so husky just at
                         this moment that I cannot feel that the disposition of my will are of any immediate importance.</p>
@@ -106,4 +106,3 @@
         </body>
     </text>
 </TEI>
-

@@ -78,7 +78,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1915-07-29">July 29, 1915.</dateline></date>
+                <opener><dateline><date when="1915-07-29">July 29, 1915.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
                 I am going to ask you a great favour. I have succeeded in selling <title key="imagesOldAndNew">a book</title> of <persName key="richard_aldington">Richard’s</persName> to a
                 <orgName key="fourSeas">little firm</orgName> here in <placeName key="boston">Boston</placeName>, <persName key="edmund_brown">Brown</persName>, to wit, who wishes to bring it out as one of a series they are

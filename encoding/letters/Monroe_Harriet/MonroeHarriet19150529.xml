@@ -78,7 +78,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1915-05-29">May 29, 1915.</dateline></date>
+                <opener><dateline><date when="1915-05-29">May 29, 1915.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
                     <p>I am not frightfully flush this year. I am afraid nobody is; and I am afraid 
                         I can only agree to give you <measure type="currency" num="50">$50</measure>. in cash on the <date when="1915-08-01">first of August</date>, instead of

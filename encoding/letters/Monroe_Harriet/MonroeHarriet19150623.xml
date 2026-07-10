@@ -77,7 +77,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1915-06-23">June 23, 1915.</dateline></date>
+                <opener><dateline><date when="1915-06-23">June 23, 1915.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
                 <p><persName key="ferris_greenslet">Mr/ Greenslet</persName> has told me of your letter to him of <date when="1915-06-19">June 19th</date>. I do not know what he
                 answered himself, but I think I can straighten out the matter by writing to you.</p>

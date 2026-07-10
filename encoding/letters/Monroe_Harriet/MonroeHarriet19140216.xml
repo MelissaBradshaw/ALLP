@@ -80,7 +80,7 @@
     <text>
         <body> 
             <div type="letter">
-            <opener><dateline><date when="1914-02-16">February 16, 1914</dateline></date>
+            <opener><dateline><date when="1914-02-16">February 16, 1914</date></dateline>
                 <salute>My dear <persName key="harriet_monroe">Miss Monroe</persName>:</salute></opener>
             <p>I am enclosing all the poems which you chose, and also the little list of them which you
                made with your own handwriting, to prove their correctness.</p>

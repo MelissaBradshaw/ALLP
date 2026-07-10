@@ -78,7 +78,7 @@
     <text>
         <body>
             <div type="letter">
-                <opener><dateline><date when="1916-05-21">Sunday,May 21,1916</dateline></date>
+                <opener><dateline><date when="1916-05-21">Sunday,May 21,1916</date></dateline>
                     <address>
                         Editor,  <title key="poetry" level="j">“Poetry”</title>
                         543 Cass Street
@@ -91,4 +91,3 @@
         </body>
     </text>
 </TEI>
-

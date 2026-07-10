@@ -73,7 +73,7 @@
     <text>
         <body>
             <div type=”letter”>
-            <opener><dateline><date when="1915-05-19">May 19, 1915.</dateline></date>
+            <opener><dateline><date when="1915-05-19">May 19, 1915.</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I am afraid you are going to be awfully disappointed but, after careful consideration,
                 <persName key="ferris_greenslet">Ferris Greenslet</persName>, <persName key="john_fletcher">Fletcher</persName>, and 

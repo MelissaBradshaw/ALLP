@@ -81,7 +81,7 @@
     <text>
         <body>
             <div type="letter">
-            <opener><dateline><date when="1914-04-07">April 07, 1914</dateline></date>
+            <opener><dateline><date when="1914-04-07">April 07, 1914</date></dateline>
                 <salute>My dear <persName key="harriet_monroe">Miss Monroe</persName>:</salute></opener>    
             <p>Let me thank you very much for this cheque of <measure type="currency" num="100">$100.00</measure>, and for your two notes, all of which
                came this morning. I am afraid you will think me a great pig not to return this cheque as you

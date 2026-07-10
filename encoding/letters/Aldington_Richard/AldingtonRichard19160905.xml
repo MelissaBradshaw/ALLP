@@ -72,7 +72,7 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1916-09-05">Sept. 5, 1916</dateline></date>
+            <opener><dateline><date when="1916-09-05">Sept. 5, 1916</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>This will be a very short letter, as I have not much to report. I enclose a money-order for
                 the <measure type="currency" num="5">five dollars</measure> which was paid you by 

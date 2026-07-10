@@ -81,7 +81,7 @@
     <text>
         <body>
             <div type="letter">
-                <opener><dateline><date when="1914-09-10">September 10, 1914</dateline></date>
+                <opener><dateline><date when="1914-09-10">September 10, 1914</date></dateline>
                     <salute>Dear<persName key="harriet_monroe">Harriet</persName>:</salute></opener>
             <p>I enclose a check for <measure type="currency" num="60">$60</measure>. to pay for my advertisement in your <title key="poetry" level="j">magazine</title>. It brought me
                one answer which did not materialize, so that it hardly seems worth while to pursue advertising.
@@ -137,4 +137,3 @@
         </body>
     </text>
 </TEI>
-

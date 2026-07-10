@@ -77,7 +77,7 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1918-06-18">June 18, 1918</dateline></date>
+            <opener><dateline><date when="1918-06-18">June 18, 1918</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>Your letter of May 14th came the day before yesterday and I was perfectly delighted to
                 get it. I am glad you have a company, which shows what an excellent soldier you are, and you

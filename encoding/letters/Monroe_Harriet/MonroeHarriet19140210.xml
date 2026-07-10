@@ -78,7 +78,7 @@
     <text>
         <body>
             <div type="letter">
-            <opener><dateline><date when="1914-02-10">February 10, 1914</dateline></date>
+            <opener><dateline><date when="1914-02-10">February 10, 1914</date></dateline>
                 <salute>My dear <persName key="harriet_monroe">Ms. Monroe</persName>,</salute></opener>
             <p>This is just a little line to thank you for your very great kindness to me during my brief stay in
                <placeName key="chicago">Chicago</placeName> I wish I could have stayed longer. It is the one city in America where one does not feel

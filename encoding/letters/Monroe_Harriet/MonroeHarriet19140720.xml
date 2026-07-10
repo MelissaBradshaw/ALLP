@@ -78,7 +78,7 @@
     <text>
         <body>
             <div type="letter">
-            <opener><dateline><date when="1914-07-20">July 20, 1914</dateline></date>
+            <opener><dateline><date when="1914-07-20">July 20, 1914</date></dateline>
                 <salute>Dear<persName key="harriet_monroe">Harriet</persName>,</salute></opener>
             <p>I wonder whether you ever got my article on "<title key="nationalismInArt" level="a">Nationalism in Art,</title>" which I sent you just 
                before I sailed, on the <date when= "1914-06-23">23rd of June</date>. I also wired you from home, before I started, to know if you
@@ -139,4 +139,3 @@
         </body>
     </text>
 </TEI>
-

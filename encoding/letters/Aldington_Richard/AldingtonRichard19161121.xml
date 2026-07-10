@@ -76,7 +76,7 @@
     <text>
         <body>
             <div type="cablegram">
-            <opener><dateline><date when="1916-11-21">Nov. 21, 1916</dateline></date></opener>
+            <opener><dateline><date when="1916-11-21">Nov. 21, 1916</date></dateline></opener>
             <address>
                 <addrLine><persName key="richard_aldington">Richard Aldington</persName></addrLine>
                 <addrLine>C/o “<title key="egoist" level="j">The Egoist</title>”</addrLine>

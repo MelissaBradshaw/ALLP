@@ -72,7 +72,7 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1916-02-05">Feb. 5, 1916</dateline></date>
+            <opener><dateline><date when="1916-02-05">Feb. 5, 1916</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>Your letter of January 18th is here, and your generosity in regard to the matter of my
                 poems gave me great pleasure. Neither <persName key="john_fletcher">Fletcher</persName> nor I have any desire to put in things which you

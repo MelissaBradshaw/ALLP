@@ -83,7 +83,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1918-02-05">February 5 1918</dateline></date>
+                <opener><dateline><date when="1918-02-05">February 5 1918</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet:–</persName></salute></opener>
                 <p>I am very glad that you like <title key="appuldercombePark" level="a">&quot;appuldercombe Park.&quot;</title> Of course it is 
                     in the vein of <title key="patterns" level="a">&quot;Patterns,&quot;</title> but it is so different. One is a bad woman, and one is a good woman. 

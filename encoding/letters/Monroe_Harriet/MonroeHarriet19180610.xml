@@ -82,7 +82,7 @@
     <text>
         <body>
             <div type="letter">
-                <opener><dateline><date when="1918-06-19">June 19 1918</dateline></date>
+                <opener><dateline><date when="1918-06-19">June 19 1918</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet :</persName></salute></opener>
                 <p>This got left out of my last letter.  </p>
                 

@@ -81,7 +81,7 @@
     <text>
         <body>
             <div type="letter">
-                <opener><dateline><date when="1916-04-17">17 April 1916 .</dateline></date>
+                <opener><dateline><date when="1916-04-17">17 April 1916 .</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
                 <p>Thank you for your letter. I am returning the proof of <title key="pyrotechnics" level="a">"Pyrotechnics"</title> corrected.</p>
                 <p>There is a mistake in the copy of <title key="patterns" level="a">"Patterns"</title>which you have. Somehow it was printed wrong in <persName  key="margaret_anderson">Margaret Anderson's</persName> <title key="littleReview" level= "j">book</title>, and from there copied wrong again. It is not very important, but I should prefer to have it right while you are about it:</p>
@@ -97,4 +97,3 @@
         </back>
     </text>
 </TEI>
-

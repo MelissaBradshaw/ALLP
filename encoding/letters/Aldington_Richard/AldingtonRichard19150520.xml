@@ -74,7 +74,7 @@
     <text>
         <body>
             <div type=”letter”>
-            <opener><dateline><date when="1915-05-20">May 20, 1915.</dateline></date>
+            <opener><dateline><date when="1915-05-20">May 20, 1915.</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>Here’s your draft for payment in full, I believe; at least I think it is as full as the cheque
                 was. <title key="newRepublic" level="j">They</title> have just sent it to me this morning, and I am hastily getting it off to you. Do not say I

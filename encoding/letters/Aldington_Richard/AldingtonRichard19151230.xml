@@ -73,7 +73,7 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1915-12-30">Dec. 30, 1915.</dateline></date>
+            <opener><dateline><date when="1915-12-30">Dec. 30, 1915.</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>Thank you very much for your copy of the <title key="poetsTranslationSeries" level="s">Renaissance poems</title>,<anchor xml:id="n1"/> and please thank <persName key="hilda_doolittle">Hilda</persName>
                 for her “<title key="iphigeneia">Choruses from Iphegeneia</title>.” I am delighted to have them, only I wish you had written in

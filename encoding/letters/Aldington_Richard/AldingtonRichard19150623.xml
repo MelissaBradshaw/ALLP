@@ -72,7 +72,7 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1915-06-23">June 23, 1915.</dateline></date>
+            <opener><dateline><date when="1915-06-23">June 23, 1915.</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>Your letter came yesterday and was a perfect delight to get. It makes me very happy to
                 feel the staunch friendship which you and <persName key="hilda_doolittle">Hilda</persName> have for me; and you must realize by this time

@@ -78,7 +78,7 @@
     <text>
         <body>
             <div type="letter">
-                <opener><dateline><date when="1916-06-28">July 10, 1916</dateline></date>
+                <opener><dateline><date when="1916-06-28">July 10, 1916</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener> 
                 <p>I am returning the proof, corrected. I do wish I could get into the heads of your office that I send my things in accurately punctuated, and <add place="above">that</add> no changes should be made. As I use punctuation largely as musical notation, to indicate how the poem is to be read, it is always important to keep mine. Although, not wishing to be stodgy, in one or two instances I have allowed what is here to stand; in other cases, I have harked back to the original; and I wish you would see that all these corrections are properly made.</p>
                  <p> <title key="1777" level ="a">“1777”</title> is such a funny little title in numerals that I wish you would have it put in much larger letters, for I fear that people will think it is simply something to do with the binding of the magazine.</p>
@@ -88,6 +88,3 @@
         </body>
     </text>
 </TEI>
-
-
-

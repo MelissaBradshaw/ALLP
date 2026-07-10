@@ -88,7 +88,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1916-02-17">February 17, 1916</date>.</dateline></date>
+                <opener><dateline><date when="1916-02-17">February 17, 1916</date>.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet:</persName></salute></opener>
                 <p> Your letter has just come. In regard to the Anthology, I supposed of course that you were only taking poems that had appeared 
                     in <title key="poetry" level="j">your magazine,</title> and I was therefore only chooding 
@@ -149,5 +149,3 @@
         </body>
     </text>
 </TEI>
-
-

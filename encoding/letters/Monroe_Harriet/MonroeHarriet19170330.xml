@@ -78,7 +78,7 @@
    <text>
       <body>
          <div type="letter">
-         <opener><dateline><date when="1917-03-30">Mar. 30,1917</dateline></date>
+         <opener><dateline><date when="1917-03-30">Mar. 30,1917</date></dateline>
              <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>  
             <p>I was very glad to get your letter of <date when="1917-03-27">March 27th,</date> but awfully sorry for the heading. It is too bad that you have been so ill. I thought when I saw you that last day in <placeName key="chicago">Chicago</placeName> that you would soon be round again, and I had no idea from your other letter that you were so ill. It is a shame, and I am dreadfully sorry. You speak of going South — where? — to <placeName kry="newOrleans">New Orleans,</placeName> if so, I envy you.</p>
             <p>I have quite recovered since I returned home. I think it was almost entirely a case of lack of nourishment. The hotel food at <placeName key="congress_hotel">the Congress</placeName> was so bad. In less than a week I was myself again. I have just been to <placeName key="buffalo">Buffalo,</placeName> where I had a reading, and back, passing two nights in the train, and only a few hours there, and have survived to tell the tale; partly, I suppose, because my audience was so enthusiastic that it would have prevented any one from feeling tired.</p>
@@ -98,5 +98,3 @@
       </body>
    </text>
 </TEI>
-
-

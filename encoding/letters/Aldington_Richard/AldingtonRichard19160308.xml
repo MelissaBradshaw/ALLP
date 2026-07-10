@@ -73,7 +73,7 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1916-03-08">March 8, 1916</dateline></date>
+            <opener><dateline><date when="1916-03-08">March 8, 1916</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I hope you will approve of what I have done with <persName key="edmund_brown">Brown</persName>. It consists chiefly in having
                 given him a delightful jolt.</p>

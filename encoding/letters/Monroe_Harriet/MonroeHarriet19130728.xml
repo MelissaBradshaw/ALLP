@@ -78,7 +78,7 @@
     <text>
         <body>
             <div type="letter">
-            <opener><dateline><date when="1913-07-28">July 28, 1913</dateline></date>
+            <opener><dateline><date when="1913-07-28">July 28, 1913</date></dateline>
                 <salute>My dear <persName key="harriet_monroe">Miss Monroe</persName>-</salute></opener>
             <p>Thank you very much for the copy of "<title key="poetry" level="j">Poetry</title>" which came last week. I was much pleased at the
                appearance of those two things of mine <!--do we know what these are?-->. How interesting the <persName key="fs_flint">Flint</persName> things were<!-- do we know what things? -->, don’t you think so?
@@ -116,4 +116,3 @@
         </body>
     </text>
 </TEI>
-

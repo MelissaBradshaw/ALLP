@@ -78,7 +78,7 @@
    <text>
       <body>
          <div type="letter">
-            <opener><dateline><date when="1917-02-06">Feb. 06,1917</dateline></date>
+            <opener><dateline><date when="1917-02-06">Feb. 06,1917</date></dateline>
                <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>  
          <p>Thank you very much for this proof which I am returning. There are very few corrections, as you will see.</p>
             <p>I am awfully glad to know that you will take <title key="laquer_prints" level="a">these poems.</title> I trust you won’t feel like leaving out any of them when it comes to the point, as I find they only make eight pages and your first gentleman in the <title key="poetry" level="j">February number</title> had ten. I understand, by the way, that these are to lead off the <title key="poetry" level="j">March number.</title></p>
@@ -89,5 +89,3 @@
       </body>
    </text>
 </TEI>
-
-

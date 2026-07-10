@@ -78,7 +78,7 @@
    <text>
       <body>
          <div type="letter">
-         <opener><dateline><date when="1917-04-25">April 25,1917</dateline></date>
+         <opener><dateline><date when="1917-04-25">April 25,1917</date></dateline>
           <salute>Dear <persName key="harriet_monroe">Harriet</persName>:-</salute></opener>  
          <p>Thank you for your nice letter from <placeName key="tryon">Tryon, North Carolina,</placeName> which came yesterday. I am glad to know you are getting better in such beautiful surroundings. You would make me exceedingly envious were not the crocus and squills out of my window so charming.</p>
             <p>I have had a letter from <persName key="hilda_doolittle">Hilda Aldington</persName> telling me that she has asked you to send me those poems of <persName key="richard_aldington">Richard's</persName> which you have. She also says that she is unable to make the chances in the one you wanted. I remember you and I spoke about these when I was in <placeName key="chicago">Chicago,</placeName> and you said you would send them to me. Will you be so kind as to do so, and also, dear <persName key="harriet_monroe">Harriet,</persName> when are you going to print <persName key="john_fletcher">Fletcher's</persName> handsome tribute to me. I cannot tell you how anxious I am to see that really in type. As long as you have accepted it, do print it before the volume is too old a story.</p>
@@ -88,4 +88,3 @@
       </body>
    </text>
 </TEI>
-

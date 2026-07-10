@@ -82,7 +82,7 @@
     <text>
         <body>
             <div type="letter">
-                <opener><dateline><date when="1914-09-19">September 19, 1914</dateline></date>
+                <opener><dateline><date when="1914-09-19">September 19, 1914</date></dateline>
                     <salute>Dear<persName key="harriet_monroe">Harriet</persName>:</salute></opener>
             <p>I enclose the new proof of "<title key="nationalismInArt" level="a">Nationalism in Art</title>" which I am sending off within the hour 
                of having received it, down by messenger, and with a Special Delivery stamp on it.</p>
@@ -104,5 +104,3 @@
         </body>
     </text>
 </TEI>
-
-

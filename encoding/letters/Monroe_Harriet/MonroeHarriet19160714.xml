@@ -81,7 +81,7 @@
     <text>
         <body>
             <div type="letter">
-                <opener><dateline><date when="1916-07-14">14 July 1916</dateline></date>
+                <opener><dateline><date when="1916-07-14">14 July 1916</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
                 <p>Your suggestive letter came this morning, and I hastened to reply at once by telegram, stating that I wished the corrections made as I had indicated on <title key="1777" level="a">the proof</title>.</p>
                 <p>My dear Girl, why will you persist in believing me to be an uneducated and careless person? Do you suppose that I should ever send out a manuscript every detail of which I had not verified and arranged beforehand? The erudite <persName key="henry_fuller">Mr. Fuller</persName> and your highly-imaginative Italian sculptor are, I am sorry to say, in error in regard to <foreign xml:lang="it">“Cavaliers Servente”</foreign>. The Italian form always ends with an <quote type="english">“e”</quote> in cases of that sort: witness, <foreign xml:lang="it">“il signore”</foreign>. If you will look in the Oxford Dictionary you will find that the French is written <foreignxml:lang="fr">“Cavalier Servant”</foreign>, and the Italian <foreign xml:lang="it">“Cavaliere Servente”.</foreign></p>
@@ -99,4 +99,3 @@
         </back>
     </text>
 </TEI>
-

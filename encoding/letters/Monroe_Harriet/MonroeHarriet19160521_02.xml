@@ -79,7 +79,7 @@
     <text>
         <body>
             <div type="letter">
-                <opener><dateline><date when="1916-05-21">Sunday,May 21,1916</dateline></date>
+                <opener><dateline><date when="1916-05-21">Sunday,May 21,1916</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet</persName>.</salute></opener> 
                 <p>You were a trump to let me to let me correct a few slight errors in that paragraph. It seemed to me that you made me say that Imagism derived from <persName key="edgar_poe">Poe</persName> and <persName key="walt_whitman">Whitman</persName>, and, by my bankrupting telegram, you will now see <del rend="overstrike">how</del> where it did and <del rend="overstrike"> how</del> when it didn't. Your contention about the Greek Anthology is well taken, I will include it in future.</p>
                 <p>As your paragraph read, it made me consider the start- ing of <title key="poetry" level="j">"Poetry"</title> to be directly responsible for the New Movement. Of course I did not mean that, for the poets were already writing or "Poetry" would have had nothing to make its hit with- Therefor to suggest that <persName key="ezra_pound">Ezra</persName> and Co. were experimenting as early as <date when="1910">1910</date>, is beside the point; for we were all experimenting. You make me say tacitly that "Poetry" introduced all the important poets of the New Movement, whereas, as you will see from my telegram, it didn't. And I do not think it would be fair to those other editors &amp; publishers who gave us an opening, to have the paragraph as it stands. At least, as it stands, it mis-quotes me, I am rather sorry you say that I confine my discussion of Imagism <quote type="english">"Chiefly to the group represented in the Houghton-</p>
@@ -92,5 +92,3 @@
         </body>
     </text>
 </TEI>
-
-

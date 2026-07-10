@@ -73,7 +73,7 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1915-12-15">Dec. 15, 1915.</dateline></date>
+            <opener><dateline><date when="1915-12-15">Dec. 15, 1915.</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>Your letter of November 29th came last night, written in <persName key="hilda_doolittle">Hilda’s</persName> hand. I hope that does
                 not mean that you have got writer’s cramp from the amount of writing you have been doing.

@@ -73,7 +73,7 @@
     <text>
         <body>
             <div type=”letter”>
-            <opener><dateline><date when="1915-05-06">May 6, 1915.</dateline></date>
+            <opener><dateline><date when="1915-05-06">May 6, 1915.</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>In the first place, about this letter and cheque from “<title key="newRepublic" level="j">The New Republic</title>” people. I see no
                 reason why they should not pay you for the articles they ordered, as long as they ordered them,

@@ -73,7 +73,7 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1916-07-27">July 27, 1916</dateline></date>
+            <opener><dateline><date when="1916-07-27">July 27, 1916</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>Your letter of the 13th of June came a few days ago, and I was delighted to get it, and to
                 know that you were really in camp. However awful it is to break up one’s life in this way, if it

@@ -75,7 +75,7 @@
     </teiHeader>
     <text>
         <body>
-            <opener><dateline><date when="1915-10-13">Oct. 13, 1915.</dateline></date>
+            <opener><dateline><date when="1915-10-13">Oct. 13, 1915.</date></dateline>
                 <salute>My dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I received two very nice letters from you and the first pamphlet of the translations, just
                 before I left <placeName key="dublinNewHampshire">Dublin</placeName>. This one is in no sense to be an answer to those letters. That must wait. It is
@@ -180,4 +180,3 @@
         </back>
     </text>
 </TEI>
-

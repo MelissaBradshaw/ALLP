@@ -78,7 +78,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1916-11-09">Nov. 9, 1916.</dateline></date>
+                <opener><dateline><date when="1916-11-09">Nov. 9, 1916.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
 <p>Thank you for your nice note. I have been pretty sick, and am still in bed. When I shall be out of it, I do not know.</p>
 <p>I particularly wanted to see you when I went to <placeName key="chicago">Chicago</placeName> because I have one or two new poems that I thought you might like. Perhaps I will send them, and perhaps I will wait until I am well enough to bring them.</p

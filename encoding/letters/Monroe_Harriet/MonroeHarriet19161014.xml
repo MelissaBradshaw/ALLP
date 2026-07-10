@@ -78,7 +78,7 @@
     <text>
         <body>
             <div type=”letter”>
-                <opener><dateline><date when="1916-10-14">Oct. 14, 1916.</dateline></date>
+                <opener><dateline><date when="1916-10-14">Oct. 14, 1916.</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet</persName>:</salute></opener>
 <p>I enclose a copy of <title key="chinoiseries" level="a">&quot;Chinoiseries&quot;</title>. If you have been looking in <title key="littleReview"level="j">&quot;The Little Review&quot;</title>for it, it is no wonder you could not find it, for it came out in the <date when="1916-07">July</date> number of <title key="others" level="j">&quot;Others&quot;</title>.</p>
                 <p>I am most interested to see <title key="newPoetryAnthology" level="m">your &quot;Anthology&quot;</title>. I tried to buy it the other day, and was discouraged to find it was not yet out.</p>
