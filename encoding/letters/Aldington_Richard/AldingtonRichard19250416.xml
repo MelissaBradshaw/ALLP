@@ -83,7 +83,7 @@
       <body>
         <div type="letter">
             <opener><dateline><date when="1925-04-16">April 16, 1925</date></dateline><salute>My dear <persName key="richard_aldington">Mr. Aldington</persName>:</salute></opener>
-            <p>You will be sorry to hear that <persName key="amy_lowell">Miss Lowell</persName> is seriously ill and has been obliged to give up the lecture trip to <placeName key="england">England</placeName> which she had intended to take this <date when="1925">Spring</date>. The doctors are keeping her very quiet in the hope of avoiding an operation which she is in no condition to stand.</p>
+            <p>You will be sorry to hear that <persName key="amy_lowell">Miss Lowell</persName> is <rs key="medical" type="theme">seriously ill</rs> and has been obliged to give up the lecture trip to <placeName key="england">England</placeName> which she had intended to take this <date when="1925">Spring</date>. The doctors are keeping her very quiet in the hope of avoiding an operation which she is in no condition to stand.</p>
             <p>Of course she is bitterly disappointed, for this is the moment of moments for her to be in England.</p> 
             <closer>Yours very truly,
             <persName>Secretary</persName>.</closer> 
