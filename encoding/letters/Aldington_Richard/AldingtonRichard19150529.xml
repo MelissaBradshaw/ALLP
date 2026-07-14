@@ -77,28 +77,29 @@
             <opener><dateline><date when="1915-05-29">May 29, 1915.</dateline></date>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I think I have at last discovered the mystery of the books not having been received by
-                <orgName key="constable">Constable</orgName>. The sheets were shipped on the “Anglian” on the 16th of April. <persName key="roger_scaife">Mr. Scaife</persName>, who is
-                business manager of <orgName key="houghton_mifflin">Houghton Mifflin’s</orgName>, has ascertained from the Company that the “<placeName key="anglian">Anglian</placeName>”
+                <orgName key="constable">Constable</orgName>. The sheets were shipped on the <placeName key="anglian"><hi rend="quote">“Anglian”</hi></placeName> 
+                on the <date when="1915-04-16">16th of April</date>. <persName key="roger_scaife">Mr. Scaife</persName>, who is
+                business manager of <orgName key="houghton_mifflin">Houghton Mifflin’s</orgName>, has ascertained from the Company that the <hi rend="quote">“Anglian”</hi>
                 reached <placeName key="liverpool">Liverpool</placeName> safely, in fact that she was due back here yesterday. But Mr. Scaife tells me
                 that he fears the delay occurred on the docks in Liverpool, as he understands that merchandise is
                 piled up all over the docks there, and delivery is dreadfully delayed.</p>
             <p>He sent a weekend cable last Friday to Constable, requesting <persName key="michael_sadleir">Sadler</persName> to look the matter up
                 and, if necessary, to send someone to Liverpool to ferret out the sheets. He says that, if we send
                 any more, they will probably be delayed in the same way, and will certainly not reach Constable
-                so quickly as the original sheets would do. Houghton Mifflin are just as annoyed as you are
+                so quickly as the original sheets would do. Houghton Mifflin are just as annoyed as you <pb n=”02”/>are
                 about it. They realize perfectly the fact that the copyright is lost, and that the delay will occasion
                 a lull in the interest about the book. It is most unfortunate, but I do not believe we can blame the
                 publishers here. It would seem to be a case of conditions in the freight service occasioned by the
-                war. But the bad thing is that Constable, with the exception of Sadler, do not seem to know
+                war. But the bad thing is that Constable's, with the exception of Sadler, do not seem to know
                 anything about this business. I think myself that they are the worst firm for selling things in the
                 world.</p>
             <p>I am writing a letter to Sadler now, requesting him to do everything in his power to get
                 our book properly on the market. I do not suppose it will be as well put on as it is here, for here I
-                am paying for a lot of separate advertising myself; and that, of course, I cannot do in England as
+                am paying for a lot of separate advertising myself; and that, of course, I cannot do in <placeName key="england">England</placeName> as
                 Constable bought their copies of the book outright, and I no longer own them. The venture,
                 therefore, is entirely theirs as far as the English edition is concerned.</p>
             <p>The interest here is enormous, as you will see by the clippings I am sending you. The
-                reviews are uniformly bad; but as they are written by people entirely unfitted for the task, both
+                reviews are uniformly bad; but as they are written by <pb n=”03”/>people entirely unfitted for the task, both
                 from education and predilection, (the ordinary cheap, hack reviewer in fact,) that does not make
                 much difference. Everybody seems to be talking about it a good deal; but our sale is not any too
                 brilliant, ten copies more however since I last wrote, making 470 in all. Mr. Scaife thinks that the
@@ -110,19 +111,19 @@
                 I believe, and fraternized with <persName key="ezra_pound">Ezra</persName>. He writes
                 very poor poetry: old-fashioned and fearfully inverted. I cannot help wondering how much his
                 acquaintance with Ezra has influenced him in jumping on us. It is not a review – merely an
-                article out of a blue sky, and I do not believe will do us much harm. <persName key="ws_braithwaite">Braithwaite</persName> is answering for
+                article out of a blue sky, and I do not believe will do us much <pb n=”04”/>harm. <persName key="ws_braithwaite">Braithwaite</persName> is answering for
                 it for “The New Republic.” The excuse they gave for publishing an article of that kind, when
-                they purport to be my friends, is that they wanted to open a discussion. As Aiken accuses us of
+                they purport to be my friends, is that they wanted to open a discussion. As <del rend="erased">Braithwaite</del> <add place="over" type="insertion" rend="typescript">Aiken</add> accuses us of
                 interpuffing I did not think that any of us could write the answer. Ferris’s tongue is tied, because
                 he publishes the book, so Braithwaite seemed the only thing, and as he is heart and soul with us
-                and was most anxious to do it, I had to take him <u><foreign xml:lang="fr">faute de mieux</foreign></u><anchor xml:id="n1"/><!-- Is this the right order of operations to show that this French phrase is underlined?? -->.</p>
+                and was most anxious to do it, I had to take him <foreign xml:lang="fr"><hi rend="underline">faute de mieux</hi></foreign><anchor xml:id="n1"/></p>
             <p>I took “<title key="egoist" level="j">The Egoist</title>” in to Roger Scaife the other day, rather hoping that he might think
                 well of distributing it; but he was just as much against the plan as Ferris was, although he thinks
                 that, if <persName key="may_sinclair">May Sinclair</persName> has really written a good article on us in the next “Egoist,” it might be well
                 to distribute that; so you had better send me <measure quantity="50" unit="copies">50 copies</measure> anyway, possibly more. I had a scheme
                 that the two numbers might be distributed together, and if I can persuade the publishers that that
-                is a wise thing to do, I will send out this May number at the same time with the June.</p>
-            <p><persName key="remy_gourmont">Remy de Gourmont’s</persName> little notice will do us a lot of good here, slight though it is. I have
+                is a wise thing to do, I will send out this <date when="1915-05">May</date> number at the same time with the <date when="1915-06">June</date>.</p>
+            <p><persName key="remy_gourmont">Remy de Gourmont’s</persName> little notice will do us <pb n=”05”/>a lot of good here, slight though it is. I have
                 already translated it, and portions of it are going into an advertisement; and Braithwaite will
                 quote it in his defenses for “The New Republic.” The real difficulty here is that there are no
                 prose writers who are interested enough to defend us.</p>
@@ -132,17 +133,17 @@
                 attitude toward us, and take us for the serious and earnest poets that we are.</p>
             <p>A man named <persName key="alfred_kreymborg">Kreymborg</persName>, who used to edit “<title key="glebe" level="j">The Glebe</title>,” is getting up a little magazine
                 called “<title key="others" level="j">Others</title>.” He has written to ask both <persName key="john_fletcher">Fletcher</persName> and me for contributions. He tells me that
-                “Pound, <persName key="john_rodker">Rodker</persName>, <persName key="skipwith_cannell">Cannell</persName>, <persName key="horace_holley">Holley</persName>, 
-                <persName key="wc_williams">Williams</persName>, and <persName key="orrick_johns">Johns</persName>” have responded to his request. Ezra
-                undoubtedly is going to try to run this paper in his own way; so Fletcher and I thought it was just
+                <hi rend="quote">“Pound, <persName key="john_rodker">Rodker</persName>, <persName key="skipwith_cannell">Cannell</persName>, <persName key="horace_holley">Holley</persName>, 
+                <persName key="wc_williams">Williams</persName>, and <persName key="orrick_johns">Johns</persName>”</hi> have responded to his request. Ezra
+                undoubtedly is going to try to run this paper in <pb n=”06”/>his own way; so Fletcher and I thought it was just
                 as well to send him contributions at once, so as to <del rend="strikethrough">give</del> <add place="above">show</add> 
                 Ezra <del rend="strikethrough">a notion</del> that he could not keep
                 us out of it, so we have sent things to him. I do not know whether he has written to you yet, but if
                 I were you, I should send him some of yours and <persName key="hilda_doolittle">Hilda’s</persName> things. His address is: Alfred
-                Kreymborg, Grantwood, New Jersey.</p>
+                Kreymborg, <placeName key="grantwood">Grantwood</placeName>, New Jersey.</p>
             <p>You wrote and asked me about <persName key="guido_bruno">Bruno</persName>. They tell me that he is a little Jew, who is frankly
-                out for the money. The <persName key="albert_boni" key="charles_boni">Bonis</persName> <!-- Can I have two keys? "Bonis" refers to Albert and Charles Boni -->
-                in New York told me that his <title key="brunosWeekly" level="j">paper</title> was very poor; and I saw some
+                out for the money. The <persName key="bonis">Bonis</persName> 
+                in <placeName key="nyc">New York</placeName> told me that his <title key="brunosWeekly" level="j">paper</title> was very poor; and I saw some
                 quotations the other day from it, which were beneath contempt; but I have never seen it myself,
                 and I do not know anything about the man. He seems to be just a fellow who thinks the other
                 young men are making some money out of the new movements, and he wants to try. If I can find
@@ -150,8 +151,8 @@
             <p>Do not forget to send me any clippings that come out about us, although I suppose we
                 cannot expect any until the book is issued in England.</p>
             <p><persName key="margaret_anderson">Margaret Anderson</persName> is still going on, she writes me, though on what I cannot imagine. I
-                have an article on <placeName key="poetryBookshop">The Poetry Bookshop</placeName> in the current number,<anchor xml:id="n2"/> which was written to make up
-                for <add place="margin">my</add> having unwittingly hurt <persName key="harold_monro">Monro’s</persName> feelings 
+                have an article on <placeName key="poetryBookshop">The Poetry Bookshop</placeName> in the <pb n=”07”/>current number,<anchor xml:id="n2"/> which was written to make up
+                for <add place="margin" type="insertion" rend="pencil">my</add> having unwittingly hurt <persName key="harold_monro">Monro’s</persName> feelings 
                 in my “<title key="letterFromLondon" level="a">London Letter</title>.” I tried very hard not to
                 appear to praise him unduly; but I really think he deserves credit for having tried to do something
                 for poetry. His limitations are congenital, and in no way due to a commercial or narrow-minded
@@ -166,11 +167,11 @@
             <closer>Lots of love to Hilda,</closer>
             </div>
         </body>
-        <back> 
-            <div type="notes"> 
-                <note target="#n1" resp="mb">French, meaning for want of a better alternative.</note> 
-                <note target="#n2" resp="mb"><persName key="amy_lowell">Amy Lowell</persName>, "The Poetry Bookshop," <title key="littleReview" level="j">The Little Review</title> Vol. 2, No. 3 (May, 1915).</note> 
-            </div> 
+        <back>
+            <div type="notes">
+                <note target="#n1" resp="mb">French, meaning for want of a better alternative.</note>
+                <note target="#n2" resp="mb"><persName key="amy_lowell">Amy Lowell</persName>, "The Poetry Bookshop," <title key="littleReview" level="j">The Little Review</title> Vol. 2, No. 3 (May, 1915).</note>
+            </div>
         </back>
     </text>
 </TEI>
