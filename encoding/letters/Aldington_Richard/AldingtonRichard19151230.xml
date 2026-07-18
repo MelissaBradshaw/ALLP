@@ -76,11 +76,11 @@
             <opener><dateline><date when="1915-12-30">Dec. 30, 1915.</dateline></date>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>Thank you very much for your copy of the <title key="poetsTranslationSeries" level="s">Renaissance poems</title>,<anchor xml:id="n1"/> and please thank <persName key="hilda_doolittle">Hilda</persName>
-                for her “<title key="iphigeneia">Choruses from Iphegeneia</title>.” I am delighted to have them, only I wish you had written in
+                for her “<title key="iphigeneia">Choruses from <choice><orig>Iphegeneia</orig><reg>Iphigeneia</reg></choice></title>.” I am delighted to have them, only I wish you had written in
                 them, and not merely signed them. You must write in your book for me, will you?</p>
             <p>I went through your proof on Sunday, and it is just as well I did, for there were several
                 quite bad mistakes: one whole line was left out, one word was wrong, and one title was left out
-                in the table of contents, besides various minor mistakes. I have sent them to Brown with a note,
+                in the table of contents, besides various minor mistakes. I have sent them to <persName key="edmund_brown">Brown</persName> with a note,
                 requesting that I <del rend="strikethrough">may</del> be allowed to see the proofs again after they are corrected, for I wish to do
                 everything in my power to get your book quite right. It looked very well, I thought, in print,
                 especially the one (whose names I have forgotten) with a little golden cock pecking at the blue
@@ -90,8 +90,9 @@
                 weathercocks. My poem was written last Spring, long before I saw yours, and you have never
                 seen mine, which makes the unconscious plagiarism amusing.</p>
             <p>I have sent three of Hilda’s poems to “The Century:” “<title key="pearTree" level="a">Pear-tree</title>,” “<title key="contest" level="a">The Contest</title>,” and
-                “<title key="seaGods" level="a">Sea Gods</title>.” I Had a note from <persName key="william_benet">Benét</persName> yesterday, saying that they should have his <add place="above">immediate</add>
-                attention. I hope they will take them, for “The Century” pays very well, but I am a little bit
+                “<title key="seaGods" level="a">Sea Gods</title>.” I Had a note from <persName key="william_benet">Benét</persName> 
+                yesterday, saying that they should have his <add place="above" type="insertion" rend="typescript">immediate</add>
+                attention. I hope they will take <pb n=”02”/>them, for “The Century” pays very well, but I am a little bit
                 doubtful, they are so queer about the things they take and the things they don’t.</p>
             <p>I had a letter from <persName key="margaret_anderson">Margaret Anderson</persName> the other day, and she asked me to send her some
                 poems of yours and Hilda’s, saying that you had authorized her to ask for them. I sent her your
@@ -99,8 +100,8 @@
                 Hilda’s “<title key="lateSpring" level="a">Late Spring</title>” and “<title key="night" level="a">Night</title>.” I hope that this
                 will meet with your approval.</p>
             <p><persName key="ferris_greenslet">Ferris Greenslet</persName> is making me very miserable by requesting the manuscript of the
-                <title key="some_imagist_poets" level="m">Anthology</title> as soon as possible. He now says he wants it by the end of January. I told him I did
-                not see how we could have it as soon as that, and we were still to hear from England about some
+                <title key="some_imagist_poets" level="m">Anthology</title> as soon as possible. He now says he wants it by the end of <date when="1916-01">January</date>. I told him I did
+                not see how we could have it as soon as that, and we were still to hear from <placeName key="England">England</placeName> about some
                 of the things. I have received two poems from <persName key="dh_lawrence">Lawrence</persName> this morning. I suppose you have seen
                 them; but as you did not mention them, and as he says he is leaving Hampstead at once, I am
                 enclosing copies. Of course, they are neither of them Imagist poems, that is the truth of the
@@ -114,7 +115,7 @@
                 and will certainly take up as much space as he is entitled to. Send me a line, telling me that the
                 rest of you approve, and I will put them in.</p>
             <p>I am enclosing some poems of <persName key="jean_untermeyer">Mrs. Untermeyer’s</persName>, which I am very anxious for you to
-                see. She is very new at the business, as I wrote to you in my last letter, but I think these poems
+                see. She is very new at the business, as I wrote <pb n=”03”/>to you in my last letter, but I think these poems
                 show good possibilities, and there is a feeling, a personality, in her verses which is perhaps more
                 visible to a woman than to a man but which I personally think unusual and very beautiful; and I
                 think Hilda will agree with me. Most of these poems have been accepted by magazines over
@@ -132,10 +133,10 @@
                 the “<title key="chicagoEveningPost" level="j">Chicago Evening Post</title>.” He has a regular position there, as poetry
                 critic; and to have his wife so obviously one with us at heart is certainly affecting his opinion of
                 us in every way. I would not, of course, suggest your printing of one of her poems merely to get
-                her husband’s good will; but both Fletcher and I think this poem, “Clothes,” excellent. But you
+                her husband’s good will; but both Fletcher and I think <pb n=”04”/>this poem, “Clothes,” excellent. But you
                 understand that, if you do not like it, you are under no obligation to accept it.</p>
             <p>It is awfully nice of you to want me to send you an article and some of my poems for
-                your February number. I have not been able to have the photograph taken yet, and I am
+                your <date when="1916-02">February</date> number. I have not been able to have the photograph taken yet, and I am
                 dreadfully afraid I cannot have it taken in time for that number. The pressure of work here is
                 something terrific. I am doing all I can, but I have not been able to do that, so I am afraid you 
                 will have to go to press without my picture. Perhaps it is just as well, for I cannot think that my
@@ -152,9 +153,9 @@
                 He is going to bring it out on Sunday, and we will work over it together, and get it off to you
                 next week. You are then to make any changes or alterations you want, and send it back again.
                 The time is getting awfully short, so do hurry, as Greenslet says the latest he can possibly have it
-                is the first of February.</p>
+                is the <date when="1916-02-01">first of February</date>.</p>
             <p>You say nothing about my poem, “<title key="turnpike" level="a">Off the Turnpike</title>,” which I sent to you sometime ago.
-                Do you approve, or don’t you? The poem is under consideration at “The Century,” and if you
+                Do you approve, or don’t you? The poem <pb n=”05”/>is under consideration at “The Century,” and if you
                 like it, and if they accept it, I must make arrangements with them to publish it before the
                 Anthology comes out. It occurs to me with a feeling of horror that you may be going to print
                 “Off the Turnpike” in your February number. It would have been perfectly all right for you
@@ -173,10 +174,10 @@
                 but I told him that it was impossible, and that I did not think it advisable, and so we are
                 calling it “Some Imagist Poets 1916,” with the “1916” very large and underlined. I trust that will do the
                 trick.</p>
-            <p><persName key="fs_flint">Flint</persName> wrote me a perfectly beautiful review of my “<title key="sixFrenchPoets" level="m">French Poets</title>,” so beautiful that it
+            <p><pb n=”06”/><persName key="fs_flint">Flint</persName> wrote me a perfectly beautiful review of my “<title key="sixFrenchPoets" level="m">French Poets</title>,” so beautiful that it
                 almost reduced me to tears. I have not heard from you or Hilda. I hope that does not mean that
                 you do not like the book. It is doing very well here, and has nearly sold out its whole edition
-                already, <measure quantity="750" commodity="copies">750 copies</measure> <add place="above">gone out</add> I heard by 
+                already, <measure quantity="750" commodity="copies">750 copies</measure> <add place="above" type="insertion" rend="typescript">gone out</add> I heard by 
                 last accounts, and <persName key="ec_marsh">Mr. Marsh</persName> says we shall have to
                 reprint before long. Two professors of the English Departments of <placeName key="harvard">Harvard</placeName> 
                 and <placeName key="yale">Yale</placeName> have come
@@ -199,7 +200,7 @@
                     Anthology as a foil for the rest of the things in the book, for I have a theory that the more variety
                     one can have, the better it is, and another one of this same New England series, which was
                     published in “<title key="newRepublic" level="j">The New Republic</title>,” made such an excellent impression here that I thought it
-                    would be good for the sale of the book to have this one in. But I daresay you are right in thinking
+                    would be good <pb n=”07”/>for the sale of the book to have this one in. But I daresay you are right in thinking
                     it does not go, and I am quite willing to substitute something else, but what, it is a little difficult
                     to decide.</p>
                 <p>I am sending you a choice. “<title key="stravinsky" level="a">Stravinsky</title>” is the most remarkable poem of the lot, but I do
@@ -219,12 +220,12 @@
                     In that case I should advise including with it the “<title key="impressionistPicture" level="a">Impressionist Picture of a Garden</title>” or
                     possibly “The Dinner Party,” if you like it enough. And then there is always “<title key="patterns" level="a">Patterns</title>,” which
                     you can have if you want to. And here is one called “<title key="paperWindmill" level="a">The Paper Windmill</title>,” which could be used
-                    with “The Spring Day” and one of the other <hi rend="underline"><foreign xml:lang="fr">vers libre</foreign></hi> things, but not as the second contribution
+                    with “The Spring <pb n=”08”/>Day” and one of the other <hi rend="underline"><foreign xml:lang="fr">vers libre</foreign></hi> things, but not as the second contribution
                     by itself, it too being “polyphonic prose.</p>
                 <p>Now please send me your answer by return mail, and send back the poems at the same
                     time. Ferris Greenslet is in such a hurry that we cannot delay three days.</p>
                 <p>Of these poems I am sorry that I can only submit those I mentioned in the letter and
-                    which I marked “unpublished” on the manuscript, for you to print in the February “Egoist.”
+                    which I marked <hi rend="quote">“unpublished”</hi> on the manuscript, for you to print in the February “Egoist.”
                     “Lead Soldiers” has already appeared in “<title key="poetry" level="j">Poetry</title>,” and “The Paper Windmill” in “The Century.”
                     “In a Time of Dearth” has been accepted by “The Century,” “Stravinsky” is under consideration
                     by “<title key="masses" level="j">The Masses</title>,” and “The Impressionist Picture of a Garden” is the same with the “<title key="smartSet" level="j">Smart Set</title>.”</p>
@@ -240,7 +241,7 @@
                     of the Anthology. Fletcher has a great and remarkable originality, and originality is the important
                     thing in poetry.</p>
                 <p>Do not let your translations usurp too large a place in your work. Translations, no matter
-                    how good, are of minor importance compared to original work. Nobody knows that better than I,
+                    how good, are of minor importance <pb n=”09”/>compared to original work. Nobody knows that better than I,
                     for have I not spent my entire Summer in making translations? For minor men, like 
                     <persName key="edward_fitzgerald">Edward Fitzgerald</persName>, translating is important, but for poets of ambition and vigour, translating is only of
                     value for two reasons: for boiling the pot, or for doing a little something when you have nothing
@@ -258,7 +259,7 @@
                     right to demand something new, and “Patterns” Has already been published in Braithwaite’s
                     Anthology and copied in many papers over the country. But if you want it, all right.</p>
                 <p>Of course, you shall have “<title key="whitechapel" level="a">Whitechapel</title>” if your heart is set on it. Neither Fletcher nor I
-                    intended to take any arbitrary stand, we merely pointed out that we did not think it up to your
+                    intended to take any arbitrary stand, <pb n=”10”/>we merely pointed out that we did not think it up to your
                     standard. In judging poems to admit or exclude, we follow an entirely different line from the one
                     that you follow. You take an abstract standard and insist that all poems shall conform to that. We
                     have no hard and fast standard, we take your work on its own merits, and see whether it comes to
@@ -277,12 +278,12 @@
                     question of pronunciation and elision than of twisted syntax, and the effect would have been lost.</p>
             </postscript>
         </body>
-        <back> 
-            <div type="notes"> 
-                <note target="#n1" resp="mb">Aldington has sent Lowell a copy of a volume of the Poets' Translation Series, a series of twelve pamphlets of Greek, Latin, and Italian translations by Aldington and H.D. published by the Egoist Press.</note> 
-                <note target="#n2" resp="mb">"Paper Windmill," The Century, December 1915 (Vol. 91, No. 2), 232-235.</note> 
-                <note target="#n3" resp="mb">"Extracts from the Letters of a Prisoner of War,' The Egoist, December 1, 1915 (Vol. 2, No. 12) 185-186.</note> 
-            </div> 
+        <back>
+            <div type="notes">
+                <note target="#n1" resp="mb">Aldington has sent Lowell a copy of a volume of the Poets' Translation Series, a series of twelve pamphlets of Greek, Latin, and Italian translations by Aldington and H.D. published by the Egoist Press.</note>
+                <note target="#n2" resp="mb">"Paper Windmill," The Century, December 1915 (Vol. 91, No. 2), 232-235.</note>
+                <note target="#n3" resp="mb">"Extracts from the Letters of a Prisoner of War,' The Egoist, December 1, 1915 (Vol. 2, No. 12) 185-186.</note>
+            </div>
         </back>
     </text>
 </TEI>
