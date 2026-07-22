@@ -85,16 +85,16 @@
       <body>
          <opener><dateline><date when="1914-11-25">November 27, 1914.</date></dateline>
             <salute>My dear Mr. <persName key="john_fletcher">Fletcher</persName>:</salute></opener>
-         <p>After I wrote to you yesterday I had a telephone message from Mr. <persName key="ferris_greenslet">Greenslet</persName> of <orgName key="houghton_mifflin">Houghton Mifflin Company</orgName> to say that they have definitely accepted your <title key="irradiations">book</title>. I hurriedly added
+         <p>After I wrote to you yesterday I had a telephone message from Mr. <persName key="ferris_greenslet">Greenslet</persName> of <orgName key="houghton_mifflin">Houghton Mifflin Company</orgName> to say that they have definitely accepted your <title key="irradiations" level="m">book</title>. I hurriedly added
             the thing in a postscript and sent off the letter but did enter into details. Now here
             is the arrangement I have made for you which I hope you will approve. Ferris Greenslet
             has conceived the idea, pushed thereto largely by many criticisms against the way
             publishers treat modern poetry, to issue a series of small books in paper covers at the
             price of fifty cents each <gap reason="illegible" quantity="2"
                unit="character"/> that they may reach everybody. He intends to
-            be very careful and only have the very best poetry in this series. Of course his <gap reason="illegible" quantity="9" unit="character"/><!--my best guess is "intention" here--> may not always agree with ours, as I think it is possible he may not always
+            be very careful and only have the very best poetry in this series. Of course his <gap reason="illegible" quantity="9" unit="character"/><!--my best guess is "intention" here--> may not always agree with ours, as I think<!--only "th" visible--> it is possible he may not always
             consider best poetry what we consider so, <gap reason="illegible" quantity="5"
-               unit="character"/></pb> for one volume and <title key="some_imagist_poets">our anthology</title> for another. I believe he intends to have something of <persName key="lawrence_binyon">Lawrence Binyon</persName>’s for
+               unit="character"/></pb> for one volume and <title key="some_imagist_poets" level="m">our anthology</title> for another. I believe he intends to have something of <persName key="lawrence_binyon">Lawrence Binyon's</persName> for
             another volume, and whatever we may personally think of Lawrence Binyon he has
             sufficient good standing to have his name carry weight and dignity. I think another
             volume is going to be a collection of all the translations which <persName key="lafcadio_hearn">Lafcadio Hearn</persName> made
@@ -124,13 +124,13 @@
             the best publishing proposition for poetry I have heard of for a long time and I believe
             that with books at fifty cents and a big publishing house like Houghton Mifflin Company
             behind it will have a very great chance to gain the popular ear.</p>
-         <p>They kick at <persName key="ford_hueffer">Hueffer</persName>’s "Heaven" for the anthology. In fact their acceptance of that
+         <p>They kick at <persName key="ford_hueffer">Hueffer's</persName> <title key="heaven" level="a">"Heaven"</title> for the anthology. In fact their acceptance of that
             book depends upon the removal of that poem and something else substituted less alien to
             the puritan susceptibilities of most of the partners. I will talk to you about this on
             Tuesday. In the mean time I have written to <persName key="richard_aldington">Richard</persName> and asked him what he thinks of it
             and to tell him that I think the only chance</pb> of publishing in a first class house is
             this one. I think it is better to sacrifice one poem than to have to take the book to a
-            small firm like <orgName key="boniLiveright">Boni</orgName>’s. I have not put your preface in the book. I am afraid that it
+            small firm like <orgName key="boniLiveright">Boni's</orgName>. I have not put your preface in the book. I am afraid that it
             would not get people to read the book, I think it would antagonize them to start with. I
             think some sort of preface is an excellent thing, but I think you should assume that
             your readers are in sympathy with you. They must be in some sort of sympathy, if only
@@ -138,7 +138,7 @@
             policy to kick the <gap reason="illegible" quantity="5" unit="character"/> in the preface, but again we can talk this over on
             Tuesday.</p>
          <p>I am only writing you this that you may know just where you stand. Of course you know
-            that this whole series will be handled by <orgName key="constable">Constable</orgName>’s in <placeName key="england">England</placeName>. I believe it to be a
+            that this whole series will be handled by <orgName key="constable">Constable's</orgName> in <placeName key="england">England</placeName>. I believe it to be a
             very excellent publishing venture.</p>
          <p>I am terribly doubtful whether these letters will ever reach you. I am sending them to the main <orgName key="americanExpress">American Express</orgName> office as I have not the slightest idea where else to send
             them and you said American Express in your letter. I do hope you will give me a more
