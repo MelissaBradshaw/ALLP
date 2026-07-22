@@ -84,16 +84,16 @@
             <salute>Dear <persName key="john_fletcher">Boy</persName>:</salute></opener>
          <p>I have got a lot of letters to write; but as you most thoughtfully and kindly say, I am
             so busy that it is almost impossible to write.</p>
-         <p>Your poem "Chicago" was forwarded to me in <placeName key="nyc">New York</placeName>, and I meant to sit right down and
+         <p>Your poem <title>"Chicago"</title> was forwarded to me in <placeName key="nyc">New York</placeName>, and I meant to sit right down and
             tell you how much I liked it, and how exceedingly swirling and windy I think it is.
-            Where in the Devil you got such a nice expression as "smoky-blue pipes" from I wish I
+            Where in the Devil you got such a nice expression as <quote type="english">"smoky-blue pipes"</quote> from I wish I
             knew, and I would go and pick some like it. I have not time to go through it in detail
             and tell you all I think of it; I will reserve that until we meet.</p>
          <p>I am rehearsing our operettas for eight hours a day; and before the rehearsals begin and
             after they end, I am too done to sit down and write. I am dictating this letter now
             while I am dressing, because I cannot let any longer time elapse before sending you a
             word, and also because I have been having a terrible time about the title of the
-            <title key="some_imagist_poets">Anthology</title>.</p>
+            <title key="some_imagist_poets" level="m">Anthology</title>.</p>
          <p>I won’t tell you all my tribulations; it would take too long. Suffice it to say that
             <persName key="ferris_greenslet">Ferris Greenslet</persName> was very much averse to changing the name, feeling that Imagiste had
             come to mean a certain kind of poetry, and had therefore a certain mercantile value. He
@@ -103,24 +103,24 @@
             given the name value; for all the good work that Ezra has done since he announced
             himself an Imagiste could be crowded in a couple of pages, if it took as much room as
             that. I did not like</pb> to be downed either; and if Ezra published me without my permission
-            in the first Anthology as an Imagiste, I have a great objection to backing down at his
+            in the first <title key="anthologyDesImagistes" level="m">Anthology</title> as an Imagiste, I have a great objection to backing down at his
             bidding when he decides that he does not want me to be one.</p>
          <p>I sent a cable to <persName key="richard_aldington">Richard</persName>, which it hurt me very much to do, explaining this as well as
             I could. And to-day comes a letter from him, enclosing one from <persName key="fs_flint">Flint</persName>. Flint’s letter
             says that he remembers that Ezra did not invent the name "Imagiste," that it started in
             their talks at a little club where they used to meet, called "<orgName key="poetsClub">The Poets’ Club</orgName>," of which
-            <persName key="te_hulme">Hulme</persName> was the founder, when they were always talking about the image. He adds: "Of
+            <persName key="te_hulme">Hulme</persName> was the founder, when they were always talking about the image. He adds: <quote type="english">"Of
             course, at the back of my head I have known this all the time, but I never took the
             thing seriously. However, if Ezra is going to make it a part of his strategie litteraire
-            to our hurt, then I think that it and he should be put in their place." He also suggests
+            to our hurt, then I think that it and he should be put in their place."</quote> He also suggests
             putting this in a preface. But I know that a fighting preface is a mistake. The fighting
-            should come afterwards, in the "<egoist>Egoist</egoist>" and elsewhere, if we need to fight.</p>
-         <p>Richard writes as follows: "I enclose a note from Flint to me which came five minutes
+            should come afterwards, in the <title key="egoist" level="j">"Egoist"</title> and elsewhere, if we need to fight.</p>
+         <p>Richard writes as follows: <quote type="english">"I enclose a note from Flint to me which came five minutes
             after your wires. That letter and our great desire to play square all round influenced
             us to say that, if you and <orgName key="houghton_mifflin">Houghton, Mifflin</orgName> consider the Imagiste title absolutely
             necessary, why we will acquiesce. You know how much we want the Anthology. And though we
             really do not want the Imagiste title, we won't stand in the way of its coming out. So
-            go ahead in the name of God and St. George." Under these circumstances, Mr. Greenslet
+            go ahead in the name of God and St. George."</quote> Under these circumstances, Mr. Greenslet
             and I have decided that really it is much easier to keep the name "Imagiste."</p>
          <p>At first we thought of calling it "Quintessentialist;" but that is too long, and I am
             sure the public is tired of "ists" and we had better hold to what we have got. If Ezra
@@ -154,7 +154,7 @@
             than to write, particularly when you are rehearsing eight hours a day. I wish you could
             be here for our operettas next week; but I fear it is too late for that now, and I don’t
             know whether you would enjoy them very much.</p>
-         <p><persName key="herbert_croly">Croly</persName> of "<title key="newRepublic">The New Republic</title>" was very much interested in your Indian poem and took the
+         <p><persName key="herbert_croly">Croly</persName> of "<title key="newRepublic" level="j">The New Republic</title>" was very much interested in your <title>Indian poem</title> and took the
             whole thing to consider, saying that he would let me know if he could get it to pass the
             other editors; and whether he will take it all or in part, I do not know. I left it with
             him and have heard nothing more. I will you know as soon as I do. Forgive haste, but I
