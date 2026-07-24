@@ -186,11 +186,10 @@ def add_or_fix_corresp_desc(text, report):
         human_date = human_date.strip()
 
     if not settlement_key:
-        report.append("correspDesc: FLAGGED — no <settlement> found in file; inserted with empty "
-                       "settlement placeholder, no default assumed — needs manual entry of Amy "
-                       "Lowell's sending location for this letter")
-        settlement_key = ""
-        settlement_name = "<!-- Insert settlement -->"
+        report.append("correspDesc: no <settlement> found in file — defaulted to "
+                       "Brookline, MA (key=\"brookline\") per project convention")
+        settlement_key = "brookline"
+        settlement_name = "Brookline, MA <!-- unless otherwise specified -->"
 
     if not recipient_key or not iso_date:
         report.append(f"correspDesc: FLAGGED — could not extract recipient/date automatically "
@@ -274,6 +273,7 @@ def main():
         sys.exit(1)
 
     all_flags = []
+    brookline_defaults = []
     for f in files:
         report = process_file(f, dry_run=args.dry_run)
         flags = [r for r in report if r.startswith(tuple(k + ":" for k in [
@@ -281,6 +281,8 @@ def main():
         ])) and "FLAGGED" in r]
         if flags:
             all_flags.append((f.name, flags))
+        if any("defaulted to Brookline" in r for r in report):
+            brookline_defaults.append(f.name)
 
     log(f"\n\n{'#'*70}\nSUMMARY: {len(files)} file(s) processed")
     if all_flags:
@@ -291,6 +293,12 @@ def main():
                 log(f"    - {fl}")
     else:
         log("No files flagged for manual review.")
+
+    if brookline_defaults:
+        log(f"\n{'#'*70}\n{len(brookline_defaults)} file(s) defaulted to Brookline, MA "
+            f"(no settlement was found in the file -- verify these):")
+        for fname in brookline_defaults:
+            log(f"  - {fname}")
 
 
 if __name__ == "__main__":
