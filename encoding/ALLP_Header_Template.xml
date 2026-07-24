@@ -87,7 +87,7 @@ will link to other ones i.e. the site index content -->
          <correspDesc>
             <correspAction type="sent">
                <persName key="amy_lowell">Amy Lowell</persName>
-               <settlement key="boston_ma">Boston, MA</settlement>
+               <settlement key="brookline">Brookline, MA <!-- unless otherwise specified --> </settlement>
                <date when="">DATE OF LETTER WRITING YY-MM-DD</date>
             </correspAction>
             <correspAction type="received">
