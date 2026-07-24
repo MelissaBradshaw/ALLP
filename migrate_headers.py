@@ -56,13 +56,14 @@ def extract_letter_date(text):
 
 
 def get_settlement(text):
-    """Amy Lowell's sending location — only present if already encoded somewhere.
-    Defaults to boston_ma per project convention; flagged in report either way."""
+    """Amy Lowell's sending location — only returns a value if it's already
+    encoded somewhere in the file. Returns (None, None) if not found --
+    never assumes a default location. Caller is responsible for flagging."""
     m = re.search(r'<correspAction type="sent">.*?<settlement key="([^"]*)">([^<]*)</settlement>',
                   text, re.DOTALL)
     if m:
         return m.group(1), m.group(2)
-    return "boston_ma", "Boston, MA"  # project default — verify per letter
+    return None, None
 
 
 def fix_doctype(text, report):
@@ -183,6 +184,13 @@ def add_or_fix_corresp_desc(text, report):
         recipient_name = recipient_name.strip()
     if human_date:
         human_date = human_date.strip()
+
+    if not settlement_key:
+        report.append("correspDesc: FLAGGED — no <settlement> found in file; inserted with empty "
+                       "settlement placeholder, no default assumed — needs manual entry of Amy "
+                       "Lowell's sending location for this letter")
+        settlement_key = ""
+        settlement_name = "<!-- Insert settlement -->"
 
     if not recipient_key or not iso_date:
         report.append(f"correspDesc: FLAGGED — could not extract recipient/date automatically "
