@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- standalone statement declares that this document
 will link to other ones i.e. the site index content -->
-<?xml-model href="file:///Users/name/folder/schemafile.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <!-- Change href to your RNG file location locally -->
+<?xml-model href="../../ALLP_ODD-6.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <!-- Change href to your RNG file location locally -->
 <!DOCTYPE TEI [
    <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
 ]>
