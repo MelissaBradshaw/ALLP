@@ -76,8 +76,8 @@
             <opener><dateline><date when="1916-01-13">Jan. 13, 1916</dateline></date>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I feel very badly indeed to have raised your hopes to the pitch evidenced by your letter of
-                December 28th. I sent you a cable yesterday to disabuse your mind of their being any immediate
-                prospect of our having a paper here. In my letter of December 15th, I wrote you saying that I
+                <date when="1915-12-28">December 28th</date>. I sent you a cable yesterday to disabuse your mind of their being any immediate
+                prospect of our having a paper here. In my letter of <date when="1915-12-15">December 15th</date>, I wrote you saying that I
                 would try to raise the money, if you cared to consider the job of editorship, and I told you that I
                 had only got one subscriber then. I do not know what <persName key="john_fletcher">Fletcher</persName> may have written you, but you
                 should know by this time that he is very enthusiastic and utopian, and not to be taken
@@ -85,21 +85,21 @@
                 I fear he must have given you the idea that there was more immediate chance 
                 of our being able to raise the money for the paper than there was.</p>
             <p>Since I wrote to you, I have been feeling round a little; and since receiving your letter I
-                have asked for some subscriptions, always <del rend="strikethrough">somehow</del> <add place="above">however</add>
+                have asked for some subscriptions, always <del rend="strikethrough">somehow</del> <add place="above" type="insertion" rend="pencil">however</add>
                 with the same disheartening result. Nobody feels like giving anything just now, and I do not know 
                 whether they will after the War, but I am bound to confess that the prospects are not bright.</p>
             <p>There has been a multiplication of little papers devoted to poetry since <persName key="harriet_monroe">Harriet</persName> started
                 here. Another one, called “<title key="contemporaryVerse" level="j">Contemporary Verse</title>,” has issued its first number since I wrote to you.
                 It is very poor, but all these things have tended to make people skeptical <del rend="strikethrough">on</del> 
-                <add place="above">with</add> the advisability of helping small magazines. And the big ones, 
+                <add place="above" type="insertion" rend="pencil">with</add> the advisability of helping small magazines. And the big ones, 
                 which have much greater expenses, are failing right and left. You seem somehow to have got an 
                 inflated idea of my intentions in regard to this paper. To run such a paper as you suggest, on 
                 such lines as you suggest, would take an amount of money which I could never hope to command. 
-                “<title key="newRepublic" level="j">The New Republic</title>” is endowed with 
+                “<title key="newRepublic" level="j">The New Republic</title>” is <pb n=”02”/>endowed with 
                 <measure type="currency" num="50,000">$50,000</measure> a year, and then I understand it does not pay, although 
                 they have <measure quantity="10,000" commodity="subscribers">10,000 subscribers</measure>. Everything is on a larger scale here than in <placeName key="england">England</placeName>. The country
                 not having any one particular centre, magazines printed in one part of it are frequently not to be 
-                found on the news-stands of another.It is impossible to get “<title key="reedysMirror" level="j">Reedy’s Mirror</title>” of <placeName key="stLouis">St. Louis</placeName> on any 
+                found on the news-stands of another. It is impossible to get “<title key="reedysMirror" level="j">Reedy’s Mirror</title>” of <placeName key="stLouis">St. Louis</placeName> on any 
                 news-stand in the East, or the <placeName key="sanFrancisco">San Francisco</placeName> “<title key="argonaut" level="j">Argonaut</title>” or the 
                 “<title key="bellman" level="j">Bellman</title>.” All this makes the proposition 
                 a much more difficult one. I have been looking into it a little more since I wrote you, and I am very sorry 
@@ -120,7 +120,7 @@
                 responsible to the people who gave us the money; and under those circumstances, it would be
                 absolutely imperative that I should have the final say, and assume, in fact, the full responsibility.
                 I should not expect to interfere with you any more than was absolutely necessary; but I should
-                certainly direct the policy of the paper, and I am afraid I should not direct it upon strictly
+                certainly direct the policy of the paper, and <pb n=”03”/>I am afraid I should not direct it upon strictly
                 Imagistic lines. We could not have any paper if we did, because there are not enough Imagists to
                 write for it. I suppose, really, it would be only exchanging <persName key="harriet_weaver">Miss Weaver</persName> for me, and although I
                 imagine that you would not have such difficulty with me as you have with Miss Weaver, still it
@@ -132,7 +132,7 @@
                 matters of international and national import. We are in no way fitted to write upon political
                 subjects. We should do it amateurishly and badly and make ourselves ridiculous. And there
                 is another difficulty, and that is that although a great many people here are, as you know, in
-                favour of the Allies, there are also a vast quantity in America who are pro-German. Just here in
+                favour of the Allies, there are also a vast quantity in <placeName key="usa">America</placeName> who are pro-German. Just here in
                 Boston, most of the people one knows are pro-Ally, and you know how pro-Ally I am myself.
                 But what Europeans very rarely realize is that, in spite of individual opinions, the country as a
                 whole is neutral, really neutral, in the sense that each side neutralizes the other. I do not myself
@@ -142,7 +142,7 @@
                 personally have given up sending any poems of mine to “<title key="international" level="">The International</title>,” because 
                 <persName key="george_viereck">Mr. Viereck</persName> is so violently pro-German, and his other paper, 
                 “<title key="fatherland" level="">The Fatherland</title>,” is the official paper
-                for hyphenated Americans. He has been peculiarly blatant and offensive. But there are many
+                for hyphenated Americans. He has been peculiarly blatant and offensive. But there are <pb n=”04”/>many
                 other papers which are distinctly Germanistic in leaning, although they wisely refrain from
                 polemics in which my poems appear and those of other people. If you come to this country, you
                 will find yourself constantly thrown with Germans and German sympathizers, and it will be
@@ -156,7 +156,7 @@
                 other, and the poems are discussed on their merits and not at all upon their political bearings. So
                 you see how really neutral the country at large is. The war is also comparatively far from here,
                 and it is really quite easy to avoid it. But the idea of <del rend="strikethrough">writing</del>
-                <add place="above">running</add> any political propaganda in a literary and artistic paper is one 
+                <add place="above" type="insertion" rend="pencil">running</add> any political propaganda in a literary and artistic paper is one 
                 I should not consent to for a moment.</p>
             <p>Another objection is that you could not possibly put on your passport that you were
                 coming over here to edit such a paper. I do not think you would be allowed to land. I do not think
@@ -167,7 +167,7 @@
                 everybody. The way it is got round is that people do not announce their engagements upon
                 stepping ashore. But if you had it in your passort, I think that it would dish you completely.
                 Also the idea of having anything so grave attached to so simple a little sheet as ours, would
-                <del rend="strikethrough">be would</del> cause a burst of amusement from all the newspapers in the country, and we should be
+                <del rend="strikethrough">be would</del> cause a burst <pb n=”05”/>of amusement from all the newspapers in the country, and we should be
                 black-eyed before we started.</p>
             <p>I have now answered your remarks at length, and I am afraid I have given you the
                 impression that it is very little use for us to try to run a paper, even if we had the money. As a
@@ -179,15 +179,15 @@
                 that anybody should give any money for such a paper, have considerably dampened my ardour.
                 People are always very anxious to pat you on the back and tell you how sympathetic they are
                 until you suggest touching their pocket-books, and then it is extraordinary what a number of
-                reasons they have against their being subscribers. I am afraid we shall all just have to put it out
+                reasons they have against their being <del rend="strikethrough">a</del> subscribers. I am afraid we shall all just have to put it out
                 of our minds for the moment, which is quite as much of a disappointment to Fletcher and me as it
                 is to you. I am awfully sorry if what either Fletcher or I said led you to think the scheme was
                 more than a vague outline based entirely upon hope. If I am ever able to raise the money, at some
                 future date, I trust that the scheme as I have outlined it more fully will appeal to you, because I
-                think the thing should be put down in legal black and white <add place="above">before we start</add>, so there should be no
+                think the thing should be put down in legal black and white <add place="above" type="insertion" rend="pencil">before we start</add>, so there should be no
                 misunderstandings at any rate. I did not go into all these details before, as the whole thing
                 seemed so up in the air; but since you have raised the questions, I thought I had better answer
-                them at length. I am just as sorry as I can be that people are so close-fisted. But what can we do?</p>
+                them at length. I am just as sorry as I can be that people are so close-fisted. But what <pb n=”06”/>can we do?</p>
             <closer>Affectionately yours,</closer>
         </body>
     </text>
