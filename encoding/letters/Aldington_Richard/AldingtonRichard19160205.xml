@@ -74,7 +74,7 @@
         <body>
             <opener><dateline><date when="1916-02-05">Feb. 5, 1916</dateline></date>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
-            <p>Your letter of January 18th is here, and your generosity in regard to the matter of my
+            <p>Your letter of <date when="1916-01-18">January 18th</date> is here, and your generosity in regard to the matter of my
                 poems gave me great pleasure. Neither <persName key="john_fletcher">Fletcher</persName> nor I have any desire to put in things which you
                 people do not like and do not want. As I have written you several times, “<title key="turnpike" level="a">Off the Turnpike</title>” is
                 definitely out of consideration. My contribution will now run: “<title key="patterns" level="a">Patterns</title>,” 
@@ -92,7 +92,7 @@
                 sacrifice some of the more astringent Imagistic rules for the sake of vividness and life. I think we
                 should, within reason, allow such variations of type, as I am sure it tends to make the movement
                 more interesting, not only to the public, but in itself as art, and I feel sure that there is in Imagism
-                something very vital and real, which can withstand differences and yet remain itself. But I think
+                something very vital and real, which can withstand differences <pb n=”02”/>and yet remain itself. But I think
                 that your contention that the <title key="some_imagist_poets" level="m">Anthology</title> should be kept to the more perfectly Imagistic type, as
                 much as we can do so without restraining ourselves too much, is right, and I trust that you will
                 forgive me, therefore, if I leave in the onomatopoeic lines, realizing of course that in general
@@ -110,11 +110,11 @@
                 future, I think, will depend entirely on the results of the presidential election.</p>
             <p>I am rather sorry I pitched into you so hard about cutting <persName key="fs_flint">Flint’s</persName> <title key="frenchPoetsReview" level="a">review</title>. I was very
                 grateful to you for leaving that out about the champagne, etc., but what did annoy me was your
-                feeling obliged to put in a “so far” where Flint said: “These are the best translations of the
-                Symbolist poets;” and also, I was sorry that you left out the sentence about the reading of the
+                feeling obliged to put in a <quote type="english">“so far”</quote> where Flint said: <quote type="english">“These are the best translations of the
+                Symbolist poets;”</quote> and also, I was sorry that you left out the sentence about the reading of the
                 book being El Dorado to anyone who did not know the poets in question. It seemed to me that
-                “so far” would be naturally understood in the sentence. Everything one writes must necessarily
-                be “so far;” there can never be a final judgment, and to insist upon it I thought was unfortunate.
+                <quote type="english">“so far”</quote> would be naturally understood in the sentence. Everything one writes <pb n=”03”/>must necessarily
+                be <quote type="english">“so far;”</quote> there can never be a final judgment, and to insist upon it I thought was unfortunate.
                 Of course, I know that both you and Flint are engaged in French translations. He is doing
                 Varhaeren, I think, and I suppose you will have many in your <persName key="remy_gourmont">Remy de Gourmont</persName> book. Then if
                 you beat me in translating, well and good. So be it. We can only all do our best, and who beats
@@ -124,22 +124,22 @@
                 at, and it is excellent reading. You know what I think of these poems, and in reading the proofs
                 of your American edition, I have got to like them even better. I particularly like “<title key="nightPiece" level="a">Night Piece</title>,” as
                 I think I wrote you, and I greatly approve of your leaving out the last line; I was not crazy about
-                that “posthorn of the coach of romance.” “<title key="evening" level="a">Evening</title>” is awfully good, and your referring to
+                that <quote type="english">“posthorn of the coach of romance.”</quote> “<title key="evening" level="a">Evening</title>” is awfully good, and your referring to
                 Samain in “<title key="atTheBM" level="a">At the British Museum</title>” amused me and pleased me, showing that we were thinking
                 of the same things. But what in the name of Patience did you mean by leaving out “<title key="poplar" level="a">The Poplar</title>?”
                 Man alive, it is one of your best poems! Monro has been doing a little editing, hasn’t he? I think
                 that the American edition, although it won’t be half so attractive, will represent you better than
-                this does. I miss your “morsel left half cold on Caesar’s plate,” and I could weep over “The
+                this does. I miss your <quote type="english">“morsel left half cold on Caesar’s plate,”</quote> and I could weep over “The
                 Poplar” not being there. However, it is a pleasure to know that the books will not be exactly the
                 same, although I think this one is a triumph of book making as well as a very attractive
                 collection, only the whole of you is none to much for me.</p>
-            <p>I do hope to hear from <persName key="hilda_doolittle">Hilda</persName> soon about her poems, in answer to my last letter on the
+            <p>I do hope to hear from <persName key="hilda_doolittle">Hilda</persName> soon about her poems, in answer to <pb n=”04”/>my last letter on the
                 subject, and then we can go right to press. We are fearfully late now, and do not forget to cable
                 about the Preface.</p>
             <p>There is considerable discussion here about <hi rend="underline"><foreign xml:lang="fr">vers libre</foreign></hi> in all the papers. It is understood
                 very little, and I think our preface is most important to explain it to the lay reader.</p>
             <p>By way of making things peculiarly awkward, I have just received the poems from
-                <persName key="dh_lawrence">Lawrence</persName> which he says have been returned to him from Italy. I have not had time to go through
+                <persName key="dh_lawrence">Lawrence</persName> which he says have been returned to him from <placeName key="italy">Italy</placeName>. I have not had time to go through
                 them yet, but I do not see how we can take them anyway, as there is certainly not time to send
                 them over to you, and get your opinion about them. It is a shame we did not get them before, for
                 I have no doubt that there are some here that we should like better than “<title key="resurrection" level="a">Resurrection</title>.” But it
