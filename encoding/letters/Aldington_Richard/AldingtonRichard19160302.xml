@@ -89,19 +89,19 @@
                 make it up to you. I shall do my best and see what can be done; but I really think it must be taken
                 out of <orgName key="fourSeasCo">Brown’s hands</orgName>. I am awfully sorry, and I feel very badly about it; but, of course, I
                 supposed it would be all right – though I knew he wasn’t very well off.<anchor xml:id="n1"/></p>
-            <p><title key="some_imagist_poets" level="m">Our book</title> is in the press, and they expect to bring it out the first or second week in April.
+            <p><title key="some_imagist_poets" level="m">Our book</title> is in the press, and they expect to bring it out the first or second week in <date when="1916-04">April</date>.
                 I think it should be very good. Please forget the things I said about your blue-penciling of the
-                article, and remember how differently things sound, coming across the Atlantic.</p>
+                article, and <pb n=”02”/>remember how differently things sound, coming across the <placeName key="atlanticOcean">Atlantic</placeName>.</p>
             <p>I am sending you a <title key="andOtherPoets" level="m">little book of parodies</title> by <persName key="louis_untermeyer">Louis Untermeyer</persName>, which I think is most
                 amusing. And I am writing <persName key="hilda_doolittle">Hilda</persName> about the royalties.</p>
             <p>Hilda says to address you at “<title key="egoist" level="j">The Egoist</title>”, so I suppose you are leaving Hampton. Please
                 send me your new address as soon as possible.</p>
             <closer>Affectionately,</closer>
         </body>
-        <back> 
-            <div type="notes"> 
-                <note target="#n1" resp="mb">Aldington ultimately publishes his book, Images, Old and New (1916), with Edmund R. Brown's press, Four Seas.</note> 
-            </div> 
+        <back>
+            <div type="notes">
+                <note target="#n1" resp="mb">Aldington ultimately publishes his book, Images, Old and New (1916), with Edmund R. Brown's press, Four Seas.</note>
+            </div>
         </back>
     </text>
 </TEI>
