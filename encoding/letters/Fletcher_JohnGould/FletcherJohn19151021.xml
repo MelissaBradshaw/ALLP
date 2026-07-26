@@ -99,7 +99,7 @@
             came. I say this purely on your own account, 
             for the ground does not lie quite so well as it 
             will three weeks later. By which I mean that 
-            <persName key="engel">Mr. Engel</persName> had an operation yesterday, and is in 
+            <persName key="carl_engel">Mr. Engel</persName> had an operation yesterday, and is in 
             hospital, and I do not suppose he will be back 
             at his office for three weeks. Under these circumstances, 
             of course, he cannot give you any 
@@ -111,16 +111,16 @@
             on so long a stretch of drudgery has almost floored 
             me. However, we will do our best, and I hope that 
             <persName key="ferris_greenslet">Ferris Greenslet</persName> will be able to find 
-            you something pending <persName key="engel">Mr. Engel</persName>'s recovery. </p>
+            you something pending Mr. Engel's recovery. </p>
          </pb>
          <p>Please telephone me when you reach town, or as soon after you get placed as possible, just to let me 
             give you the glad hand and "welcome to our city." I am afraid there is no use in suggesting that you 
             come out here before Sunday, as I shall really have not a moment to spare. The motor goes back and forth 
             to <placeName>Norwood</placeName> where the press is with copy twice a day, and it leaves me absolutely filled 
-            up. My miserable health this summer has delayed the thing a month, and <orgName>the publishers</orgName>are impatient and so am I. </p>
+            up. My miserable health this summer has delayed the thing a month, and <orgName>the publishers</orgName> are impatient and so am I. </p>
          <p>I shall expect you on Sunday to supper at seven as usual, and we will take up our old routine 
-            and have as pleasant a talk as last year. In the meantime, here is the twenty-five dollars, 
-            which you may return or not on the first of December, as you please. </p>
+            and have as pleasant a talk as last year. In the meantime, here is the <measure type="currency" quantity="25">twenty-five dollars</measure>, 
+            which you may return or not on the <date when="1915-12-01">first of December</date>, as you please. </p>
          <closer>Affectionately yours,</closer>
       </body>
    </text>
