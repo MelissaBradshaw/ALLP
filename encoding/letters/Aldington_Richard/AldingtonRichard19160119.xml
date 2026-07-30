@@ -76,15 +76,15 @@
         <body>
             <opener><dateline><date when="1916-01-19">Jan. 19, 1916</dateline></date>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
-            <p>I got your letter of January 5th this morning, about <title key="imagesOldAndNew" level="m">your book</title>,<anchor xml:id="n1"/> and immediately got hold
+            <p>I got your letter of <date when="1916-01-05">January 5th</date> this morning, about <title key="imagesOldAndNew" level="m">your book</title>,<anchor xml:id="n1"/> and immediately got hold
                 of <persName key="edmund_brown">Brown</persName>. He is considerably hurt at your attitude, and I must say I think you go a little far in
                 forbidding him to publish the book. The book will be out in a few days. I have corrected the final
                 proofs. Brown is not crooked, I do not care what they tell you there. He is unbusinesslike, and
-                procrastinating, and very poor. The only reason they can pay at all on the “<title key="poetryJournal" level="j">Poetry Journal</title>” is
-                because <persName key="blanche_wagstaff">Mrs. Blanch Schumaker Wagstaff</persName> [sic] gives them a little sum of money each month to pay
-                contributors. They paid me three dollars for a poem I sent them, and I enclose a draft for five
-                dollars, which they are paying you. I have also persuaded Brown to accept <persName key="fs_flint">Flint’s</persName> 
-                “<title key="chalfontSaintGiles" level="a">Chalfont Saint Giles</title>,” also for three dollars, and he has agreed to pay the money in to me before the end of
+                procrastinating, and very poor. The only reason <orgName key="fourSeas">they</orgName> can pay at all on the “<title key="poetryJournal" level="j">Poetry Journal</title>” is
+                because <persName key="blanche_wagstaff">Mrs. <choice><orig>Blanch Shumaker</orig><reg>Blanche Shoemaker</reg></choice> Wagstaff</persName> gives them a little sum of money each month to pay
+                contributors. They paid me <measure type="currency" quantity="3">three dollars</measure> for a poem I sent them, and I enclose a draft for 
+                <measure type="currency" quantity="5">five dollars</measure> which they are paying you. I have also persuaded Brown to accept <persName key="fs_flint">Flint’s</persName> 
+                “<title key="chalfontSaintGiles" level="a">Chalfont Saint Giles</title>,” also for <measure type="currency" quantity="3">three dollars</measure>, and he has agreed to pay the money in to me before the end of
                 the month. They never pay until the poems are printed. He says he sent you five copies of the
                 “Poetry Journal” which contained your poems, and I have no doubt he did, and you must put
                 down not receiving them to the mails. I will see if I have a copy and send it to you at once; but he
@@ -94,7 +94,7 @@
                 him for setting it up and for the various corrections on the proof. He had corrected one set before
                 I saw it, and I have corrected two since. All of this means that he has to pay the printer.
                 He does not demand this; on the contrary, I think he is quixotically fair, and as you will see by his letter to
-                you, he is willing to give you back the book and himself pay for all the trouble and expense he
+                you, he is willing to give you back the book and himself pay for all the <pb n=”02”/>trouble and expense he
                 has been in in regard to it – at least, so I understand his last paragraph, but I should not think that
                 you would want to put him to any such expense. He is undoubtedly procrastinating, and I think it
                 is even difficult for him to find the next dollar, but he is enthusiastic about your work, and will
@@ -107,10 +107,10 @@
                 want it suppressed. I do not want to hurt your feelings, but I do not think there will be any great
                 sale for the book here, no matter who publishes it. It is not very easy to get our things sold in
                 quantity, for the three hundred copies, which seems to make such an impression on you, would
-                be a very small amount for America, and you must not forget that the price is exceedingly cheap.
+                be a very small amount for <placeName key="usa">America</placeName>, and you must not forget that the price is exceedingly cheap.
                 Booksellers over here do not care to handle such cheap books, as their percentages are not
                 enough to make them worth while. <persName key="ferris_greenslet">Ferris Greenslet</persName> was doubtful when he got up the 
-                <title key="newPoetrySeries" level="s">New Poetry Series</title> whether he could get them handled at seventy-five cents, retail price. Before I suggested
+                <title key="newPoetrySeries" level="s">New Poetry Series</title> whether he could get them handled at <measure type="currency" quantity=".75">seventy-five cents</measure>, retail price. Before I suggested
                 your book to Brown, I had offered it to <orgName key="macmillan">Macmillan</orgName>, <orgName key="houghton_mifflin">Houghton Mifflin</orgName>, 
                 <orgName key="mitchell_kennerley">Mitchell Kennerly</orgName>, and <orgName key="a_and_c_boni">Boni</orgName>,
                 and they all refused it. Brown alone was willing to take the risk, and although in most of
@@ -118,7 +118,7 @@
                 your case he is taking the risk himself. There is no doubt whatever that he is treating you fairly,
                 even if he has not answered your letters. He has accepted your contract as amended by you, and
                 that was fair. I do not think you have any cause to complain of his treatment, although I admit
-                that he is late in getting out the book; but most of the rest of his series is already published, and
+                that he is late in getting out the book; but most of the rest <pb n=”03”/>of his series is already published, and
                 yours will be by week after next at the farthest, possibly next week.</p>
             <p>If I have done wrong in this, I hope you will excuse me. Perhaps I should have followed
                 your letter absolutely and taken the book away from him. I did not do so because I did not think
@@ -138,7 +138,7 @@
                 whom he is engaged is an intimate friend of my brother <persName key="percival_lowell">Percy’s</persName>. He is an astronomer, and they
                 are good people, and you are in no sense in the hands of a charlatan in dealing with him,
                 although of course you cannot expect the same businesslike methods and satisfactory procedure
-                that you would with a larger firm. At the same time Brown accepted your book, it was a question
+                that you would with <pb n=”04”/>a larger firm. At the same time Brown accepted your book, it was a question
                 of having him publish it, or not having it published, and it seemed to me it was better to have him
                 publish it than nobody.</p>
             <p>Now I have something to complain of in my turn, something much more serious than you
@@ -157,21 +157,21 @@
             <p>Now, having sent the review to me, Flint should certainly not have printed it anywhere
                 else until he heard from me, as no editor likes to print a thing which has already appeared
                 somewhere else. In spite of this, and I suppose with the kindest intentions in the world, you
-                printed it in the January “Egoist.” Now that is particularly awkward, as I had already taken some
+                printed it in the <date when="1916-01">January</date> “Egoist.” Now that is particularly awkward, as I had already taken some
                 of the sentence of that review and incorporated them in a folder which Macmillan is getting out
                 about my book, giving Flint’s name and saying that they appeared in “The Little Review.” The
                 folder has not yet been issued, but is in type, and unfortunately you saw it fit to leave out these
                 very sentences in the “Egoist” copy. In view of this, I have had to write and apologize to
                 Margaret Anderson, and at the same time beg her to swallow her pride and put in the review as
                 she received it, otherwise I must suppress those folders. You see that Brown is not the only
-                unbusinesslike person in the world.</p>
+                unbusinesslike <pb n=”05”/>person in the world.</p>
             <p>Now here is another thing – I should like to know why you were so anxious to suppress
                 the few extremely nice sentences which Flint put in his review. You did the same thing in
                 <persName key="john_fletcher">Fletcher’s</persName> review of me last year. Now it is quite possible that Flint was willing to have these
                 sentences taken out, but it was hardly courteous, after having sent me the review, to send in an
                 expurgated copy in which all the sentences which were uncomplimentary were left in, and many
-                that were <add place="above">complimentary</add>, were taken out. I understand your critical faculty and your desire
-                always to <del rend="strikethrough">do</del> <add place="above">say</add> exactly what you think, and not something else; but when this theory is carried
+                that were <add place="above" type="insertion" rend="pen">complimentary</add>, were taken out. I understand your critical faculty and your desire
+                always to <del rend="strikethrough">do</del> <add place="above" type="insertion" rend="pen">say</add> exactly what you think, and not something else; but when this theory is carried
                 so far as to make it necessary for you to impose your opinions upon other people’s articles on my
                 work, I resent it extremely. In fact, you have hurt me to the quick. I was annoyed the first time
                 you did this, but I am far more annoyed now. I have done everything I can to get yours, and
@@ -184,12 +184,13 @@
                 want, although I have forced Brown to take Flint’s “Chalfont Saint Giles” by telling him how
                 highly I thought of the poem. You know how much I admire all your work; but of course there
                 are things in it that I do not admire, but I do not go out of my way to tell them to people, and I
-                certainly <del rend="strikethrough">will</del> <add place="above">would</add> not delete anything 
+                <pb n=”06”/>certainly <!--I moved "certainly" to the start of page six, since more than 50% of the word was on page six, and the next words were additions/deletions -vod --> 
+                <del rend="strikethrough">will</del> <add place="above" type="insertion" rend="pencil">would</add> not delete anything 
                 complimentary to you, if I were running a magazine and anybody asked me to print anything of the sort.
                 I have as high a moral sense in regard to criticism as you have, and it is for that reason that my 
                 article on you was not wholly complimentary. But it is one thing to write one’s self, and another to use 
                 the blue pencil upon complimentary remarks when they are said by somebody else.</p>
-            <p>I understood that you were going to write a review of my book yourself for the February
+            <p>I understood that you were going to write a review of my book yourself for the <date when="1916-02">February</date>
                 number, and I suppose that you ran Flint’s in in January out of the kindness of your heart; but it
                 would have been kind and more tactful if you had left in the things which he said which were
                 especially agreeable, and more businesslike if you had ascertained, or Flint had ascertained,
@@ -206,7 +207,7 @@
                 you come out with a review saying disagreeable things about his book, he will be seriously hurt.
                 He will think I have not played fair, and he will be down upon all of us from now on. There is no
                 reason for you to review this book, it is an American publication and is not issued in England,
-                and I shall be very grateful to you if you will not mention it at all in the columns of “The Egoist."
+                and I <pb n=”07”/>shall be very grateful to you if you will not mention it at all in the columns of “The Egoist."
                 You have seen what effect <persName key="ezra_pound">Ezra’s</persName> jumping on the people who do not agree with him has. It has
                 landed him nowhere. In trying to make people understand a new form of art, it is far better to
                 persuade them than to hammer them; and you must have seen by the amount of space which we
@@ -216,16 +217,16 @@
                 have taken an amount of time and energy which is incredible. I do not grudge it, and every
                 lecture pushes us all, as I have been extremely careful to boost us all in them, but I should have
                 done very little of this work on my own account, because it is no longer necessary. I am now
-                preparing my second edition of my “Six French Poets,” which came out in November. The
+                preparing my second edition of my “Six French Poets,” which came out in <date when="1915-11">November</date>. The
                 second edition is not called for yet, but the publishers tell me that there is no doubt that it will be
-                very shortly, and they wish to prepare for the second edition now. It is a <measure type="currency" num="2.50">$2.50 </measure> book, and you can
+                very shortly, and they wish to prepare for the second edition now. It is a <measure type="currency" quantity="2.50">$2.50 </measure> book, and you can
                 see what that means.</p>
             <p>Now it is the greatest satisfaction to me to feel that we are really getting ahead, as I know
                 we are. But I do want you to leave Braithwaite alone, and I do want you to feel that I have not
                 been neglectful of your interests in regard to Brown. There will be no difficulty whatever in
                 getting the copyright away from him, if at any time any other publisher wants it; or if you wish to
                 re-acquire this, the expense will not be great. But with all my loyalty to you, I do not wish to get
-                in wrong here with the various people who are inclined to be our friends, and you must allow my
+                in wrong here with the various people who are inclined to be our friends, and you must <pb n=”08”/>allow my
                 judgment in the matter of silence about Braithwaite’s book, at least, to stand. You will do as you
                 please about Brown, but I sincerely think that you had better leave the matter as it stands now.</p>
             <p>As the book is coming out so late, your first payment will be in August. If your payment
@@ -248,7 +249,7 @@
                 extreme interest in us as a group. And as to friendship – what is the use of talking about a thing
                 which is as self-evident to me as the air I breathe?</p>
             <p>I dined with my brother <persName key="lawrence_lowell">Lawrence</persName> last night, and my sister, <persName key="katherine_bowlker">Mrs. Bowlker</persName>, was there. Her son-in-law
-                is in Flanders fighting, and she has just come back from England, where she has been,
+                is in Flanders fighting, and she has <pb n=”09”/>just come back from England, where she has been,
                 taking her grandchildren over to bid their father good-bye before he went to the front. It would
                 have done your heart good to hear the pro-Ally, fire-eating talk that went on there. The little
                 group of people, of whom I am one, and which consists of all the best educated and cultivated
@@ -265,10 +266,10 @@
                     remembering to send it.</p>
             </postscript>
         </body>
-        <back> 
-            <div type="notes"> 
-                <note target="#n1" resp="mb">Aldington ultimately publishes his book, Images, Old and New (1916), with Edmund R. Brown's press, Four Seas.; ¶7 F.S. Flint's review of Six French Poets appeared in The Egoist, Vol. 3, No. 1 (January, 1916), pp. 9-10, as well as in The Little Review, Vol. 2, No. 10 (January-February, 1916), pp. 16-17.</note> 
-            </div> 
+        <back>
+            <div type="notes">
+                <note target="#n1" resp="mb">Aldington ultimately publishes his book, Images, Old and New (1916), with Edmund R. Brown's press, Four Seas.; ¶7 F.S. Flint's review of Six French Poets appeared in The Egoist, Vol. 3, No. 1 (January, 1916), pp. 9-10, as well as in The Little Review, Vol. 2, No. 10 (January-February, 1916), pp. 16-17.</note>
+            </div>
         </back>
     </text>
 </TEI>
