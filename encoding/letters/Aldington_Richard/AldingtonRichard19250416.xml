@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!DOCTYPE doc [
+<?xml-model href="../../ALLP_ODD-6.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI [
 <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
 ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -37,7 +37,7 @@
             <date when=""> <!-- Add date when published to website here --> </date>
             <availability>
                <p>Reproduced by courtesy of the Houghton Library Repository.</p>
-               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
                   4.0 International license.</licence>
             </availability>
          </publicationStmt>
@@ -59,13 +59,18 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-     </encodingDesc>
+         <projectDesc>
+            <p>Encoded as part of the Amy Lowell Letters Project</p>
+         </projectDesc>
+      </encodingDesc>
       <profileDesc>
          <particDesc>
             &personography;
          </particDesc>
          <textClass>
-            <!-- document-level keywords applied here -->
+            <keywords>
+               <term><!-- document-level keywords applied here --></term>
+            </keywords>
          </textClass>
          <correspDesc>
   <correspAction type="sent">
@@ -83,7 +88,7 @@
       <body>
         <div type="letter">
             <opener><dateline><date when="1925-04-16">April 16, 1925</date></dateline><salute>My dear <persName key="richard_aldington">Mr. Aldington</persName>:</salute></opener>
-            <p>You will be sorry to hear that <persName key="amy_lowell">Miss Lowell</persName> is seriously ill and has been obliged to give up the lecture trip to <placeName key="england">England</placeName> which she had intended to take this <date when="1925">Spring</date>. The doctors are keeping her very quiet in the hope of avoiding an operation which she is in no condition to stand.</p>
+            <p>You will be sorry to hear that <persName key="amy_lowell">Miss Lowell</persName> is <rs key="medical" type="theme">seriously ill</rs> and has been obliged to give up the lecture trip to <placeName key="england">England</placeName> which she had intended to take this <date when="1925">Spring</date>. The doctors are keeping her very quiet in the hope of avoiding an operation which she is in no condition to stand.</p>
             <p>Of course she is bitterly disappointed, for this is the moment of moments for her to be in England.</p> 
             <closer>Yours very truly,
             <persName>Secretary</persName>.</closer> 

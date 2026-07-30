@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- standalone statement declares that this document
 will link to other ones i.e. the site index content -->
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!DOCTYPE doc [
+<?xml-model href="../../ALLP_ODD-6.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI [
     <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
 ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -42,7 +42,7 @@ will link to other ones i.e. the site index content -->
                 </date>
                 <availability>
                     <p>Reproduced by courtesy of the Houghton Library Repository.</p>
-                    <licence>Distributed under a Creative Commons
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons
                         Attribution-NonCommercial-ShareAlike
                         4.0 International license.</licence>
                 </availability>
@@ -62,14 +62,19 @@ will link to other ones i.e. the site index content -->
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-        </encodingDesc>
+         <projectDesc>
+            <p>Encoded as part of the Amy Lowell Letters Project</p>
+         </projectDesc>
+      </encodingDesc>
         <profileDesc>
             <particDesc>
                 &personography;
             </particDesc>
             <textClass>
-                <!-- document-level keywords applied here -->
-            </textClass>
+            <keywords>
+               <term><!-- document-level keywords applied here --></term>
+            </keywords>
+         </textClass>
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="amy_lowell">Amy Lowell</persName>
@@ -114,7 +119,7 @@ will link to other ones i.e. the site index content -->
                     that we are following entirely different literary orbits. There is simply no
                     audience for Joyce over here, except among certain of the intelligentsia. I am
                     awfully sorry, but there is no use in my trying to do anything with this paper,
-                    I know. If you will send me another paper asggood (sic) as this, but about some
+                    I know. If you will send me another paper <choice><orig>asggood</orig><reg>as good</reg></choice> as this, but about some
                     writer whom the public knows, I make no doubt I can place it most satisfactorily
                     anywhere.</p>
                     <p>Meanwhile my own news is none too good. <rs key="medical" type="theme">I am to be cut up again</rs> during the week
@@ -130,7 +135,7 @@ will link to other ones i.e. the site index content -->
                     <p>I will send you some poems before long, but the truth of the matter is that I am
                     so constantly sold up here that I do not get round to keeping things to send to
                     England, which seems remote as I have no real public there yet. I have already
-                    lost three months this year, and this operation means another three months. Six
+                    lost three months <date when="1920">this year</date>, and this operation means another three months. Six
                     months out of a year greatly diminishes my output.</p>
                     <p>At the moment, I am working on another volume of poems to appear in the Spring,
                     as I have changed my publisher, <orgName key="macmillan">Macmillan</orgName> not having lived up to his contracts,

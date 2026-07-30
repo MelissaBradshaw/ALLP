@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!DOCTYPE doc [
+<?xml-model href="../../ALLP_ODD-6.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI [
 <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
 ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -37,7 +37,7 @@
                 <date when=""> <!-- Add date when published to website here --> </date>
                 <availability>
                     <p>Reproduced by courtesy of the Houghton Library Repository.</p>
-                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
                         4.0 International license.</licence>
                 </availability>
             </publicationStmt>
@@ -55,14 +55,19 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-        </encodingDesc>
+         <projectDesc>
+            <p>Encoded as part of the Amy Lowell Letters Project</p>
+         </projectDesc>
+      </encodingDesc>
         <profileDesc>
             <particDesc>
                 &personography;
             </particDesc>
             <textClass>
-                <!-- document-level keywords applied here -->
-            </textClass>
+            <keywords>
+               <term><!-- document-level keywords applied here --></term>
+            </keywords>
+         </textClass>
             <correspDesc>
                 <correspAction type=”sent”>
                     <persName>Amy Lowell</persName>
@@ -78,7 +83,7 @@
     <text>
         <body>
             <div type="letter">
-            <opener><dateline><date when="1913-07-28">July 28, 1913</dateline></date>
+            <opener><dateline><date when="1913-07-28">July 28, 1913</date></dateline>
                 <salute>My dear <persName key="harriet_monroe">Miss Monroe</persName>-</salute></opener>
             <p>Thank you very much for the copy of "<title key="poetry" level="j">Poetry</title>" which came last week. I was much pleased at the
                appearance of those two things of mine <!--do we know what these are?-->. How interesting the <persName key="fs_flint">Flint</persName> things were<!-- do we know what things? -->, don’t you think so?
@@ -116,4 +121,3 @@
         </body>
     </text>
 </TEI>
-

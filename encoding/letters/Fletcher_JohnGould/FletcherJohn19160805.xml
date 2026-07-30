@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!DOCTYPE doc [
+<?xml-model href="../../ALLP_ODD-6.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI [
 <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
 ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -43,7 +43,7 @@
             </date>
             <availability>
                <p>Reproduced by courtesy of the Houghton Library Repository.</p>
-               <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
                   4.0 International license.</licence>
             </availability>
          </publicationStmt>
@@ -64,17 +64,27 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <editorialDecl>
-            <p>This letter contains references to the following:
-               <!-- Insert tagged subject keywords here; will link to keyword-ography -->
-            </p>
-         </editorialDecl>
+         <projectDesc>
+            <p>Encoded as part of the Amy Lowell Letters Project</p>
+         </projectDesc>
       </encodingDesc>
       <profileDesc>
          <particDesc> &personography; </particDesc>
          <textClass>
-            <!-- document-level keywords applied here -->
+            <keywords>
+               <term><!-- document-level keywords applied here --></term>
+            </keywords>
          </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="amy_lowell">Amy Lowell</persName>
+               <settlement key="brookline">Brookline, MA <!-- unless otherwise specified --></settlement>
+               <date when="1916-08-05">05 August 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="john_fletcher">John Gould Fletcher</persName>
+            </correspAction>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -88,78 +98,80 @@
          </p>
          <p>
             I think you are quite right about our being independent in sending to magazines, 
-            now that you are so far away. I was not at all surprised that you sent to “<title>Others</title>,” 
+            now that you are so far away. I was not at all surprised that you sent to “<title key="others" level="j">Others</title>,” 
             I was only surprised that you did not tell me; but it does not make the 
-            slightest difference, and as you will see, I send a poem to <title>that number</title> after 
-            being told by <persName>Williams</persName> that you had done so. I do not think much of it as a number, 
-            I am bound to confess, and as it had my two horrors, <persName>Jeanne d’Orge</persName> and 
-            <persName>Minna Loy</persName> in it, 
+            slightest difference, and as you will see, I sent a poem <add place="above" type="insertion">to</add> that number after 
+            being told by <persName key="wc_williams">Williams</persName> that you had done so. I do not think much of it as a number, 
+            I am bound to confess, and as it had my two horrors, <persName key="jeanne_dorge">Jeanne d’Orge</persName> and 
+            <persName><choice><orig>Minna</orig><reg>Mina</reg>Loy</persName> in it, 
             I was not too pleased to think I had contributed. However, that is all over now. 
-            I refused to send another poem to <persName>Helen Hoyt</persName>’s <title>Women’s Number,</title> as I thought that with 
+            I refused to send another poem to <persName key="helen_hoyt">Helen Hoyt's</persName> <title>Women’s Number,</title> as I thought that with 
             Helen Hoyt for editor the contributions would be of the most lively. 
          </p>
          <p>
-            <persName>Braithwaite</persName> tells me that he owes you <measure>$1.50 </measure>(large sum) for your poem in 
-            <title>“The Poetry Review,”</title> and he asked where he should send it. 
+            <persName key="ws_braithwaite">Braithwaite</persName> tells me that he owes you <measure type="currency" quantity="1.50">$1.50</measure> (large sum) for your poem in 
+            <title key="poetryReviewAmerica" key="j">“The Poetry Review,”</title> and he asked where he should send it. 
             I told him he had better send it to me, as I was writing to you 
             all the time; but it has not appeared, and I am writing by this mail 
-            direct to <persName>Lebowich</persName> to dun him for it. 
+            direct to <persName key="joseph_lebowich">Lebowich</persName> to dun him for it. 
          </p>
          <p>
             There is a new magazine being got up here, or rather in 
-            New York, called “<title>The Seven Arts</title>.” An unknown donor is giving the money, 
+            New York, called “<title key="sevenArts" level="j">The Seven Arts</title>.” An unknown donor is giving the money, 
             and they are to carry it on for a year. If at the end of that time the 
             anonymous donor does not like the results, he will withdraw his support, 
-            and they will have to do the best they can on the reputation 
+            and they
+            <pb n="2"/> will have to do the best they can on the reputation 
             they have made during that year. If on the other hand he does 
             like it, he will continue to pay the bills. They are to pay on 
             acceptance, but whether their pay is large or small I do not know. 
-            The editor is <persName>James Oppenheim</persName>, and there are about eight sub-editors, 
-            two of whom are <persName>Louis Untermeyer</persName> and <persName>Robert Frost</persName>. They say they 
+            The editor is <persName key="james_oppenheim">James Oppenheim</persName>, and there are about eight sub-editors, 
+            two of whom are <persName key="louis_untermeyer">Louis Untermeyer</persName> and <persName key="robert_frost">Robert Frost</persName>. They say they 
             represent no school and have no propaganda, but are going to publish 
             everything that is good. It is to contain not only poetry but critical work 
             and everything pertaining to the arts. I am a little doubtful whether 
             it is to include fiction or not. It sounds well. They have already 
             solicited contributions from me, and I imagine that they would like 
-            you to contribute also. The first number is to be out in October 
+            you to contribute also. The first number is to be out in <date when="1916-10">October</date> 
             I think. This seems to be the only bit of real news I have. 
          </p>
          <p>
-            The sale of the <title>Imagist 1916 Anthology</title> is only 
+            The sale of the <title key="someImagistPoets" level="m">Imagist 1916 Anthology</title> is only 
             35 volumes short of the 1915 volume at this date, 
             although they have not yet sent any to <placeName>England</placeName>. 
             With their usual policy of letting things slide, the book was 
-            not forced upon the English house. I had a talk with <persName>Greenslet</persName> 
-            about this before I left <placeName>Boston</placeName>, and he regretted extremely 
+            not forced upon the English house. I had a talk with <persName key="ferris_greenslet">Greenslet</persName> 
+            about this before I left <placeName key="boston">Boston</placeName>, and he regretted extremely 
             the stupidity of their office in not having seen to this, 
             but said it was when he was away on his vacation, that he had 
-            now written, and that their contracts with Constable were such 
+            now written, and that their contracts with <orgName key="constable">Constable</orgName> were such 
             that they could not refuse to take the book. I have written 
             him again about it, having received his statement as follows: 
-            <measure>
-            249 Imagist Poets,  1915.      .36 ¼    $90.26 
-            389   “         ”   1916.      .36 ¼    141.01 
-            </measure>                                        231.27 
+           <p>
+            249 Imagist Poets,  1915.      .36 ¼   <measure type="currency" quantity="90.26">$90.26</measure> 
+           <lb/> 389   “         ”   1916.      .36 ¼    <measure type="currency" quantity="141.01">141.01</measure> 
+            <lb/>                                    <measure type="currency" quantity="231.27">231.27</measure> 
          </p>
          <p>
-            I enclose a draft for b8-1-7 , your share of the 
-            gross profits of the two volumes. There are three <measure>(3) undivided 
-            cents</measure>, which I was keeping on commission!!! We inserted a new 
-            advertisement, embodying a paragraph from Mrs. <persName>Aldis</persName>’s review 
-            of some of <persName>Phelps</persName>’s, two weeks ago, and I think I shall 
+            I enclose a draft for <del rend="strikethrough">L</del>8-1-7 , your share of the 
+            gross profits of the two volumes. <add place="under" type="insertion" rend="pencil">There are three <measure type="currency" quantity=".03">(3) undivided 
+            cents</measure>, which I was keeping on commission!!!</add> We inserted a new 
+            advertisement, embodying a paragraph from <pb n="3"/> 
+            Mrs. <persName key="mary_aldis">Aldis</persName>’s review 
+            of some of <persName key="william_phelps">Phelps</persName>’s, two weeks ago, and I think I shall 
             advertise it again in about a month. That I think will be sufficient. 
          </p>
          <p>
-            I have asked <persName>Lebowich</persName> to send you all the copies 
-            of “<title>The Poetry Review</title>” from the beginning of the year. 
+            I have asked <persName key="joseph_lebowich">Lebowich</persName> to send you all the copies 
+            of “<title key="poetryReviewAmerica">The Poetry Review</title>” from the beginning of the year. 
          </p>
          <p>
-            I suppose you see "<title>The Little Review</title>" or can get it at the 
-            <placeName>Poetry Bookshop</placeName>. <persName>Margaret Anderson</persName> has moved to 
-            <placeName>California</placeName> for the 
+            I suppose you see "<title key="littleReview">The Little Review</title>" or can get it at the 
+            <orgName key="poetryBookshop">Poetry Bookshop</orgName>. <persName key="margaret_anderson">Margaret Anderson</persName> has moved to 
+            <placeName key="california">California</placeName> for the 
             Summer.  Her address is: <placeName>P. O. Box 696, Mill Valley, California</placeName>. 
-            She expects to be back in <placeName>Chicago</placeName> for two months in the Autumn, 
-            then to move the Review bodily to <placeName>New York</placeName>. It is not very easy to 
+            She expects to be back in <placeName key="chicago">Chicago</placeName> for two months in the Autumn, 
+            then to move the Review bodily to <placeName key="nyc">New York</placeName>. It is not very easy to 
             get copies of it now, as she is so far away. I am sending you a 
             copy of the June-July number, however, because it contains Mrs. Aldis’s 
             review of us, which I think is extremely nice. 
@@ -170,29 +182,30 @@
          </p>
          <p>
             I do hope you will write some English literary notes for 
-            <persName>Braithwaite</persName>, as I think he needs the foreign element in his paper. 
-            I had your poems typewritten, and have sent them to <persName>Benét</persName>, 
+            Braithwaite, as I think he needs the foreign element in his paper. 
+            I had your poems typewritten, and have sent them to <persName key="william_benet">Benét</persName>, 
             but have heard nothing about them yet. Benét is always as slow 
             as cold molasses, so don’t expect to hear for some time. 
          </p>
          <p>
             I rather think you are right about “Others” breaking up.  
             This handing it over to a new editor every month looks to me 
-            like the last gasp. As to “Poetry,” I think it is 
-            disintegrating since <persName>Alice Henderson</persName> left. <persName>Harriet</persName>’s one desire 
-            seems to be to get in new people, whether they are good for anything or not.  
+            like the last gasp. As to <title key="poetry" level="j">“Poetry,”</title> I think it is 
+            disintegrating since <persName key="ac_henderson">Alice Henderson</persName> left. <persName key="harriet_monroe">Harriet's</persName> one desire 
+            seems to be to get in new people, whether they are 
+            <p n="4"/> good for anything or not.  
          </p>
          <p>
             <persName>Mr. Bridges</persName> treated me as white as snow about 
-            “<title>Battledore and Shuttlecock</title>” which appears in the August number of 
-            “<title>Scribner</title>’s” with the most charming woodcuts. I am beginning to 
+            <title>"Battledore and Shuttlecock"</title> which appears in the August number of 
+            <title>"Scribner's"</title> with the most charming woodcuts. I am beginning to 
             think that the rowing I gave the old gentleman had a good effect. 
          </p>
          <p>
             You seem to have handed a lot of things to 
-            “<title>The Poetry Journal</title>” before you left, but why 
-            you gave <persName>Aiken</persName> such high praise is beyond my comprehension. 
-            However, "chacun à con goût." 
+            <title key="poetryJournal" level="j">"The Poetry Journal"</title> before you left, but why 
+            you gave <persName key="conrad_aiken">Aiken</persName> such high praise is beyond my comprehension. 
+            However, <foreign xml:lang="fr">"chacun à con goût."</foreign> 
          </p>
          <p>
             I suppose from your letter that you have no 
@@ -207,7 +220,7 @@
             that he ought to go and yet did not want to. 
          </p>
          <p>
-            <persName>Lawrence</persName> writes us, “we are gaily ringing our last shilling.” 
+            <persName key="dh_lawrence">Lawrence</persName> writes us, <quote type="english">“we are gaily ringing our last shilling.”</quote> 
             Whether that means he and his wife, or England, I do not know. 
             Even if his books are being published, I suppose it will be a long 
             time before he gets any royalties. Do let me know if he needs 
@@ -217,16 +230,17 @@
          <p>
             <placeName>Hilda</placeName> writes that she is moving, to be near Richard at the camp, 
             and that she will send me her address. So far she has not done so, 
-            and if you have it, I wish you would send it. 
+            and if
+            <pb n="5"/> you have it, I wish you would send it. 
          </p>
          <p>
             I have not written much since I have been up here – 
             a few shortish poems and a longish one that I rather like, 
             and an article or two, among them a criticism of Mrs. Aldis’s 
-            book for Harriet. The Summer is never my best time. 
+            <title>book</title> for Harriet. The Summer is never my best time. 
          </p>
          <p>
-            Reedy tells me that he is writing an article for the "<title>Mirror</title>” 
+            Reedy tells me that he is writing an article for the <title key="reedysMirror">"Mirror"</title> 
             on my work, which I am anxious to see. 
          </p>
          <p>
@@ -239,11 +253,11 @@
             “Poetry” but it is not any great shakes. It seems that <persName>John Vance Cheney</persName> 
             and a man who writes under the name of "<persName>Yorick</persName>" in a <title>San Diego paper, 
             </title>are down on us and have done a lot to prejudice people against us. 
-            <persName>Mrs. Howard</persName> writes from <placeName>San Diego</placeName> that she thinks she has done a little 
+            <persName key="katherine_howard">Mrs. Howard</persName> writes from <placeName key="sanDiego">San Diego</placeName> that she thinks she has done a little 
             to counterbalance their influence. I sincerely hope so. 
          </p>
          <p>
-            Remember me to your wife, and with much love in which <persName>Mrs. Russell</persName> joins, 
+            Remember me to your wife, and with much love in which <persName key="ada_russell">Mrs. Russell</persName> joins, 
          </p>
          <closer>Affectionately yours,</closer>
       </body>

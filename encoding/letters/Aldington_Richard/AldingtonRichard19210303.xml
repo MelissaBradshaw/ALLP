@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- standalone statement declares that this document
 will link to other ones i.e. the site index content -->
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!DOCTYPE doc [
+<?xml-model href="../../ALLP_ODD-6.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI [
     <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
 ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -42,7 +42,7 @@ will link to other ones i.e. the site index content -->
                 </date>
                 <availability>
                     <p>Reproduced by courtesy of the Houghton Library Repository.</p>
-                    <licence>Distributed under a Creative Commons
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons
                         Attribution-NonCommercial-ShareAlike
                         4.0 International license.</licence>
                 </availability>
@@ -61,14 +61,19 @@ will link to other ones i.e. the site index content -->
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-        </encodingDesc>
+         <projectDesc>
+            <p>Encoded as part of the Amy Lowell Letters Project</p>
+         </projectDesc>
+      </encodingDesc>
         <profileDesc>
             <particDesc>
                 &personography;
             </particDesc>
             <textClass>
-                <!-- document-level keywords applied here -->
-            </textClass>
+            <keywords>
+               <term><!-- document-level keywords applied here --></term>
+            </keywords>
+         </textClass>
             <correspDesc>
                 <correspAction type= "sent">
                     <persName key="amy_lowell">Amy Lowell</persName>
@@ -117,7 +122,7 @@ will link to other ones i.e. the site index content -->
                     <p>I have got your friend <persName key="ts_eliot">Eliot</persName>'s “<title key="sacredWood" level="m">Enchanted Wood</title>,” which I think is well written
                     but scarcely so original or epoch-making as you seem to think. I should be
                     interested to meet Mr. Eliot sometime, though I am quite convinced that he
-                    disliked me. He sent the volume to my great friend, Professor <persName key="john_lowes">John Lowel</persName> (sic), where
+                    disliked me. He sent the volume to my great friend, Professor <persName key="john_lowes">John Lowes</persName>, where
                     I first saw it. It seems to me - let me whisper in your ear - a little
                     antiquated in treatment, a bit pedantic and sententious, and for him to pick out
                     dear old Professor <persName key="irving_babbitt">Babbitt</persName> and that ancient fossil <persName key="paul_more">Paul Elmer More</persName> as the only

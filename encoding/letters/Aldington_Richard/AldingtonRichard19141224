@@ -72,7 +72,7 @@
     <text>
         <body>
             <div type=”letter”>
-            <opener><dateline><date when="1914-12-24">Dec. 24, 1914.</dateline></date>
+            <opener><dateline><date when="1914-12-24">Dec. 24, 1914.</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I have a lot of letters to answer and also one of <persName key="hilda_doolittle">Hilda's</persName>. I have been waiting to hear from
                 you about the Anthology because, to tell the truth, I had not the heart to write until I knew what
