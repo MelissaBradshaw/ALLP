@@ -105,7 +105,7 @@
                 himself, as then the thing would be official. If he has not already done so, it is presumably
                 because he does not feel able to pay for the articles yet. My suggestion was that he take you on
                 as English correspondent at a yearly salary, so much a month. I have spoken to him about it
-                several times, and he has always professed his interest and said that he was going to write at
+                several times, <pb n="02"/>and he has always professed his interest and said that he was going to write at
                 once. I will speak to him again tonight and try and get something more definite. But I had such
                 an experience in suggesting a tentative scheme when we thought of getting up a paper ourselves,
                 that I was not going to say anything to you about it until it was decided, so as not to raise any
@@ -114,7 +114,7 @@
                 suggestion for managing it while you are away is all right.</p>
             <p>You must not forget, dear Richard, that even in the trenches one is not dead. Plenty of
                 books are being published from the trenches all the time. They have a kind of vicarious and
-                romantic interest through being written by men on active duty. <orgName key="houghton_mifflin">Houghton &amp; Mifflin</orgName> have just
+                romantic interest through being written by men on active duty. <orgName key="houghton_mifflin">Houghton &amp; Mifflin</orgName> have just 
                 published some awful things by a man named Frankau<anchor xml:id="n1"/> in their <title key="newPoetrySeries" level="s">Poetry Series</title>, called 
                 “<title key="songsOfTheGuns" level="m">Songs of the Guns</title>”. Their interest lies purely in the fact that the man is in the artillery and writing about
                 what he knows. It is bad Kiplingesque stuff, but I imagine it sells well in England. It is not doing
@@ -126,7 +126,7 @@
                 right to endanger other lives on the high seas at present unless absolutely necessary; and of
                 course it is not.</p>
             <p>I suppose it will take you some months to be trained before you can leave England. So I
-                am sure that the <title key="some_imagist_poets" level="m">Anthology</title> will reach you some time as I sent it two weeks ago. I do hope you
+                am sure that the <title key="some_imagist_poets" level="m">Anthology</title> will reach you some <pb n="03"/>time as I sent it two weeks ago. I do hope you
                 will like it.</p>
             <p>If you want to send some poems to me, I have no doubt that I can get Braithwaite to take
                 them.</p>
@@ -134,9 +134,8 @@
                 and Lawrence are. If you go into an officer’s corps I do not suppose that you will see much of
                 them; but I hope you will know something about them. I shall write to Hilda constantly about
                 anything and everything, and try to make her feel a little bit as though I were dropping in. And if
-                she ever decides to come to America, please let her consider that she can come directly to me
-                while she is deciding what to do. I wish she would come from the bott
-                om of my heart.</p>
+                she ever decides to come to <placeName key="usa">America</placeName>, please let her consider that she can come directly to me
+                while she is deciding what to do. I wish she would come from the bottom of my heart.</p>
             <p>Good luck, dear Richard. I cannot help feeling that the war is nearing its conclusion, and
                 I only pray that it will be over before you get there. I shall write constantly, if you will give me
                 an address. With a great deal of love,</p>
@@ -146,10 +145,10 @@
                 <p>Mr. Braithwaite has told me that I might write to you officially, as he is so busy, and ask
                     you if you will supply him with a monthly letter about poetical affairs in England, and, if
                     possible, in <placeName key="Paris">Paris</placeName>. This would be about <measure quantity="1200" unit="words">1200 words</measure>, for
-                    which he is willing to pay <measure type="currency" num="5">$5.00</measure> a month.</p>
+                    which he is willing to pay <measure type="currency" quantity="5">$5.00</measure> a month.</p>
                 <p>He wants it partly literary and partly commercial, by which I mean he wants to know
                     what books of poetry are being published, as well as what are being written, and of poetical
-                    events of importance. This is to be written entirely without bias of school or point of view;
+                    events of importance. This is to be <pb n="04"/>written entirely without bias of school or point of view;
                     merely with a view to mentioning these things that are good enough to be mentioned, no matter
                     under what banner the author has enlisted himself. Mr. Braithwaite is trying to make his paper
                     quite eclectic–to run it, as he expresses it, as an open forum. Of course, you and I do not
@@ -173,7 +172,7 @@
                     correspondents do. He wants to give his readers a little of the feeling as if they were in <placeName key="london">London</placeName>
                     or Paris and he could keep up with things. He would write you himself, as I have just said, only
                     he has an immense amount of writing to do; and although he means to get round to it, sometimes
-                    he gets fearfully delayed. This is really true, for the man is not only editor of the 
+                    he gets fearfully delayed. This is really true, for <pb n="05"/>the man is not only editor of the 
                     “<title key="poetryReviewAmerica" level="j">Poetry Review</title>”, but poetical editor of the “<title key="bostonTranscript" level="j">Transcript</title>”, editor and compiler of the 
                     “<title key="magazineVerse" level="m">Magazine Anthology</title>”; and the correspondence and people asking him questions about poetry is enormous,
                     and he cannot afford a secretary. So that I think you can take this authorization from me as being
@@ -181,11 +180,11 @@
                     it.</p>
             </postscript>
         </body>
-        <back> 
-            <div type="notes"> 
-                <note target="#n1" resp="mb">Frankau, Gilbert. A Song of the Guns (Houghton Mifflin, 1916)</note> 
+        <back>
+            <div type="notes">
+                <note target="#n1" resp="mb">Frankau, Gilbert. A Song of the Guns (Houghton Mifflin, 1916)</note>
                 <note target="#n1" resp="mb">Joseph Lebowich</note>
-            </div> 
+            </div>
         </back>
     </text>
 </TEI>
