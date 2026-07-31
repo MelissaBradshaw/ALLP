@@ -74,7 +74,7 @@
          <div type=”letter”>
          <opener><dateline><date when="1914-11-06">Nov. 6, 1914.</date></dateline>
             <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
-         <p>I enclose a draft for <measure type="currency" num="200">$200.00</measure> for you to transmit to 
+         <p>I enclose a draft for <measure type="currency" quantity="200">$200.00</measure> for you to transmit to 
             <persName key="remy_gourmont">Remy de Gourmont</persName>.<anchor xml:id="n1"/>
             I do not want his Anglo Indian Land Bank Shares. I do not suppose they are of any particular value and even if
             they were I do not want to deprive him <choice><orig>on</orig><reg>of</reg></choice> them. This seems a very little sum to pay for
@@ -84,7 +84,7 @@
             goes farther in <placeName key="france">France</placeName> than in <placeName key="usa">America</placeName> so it ought to make some little difference.</p>
          <p>We are all stuck for money over here. Dividends are not being paid and business
             concerns are shutting down. If the war continues I think of course that America will not suffer in
-            the end but for the moment things are in a bad way. I came <choice><orig>ome</orig><reg>home</reg></choice> to find my home considerably reduced 
+            the end but for the moment things are in a bad way. I came <choice><orig>ome</orig><reg>home</reg></choice> to find my home considerably <pb n="02"/>reduced <!--"reduced" is split between the pages, but I chose to put it on page two since 50% or more of the word is on page two-->
             and I hear the same story on all sides.</p>
          <p>I have been making inquiries about a magazine which would like to have some articles by
             Remy de Gourmont. "<title key="atlantic" level="j">The Atlantic</title>" refused as “The Atlantic” always refuses everything that the
@@ -97,7 +97,7 @@
             number of my poems refused by "<title key="scribners" level="j">Scribner’s</title>." I felt sure they would refuse them but I sent them
             on the chance and they came back almost by return mail. Still I do not despair. I think it is
             merely a question of teaching the public and the later magazines will fall into line.</p>
-         <p>I shall go on trying with the Remy de Gourmont suggestion until I land it somehow or
+         <p>I shall go on trying with the Remy de <pb n="03"/>Gourmont <!--"Gourmont" also split across pages, chose to put it on the third page since it was split 50/50 -vod --> suggestion until I land it somehow or
             until it is quite proven that there is nothing here which is either not already fully stocked with
             European correspondence utterly unable to appreciate this very remarkable opportunity.</p>
          <p>I have heard nothing from the <orgName key="macmillan">Macmillan Company</orgName> yet about <title key="some_Imagist_poets" level="m">the anthology</title> but there is really
@@ -108,7 +108,7 @@
             something for the country for I know how that was worrying you when I left. I cannot tell you,
             dear Richard, how loyal and splendid I think you and Hilda are about this ridiculous row which
             <persName key="ezra_pound">Ezra</persName> is making over my advertisement. I cannot thank you enough and it warms my heart all
-            through to feel that I have some sincere and splendid friends alty<!--It's unclear what this word SHOULD be to replace it with <choice>, not sure whether or not to leave it as is?-->.</p>
+            through to feel that I have some sincere and splendid friends <pb n="04"/>alty<!--It's unclear what this word SHOULD be to replace it with <choice>, not sure whether or not to leave it as is?-->.</p>
          <p>I have not seen the November "<title key="poetry" level="j">Poetry</title>" yet but I am afraid the same advertisement is appearing
             in it. I saw the proof and corrected it myself but as I did the same thing with the advertisement in
             “The Atlantic” and as they reprinted it wrong again I have no hope. The Macmillan Company
@@ -120,7 +120,7 @@
          <p>It has been a great worry and has almost made me sick and on top of the ptomaine
             poisoning I had in <placeName key="nyc">New York</placeName> I have been pretty miserable. I wish you would explain all this to
             <persName key="ford_hueffer">Hueffer</persName>. I do not want to make enough of it to write to him but at the same time I feel that
-            Ezra will do everything in his power to inflame him against me and I shall be very sorry to have that
+            <pb n="05"/>Ezra will do everything in his power to inflame him against me and I shall be very sorry to have that
             happen. I tried very hard to be tactful when I was in <placeName key="england">England</placeName> and to offend nobody and it is
             extremely annoying to have a blunder of the publishers upset everything.</p>
          <p>I am afraid this is rather a sad letter but I do not feel very gay. I am working very hard, so
@@ -130,7 +130,7 @@
          <p>I will let you know just as soon as I know anything about the anthology or just as soon as
             I have landed those articles of Remy de Gourmont’s. Of course they will still have to be
             delivered in English. If you have not time to make the translation I will do it gladly for nothing.</p>
-         <p>Do calm <persName key="fs_flint">Flint</persName> down.<anchor xml:id="n5"/> I would not have hurt his feelings for anything. He has been awfully
+         <p><pb n="06"/>Do calm <persName key="fs_flint">Flint</persName> down.<anchor xml:id="n5"/> I would not have hurt his feelings for anything. He has been awfully
             nice to me.</p>
          <p>Write soon. Your letters are the greatest pleasure. You cannot think how I miss you and
             Hilda. <persName key="ada_russell">Mrs. Russell</persName> and I often talk about you. A good talk with you two would cheer me up. I
