@@ -92,13 +92,13 @@
             <opener><dateline><date when="1917-01-01">January 01, 1917</date></dateline>
                 <salute>Dear <persName key="john_fletcher">J.G.F.</persName>:</salute></opener>
             <p>
-                I am sending you a copy of <persName key="ws_braithwaite">Braithwaite</persName>’s “<title key="magazineVerse">Anthology</title>”, which is not as good as last year’s. 
+                I am sending you a copy of <persName key="ws_braithwaite">Braithwaite</persName>’s “<title key="magazineVerse" level="s">Anthology</title>”, which is not as good as last year’s. 
                 That unfortunate remark about me and the Imagists appears in the Preface and makes me sick. 
-                But he does say some awfully good things about you, and he has included your “<title key="goblinsAndPagodas">Goblins and Pagodas</title>” among the worthwhile books, 
+                But he does say some awfully good things about you, and he has included your “<title key="goblinsAndPagodas" level="m">Goblins and Pagodas</title>” among the worthwhile books, 
                 as you will see – not, I am sorry to say, in the back of this book, but at the end of the Preface. 
             </p>
             <p>
-                Braithwaite is a difficult man to manage, as you know well; and I really <sic>thing</sic> he has gone quite to pieces lately. 
+                Braithwaite is a difficult man to manage, as you know well; and I really <choice><orig>thing</orig><reg>think</reg></choice> he has gone quite to pieces lately. 
                 But, for Heaven’s sake, don’t think I had anything to do with the “Anthology”!  
                 I did not see it until it was written, and I have hardly laid eyes on Braithwaite this Summer and this Winter. 
                 It is a terrible thing to me to realize that you are so suspicious and do not trust me. In fact, it has made me very unhappy, 
