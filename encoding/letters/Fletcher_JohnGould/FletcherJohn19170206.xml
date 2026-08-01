@@ -92,38 +92,38 @@
             <opener><dateline><date when="1917-02-06">February 6, 1917</date></dateline>
                 <salute>Dear <persName key="john_fletcher">J.G.F.</persName>:</salute></opener>
             <p>
-                I have a good many letters of yours to answer and that delightful book “<title><foreign>Légendes de Noel</foreign></title>" to thank you for. 
+                I have a good many letters of yours to answer and that delightful book “<title><foreign xml:lang="fr">Légendes de Noel</foreign></title>" to thank you for. 
             </p>
             <p>
                 Perhaps I can do something with “<title>The Napoleon Star</title>” some day. Just now I am off on a rather different tack.  
             </p>
             <p>
-                Your book is here, “<title key="underTheGuns">Under the Guns</title>”, and I like it very much indeed. 
+                Your book is here, “<title key="underTheGuns" level="m">Under the Guns</title>”, and I like it very much indeed. 
                 Some of it, of course, is already familiar; much of it is perfectly new. 
-                Your “<title>White Butterflies</title>” is excellent as I told you in accepting it for the <title>Imagist Anthology</title>. 
+                Your “<title>White Butterflies</title>” is excellent as I told you in accepting it for the <title key="someImagistPoets" level="m">Imagist Anthology</title>. 
                 I like “<title>Armies</title>” very much and “<title>The Return</title>”. I think perhaps I am rather particularly attracted by 
                 “<title>Street Corner</title>” and “<title>The Bayonets</title>” is very good. Your “<title>Washington</title>” is interesting, but not, 
                 I think, quite so good as your “<title>Lincoln</title>”, but still very good, and your picture of cranes lifting barrels up and down is excellent. 
             </p>
             <p>
                 I think if I can get <orgName key="houghton_mifflin">Houghton-Mifflin</orgName> to accept it, it would be quite easy to make an arrangement for the 
-                <title key="some_imagist_poets">Imagist Anthology</title> to come out a few weeks ahead of it, thus allowing it to contain both your “Lincoln” and your “Armies”. 
+                <title>Imagist Anthology</title> to come out a few weeks ahead of it, thus allowing it to contain both your “Lincoln” and your “Armies”. 
                 But I am a little bit doubtful about Houghton-Mifflin as <persName key="ferris_greenslet">Ferris Greenslet</persName> is not there and <persName key="roger_scaife">Scaife</persName> 
                 is a bit difficult to manage. He is very anxious to see the poems, and as I am going to take them in myself on 
                 Wednesday, I think I can read aloud to him certain ones and perhaps induce him to take more interest 
                 than he otherwise would. At any rate you can be sure I shall do my best. 
             </p>
             <p>
-                If they do accept the book, I do not think there will be <pb/> very much time for any magazines to print the poems, 
+                If they do accept the book, I do not think there will be <pb n="02"/> very much time for any magazines to print the poems, 
                 as they undoubtedly will want to publish it this Spring, and I imagine you will prefer to have it appear as a book, 
                 than to wait and have it published later when possibly its peculiar fitness is past, merely for the sake 
                 of having some of these poems in the magazines. I shall not do anything about sending them around until I have Scaife’s answer. 
                 If his answer is in the negative, I will do what I can about placing them, but it is not so easy, as you know. 
             </p>
             <p>
-                I have just had a poem refused by <orgName key="scribner">Scribner</orgName> this week. “<title key="sevenArts">The Seven Arts</title>” is not so sympathetic to our point of 
+                I have just had a poem refused by <orgName key="scribner">Scribner</orgName> this week. “<title key="sevenArts" level="j">The Seven Arts</title>” is not so sympathetic to our point of 
                 view as I wish it was. It has already refused my long <title>Nelson poem</title>, which I think is probably the best thing 
-                I have done, an opinion which is shared by the “<title key="northAmericanReview">North American Review</title>” who have reversed 
+                I have done, an opinion which is shared by the “<title key="northAmericanReview" level="j">North American Review</title>” who have reversed 
                 their policy of years against printing long poems, and accepted this one after a day’s consideration, 
                 although it will take up fifteen of their pages. 
             </p>
@@ -134,7 +134,7 @@
                 If they do accept it, I will try to place the “<title>Washington</title>” with <persName key="ellery_sedgwick">Ellery Sedgwick</persName>, 
                 but I can be almost certain that he will refuse to touch anything that has a time limit attached to it. I will also try him 
                 in case they do not take the book, but you know how little effect I have on him, and Ferris Greenslet, as I have said, 
-                is on his way to <placeName key="europe">Europe</placeName>. He sailed on the <placeName key="finland">Finland</placeName> and was <pb/>due 
+                is on his way to <placeName key="europe">Europe</placeName>. He sailed on the <placeName key="finland">Finland</placeName> and was <pb n="03"/>due 
                 to reach <placeName key="england">England</placeName> this morning, and if you have a copy of the book there, I strongly 
                 advise you to show it to him and clinch the matter on this spot, regardless of anything I may have done over here. 
             </p>
@@ -143,18 +143,18 @@
                 and I have not a doubt but that some day we shall have a reputation in England. 
             </p>
             <p>
-                The <title key="pallMallGazette">Pall Mall Gazette</title> has already announced that I ought to have a good many admirers now. 
+                The <title key="pallMallGazette" level="j">Pall Mall Gazette</title> has already announced that I ought to have a good many admirers now. 
                 I think chiefly on account of my Yankee poems, which is the sort of thing they always like.
             </p>
             <p>
                 Did you see the rather long and good article, although <persName>the man</persName> is naturally disposed to be unsympathetic 
-                with my work, of “<title key="menWomenGhosts">Men, Women and Ghosts</title>” in “<title key="newAge">The New Age</title>”? All these 
+                with my work, of “<title key="menWomenGhosts" level="m">Men, Women and Ghosts</title>” in “<title key="newAge">The New Age</title>”? All these 
                 things seem to prove that we are getting on. 
             </p>
             <p>
-                <persName key="fs_flint">Flint</persName> writes me that in “<title key="observer">The Observer</title>” of the <date when="1917-01-21">21st of January</date> 
-                in a long two-columned article on “<title>Cambridge History of English Literature</title>”, the writer spoke about “<persName>Mr. Shaw</persName>, <persName>Mr. Wells</persName> and the Imagist Poets” 
-                as representing the modern tendency to ignore tradition. Flint says: “Of course that is silly, but the collocation is symptomatic.” 
+                <persName key="fs_flint">Flint</persName> writes me that in “<title key="observer" level="j">The Observer</title>” of the <date when="1917-01-21">21st of January</date> 
+                in a long two-columned article on “<title>Cambridge History of English Literature</title>”, the writer spoke about <quote type="english">“<persName>Mr. Shaw</persName>, <persName>Mr. Wells</persName> and the Imagist Poets”</quote> 
+                as representing the modern tendency to ignore tradition. Flint says: <quote type="english">“Of course that is silly, but the collocation is symptomatic.”</quote> 
             </p>
             <p>
                 You will be interested to hear that the <orgName key="macmillan">MacMillans</orgName> have ordered a third printing of 
@@ -163,7 +163,7 @@
             </p>
             <p>
                 My lectures were very well attended. I had between three and four hundred people at each one and they were 
-                immensely enthusiastic. <pb/>
+                immensely enthusiastic. <pb n="04"/>
             </p>
             <p>
                 I also went down and spoke at <orgName key="princeton">Princeton University</orgName>, where I had ninety boys, 
@@ -173,8 +173,8 @@
             <p>
                 I wish you had been with me in <placeName key="nyc">New York</placeName> for I made some interesting experiments with a 
                 <persNam key="wm_patterson">Mr. Patterson</persNam>, who is in the English Department at <orgName key="columbiaUniversity">Columbia University</orgName> 
-                and has just written <title key="proseRhythms">a book on Prose Rhythms</title> in which he affirmed that vers libre came under the head of prose. 
-                I met him at <persName key="gertrude_atherton"><sic>Mr.</sic> Atherton</persName>’s and after some discussion he said that he would be delighted to change all of 
+                and has just written <title key="proseRhythms" level="m">a book on Prose Rhythms</title> in which he affirmed that vers libre came under the head of prose. 
+                I met him at <persName key="gertrude_atherton">Mr. Atherton</persName>’s<!--is this not more likely to be Percy Lee Atherton than Gertrude, with him having the Boston connection?--> and after some discussion he said that he would be delighted to change all of 
                 his opinions if I could prove to him that he was wrong. I passed a whole afternoon with him, 
                 working with his sound photographic machine and leaving records for him to work on when I was not there with the result that 
                 he announced what I believe to be true; that cadence in vers libre is somewhat analogous to phrasing in music. 
@@ -185,15 +185,15 @@
             <p>
                 What we shall get, I do not know, and as I had to leave <placeName key="nyc">New York</placeName> after this first meeting, 
                 of course we shall not get on so fast as though I were there. I trust Mr. Patterson will make some definite discoveries in 
-                time to have me incorporate them in my book which, of course, will not appear until next autumn. <pb/> 
+                time to have me incorporate them in my book which, of course, will not appear until next autumn. <pb n="05"/> 
             </p>
             <p>
                 When you suggest that you would rather be published by Macmillan, you suggest what I fear is an absolute impossibility. 
                 <persName key="george_brett">Mr. Brett</persName> has lost a lot of money I think on poets. 
-                <persName>Masters</persName>’s two last books are not selling at all, and I do not think he is very happy on the subject of 
+                <persName key="el_masters">Masters</persName>’s two last books are not selling at all, and I do not think he is very happy on the subject of 
                 American poetry. He is exceedingly nice to me, but I think his interest is largely because I write prose, too. 
                 But then, this last book has sold very well. <persName key="ec_marsh">Mr. Marsh</persName> told me that before 
-                Christmas with the exception of “<title>Spoon River</title>” and Tagore’s books, it was the best selling poetry that they had. 
+                Christmas with the exception of “<title key="spoonRiver" level="m">Spoon River</title>” and <persName key="r_tagore">Tagore’s<persName> books, it was the best selling poetry that they had. 
                 As I look back on it, I feel sure that Mr. Brett would not have taken me in the beginning if I had not been a sister of <persName key="percival_lowell" key="lawrence_lowell">my 
                 two brothers</persName>. Also, he would not have taken me if I had not been willing to pay for my own books. 
                 I think he could probably be induced to publish your new book if you had paid for it, but he does not publish a 
@@ -210,10 +210,10 @@
             <p>
                 <persName key="hilda_doolittle">Hilda</persName> writes me that she will let me know what you and Flint think of “<title>Lacquer Prints</title>”, 
                 but I have had no word from her and I have waited two weeks. She herself has passed them. I know very well that you have passed 
-                them too, because you advised me to send them. In a letter I have from <persName key="fs_flint">Flint</persName> this morning, he does not mention the matter. <pb/>
+                them too, because you advised me to send them. In a letter I have from Flint this morning, he does not mention the matter. <pb n="06"/>
                 I doubt whether Hilda even intended to ask <persName key="dh_lawrence">Lawrence</persName>, as he is so far away. 
                 At any rate, in the present state of our shipping, I can no longer delay sending in the book or we shall 
-                not be out in April. Therefore, I am taking it in as it is. 
+                not be out in <date when="1917-04">April</date>. Therefore, I am taking it in as it is. 
             
             </p>
             <p>Goodbye for the moment, <persName key="john_fletcher">dear boy</persName>,; I will write again shortly. </p>

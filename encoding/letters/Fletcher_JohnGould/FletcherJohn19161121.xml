@@ -91,19 +91,19 @@
       <body>
          
          <opener><dateline><date when="1916-11-21">November 21, 1916</date></dateline>
-            <address>John Gould Fletcher, Esq.  
+             John Gould Fletcher, Esq.  
                
-               37 Crystal Palace Park Road 
+               <placeName key="england">37 Crystal Palace Park Road 
                
-               Sydenham, England </address></opener>
+               Sydenham, England</placeName></opener>
          
          <p>
-            Braithwaite most anxious for your review of me. 
-            No matter if printed in “Egoist” too. “Egoist” not copyrighted here and no 
-            circulation in America. Send soon as possible. 
-            Congratulations on Harriet’s prize, and thanks for article and letter. 
+            <persName key="ws_braithwaite">Braithwaite</persName> most anxious for your review of me. 
+            No matter if printed in <title key="egoist">“Egoist”</title> too. “Egoist” not copyrighted here and no 
+            circulation in <placeName key="usa">America</placeName>. Send soon as possible. 
+            Congratulations on <persName key="harriet_monroe">Harriet’s</persName> prize, and thanks for article and letter. 
          </p>
-         <closer>AMY LOWELL </closer>
+         <closer>AMY LOWELL</closer>
       </body>
    </text>
 </TEI>

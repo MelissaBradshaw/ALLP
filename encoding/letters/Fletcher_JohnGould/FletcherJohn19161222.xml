@@ -58,7 +58,7 @@
                     <physDesc>
                         <p>This letter is 1 page long (seq. 82). It is typed on good quality typing paper 
                             (neither notebook paper nor Lowell’s nice cardstock, but somewhere in between). 
-                            The words “John Gould Fletcher” are written in pencil across the top of the first page.  </p>
+                            The words “John Gould Fletcher” are written in pencil across the top of the first page. <!--I'm not seeing a name handwritten on this cablegram--> </p>
                     </physDesc>
                 </msDesc>
             </sourceDesc>
@@ -91,11 +91,11 @@
         <body>
             <head>CABLEGRAM</head>
             <opener><dateline><date when="1916-12-22">December 22, 1916</date></dateline></opener>
-                <address>
+    
                     John Gould Fletcher
-                    37 Crystal Palace Park Road
-                    Sydenha, England
-                </address>
+                   <placeName key="england"> 37 Crystal Palace Park Road
+                    Sydenham, England
+                </placeName>
                 
                 <p>Merry Christmas!</p>
             
