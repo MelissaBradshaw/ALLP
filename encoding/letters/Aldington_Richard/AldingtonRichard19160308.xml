@@ -104,8 +104,8 @@
                 proposition: namely, that he would pay you royalties for <measure quantity="500" commodity="copies">500 copies</measure> in advance of publication!</p>
             <p>Your contract calls for 10% of royalties of the gross receipts, up to the first thousand
                 copies sold. He is going to retail the book at <measure type="currency" quantity=".60">60¢</measure> a copy, which would make <measure type="currency" quantity="30">$30.00</measure> your
-                royalties for 500 copies. This he agrees to pay on or before the <date when="1916-3-15">15th</date> of the
-                present <pb n=”02”/>month.</p>
+                royalties for 500 copies. This he agrees to pay on or before the <date when="1916-03-15">15th</date> of the
+                present <pb n="02"/>month.</p>
             <p>This proposition was made to me to induce me to allow <orgName key="fourSeasCo">him</orgName> to continue the publication
                 of the book.<anchor xml:id="n1"/> I accepted it, which I hope you will consider was the right thing to do; for it seemed
                 to me that the chances of your selling 500 copies of this book anywhere else within a reasonable
@@ -122,7 +122,7 @@
                 <choice><orig>farther</orig><reg>further</reg></choice> royalties. I trust you will think I have done well. Personally, this is far beyond my
                 wildest hopes. Of course, it is true that you have lost the copyright on a certain number of the
                 poems in this volume. But Mr. Brown intends to copyright the book just the same, as he says no
-                human being will ever <del rend="strikethrough">go through</del> <add place="above" type="insertion" rend="pencil">search</add> <pb n=”03”/>the English edition to see which poems are really
+                human being will ever <del rend="strikethrough">go through</del> <add place="above" type="insertion" rend="pencil">search</add> <pb n="03"/>the English edition to see which poems are really
                 copyrighted and which are not, so that, for all practical purposes, your claims are protected.</p>
             <p>I have no faith, nor any improvement to hope for, in Brown. I think he has proved himself
                 not only unbusinesslike, but untrustworthy, and I certainly should not recommend his publishing
@@ -132,7 +132,7 @@
                 the copyright.</p>
             <p><persName key="hilda_doolittle">Hilda</persName> writes me that you have gone to <placeName key="devonshire">Devonshire</placeName>. Lovely country! I once passed a
                 whole summer there.</p>
-            <p>We expect to get the “<title key="some_imagist_poets" key="m">Imagist Anthology <hi rend="underline">1916</hi></title>” out in the <del rend="strikethrough">month</del> 
+            <p>We expect to get the “<title key="some_imagist_poets" level="m">Imagist Anthology <hi rend="underline">1916</hi></title>” out in the <del rend="strikethrough">month</del> 
                 <add place="above" type="insertion" rend="pen">middle</add> of <date when="1916-04">April</date>. I will, of course, send you copies as soon as they come.</p>
             <closer>Great deal of love.</closer>
             <postscript>
