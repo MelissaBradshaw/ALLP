@@ -94,13 +94,13 @@
          <opener><dateline><date when="1916-03-31">March 31, 1916.</date></dateline>
             <salute>Dear <persName key="john_fletcher">J.G.F.</persName>:</salute></opener>
          <p>Here are the ones of <persName key="hilda_doolittle">Hilda</persName>’s which I have. These do not include the 
-            ones in the <title key="some_imagist_poets">“Anthology”</title>, with the exception of <title>“Sea Gods”</title>, as I have no copies of the 
+            ones in the <title key="someImagistPoets" level="m">“Anthology”</title>, with the exception of <title key="seaGods" level="a">“Sea Gods”</title>, as I have no copies of the 
             others.</p>
-         <p>The sad  part is, I find “<title>The Shrine</title>” is one of the ones we have included, which is most unfortunate, 
+         <p>The sad  part is, I find “<title key="shrine" level="a">The Shrine</title>” is one of the ones we have included, which is most unfortunate, 
             as <persName key="harriet_monroe">Harriet</persName> has accepted it, and I have no other to offer her instead. I wish they were a little 
             more business-like in <placeName key="england">England</placeName> and would remember where they send things before they send them out 
             again.</p> 
-         <p>I have all the proof of the “<title key="some_imagist_poets">Anthology</title>” now, so that will soon be off our hands. </p>
+         <p>I have all the proof of the “Anthology” now, so that will soon be off our hands. </p>
          <closer>Sincerely yours,</closer>
       </body>
    </text>
