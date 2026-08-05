@@ -88,12 +88,12 @@
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
             <p>I enclose a draft for £16-3-2, representing yours and <persName key="hilda_doolittle">Hilda’s</persName> share of the
                 August 1st royalties from our two volumes of “<title key="some_imagist_poets" level="m">Imagist Poets</title>.” The sales were as follows:
-                249 Imagist Poets, 1915. .36 1/4 $90.26
-                389 Imagist Poets, 1916. .36 1/4 <hi rend="underline">[$]141.01</hi>
-                                                 [$]231.27 <!--I wasn't sure how to format this block of text where AL calculates the sales of the SIP 1915 and 1916-->
-                <add place="below">There are 3 undivided cents, + as I cannot divide them amongst six people, I am keeping
+                <lb/>249 Imagist Poets, <date when="1915">1915</date>. <measure type="currency" quantity="0.3625">.36 1/4</measure> <measure type="currency" quantity="90.26">$90.26</measure>
+                <lb/>389 Imagist Poets, <date when="1916">1916</date>. <measure type="currency" quantity="0.3625">.36 1/4</measure> <hi rend="underline"><measure type="currency" quantity="141.01">141.01</measure></hi>
+                <lb/><measure type="currency" quantity="231.27">231.27</measure>
+                <lb/><add place="below" type="insertion" rend="pencil">There are 3 undivided cents, + as I cannot divide them amongst six people, I am keeping
                     them as my commission!!</add></p>
-            <p>We are within <measure quantity="35" commodity="volumes">35 volumes</measure> of as many sold of the 1916 volume as of the 1915 at this date,
+            <p>We are within 35 volumes of as many sold of the <date when="1916">1916</date> volume as of the <date when="1915">1915</date> at this date,
                 with the exception of the English sale. <orgName key="houghton_mifflin">Houghton Mifflin</orgName> are extremely careless, and <orgName key="constable">Constable</orgName>
                 was either careless or unwilling. <persName key="ferris_greenslet">Ferris Greenslet</persName> says he was away on his vacation; at any rate, I
                 left it to them to arrange with the English house how many copies they would take, and somehow
@@ -103,23 +103,23 @@
                 them appear on this statement. Houghton Mifflin were very careless about this, and it is awfully
                 annoying, but we are doing the best we can about it now. The book is making a nice little
                 property, as you see, and the fact that the first one is still selling is a very hopeful sign.</p>
-            <p>I had a nice letter from Hilda the other day. She tells me she is leaving Devonshire to be
+            <p>I had a nice letter from Hilda the other day. She tells me she is leaving <placeName key="devonshire">Devonshire</placeName> to be
                 near you, and that she will let me know her address later. I have not yet received it, so I cannot
-                write to her. She sent me a number of <persName key="john_cournos">Cournos’</persName> poems, which I sent on to <persName key="ws_braithwaite">Braithwaite</persName>. Whether
+                write to her. She sent me a number of <persName key="john_cournos">Cournos’</persName> poems, which I sent on to <persName key="ws_braithwaite">Braithwaite</persName>. <pb n="02"/>Whether
                 he will take them or not I do not know. Between you and me and the gate-post, I am not much
                 struck with them, and I think there is very little chance of my being able to place them, but I will
                 do my best.</p>
             <p>There is nothing new. This is a peaceful place and very little happens here. I am engaged
-                on the proof-sheets of “<title key="menWomenGhosts" level="m">Men, Women and Ghosts</title>” which will come out in October, and also my
+                on the proof-sheets of “<title key="menWomenGhosts" level="m">Men, Women and Ghosts</title>” which will come out in <date when="1916-10">October</date>, and also my
                 lectures on modern poets. My “<title key="craftsman" level="j">Craftsman</title>” article<anchor xml:id="n1"/> has met with quite a little success. I am
                 sending a copy of it to you.</p>
             <p>Will write again soon, and with love to Hilda when you see her, believe me,</p>
             <closer>Affectionately yours,</closer>
         </body>
-        <back> 
-            <div type="notes"> 
-                <note target="#n1" resp="mb">Amy Lowell, "Is There a National Spirit in 'The New Poetry' of America?" The Craftsman, Vol. 30, No. 4 (July, 1916), pp. 39-49.</note> 
-            </div> 
+        <back>
+            <div type="notes">
+                <note target="#n1" resp="mb">Amy Lowell, "Is There a National Spirit in 'The New Poetry' of America?" The Craftsman, Vol. 30, No. 4 (July, 1916), pp. 39-49.</note>
+            </div>
         </back>
     </text>
 </TEI>
