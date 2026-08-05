@@ -89,14 +89,14 @@
         <body>
             <opener><dateline><date when="1917-07-20">July 20, 1917</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
-            <p>I have just received “<title key="">The Love Poems of Myrrhine and Konallis</title>,” printed by <persName key="">Mr. Charles C. Bubb</persName> in 
-                <placeName key="">Cleveland</placeName> with a letter from him in which he tells me you asked him to send me the
-                book. I am so glad to get it; these poems are absolutely beautiful. I thought so when I read them
+            <p>I have just received “<title key="myrrhineAndKonallis" level="m">The Love Poems of Myrrhine and Konallis</title>,” printed by <persName key="charles_bubb">Mr. Charles C. Bubb</persName> in 
+                <placeName key="cleveland">Cleveland</placeName> with a letter from him in which he tells me you asked him to send me the
+                book. I am so glad to get it; these poems are absolutely beautiful. <choice><orig>T</orig><reg>I</reg></choice> thought so when I read them
                 first, and I think so again now even more perhaps, and in this terrible time of agitation and horror
                 they come to me with a particularly soothing touch and remind me keenly of those delightful
                 days we used to pass together when I was in <placeName key="london">London</placeName>. It all seems so long ago now. I wonder
                 when it will come again.</p>
-            <p>I want to thank you very much for the letter you wrote me about <persName key="">my brother’s</persName> death in the
+            <p>I want to thank you very much for the letter you wrote me about <persName key="percival_lowell">my brother’s</persName> death in the
                 Winter. I could not write before; you know how it is. This is the first break in our family, and my
                 brother and I were very sympathetic. You will remember that he was in London the last time that
                 I was there, and, although I think you did not meet him, you must have heard me speak a great
@@ -109,7 +109,7 @@
                 better or not, I cannot say; it is inevitable. Even many of my poems, which do not seem to
                 have anything to do with the war are quite referable to it, if one could but see far enough.</p>
             <p><persName key="hilda_doolittle">Hilda</persName> writes me that she is bringing out a new volume of your poems, and has asked me
-                to send back to her all those I have here to put into it, as she has not copies, and I am sending her
+                to send back to her all those I have here to put into <pb n="02"/>it, as she has not copies, and I am sending her
                 everything I have by this mail.</p>
             <p>I wonder if you like the <title key="some_imagist_poets" level="m">Imagist Anthology</title>. It is not being received 
                 very well – not as well as the others. It is partly because we are no longer a novelty, and partly because the war has
@@ -123,45 +123,45 @@
                 because I admire and like your poetry as much as I ever did, but I am the sort of person who
                 must write in many manners and about many subjects, and I realized that this is not always
                 sympathetic to the rest of you, but it cannot be helped. I only hope that you will still like some of
-                the things that I have done. Hilda wrote me an awfully nice letter about “<title key="" level="m">Men, Women, and Ghosts</title>,” 
+                the things that I have done. Hilda wrote me an awfully nice letter about “<title key="menWomenGhosts" level="m">Men, Women, and Ghosts</title>,” 
                 but I have never heard from you on the subject, so I am afraid you did not care for the
                 book. That would be a sincere grief to me, as I regard your opinion so highly.</p>
             <p>I think of you often and wonder what you are doing, and whether you are in any of these
                 battles we read about in the newspapers.</p>
-            <p>I saw Hilda’s mother when I was lecturing at <placeName key="">Bryn Mawr</placeName>, and I thought she was afully
+            <p>I saw Hilda’s mother when I was lecturing at <orgName key="brynMawr">Bryn Mawr</orgName>, and I thought she was afully
                 nice, and we had a very nice little talk.</p>
-            <p>I have written an article on Hilda’s work for <persName key="">Brown’s</persName> “<title key="" level="j">Poetry Journal</title>,” which is really a
-                slight condensation of my long paper on her in my new book. I hope you will like it. Some of it I
+            <p>I have written an article on Hilda’s work for <persName key="edmund_brown">Brown’s</persName> “<title key="poetryJournal" level="j">Poetry Journal</title>,” which is really a
+                slight condensation of my long paper on her in my new book. <pb n="03"/>I hope you will like it. Some of it I
                 suppose you will not agree with, but most of it I think you will like very much. I hope it may
-                induce people to read “<title key="" level="m">Sea Garden</title>” and to see for themselves what I have only been able to
+                induce people to read “<title key="seaGarden" level="m">Sea Garden</title>” and to see for themselves what I have only been able to
                 indicate.</p>
-            <p>It was a great regret to me that this book of mine – it is called “<title key="" level="">Tendencies in Modern American Poetry</title>” 
-                – being of course <add place="above">about</add> American poets only, gave me no chance to discuss your work. 
+            <p>It was a great regret to me that this book of mine – it is called “<title key="tendencies" level="m">Tendencies in Modern American Poetry</title>” 
+                – being of course <add place="above" type="insertion" rend="pencil">about</add> American poets only, gave me no chance to discuss your work. 
                 Some day I hope to do that in another volume. Nobody could possibly admire your
                 work more than I, and nobody could more firmly believe in its future than I do, and I am sorry
                 that I have been able to be of so little use in the publication line. It is not easy to find publishers
-                for any poetry, and most of the smaller ventures like <persName key="">Mr. Bubb’s</persName> are in the Western cities. Brown
+                for any poetry, and most of the smaller ventures like Mr. Bubb’s are in the Western cities. Brown
                 you have already conferred with, and know how little he is to be depended upon.</p>
             <p>The booksellers here are refusing poetry right and left. I do not know where I should be,
-                but I have a contract with the Macmillan Company to publish everything I write, so that unless
+                but I have a contract with the <orgName key="macmillan"></orgName>Macmillan Company</orgName> to publish everything I write, so that unless
                 the war changes conditions very materially, they have got to take what I offer them. Of course,
                 should they advise very strongly against the publication of anything, I should not insist, but
                 hitherto they have not taken that stand.</p>
-            <p>Did you know “<title key="" level="j">The Seven Arts</title>” had taken your “<title key="" level="a">Leave Taking</title>” 
-                and “<title key="" level="a">On the March</title>” and <persName key="">Harriet Monroe</persName> has taken your 
-                “<title key="" level="a">Fatigues</title>?”</p>
+            <p>Did you know “<title key="sevenArts" level="j">The Seven Arts</title>” had taken your “<title key="leaveTaking" level="a">Leave Taking</title>” 
+                and “<title key="onTheMarch" level="a">On the March</title>” and <persName key="harriet_monroe">Harriet Monroe</persName> has taken your 
+                “<title key="fatigues" level="a">Fatigues</title>?”</p>
             <p>Harriet is doubtful whether she will be able to raise the money to carry on her magazine
                 for the next five years. Many as are the blunders she makes, I still think it would be a very bad
                 thing for all of us if she were to stop publication, but of course people are not anxious to give
-                money to poetry magazines just now when what between taxes and subscriptions for war relief
+                money to poetry <pb n="04"/>magazines just now when what between taxes and subscriptions for war relief
                 nobody has a surplus of funds.</p>
-            <p>I have sent all the criticisms of “Some Imagist Poets, 1917” to Hilda, who will doubtless
+            <p>I have sent all the criticisms of “Some Imagist Poets, <date when="1917">1917”</date>"" to Hilda, who will doubtless
                 send on the ones to you which she thinks you would like to see; they are not worth anything. The
                 book came out just as war was being declared, and it was knocked on the head thereby.
-                <orgNamek key="constable">Constable</orgNamek> is printing an edition from a copy of the book which was sent to England, as England
+                <orgName key="constable">Constable</orgName> is printing an edition from a copy of the book which was sent to England, as England
                 has placed an embargo on plates and sheets made in this country. This has actually cut out the
                 publication of my new book in England, as it is too expensive a book, and I have too
-                inconsiderable a public there for <orgName key="macmillan">The Macmillan Company</orgName> 
+                inconsiderable a public there for The Macmillan Company
                 to think of issuing an English edition, I think. I have not asked them, but I think it is improbable.</p>
             <p>On the other hand, there is a movement to translate the book into French and have it
                 issued in <placeName key="paris">Paris</placeName>, but that is so much in the air at present that I do not know whether it will
@@ -171,14 +171,14 @@
                 our army, and there are various Frenchmen sent over here on missions of one kind or another. In
                 fact, for a hundred years or more there has never been such an influx of foreigners in this
                 country. It is doing us a great deal of good, and I think will help to improve the taste in this
-                country more than anything else in the world. I find that my “<title key="" level="m">Six French Poets</title>” is universally
+                country more than anything else in the world. I find that my “<title key="sixFrenchPoets" level="m">Six French Poets</title>” is universally
                 known by these young Frenchmen, which is very gratifying, and they also seem to think it would
-                interest their countrymen to be introduced to the modern American poets. They know something
-                of the English poets, but nothing of the American.</p>
+                interest their countrymen to be introduced to the modern American poets. They know something <!--"something" divided across page four and five, I have put it on page four -vod -->
+                <pb n="05"/>of the English poets, but nothing of the American.</p>
             <p>I miss you terribly on “<title key="egoist" level="j">The Egoist</title>” and the fact that <persName key="ezra_pound">Ezra</persName> has got his foot in again fills me
-                with horror, particularly as he seems to have got <persName key="">Margaret Anderson</persName> under his thumb and to be
+                with horror, particularly as he seems to have got <persName key="margaret_anderson">Margaret Anderson</persName> under his thumb and to be
                 now practically writing all the articles in “<title key="littleReview" level="j">The Little Review</title>.” In spite of all this, he has
-                absolutely no standing here in America, and is not known at all outside a small circle. I have just
+                absolutely no standing here in <placeName key="usa">America</placeName>, and is not known at all outside a small circle. I have just
                 renewed my subscription to “The Egoist,” although I do not care for it at all when you and Hilda
                 do not write for it, but I always hope you will be back there writing again before long, so I
                 thought it best to keep subscribing.</p>
@@ -189,10 +189,10 @@
                 believe that.</p>
             <closer>Affectionately yours,</closer>
         </body>
-        <back> 
-            <div type="notes"> 
-                <note target="#n1" resp="mb"></note> 
-            </div> 
+        <back>
+            <div type="notes">
+                <note target="#n1" resp="mb"></note>
+            </div>
         </back>
     </text>
 </TEI>
