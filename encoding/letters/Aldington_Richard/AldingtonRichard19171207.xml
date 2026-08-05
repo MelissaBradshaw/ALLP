@@ -103,7 +103,7 @@
                 civilization through the only medium I know – that of poetry.</p>
             <p>For us women who cannot fight, and who are handicapped in other ways from taking any
                 active part, I feel that the truest thing we can possibly do is just this, and I must say I have been
-                happier since I have come to the conclusion. We must keep a world going for the rest of you
+                happier since I have come to the conclusion. We must keep a world going for the rest of <pb n="02"/>you
                 when you come back. We must keep alive the spirit of beauty, of gentleness, and of idealism. It
                 may be that the war will go on so long that these things will perish perforce for a time, but the
                 whole strength of my mind is now turned towards poetry – not that it always was not so, but the
@@ -111,7 +111,7 @@
                 when you come back from the army, the world you will have to work in will be more inclined to
                 listen than it ever was before. At least that seems to be coming to be true of <placeName key="usa">America</placeName>, and I have
                 the gratifying sense of realizing that my efforts on behalf of poetry in this country are beginning
-                to bear fruit at last. I do not at all share with the “<title key="littleReview" level="j">Little Review’s</title>” attitude of “Rough Men.” I
+                to bear fruit at last. I do not at all share with the “<title key="littleReview" level="j">Little Review’s</title>” attitude of <hi rend="quote">“Rough Men.”</hi> I
                 have never dwelt in an ivory tower, nor found it possible to divorce myself from the facts of life.
                 I think there is a great deal more poetry in these sort of people than one realizes, although, of
                 course, it is largely an untrained taste. Here we have had a most curious experience. Each of the
@@ -123,7 +123,7 @@
                 expression of the other side of life. I do not think there has ever been a time when common
                 soldiers have requested poetry, and the thing seems to me highly significant of the whole attitude
                 which this country has towards the war.</p>
-            <p>Nobody can hate war worse than I do, but I believe in this war with my whole heart and
+            <p><pb n="03"/>Nobody can hate war worse than I do, but I believe in this war with my whole heart and
                 soul, in the absolute necessity of it – melancholy though that is.</p>
             <p>The Brookline Public Library has asked for donations of books to send to the various
                 camps, and at their request I am sending six libraries of poetry, chosen by myself, and if these
@@ -143,7 +143,7 @@
                 your entering the army, and your rise from private to officer. I know this is immaterial to you,
                 but I think it shows your character, and, as you can see from “<title key="tendencies" level="m">Tendencies</title>,” I like every little
                 thing that tends to illustrate the character of my poets.</p>
-            <p>I do not wonder you feel grateful to <persName key="ezra_pound">Ezra Pound</persName>. In spite of his having treated me very
+            <p><pb n="04"/>I do not wonder you feel grateful to <persName key="ezra_pound">Ezra Pound</persName>. In spite of his having treated me very
                 badly, I feel grateful to him too, and he is now writing me conciliatory letters. I wish I did not
                 know that he thinks I have made a success and does not want to be on bad terms with me.
                 However, that is Ezra all over, and I have answered him shortly and pleasantly. I will not publish
@@ -160,21 +160,21 @@
             <p>“Tendencies” is doing very well, and seems to be having quite an influence. You will see
                 with amusement how much afraid of this influence <persName key="harriet_monroe">Harriet Monroe</persName> is, and how she fears that her
                 own judgments will go to the wall in face of mine. I have seldom read anything more shivering
-                with fear than her review of the book in December “<title key="poetry" level="j">Poetry</title>.”<anchor xml:id="n1"/></p>
-            <p>I cannot escape the war now; I must write about it. It seems to be all round us, and I must
-                say I think the few poems of yours which I have seen, dealing with the war, are excellent. Do not
+                with fear than her review of the book in <date when="1917-12">December</date> “<title key="poetry" level="j">Poetry</title>.”<anchor xml:id="n1"/></p>
+            <p>I cannot escape the war now; I must write about it. It seems to be all round us, and <choice><orig>Imust</orig><reg>I must</reg></choice>
+                say I think the few poems of yours which I have <pb n="05"/>seen, dealing with the war, are excellent. Do not
                 despise the war as a theme for poetry; do not despise any fact of life in that connection. Poetry
                 should be the great underlying substance of every poet’s life, and none of his experiences can be
                 alien to it when seen through his eyes. I am afraid this sounds a little didactic. That is the worst
                 of the war. It brings one down to one’s bottom, and when one talks about the bottom, one always
                 sounds goody-goody. Anyhow, I mean it.</p>
-            <closer><p>With lots of love and thanks for your good letter,</p>
-                <p>Affectionately yours,</p></closer>
+            <closer><lb/>With lots of love and thanks for your good letter,
+               <lb/>Affectionately yours,</closer>
         </body>
-        <back> 
-            <div type="notes"> 
-                <note target="#n1" resp="mb">Harriet Monroe, "Miss Lowell on Tendencies," Poetry, Vol. 11, No. 3 (December, 1917), pp. 151-156.</note> 
-            </div> 
+        <back>
+            <div type="notes">
+                <note target="#n1" resp="mb">Harriet Monroe, "Miss Lowell on Tendencies," Poetry, Vol. 11, No. 3 (December, 1917), pp. 151-156.</note>
+            </div>
         </back>
     </text>
 </TEI>
