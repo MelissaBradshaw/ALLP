@@ -107,9 +107,9 @@
                 which have much greater expenses, are failing right and left. You seem somehow to have got an 
                 inflated idea of my intentions in regard to this paper. To run such a paper as you suggest, on 
                 such lines as you suggest, would take an amount of money which I could never hope to command. 
-                “<title key="newRepublic" level="j">The New Republic</title>” is <pb n=”02”/>endowed with 
-                <measure type="currency" num="50,000">$50,000</measure> a year, and then I understand it does not pay, although 
-                they have <measure quantity="10,000" commodity="subscribers">10,000 subscribers</measure>. Everything is on a larger scale here than in <placeName key="england">England</placeName>. The country
+                “<title key="newRepublic" level="j">The New Republic</title>” is <pb n="02"/>endowed with 
+                <measure type="currency" quantity="50000">$50,000</measure> a year, and then I understand it does not pay, although 
+                they have <measure quantity="10000" commodity="subscribers">10,000 subscribers</measure>. Everything is on a larger scale here than in <placeName key="england">England</placeName>. The country
                 not having any one particular centre, magazines printed in one part of it are frequently not to be 
                 found on the news-stands of another. It is impossible to get “<title key="reedysMirror" level="j">Reedy’s Mirror</title>” of <placeName key="stLouis">St. Louis</placeName> on any 
                 news-stand in the East, or the <placeName key="sanFrancisco">San Francisco</placeName> “<title key="argonaut" level="j">Argonaut</title>” or the 
@@ -119,7 +119,7 @@
                 head. It seems quite impossible for us to attempt such a thing, even if we could raise the money.
                 It never occurred to me that you would have an idea of branching out into an office, and a
                 stenographer, and an office boy. Of course, I knew those things to be out of the question. No
-                stenographer could be got for less than <measure type="currency" num="65.00">$65.00</measure> a month, which you will easily see would be
+                stenographer could be got for less than <measure type="currency" quantity="65.00">$65.00</measure> a month, which you will easily see would be
                 utterly beyond our capacity to pay. I supposed that you would be willing to do the clerical work
                 and send out the magazine once a month, as you do the <title key="poetsTranslationSeries" level="s">Poet’s Translation Series</title>, and it seemed
                 to me that your salary should be determined with a view to that. In this, it seems, I was
@@ -132,7 +132,7 @@
                 responsible to the people who gave us the money; and under those circumstances, it would be
                 absolutely imperative that I should have the final say, and assume, in fact, the full responsibility.
                 I should not expect to interfere with you any more than was absolutely necessary; but I should
-                certainly direct the policy of the paper, and <pb n=”03”/>I am afraid I should not direct it upon strictly
+                certainly direct the policy of the paper, and <pb n="03"/>I am afraid I should not direct it upon strictly
                 Imagistic lines. We could not have any paper if we did, because there are not enough Imagists to
                 write for it. I suppose, really, it would be only exchanging <persName key="harriet_weaver">Miss Weaver</persName> for me, and although I
                 imagine that you would not have such difficulty with me as you have with Miss Weaver, still it
@@ -151,10 +151,10 @@
                 believe it is possible for us to go to war on either side, because I think there are enough
                 sympathizers on the other side in Congress to prevent our declaring war. Under these
                 circumstances, we are obliged to maintain a certain elasticity and courtesy in our daily life. I
-                personally have given up sending any poems of mine to “<title key="international" level="">The International</title>,” because 
+                personally have given up sending any poems of mine to “<title key="international" level="j">The International</title>,” because 
                 <persName key="george_viereck">Mr. Viereck</persName> is so violently pro-German, and his other paper, 
-                “<title key="fatherland" level="">The Fatherland</title>,” is the official paper
-                for hyphenated Americans. He has been peculiarly blatant and offensive. But there are <pb n=”04”/>many
+                “<title key="fatherland" level="j">The Fatherland</title>,” is the official paper
+                for hyphenated Americans. He has been peculiarly blatant and offensive. But there are <pb n="04"/>many
                 other papers which are distinctly Germanistic in leaning, although they wisely refrain from
                 polemics in which my poems appear and those of other people. If you come to this country, you
                 will find yourself constantly thrown with Germans and German sympathizers, and it will be
@@ -179,7 +179,7 @@
                 everybody. The way it is got round is that people do not announce their engagements upon
                 stepping ashore. But if you had it in your passort, I think that it would dish you completely.
                 Also the idea of having anything so grave attached to so simple a little sheet as ours, would
-                <del rend="strikethrough">be would</del> cause a burst <pb n=”05”/>of amusement from all the newspapers in the country, and we should be
+                <del rend="strikethrough">be would</del> cause a burst <pb n="05"/>of amusement from all the newspapers in the country, and we should be
                 black-eyed before we started.</p>
             <p>I have now answered your remarks at length, and I am afraid I have given you the
                 impression that it is very little use for us to try to run a paper, even if we had the money. As a
@@ -199,7 +199,7 @@
                 think the thing should be put down in legal black and white <add place="above" type="insertion" rend="pencil">before we start</add>, so there should be no
                 misunderstandings at any rate. I did not go into all these details before, as the whole thing
                 seemed so up in the air; but since you have raised the questions, I thought I had better answer
-                them at length. I am just as sorry as I can be that people are so close-fisted. But what <pb n=”06”/>can we do?</p>
+                them at length. I am just as sorry as I can be that people are so close-fisted. But what <pb n="06"/>can we do?</p>
             <closer>Affectionately yours,</closer>
         </body>
     </text>
