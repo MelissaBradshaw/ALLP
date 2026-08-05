@@ -91,7 +91,7 @@
         <body>
             <opener><dateline><date when="1918-06-18">June 18, 1918</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
-            <p>Your letter of May 14th came the day before yesterday and I was perfectly delighted to
+            <p>Your letter of <date when="1918-05-14">May 14th</date> came the day before yesterday and I was perfectly delighted to
                 get it. I am glad you have a company, which shows what an excellent soldier you are, and you
                 know I have a kind of belief that a poet should be able to do everything better than other people
                 do it. If a poet is not above other men, he is not good as a poet, and you are not above other men
@@ -100,15 +100,15 @@
                 perhaps also, I suppose, but you need not. Of course I am facing no such ordeal as you are, but,
                 on the other hand, I am not a young man in vigorous health, and the Lord seems to temper the
                 wind to the shorn lamb. But what I do want you to understand is that I have never approved of
-                the “ivory tower” attitude. I believe firmly in living, in acting, and in being just plain brutal
+                the <hi rend="quote">“ivory tower”</hi> attitude. I believe firmly in living, in acting, and in being just plain brutal
                 rushing life; and I do not believe the best poetry comes out of anything else. Also it seems to me
                 that a civilization which is at the mercy of accidents is a jerry-built thing. It seems to me that if
                 your poetry is sincere, if, in other words, you are the kind of person that writes poetry, you must
                 do it straight through life although you are living in a hole in the ground, as you express it, which
-                may be most distasteful and may not add anything to the “fine fibre of your soul.” Nevertheless,
+                may be most distasteful and may not add anything to the <hi rend="quote">“fine fibre of your soul.”</hi> Nevertheless,
                 it could hardly affect the fundamental quality of that soul, which I feel surely must be so innate
                 as not to be affected by any exterior circumstances. In other words, one should be able to go to
-                the block the way martyrs of the Middle Ages did – without retracting. In such a case as you
+                the block the way martyrs of the Middle Ages did – <pb n="02"/>without retracting. In such a case as you
                 mention it would not be an exterior retraction but an absolute organic change of front, and I
                 cannot believe that is possible to you or to anyone like you. In other words, your belief that you
                 are not living a civilized life does not hold water to me. Your civilization must be above that, and
@@ -127,7 +127,7 @@
                 be kept up just for the very reason that the rest of you are living in holes in the ground and are in
                 danger of getting discouraged, I feel it my business to keep the finer sides of life going, for that
                 is the business of all of us women poets. Beyond everything is the ideal of art – that we agree,
-                both you and I. And perhaps secondarily is the ideal of betterment of the world. But when one is
+                both you and I. And perhaps secondarily is the ideal of betterment of the <pb n="03"/>world. But when one is
                 whole-souled and believes in the civilization of one’s own race, and believes in the necessity of
                 forcing it to dominate, then the two ideals merge, and in following the former one inevitably
                 pursues the latter. Anyway, when I get restless and nervous that is how <persName key="ada_russell">Mrs. Russell</persName> speaks to
@@ -137,16 +137,16 @@
                 out because I could not help it – a hateful amateurish sentence, but what can you do when it is
                 true. This is one of a series of “<title key="phantasmsOfWar" level="m">Phantasms of War</title>” that I have been writing from time to time
                 when current events sounded so loudly in my brain that I could not escape them. It has been
-                liked here, and you may like it or not. At any rate it is not any “ivory tower” thing. Although I
+                liked here, and you may like it or not. At any rate it is not any <hi rend="quote">“ivory tower”</hi> thing. Although I
                 still often write things that are merely beautiful, I cannot sit in the midst of all this pain without
                 having it affect my work. I realize perfectly that I have developed differently from what I should
                 have done had not the war come. I cannot think that the development has been a mistake.</p>
             <p>My next book I feel sure you will not like, which is most unfortunate because I owe its
-                title to you. It consists of four historic poems in “polyphonic prose” which I know you hate. I
+                title to you. It consists of four historic poems in <hi rend="quote">“polyphonic prose”</hi> which I know you hate. I
                 will send it to you when it comes out. Its title is “<title key="canGrandesCastle" level="m">Can Grande’s Castle</title>,” and I have, dear Richard,
                 quite without permission taken your poem, “<title key="atTheBM" level="a">In the British Museum</title>,” for my motto, and have
                 quoted the poem on the motto page, deleting the lines from Samain which do not fit my content,
-                and substituted dots in their place; otherwise the poem is entire. Of course I should have asked
+                and substituted dots in <pb n="04"/>their place; otherwise the poem is entire. Of course I should have asked
                 your permission before doing this, but there was not time, and I so needed the poem, and it is so
                 beautiful that I just took it as I should a poem by any dead author. Will you forgive me, and if
                 you do not like the book I have put it in, will you realize that I have paid you the compliment of
@@ -162,13 +162,13 @@
                 prestige is, and that is just where the trouble comes in. If you have any poems that you think
                 would do in the place of the one the “<title key="northAmericanReview" level="j">North American</title>” took and could not publish on account of
                 <persName key="charles_bubb">Bubb’s</persName> having published it before, send it to me, and I will see what I can do with it.</p>
-            <closer><p>Mrs. Russell joins me in much love,</p>
-                <p>Always affectionately,</p></closer>
+            <closer><lb/>Mrs. Russell joins me in much love,
+                <lb/>Always affectionately,</closer>
         </body>
-        <back> 
-            <div type="notes"> 
-                <note target="#n1" resp="mb">Amy Lowell, "The Marching Hessians," The Independent, May 25, 1918, p. 324.</note> 
-            </div> 
+        <back>
+            <div type="notes">
+                <note target="#n1" resp="mb">Amy Lowell, "The Marching Hessians," The Independent, May 25, 1918, p. 324.</note>
+            </div>
         </back>
     </text>
 </TEI>
