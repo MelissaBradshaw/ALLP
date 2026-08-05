@@ -93,7 +93,7 @@
             <salute>Dear <persName key="john_fletcher">J.G.F.</persName>:</salute></opener>
          <p>Your letter of <date when="1916-09-25">September 25th</date> has this minute come, and I was awfully interested to see 
             what you said about the state of mind of our little group. My feeling is exactly yours. 
-            The “<title key="some_imagist_poets">Anthology</title>” has done exactly what I hoped it would do – in fact, it has done more than in my wildest 
+            The “<title key="someImagistPoets" level="m">Anthology</title>” has done exactly what I hoped it would do – in fact, it has done more than in my wildest 
             dreams/ever dared to hope. But I think the moment for its usefulness has gone by. 
             I don’t believe there is much point in having another. 
             I think that another would sell about as well as this one has, which, I imagine, is not bad, 
@@ -106,8 +106,8 @@
             between you and me and the other members of the group. I don’t count <persName key="dh_lawrence">Lawrence</persName>, 
             because he never was an Imagist and never cared a snap about the tenets. 
             <persName key="hilda_doolittle">H.D.</persName> is, as you say, excessively narrow. I was awfully annoyed with her articles on 
-            <persName key="marianne_moore"><choice><orig>Mary Anne</orig><reg><Marianne</reg>Moore</persName>and a woman named <persName>Mew</persName>, 
-            in the August and September “<title key="egoist">Egoist</title>”;they are so jejune and so over-praised. 
+            <persName key="marianne_moore"><choice><orig>Mary Anne</orig><reg><Marianne</reg>Moore</choice></persName>and a woman named <persName>Mew</persName>, 
+            in the August and September “<title key="egoist" level="j">Egoist</title>”;they are so jejune and so over-praised. 
             In fact, I have written her a letter objecting 
             to that form of criticism coming from any one of our group, 
             but I don't think I shall send the letter – at least, not in its present form, 
@@ -120,12 +120,12 @@
          
          <p>Personally, I should much rather not have any “Anthology” this year. 
             I think the anthology business is run into the ground anyhow, with 
-            <title key="magazineVerse">Braithwaite’s</title>, and <title key="poetry">Harriet’s</title>, and all the others, and I think the time has 
+            <title key="magazineVerse" level="j">Braithwaite’s</title>, and <title key="poetry" level="j">Harriet’s</title>, and all the others, and I think the time has 
             come when we have got to go it on our own. If we ever develop individually; it is quite plain that 
             we cannot hold to the narrow tenets that please Hilda. But still, you know my sense of honour, 
             and I said I would do it for three years, and I will.</p>
          
-         <p>Greenslet says that they are still going to print the “<title key="newPoetrySeries">New Poetry Series</title>,” 
+         <p>Greenslet says that they are still going to print the “<title key="newPoetrySeries" level="s">New Poetry Series</title>,” 
             but maybe they won’t call it that, and they are going to vary the 
             covers of the individual volumes, which I think is a good idea. 
             Our contract said nothing about the series anyway, and he is quite willing 
@@ -228,7 +228,7 @@
                The first letter I took as half a joke, and answered accordingly. 
                It was either a joke or an insult – I preferred to take it as the former. 
                The second letter admitted of no question. I enclose a copy of my answer. 
-               You were quite right in suspecting that "<title key="others">Others</title>" had gone to the wall, 
+               You were quite right in suspecting that "<title key="others" level="j">Others</title>" had gone to the wall, 
                and it proves to me more conclusively than anything else could, that art which is not sincere 
                has no chance. It may make a splash for five minutes, but it counts 
                for nothing in the long run. You will see from Williams’s letter how active our friend 
