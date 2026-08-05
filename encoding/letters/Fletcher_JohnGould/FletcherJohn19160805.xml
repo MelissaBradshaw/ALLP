@@ -103,7 +103,7 @@
             slightest difference, and as you will see, I sent a poem <add place="above" type="insertion">to</add> that number after 
             being told by <persName key="wc_williams">Williams</persName> that you had done so. I do not think much of it as a number, 
             I am bound to confess, and as it had my two horrors, <persName key="jeanne_dorge">Jeanne d’Orge</persName> and 
-            <persName><choice><orig>Minna</orig><reg>Mina</reg>Loy</persName> in it, 
+            <persName><choice><orig>Minna</orig><reg>Mina</reg>Loy</choice></persName> in it, 
             I was not too pleased to think I had contributed. However, that is all over now. 
             I refused to send another poem to <persName key="helen_hoyt">Helen Hoyt's</persName> <title>Women’s Number,</title> as I thought that with 
             Helen Hoyt for editor the contributions would be of the most lively. 
@@ -163,10 +163,10 @@
          </p>
          <p>
             I have asked <persName key="joseph_lebowich">Lebowich</persName> to send you all the copies 
-            of “<title key="poetryReviewAmerica">The Poetry Review</title>” from the beginning of the year. 
+            of “<title key="poetryReviewAmerica" level="j">The Poetry Review</title>” from the beginning of the year. 
          </p>
          <p>
-            I suppose you see "<title key="littleReview">The Little Review</title>" or can get it at the 
+            I suppose you see "<title key="littleReview" level="j">The Little Review</title>" or can get it at the 
             <orgName key="poetryBookshop">Poetry Bookshop</orgName>. <persName key="margaret_anderson">Margaret Anderson</persName> has moved to 
             <placeName key="california">California</placeName> for the 
             Summer.  Her address is: <placeName>P. O. Box 696, Mill Valley, California</placeName>. 
@@ -193,7 +193,7 @@
             like the last gasp. As to <title key="poetry" level="j">“Poetry,”</title> I think it is 
             disintegrating since <persName key="ac_henderson">Alice Henderson</persName> left. <persName key="harriet_monroe">Harriet's</persName> one desire 
             seems to be to get in new people, whether they are 
-            <p n="4"/> good for anything or not.  
+            <pb n="4"/> good for anything or not.  
          </p>
          <p>
             <persName>Mr. Bridges</persName> treated me as white as snow about 
@@ -240,14 +240,14 @@
             <title>book</title> for Harriet. The Summer is never my best time. 
          </p>
          <p>
-            Reedy tells me that he is writing an article for the <title key="reedysMirror">"Mirror"</title> 
+            Reedy tells me that he is writing an article for the <title key="reedysMirror" level="j">"Mirror"</title> 
             on my work, which I am anxious to see. 
          </p>
          <p>
             Richard writes, urging me to go out West and give some 
             talks, as he has heard that people are interested in us there. And 
             I think I may do that next Spring. <persName>Margaret Wilkinson</persName> of 
-            the “<title>Los Angeles Graphic</title>” appeared the other day, 
+            the “<title key="graphic" level="j">Los Angeles Graphic</title>” appeared the other day, 
             just before I left town. She is a nice little woman, 
             and extremely enthusiastic over us. She has a poem in this month’s 
             “Poetry” but it is not any great shakes. It seems that <persName>John Vance Cheney</persName> 
