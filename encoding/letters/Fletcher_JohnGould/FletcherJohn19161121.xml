@@ -91,7 +91,7 @@
       <body>
          
          <opener><dateline><date when="1916-11-21">November 21, 1916</date></dateline>
-             John Gould Fletcher, Esq.  
+             <persName key="john_fletcher">John Gould Fletcher, Esq.</persName>  
                
                <placeName key="england">37 Crystal Palace Park Road 
                
@@ -99,11 +99,11 @@
          
          <p>
             <persName key="ws_braithwaite">Braithwaite</persName> most anxious for your review of me. 
-            No matter if printed in <title key="egoist">“Egoist”</title> too. “Egoist” not copyrighted here and no 
+            No matter if printed in <title key="egoist" level="j">“Egoist”</title> too. “Egoist” not copyrighted here and no 
             circulation in <placeName key="usa">America</placeName>. Send soon as possible. 
             Congratulations on <persName key="harriet_monroe">Harriet’s</persName> prize, and thanks for article and letter. 
          </p>
-         <closer>AMY LOWELL</closer>
+         <closer><persName key="amy_lowell">AMY LOWELL</persName></closer>
       </body>
    </text>
 </TEI>
