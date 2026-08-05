@@ -87,7 +87,7 @@
             </p>
             <p>
                 You see the point is this: – As you say, possibly <persName key="harriet_weaver">Miss Weaver</persName> would not sell 
-                <title>her paper</title>, particularly as you planned to leave her as editor. In that case she would go around and tell everybody that she had been approached – 
+                <title key="egoist" level="j">her paper</title>, particularly as you planned to leave her as editor. In that case she would go around and tell everybody that she had been approached – 
                 she might even call it “bribed” – to run her paper a certain way, and she could make a very nasty 
                 story about that. Also, suppose she did consent to leave <persName key="ezra_pound">Ezra</persName> out of the paper for a consideration, 
                 it would give Ezra a splendid handle to beat us with, because he would know perfectly well where the 
@@ -99,7 +99,7 @@
                 better until Ezra is acknowledged by the world at large to be out of the running with us. 
                 I think it only needs time for that to be a fact; besides, Ezra is so curiously constituted that if you 
                 only give him rope enough, he will hang himself. If he is permitted to say pretty much what he 
-                wants in <pb/>“<title key="egoist">The Egoist</title>”, he will soon disgust people so thoroughly that he will have no chance at all. 
+                wants in <pb n="02"/>“The Egoist”, he will soon disgust people so thoroughly that he will have no chance at all. 
                 The only reason he has any influence still is because his remarks are so carefully edited 
                 before they are allowed to appear. <persName key="harriet_monroe">Harriet Monroe</persName> told me, when I was in <placeName key="chicago">Chicago</placeName>, that she had to 
                 blue pencil all his articles so as to make them possible at all, which does not mean that Harriet is 
@@ -107,8 +107,8 @@
                 This was just a statement of fact. 
             </p>   
             <p>
-                Personally, I hate “<title>The Egoist</title>”, and if it were not a seeming disloyalty to the others of the group, 
-                I would discontinue my subscription at once. The thing has practically no circulation; even in <placeName key="england">England </placeName>
+                Personally, I hate “The Egoist”, and if it were not a seeming disloyalty to the others of the group, 
+                I would discontinue my subscription at once. The thing has practically no circulation; even in <placeName key="england">England</placeName>
                 it is almost unknown, outside of a small group, and to be in it or out of it makes not the slightest difference in any way. 
                 I have not observed that writing in it has helped any one to a wider public, nor has it gained 
                 for any of its contributors the entrance to any other magazine; therefore, I would not worry about it at all or let 
@@ -120,7 +120,7 @@
                 out of our Sunday talks, and talking to you did so much to clear my ideas and to show me what I really thought; 
                 also, I think the contact of our two minds whetted us both to make discoveries, which we should not have made alone, 
                 (at least that was the case with me) and I have missed you terribly. <persName key="ada_russell">Mrs. Russell</persName> and I have often 
-                said what would we not <pb/> give to see you again. I think you are quite right, however, not to make the voyage or subject <persName key="florence_emily_arbuthnot">your wife</persName> 
+                said what would we not <pb n="03"/> give to see you again. I think you are quite right, however, not to make the voyage or subject <persName key="florence_emily_arbuthnot">your wife</persName> 
                 to it with this submarine menace going on. Think how foolish you would feel as you sank beneath the waves to realize that you had cut
                 your life short, and deprived the world of what you will write in the future, for a mere caprice!  
             </p>
@@ -133,16 +133,16 @@
                 since this vast tide of immigration has done so much to change the temper of her people, in fact.  
             </p>
             <p>
-                I enclose a poem which I wrote a few weeks ago and put in the “<title key="transcript">Transcript</title>”, 
+                I enclose a poem which I wrote a few weeks ago and put in the “<title key="bostonTranscript" level="j">Transcript</title>”, 
                 as it seemed to me a daily paper was the place for it. It has been very well liked. 
-                Many people, including <persName key="ellery_sedgwick">Ellery Sedgwick </persName>(which is a joke), think it is one of the best things I have done. 
+                Many people, including <persName key="ellery_sedgwick">Ellery Sedgwick</persName>(which is a joke), think it is one of the best things I have done. 
                 Anyhow, it came from my heart. I rather wish it could be printed in an English 
-                daily paper, but I have no way of knowing how that could be done. Perhaps the “<title key="observer">Observer</title>” 
+                daily paper, but I have no way of knowing how that could be done. Perhaps the “<title key="observer" level="j">Observer</title>” 
                 would print it. If you feel like taking it round to them, I should be very glad. 
-                Of course the fact that it appeared in the <title>Boston “Transcript”</title> should be mentioned.
+                Of course the fact that it appeared in the Boston “Transcript” should be mentioned.
             </p>
             <p>
-                I was perfectly wild over your poems for the <title>new Anthology</title>. <pb/>I think “Moonlight” and “Dawn” are two of the 
+                I was perfectly wild over your poems for the <title key="someImagistPoets">new Anthology</title>. <pb n="04"/>I think <title>“Moonlight”</title> and <title>“Dawn”</title> are two of the 
                 most beautiful things you have done, and they fill me with envy, malice, and all uncharitableness. 
                 I do not believe you need worry about whether or not you have retrograded or advanced as a poet. 
                 There are always “ups and downs” periods in every poet’s creative life, and being so near the active 
@@ -160,16 +160,16 @@
                 and only a poet as a side show. As such, he need not seriously concern us.  
             </p>
             <p>
-                Still, I do not know whether we are wise to discontinue the <title key="some_imagist_poets">Imagist Anthology</title>, 
+                Still, I do not know whether we are wise to discontinue the Imagist Anthology, 
                 just at this point, or not. <placeName key="england">England</placeName> seems to be waking up to us. 
                 The English are a queer people. If you hammer, hammer, hammer, bye and bye they will pay attention. 
                 It always takes years before they realize that anything has anything in it. Now they have just begun to see 
-                that we amount to something, and whether or not it <pb/> is wise to discontinue our collective publication at 
+                that we amount to something, and whether or not it <pb n="05"/> is wise to discontinue our collective publication at 
                 the very moment that it is beginning to be noticed over there, I cannot quite make up my mind. 
                 Of course the production of the individual poets has something to do with it. 
                 I do not know what <persName key="richard_aldington">Richard</persName> will be able to produce in the trenches. 
                 The <persName>other three</persName> seem to be hopeless, but there are always you and I. 
-                Anyway, I am going to talk the matter over with <persName key="ferris_greenslet">Feris Greenslet</persName> when he 
+                Anyway, I am going to talk the matter over with <persName key="ferris_greenslet">Ferris Greenslet</persName> when he 
                 comes back. We do not want to lose any of the ground we have gained either by inadequate production or by 
                 ceasing any publication just as soon as it is beginning to be noticed.  
             </p>
@@ -185,15 +185,15 @@
             </p>
             <p>
                 <title>Our book</title> will be out about the middle of April. Of course I shall send you a copy as soon as it comes. 
-                I sent you a copy of <title>Harriet’s Anthology</title>, which is just out a week or so ago. 
-                Of course it is not exactly <pb/>the selection I would have made myself in all instances. 
-                I would never have left out your “Green Symphony”, for instance, which I think is, on the whole, finer than the “Blue”; 
+                I sent you a copy of <title key="newPoetryAnthology" level="m">Harriet’s Anthology</title>, which is just out a week or so ago. 
+                Of course it is not exactly <pb n="06"/>the selection I would have made myself in all instances. 
+                I would never have left out your <title>“Green Symphony”</title>, for instance, which I think is, on the whole, finer than the <title>“Blue”</title>; 
                 still, I must admit that I think it is a very creditable volume and shows that the poetical renaissance, 
                 which we claim to exist, is a fact and not a fancy.  
             </p>
             <p>
                 You will be amused to hear that <persName key="ws_braithwaite">Braithwaite</persName> has had a fight with 
-                <persName>Edgett</persName> and has left the “Transcript”. The reviews of <title>his Anthology</title> have been uniformly bad, 
+                <persName>Edgett</persName> and has left the “Transcript”. The reviews of <title key="magazineVerse" level="s">his Anthology</title> have been uniformly bad, 
                 and I am afraid his unbusinesslike methods have made them mad in there, but they did not kick him out; 
                 he kicked himself out in a fit of spleen, thinking himself more valuable than he really is. 
                 You will probably be glad to know of this, but I am sincerely sorry, for I believe the alternative will be 
@@ -210,7 +210,7 @@
             <p>
                 I am sorry that you felt obliged to jump on him so hard in the “<title key="poetryReview">Poetry Review</title>”, because I think it is 
                 just this sort of thing which has forced him out, and in all these considerations, it is a question of what is going to be the 
-                result of any action. If jumping out of the frying <pb/> pan means jumping into the fire, you had better stay in the frying pan. 
+                result of any action. If jumping out of the frying <pb n="07"/> pan means jumping into the fire, you had better stay in the frying pan. 
                 Anyway, I send you two clippings from the “Transcript”, which speak for themselves, but which will show you that Edgett read your review. 
                 I am inclined to think that this, and the many hostile reviews which his new Anthology has received, is responsible for their attitude 
                 towards him. I have no brief to hold for his work, as you know, but I think Edgett and Dole, as a combination, would be very much worse. 
@@ -221,17 +221,17 @@
                 My trip out West was eminently successful, as far as it went. I spoke in the <orgName>Medical School</orgName> in <placeName key="stLouis">St. Louis</placeName>, 
                 under the auspices of the <orgName>Washington University Alumni Association</orgName>, and the hall was so crowded that they had to put 
                 in seventy-five extra chairs. The enthusiasm was tremendous. I met <persName key="orrick_johns">Orrick Johns</persName> while I was there, 
-                and he assumed disposed to be friendly and enthusiastic to all of us and did not at all take the tone which <persName>Williams</persName> took in the Autumn.  
+                and he assumed disposed to be friendly and enthusiastic to all of us and did not at all take the tone which <persName key="wc_williams">Williams</persName> took in the Autumn.  
             </p>
             <p>
-                <persName key="kreymborg">Kreymborg</persName> is reading his poems to the sound of a “mandalute” – whatever that may be – 
+                <persName key="alfred_kreymborg">Kreymborg</persName> is reading his poems to the sound of a <hi rend="quoted">“mandalute”</hi> – whatever that may be – 
                 but I do not think that sort of freak stuff is likely to work very long. Kreymborg is a clever fellow, and if he 
                 did not have some admixture of the charlatan in his composition, I think he would be an interesting fellow. 
                 But the older I get, the more I value sincerity, and the less I care twopence for any one who has not got it. 
                 I have his advertisement somewhere; if I can find it, I will send it to you. 
             </p>
             <p>
-                I also send you a copy of a review of <title key="magazineVerse">Braithwaite’s Anthology</title><pb/> by <persName>Aiken</persName> in “<title key="dial">The Dial</title>”. 
+                I also send you a copy of a review of Braithwaite’s Anthology<pb n="08"/> by <persName key="conrad_aiken">Aiken</persName> in “<title key="dial" level="j">The Dial</title>”. 
                 I think this is much better than his critical work usually is. It is more restrained and less bumptious; in fact, I quite like this review. 
             </p>
             <p>
@@ -251,15 +251,15 @@
                 In other words, the conditions, I hope, will settle down more to that of England than it has been for some time. 
             </p>
             <p>
-                You will be glad to hear that “<title key="swordBladesAndPoppySeed">Sword Blades</title>” has gone into a third edition, 
+                You will be glad to hear that “<title key="swordBladesAndPoppySeed" level="m">Sword Blades</title>” has gone into a third edition, 
                 so that I think we are moving.  
             </p>
             <p>
-                <persName key="william_bradley">William Aspinwall Bradley</persName> is here, and spoke so pleasantly of <pb/> you the other night. 
+                <persName key="william_bradley">William Aspinwall Bradley</persName> is here, and spoke so pleasantly of <pb n="09"/> you the other night. 
                 He said he enjoyed that evening you passed together very much, and he wishes you were here, and I echoed him with all my heart.   
             </p>
             <p>
-                You will be amused to hear that they have kicked me out of the Presidency of the <orgName>Poetry Club</orgName>, and 
+                You will be amused to hear that they have kicked me out of the Presidency of the <orgName key="poetryClubNewEngland">Poetry Club</orgName>, and 
                 <persName key="josephine_peabody">Josephine</persName> has practically come out as my avowed enemy. 
                 She still tries to hide it under a cloak of friendship, but I am on guard. I shall not go to the Poetry Society again, 
                 and I am thankful that I am out of it. It is getting perfectly impossible, and they are asking the Harvard boys 
