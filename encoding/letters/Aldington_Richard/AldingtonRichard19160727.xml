@@ -87,7 +87,7 @@
         <body>
             <opener><dateline><date when="1916-07-27">July 27, 1916</date></dateline>
                 <salute>Dear <persName key="richard_aldington">Richard</persName>:</salute></opener>
-            <p>Your letter of the 13th of June came a few days ago, and I was delighted to get it, and to
+            <p>Your letter of the <date when="1916-06-13">13th of June</date> came a few days ago, and I was delighted to get it, and to
                 know that you were really in camp. However awful it is to break up one’s life in this way, if it
                 has to be done, I do think it is better to have it over, and not in anticipation.</p>
             <p>I have ordered “<title key="poetryReviewAmerica" level="j">The Poetry Review</title>” went to you via <persName key="hilda_doolittle">Hilda</persName>. In it you will find a short and
@@ -105,9 +105,9 @@
             <p>There is a new magazine being got up here. <persName key="james_oppenheim">James Oppenheim</persName> is the editor and 
                 <persName key="louis_untermeyer">Louis Untermeyer</persName> and <persName key="robert_frost">Robert Frost</persName> are two of the 
                 associate editors. It is to be called “<title key="sevenArts" level="j">The Seven Arts</title>”,
-                and is endowed at <measure type="currency" num="25000">$25,000.00</measure> a year for one year. <persName key="annette_rankine">The donor</persName>, whose name I do not know, is to
+                and is endowed at <measure type="currency" quantity="25000">$25,000.00</measure> a year for one year. <persName key="annette_rankine">The donor</persName>, whose name I do not know, is to
                 let them run it as they please for a year, and if at the end of the time he is not satisfied with the
-                result, he can withdraw his support; in which case they will try to raise the money on their year’s
+                result, he can withdraw his support; in which case they will try to raise the <pb n="02"/>money on their year’s
                 work. If, however, he is satisfied, as they hope he will be, the endowment will continue. They
                 wish to print things relating to all the arts, and they pay on acceptance. They have no propaganda
                 whatever, and are to be the spokesmen of no school. It sounds well; and although I do not
@@ -117,19 +117,19 @@
                 to put things into.</p>
             <p><persName key="ws_braithwaite">Braithwaite</persName> is considering your poems, and he will certainly take some of them, if not all.
                 What he does not take I shall send to <persName key="harriet_monroe">Harriet Monroe</persName>. Braithwaite does not pay as well as
-                Harriet, as you know. In fact, he pays painfully little, as <persName key="blanche_wagstaff">his backer</persName> has only <measure type="currency" num="2000">$2,000.00</measure> a year to
+                Harriet, as you know. In fact, he pays painfully little, as <persName key="blanche_wagstaff">his backer</persName> has only <measure type="currency" quantity="2000">$2,000.00</measure> a year to
                 put into the magazine. But the advantage is that he prints his things at once, and he already has a
                 much larger circulation than <title key="poetry" level="j">Harriet</title>. Their news stand sale last month was <measure quantity="3000" commodity="copies">three thousand copies</measure>.
                 This is exclusive of subscriptions. I have also sent him your essays, and I think he will certainly
                 take one of them. What he does not take I shall try to get printed elsewhere.</p>
-            <p>Our half-yearly account for the Anthology comes in on the first of August, and I sincerely
-                trust that I shall have some money to send you then. I sent Hilda a draft for <measure type="currency" num="10">ten dollars</measure>, which I
-                got out of <persName key="edmund_brown">Brown</persName> as the second payment on his agreement with me. He still owes you <measure type="currency" num="10">ten dollars</measure>
+            <p>Our half-yearly account for the Anthology comes in on the <date when ="1916-08-01">first of August</date>, and I sincerely
+                trust that I shall have some money to send you then. I sent Hilda a draft for <measure type="currency" quantity="10">ten dollars</measure>, which I
+                got out of <persName key="edmund_brown">Brown</persName> as the second payment on his agreement with me. He still owes you <measure type="currency" quantity="10">ten dollars</measure>
                 on that agreement. But as I have succeeded in getting two payments, I have no doubt that I shall
                 get the third in time, but probably not before Autumn. The poor devil is awfully stuck himself,
                 and has just married, into the bargain. But I shall try for the last payment as soon as I return to
                 town in the Autumn.</p>
-            <p>If you ever see “<title key="others" level="j">Others</title>”, you will be surprised to find a poem in the current number by
+            <p><pb n="03"/>If you ever see “<title key="others" level="j">Others</title>”, you will be surprised to find a poem in the current number by
                 me. I say you will be surprised, because I told you that Fletcher and I had agreed not to go into it.
                 This particular number is edited by <persName key="wc_williams">William Carlos Williams</persName>, and he wrote and begged me to
                 send something for his sake. I like Williams, but I told him that Fletcher and I had agreed to send
@@ -149,32 +149,32 @@
                 will take them or not.</p>
             <p>What you say about Hilda’s people hearing of our work in the West is very gratifying.
                 There is a woman named <persName key="katherine_howard">Katherine Howard</persName> who is acting the part of John the Baptist for us,
-                going from city to city in the <placeName key="pacificCoast">Pacific Coast</placeName> lecturing on our work for love, as she charges nothing
+                going from city to city in the <placeName key="pacificCoast">Pacific <pb n="04"/>Coast</placeName> lecturing on our work for love, as she charges nothing
                 for her lectures. She writes me that she has prepared the ground for me and that I must soon
                 come. I think I shall take the advice and go out next Spring.</p>
             <p>My lectures are extremely successful and, I think, have done considerable for the cause of
-                our work. I am speaking on “The New Poetry, With Special Reference to Imagism” in <placeName key="stLouis">St. Louis</placeName>
-                on November 7th, and I am giving four lectures on “Modern American Poets” at the
-                Brooklyn Institute of Arts and Sciences in January. These four lectures will also be repeated in
+                our work. I am speaking on <hi rend="quote">“The New Poetry, With Special Reference to Imagism”</hi> in <placeName key="stLouis">St. Louis</placeName>
+                on <date when ="1916-11-07">November 7th</date>, and I am giving four lectures on <hi rend="quote">“Modern American Poets”/hi> at the
+                <orgName key="brooklynInstitute">Brooklyn Institute of Arts and Sciences</orgName> in <date when="1917-01">January</date>. These four lectures will also be repeated in
                 <placeName key="boston">Boston</placeName> and <placeName key="chicago">Chicago</placeName>, and possibly in 
                 <placeName key="nyc">New York</placeName> and <placeName key="phildelphia">Philadelphia</placeName>. I am to talk before an elocution
-                school up here on “Poetry as a Spoken Art” next month. My four lectures on American
+                school up here on <hi rend="quote"></hi>“Poetry as a Spoken Art”</hi> next month. My four lectures on American
                 poets have one drawback for me, in that they do not permit me to include you and Flint, for
                 which I am extremely sorry; but it was unavoidable. I am, however, giving one lecture to the
                 American Imagists, in which I deal exclusively with Hilda and Fletcher, and I shall run in
                 remarks about you and Flint along with them.</p>
-            <p><persName key="dh_lawrence">Lawrence</persName> wrote me: “We are gaily ringing our last shilling.” Whether this means his or
+            <p><persName key="dh_lawrence">Lawrence</persName> wrote me: <quote type="english">“We are gaily ringing our last shilling.”</quote> Whether this means his or
                 England’s, I was unable to discover. I begged Fletcher to find out if he was in want, but he has
                 not done so yet. If you know, I wish you would let me know, as I should not like him to suffer,
                 and possibly the funds for such purposes which I left in Hilda’s hands are already exhausted. I
                 hope to have some money to send him when I hear from <orgName key="houghton_mifflin">Houghton Mifflin</orgName> next month.</p>
-            <p>My own book, “<title key="menWomenGhosts" level="m">Men, Women and Ghosts</title>”, has gone to press and will be out in October.
+            <p>My own book, “<title key="menWomenGhosts" level="m">Men, Women and Ghosts</title>”, has gone to press and will be out in <date when="1916-10">October</date>.
                 I hear from <persName key="ferris_greenslet">Ferris Greenslet</persName> that Hilda<anchor xml:id="n5"/> is to be issued in this country as one of the Autumn set of
-                the <title key="newPoetrySeries" level="s">New Poetry series</title>. That is good news, and I shall review the book for either Braithwaite or
+                the <title key="newPoetrySeries" level="s">New Poetry series</title>. That is <pb n="05"/>good news, and I shall review the book for either Braithwaite or
                 “The Seven Arts”. I forget whether I sent you my review of you and Flint in “The Poetry Review”;
                 but at any rate, it will come with the back numbers on the subscription I have just given for you.</p>
             <p>It is amusing to see, in this number of “Others”, that <persName key="conrad_aiken">Conrad Aiken</persName>, that arch-plagiarist, is
-                now trying to write a la (sic) Imagists, having gone through the stages of <persName key="john_masefield">Masefield</persName> and <persName key="el_masters">Masters</persName>!</p>
+                now trying to write <hi rend="underline">a la</hi> Imagists, having gone through the stages of <persName key="john_masefield">Masefield</persName> and <persName key="el_masters">Masters</persName>!</p>
             <p>I am afraid you will not like my new book much, as it is all stories, and some are in the
                 despised stanza form that you objected to so much in my last book. I am afraid I was born
                 eclectic and must write in every way to satisfy my soul. Some of these, however,
@@ -188,8 +188,8 @@
                 over, and you can be quite sure that as soon as it is I shall cross the ocean to see you all.</p>
             <closer>With much love,</closer>
         </body>
-        <back> 
-            <div type="notes"> 
+        <back>
+            <div type="notes">
                 <note target="#n1" resp="mb">Mary Aldis, "Some Imagist Poets, 1916," The Little Review, Vol. 3, No. 4 (June-July, 1916), pp. 26-32.</note>
                 <note target="#n2" resp="mb">Flint, "Three Imagist Poets," The Little Review, Vol. 3, No. 4 (June-July, 1916), pp. 32-41.</note>
                 <note target="#n3" resp="mb">Amy Lowell, "Malmaison," The Little Review, Vol. 3, No. 4 (June-July, 1916), pp. 1-6.</note>
