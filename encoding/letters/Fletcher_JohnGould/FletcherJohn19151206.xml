@@ -119,7 +119,7 @@
             <l>Some verbs expanded with that fearful “did,” </l>
             <l>Others condensed; and nothing neatly hid.</l>
           
-         <pb/>
+         <pb n="02"/>
           
             <l>Was that a style of which one could be proud?</l>
             <l>I ask you, and my horror cried out loud.</l>
@@ -143,7 +143,7 @@
             <l>They took me just ten minutes.</l>
          
             <l>P.S. The postscript holds the letter’s kernel, </l>
-            <l>So tell me, did you take the <title key="poetryJournal">Poetry Journal</title>?</l>
+            <l>So tell me, did you take the <title key="poetryJournal" level="j">Poetry Journal</title>?</l>
          </lg>
       </body>
    </text>
