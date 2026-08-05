@@ -90,7 +90,7 @@
             <p>This is not a letter, but merely a note to explain the enclosed, which is <persName key="guido_bruno">Bruno’s</persName>
                 <title key="brunosWeekly" level="j">publication</title>. It will give you the quality of the man and his work better than I can tell you. I think,
                 in fact, it will be an answer to your question as to what he is like.</p>
-            <p>I have just got the bill from <orgName key="houghton_mifflin">Houghton Mifflin</orgName> for our book and advertising, <measure type="currency" num="430.98">$430.98</measure>. It is
+            <p>I have just got the bill from <orgName key="houghton_mifflin">Houghton Mifflin</orgName> for our book and advertising, <measure type="currency" quantity="430.98">$430.98</measure>. It is
                 a bit staggering, but never mind! But I am afraid the sale will never make up the cost.</p>
         </body>
     </text>
