@@ -122,7 +122,7 @@
             better for the book, and I am sure he will not object. I cannot even send you copies of
             them with this letter, because Lawrence asked me to see if I could find a publisher, and
             I took them in to <persName key="ferris_greenslet">Ferris Greenslet</persName> yesterday, with a view to his publishing them in the
-            Autumn set of his <title key="newPoetrySeries">New Poetry Series</title>. He asked if he could keep them for a day or two,
+            Autumn set of his <title key="newPoetrySeries" level="s">New Poetry Series</title>. He asked if he could keep them for a day or two,
             and entirely forgetting that I wanted to make copies for you, I left them with him, and
             he has gone off to <placeName key="washington_dc">Washington</placeName> on business for a day or two, and I cannot possibly get
             hold of the poems until he comes back. This is excessively annoying, and I ought not to
@@ -142,9 +142,9 @@
             <placeName key="chicago">Chicago</placeName> on <date when="1916-03-19">March 19th</date>, and I am
             rather looking forward to it, as I should like to make some impression there. I think
             they are altogether too fond of <persName key="carl_sandburg">Sandberg</persName>, and <persName key="el_masters">Masters</persName>, and <persName key="vachel_lindsay">Lindsay</persName> in Chicago.</p>
-         <p>Ferris Greenslet has made a ridiculous mess of his <title key="newPoetrySeries" level="s">New Poetry Series</title> by putting in
+         <p>Ferris Greenslet has made a ridiculous mess of his New Poetry Series by putting in
             anything and everything, utterly regardless of its fitness, with the result that the
-            only volume of the Series which seems to be doing at all well is our <title key="some_imagist_poets">Anthology</title>. I think
+            only volume of the Series which seems to be doing at all well is our <title key="some_imagist_poets" level="m">Anthology</title>. I think
             that has really done pretty well, and apparently it is still selling, for when I went in
             there yesterday they told me that they had just had to take over 85 more copies of the
             220 copies of the second edition they had still unbound, and bind them – that since the
@@ -159,7 +159,7 @@
             there, and that the poem is not intended as a joke or a take-off.</p>
          <p>I have written to <persName key="harriet_monroe">Harriet</persName> to say that I have here any of your poems which she desires. I
             am not altogether pleased with her attitude just now; there seems to be a great deal of
-            <persName key="ezra_pound">Ezra</persName> in it, judging by <title key="poetry">the last number</title>, although you will see that I did succeed in
+            <persName key="ezra_pound">Ezra</persName> in it, judging by <title key="poetry" level="j">the last number</title>, although you will see that I did succeed in
             bullyragging her to put in <persName key="fs_flint">Flint’s</persName> things in time for us to use them. I think the best
             way would be for me to see Harriet when I go out, and read her these things and try to
             get her to take them. I have always found that I could do more with her by <pb n="04"/>personal
@@ -182,7 +182,7 @@
          <p>I am sending you an article in a Chicago monthly called the "<title key="trimmedLamp" level="j">Trimmed Lamp</title>," which I
             think shows the way the wind is blowing.</p>
          <p><persName key="mary_aldis">Mrs. Aldis</persName> wanted to offer a prize for an <orgName key="imagists">Imagist</orgName> poem,
-            through the auspices of "<title key="littleReview">The Little Review</title>"; but her judges were very peculiar: they consisted of myself, <persName key="arthur_ficke">Arthur Davidson Ficke</persName>, and <persName key="john_powys">John Powys</persName>. The whole thing seemed to me too absurd, and I
+            through the auspices of "<title key="littleReview" level="j">The Little Review</title>"; but her judges were very peculiar: they consisted of myself, <persName key="arthur_ficke">Arthur Davidson Ficke</persName>, and <persName key="john_powys">John Powys</persName>. The whole thing seemed to me too absurd, and I
             disapprove of prizes anyway, on principle, they so seldom get awarded justly; though, as
             a matter of fact, I think when prizes are, and one cannot help it, it is a fine thing to
             win them. But to begin with prizes for Imagist poems when almost nobody knows how to
