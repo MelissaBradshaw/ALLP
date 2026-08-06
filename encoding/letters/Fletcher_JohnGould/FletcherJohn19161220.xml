@@ -109,13 +109,13 @@
             and they now tell me that they think a third edition will be called for before long. 
          </p>
          <p>
-            Our <title key="some_imagist_poets" level="m">Imagist Anthology, 1916</title>, has just had, or is going to have, a second edition, so that we are all to the good over here. 
+            Our <title key="someImagistPoets" level="m">Imagist Anthology, 1916</title>, has just had, or is going to have, a second edition, so that we are all to the good over here. 
          </p>
          
          <p>
             I fear you may be disappointed at <persName key="ferris_greenslet">Ferris Greenslet’s</persName> having refused the manuscript you sent him. 
             I did my best to make him take it, but without success. They have lost so much money on 
-            “<title key="newPoetrySeries">The New Poetry Series</title>” (owing to their own stupidity) that they are getting very 
+            “<title key="newPoetrySeries" level="s">The New Poetry Series</title>” (owing to their own stupidity) that they are getting very 
             wary as to what they take – and we know already that Ferris Greenslet has no judgement. 
             I think you will stand more chance with your book of war poems, as Ferris 
             has a partiality for war poems. So I advise you to send it over as soon as you get it done. 
@@ -123,16 +123,16 @@
          <p>
             I was sorry you felt the way you did about <persName key="ws_braithwaite">Braithwaite</persName>. 
             His article is not worthy of being taken seriously. 
-            He told me <pb n="02"/>himself that it was written in the “<title key="transcript">Transcript</title>” office a half hour before it had to go to press. 
-            He has included your “<title>Lincoln</title>” in his <title key="magazineVerse">Anthology</title> – at least he had the last time 
+            He told me <pb n="02"/>himself that it was written in the “<title key="bostonTranscript" level="j">Transcript</title>” office a half hour before it had to go to press. 
+            He has included your “<title>Lincoln</title>” in his <title key="magazineVerse" level="j">Anthology</title> – at least he had the last time 
             I saw the manuscript – and his not putting it among those five poems was entirely a matter of space. He told me that himself. 
          </p>
          
          <p>
            Braithwaite is going down hill rapidly. He has so many irons in the fire that 
-           he pays less attention than ever to each one. “<title key="poetryReview">The Poetry Review</title>”, 
+           he pays less attention than ever to each one. “<title key="poetryReview" level="j">The Poetry Review</title>”, 
            as you have doubtless seen, is perfectly rotten, and he has now become 
-           the editor of another paper, a quarterly, called “<title key="stratfordJournal">The Stratford Journal</title>”, 
+           the editor of another paper, a quarterly, called “<title key="stratfordJournal" level="j">The Stratford Journal</title>”, 
            which bids fair to be worse than any of them. It does not deal particularly 
            with poetry, and the only number I have seen was really shockingly poor. 
          </p>
@@ -190,7 +190,7 @@
          </p>
          <p>
             I will not write any more now, as it is important to get this off. 
-            I wish you were here. Mrs. Russell and I constantly say how we wish 
+            I wish you were here. <persName key="ada_russell">Mrs. Russell</persName> and I constantly say how we wish 
             you were coming out to dinner. And you can’t think how much I miss the stimulus of our talks! 
          </p>
          <p>
