@@ -91,8 +91,9 @@
       <body>
          <opener><dateline><date when="1916-09-13">September 13, 1916.</date></dateline>
             <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
-         <p>I received your letter last night, containing <persName key="richard_aldington">Richard</persName>’s poems. I think "Prayer" and
-            "Bondage" are very beautiful. Whether or not I can sell them at once I do not know. You
+         <p>I received your letter last night, containing <persName key="richard_aldington">Richard</persName>’s poems. I think 
+            "<title key="prayer" level="a">Prayer</title>" and
+            "<title key="bondage" level="a">Bondage</title>" are very beautiful. Whether or not I can sell them at once I do not know. You
             see, I have already done considerable selling of Richard’s things of late. Papers like
             "<title key="sevenArts">The Seven Arts</title>" I do not think are very understanding in Imagist work. I fear "<title key="poetryReview">The Poetry Review</title>" is rather filled up to the present, and I know there is no use in asking
             <persName key="harriet_monroe">Harriet</persName> to buy more until she has published those she has. I think I shall try "<title key="century">The Century</title>" with one of these; but that is a very problematic amusement. Anyway, I will see
@@ -107,7 +108,7 @@
             criticism in all the arts, so that any articles on the war or anything of that sort
             would not be pertinent. But any critical article that Richard feels like sending, I am
             sure would meet with consideration.</p>
-         <p>I have told "The Dial" and everybody else with whom I have to do that</pb> I am acting here
+         <p>I have told "The Dial" and everybody else with whom I have to do that <pb n="02"/>I am acting here
             as Richard’s agent, and that they must send their cheques to me. By this process I know
             when he has been paid, and also I am on the spot and can enforce payment. "<title key="poetryReview">The Poetry Review</title>" wrote me the other day and asked me to whom they should send his cheque for the
             <persName key="stephane_mallarme">Mallarmé</persName> article, which was published this month, and I told them to send it to me; it
