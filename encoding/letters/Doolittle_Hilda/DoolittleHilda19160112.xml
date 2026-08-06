@@ -98,8 +98,8 @@
             this batch which you have sent us is that it oversteps our limits of space. As far as we
             are concerned, we should like to have them all in, but the publishers do not think it
             possible to print a larger book than we had last year in that series, for the price at
-            which that series is issued; and as in signing the contract the <title key="some_imagist_poets">Anthologies</title> 
-            were supposed to be a part of their <title key="newPoetrySeries">New Poetry Series</title>, I am afraid we must keep to
+            which that series is issued; and as in signing the contract the <title key="some_imagist_poets" level="m">Anthologies</title> 
+            were supposed to be a part of their <title key="newPoetrySeries" level="s">New Poetry Series</title>, I am afraid we must keep to
             our original plan.</p>
          <p>You remember that our rule last year was that we should each have a space which was
             about equal, and to make it as near as possible, we agreed to have either seven short
@@ -113,7 +113,7 @@
          <p>I sent you a batch of my own poems to choose from about ten days ago. But what Fletcher
             and I really think would be best for my contribution, if you agree, is "<title key="springDay" level="a">A Spring Day</title>,"
             "<title key="patterns" level="a">Patterns</title>," and "<title key="timeOfDearth" level="a">In a Time of Dearth</title>." You asked me to send some short poems, and I did
-            so, but I wrote with a <pb n="02"/>view to their being printed in "<title key="egoist">The Egoist</title>," not in the Anthology. I am very anxious not to appear with short
+            so, but I wrote with a <pb n="02"/>view to their being printed in "<title key="egoist" level="j">The Egoist</title>," not in the Anthology. I am very anxious not to appear with short
             poems in this Anthology, and I hope you will let me have my way in this. I take back my
             objection to "Patterns" because the poem has met with a better reception than anything I
             have ever done, and an amusing part of it is that it has even been parodied (a vicarious
@@ -147,7 +147,7 @@
             induce him to put in something else instead of it, Fletcher and I would be very
             grateful. I also understand why Richard wants the order he has here, and perhaps from
             the point of view of the War, it is the best order. I am naturally sorry not to have
-            "<title key="erosPsyche">Eros and Psyche</title>" open the book, as "Eros and Psyche" is the most considerable poem, and
+            "<title key="erosPsyche" level="a">Eros and Psyche</title>" open the book, as "Eros and Psyche" is the most considerable poem, and
             publishers always say that poems which open a book are half the battle. But we are quite
             willing to leave these in Richard’s order if he prefers. With my contribution, I should
             begin with "A Spring Day" and end with "In a Time of Dearth," because the poems read
@@ -219,7 +219,7 @@
             established magazines. I have the greatest difficulty with my own, and it is only
             occasionally that I get by.</p>
          <p>I have written to <persName key="alfred_kreymborg">Kreymborg</persName> refusing to be included 
-            in <title key="others">his Anthology</title>, and Fletcher has
+            in <title key="othersAnthology" level="m">his Anthology</title>, and Fletcher has
             done the same. I trust that you and Richard will follow our lead and write to him
             yourselves, although I think that none of your poems have yet appeared in his paper. But
             Richard has had poems in it, and the man will certainly print them without even asking
@@ -237,7 +237,7 @@
          <p>By the way, here is a funny thing. If you will read the 
             "<title key="hellenica" level="a">Hellenica</title> <pb n="06"/>by 
             <persName key="edward_obrien">Edward J. O’Brien</persName>
-            in the <date when="1915-12">December</date> "<title key="littleReview">Little Review</title>," you will see that we are having an effect. I do not of
+            in the <date when="1915-12">December</date> "<title key="littleReview" level="j">Little Review</title>," you will see that we are having an effect. I do not of
             course know whether these are real translations or whether they are original, but Mr.
             O’Brien has for years written the worst metrical prose I think I have ever read, and
             this certainly is an advance. Courage, my Children, we are getting there!</p>
