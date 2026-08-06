@@ -91,19 +91,20 @@
       <body>
          <opener><dateline><date when="1916-10-13">October 13, 1916.</date></dateline>
             <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
-         <p>I am enclosing a bank draft for <measure type="currency" num="£1.16">£ 1.16</measure>.
-            This represents <measure type="currency" num="$5">$5</measure> for <persName
+         <p>I am enclosing a bank draft for <measure type="currency" quantity="1.16">£ 1.16</measure>.
+            This represents <measure type="currency" quantity="5">$5</measure> for <persName
                key="richard_aldington">Richard</persName>’s article on "<persName
-               key="stephane_mallarme">Mallarmé</persName>" and <measure type="currency" num="$4"
-               >$4</measure> for his poems in the August "<title key="poetryReview">Poetry
+               key="stephane_mallarme">Mallarmé</persName>" and <measure type="currency" quantity="4"
+               >$4</measure> for his poems in the <date when="1916-08">August</date> "<title key="poetryReview">Poetry
                Review</title>".</p>
-         <p><persName key="martyn_johnson">Martyn Johnson</persName>, the editor of "<title key="dial">The Dial</title>", wrote to me the other day and asked me if I
+         <p><persName key="martyn_johnson">Martyn Johnson</persName>, the editor of "<title key="dial" level="j">The Dial</title>", wrote to me the 
+            other day and asked me if I
             could give him Richard’s address, as he was delighted with the <persName key="henri_deRegnier">Henry de Régnier</persName> article,
             and he wanted to have Richard do some more articles for him. I instantly told him to
-            write C/o "<title key="egoist">The Egoist</title>", and as "The Dial" has quite a circulation, I think it will be a
+            write C/o "<title key="egoist" level="j">The Egoist</title>", and as "The Dial" has quite a circulation, I think it will be a
             good thing for Richard, if he can find time to write anything for it.</p>
          <p>I saw a long letter in one of the numbers of "The Egoist" by <persName key="wc_williams">William Carlos Williams</persName>,
-            which I suppose he got in through <persName key="ezra_pound">Ezra</persName>. The "<title key="others">Others</title>" group has entirely failed,
+            which I suppose he got in through <persName key="ezra_pound">Ezra</persName>. The "<title key="others" level="j">Others</title>" group has entirely failed,
             apparently, and they are very bitter with us because we haven’t. I suppose that is
             inevitable. They failed because of the ridiculous manner in which they ran their paper,
             and the spirit of bad-boys-out-on-a-frolick which they permitted to imbue it. I have a
@@ -111,12 +112,13 @@
             attitude. The first letter I took half in fun, as you will see by my answer. The second
             letter is an astonishing document, and shows the fine Italian hand of Ezra. I enclose a
             copy of my answer. Please show these to Richard. It is as well to know our friends from
-            our enemies.</p></pb>
-         <p><persName key="john_fletcher">Fletcher</persName> writes me that you all dined together the other day. He also tells me that you
-            are all to have your poems in your hands on November first. That is good, because they
-            ought to be here to me by December first, and I will send my contributions to you to get
+            our enemies.</p>
+         <p><pb n="02"/><persName key="john_fletcher">Fletcher</persName> writes me that you all dined together the other day. He also tells me that you
+            are all to have your poems in your hands on <date when="1916-11-01">November first</date>. That is good, because they
+            ought to be here to me by <date when="1916-12-01">December first</date>, and I will send my contributions to you to get
             there by the same date.</p>
-         <p>I think Fletcher feels it would be better not to have another "<title key="some_imagist_poets">Anthology</title>", and I suppose
+         <p>I think Fletcher feels it would be better not to have another 
+            "<title key="some_imagist_poets" level="m">Anthology</title>", and I suppose
             as far as the effect of the movement is concerned it won’t make much difference whether
             we do or not. The "Anthology" has done its work, has lifted us out of the attitude of
             young charlatans in which Ezra had unfortunately left us, and has shown the world at
@@ -128,8 +130,8 @@
             publishers being willing or not, as we choose), we have told so many people that it was
             for three years and as our sales amply justify another number, I have come to the
             conclusion that it would be better for us to continue and round out our three years.
-            Also, the failure of "Others" and the success of our "Anthology" has proved that the
-            public does distinguish</pb><!--what should we do when a page break occurs in the middle of a word?--> between good work and charlatanism. Not that I think all the
+            Also, the failure of "<title key="othersAnthology" level="s">Others</title>" and the success of our "Anthology" has proved that the
+            public does distinguish <pb n="03"/>between good work and charlatanism. Not that I think all the
             "Others" contributors were charlatans. In spite of Williams’s childish bitterness and
             injustice, I think he is a sincere fellow and an honest worker, and I think various
             others of their contributors were so, too. Unfortunately the policy of the paper was the
@@ -146,7 +148,7 @@
             any of the other names by which main groups of artistic tendencies are known.</p>
          <p>Ezra and his group may bite and scratch all they want. As far as the public here is
             concerned, they do not exist. Much as I admire much of Ezra’s work, his output is so
-            slight that he has fallen into a backwater, and his violent diatribes against</pb> everything
+            slight that he has fallen into a backwater, and his violent diatribes against <pb n="04"/>everything
             and everybody have served to make him a laughing-stock. And those of his disciples who
             swear by him are not only in the backwater, they have never been out of it, and we need
             fear them no more than if they were gnats. Still, we stand in an awkward position, for
@@ -161,15 +163,15 @@
             self-control is evident in the increasing consideration with which we are treated by the
             world at large.</p>
          <p>I have not seen your book yet, as it is not out, over here; but Fletcher writes it is
-            very fine. I shall review it, either for "<title key="poetryReview">The Poetry Review</title>" or for <persName key="harriet_monroe">Harriet</persName>.</p>
+            very fine. I shall review it, either for "<title key="poetryReview" level="j">The Poetry Review</title>" or for <persName key="harriet_monroe">Harriet</persName>.</p>
          <p>My own book will be out in ten days or so, and I shall send you a copy at once. I shall
             be most grateful if you can review it as soon as possible for "The Egoist". There will
-            be things in it that neither you nor Richard will like nor subscribe</pb> to. I cannot see
+            be things in it that neither you nor Richard will like nor subscribe <pb n="04"/>to. I cannot see
             Imagism quite within the boundaries that you do. But there will be other things in the
             book which I think you will like – some old friends which you have already said you
             liked.</p>
          <closer>With lots of love to Richard, Affectionately,</closer>
-         <postscript>P.S. We have sold 700 copies of our 2nd Anthology to date.</postscript>
+         <postcript>P.S. We have sold 700 copies of our 2nd Anthology to date.</postscript>
       </body>
    </text>
 </TEI>
