@@ -91,14 +91,16 @@
       <body>
          <opener>CABLEGRAM
             <dateline><date when="1916-12-22">December 22, 1916</date></dateline></opener>     
-         <persName key="hilda_doolittle">MRS. RICHARD ALDINGTON</persName>
-         44 Mecklenburghe Square
-         <placeName key="london">London</placeName>, W. C. 
-         <placeName key="england">England</placeName>
+         <p><address>
+            <addrLine><persName key="hilda_doolittle">MRS. RICHARD ALDINGTON</persName></addrLine>
+            <addrLine>44 Mecklenburghe Square</addrLine>
+            <addrLine><placeName key="london">London</placeName>, W. C.</addrLine> 
+            <addrLine><placeName key="england">England</placeName></addrLine>
+         </address></p>
          
          
-        <closer> Merry Christmas to you and <persName key="richard_aldington">Richard</persName>.
-         <persName key="amy_lowell">Amy Lowell</persName></closer>   
+        <p>Merry Christmas to you and <persName key="richard_aldington">Richard</persName>.</p>
+         <closer><persName key="amy_lowell">Amy Lowell</persName></closer>   
       </body>
    </text>
 </TEI>
