@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The Amy Lowell Letters Project — Design Wireframe</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Nimbus+Mono+PS:wght@400;700&family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper: #ece3cd;
+    --paper-2: #f4ecd8;
+    --paper-dark: #ddd1b0;
+    --ink: #262019;
+    --ink-soft: #4a4238;
+    --carbon: #34324f;
+    --carbon-light: #6d6b93;
+    --ribbon-blue: #375062;
+    --ribbon-blue-soft: #557C99;
+    --line: rgba(38,32,25,0.28);
+    --line-soft: rgba(38,32,25,0.14);
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:
+      radial-gradient(ellipse at 20% 10%, rgba(255,255,255,0.35), transparent 40%),
+      repeating-linear-gradient(0deg, rgba(0,0,0,0.015) 0px, rgba(0,0,0,0.015) 1px, transparent 1px, transparent 3px),
+      var(--paper);
+    color: var(--ink);
+    font-family: 'Nimbus Mono PS', monospace;
+    line-height: 1.55;
+  }
+  .type{ font-family: 'Nimbus Mono PS', monospace; }
+  a{ color: var(--carbon); }
+  .wrap{ max-width: 1180px; margin: 0 auto; padding: 0 28px; }
+
+  /* ===== masthead / letterhead ===== */
+  .masthead{
+    border-bottom: 3px double var(--ink);
+    padding: 22px 0 14px;
+  }
+  .masthead .row{ display:flex; align-items:flex-end; justify-content:space-between; gap:20px; flex-wrap:wrap; }
+  .masthead h1{
+    font-family:'Nimbus Mono PS', monospace;
+    font-size: 30px; letter-spacing: 2px; margin:0 0 6px;
+    text-transform: uppercase;
+  }
+  
+
+  nav.tabs{ display:flex; gap:2px; margin-top:16px; flex-wrap:wrap; }
+  nav.tabs button{
+    font-family:'Nimbus Mono PS', monospace; font-size:12px; letter-spacing:0.5px;
+    background: var(--paper-dark); color: var(--ink-soft);
+    border: 1px solid var(--line); border-bottom:none;
+    padding: 9px 18px 8px; cursor:pointer; text-transform:uppercase;
+    border-radius: 6px 6px 0 0; position:relative; top:1px;
+  }
+  nav.tabs button.active{ background: var(--paper-2); color:var(--ink); border-bottom:1px solid var(--paper-2); font-weight:700; }
+  .tabsline{ border-bottom: 1px solid var(--line); }
+
+  section.view{ display:none; padding: 34px 0 64px; }
+  section.view.active{ display:block; }
+
+  h2.section-title{ font-family:'Nimbus Mono PS', monospace; font-size:19px; letter-spacing:1px; text-transform:uppercase; margin: 0 0 4px; }
+  .kicker{ font-size:11px; letter-spacing:1.5px; text-transform:uppercase; color:var(--ribbon-blue); margin-bottom:6px; }
+  .lede{ color:var(--ink-soft); font-family:'EB Garamond', serif; font-size:16px; max-width:640px; }
+
+  /* ===== HOME: hero ===== */
+  .hero{ display:grid; grid-template-columns: 1.05fr 1fr; gap:36px; margin-top:22px; align-items:center; }
+  @media (max-width:860px){ .hero{ grid-template-columns:1fr; } }
+  .hero-copy p{ font-family:'EB Garamond', serif; font-size:17px; color:var(--ink-soft); }
+  .hero-copy .type-line{ font-family:'Nimbus Mono PS',monospace; font-size:14px; color:var(--carbon); margin-top:14px; }
+  .pill-row{ display:flex; gap:8px; margin-top:18px; flex-wrap:wrap; }
+  .pill{ border:1px solid var(--ink); border-radius:14px; padding:5px 12px; font-size:11px; font-family:'Nimbus Mono PS',monospace; text-transform:uppercase; letter-spacing:0.5px; }
+
+  /* network svg */
+  .netcard{ border:1px solid var(--line); background: var(--paper-2); border-radius:4px; padding:10px; position:relative; }
+  .netcard::before{ content:"fig. 1 — lowell as node"; position:absolute; bottom:-20px; left:6px; font-size:10px; color:var(--ink-soft); letter-spacing:0.5px; }
+  .node-label{ font-family:'Nimbus Mono PS',monospace; font-size:9.5px; fill:var(--ink); }
+  .node circle{ fill:var(--paper-2); stroke:var(--carbon); stroke-width:1.3; }
+  .node.center circle{ fill:var(--ribbon-blue); stroke:var(--ink); }
+  .node.center text{ fill:var(--paper-2); font-weight:700; }
+  .edge{ stroke:var(--carbon-light); stroke-width:1; stroke-dasharray:2 2; }
+  .node{ cursor:pointer; }
+  .node circle:hover{ stroke:var(--ribbon-blue); stroke-width:2; }
+
+  /* pathway cards */
+  .paths{ display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:14px; margin-top:30px; }
+  .path-card{ border:1px solid var(--ink); background:var(--paper-2); padding:16px 16px 14px; border-radius:2px; position:relative; }
+  .path-card::after{ content:""; position:absolute; inset:5px; border:1px dashed var(--line); pointer-events:none; }
+  .path-card .num{ font-family:'Nimbus Mono PS',monospace; font-size:10px; color:var(--ribbon-blue); letter-spacing:1px; }
+  .path-card h3{ font-family:'Nimbus Mono PS',monospace; font-size:14.5px; margin:6px 0 6px; text-transform:uppercase; letter-spacing:0.5px; }
+  .path-card p{ font-size:12px; color:var(--ink-soft); margin:0; font-family:'Nimbus Mono PS',monospace; }
+
+  /* featured letter teaser 
+  .teaser{ margin-top:34px; border-top:1px solid var(--line); padding-top:22px; display:grid; grid-template-columns: 200px 1fr; gap:22px; align-items:center; }
+  @media (max-width:700px){ .teaser{ grid-template-columns:1fr; } }
+  .carbon-swatch{ height:130px; background: linear-gradient(135deg, var(--carbon), var(--carbon-light)); border-radius:2px; position:relative; opacity:0.92; }
+  .carbon-swatch span{ position:absolute; bottom:8px; left:8px; color:var(--paper-2); font-family:'Nimbus Mono PS',monospace; font-size:10px; letter-spacing:1px; }
+*/
+  /* ===== BROWSE ===== */
+  .browse-controls{ display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap; margin:18px 0 22px; }
+  .toggle-group{ display:flex; border:1px solid var(--ink); border-radius:16px; overflow:hidden; }
+  .toggle-group button{ font-family:'Nimbus Mono PS',monospace; font-size:11px; text-transform:uppercase; letter-spacing:0.5px; padding:8px 16px; background:var(--paper); border:none; cursor:pointer; color:var(--ink-soft); }
+  .toggle-group button.active{ background:var(--ink); color:var(--paper-2); }
+  .browse-layout{ display:grid; grid-template-columns: 210px 1fr; gap:26px; }
+  @media (max-width:800px){ .browse-layout{ grid-template-columns:1fr; } }
+  .filters{ border-right:1px solid var(--line); padding-right:18px; }
+  .filters h4{ font-family:'Nimbus Mono PS',monospace; font-size:11.5px; text-transform:uppercase; letter-spacing:1px; margin:0 0 8px; color:var(--ink-soft); }
+  .filters .grp{ margin-bottom:20px; }
+  .filters label{ display:block; font-size:12px; margin-bottom:5px; }
+  .filters input[type=range]{ width:100%; accent-color:var(--ribbon-blue); }
+  .filters .yrs{ display:flex; justify-content:space-between; font-size:10.5px; color:var(--ink-soft); }
+
+  .mag-grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(128px,1fr)); gap:16px; }
+  .mag{ position:relative; border:1px solid var(--ink); aspect-ratio:3/4; padding:10px; display:flex; flex-direction:column; justify-content:space-between; cursor:pointer; overflow:hidden; }
+  .mag .title{ font-family:'Nimbus Mono PS',monospace; font-size:13px; line-height:1.25; text-transform:uppercase; }
+  .mag .meta{ font-size:9.5px; color:var(--ink-soft); }
+  .mag .overlay{ position:absolute; inset:0; background:rgba(38,32,25,0.94); color:var(--paper-2); padding:10px; font-size:10px; opacity:0; transition:opacity .15s; display:flex; flex-direction:column; }
+  .mag:hover .overlay{ opacity:1; }
+  .mag .overlay b{ font-family:'Nimbus Mono PS',monospace; font-size:10px; display:block; margin-bottom:6px; text-transform:uppercase; letter-spacing:0.5px; }
+  .mag .overlay ul{ margin:0; padding-left:14px; font-family:'Nimbus Mono PS',monospace; }
+  .mag.c1{ background:#e3d7bd; } .mag.c2{ background:#d9cdb4; } .mag.c3{ background:#ece1c8; } .mag.c4{ background:#e0d3ba; } .mag.c5{ background:#d6c9ae; } .mag.c6{ background:#e7dbc1; }
+
+  .network-view{ display:none; }
+  .network-view.active{ display:block; }
+  .mag-grid-view{ display:block; }
+  .mag-grid-view.hidden{ display:none; }
+
+  .netbig{ border:1px solid var(--line); background:var(--paper-2); padding:14px; }
+  .netbig figcaption{ font-size:10.5px; color:var(--ink-soft); margin-top:8px; }
+
+  /* ===== LETTER DETAIL ===== */
+  .letter-layout{ display:grid; grid-template-columns: 1fr 260px; gap:28px; margin-top:20px; }
+  @media (max-width:820px){ .letter-layout{ grid-template-columns:1fr; } }
+  .facsimile{ background:var(--paper-2); border:1px solid var(--ink); box-shadow: 6px 6px 0 var(--paper-dark); padding:34px 38px; position:relative; }
+  .facsimile::before{ content:""; position:absolute; left:0; top:0; bottom:0; width:6px; background:repeating-linear-gradient(180deg, var(--carbon), var(--carbon) 6px, var(--carbon-light) 6px, var(--carbon-light) 12px); }
+  .letterhead{ font-family:'Courier Prime',monospace; font-size:12px; text-transform:uppercase; letter-spacing:1px; color:var(--ink-soft); margin-bottom:18px; }
+  .letter-date{ text-align:right; font-family:'Courier Prime',monospace; font-size:12px; margin-bottom:22px; }
+  .letter-body p{ font-family:'Courier Prime',monospace; font-size:14px; margin:0 0 14px; }
+  .strike{ text-decoration: line-through; color:var(--ribbon-blue-soft); }
+  .glossary{ border-bottom:1px dotted var(--carbon); cursor:help; }
+  .letter-sign{ margin-top:26px; font-family:'Courier Prime',monospace; font-size:13px; }
+
+  .side-panel .block{ border-top:1px solid var(--line); padding:14px 0; }
+  .side-panel .block:first-child{ border-top:none; padding-top:0; }
+  .side-panel h4{ font-family:'Courier Prime',monospace; font-size:11px; text-transform:uppercase; letter-spacing:1px; margin:0 0 6px; color:var(--ink-soft); }
+  .side-panel p, .side-panel div.val{ font-size:12.5px; margin:0; }
+  .mini-net{ margin-top:6px; }
+  .nav-arrows{ display:flex; justify-content:space-between; margin-top:16px; }
+  .nav-arrows button{ font-family:'Courier Prime',monospace; font-size:11px; background:none; border:1px solid var(--ink); padding:7px 12px; cursor:pointer; }
+
+  footer{ border-top:3px double var(--ink); padding:26px 0 40px; margin-top:10px; }
+  footer .ped{ font-family:'EB Garamond',serif; font-size:14px; color:var(--ink-soft); max-width:680px; }
+  footer .cite{ font-size:11px; color:var(--ink-soft); margin-top:14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="masthead">
+    <div class="row">
+      <div>
+        <h1>The Amy Lowell Letters Project<span class="cursor"></span></h1>
+        <div class="sub">a digital archive of correspondence or other subtitle here</div>
+      </div>
+     
+    </div>
+    <nav class="tabs">
+      <button class="active" data-view="home">Home</button>
+      <button data-view="browse">Browse &amp; Discover</button>
+      <button data-view="letter">Letter View</button>
+    </nav>
+  </div>
+  <div class="tabsline"></div>
+
+  <!-- ===================== HOME ===================== -->
+  <section class="view active" id="home">
+    <div class="hero">
+      <div class="hero-copy">
+        
+        <h2 class="section-title">Amy Lowell: writer, editor, poet</h2>
+        <p>about Lowell and project: ex: Amy Lowell wrote and received thousands of letters — to editors, publishers, poets, and rivals — carbon copies of which she kept meticulously, typed on her own machine. This archive treats each letter not as an isolated document but as one strand in a wider correspondence network radiating outward from Lowell herself.</p>
+        <div class="type-line">&gt; select a node, or a pathway below, to begin reading.</div>
+       
+      </div>
+      <div>
+        <div class="netcard">
+          <svg viewBox="0 0 340 260" width="100%">
+            <line class="edge" x1="170" y1="130" x2="60" y2="55"/>
+            <line class="edge" x1="170" y1="130" x2="170" y2="35"/>
+            <line class="edge" x1="170" y1="130" x2="280" y2="55"/>
+            <line class="edge" x1="170" y1="130" x2="45" y2="150"/>
+            <line class="edge" x1="170" y1="130" x2="60" y2="225"/>
+            <line class="edge" x1="170" y1="130" x2="170" y2="230"/>
+            <line class="edge" x1="170" y1="130" x2="280" y2="220"/>
+            <line class="edge" x1="170" y1="130" x2="295" y2="140"/>
+            <g class="node"><circle cx="60" cy="55" r="30"/><text class="node-label" x="60" y="52" text-anchor="middle">Poetry</text><text class="node-label" x="60" y="63" text-anchor="middle">magazine</text></g>
+            <g class="node"><circle cx="170" cy="35" r="26"/><text class="node-label" x="170" y="39" text-anchor="middle">The Dial</text></g>
+            <g class="node"><circle cx="280" cy="55" r="28"/><text class="node-label" x="280" y="52" text-anchor="middle">The</text><text class="node-label" x="280" y="62" text-anchor="middle">Egoist</text></g>
+            <g class="node"><circle cx="45" cy="150" r="27"/><text class="node-label" x="45" y="147" text-anchor="middle">Ezra</text><text class="node-label" x="45" y="157" text-anchor="middle">Pound</text></g>
+            <g class="node center"><circle cx="170" cy="130" r="38"/><text class="node-label" x="170" y="127" text-anchor="middle">Amy</text><text class="node-label" x="170" y="139" text-anchor="middle">Lowell</text></g>
+            <g class="node"><circle cx="295" cy="140" r="26"/><text class="node-label" x="295" y="144" text-anchor="middle">D.H.</text><text class="node-label" x="295" y="154" text-anchor="middle" dy="0">Lawrence</text></g>
+            <g class="node"><circle cx="60" cy="225" r="28"/><text class="node-label" x="60" y="222" text-anchor="middle">Houghton</text><text class="node-label" x="60" y="232" text-anchor="middle">Mifflin</text></g>
+            <g class="node"><circle cx="170" cy="230" r="27"/><text class="node-label" x="170" y="227" text-anchor="middle">Others</text><text class="node-label" x="170" y="237" text-anchor="middle">magazine</text></g>
+            <g class="node"><circle cx="280" cy="220" r="27"/><text class="node-label" x="280" y="217" text-anchor="middle">J.G.</text><text class="node-label" x="280" y="227" text-anchor="middle">Fletcher</text></g>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="paths">
+      <div class="path-card">
+        <div class="num">Pathway 01</div>
+        <h3>Chronological</h3>
+        <p>Move through the correspondence letter by letter, year by year</p>
+      </div>
+      <div class="path-card">
+        <div class="num">Pathway 02</div>
+        <h3>By magazine</h3>
+        <p>Browse the little magazines Lowell shaped and sparred with — incl thumbnail covers, </p>
+      </div>
+      <div class="path-card">
+        <div class="num">Pathway 03</div>
+        <h3>By correspondent</h3>
+        <p>An index-card catalog of editors, publishers, and poets —</p>
+      </div>
+      <div class="path-card">
+        <div class="num">Pathway 04</div>
+        <h3>Network explorer</h3>
+        <p>Zoom out to the full web of relationships and follow threads outward from any single node.</p>
+      </div>
+    </div>
+/*  could include a preview or teaser for featured letter */
+    
+    
+  </section>
+
+  <!-- ===================== BROWSE ===================== -->
+  <section class="view" id="browse">
+    
+    <h2 class="section-title">Browse the correspondence</h2>
+ — plus a network view for exploratory, non-linear discovery.</p>    <p class="lede">Explanatory text: this is grid of publications Lowell corresponded through, each revealing its correspondents on hover
+
+    <div class="browse-controls">
+      <div class="toggle-group">
+        <button class="active" id="btn-grid">Grid</button>
+        <button id="btn-net">Network</button>
+      </div>
+      <div class="type-line" style="font-size:11px; color:var(--ink-soft);">showing 6 of XXX publications</div>
+    </div>
+
+    <div class="browse-layout">
+      <div class="filters">
+        <div class="grp">
+          <h4>Date range</h4>
+          <input type="range" min="1902" max="1925" value="1925" step="1">
+          <div class="yrs"><span>1902</span><span>1925</span></div>
+        </div>
+        <div class="grp">
+          <h4>Correspondent type</h4>
+          <label><input type="checkbox" checked> Editors</label>
+          <label><input type="checkbox" checked> Publishers</label>
+          <label><input type="checkbox" checked> Poets</label>
+          <label><input type="checkbox"> Critics</label>
+        </div>
+        <div class="grp">
+          <h4>Also browse by</h4>
+          <label>— Publisher</label>
+          <label>— Editor</label>
+          <label>— Recipient</label>
+        </div>
+      </div>
+
+      <div>
+        <div class="mag-grid-view" id="grid-view">
+          <div class="mag-grid">
+            <div class="mag c1"><div class="title">Poetry</div><div class="meta">Chicago, 1912–</div>
+              <div class="overlay"><b>Lowell corresponded with</b><ul><li>Harriet Monroe</li><li>Ezra Pound</li><li>Alice Corbin</li></ul></div>
+            </div>
+            <div class="mag c2"><div class="title">The Dial</div><div class="meta">Chicago/NY</div>
+              <div class="overlay"><b>Lowell corresponded with</b><ul><li>Scofield Thayer</li><li>Marianne Moore</li></ul></div>
+            </div>
+            <div class="mag c3"><div class="title">The Egoist</div><div class="meta">London, 1914–19</div>
+              <div class="overlay"><b>Lowell corresponded with</b><ul><li>Harriet Weaver</li><li>T.S. Eliot</li></ul></div>
+            </div>
+            <div class="mag c4"><div class="title">Others</div><div class="meta">NJ, 1915–19</div>
+              <div class="overlay"><b>Lowell corresponded with</b><ul><li>Alfred Kreymborg</li><li>William C. Williams</li></ul></div>
+            </div>
+            <div class="mag c5"><div class="title">The Little Review</div><div class="meta">Chicago/NY</div>
+              <div class="overlay"><b>Lowell corresponded with</b><ul><li>Margaret Anderson</li></ul></div>
+            </div>
+            <div class="mag c6"><div class="title">Contemporary Verse</div><div class="meta">Philadelphia</div>
+              <div class="overlay"><b>Lowell corresponded with</b><ul><li>Charles Wharton Stork</li></ul></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="network-view" id="net-view">
+          <figure class="netbig">
+            <svg viewBox="0 0 640 320" width="100%">
+              <line class="edge" x1="320" y1="160" x2="120" y2="70"/>
+              <line class="edge" x1="320" y1="160" x2="320" y2="45"/>
+              <line class="edge" x1="320" y1="160" x2="520" y2="70"/>
+              <line class="edge" x1="320" y1="160" x2="90" y2="200"/>
+              <line class="edge" x1="320" y1="160" x2="320" y2="280"/>
+              <line class="edge" x1="320" y1="160" x2="540" y2="220"/>
+              <line class="edge" x1="120" y1="70" x2="60" y2="130"/>
+              <line class="edge" x1="520" y1="70" x2="580" y2="130"/>
+              <g class="node"><circle cx="120" cy="70" r="30"/><text class="node-label" x="120" y="74" text-anchor="middle">Poetry</text></g>
+              <g class="node"><circle cx="60" cy="130" r="20"/><text class="node-label" x="60" y="134" text-anchor="middle">H. Monroe</text></g>
+              <g class="node"><circle cx="320" cy="45" r="26"/><text class="node-label" x="320" y="49" text-anchor="middle">The Dial</text></g>
+              <g class="node"><circle cx="520" cy="70" r="28"/><text class="node-label" x="520" y="74" text-anchor="middle">The Egoist</text></g>
+              <g class="node"><circle cx="580" cy="130" r="20"/><text class="node-label" x="580" y="134" text-anchor="middle">T.S. Eliot</text></g>
+              <g class="node center"><circle cx="320" cy="160" r="36"/><text class="node-label" x="320" y="157" text-anchor="middle">Amy</text><text class="node-label" x="320" y="169" text-anchor="middle">Lowell</text></g>
+              <g class="node"><circle cx="90" cy="200" r="27"/><text class="node-label" x="90" y="204" text-anchor="middle">Others</text></g>
+              <g class="node"><circle cx="320" cy="280" r="27"/><text class="node-label" x="320" y="284" text-anchor="middle">H. Mifflin</text></g>
+              <g class="node"><circle cx="540" cy="220" r="27"/><text class="node-label" x="540" y="224" text-anchor="middle">Little Review</text></g>
+            </svg>
+            <figcaption>fig. 2 — exploratory network view. click any node to filter the archive to that correspondent or publication.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== LETTER ===================== -->
+  <section class="view" id="letter">
+    <div class="kicker">Design concept — XSLT stylesheet rendering</div>
+    <h2 class="section-title">Reading guide/how to read letter</h2>
+    <p class="lede">What we want readers to be aware of, e.g. annotations, strikethrough, corrections, etc. 
+    <div class="letter-layout">
+      <div class="facsimile">
+        <div class="letterhead">Sevenels · 70 Heath Street · Brookline, Massachusetts</div>
+        <div class="letter-date">April 3, 1916</div>
+        <div class="letter-body">
+          <p>Dear Miss Monroe,</p>
+          <p>I return herewith the <span class="glossary" title="Lowell's term for tightly-imaged, unrhymed free verse.">unrhymed cadences</span> you asked after, though I confess <span class="strike">I am furious</span> I remain unconvinced that <em>Poetry</em> has given the Imagists their due this quarter.</p>
+          <p>You will recall that Mr. Pound and I no longer see eye to eye on the matter of the anthology, and I should like this carbon kept on file so there can be no confusion as to what passed between us.</p>
+        </div>
+        <div class="letter-sign">— A.L.</div>
+      </div>
+
+      <div class="side-panel">
+        <div class="block">
+          <h4>Recipient</h4>
+          <div class="val">Harriet Monroe, editor, <em>Poetry</em></div>
+        </div>
+        <div class="block">
+          <h4>Date</h4>
+          <div class="val">April 3, 1916</div>
+        </div>
+        <div class="block">
+          <h4>Archive</h4>
+          <div class="val">Houghton Library, MS Lowell 19.1 (447)</div>
+        </div>
+        <div class="block">
+          <h4>This letter's node</h4>
+          <svg class="mini-net" viewBox="0 0 220 90" width="100%">
+            <line class="edge" x1="60" y1="45" x2="160" y2="45"/>
+            <g class="node center"><circle cx="60" cy="45" r="24"/><text class="node-label" x="60" y="49" text-anchor="middle">Lowell</text></g>
+            <g class="node"><circle cx="160" cy="45" r="24"/><text class="node-label" x="160" y="42" text-anchor="middle">H.</text><text class="node-label" x="160" y="52" text-anchor="middle">Monroe</text></g>
+          </svg>
+        </div>
+        <div class="block">
+          <h4>How to Cite</h4>
+          <div class="val"> Amy Lowell to Harriet Monroe, April 3 1916, MS Lowell 19.1 (447), Houghton Library, Harvard University. — The Amy Lowell Letters Project</div>
+        <div class="block">
+          <button style="font-family:'Special Elite',monospace; font-size:11px; border:1px solid var(--ink); background:none; padding:6px 12px; cursor:pointer;">Link to Houghton</button>
+        </div>
+        <div class="block">
+          <button style="font-family:'Special Elite',monospace; font-size:11px; border:1px solid var(--ink); background:none; padding:6px 12px; cursor:pointer;">Download XML</button>
+        </div>
+        <div class="block">
+          <button style="font-family:'Special Elite',monospace; font-size:11px; border:1px solid var(--ink); background:none; padding:6px 12px; cursor:pointer;">Link to Houghton</button>
+        </div>
+        <div class="nav-arrows">
+          <button>&larr; prev, chronological</button>
+          <button>next &rarr;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="kicker">Editorial / pedagogical note</div>
+    <p class="ped">Struck-through words, corrections, and marginalia record a moment of composition, not just its final form. Students using this archive are invited to compare carbons against recipients' originals where both survive, and to ask: whose voice does an archive preserve, and whose does it silence?</p>
+  <p class="ped">This project is funded by the National Endowment for the Humanities and supported by The Center for Textual Studies and Digital Humanities, Loyola University Chicago</p>
+  </footer>
+
+</div>
+
+<script>
+  const tabs = document.querySelectorAll('nav.tabs button');
+  const views = document.querySelectorAll('section.view');
+  tabs.forEach(btn => btn.addEventListener('click', () => {
+    tabs.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    views.forEach(v => v.classList.remove('active'));
+    document.getElementById(btn.dataset.view).classList.add('active');
+  }));
+
+  const gridBtn = document.getElementById('btn-grid');
+  const netBtn = document.getElementById('btn-net');
+  const gridView = document.getElementById('grid-view');
+  const netView = document.getElementById('net-view');
+  gridBtn.addEventListener('click', () => {
+    gridBtn.classList.add('active'); netBtn.classList.remove('active');
+    gridView.classList.remove('hidden'); netView.classList.remove('active');
+  });
+  netBtn.addEventListener('click', () => {
+    netBtn.classList.add('active'); gridBtn.classList.remove('active');
+    gridView.classList.add('hidden'); netView.classList.add('active');
+  });
+</script>
+</body>
+</html>
