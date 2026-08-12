@@ -95,14 +95,14 @@
             <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
          <p>I have your letter of <date when="1918-05-09">May 9th</date>. You did not date it, but that is what the postmark says,
             so I suppose that is right.</p>
-         <p>I am awfully glad that you agree with me about <persName key="richard_aldington">Richard</persName>’s poems. I was so afraid you
+         <p>I am awfully glad that you agree with me about <persName key="richard_aldington">Richard’s</persName> poems. I was so afraid you
             would not, and I hated to seem disagreeable. I know that what I said about them is true,
             but I do not think that I can produce any effect on him. I am too far away, and he
             would probably think me too far removed from the life he is leading to understand his
             attitude. In fact, that is evidently what he does think, for I have had a letter from
-            him written on <date when="1918-05-14">May 14th</date>. He says that he is quite willing to delete the dates in "Nights
-            of Love" but he does not seem to want to make any other changes. He says, with reference
-            to the other points: "I think the lines you quote should be clear to the unbiased mind."
+            him written on <date when="1918-05-14">May 14th</date>. He says that he is quite willing to delete the dates in 
+            "<title key="nightsOfLove" level="a">Nights of Love</title>" but he does not seem to want to make any other changes. He says, with reference
+            to the other points: <quote type="english">I think the lines you quote should be clear to the unbiased mind."</quote>
             That seems to settle it, and I do not know what else I can do. It is very good of you to
             think that I have some influence over him and can help him, but I am afraid I have been
             away from him too long, and he knows too little about the march of my own work to have
@@ -114,32 +114,32 @@
             will thank you later. But of course that must be for you to decide.</p>
          <p>In giving the poems to <persName key="brown">Brown</persName> over my head, he of course took away my authority, and
             Brown is not a man to stickle at printing anything. His chief business is printing books
-            which other publishers do not want,</pb> and he regards himself as emancipated in
+            which other publishers do not want, <pb n="02"/>,and he regards himself as emancipated in
             consequence, and pioneers of emancipation seldom admit the law of taste, and as the
             publisher is willing to print them as they are, and Richard wants them so printed, I am
             afraid I have absolutely no authority. I wish I had. I wish I could have got <orgName key="macmillan">Macmillan</orgName>
             to take them, and I wish he could have made the changes. I am also very sorry that he
             gave them to Brown, for I doubt if they ever see the light of day. Brown has had a book
-            of <persName key="john_fletcher">Fletcher</persName>’s for two years, and it is not out yet. Perhaps that last will be the saving
+            of <persName key="john_fletcher">Fletcher's</persName> for two years, and it is not out yet. Perhaps that last will be the saving
             of the situation, although now that he has signed the contract, I doubt whether he could
             get the book back from Brown if he wanted it. I will answer this letter of his of
             course, but I have no hope of there being any change in his attitude unless you can
             bring it about.</p>
          <p>Are you all alone in <placeName key="cornwall">Cornwall</placeName>, or have you some one with you? Do write often. It seems
-            so long since I have seen you all, and now that we have no <title key="some_imagist_poets">Anthology</title> to keep us
+            so long since I have seen you all, and now that we have no <title key="some_imagist_poets" level="m">Anthology</title> to keep us
             together, there is of course a danger of our drifting apart unless we keep on
             writing.</p>
          <p>I am not surprised that Fletcher sets himself up, as you say. That is what I gathered
             from his letters. I am afraid his idiosyncrasies are growing on him, and that he has
             very little future. I will send you my new book when it comes out in the Autumn. I am
-            calling it "Can Grande’s Castle," and I am using Richard’s poem, "At the British
-            Museum," – that is, quotations from it – as my motto. I am not at all sure whether you
-            will like the book as it is all in "polyphonic prose," but I hope you will.</p>
+            calling it "<title key="canGrandesCastle" level="m">Can Grande’s Castle</title>," and I am using Richard’s poem, 
+            "<title key="atTheBM" level="a">At the British Museum</title>," – that is, quotations from it – as my motto. I am not at all sure whether you
+            will like the book as it is all in <hi rend="quote">"polyphonic prose,"</hi> but I hope you will.</p>
          <p>Much love from both <persName key="ada_russell">Mrs. Russell</persName> and me, dear Hilda, and you can count on me always. I
-            wish I could induce Richard to change some of those</pb> poems, but you see how it is.</p>
+            wish I could induce Richard to change some of those <pb n="03"/>poems, but you see how it is.</p>
          <closer>Always affectionately,</closer>
-         <postscript>P.S. Did you ever get the article on Richard, <persName key="fs_flint">Flint</persName>, and <persName key="dh_lawrence">Lawrence</persName> that I
-            sent?</postscript>
+         <postscript><p><label>P.S.</label> Did you ever get the article on Richard, <persName key="fs_flint">Flint</persName>, and <persName key="dh_lawrence">Lawrence</persName> that I
+            sent?</p></postscript>
       </body>
    </text>
 </TEI>
