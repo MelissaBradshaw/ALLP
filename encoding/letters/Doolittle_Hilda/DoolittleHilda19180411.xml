@@ -94,7 +94,7 @@
       <body>
          <opener><dateline><date when="1918-04-11">April 11, 1918.</date></dateline>
             <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:-</salute></opener>
-         <p><persName key="richard_aldington">Richard</persName>’s book did not come for weeks after the letter about it. It finally reached me
+         <p><persName key="richard_aldington">Richard</persName>’s <title key="reverie" level="m">book</title> did not come for weeks after the letter about it. It finally reached me
             in <placeName key="nyc">New York</placeName> a week or two ago. I kept it until I came home for reasons which I have told
             Richard in my letter to him, and I am sending it to <persName key="brown">Brown</persName> to-day. I think it is splendid
             work, but I will not duplicate what I said about it in my letter to Richard, as I want
@@ -112,8 +112,8 @@
             out before long. In the meanwhile, I am hard at work on a long poem which will come out
             in a book of poems that I am publishing this Autumn.</p>
          <p>Please send me a copy of "<title key="newPaths">New Paths</title>" when it comes out, as I shall be very glad to see
-            it. You will be amused to know that one of the chapters of my "<title key="tendencies">Tendencies</title>" is to
-            appear in the "<title key="revueDeParis">Revue de Paris</title>," and that a Spanish</pb> translation of my poems is to be
+            it. You will be amused to know that one of the chapters of my "<title key="tendencies" level="m">Tendencies</title>" is to
+            appear in the "<title key="revueDeParis" level="j">Revue de Paris</title>," and that a Spanish <pb n="02"/>,translation of my poems is to be
             issued in <placeName key="mexico">Mexico</placeName>. You see, my dear, the only thing to do is to hang on. I do believe
             that time brings recognition, if we do not let ourselves get kicked off the tree before
             it comes.</p>
