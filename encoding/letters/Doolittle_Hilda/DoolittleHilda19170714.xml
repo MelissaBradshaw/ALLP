@@ -92,39 +92,40 @@
          <opener><dateline><date when="1917-07-14">July 14, 1917.</date></dateline>
             <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
          <p>I am sending you all the poem’s of <persName key="richard_aldington">Richard</persName>’s which I have, as you asked me to do. As
-            <persName key="harriet_monroe">Harriet Monroe</persName> has doubtless written you, she has accepted "Fatigues," but I had a copy
+            <persName key="harriet_monroe">Harriet Monroe</persName> has doubtless written you, she has accepted "<title key="fatigues" level="a">Fatigues</title>," but I had a copy
             made of it, so that you should not lose it from your collection, and am sending it with
             the others. I am awfully interested to know that Richard is to have another volume.
-            Please send it to me when it comes out. I have not heard from him since January, which
+            Please send it to me when it comes out. I have not heard from him since <date when="1819-01">January</date>, which
             is my fault, as I have not answered his last letter. I shall do that, however, in a day
             or two and send it to you to forward. Do tell me what he is doing and where he is, and I
             cannot bear to lose touch, and now that we have no longer any anthology to get out, I am
             terribly afraid that we may drift apart before the end of the war brings us together
             again. I understand that it is impossible to leave <placeName key="england">England</placeName> just now, so I do not suppose
             that there is any chance of your coming over at all.</p>
-         <p>I saw <persName key="helen_doolittle">your mother</persName> for a few minutes at <placeName key="brynMawr">Bryn Mawr</placeName> when I went down there to lecture in
-            May, and I found her awfully sympathetic and nice. We only had a little talk, and I
+         <p>I saw <persName key="helen_doolittle">your mother</persName> for a few minutes at <orgName key="brynMawr">Bryn Mawr</orgName> when I went down there to lecture in
+            <date when="1917-05">May</date>, and I found her awfully sympathetic and nice. We only had a little talk, and I
             wished it might have been longer.</p>
-         <p>I think you will like what I say about you in my new book. It is also to be published,
-            slightly abridged, as a review of "Sea Garden" in <orgName key="brownU">Brown</orgName>’s "<title key="poetryJournal">Poetry Journal</title>,"<!--check the brown here--> and I will
+         <p>I think you will like what I say about you in my <title key="tendencies" level="m">new book</title>. It is also to be published,
+            slightly abridged, as a review of "<title key="seaGarden" level="m">Sea Garden</title>" in <persName key="edmund_brown">Brown's</persName> "<title key="poetryJournal" level="j">Poetry Journal</title>," and I will
             send you a copy of it as soon as it comes out, and also of course the book when that
             appears.</p>
-         <p>I am afraid that our "<title key="some_imagist_poets">Anthology</title>" is not doing as well as the others have done. Under a
-            separate cover, I am sending you all the</pb> clippings up to date. <persName key="john_fletcher">Fletcher</persName>’s "Lincoln" gets
-            the most praise and next to that <persName key="fs_flint">Flint</persName>’s "Zeppelins". The truth is the breaking out of
+         <p>I am afraid that our "<title key="some_imagist_poets" level="m">Anthology</title>" is not doing as well as the others have done. 
+            Under a
+            separate cover, I am sending you all the <pb n="02"/>clippings up to date. <persName key="john_fletcher">Fletcher’s</persName> "<title key="lincoln" level="a">Lincoln</title>" gets
+            the most praise and next to that <persName key="fs_flint">Flint’s</persName> "<title key="zeppelins" level="a">Zeppelins</title>". The truth is the breaking out of
             war in this country has turned everybody’s attention away from literature for the
             moment. I cannot help hoping that they will turn back before long, but it is certain
             that there is less interest than there has been for the past two or three years. I have
             not advertised the "Anthology" as much as usual because <persName key="ferris_greenslet">Ferris Greenslet</persName> told me it
             would be money absolutely thrown away, and I have been waiting until the first effect of
             the war was past and people had settled down to the new conditions. I intend to
-            advertise again in September in conjunction with the two earlier ones. I think, however,
+            advertise again in <date when="1917-09">September</date> in conjunction with the two earlier ones. I think, however,
             that the "Anthology" has really done its work, as I have already told you and as I have
             just written Flint. People know what <orgName key="imagists">Imagist</orgName> work is; they know what we stand for. We
             have made our principles understood, and, if we differ somewhat among ourselves as to
             just what these principles are, why we have agreed enough to give the public a definite
             idea of something. As we develop, it is inevitable that we should widen a little from
-            the original narrow path in which we walked together, and we shall probably<add place="above"> continue to</add>
+            the original narrow path in which we walked together, and we shall probably<add place="above" type="insertion" rend="typescript"> continue to</add>
             stray from right to left, following our own bents, but I cannot help thinking that we
             shall always have much in common. I do believe, however, that it will be better now to
             publish our own books, rather than any group anthology, and I think this would have been
@@ -132,29 +133,29 @@
             well that you people do not follow me in all my experiments, but I suppose that is
             inevitable, as we each become more individual we shall each depart more and more from
             the group ideal. Still, I feel that we shall all be more in sympathy with each other
-            than with any other</pb> people, and that is a pleasure to me.</p>
+            than with any other <pb n="03"/>people, and that is a pleasure to me.</p>
          <p>I wish we might meet and talk everything over; I wonder when we shall. Write some time.
             It will be a great disappointment if I do not hear from you, even if we have no business
             to transact.</p>
-         <p>I am also enclosing a money order for <measure type="currency" num="$5">five dollars</measure>, which is the last of <persName key="brown">Brown</persName>’s
+         <p>I am also enclosing a money order for <measure type="currency" quantity="5">five dollars</measure>, which is the last of Brown’s
             payments on the original agreement with Richard. There may be more royalties in a year
             or two, and I shall keep after him and try to get some if there are any. He sent me this
             cheque some time ago, and I should have sent it to you, but, like everything else it got
             delayed.</p>
          <p>You probably know that no sheets or plates of books published in <placeName key="usa">America</placeName> can now be sent
-            to <placeName key="england">England</placeName>. <orgName key="constable">Constable</orgName>, however, agreed to print this new "Anthology" and we had
-            duplicate plates made here and shipped to <subst><del type="strikethrough">them</del><add place="above"> England</add></subst> on board the "Colonian".
+            to England. <orgName key="constable">Constable</orgName>, however, agreed to print this new "Anthology" and we had
+            duplicate plates made here and shipped to <del type="strikethrough">them</del><add place="above" type="insertion" rend="typescript">England</add> on board the "Colonian".
             Unfortunately the boat went down, and our plates are now delighting the mermaidens. They
-            were, however, insured, and the Constable purposes to have a new set made in England
+            were, however, insured, and Constable <choice><orig>purposes</orig><reg>proposes</reg></choice> to have a new set made in England
             from a copy of the book which has been shipped to them from here, so it ought to come out there.</p>
          <p>I am afraid my book will not see the light of day in England at all, as my sale over
-            there is not so brilliant as to justify duplicate plates. Mr. <persName key="george_macmillan">George MacMillan</persName> wants me
+            there is not so brilliant as to justify duplicate plates. <persName key="george_macmillan">Mr. George MacMillan</persName> wants me
             to go over and give some lectures after the war, as I have been doing here, and possibly
             I may, but that is too far ahead to consider.</p>
          <p>In the mean time, there is a possibility that the book may be issued in translation in
             <placeName key="paris">Paris</placeName>, but everything is very much in the air at present.</p></pb>
-         <p>How does it happen that you have resigned the assistant editorship of "<title key="egoist">The Egoist</title>?"
-            <persName key="ezra_pound">Ezra</persName>’s coming back on the paper fills me with horror, and he seems to have got in with
+         <p>How does it happen that you have resigned the assistant editorship of "<title key="egoist" level="j">The Egoist</title>?"
+            <persName key="ezra_pound">Ezra's</persName> coming back on the paper fills me with horror, and he seems to have got in with
             <persName key="margaret_anderson">Margaret Anderson</persName>. Her little sheet is entirely full of him. Of course Margaret
             Anderson’s erratic method of publication and her peregrinations to the <placeName key="pacificCoast">Pacific Coast</placeName>
             have more or less killed her contributors here. I rather think they have all left her
@@ -166,8 +167,8 @@
          <p>I shall write to you again next month, when our semi-annual royalties come in, and in
             the mean while, do keep me posted.</p>
          <closer>Affectionately,</closer>
-         <postscript>P.S. Do not forget that "Leave Taking" and "On the March" have been accepted by
-            "<title key="sevenArts">Seven Arts</title>," and "Fatigues" has been accepted by "<title key="poetry">Poetry</title>."</postscript>
+         <postscript>P.S. Do not forget that "<title key="leaveTaking" level="">Leave Taking</title>" and "<title key="onTheMarch" level="a">On the March</title>" have been accepted by
+            "<title key="sevenArts" level="j">Seven Arts</title>," and "Fatigues" has been accepted by "<title key="poetry" level="j">Poetry</title>."</postscript>
       </body>
    </text>
 </TEI>
