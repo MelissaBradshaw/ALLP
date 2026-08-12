@@ -94,7 +94,7 @@
          <opener><dateline><date when="1917-12-07">December 7, 1917.</date></dateline>
             <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:-</salute></opener>
          <p>I was very glad indeed to get your letter of <date when="1917-11-14">November 14th</date>, and to know that you liked
-            the essay on yourself in "<title key="tendencies">Tendencies</title>." I think none of the essays in the book has been
+            the essay on yourself in "<title key="tendencies" level="m">Tendencies</title>." I think none of the essays in the book has been
             so well taken as that one, and I hope that it will stimulate interest in your poetry. A
             good many people have told me that after reading my book they felt they wanted to go and
             read the authors themselves, and I only trust that this laudable desire will bear
@@ -102,18 +102,18 @@
          <p><persName key="helen_doolittle">Your mother</persName> wrote me how much she liked it, and she said something else that gave me
             even greater pleasure which was that it seemed like you; it almost startled her she felt
             it was so true a description of your personality. To my mind, nothing could be higher
-            praise than that, except that Richard, who knows you better than anybody, liked the
+            praise than that, except that <persName key="richard_aldington">Richard</persName>, who knows you better than anybody, liked the
             account of your work. I do not suppose that no matter what I said about you as a person
             I could satisfy him, and quite rightly, but I like to think that it has been my
-            privilege to be the first person to represent you to the world in toto your work and
+            privilege to be the first person to represent you to the world <hi rend="underline"><foreign xml:lang="la">in toto</foreign></hi> your work and
             yourself.</p>
          <p>Your letter came two or three days ago, and Richard’s of the <date when="1917-11-18">18th</date> came just now. I am
             answering his letter on a separate sheet enclosed. It is really for both of you, of
             course, but he said so many things I wanted to answer that I thought I would do it this
-            way. What you may say about the Lawrences is perfectly horrible. I feel very sorry for
+            way. What you may say about the <persName key="lawrences">Lawrences</persName> is perfectly horrible. I feel very sorry for
             them, and I will send you some money for them in a little while. I think it better to
             send to you for various reasons, among others, that as they cannot forever live in your
-            room, I shall not know their address until you send it to me. I want</pb> to think it over
+            room, I shall not know their address until you send it to me. I want <pb n="02"/>to think it over
             for a few days and see what I can send them, and then I will send you a draft, which you
             can turn over to them. I am still addressing you at <placeName key="mechlenburgSquare">Mechlenburg Square</placeName>, as I suppose it
             will be forwarded to you at <placeName key="litchfield">Litchfield</placeName>, and I do not know your address there, and
