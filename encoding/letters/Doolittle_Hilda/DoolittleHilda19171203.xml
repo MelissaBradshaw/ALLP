@@ -97,10 +97,10 @@
             did not see your name until after I had opened it and saw that it began "Dear Hilda,"
             and I am sending it to you envelope and all that you may see that it was not altogether
             extraordinary that I should have opened it.</p>
-         <p>I wonder if you ever got my book<!--which book?-->>. <persName key="john_fletcher">Fletcher</persName> got his copy, which I sent at the same time
+         <p>I wonder if you ever got <title key="tendencies" level="m">my book</title>. <persName key="john_fletcher">Fletcher</persName> got his copy, which I sent at the same time
             as I sent yours, but I have not heard yet from any of the others I sent to <placeName key="england">England</placeName>. If
             you did not get it, please let me know and I will send you another copy. I hope you like
-            the essay on you. People are calling it the "almost lyrical appreciation of 'H.D.'."
+            the essay on you. People are calling it the <hi rend="quote">"almost lyrical appreciation of 'H.D.'."</hi>
             Also, I am anxious to receive that biographical material about <persName key="richard_aldington">Richard</persName> as soon as
             possible, as I must begin to prepare my lectures shortly. Also I should like some
             news.</p>
@@ -108,12 +108,12 @@
             may be sent to the Eastern front, but I do not feel that I know anything definite, and I
             should be awfully glad to be brought up to date.</p>
          <p>I sent Richard’s letter and poems to <persName key="brown">Brown</persName>. I do not think I like these rhymed things
-            quite as much as Richard’s vers libre, but neither does he, as he says in the letter. I
+            quite as much as Richard’s <hi rend="underline"><foreign xml:lang="fr">vers libre</foreign></hi>, but neither does he, as he says in the letter. I
             am not quite like the rest of you – everything that interests me turns into poetry, and
-            just now I cannot get away from the war. I am writing a series called "Phantasms of War"
-            for "The Independent," and I am sending you enclosed the first one which I think may
+            just now I cannot get away from the war. I am writing a series called "<title key="phantasmsOfWar" level="m">Phantasms of War</title>"
+            for "<title key="independent" level="j">The Independent</title>," and I am sending you enclosed the first one which I think may
             interest you. It may not be what Richard calls art, but somehow I cannot divorce art
-            from life, and if <persName key="homer">Homer</persName> made art out of the</pb> Trojan war, it seems to me we ought to be
+            from life, and if <persName key="homer">Homer</persName> made art out of the <pb n="02"/>,Trojan war, it seems to me we ought to be
             able to do the same with this war. Anyhow, I am trying and if I fail – well, it is all
             in the day’s work.</p>
          <p>This is not much of a letter, but there is not much to say. I do nothing but work, and
