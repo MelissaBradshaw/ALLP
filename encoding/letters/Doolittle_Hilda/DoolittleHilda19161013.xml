@@ -171,7 +171,8 @@
             book which I think you will like – some old friends which you have already said you
             liked.</p>
          <closer>With lots of love to Richard, Affectionately,</closer>
-         <postcript>P.S. We have sold 700 copies of our 2nd Anthology to date.</postscript>
+         <postscript>
+            <p><label>P.S.</label> We have sold 700 copies of our 2nd Anthology to date.</p></postscript>
       </body>
    </text>
 </TEI>
