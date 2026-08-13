@@ -96,14 +96,14 @@
          <p>Thank you a thousand times for your very nice letter of <date when="1919-02-01">February 1st</date>. I really was
             worried about you; I could not conceive where you were or what had happened to you, I
             had not heard for so long. I have already written to <persName key="richard_aldington">Richard</persName> and asked him if he knew
-            whether you ever got "<title key="canGrandesCastle">Can Grande’s Castle</title>," as I felt quite sure that it must have gone
+            whether you ever got "<title key="canGrandesCastle" level="m">Can Grande’s Castle</title>," as I felt quite sure that it must have gone
             astray with your various moves.</p>
-         <p>I am most sincerely grieved to hear of your <persName key="gilbert_doolittle">brother</persName>’s death in <placeName key="france">France</placeName>. What a terrible
+         <p>I am most sincerely grieved to hear of your <persName key="gilbert_doolittle">brother’s</persName> death in <placeName key="france">France</placeName>. What a terrible
             time this has been! I know how hard it must have been for you to be away from your
             family just now. <persName key="winifred_bryher">Winifred Ellerman</persName> writes despairingly about passports, but I do not
             myself believe that there is any difficulty in getting them for any one situated as you
             have been, for I know my <persName key="elizabeth_putnam">sister</persName> has just come home from <placeName key="england">England</placeName>, where she has been for
-            a year and a half staying with <persName>her daughter</persName><!--who?-->. An American wishing to return for a good
+            a year and a half staying with her daughter. An American wishing to return for a good
             reason can always get home. I think though, of course, that that would not apply to
             Winifred Ellerman.</p>
          <p><persName key="dh_lawrence">Lawrence</persName> writes me that you are expecting another baby, which is good news indeed. I
@@ -112,33 +112,35 @@
             could for you.</p>
          <p>I am thankful that Winifred is proving stimulating and will induce you to write some
             more, for it is a wicked shame for you not to go on. My greatest satisfaction in regard
-            to "<title key="tendencies">Tendencies</title>" is that it seems to have had the effect of bringing together various
+            to "<title key="tendencies" level="m">Tendencies</title>" is that it seems to have had the effect of bringing together various
             people who would not have known each other in any other way, and that is certainly a
-            good thing.</p></pb>
-         <p>You must be thankful to feel that Richard is out of danger. I am sure that ought to take
+            good thing.</p>
+         <p><pb n="02"/>,You must be thankful to feel that Richard is out of danger. I am sure that ought to take
             a great load off your mind. I shall be extremely interested to see Mr. <persName key="clement_shorter">Shorter</persName>, but I do
             not know exactly when I shall go to England. My sister tells me, and <persName key="michael_sadler">Michael Sadler</persName>
             writes me, that it is too soon yet to think of making any impression with anything
             literary on the English public and that it would be better to wait for another summer. I
             am very anxious, if possible, to give some talks on poetry, as I have been doing here,
             when I get over, but I do not quite know how to go about that. At any rate, there is no
-            use<add place="above"> in</add> thinking about it until demobilization is complete and things have settled down
+            use <add place="above" type="insertion" rend="typescript">in</add> thinking about it until demobilization is complete and things have settled down
             to a more or less normal condition. Also, my digestion is such a precarious thing that I
             cannot risk going over while there is any form of rationing still on.</p>
-         <p>I am sending you your and Richard’s draft for<add place="above"> the</add> half-yearly royalties of our
-            <title key="some_imagist_poets">anthology</title>, and I am also taking the liberty of enclosing <persName key="fs_flint">Flint</persName>’s, for I have no idea
-            what his address is. Now, will you forward it to him and tell him<add place="above"> that</add> if he will send
-            me his address I will write to him. The account is as follows:</lb>
-            By Sales:</lb>
-            30 Imagist Poets, 1915 .36-1/4 10.88</lb>
-            17 " " 1916 .36-1/4 6.16</lb>
-            34 " " 1917 .36-1/4 13.32</lb>
-            10 do 1916 to Eng. 37-1/2 less 15% 3.64</lb>
-            10 do 1916 " " 37-1/2 less 15% 3.64</lb>
-            1/6 of 37.64 is $6.27 or 1.5<gap quantity="2" unit="chars" reason="illegible"></gap> Flint’s draft is, therefore, <measure type="currency" num="£1.5.7">£ 1.5.7</measure> Yours and Richard’s <measure type="currency" num="£2.11.2">£ 2.11.2</measure></p>
+         <p>I am sending you your and Richard’s draft for <add place="above" type="insertion" rend="typescript">the</add> half-yearly royalties of our
+            <title key="some_imagist_poets" level="m">anthology</title>, and I am also taking the liberty of enclosing <persName key="fs_flint">Flint’s</persName>, for I have no idea
+            what his address is. Now, will you forward it to him and tell him <add place="above" type="insertion" rend="typescript">that</add> if he will send
+            me his address I will write to him. The account is as follows:
+            <lb/>By Sales:
+            <lb/>30 Imagist Poets, <date when="1915">1915</date> <measure type="currency" quantity="0.3625">.36-1/4</measure> <measure type="currency" quantity="10.88">10.88</measure>
+            <lb/>17 " " <date when="1916">1916</date> <measure type="currency" quantity="0.3625">.36-1/4</measure> <measure type="currency" quantity="6.16">6.16</measure>
+            <lb/>34 " " <date when="1917">1917</date> <measure type="currency" quantity="0.3625">.36-1/4</measure> <measure type="currency" quantity="13.32">13.32</measure>
+            <lb/>10 do <date when="1915">1915</date> to Eng. <measure type="currency" quantity="0.375">37-1/2</measure> less 15% <measure type="currency" quantity="3.64">3.64</measure>
+            <lb/>10 do <date when="1916">1916</date> " " <measure type="currency" quantity="0.375">37-1/2</measure> less 15% <measure type="currency" quantity="3.64">3.64</measure>
+            <lb/>1/6 of <measure type="currency" quantity="37.64">37.64</measure> is <measure type="currency" quantity="6.27">$6.27</measure> or <measure type="currency">1.5.7</measure> 
+            <lb/>Flint’s draft is, therefore, <measure type="currency">£ 1.5.7</measure> 
+            <lb/>Yours and Richard’s <measure type="currency">£ 2.11.2</measure></p>
          <p>Lawrence writes in very low spirits. He keeps harping on the fact that he wants to come
             to <placeName key="usa">America</placeName>. I do not know whether America would suit him at all. They have certainly had
-            a very hard time to go through, he</pb> and <persName key="frieda_lawrence">Frieda</persName>.</p>
+            a very hard time to go through, he <pb n="03"/>and <persName key="frieda_lawrence">Frieda</persName>.</p>
          <p>I have had a long letter from Richard apropos of this new translation series which he
             wishes to run, asking me if I will look after the American side of it. Of course I will
             do that or anything else which he wants, with pleasure, but as to making any
@@ -146,20 +148,20 @@
             world, and I have not enough for my creative work. I cannot think that it is more
             important to translate than it is to write original things. Also I am embarked on a book
             of translations of Chinese poems with my friend Mrs. <persName key="florence_ayscough">Francis Ayscough</persName>. You will probably
-            have seen some of our efforts in the February "<title key="poetry">Poetry</title>." I do not know when the book will
+            have seen some of our efforts in the <date when="1919-02">February</date> "<title key="poetry" level="j">Poetry</title>." I do not know when the book will
             come out, as it is a little difficult to work with anyone in <placeName key="china">China</placeName>, but it is, perhaps,
             an advantage to me to have the originals of these poems come so slowly, because, by this
             process, I get them done without really realizing that I am giving any time to them.</p>
          <p>Now here is something which I do not think that Richard realizes, and that is the entire
             difference in the market in England and America. Judging from the numbers of these
-            translations which Richard wishes to issue, they are to<add place="above"> be</add> about the same little
+            translations which Richard wishes to issue, they are to <add place="above" type="insertion" rend="typescript">be</add> about the same little
             pamphlets about the same price that your last series was. Now I think it almost
             impossible to get anybody over here to handle such a series, the reason being that
             American booksellers want a large percentage for their trouble, and on a very low priced
             article, they cannot get a large percentage, and, therefore, they do not care at all
             about carrying such a thing. I know that was one of the difficulties, and always has
-            been one of the difficulties, with our</pb> Anthologies. They were sold at seventy-five
-            cents, and the booksellers’ commission was not enough to make it worth while for them to
+            been one of the difficulties, with our <pb n="04"/>Anthologies. They were sold at 
+            <measure type="currency" quantity="0.75">seventy-five cents</measure>, and the booksellers’ commission was not enough to make it worth while for them to
             take much trouble. I feel sure that anything less than that in price would have no
             chance whatever. Also I do not think there is the same interest in translations that
             there is in England. A few of the poets, and a few scholarly people, might care for
@@ -178,19 +180,19 @@
             business talent, which I had never suspected, in getting people to take an interest in
             things which they never cared anything about before, and I cannot help feeling that if
             Richard would listen to my advice, we could really make a large impression.</p>
-         <p>I do not approve of doing things in an amateurish way any more. I</pb> think that puts us
+         <p>I do not approve of doing things in an amateurish way any more. I <pb n="05"/>think that puts us
             down as unsuccessful, and I think that Richard feels that too, since he wishes to have
             the new series taken up by a large firm. That, I think, is most important, and the most
             important thing of all is getting the original work put on the market properly. You
             know, in anything of this kind, one has to consider its effect on everything else one
-            does. That is why I deprecated Richard’s selling <title>his last book</title><!--Which book?--> to <persName key="brown">Brown</persName>. It has not come
+            does. That is why I deprecated Richard’s selling <title key="imagesOfWar" level="m">his last book</title> to <persName key="brown">Brown</persName>. It has not come
             out yet, and I do not know when it will. No amount of harrying Brown about it has any
             effect, and if Richard had made the changes then that he tells me he has now made for
             the English edition, I could have got it accepted by <orgName key="macmillan">The Macmillan Company</orgName>.</p>
          <p>I may be unnecessarily dampening – of course, I do not know the condition of things in
             England – but, if I were Richard, I should certainly not want to give so much time to
             working with other people’s things. I should want to devote my time to working on my
-            own, and I think he should get off "<title key="egoist">The Egoist</title>" for good and all, for I do not believe
+            own, and I think he should get off "<title key="egoist" level="j">The Egoist</title>" for good and all, for I do not believe
             in continuing to be tied up to a paper of that kind, a semi-amateurish thing, and one in
             which so many foolish things have appeared since <persName key="ezra_pound">Ezra</persName> put his finger in.</p>
          <p>Richard writes and begs me to be broad-minded and not mind his asking Ezra to do some of
@@ -198,8 +200,8 @@
             but I think that this would be exceedingly foolish, because none of Ezra’s things are
             translations at all; they are merely paraphrases. I can get you two excellent
             translators here. One is Mrs. <persName key="grace_conkling">Grace Hazard Conkling</persName>, an extremely good poet whose work
-            you probably know, and who has done some <hi rend="underline">vers libre</hi> things about</pb> <placeName key="mexico">Mexico</placeName> that are most
-            beautiful. She knows Spanish well enough to be teaching it at <placeName key="smithCollege">Smith College</placeName>, and
+            you probably know, and who has done some <hi rend="underline"><foreign xml:lang="fr">vers libre</foreign></hi> things about <pb n="06"/><placeName key="mexico">Mexico</placeName> that are most
+            beautiful. She knows Spanish well enough to be teaching it at <orgName key="smithCollege">Smith College</orgName>, and
             although she has, so far as I know, never been to <placeName key="spain">Spain</placeName>, she has lived for years in
             Mexico. I know that she has already agreed to do some translations for a little paper
             here which purported to have both Spanish and American poetry. The war has caused it to
@@ -221,7 +223,7 @@
             suicidal to be associated with him in any public way.</p>
          <p>I do wish that Richard could get a wider outlook on the literary world in general. You
             see, you and he do not see a great many people, and they are mostly in one set, as far
-            as the poets are concerned, and</pb> that gives Richard a warped idea of the attitude of the
+            as the poets are concerned, and <pb n="07"/>that gives Richard a warped idea of the attitude of the
             world at large. I firmly believe that it is time for us to get out of a clique, to cease
             to act as though we were struggling for a hearing, and to take our places boldly as
             voices of the new day. I have at least achieved this magnificent summit here in America.
@@ -229,7 +231,7 @@
             is in an inlet one’s self to have any one else swim into the open sea. But for the past
             two years I have been trying to disengage myself from the amateur publishing ventures of
             the younger fry. I shall never desert certain old friends like "Poetry," but you
-            remember that I decided not to publish in "<title key="others">Others</title>" long ago, and "<title key="littleReview">The Little Review</title>"
+            remember that I decided not to publish in "<title key="others" level="j">Others</title>" long ago, and "<title key="littleReview" level="j">The Little Review</title>"
             lost my valuable services when they tied up with Ezra. You see, I think there must come
             a time in the life of every serious artist when he ceases to be a beginner, and has a
             right to expect and claim proper recognition from the world he lives in. I cannot help
@@ -242,16 +244,16 @@
             could be done without any compromise whatever in his literary attitude; at least, I have
             found it possible here.</p>
          <p>Richard wrote and asked me the other day if I could get him a regular letter in any of
-            the papers and magazines, but that is, of course,</pb> difficult, as most of the papers
+            the papers and magazines, but that is, of course, <pb n="08"/>difficult, as most of the papers
             already established have their own correspondents, and there are no new ones being
-            started just now, and a good many, such as the "<title key="sevenArts">Seven Arts</title>," had to stop on account of
+            started just now, and a good many, such as the "<title key="sevenArts" level="j">Seven Arts</title>," had to stop on account of
             the war. I have written to <persName key="martyn_johnson">Martyn Johnson</persName> about it, and he is enthusiastic, as always,
             about Richard’s work, but I do not know that he will take any definite steps in the
-            matter. Of course, "<title key="dial">The Dial</title>" has a very small circulation, and it is devoting more and
+            matter. Of course, "<title key="dial" level="j">The Dial</title>" has a very small circulation, and it is devoting more and
             more space to socialism and politics generally, which is most unfortunate, but there are
             a great many other papers here for which Richard might write, I think; if he would send
-            me some essays, I might try and place them in the "<title key="northAmericanReview">North American Review</title>" or "<title key="bookman">The Bookman</title>" or somewhere. You see, I did sell a poem of his to the "North American Review,"
-            last year, and then found that he had given it to that ridiculous little man in
+            me some essays, I might try and place them in the "<title key="northAmericanReview" level="j">North American Review</title>" or "<title key="bookman" level="j">The Bookman</title>" or somewhere. You see, I did sell a poem of his to the "North American Review,"
+            last year, and then found that he had given it to <persName key="charles_bubb">that ridiculous little man</persName> in
             <placeName key="cleveland">Cleveland</placeName>, and, of course, it having been privately printed, the "North American" would
             not touch it. Richard’s attitude is very fine about giving all for art and not being
             paid for things, but really and truly, as a matter of fact, the world appreciates a good
@@ -262,7 +264,7 @@
             writing to Greek Ladies in "The Dial" I feel quite sure would not appeal to any other
             paper, but there are plenty of things which he could write about, and which would be
             interesting to write about, that the more enterprising papers would be glad to print. I
-            do think that the best</pb> thing possible would be for you and Richard to come over here
+            do think that the best <pb n="09"/>thing possible would be for you and Richard to come over here
             sometime and see how things are for yourself, for I am firmly convinced that the market
             now will be America and not England. I do not want Richard to feel dampened in any way
             by all this, there is certainly not the slightest need of that, only I do want him to
