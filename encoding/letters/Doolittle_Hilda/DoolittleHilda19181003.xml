@@ -93,15 +93,15 @@
       <body>
          <opener><dateline><date when="1918-10-03">October 3, 1918.</date></dateline>
             <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
-         <p>I have sent you my new book<!--which book?-->. Perhaps I should say <persName key="richard_aldington">Richard</persName>’s book, seeing as how he is
+         <p>I have sent you <title key="canGrandesCastle" level="m">my new book</title>. Perhaps I should say <persName key="richard_aldington">Richard’s</persName> book, seeing as how he is
             the presiding deity over my volume. I trust that you will like it, but I am afraid that
-            you will not. I seem to remember that Richard, after once having praised "polyphonic
-            prose," went back on it, so possibly you will not care for the volume, considering its
+            you will not. I seem to remember that Richard, after once having praised <hi rend="quote">"polyphonic
+            prose,"</hi> went back on it, so possibly you will not care for the volume, considering its
             form. However, such as it is, here it is.</p>
          <p>To me came your good letter of what date I cannot say, since you never date them, but
             the one in which you tell me that <persName key="winifred_bryher">Winifred Bryher</persName> is not Winifred Bryher. My dear, what
             a bomb shell! Who on earth is she? My mind does not run easily on the purlieus of
-            "richest men." I have not the ghost of an idea who is rich in <placeName key="england">England</placeName> and who is poor. I
+            <hi rend="quote">"richest men."</hi> I have not the ghost of an idea who is rich in <placeName key="england">England</placeName> and who is poor. I
             had an idea that the Duke of Westminster was the richest man in England, but from what
             you say I can hardly suppose that Winifred is a young peeress. The only other things
             that I can think of are a cosmopolitan banker and a large, native, good-natured
@@ -109,14 +109,14 @@
          <p>But, in either case, I cannot see what that has to do with Winifred, and I regard her
             self-consciousness on the subject as extremely foolish, and I would write and tell her
             so, only you tell me that I must not mention it to her.</p>
-         <p>It is a handicap to be even well off. My father was not the "richest" anywhere, and yet
+         <p>It is a handicap to be even well off. My father was not the <hi rend="quote">"richest"</hi> anywhere, and yet
             I have had enough trouble as I am in getting people to realize that I may be a decent
             poet even if I am not starving in a garret. But it can be done I know, and I am happy to
-            say that I think all the newspapers and the people who once regarded me as an</pb> amateur
+            say that I think all the newspapers and the people who once regarded me as an <pb n="02"/>amateur
             because necessity was not howling under my windows have now given up all thoughts of me
             as anything but a hard-working and serious writer.</p>
          <p>Winifred need not hide her name under a bushel. She ought really to rejoice on the added
-            handicap, and as to thinking that anybody would like her<add place="above"> only</add> on account of her money –
+            handicap, and as to thinking that anybody would like her <add place="above" type="insertion" rend="typescript">only</add> on account of her money –
             my but that is a snobbish thought! One has known even multi-millionaires and kept one’s
             head, and, after all, Winifred did not make the money any more than she made her nose.
             (In confidence, my dear, is she of the race that has a nose, and is that perhaps the
@@ -134,7 +134,7 @@
             that I am a snob – Oh Lord, she ought to meet me!</p>
          <p>Of course tell her that I will be as nice as possible when she comes to <placeName key="usa">America</placeName> and do
             everything to make her stay comfortable. I do not promise to ask her to spend the Winter
-            with me in the fashion that</pb> the English love so well, (but that, perhaps, you need not
+            with me in the fashion that <pb n="03"/>the English love so well, (but that, perhaps, you need not
             say,) but she can count on me in every possible way. Certainly I owe her a great deal
             for her interest and all that she is doing for me over there, as she seems to have
             aroused Mr. <persName key="clement_shorter">Shorter</persName> to a violent partisanship on our side which, although it may annoy
@@ -144,8 +144,8 @@
             approve of not quenching his smoking flax. I am thankful for all the appreciation that
             we can get, and I never ask impossibilities of the middle aged, or of the conservative
             papers from which I have received some amusing clippings.</p>
-         <p>I understand that he is going to write a paper on your Greek translations soon for "<title key="sphere">The Sphere</title>."</p>
-         <p>I thought that Winifred’s little article on all of us in "<title key="saturdayReview">The Saturday Review</title>" was very
+         <p>I understand that he is going to write a paper on your Greek translations soon for "<title key="sphere" level="j">The Sphere</title>."</p>
+         <p>I thought that Winifred’s little article on all of us in "<title key="saturdayReview" level="j">The Saturday Review</title>" was very
             interesting. I think that she should be a little more explicit as to what we have
             written, because I do not think that people know us well enough to jump right away at
             the knowledge that she assumes that they have, and I think she errs on the side of
@@ -154,19 +154,19 @@
             does. But these things are slight and few, compared with the many things that she does
             well and her genuine understanding and enthusiasm.</p>
          <p>As to <persName key="john_fletcher">Fletcher</persName>, I despair of him. I had a letter from him the day after I had yours,
-            full of carping criticism and somewhat silly</pb> violence. He seems to have got it into his
+            full of carping criticism and somewhat silly <pb n="04"/>violence. He seems to have got it into his
             head that I am his enemy instead of his friend, I do not know why, but I know him well
             enough to know that there is never any use in remonstrating by letter. He makes such
             ridiculous statements, such as that he has not seen any of our crowd since the
-            beginning of the year and then the following, "I feel that I must travel my own track
-            and they theirs." As if one could not see any one who is not writing exactly as one is
+            beginning of the year and then the following, <quote type="english">"I feel that I must travel my own track
+            and they theirs."</quote> As if one could not see any one who is not writing exactly as one is
             writing one’s self; In that case, dear Hilda, neither you nor I would see anybody at
             all. We would live in a charming but icy isolation, contemplating our own navels and
             gradually folding up inside out.</p>
          <p>I regard Fletcher as a purely pathological case. I am fond of him, but I think he is
             perfectly unsatisfactory, and I confess that this new manner of writing does not give me
             any pleasure, at least none of the poems that I have seen in this later style have. I
-            did not care for his two contributions to <persName key="michael_sadler">Sadler</persName>’s "<title key="newPaths">New Paths</title>." And, by the way, why
+            did not care for his two contributions to <persName key="michael_sadler">Sadler’s</persName> "<title key="newPaths" level="m">New Paths</title>." And, by the way, why
             were you not represented in that volume. Richard said that he had asked you both to
             contribute. I am afraid that you are hypercritical of your own work. I wish that I were
             there to give you a jolt and tell you how frightfully good it is, and now that the war
@@ -175,14 +175,14 @@
             that we all passed together in 1914 have made all the difference in my life, and
             certainly you and Richard are among the best friends I have.</p>
          <p>It is splendid to know that Richard has such a good job and is out of danger. I have
-            just received word that my nephew has been distin</pb><!--pb in middle of word-->>guishing himself on the firing line, so
+            just received word that my nephew has been distinguishing <pb n="05"/>himself on the firing line, so
             I feel quite happy. Richard asked me to tell him his name and address, so that in case
-            they were ever together, he might look him up. Here it is:</lb> 
-            Captain <persName key="james_roosevelt">James A. Roosevelt</persName>,</lb>
-            302nd Ammunition Train,</lb>
-            77th Division,</lb>
-            American Expeditionary Force</p>
-         <p>I have had a letter from <persName key="dh_lawrence">Lawrence</persName> which tells me that he has dedicated <title key="newPoems">his last book of poems</title> to me. He seems frightfully blue, and I do not see how he can be otherwise. His
+            they were ever together, he might look him up. Here it is:
+            <lb/><persName key="james_roosevelt">Captain James A. Roosevelt</persName>,
+            <lb/>302nd Ammunition Train,
+            <lb/>77th Division,
+            <lb/>American Expeditionary Force</p>
+         <p>I have had a letter from <persName key="dh_lawrence">Lawrence</persName> which tells me that he has dedicated <title key="newPoems" level="m">his last book of poems</title> to me. He seems frightfully blue, and I do not see how he can be otherwise. His
             prospects certainly are far from bright. It is no use telling him that it is his own
             fault. His principle is never to bow to the taste of the public, and although I think a
             certain amount of compromise is necessary, still his attitude is fine if suicidal.</p>
