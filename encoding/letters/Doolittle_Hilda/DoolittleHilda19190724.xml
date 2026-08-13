@@ -96,7 +96,7 @@
          <p>I got your very nice letter from <placeName key="mullion">Mullion</placeName> a few days ago, and also your poems, but, in
             the first place, let me congratulate you on the birth of your <persName key="perdita_aldington">daughter</persName>. I did
             congratulate <persName key="richard_aldington">Richard</persName>, and I meant to write to you long ago, but I have been swamped with
-            the proof of my <title key="floatingWorld">new book</title><!--I think-->. Both <persName key="ada_russell">Mrs. Russell</persName> and I are perfectly delighted to know that
+            the proof of my <title key="floatingWorld" level="m">new book</title>. Both <persName key="ada_russell">Mrs. Russell</persName> and I are perfectly delighted to know that
             everything passed over so successfully, and that you are entirely recovered from the
             pneumonia. You do not know, dear Hilda, how fond I am of you and how much your happiness
             means to me.</p>
@@ -104,16 +104,16 @@
             induce you to come to <placeName key="usa">America</placeName>. It would be so nice to have you here, and I quite agree
             with <persName key="winifred_bryher">Winifred Ellerman</persName> in thinking that this is the place for poetry now. I make no
             doubt that I can dispose of your poems satisfactorily, and I shall set about it at once.
-            Do not worry about not being <foreign xml:lang="fr"><hi rend="underline">dans le movement</hi></foreign>. The "Movement" as I now see it is mostly
+            Do not worry about not being <foreign xml:lang="fr"><hi rend="underline">dans le movement</hi></foreign>. The <hi rend="quote">"Movement"</hi> as I now see it is mostly
             an artificial one, and I believe that the better poets will always write as they feel
             without any regard for the fashionable thing in the minds of <foreign xml:lang="fr"><hi rend="underline">les jeunes</hi></>. I have seen so
-            many movements go under since I have been on the <hi rend="underline">tapis</hi> that I am no longer worried about
+            many movements go under since I have been on the <foreign xml:lang="fr"><hi rend="underline">tapis</hi></foreign> that I am no longer worried about
             the fate of anything that is really good, and I think it is rather an advantage to be
             out of it than otherwise. I have been in it for years and have borne the brunt of
             ridicule, jests, diatribes, and am now reaping the benefit of a reasonable success, but
             the result of it all to me has been to make me feel that one must write as one wishes,
             and that one can force the public to take it if it is good. You have no idea of the
-            exaltation of poetry</pb> here in America. I have been asked to compile a Book Shelf of
+            exaltation of poetry <pb n="02"/>here in America. I have been asked to compile a Book Shelf of
             Modern Poets by <orgName key="doubledayPage">Doubleday, Page &amp; Company</orgName> suitable for sale in department stores and
             railway terminals. Conceive of such a thing! All this love for poetry naturally is not
             very critical.</p>
