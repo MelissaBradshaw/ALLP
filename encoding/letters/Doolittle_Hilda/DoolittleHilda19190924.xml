@@ -96,19 +96,19 @@
          <p>I enclose you cheque for our half yearly royalties from <orgName key="houghton_mifflin">Houghton Mifflin</orgName>. They are
             getting very slim, for, as you know, we are letting the editions run out, so that there
             will be less and less from this source until finally there is none at all. The
-            bookkeeping is as follows:</lb>
-            By sales</lb>
-            24 <title key="some_imagist_poets">Imagist Poets</title>, 1915 .43 ½ $10.44</lb>
-            20 " " 1916 .43 ½ 8.70</lb>
-            24 " " 1917 .43 ½ 10.44</lb>
-                              $29.58 </lb>
-            One-sixth of $29.58 is <measure type="currency" num="$4.93">$4.93</measure></p>
-         <p>Now as to your poems, I have already placed "The Islands" in the "<title key="northAmericanReview">North American Review</title>." The shorter one I Have not been able to place yet, but I hope to before long. I
-            shall be in <placeName key="nyc">New York</placeName> the last week in October and the first week in November lecturing
-            at <placeName key="columbiaU">Columbia University</placeName>, and while I am there I can run round and see editors, and I hope
+            bookkeeping is as follows:
+            <lb/>By sales
+            <lb/>24 <title key="some_imagist_poets" level="m">Imagist Poets</title>, <date when="1915">1915</date> <measure type="currency" quantity="0.435">.43 1/2</measure> <measure type="currency" quantity="10.44">$10.44</measure>
+            <lb/>20 " " <date when="1916">1916</date> <measure type="currency" quantity="0.435">.43 1/2</measure> <measure type="currency" quantity="8.70">8.70</measure>
+            <lb/>24 " " <date when="1917">1917</date> <measure type="currency" quantity="0.435">.43 1/2</measure> <measure type="currency" quantity="10.44">10.44</measure>
+            <lb rend="indent4"/><measure type="currency" quantity="29.58">$29.58</measure> 
+            <lb/>One-sixth of <measure type="currency" quantity="29.58">$29.58</measure> is <measure type="currency" quantity="4.93">$4.93</measure></p>
+         <p>Now as to your poems, I have already placed "<title key="islands" level="a">The Islands</title>" in the "<title key="northAmericanReview" level="j">North American Review</title>." The shorter one I Have not been able to place yet, but I hope to before long. I
+            shall be in <placeName key="nyc">New York</placeName> the last week in <date when="1919-10">October</date> and the first week in <date when="1919-11">November</date> lecturing
+            at <orgName key="columbiaU">Columbia University</orgName>, and while I am there I can run round and see editors, and I hope
             to be able to get some one to take this poem of yours.</p>
          <p>Now I want to ask you an interesting question: Was <persName key="winifred_bryher">Winifred Ellerman</persName> hurt by my letter
-            to her about her book "<title key="development">Development</title>"? She seems a very queer, uncertain child and one
+            to her about her book "<title key="development" level="m">Development</title>"? She seems a very queer, uncertain child and one
             upon whose toes one is always treading unconsciously. She sent me the book and asked my
             opinion on it, and I wrote her exactly what my opinion was, some of it favourable, some
             of it more moderate in tone. I do not really think the book was ready for publication,
@@ -124,7 +124,7 @@
             can arrive at success spontaneously, as it were? I hope I have not hurt her feelings for
             I like the girl from her letters, and value her youthful and exuberant attitude toward
             poetry, but she seems inclined to squabble with people rather.</p>
-         <p>What I am really afraid of is that she will think that <persName key="ferris_greenslet">Ferris Greenslet</persName>’s remarks about
+         <p>What I am really afraid of is that she will think that <persName key="ferris_greenslet">Ferris Greenslet’s</persName> remarks about
             her book came from me. As a matter of fact, I gave Ferris Greenslet no opinion whatever
             about the book before he read it, and I had no idea what he had written to her until
             after he wrote it. It was rather funny, therefore, that our opinions should more or less
@@ -133,9 +133,9 @@
             afraid she will find the pathway to success very hard if she is going to take the
             remarks made about her work in this way.</p>
          <p>Do write me from time to time and tell me how you are. Since I do not know if you are
-            still in <placeName key="cornwall">Cornwall</placeName> I am sending <persName key="richard_aldington">Richard</persName>’s cheque to his <placeName key="london">London</placeName> address, and yours to you
+            still in <placeName key="cornwall">Cornwall</placeName> I am sending <persName key="richard_aldington">Richard’s</persName> cheque to his <placeName key="london">London</placeName> address, and yours to you
             at the address you have given me. I wonder how it will be when I go to <placeName key="england">England</placeName> and when
-            I can come. <persName key="ada_russell">Mrs. Russell</persName> joins me in much love. You will shortly receive my new book
+            I can come. <persName key="ada_russell">Mrs. Russell</persName> joins me in much love. You will shortly receive <title key="floatingWorld" level="m">my new book</title>
             which I hope will be out next week.</p>
          <closer>Affectionately yours,</closer>
       </body>
