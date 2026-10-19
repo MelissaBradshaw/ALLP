@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> <!-- standalone statement declares that this document will link to other ones i.e. the site index content -->
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!DOCTYPE doc [
+<?xml-model href="../../ALLP_ODD-6.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI [
 <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
 ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -37,7 +37,7 @@
                 <date when=""> <!-- Add date when published to website here --> </date>
                 <availability>
                     <p>Reproduced by courtesy of the Houghton Library Repository.</p>
-                    <licence>Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
                         4.0 International license.</licence>
                 </availability>
             </publicationStmt>
@@ -56,14 +56,19 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-        </encodingDesc>
+         <projectDesc>
+            <p>Encoded as part of the Amy Lowell Letters Project</p>
+         </projectDesc>
+      </encodingDesc>
         <profileDesc>
             <particDesc>
                 &personography;
             </particDesc>
             <textClass>
-                <!-- document-level keywords applied here -->
-            </textClass>
+            <keywords>
+               <term><!-- document-level keywords applied here --></term>
+            </keywords>
+         </textClass>
             <correspDesc>
                 <correspAction type=”sent”>
                     <persName>Amy Lowell</persName>
@@ -79,7 +84,7 @@
     <text>
         <body>
             <div type="letter">
-                <opener><dateline><date when="1916-05-21">Sunday,May 21,1916</dateline></date>
+                <opener><dateline><date when="1916-05-21">Sunday,May 21,1916</date></dateline>
                     <salute>Dear <persName key="harriet_monroe">Harriet</persName>.</salute></opener> 
                 <p>You were a trump to let me to let me correct a few slight errors in that paragraph. It seemed to me that you made me say that Imagism derived from <persName key="edgar_poe">Poe</persName> and <persName key="walt_whitman">Whitman</persName>, and, by my bankrupting telegram, you will now see <del rend="overstrike">how</del> where it did and <del rend="overstrike"> how</del> when it didn't. Your contention about the Greek Anthology is well taken, I will include it in future.</p>
                 <p>As your paragraph read, it made me consider the start- ing of <title key="poetry" level="j">"Poetry"</title> to be directly responsible for the New Movement. Of course I did not mean that, for the poets were already writing or "Poetry" would have had nothing to make its hit with- Therefor to suggest that <persName key="ezra_pound">Ezra</persName> and Co. were experimenting as early as <date when="1910">1910</date>, is beside the point; for we were all experimenting. You make me say tacitly that "Poetry" introduced all the important poets of the New Movement, whereas, as you will see from my telegram, it didn't. And I do not think it would be fair to those other editors &amp; publishers who gave us an opening, to have the paragraph as it stands. At least, as it stands, it mis-quotes me, I am rather sorry you say that I confine my discussion of Imagism <quote type="english">"Chiefly to the group represented in the Houghton-</p>
@@ -92,5 +97,3 @@
         </body>
     </text>
 </TEI>
-
-
