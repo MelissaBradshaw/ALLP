@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- standalone statement declares that this document
+will link to other ones i.e. the site index content -->
+<?xml-model href="../../ALLP_ODD-6.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <!-- Change href to your RNG file location locally -->
+<!DOCTYPE TEI [
+   <!ENTITY personography SYSTEM "ALLP/siteIndex/allpPersonography.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from <persName key="amy_lowell">Amy Lowell</persName> to <persName key="john_fletcher">John Gould Fletcher
+               </persName>
+               , <date when="1915-08-26">26 August 1915</date></title>
+            <author key="amy_lowell">Amy Lowell</author>
+            <editor ref="mb">Melissa Bradshaw</editor>
+            <sponsor>Center for Textual Studies and Digital Humanities, Loyola University
+               Chicago</sponsor>
+            <principal ref="mb">Melissa Bradshaw</principal>
+            <respStmt>
+               <resp>Transcription completed by</resp>
+               <persName ref="as">Anthony Shoplik
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcription proofed by</resp>
+               <persName ref="ejl">Eden Link
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding completed by</resp>
+               <persName ref="ejl">Eden Link
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding assistance provided by</resp>
+               <persName ref=""> <!-- insert name -->
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Amy Lowell Letters Project</authority>
+            <pubPlace>Chicago, IL, USA</pubPlace>
+            <date when=""> <!-- Add date when published to website here -->
+            </date>
+            <availability>
+               <p>Reproduced by courtesy of the Houghton Library Repository.</p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed
+                  under a Creative Commons Attribution-NonCommercial-ShareAlike
+                  4.0 International license.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Harvard College Library</institution>
+                  <repository>Houghton Library Repository</repository>
+                  <collection>Amy Lowell Correspondence</collection>
+                  <idno type="URI">https://iiif.lib.harvard.edu/manifests/view/drs:425963709$26i
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <p>This letter is 2 pages long. It is typed on typing paper. The words “John Gould” are written in
+pencil across the top of the first page.
+                  </p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded as part of the Amy Lowell Letters Project</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            &personography;
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term><!-- document-level keywords applied here -->
+               </term>
+            </keywords>
+         </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="amy_lowell">Amy Lowell</persName>
+               <settlement key="brookline">Brookline, MA <!-- unless otherwise specified --> </settlement>
+               <date when="">1915-08-26</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="john_fletcher">John Gould Fletcher</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body><div type="letter">
+        <opener><dateline><date when="1915-06-26">August 26, 15</dateline>
+          <salute>My dear <persName key="john_fletcher">Mr. Fletcher:</perName></salute></opener>
+<p>The cheque I sent you was for your share of the vast profits made by the <title key="someImagistPoets" level="m"></title>Imagist Anthology</title>.
+It was for <measure type="currency" quantity="28.63">$28.63</measure>, if I remember right. I sent it to <placeName key="bayView">Bay View</placeName>, and probably your family have
+forwarded it to you by this time. But if the thing is really lost, let me know, and I will stop
+payment on the cheque and send you another.</p>
+<p>Your clippings were very interesting. I think you did quite well to write to <title key="theDial" level="j">“The Dial,”</title> and I
+liked your letter. <persName key="richard_aldington">Richard</persName> writes me that we have had two reviews in Russian papers, one already
+published, and one coming, and he understands that <persName key="aleksey_kuropatkin">Prince Kuropatkin</persName> likes us. <title>“The Times”</title><!--unsure which Times-->
+was a slam, of course; what can you expect?</p>
+<p>I envy you your trip down <placeName key="mississippiRiver">the Mississippi</placeName>. I have done about fifty pages of translations, and I
+think that is only a little over half. Still, we are getting through, and I probably shall be found
+turning somersaults down <placeName key="commonwealthAvenue">Commonwealth Avenue</placeName> from sheer exuberance of spirits when I get
+done. I am going down this afternoon to see about various papers and paper-hangers, and I shall
+not be able therefore to sign this letter so forgive me if it goes without signature.</p>
+<p>It is a bully, late-summer day up here. You would like it: clear air, and the distant hills
+looking as if you could touch them; <pb n="2"/> wind, big white clouds, and the yellowest goldenrod I ever
+beheld. <quote type="english">“Fresh washed and fair”</quote> but in an entirely different way from the Spring way.</p>
+<p>This is only a little bit of a note, written just as I am starting. I do envy you your trip and the
+poems that will come out of it.</p>
+Affectionately yours,
+        Dictated but not signed by <persName key="amy_lowell">Miss Lowell</persName>. 
+      </div></body>
+   </text>
+</TEI>
