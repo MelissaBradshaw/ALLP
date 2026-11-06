@@ -94,7 +94,7 @@
       <body>
          <opener><dateline><date when="1920-10-27">October 27, 1920.</date></dateline>
             <salute>Dear <persName key="hilda_doolittle">Hilda</persName>:</salute></opener>
-         <p>Since writing a letter to <persName key="winifred_bryher">Winifred</persName> yesterday, I have had another communication from
+         <p>Since writing a letter to <persName key="bryher">Winifred</persName> yesterday, I have had another communication from
             <persName key="ferris_greenslet">Ferris Greenslet</persName> of the <orgName key="houghton_mifflin">Houghton Mifflin Company</orgName>. He says that he thinks <placeName key="england">England</placeName> is the
             best place to have the <title>book</title><!--not sure which. Translations? Hymen?--> set up in, and he will be perfectly willing to take a
             certain number of sheets for sale in <placeName key="usa">America</placeName>. He thinks you have a larger audience
